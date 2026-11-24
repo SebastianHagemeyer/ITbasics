@@ -53464,6 +53464,41139 @@ window.H3_BANK.sets.push(
 }
 );
 
+// Chapter 7
+window.H3_BANK.sets.push(
+{
+ "id": "y9-7a",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7A Angles and triangles",
+ "description": "Use angles at a point, the angle sum of a triangle and the exterior angle theorem to find unknown angles.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The supplementary angle to $63^\\circ$",
+   "answer": "117"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The complementary angle to $63^\\circ$",
+   "answer": "27"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The supplementary angle to $81^\\circ$",
+   "answer": "99"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The complementary angle to $81^\\circ$",
+   "answer": "9"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The supplementary angle to $12^\\circ$",
+   "answer": "168"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The complementary angle to $12^\\circ$",
+   "answer": "78"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The supplementary angle to $46^\\circ$",
+   "answer": "134"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The complementary angle to $46^\\circ$",
+   "answer": "44"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The supplementary angle to $29^\\circ$",
+   "answer": "151"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The complementary angle to $29^\\circ$",
+   "answer": "61"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The supplementary angle to $58^\\circ$",
+   "answer": "122"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "For each angle size, find the size of the supplementary angle and the complementary angle.",
+   "type": "numeric",
+   "prompt": "The complementary angle to $58^\\circ$",
+   "answer": "32"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "59",
+   "figure": {
+    "kind": "diagram",
+    "unit": 63.33,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.572,
+       1.545
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.237
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       31
+      ],
+      "r": 0.758
+     },
+     {
+      "label": "31°",
+      "at": [
+       0.968,
+       0.268
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       31,
+       90
+      ],
+      "r": 0.442
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.334,
+       0.591
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "55",
+   "figure": {
+    "kind": "diagram",
+    "unit": 44.33,
+    "items": [
+     {
+      "seg": [
+       -2.819,
+       -1.026,
+       2.819,
+       1.026
+      ]
+     },
+     {
+      "seg": [
+       -1.606,
+       -2.294,
+       1.606,
+       2.294
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.889,
+       -2.443
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       200,
+       290
+      ],
+      "right": true,
+      "r": 0.338
+     },
+     {
+      "angle": [
+       0,
+       0,
+       200,
+       235
+      ],
+      "r": 1.083
+     },
+     {
+      "label": "35°",
+      "at": [
+       -1.127,
+       -0.865
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       235,
+       290
+      ],
+      "r": 0.677
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.132,
+       -1.006
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "52",
+   "figure": {
+    "kind": "diagram",
+    "unit": 47.81,
+    "items": [
+     {
+      "seg": [
+       -2.719,
+       -1.268,
+       2.719,
+       1.268
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.495,
+       1.271
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       25,
+       153
+      ],
+      "r": 0.46
+     },
+     {
+      "label": "128°",
+      "at": [
+       0.014,
+       0.774
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       153,
+       205
+      ],
+      "r": 0.627
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.941,
+       0.016
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "144",
+   "figure": {
+    "kind": "diagram",
+    "unit": 43.3,
+    "items": [
+     {
+      "seg": [
+       3.234,
+       -1.051,
+       -3.234,
+       1.051
+      ]
+     },
+     {
+      "seg": [
+       -3.234,
+       -1.051,
+       3.234,
+       1.051
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       342,
+       18
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "36°",
+      "at": [
+       1.271,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       198,
+       342
+      ],
+      "r": 0.508
+     },
+     {
+      "label": "a°",
+      "at": [
+       0,
+       -0.855
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "226",
+   "figure": {
+    "kind": "diagram",
+    "unit": 43.18,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0.521,
+       2.954
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.487,
+       -1.678
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       80,
+       214
+      ],
+      "r": 0.556
+     },
+     {
+      "label": "134°",
+      "at": [
+       -0.758,
+       0.492
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       214,
+       80
+      ],
+      "r": 0.278
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.583,
+       -0.378
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the value of $a$ in each diagram. Each one uses complementary or supplementary angles, or angles in a revolution.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "22",
+   "figure": {
+    "kind": "diagram",
+    "unit": 55.89,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       -0.521,
+       2.954
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.624,
+       2.934
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.934,
+       -0.624
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       348,
+       78
+      ],
+      "right": true,
+      "r": 0.268
+     },
+     {
+      "angle": [
+       0,
+       0,
+       78,
+       100
+      ],
+      "r": 0.787
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.022,
+       1.288
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       100,
+       348
+      ],
+      "r": 0.25
+     },
+     {
+      "label": "248°",
+      "at": [
+       -0.438,
+       -0.423
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "41",
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        2.217,
+        1.927
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       41
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "a°",
+      "at": [
+       1.186,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       153,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "27°",
+      "at": [
+       4.153,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       2.217,
+       1.927,
+       221,
+       333
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "112°",
+      "at": [
+       2.329,
+       1.021
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its angles.",
+   "answer": 2,
+   "options": [
+    "Acute-angled",
+    "Right-angled",
+    "Obtuse-angled"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        2.217,
+        1.927
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       41
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "a°",
+      "at": [
+       1.186,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       153,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "27°",
+      "at": [
+       4.153,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       2.217,
+       1.927,
+       221,
+       333
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "112°",
+      "at": [
+       2.329,
+       1.021
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "40",
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.687,
+        3.619
+       ],
+       [
+        -6,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       115,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "65°",
+      "at": [
+       -0.77,
+       0.491
+      ]
+     },
+     {
+      "angle": [
+       -6,
+       0,
+       0,
+       40
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "b°",
+      "at": [
+       -4.782,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       -1.687,
+       3.619,
+       220,
+       295
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "75°",
+      "at": [
+       -1.885,
+       2.727
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its angles.",
+   "answer": 0,
+   "options": [
+    "Acute-angled",
+    "Right-angled",
+    "Obtuse-angled"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.687,
+        3.619
+       ],
+       [
+        -6,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       115,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "65°",
+      "at": [
+       -0.77,
+       0.491
+      ]
+     },
+     {
+      "angle": [
+       -6,
+       0,
+       0,
+       40
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "b°",
+      "at": [
+       -4.782,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       -1.687,
+       3.619,
+       220,
+       295
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "75°",
+      "at": [
+       -1.885,
+       2.727
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $c$.",
+   "answer": "34",
+   "figure": {
+    "kind": "diagram",
+    "unit": 25,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        6
+       ],
+       [
+        -2.782,
+        1.876
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       146
+      ],
+      "r": 0.8
+     },
+     {
+      "label": "56°",
+      "at": [
+       -0.68,
+       1.279
+      ]
+     },
+     {
+      "angle": [
+       0,
+       6,
+       236,
+       270
+      ],
+      "r": 0.8
+     },
+     {
+      "label": "c°",
+      "at": [
+       -0.68,
+       3.776
+      ]
+     },
+     {
+      "angle": [
+       -2.782,
+       1.876,
+       326,
+       56
+      ],
+      "right": true,
+      "r": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its angles.",
+   "answer": 1,
+   "options": [
+    "Acute-angled",
+    "Right-angled",
+    "Obtuse-angled"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 25,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        6
+       ],
+       [
+        -2.782,
+        1.876
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       146
+      ],
+      "r": 0.8
+     },
+     {
+      "label": "56°",
+      "at": [
+       -0.68,
+       1.279
+      ]
+     },
+     {
+      "angle": [
+       0,
+       6,
+       236,
+       270
+      ],
+      "r": 0.8
+     },
+     {
+      "label": "c°",
+      "at": [
+       -0.68,
+       3.776
+      ]
+     },
+     {
+      "angle": [
+       -2.782,
+       1.876,
+       326,
+       56
+      ],
+      "right": true,
+      "r": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $d$.",
+   "answer": "60",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.87,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       60
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "d°",
+      "at": [
+       1.05,
+       0.606
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       5.196
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3,
+       5.196,
+       0,
+       0
+      ],
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its sides.",
+   "answer": 2,
+   "options": [
+    "Scalene",
+    "Isosceles",
+    "Equilateral"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.87,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       60
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "d°",
+      "at": [
+       1.05,
+       0.606
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       5.196
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3,
+       5.196,
+       0,
+       0
+      ],
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $e$.",
+   "answer": "104",
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        2.344
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       38
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "38°",
+      "at": [
+       1.288,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       3,
+       2.344,
+       218,
+       322
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "e°",
+      "at": [
+       3,
+       1.431
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       2.344
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       2.344
+      ],
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its sides.",
+   "answer": 1,
+   "options": [
+    "Scalene",
+    "Isosceles",
+    "Equilateral"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        2.344
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       38
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "38°",
+      "at": [
+       1.288,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       3,
+       2.344,
+       218,
+       322
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "e°",
+      "at": [
+       3,
+       1.431
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       2.344
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       2.344
+      ],
+      "n": 1
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $f$.",
+   "answer": "38",
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        2.274,
+        2.911
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       52
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "52°",
+      "at": [
+       0.909,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       142,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "f°",
+      "at": [
+       4.712,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       2.274,
+       2.911,
+       232,
+       322
+      ],
+      "right": true,
+      "r": 0.391
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its angles.",
+   "answer": 1,
+   "options": [
+    "Acute-angled",
+    "Right-angled",
+    "Obtuse-angled"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        2.274,
+        2.911
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       52
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "52°",
+      "at": [
+       0.909,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       142,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "label": "f°",
+      "at": [
+       4.712,
+       0.443
+      ]
+     },
+     {
+      "angle": [
+       2.274,
+       2.911,
+       232,
+       322
+      ],
+      "right": true,
+      "r": 0.391
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $g$.",
+   "answer": "105",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26.6,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.052,
+        -5.638
+       ],
+       [
+        0.563,
+        -4.582
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       250,
+       277
+      ],
+      "r": 0.752
+     },
+     {
+      "label": "27°",
+      "at": [
+       -0.31,
+       -2.72
+      ]
+     },
+     {
+      "angle": [
+       -2.052,
+       -5.638,
+       22,
+       70
+      ],
+      "r": 0.752
+     },
+     {
+      "label": "48°",
+      "at": [
+       -0.961,
+       -4.508
+      ]
+     },
+     {
+      "angle": [
+       0.563,
+       -4.582,
+       97,
+       202
+      ],
+      "r": 0.752
+     },
+     {
+      "label": "g°",
+      "at": [
+       -0.571,
+       -3.914
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its angles.",
+   "answer": 2,
+   "options": [
+    "Acute-angled",
+    "Right-angled",
+    "Obtuse-angled"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26.6,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.052,
+        -5.638
+       ],
+       [
+        0.563,
+        -4.582
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       250,
+       277
+      ],
+      "r": 0.752
+     },
+     {
+      "label": "27°",
+      "at": [
+       -0.31,
+       -2.72
+      ]
+     },
+     {
+      "angle": [
+       -2.052,
+       -5.638,
+       22,
+       70
+      ],
+      "r": 0.752
+     },
+     {
+      "label": "48°",
+      "at": [
+       -0.961,
+       -4.508
+      ]
+     },
+     {
+      "angle": [
+       0.563,
+       -4.582,
+       97,
+       202
+      ],
+      "r": 0.752
+     },
+     {
+      "label": "g°",
+      "at": [
+       -0.571,
+       -3.914
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $h$.",
+   "answer": "60",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.87,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       60
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "60°",
+      "at": [
+       1.05,
+       0.606
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       120,
+       180
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "h°",
+      "at": [
+       4.95,
+       0.606
+      ]
+     },
+     {
+      "angle": [
+       3,
+       5.196,
+       240,
+       300
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "60°",
+      "at": [
+       3,
+       3.984
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its sides.",
+   "answer": 2,
+   "options": [
+    "Scalene",
+    "Isosceles",
+    "Equilateral"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.87,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        5.196
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       60
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "60°",
+      "at": [
+       1.05,
+       0.606
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       120,
+       180
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "h°",
+      "at": [
+       4.95,
+       0.606
+      ]
+     },
+     {
+      "angle": [
+       3,
+       5.196,
+       240,
+       300
+      ],
+      "r": 0.693
+     },
+     {
+      "label": "60°",
+      "at": [
+       3,
+       3.984
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3q",
+   "label": "3q",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "numeric",
+   "prompt": "Find $i$.",
+   "answer": "67",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.37,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        4.58,
+        4.124
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       42
+      ],
+      "r": 0.55
+     },
+     {
+      "label": "42°",
+      "at": [
+       1.218,
+       0.467
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       109,
+       180
+      ],
+      "r": 0.55
+     },
+     {
+      "label": "71°",
+      "at": [
+       5.217,
+       0.559
+      ]
+     },
+     {
+      "angle": [
+       4.58,
+       4.124,
+       222,
+       289
+      ],
+      "r": 0.55
+     },
+     {
+      "label": "i°",
+      "at": [
+       4.339,
+       3.192
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3r",
+   "label": "3r",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral, then name the type of triangle.",
+   "type": "choice",
+   "prompt": "Name the triangle by its angles.",
+   "answer": 0,
+   "options": [
+    "Acute-angled",
+    "Right-angled",
+    "Obtuse-angled"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.37,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        4.58,
+        4.124
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       42
+      ],
+      "r": 0.55
+     },
+     {
+      "label": "42°",
+      "at": [
+       1.218,
+       0.467
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       109,
+       180
+      ],
+      "r": 0.55
+     },
+     {
+      "label": "71°",
+      "at": [
+       5.217,
+       0.559
+      ]
+     },
+     {
+      "angle": [
+       4.58,
+       4.124,
+       222,
+       289
+      ],
+      "r": 0.55
+     },
+     {
+      "label": "i°",
+      "at": [
+       4.339,
+       3.192
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $s$.",
+   "answer": "60",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.95,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -5,
+        0
+       ],
+       [
+        -2.5,
+        -4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -5,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -5,
+       0,
+       -2.5,
+       -4.33
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.5,
+       -4.33,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -5,
+       0,
+       300,
+       0
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "s°",
+      "at": [
+       -4.18,
+       -0.474
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $t$.",
+   "answer": "50",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        4.289
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       4.289
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       4.289
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       65,
+       180
+      ],
+      "r": 0.491
+     },
+     {
+      "label": "115°",
+      "at": [
+       -0.484,
+       0.759
+      ]
+     },
+     {
+      "angle": [
+       2,
+       4.289,
+       245,
+       295
+      ],
+      "r": 0.545
+     },
+     {
+      "label": "t°",
+      "at": [
+       2,
+       3.192
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $r$.",
+   "answer": "69",
+   "figure": {
+    "kind": "diagram",
+    "unit": 49.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.987,
+       4.075
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       0.419,
+       3.84
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       64
+      ],
+      "r": 0.407
+     },
+     {
+      "label": "64°",
+      "at": [
+       0.605,
+       0.378
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       133,
+       180
+      ],
+      "r": 0.407
+     },
+     {
+      "label": "47°",
+      "at": [
+       3.203,
+       0.346
+      ]
+     },
+     {
+      "angle": [
+       1.374,
+       2.816,
+       64,
+       133
+      ],
+      "r": 0.407
+     },
+     {
+      "label": "r°",
+      "at": [
+       1.268,
+       3.522
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "56",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        4.124,
+        2.782
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       4.124,
+       2.782,
+       214,
+       304
+      ],
+      "right": true,
+      "r": 0.429
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       34
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "34°",
+      "at": [
+       1.589,
+       0.486
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       124,
+       180
+      ],
+      "r": 0.457
+     },
+     {
+      "label": "a°",
+      "at": [
+       5.087,
+       0.486
+      ]
+     },
+     {
+      "seg": [
+       6,
+       0,
+       8,
+       0
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       0,
+       124
+      ],
+      "r": 0.514
+     },
+     {
+      "label": "x°",
+      "at": [
+       6.443,
+       0.832
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "124",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        4.124,
+        2.782
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       4.124,
+       2.782,
+       214,
+       304
+      ],
+      "right": true,
+      "r": 0.429
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       34
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "34°",
+      "at": [
+       1.589,
+       0.486
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       124,
+       180
+      ],
+      "r": 0.457
+     },
+     {
+      "label": "a°",
+      "at": [
+       5.087,
+       0.486
+      ]
+     },
+     {
+      "seg": [
+       6,
+       0,
+       8,
+       0
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       0,
+       124
+      ],
+      "r": 0.514
+     },
+     {
+      "label": "x°",
+      "at": [
+       6.443,
+       0.832
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "108",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        2.18
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       2.18
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       2.18
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       6,
+       0,
+       144,
+       180
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "36°",
+      "at": [
+       4.505,
+       0.486
+      ]
+     },
+     {
+      "angle": [
+       3,
+       2.18,
+       216,
+       324
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "a°",
+      "at": [
+       3,
+       1.18
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       36,
+       180
+      ],
+      "r": 0.514
+     },
+     {
+      "label": "b°",
+      "at": [
+       -0.291,
+       0.897
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "144",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3,
+        2.18
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       2.18
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6,
+       0,
+       3,
+       2.18
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       6,
+       0,
+       144,
+       180
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "36°",
+      "at": [
+       4.505,
+       0.486
+      ]
+     },
+     {
+      "angle": [
+       3,
+       2.18,
+       216,
+       324
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "a°",
+      "at": [
+       3,
+       1.18
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       36,
+       180
+      ],
+      "r": 0.514
+     },
+     {
+      "label": "b°",
+      "at": [
+       -0.291,
+       0.897
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $d$.",
+   "answer": "68",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        4.95
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       4.95
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       4.95
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2,
+       4.95,
+       248,
+       292
+      ],
+      "r": 0.582
+     },
+     {
+      "label": "44°",
+      "at": [
+       2,
+       3.629
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       112,
+       180
+      ],
+      "r": 0.582
+     },
+     {
+      "label": "d°",
+      "at": [
+       3.155,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       68,
+       180
+      ],
+      "r": 0.524
+     },
+     {
+      "label": "c°",
+      "at": [
+       -0.537,
+       0.797
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Find $c$.",
+   "answer": "112",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        4.95
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       4.95
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       4.95
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2,
+       4.95,
+       248,
+       292
+      ],
+      "r": 0.582
+     },
+     {
+      "label": "44°",
+      "at": [
+       2,
+       3.629
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       112,
+       180
+      ],
+      "r": 0.582
+     },
+     {
+      "label": "d°",
+      "at": [
+       3.155,
+       0.57
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       68,
+       180
+      ],
+      "r": 0.524
+     },
+     {
+      "label": "c°",
+      "at": [
+       -0.537,
+       0.797
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "Half an hour",
+   "answer": "180",
+   "units": "°"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$\\frac{3}{4}$ of an hour",
+   "answer": "270",
+   "units": "°"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$20$ minutes",
+   "answer": "120",
+   "units": "°"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$25$ minutes",
+   "answer": "150",
+   "units": "°"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$84$ minutes",
+   "answer": "504",
+   "units": "°"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$2$ minutes",
+   "answer": "12",
+   "units": "°"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$3$ hours",
+   "answer": "1080",
+   "units": "°"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "How many degrees does the minute hand of a clock turn through in each time?",
+   "type": "numeric",
+   "prompt": "$12$ hours",
+   "answer": "4320",
+   "units": "°"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "64",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.33,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        3.201
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       3.201
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       3.201
+      ],
+      "n": 2
+     },
+     {
+      "seg": [
+       -1.2,
+       0,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       6,
+       0
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       0,
+       122
+      ],
+      "r": 0.54
+     },
+     {
+      "label": "122°",
+      "at": [
+       4.48,
+       0.866
+      ]
+     },
+     {
+      "angle": [
+       2,
+       3.201,
+       238,
+       302
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "x°",
+      "at": [
+       2,
+       2.151
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "148",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.02,
+    "items": [
+     {
+      "poly": [
+       [
+        5.63,
+        -3.518
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       6,
+       0,
+       180,
+       264
+      ],
+      "r": 0.666
+     },
+     {
+      "label": "84°",
+      "at": [
+       5.134,
+       -0.78
+      ]
+     },
+     {
+      "seg": [
+       5.63,
+       -3.518,
+       7.326,
+       -4.578
+      ]
+     },
+     {
+      "angle": [
+       5.63,
+       -3.518,
+       328,
+       84
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "116°",
+      "at": [
+       6.618,
+       -3.036
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       180,
+       328
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "x°",
+      "at": [
+       -0.303,
+       -1.057
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "4:00 p.m.",
+   "answer": "120",
+   "units": "°"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "7:00 a.m.",
+   "answer": "150",
+   "units": "°"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "2:30 p.m.",
+   "answer": "105",
+   "units": "°"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "10:30 p.m.",
+   "answer": "135",
+   "units": "°"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "8:45 a.m.",
+   "answer": "7.5",
+   "units": "°"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "2:20 a.m.",
+   "answer": "50",
+   "units": "°"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "6:35 a.m.",
+   "answer": "12.5",
+   "units": "°"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "1:48 a.m.",
+   "answer": "126",
+   "units": "°"
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Problem-solving",
+   "stem": "Find the angle (acute or obtuse) between the hour hand and the minute hand of a clock at each time. Remember that the hour hand keeps moving between the whole hours.",
+   "type": "numeric",
+   "prompt": "7:14 a.m.",
+   "answer": "133",
+   "units": "°"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "A tangent to a circle makes a $90^\\circ$ angle with the radius at the point where it touches. $O$ is the centre of the circle and the line through $A$ and $B$ is a tangent. Find $x$.",
+   "answer": "325",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.57,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       3
+      ]
+     },
+     {
+      "seg": [
+       3,
+       4.2,
+       3,
+       -3.501
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       3,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       3,
+       -2.101
+      ]
+     },
+     {
+      "angle": [
+       3,
+       0,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.525
+     },
+     {
+      "angle": [
+       3,
+       -2.101,
+       145,
+       270
+      ],
+      "r": 0.77
+     },
+     {
+      "label": "125°",
+      "at": [
+       1.851,
+       -2.699
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       325
+      ],
+      "r": 0.49
+     },
+     {
+      "label": "x°",
+      "at": [
+       -1.001,
+       0.316
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "O",
+      "pos": "n"
+     },
+     {
+      "point": [
+       3,
+       0
+      ],
+      "name": "B",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       3,
+       -2.101
+      ],
+      "name": "A",
+      "pos": "ne"
+     },
+     {
+      "label": "tangent",
+      "at": [
+       2.8,
+       3.75
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "$O$ is the centre of this circle and $A$ and $B$ are on the circle. Find the size of $\\angle OAB$.",
+   "answer": "28",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.33,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       3
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.649,
+        1.408
+       ],
+       [
+        -2.649,
+        1.408
+       ]
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       28,
+       152
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "124°",
+      "at": [
+       0,
+       1.05
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "O",
+      "pos": "s"
+     },
+     {
+      "point": [
+       -2.649,
+       1.408
+      ],
+      "name": "A",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       2.649,
+       1.408
+      ],
+      "name": "B",
+      "pos": "ne"
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "In this diagram, $\\angle XYZ$ is an exterior angle of triangle $YZW$. Find $\\angle XYZ$ for each pair of values, using the angle sum of the triangle and angles on a straight line.",
+   "type": "numeric",
+   "prompt": "$a = 78$ and $b = 67$",
+   "answer": "145",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 41.18,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        1.452,
+        2.977
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -1.8,
+       0,
+       0,
+       0
+      ]
+     },
+     {
+      "angle": [
+       1.452,
+       2.977,
+       244,
+       320
+      ],
+      "r": 0.486
+     },
+     {
+      "label": "a°",
+      "at": [
+       1.629,
+       2.146
+      ]
+     },
+     {
+      "angle": [
+       5,
+       0,
+       140,
+       180
+      ],
+      "r": 0.486
+     },
+     {
+      "label": "b°",
+      "at": [
+       3.866,
+       0.413
+      ]
+     },
+     {
+      "point": [
+       -1.8,
+       0
+      ],
+      "name": "X",
+      "pos": "s"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "Y",
+      "pos": "s"
+     },
+     {
+      "point": [
+       5,
+       0
+      ],
+      "name": "W",
+      "pos": "s"
+     },
+     {
+      "point": [
+       1.452,
+       2.977
+      ],
+      "name": "Z",
+      "pos": "n"
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "In this diagram, $\\angle XYZ$ is an exterior angle of triangle $YZW$. Find $\\angle XYZ$ for each pair of values, using the angle sum of the triangle and angles on a straight line.",
+   "type": "numeric",
+   "prompt": "$a = 98$ and $b = 53$",
+   "answer": "151",
+   "units": "°"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "In this diagram, $\\angle XYZ$ is an exterior angle of triangle $YZW$. Find $\\angle XYZ$ for each pair of values, using the angle sum of the triangle and angles on a straight line.",
+   "type": "expression",
+   "prompt": "Using the pronumerals $a$ and $b$, write an expression for $\\angle XYZ$.",
+   "answer": "a+b",
+   "hint": "Type an expression using a and b"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "Write an equation for each diagram and solve it to find $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "18",
+   "figure": {
+    "kind": "diagram",
+    "unit": 63.33,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.853,
+       0.927
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       3
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.237
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       18
+      ],
+      "r": 0.726
+     },
+     {
+      "label": "x°",
+      "at": [
+       1.695,
+       0.268
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       18,
+       90
+      ],
+      "r": 0.411
+     },
+     {
+      "label": "4x°",
+      "at": [
+       0.381,
+       0.524
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "Write an equation for each diagram and solve it to find $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "36",
+   "figure": {
+    "kind": "diagram",
+    "unit": 46.59,
+    "items": [
+     {
+      "seg": [
+       -2.898,
+       -0.776,
+       2.898,
+       0.776
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.136,
+       2.596
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       15,
+       87
+      ],
+      "r": 0.472
+     },
+     {
+      "label": "2x°",
+      "at": [
+       0.5,
+       0.617
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       87,
+       195
+      ],
+      "r": 0.472
+     },
+     {
+      "label": "3x°",
+      "at": [
+       -0.617,
+       0.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "Write an equation for each diagram and solve it to find $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "30",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.97,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       -0.451,
+       2.561
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.443,
+       0.889
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -0.889,
+       -2.443
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.443,
+       -0.889
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       100,
+       160
+      ],
+      "r": 0.429
+     },
+     {
+      "label": "2x°",
+      "at": [
+       -0.551,
+       0.657
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       160,
+       250
+      ],
+      "r": 0.429
+     },
+     {
+      "label": "3x°",
+      "at": [
+       -0.777,
+       -0.363
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       250,
+       340
+      ],
+      "r": 0.429
+     },
+     {
+      "label": "3x°",
+      "at": [
+       0.363,
+       -0.777
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       340,
+       100
+      ],
+      "r": 0.429
+     },
+     {
+      "label": "4x°",
+      "at": [
+       0.657,
+       0.551
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "Write an equation for each diagram and solve it to find $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "40",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.94,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        5.495
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       5.495
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       5.495
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       2,
+       5.495,
+       250,
+       290
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "x°",
+      "at": [
+       2,
+       3.888
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       70
+      ],
+      "r": 0.517
+     },
+     {
+      "seg": [
+       0.866,
+       -0.677,
+       0.424,
+       0.297
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "(x + 30)°",
+      "at": [
+       0.913,
+       -0.915
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "Write an equation for each diagram and solve it to find $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "20",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.65,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.625,
+        -1.69
+       ],
+       [
+        3.546,
+        2.871
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.546,
+       2.871
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3.625,
+       -1.69,
+       3.546,
+       2.871
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       335,
+       39
+      ],
+      "r": 0.48
+     },
+     {
+      "label": "64°",
+      "at": [
+       0.834,
+       0.102
+      ]
+     },
+     {
+      "angle": [
+       3.546,
+       2.871,
+       219,
+       271
+      ],
+      "r": 0.48
+     },
+     {
+      "seg": [
+       2.729,
+       2.857,
+       3.343,
+       2.436
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "(2x + 12)°",
+      "at": [
+       2.633,
+       2.852
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "Write an equation for each diagram and solve it to find $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "23",
+   "figure": {
+    "kind": "diagram",
+    "unit": 39.64,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        4.289
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       4.289
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       4.289
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2,
+       4.289,
+       245,
+       295
+      ],
+      "r": 0.505
+     },
+     {
+      "label": "50°",
+      "at": [
+       2,
+       3.274
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       6,
+       0
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       0,
+       115
+      ],
+      "r": 0.454
+     },
+     {
+      "label": "5x°",
+      "at": [
+       4.447,
+       0.702
+      ]
+     }
+    ]
+   }
+  }
+ ]
+},
+{
+ "id": "y9-7b",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7B Parallel lines",
+ "description": "Use corresponding, alternate and co-interior angles to decide if lines are parallel and to find unknown angles.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
+   "type": "choice",
+   "prompt": "Are there parallel lines in this diagram?",
+   "answer": 1,
+   "options": [
+    "Yes, the corresponding angles are equal",
+    "Yes, the alternate angles are equal",
+    "Yes, the co-interior angles add to 180°",
+    "No, the lines are not parallel"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.8,
+    "items": [
+     {
+      "seg": [
+       -0.865,
+       -2.663,
+       0.865,
+       2.663
+      ]
+     },
+     {
+      "seg": [
+       -1.592,
+       1.523,
+       2.334,
+       0.76
+      ]
+     },
+     {
+      "seg": [
+       1.592,
+       -1.523,
+       -2.334,
+       -0.76
+      ]
+     },
+     {
+      "angle": [
+       0.371,
+       1.141,
+       252,
+       349
+      ],
+      "r": 0.592
+     },
+     {
+      "label": "97°",
+      "at": [
+       0.896,
+       0.249
+      ]
+     },
+     {
+      "angle": [
+       -0.371,
+       -1.141,
+       72,
+       169
+      ],
+      "r": 0.592
+     },
+     {
+      "label": "97°",
+      "at": [
+       -0.896,
+       -0.249
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
+   "type": "choice",
+   "prompt": "Are there parallel lines in this diagram?",
+   "answer": 2,
+   "options": [
+    "Yes, the corresponding angles are equal",
+    "Yes, the alternate angles are equal",
+    "Yes, the co-interior angles add to 180°",
+    "No, the lines are not parallel"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.18,
+    "items": [
+     {
+      "seg": [
+       -1.139,
+       -2.558,
+       1.139,
+       2.558
+      ]
+     },
+     {
+      "seg": [
+       -1.501,
+       1.305,
+       2.477,
+       0.887
+      ]
+     },
+     {
+      "seg": [
+       -2.477,
+       -0.887,
+       1.501,
+       -1.305
+      ]
+     },
+     {
+      "angle": [
+       0.488,
+       1.096,
+       246,
+       354
+      ],
+      "r": 0.568
+     },
+     {
+      "label": "108°",
+      "at": [
+       0.985,
+       0.235
+      ]
+     },
+     {
+      "angle": [
+       -0.488,
+       -1.096,
+       354,
+       66
+      ],
+      "r": 0.568
+     },
+     {
+      "label": "72°",
+      "at": [
+       0.373,
+       -0.599
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
+   "type": "choice",
+   "prompt": "Are there parallel lines in this diagram?",
+   "answer": 0,
+   "options": [
+    "Yes, the corresponding angles are equal",
+    "Yes, the alternate angles are equal",
+    "Yes, the co-interior angles add to 180°",
+    "No, the lines are not parallel"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.44,
+    "items": [
+     {
+      "seg": [
+       -0.772,
+       -2.692,
+       0.772,
+       2.692
+      ]
+     },
+     {
+      "seg": [
+       2.3,
+       1.501,
+       -1.639,
+       0.806
+      ]
+     },
+     {
+      "seg": [
+       1.639,
+       -0.806,
+       -2.3,
+       -1.501
+      ]
+     },
+     {
+      "angle": [
+       0.331,
+       1.154,
+       74,
+       190
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "116°",
+      "at": [
+       -0.37,
+       1.931
+      ]
+     },
+     {
+      "angle": [
+       -0.331,
+       -1.154,
+       74,
+       190
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "116°",
+      "at": [
+       -1.031,
+       -0.376
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
+   "type": "choice",
+   "prompt": "Are there parallel lines in this diagram?",
+   "answer": 3,
+   "options": [
+    "Yes, the corresponding angles are equal",
+    "Yes, the alternate angles are equal",
+    "Yes, the co-interior angles add to 180°",
+    "No, the lines are not parallel"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.21,
+    "items": [
+     {
+      "seg": [
+       -0.958,
+       -2.631,
+       0.958,
+       2.631
+      ]
+     },
+     {
+      "seg": [
+       -1.444,
+       1.877,
+       2.265,
+       0.378
+      ]
+     },
+     {
+      "seg": [
+       1.492,
+       -1.746,
+       -2.313,
+       -0.51
+      ]
+     },
+     {
+      "angle": [
+       0.41,
+       1.128,
+       250,
+       338
+      ],
+      "r": 0.585
+     },
+     {
+      "label": "88°",
+      "at": [
+       0.827,
+       0.193
+      ]
+     },
+     {
+      "angle": [
+       -0.41,
+       -1.128,
+       70,
+       162
+      ],
+      "r": 0.585
+     },
+     {
+      "label": "92°",
+      "at": [
+       -0.859,
+       -0.208
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
+   "type": "choice",
+   "prompt": "Are there parallel lines in this diagram?",
+   "answer": 3,
+   "options": [
+    "Yes, the corresponding angles are equal",
+    "Yes, the alternate angles are equal",
+    "Yes, the co-interior angles add to 180°",
+    "No, the lines are not parallel"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.64,
+    "items": [
+     {
+      "seg": [
+       0.486,
+       -2.757,
+       -0.486,
+       2.757
+      ]
+     },
+     {
+      "seg": [
+       1.714,
+       1.733,
+       -2.131,
+       0.63
+      ]
+     },
+     {
+      "seg": [
+       2.035,
+       -0.368,
+       -1.619,
+       -1.995
+      ]
+     },
+     {
+      "angle": [
+       -0.208,
+       1.182,
+       100,
+       196
+      ],
+      "r": 0.613
+     },
+     {
+      "label": "96°",
+      "at": [
+       -1.118,
+       1.75
+      ]
+     },
+     {
+      "angle": [
+       0.208,
+       -1.182,
+       100,
+       204
+      ],
+      "r": 0.613
+     },
+     {
+      "label": "104°",
+      "at": [
+       -0.738,
+       -0.678
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Decide if each diagram contains a pair of parallel lines, and choose the reason.",
+   "type": "choice",
+   "prompt": "Are there parallel lines in this diagram?",
+   "answer": 3,
+   "options": [
+    "Yes, the corresponding angles are equal",
+    "Yes, the alternate angles are equal",
+    "Yes, the co-interior angles add to 180°",
+    "No, the lines are not parallel"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.76,
+    "items": [
+     {
+      "seg": [
+       -1.227,
+       -2.517,
+       1.227,
+       2.517
+      ]
+     },
+     {
+      "seg": [
+       -1.028,
+       2.337,
+       2.08,
+       -0.18
+      ]
+     },
+     {
+      "seg": [
+       -2.222,
+       -0.019,
+       1.17,
+       -2.138
+      ]
+     },
+     {
+      "angle": [
+       0.526,
+       1.079,
+       244,
+       321
+      ],
+      "r": 0.559
+     },
+     {
+      "label": "77°",
+      "at": [
+       0.738,
+       0.123
+      ]
+     },
+     {
+      "angle": [
+       -0.526,
+       -1.079,
+       328,
+       64
+      ],
+      "r": 0.559
+     },
+     {
+      "label": "96°",
+      "at": [
+       0.415,
+       -0.809
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $a$.",
+   "answer": "116",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.53,
+    "items": [
+     {
+      "seg": [
+       -1.271,
+       -2.607,
+       1.271,
+       2.607
+      ]
+     },
+     {
+      "seg": [
+       -1.53,
+       1.168,
+       2.67,
+       1.168
+      ]
+     },
+     {
+      "par": [
+       1.2,
+       1.168,
+       2.67,
+       1.168
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.67,
+       -1.168,
+       1.53,
+       -1.168
+      ]
+     },
+     {
+      "par": [
+       0.06,
+       -1.168,
+       1.53,
+       -1.168
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.57,
+       1.168,
+       64,
+       180
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "116°",
+      "at": [
+       0.079,
+       1.954
+      ]
+     },
+     {
+      "angle": [
+       0.57,
+       1.168,
+       0,
+       64
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "b°",
+      "at": [
+       1.358,
+       1.661
+      ]
+     },
+     {
+      "angle": [
+       -0.57,
+       -1.168,
+       244,
+       0
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.079,
+       -1.954
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $b$.",
+   "answer": "64",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.53,
+    "items": [
+     {
+      "seg": [
+       -1.271,
+       -2.607,
+       1.271,
+       2.607
+      ]
+     },
+     {
+      "seg": [
+       -1.53,
+       1.168,
+       2.67,
+       1.168
+      ]
+     },
+     {
+      "par": [
+       1.2,
+       1.168,
+       2.67,
+       1.168
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.67,
+       -1.168,
+       1.53,
+       -1.168
+      ]
+     },
+     {
+      "par": [
+       0.06,
+       -1.168,
+       1.53,
+       -1.168
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.57,
+       1.168,
+       64,
+       180
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "116°",
+      "at": [
+       0.079,
+       1.954
+      ]
+     },
+     {
+      "angle": [
+       0.57,
+       1.168,
+       0,
+       64
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "b°",
+      "at": [
+       1.358,
+       1.661
+      ]
+     },
+     {
+      "angle": [
+       -0.57,
+       -1.168,
+       244,
+       0
+      ],
+      "r": 0.492
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.079,
+       -1.954
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram b: find $c$.",
+   "answer": "72",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.34,
+    "items": [
+     {
+      "seg": [
+       0.404,
+       -2.872,
+       -0.404,
+       2.872
+      ]
+     },
+     {
+      "seg": [
+       -2.249,
+       1.652,
+       1.887,
+       0.923
+      ]
+     },
+     {
+      "par": [
+       0.44,
+       1.178,
+       1.887,
+       0.923
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.887,
+       -0.923,
+       2.249,
+       -1.652
+      ]
+     },
+     {
+      "par": [
+       0.801,
+       -1.397,
+       2.249,
+       -1.652
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -0.181,
+       1.287,
+       170,
+       278
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "108°",
+      "at": [
+       -0.915,
+       0.578
+      ]
+     },
+     {
+      "angle": [
+       -0.181,
+       1.287,
+       278,
+       350
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "c°",
+      "at": [
+       0.528,
+       0.553
+      ]
+     },
+     {
+      "angle": [
+       0.181,
+       -1.287,
+       350,
+       98
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "d°",
+      "at": [
+       0.915,
+       -0.578
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram b: find $d$.",
+   "answer": "108",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.34,
+    "items": [
+     {
+      "seg": [
+       0.404,
+       -2.872,
+       -0.404,
+       2.872
+      ]
+     },
+     {
+      "seg": [
+       -2.249,
+       1.652,
+       1.887,
+       0.923
+      ]
+     },
+     {
+      "par": [
+       0.44,
+       1.178,
+       1.887,
+       0.923
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.887,
+       -0.923,
+       2.249,
+       -1.652
+      ]
+     },
+     {
+      "par": [
+       0.801,
+       -1.397,
+       2.249,
+       -1.652
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -0.181,
+       1.287,
+       170,
+       278
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "108°",
+      "at": [
+       -0.915,
+       0.578
+      ]
+     },
+     {
+      "angle": [
+       -0.181,
+       1.287,
+       278,
+       350
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "c°",
+      "at": [
+       0.528,
+       0.553
+      ]
+     },
+     {
+      "angle": [
+       0.181,
+       -1.287,
+       350,
+       98
+      ],
+      "r": 0.542
+     },
+     {
+      "label": "d°",
+      "at": [
+       0.915,
+       -0.578
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $e$.",
+   "answer": "102",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37.97,
+    "items": [
+     {
+      "seg": [
+       2.837,
+       -0.603,
+       -2.837,
+       0.603
+      ]
+     },
+     {
+      "seg": [
+       -1.272,
+       -1.83,
+       -1.272,
+       2.37
+      ]
+     },
+     {
+      "par": [
+       -1.272,
+       0.9,
+       -1.272,
+       2.37
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       1.272,
+       -2.37,
+       1.272,
+       1.83
+      ]
+     },
+     {
+      "par": [
+       1.272,
+       0.36,
+       1.272,
+       1.83
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -1.272,
+       0.27,
+       90,
+       168
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "78°",
+      "at": [
+       -1.802,
+       0.925
+      ]
+     },
+     {
+      "angle": [
+       -1.272,
+       0.27,
+       168,
+       270
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "e°",
+      "at": [
+       -1.927,
+       -0.26
+      ]
+     },
+     {
+      "angle": [
+       1.272,
+       -0.27,
+       270,
+       348
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "f°",
+      "at": [
+       1.802,
+       -0.925
+      ]
+     },
+     {
+      "angle": [
+       1.272,
+       -0.27,
+       348,
+       90
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "g°",
+      "at": [
+       1.927,
+       0.26
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $f$.",
+   "answer": "78",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37.97,
+    "items": [
+     {
+      "seg": [
+       2.837,
+       -0.603,
+       -2.837,
+       0.603
+      ]
+     },
+     {
+      "seg": [
+       -1.272,
+       -1.83,
+       -1.272,
+       2.37
+      ]
+     },
+     {
+      "par": [
+       -1.272,
+       0.9,
+       -1.272,
+       2.37
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       1.272,
+       -2.37,
+       1.272,
+       1.83
+      ]
+     },
+     {
+      "par": [
+       1.272,
+       0.36,
+       1.272,
+       1.83
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -1.272,
+       0.27,
+       90,
+       168
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "78°",
+      "at": [
+       -1.802,
+       0.925
+      ]
+     },
+     {
+      "angle": [
+       -1.272,
+       0.27,
+       168,
+       270
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "e°",
+      "at": [
+       -1.927,
+       -0.26
+      ]
+     },
+     {
+      "angle": [
+       1.272,
+       -0.27,
+       270,
+       348
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "f°",
+      "at": [
+       1.802,
+       -0.925
+      ]
+     },
+     {
+      "angle": [
+       1.272,
+       -0.27,
+       348,
+       90
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "g°",
+      "at": [
+       1.927,
+       0.26
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $g$.",
+   "answer": "102",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37.97,
+    "items": [
+     {
+      "seg": [
+       2.837,
+       -0.603,
+       -2.837,
+       0.603
+      ]
+     },
+     {
+      "seg": [
+       -1.272,
+       -1.83,
+       -1.272,
+       2.37
+      ]
+     },
+     {
+      "par": [
+       -1.272,
+       0.9,
+       -1.272,
+       2.37
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       1.272,
+       -2.37,
+       1.272,
+       1.83
+      ]
+     },
+     {
+      "par": [
+       1.272,
+       0.36,
+       1.272,
+       1.83
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -1.272,
+       0.27,
+       90,
+       168
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "78°",
+      "at": [
+       -1.802,
+       0.925
+      ]
+     },
+     {
+      "angle": [
+       -1.272,
+       0.27,
+       168,
+       270
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "e°",
+      "at": [
+       -1.927,
+       -0.26
+      ]
+     },
+     {
+      "angle": [
+       1.272,
+       -0.27,
+       270,
+       348
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "f°",
+      "at": [
+       1.802,
+       -0.925
+      ]
+     },
+     {
+      "angle": [
+       1.272,
+       -0.27,
+       348,
+       90
+      ],
+      "r": 0.448
+     },
+     {
+      "label": "g°",
+      "at": [
+       1.927,
+       0.26
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram d: find $a$.",
+   "answer": "57",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37,
+    "items": [
+     {
+      "seg": [
+       -1.579,
+       -2.432,
+       1.579,
+       2.432
+      ]
+     },
+     {
+      "seg": [
+       -1.392,
+       1.09,
+       2.808,
+       1.09
+      ]
+     },
+     {
+      "par": [
+       1.338,
+       1.09,
+       2.808,
+       1.09
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.808,
+       -1.09,
+       1.392,
+       -1.09
+      ]
+     },
+     {
+      "par": [
+       -0.078,
+       -1.09,
+       1.392,
+       -1.09
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.708,
+       1.09,
+       57,
+       180
+      ],
+      "r": 0.459
+     },
+     {
+      "label": "123°",
+      "at": [
+       0.295,
+       1.85
+      ]
+     },
+     {
+      "angle": [
+       -0.708,
+       -1.09,
+       0,
+       57
+      ],
+      "r": 0.459
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.138,
+       -0.631
+      ]
+     },
+     {
+      "angle": [
+       -0.708,
+       -1.09,
+       237,
+       0
+      ],
+      "r": 0.459
+     },
+     {
+      "label": "b°",
+      "at": [
+       -0.295,
+       -1.85
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram d: find $b$.",
+   "answer": "123",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37,
+    "items": [
+     {
+      "seg": [
+       -1.579,
+       -2.432,
+       1.579,
+       2.432
+      ]
+     },
+     {
+      "seg": [
+       -1.392,
+       1.09,
+       2.808,
+       1.09
+      ]
+     },
+     {
+      "par": [
+       1.338,
+       1.09,
+       2.808,
+       1.09
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.808,
+       -1.09,
+       1.392,
+       -1.09
+      ]
+     },
+     {
+      "par": [
+       -0.078,
+       -1.09,
+       1.392,
+       -1.09
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.708,
+       1.09,
+       57,
+       180
+      ],
+      "r": 0.459
+     },
+     {
+      "label": "123°",
+      "at": [
+       0.295,
+       1.85
+      ]
+     },
+     {
+      "angle": [
+       -0.708,
+       -1.09,
+       0,
+       57
+      ],
+      "r": 0.459
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.138,
+       -0.631
+      ]
+     },
+     {
+      "angle": [
+       -0.708,
+       -1.09,
+       237,
+       0
+      ],
+      "r": 0.459
+     },
+     {
+      "label": "b°",
+      "at": [
+       -0.295,
+       -1.85
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram e: find $a$.",
+   "answer": "105",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.13,
+    "items": [
+     {
+      "seg": [
+       -0.751,
+       -2.801,
+       0.751,
+       2.801
+      ]
+     },
+     {
+      "seg": [
+       -1.764,
+       1.256,
+       2.436,
+       1.256
+      ]
+     },
+     {
+      "par": [
+       0.966,
+       1.256,
+       2.436,
+       1.256
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.436,
+       -1.256,
+       1.764,
+       -1.256
+      ]
+     },
+     {
+      "par": [
+       0.294,
+       -1.256,
+       1.764,
+       -1.256
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.336,
+       1.256,
+       255,
+       0
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "105°",
+      "at": [
+       0.943,
+       0.466
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       75,
+       180
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.943,
+       -0.466
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       0,
+       75
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.454,
+       -0.649
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       180,
+       255
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "c°",
+      "at": [
+       -1.127,
+       -1.862
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram e: find $b$.",
+   "answer": "75",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.13,
+    "items": [
+     {
+      "seg": [
+       -0.751,
+       -2.801,
+       0.751,
+       2.801
+      ]
+     },
+     {
+      "seg": [
+       -1.764,
+       1.256,
+       2.436,
+       1.256
+      ]
+     },
+     {
+      "par": [
+       0.966,
+       1.256,
+       2.436,
+       1.256
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.436,
+       -1.256,
+       1.764,
+       -1.256
+      ]
+     },
+     {
+      "par": [
+       0.294,
+       -1.256,
+       1.764,
+       -1.256
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.336,
+       1.256,
+       255,
+       0
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "105°",
+      "at": [
+       0.943,
+       0.466
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       75,
+       180
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.943,
+       -0.466
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       0,
+       75
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.454,
+       -0.649
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       180,
+       255
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "c°",
+      "at": [
+       -1.127,
+       -1.862
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram e: find $c$.",
+   "answer": "75",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.13,
+    "items": [
+     {
+      "seg": [
+       -0.751,
+       -2.801,
+       0.751,
+       2.801
+      ]
+     },
+     {
+      "seg": [
+       -1.764,
+       1.256,
+       2.436,
+       1.256
+      ]
+     },
+     {
+      "par": [
+       0.966,
+       1.256,
+       2.436,
+       1.256
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.436,
+       -1.256,
+       1.764,
+       -1.256
+      ]
+     },
+     {
+      "par": [
+       0.294,
+       -1.256,
+       1.764,
+       -1.256
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0.336,
+       1.256,
+       255,
+       0
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "105°",
+      "at": [
+       0.943,
+       0.466
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       75,
+       180
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "a°",
+      "at": [
+       -0.943,
+       -0.466
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       0,
+       75
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.454,
+       -0.649
+      ]
+     },
+     {
+      "angle": [
+       -0.336,
+       -1.256,
+       180,
+       255
+      ],
+      "r": 0.529
+     },
+     {
+      "label": "c°",
+      "at": [
+       -1.127,
+       -1.862
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram f: find $d$.",
+   "answer": "126",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.42,
+    "items": [
+     {
+      "seg": [
+       -2.346,
+       -1.705,
+       2.346,
+       1.705
+      ]
+     },
+     {
+      "seg": [
+       1.052,
+       -1.336,
+       1.052,
+       2.864
+      ]
+     },
+     {
+      "par": [
+       1.052,
+       1.394,
+       1.052,
+       2.864
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.052,
+       -2.864,
+       -1.052,
+       1.336
+      ]
+     },
+     {
+      "par": [
+       -1.052,
+       -0.134,
+       -1.052,
+       1.336
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.052,
+       0.764,
+       36,
+       90
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "54°",
+      "at": [
+       1.593,
+       1.826
+      ]
+     },
+     {
+      "angle": [
+       1.052,
+       0.764,
+       270,
+       36
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "e°",
+      "at": [
+       1.959,
+       0.302
+      ]
+     },
+     {
+      "angle": [
+       -1.052,
+       -0.764,
+       90,
+       216
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "d°",
+      "at": [
+       -1.959,
+       -0.302
+      ]
+     },
+     {
+      "angle": [
+       -1.052,
+       -0.764,
+       216,
+       270
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "f°",
+      "at": [
+       -1.593,
+       -1.826
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram f: find $e$.",
+   "answer": "126",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.42,
+    "items": [
+     {
+      "seg": [
+       -2.346,
+       -1.705,
+       2.346,
+       1.705
+      ]
+     },
+     {
+      "seg": [
+       1.052,
+       -1.336,
+       1.052,
+       2.864
+      ]
+     },
+     {
+      "par": [
+       1.052,
+       1.394,
+       1.052,
+       2.864
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.052,
+       -2.864,
+       -1.052,
+       1.336
+      ]
+     },
+     {
+      "par": [
+       -1.052,
+       -0.134,
+       -1.052,
+       1.336
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.052,
+       0.764,
+       36,
+       90
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "54°",
+      "at": [
+       1.593,
+       1.826
+      ]
+     },
+     {
+      "angle": [
+       1.052,
+       0.764,
+       270,
+       36
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "e°",
+      "at": [
+       1.959,
+       0.302
+      ]
+     },
+     {
+      "angle": [
+       -1.052,
+       -0.764,
+       90,
+       216
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "d°",
+      "at": [
+       -1.959,
+       -0.302
+      ]
+     },
+     {
+      "angle": [
+       -1.052,
+       -0.764,
+       216,
+       270
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "f°",
+      "at": [
+       -1.593,
+       -1.826
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "The arrows show parallel lines. Find the value of each pronumeral.",
+   "type": "numeric",
+   "prompt": "Diagram f: find $f$.",
+   "answer": "54",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.42,
+    "items": [
+     {
+      "seg": [
+       -2.346,
+       -1.705,
+       2.346,
+       1.705
+      ]
+     },
+     {
+      "seg": [
+       1.052,
+       -1.336,
+       1.052,
+       2.864
+      ]
+     },
+     {
+      "par": [
+       1.052,
+       1.394,
+       1.052,
+       2.864
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.052,
+       -2.864,
+       -1.052,
+       1.336
+      ]
+     },
+     {
+      "par": [
+       -1.052,
+       -0.134,
+       -1.052,
+       1.336
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.052,
+       0.764,
+       36,
+       90
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "54°",
+      "at": [
+       1.593,
+       1.826
+      ]
+     },
+     {
+      "angle": [
+       1.052,
+       0.764,
+       270,
+       36
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "e°",
+      "at": [
+       1.959,
+       0.302
+      ]
+     },
+     {
+      "angle": [
+       -1.052,
+       -0.764,
+       90,
+       216
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "d°",
+      "at": [
+       -1.959,
+       -0.302
+      ]
+     },
+     {
+      "angle": [
+       -1.052,
+       -0.764,
+       216,
+       270
+      ],
+      "r": 0.541
+     },
+     {
+      "label": "f°",
+      "at": [
+       -1.593,
+       -1.826
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $x$.",
+   "answer": "64",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.94,
+    "items": [
+     {
+      "seg": [
+       -3.2,
+       3,
+       3,
+       3
+      ]
+     },
+     {
+      "par": [
+       -3.2,
+       3,
+       -0.96,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -3.2,
+       0,
+       3,
+       0
+      ]
+     },
+     {
+      "par": [
+       -3.2,
+       0,
+       -0.96,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        0,
+        3
+       ],
+       [
+        -1.463,
+        0
+       ],
+       [
+        2.517,
+        0
+       ]
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       180,
+       244
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "64°",
+      "at": [
+       -0.708,
+       2.558
+      ]
+     },
+     {
+      "angle": [
+       2.517,
+       0,
+       130,
+       180
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "50°",
+      "at": [
+       1.648,
+       0.405
+      ]
+     },
+     {
+      "angle": [
+       -1.463,
+       0,
+       0,
+       64
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "x°",
+      "at": [
+       -0.755,
+       0.442
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       244,
+       310
+      ],
+      "r": 0.62
+     },
+     {
+      "label": "y°",
+      "at": [
+       0.119,
+       2.03
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $y$.",
+   "answer": "66",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.94,
+    "items": [
+     {
+      "seg": [
+       -3.2,
+       3,
+       3,
+       3
+      ]
+     },
+     {
+      "par": [
+       -3.2,
+       3,
+       -0.96,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -3.2,
+       0,
+       3,
+       0
+      ]
+     },
+     {
+      "par": [
+       -3.2,
+       0,
+       -0.96,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        0,
+        3
+       ],
+       [
+        -1.463,
+        0
+       ],
+       [
+        2.517,
+        0
+       ]
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       180,
+       244
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "64°",
+      "at": [
+       -0.708,
+       2.558
+      ]
+     },
+     {
+      "angle": [
+       2.517,
+       0,
+       130,
+       180
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "50°",
+      "at": [
+       1.648,
+       0.405
+      ]
+     },
+     {
+      "angle": [
+       -1.463,
+       0,
+       0,
+       64
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "x°",
+      "at": [
+       -0.755,
+       0.442
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       244,
+       310
+      ],
+      "r": 0.62
+     },
+     {
+      "label": "y°",
+      "at": [
+       0.119,
+       2.03
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram b: find $t$.",
+   "answer": "57",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.87,
+    "items": [
+     {
+      "seg": [
+       -1.952,
+       -3.006,
+       1.952,
+       3.006
+      ]
+     },
+     {
+      "seg": [
+       -0.901,
+       2,
+       3.499,
+       2
+      ]
+     },
+     {
+      "par": [
+       1.959,
+       2,
+       3.499,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.2,
+       0,
+       2.2,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.66,
+       0,
+       2.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -3.499,
+       -2,
+       0.901,
+       -2
+      ]
+     },
+     {
+      "par": [
+       -0.639,
+       -2,
+       0.901,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       57
+      ],
+      "r": 0.517
+     },
+     {
+      "label": "57°",
+      "at": [
+       0.953,
+       0.517
+      ]
+     },
+     {
+      "angle": [
+       1.299,
+       2,
+       57,
+       180
+      ],
+      "r": 0.517
+     },
+     {
+      "label": "z°",
+      "at": [
+       0.834,
+       2.856
+      ]
+     },
+     {
+      "angle": [
+       -1.299,
+       -2,
+       180,
+       237
+      ],
+      "r": 0.517
+     },
+     {
+      "label": "t°",
+      "at": [
+       -2.251,
+       -2.517
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram b: find $z$.",
+   "answer": "123",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.87,
+    "items": [
+     {
+      "seg": [
+       -1.952,
+       -3.006,
+       1.952,
+       3.006
+      ]
+     },
+     {
+      "seg": [
+       -0.901,
+       2,
+       3.499,
+       2
+      ]
+     },
+     {
+      "par": [
+       1.959,
+       2,
+       3.499,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.2,
+       0,
+       2.2,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.66,
+       0,
+       2.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -3.499,
+       -2,
+       0.901,
+       -2
+      ]
+     },
+     {
+      "par": [
+       -0.639,
+       -2,
+       0.901,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       57
+      ],
+      "r": 0.517
+     },
+     {
+      "label": "57°",
+      "at": [
+       0.953,
+       0.517
+      ]
+     },
+     {
+      "angle": [
+       1.299,
+       2,
+       57,
+       180
+      ],
+      "r": 0.517
+     },
+     {
+      "label": "z°",
+      "at": [
+       0.834,
+       2.856
+      ]
+     },
+     {
+      "angle": [
+       -1.299,
+       -2,
+       180,
+       237
+      ],
+      "r": 0.517
+     },
+     {
+      "label": "t°",
+      "at": [
+       -2.251,
+       -2.517
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $u$.",
+   "answer": "62",
+   "figure": {
+    "kind": "diagram",
+    "unit": 47.92,
+    "items": [
+     {
+      "seg": [
+       -2.4,
+       2,
+       2.4,
+       2
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       2,
+       2.4,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.4,
+       0,
+       2.4,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       0,
+       2.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.4,
+       -2,
+       2.4,
+       -2
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       -2,
+       2.4,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        -1.063,
+        2
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -0.849,
+        -2
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       118,
+       247
+      ],
+      "r": 0.543
+     },
+     {
+      "label": "129°",
+      "at": [
+       -0.85,
+       0.3
+      ]
+     },
+     {
+      "angle": [
+       -0.849,
+       -2,
+       0,
+       67
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "67°",
+      "at": [
+       -0.292,
+       -1.631
+      ]
+     },
+     {
+      "angle": [
+       -1.063,
+       2,
+       298,
+       0
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "u°",
+      "at": [
+       -0.473,
+       1.645
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       180,
+       247
+      ],
+      "r": 0.292
+     },
+     {
+      "label": "v°",
+      "at": [
+       -0.522,
+       -0.346
+      ]
+     },
+     {
+      "angle": [
+       -0.849,
+       -2,
+       67,
+       180
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "w°",
+      "at": [
+       -1.218,
+       -1.443
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $v$.",
+   "answer": "67",
+   "figure": {
+    "kind": "diagram",
+    "unit": 47.92,
+    "items": [
+     {
+      "seg": [
+       -2.4,
+       2,
+       2.4,
+       2
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       2,
+       2.4,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.4,
+       0,
+       2.4,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       0,
+       2.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.4,
+       -2,
+       2.4,
+       -2
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       -2,
+       2.4,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        -1.063,
+        2
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -0.849,
+        -2
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       118,
+       247
+      ],
+      "r": 0.543
+     },
+     {
+      "label": "129°",
+      "at": [
+       -0.85,
+       0.3
+      ]
+     },
+     {
+      "angle": [
+       -0.849,
+       -2,
+       0,
+       67
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "67°",
+      "at": [
+       -0.292,
+       -1.631
+      ]
+     },
+     {
+      "angle": [
+       -1.063,
+       2,
+       298,
+       0
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "u°",
+      "at": [
+       -0.473,
+       1.645
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       180,
+       247
+      ],
+      "r": 0.292
+     },
+     {
+      "label": "v°",
+      "at": [
+       -0.522,
+       -0.346
+      ]
+     },
+     {
+      "angle": [
+       -0.849,
+       -2,
+       67,
+       180
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "w°",
+      "at": [
+       -1.218,
+       -1.443
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $w$.",
+   "answer": "113",
+   "figure": {
+    "kind": "diagram",
+    "unit": 47.92,
+    "items": [
+     {
+      "seg": [
+       -2.4,
+       2,
+       2.4,
+       2
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       2,
+       2.4,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.4,
+       0,
+       2.4,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       0,
+       2.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.4,
+       -2,
+       2.4,
+       -2
+      ]
+     },
+     {
+      "par": [
+       0.72,
+       -2,
+       2.4,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        -1.063,
+        2
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -0.849,
+        -2
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       118,
+       247
+      ],
+      "r": 0.543
+     },
+     {
+      "label": "129°",
+      "at": [
+       -0.85,
+       0.3
+      ]
+     },
+     {
+      "angle": [
+       -0.849,
+       -2,
+       0,
+       67
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "67°",
+      "at": [
+       -0.292,
+       -1.631
+      ]
+     },
+     {
+      "angle": [
+       -1.063,
+       2,
+       298,
+       0
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "u°",
+      "at": [
+       -0.473,
+       1.645
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       180,
+       247
+      ],
+      "r": 0.292
+     },
+     {
+      "label": "v°",
+      "at": [
+       -0.522,
+       -0.346
+      ]
+     },
+     {
+      "angle": [
+       -0.849,
+       -2,
+       67,
+       180
+      ],
+      "r": 0.355
+     },
+     {
+      "label": "w°",
+      "at": [
+       -1.218,
+       -1.443
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram d: find $x$.",
+   "answer": "112",
+   "figure": {
+    "kind": "diagram",
+    "unit": 39.85,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       4.532,
+       2.113
+      ]
+     },
+     {
+      "seg": [
+       0.295,
+       3.328,
+       3.921,
+       5.018
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       3.921,
+       5.018
+      ]
+     },
+     {
+      "seg": [
+       4.532,
+       2.113,
+       0.295,
+       3.328
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       4.532,
+       2.113
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3.921,
+       5.018,
+       0.295,
+       3.328
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       4.532,
+       2.113,
+       164,
+       205
+      ],
+      "r": 0.502
+     },
+     {
+      "label": "41°",
+      "at": [
+       3.317,
+       2.018
+      ]
+     },
+     {
+      "angle": [
+       3.921,
+       5.018,
+       205,
+       232
+      ],
+      "r": 0.502
+     },
+     {
+      "seg": [
+       3.089,
+       5.21,
+       3.528,
+       4.706
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "27°",
+      "at": [
+       2.997,
+       5.278
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       2.178,
+       2.788,
+       232,
+       344
+      ],
+      "r": 0.502
+     },
+     {
+      "label": "x°",
+      "at": [
+       2.45,
+       1.953
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram e: find $x$.",
+   "answer": "66",
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.1,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        2.975,
+        3.808
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.8,
+       0
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       6.8,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -0.025,
+       3.808,
+       5.975,
+       3.808
+      ]
+     },
+     {
+      "par": [
+       3.875,
+       3.808,
+       5.975,
+       3.808
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.975,
+       3.808,
+       180,
+       232
+      ],
+      "r": 0.525
+     },
+     {
+      "label": "52°",
+      "at": [
+       2.06,
+       3.362
+      ]
+     },
+     {
+      "angle": [
+       5,
+       0,
+       0,
+       118
+      ],
+      "r": 0.525
+     },
+     {
+      "label": "118°",
+      "at": [
+       5.473,
+       0.787
+      ]
+     },
+     {
+      "angle": [
+       2.975,
+       3.808,
+       232,
+       298
+      ],
+      "r": 0.63
+     },
+     {
+      "label": "x°",
+      "at": [
+       2.886,
+       2.788
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Problem-solving",
+   "stem": "Find the value of each pronumeral. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram f: find $x$.",
+   "answer": "37",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37.1,
+    "items": [
+     {
+      "seg": [
+       -1.495,
+       3,
+       4.105,
+       3
+      ]
+     },
+     {
+      "par": [
+       -1.495,
+       3,
+       0.605,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.495,
+       0,
+       4.105,
+       0
+      ]
+     },
+     {
+      "par": [
+       -1.495,
+       0,
+       0.605,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.505,
+       6.2
+      ]
+     },
+     {
+      "seg": [
+       -2.821,
+       3,
+       2.505,
+       6.2
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       68
+      ],
+      "r": 0.539
+     },
+     {
+      "label": "68°",
+      "at": [
+       0.782,
+       0.528
+      ]
+     },
+     {
+      "angle": [
+       -2.821,
+       3,
+       0,
+       31
+      ],
+      "r": 0.701
+     },
+     {
+      "label": "31°",
+      "at": [
+       -1.168,
+       3.458
+      ]
+     },
+     {
+      "angle": [
+       2.505,
+       6.2,
+       211,
+       248
+      ],
+      "r": 0.647
+     },
+     {
+      "label": "x°",
+      "at": [
+       1.567,
+       5.102
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABC$.",
+   "answer": "105",
+   "figure": {
+    "kind": "diagram",
+    "unit": 39.92,
+    "items": [
+     {
+      "seg": [
+       -0.623,
+       1.6,
+       4.177,
+       1.6
+      ]
+     },
+     {
+      "par": [
+       2.497,
+       1.6,
+       4.177,
+       1.6
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.585,
+       -1.6,
+       3.215,
+       -1.6
+      ]
+     },
+     {
+      "par": [
+       1.535,
+       -1.6,
+       3.215,
+       -1.6
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        1.777,
+        1.6
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        0.815,
+        -1.6
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       1.777,
+       1.6,
+       180,
+       222
+      ],
+      "r": 0.501
+     },
+     {
+      "label": "42°",
+      "at": [
+       0.668,
+       1.174
+      ]
+     },
+     {
+      "angle": [
+       0.815,
+       -1.6,
+       117,
+       180
+      ],
+      "r": 0.501
+     },
+     {
+      "label": "63°",
+      "at": [
+       0.068,
+       -1.142
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       297,
+       42
+      ],
+      "r": 0.401
+     },
+     {
+      "label": "A",
+      "at": [
+       1.938,
+       1.833
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.326,
+       -0.05
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       0.805,
+       -1.976
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABC$.",
+   "answer": "106",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.57,
+    "items": [
+     {
+      "seg": [
+       -1.88,
+       1.6,
+       2.92,
+       1.6
+      ]
+     },
+     {
+      "par": [
+       1.24,
+       1.6,
+       2.92,
+       1.6
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -0.028,
+       -1.6,
+       4.772,
+       -1.6
+      ]
+     },
+     {
+      "par": [
+       3.092,
+       -1.6,
+       4.772,
+       -1.6
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        0.52,
+        1.6
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        2.372,
+        -1.6
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       0.52,
+       1.6,
+       180,
+       252
+      ],
+      "r": 0.578
+     },
+     {
+      "label": "72°",
+      "at": [
+       -0.299,
+       1.005
+      ]
+     },
+     {
+      "angle": [
+       2.372,
+       -1.6,
+       146,
+       180
+      ],
+      "r": 0.578
+     },
+     {
+      "label": "34°",
+      "at": [
+       0.764,
+       -1.108
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       326,
+       72
+      ],
+      "r": 0.463
+     },
+     {
+      "label": "A",
+      "at": [
+       0.419,
+       1.904
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.376,
+       -0.058
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.621,
+       -1.94
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABC$.",
+   "answer": "57",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40.49,
+    "items": [
+     {
+      "seg": [
+       -5.063,
+       1.6,
+       -0.263,
+       1.6
+      ]
+     },
+     {
+      "par": [
+       -1.943,
+       1.6,
+       -0.263,
+       1.6
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -5.68,
+       -1.6,
+       -0.88,
+       -1.6
+      ]
+     },
+     {
+      "par": [
+       -2.56,
+       -1.6,
+       -0.88,
+       -1.6
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        -2.663,
+        1.6
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        -3.28,
+        -1.6
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       -2.663,
+       1.6,
+       329,
+       0
+      ],
+      "r": 0.494
+     },
+     {
+      "label": "31°",
+      "at": [
+       -1.149,
+       1.18
+      ]
+     },
+     {
+      "angle": [
+       -3.28,
+       -1.6,
+       0,
+       26
+      ],
+      "r": 0.494
+     },
+     {
+      "label": "26°",
+      "at": [
+       -1.462,
+       -1.18
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       149,
+       206
+      ],
+      "r": 0.395
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.789,
+       1.846
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       0.321,
+       -0.049
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -3.483,
+       -1.899
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABC$.",
+   "answer": "112",
+   "figure": {
+    "kind": "diagram",
+    "unit": 25.4,
+    "items": [
+     {
+      "seg": [
+       -1.8,
+       -2.017,
+       -1.8,
+       2.783
+      ]
+     },
+     {
+      "par": [
+       -1.8,
+       1.103,
+       -1.8,
+       2.783
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       1.8,
+       0.269,
+       1.8,
+       5.069
+      ]
+     },
+     {
+      "par": [
+       1.8,
+       3.389,
+       1.8,
+       5.069
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        -1.8,
+        0.383
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        1.8,
+        2.669
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       -1.8,
+       0.383,
+       348,
+       90
+      ],
+      "r": 0.787
+     },
+     {
+      "label": "102°",
+      "at": [
+       -0.729,
+       1.25
+      ]
+     },
+     {
+      "angle": [
+       1.8,
+       2.669,
+       90,
+       236
+      ],
+      "r": 0.787
+     },
+     {
+      "label": "146°",
+      "at": [
+       0.482,
+       3.071
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       56,
+       168
+      ],
+      "r": 0.63
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.283,
+       0.134
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       0,
+       -0.591
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.177,
+       2.936
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABC$.",
+   "answer": "96",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.17,
+    "items": [
+     {
+      "seg": [
+       0.244,
+       1.769,
+       4.595,
+       3.798
+      ]
+     },
+     {
+      "par": [
+       3.072,
+       3.088,
+       4.595,
+       3.798
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -1.099,
+       -2.168,
+       3.251,
+       -0.139
+      ]
+     },
+     {
+      "par": [
+       1.728,
+       -0.849,
+       3.251,
+       -0.139
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        2.419,
+        2.783
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        1.076,
+        -1.153
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       2.419,
+       2.783,
+       205,
+       229
+      ],
+      "r": 0.663
+     },
+     {
+      "label": "24°",
+      "at": [
+       0.255,
+       1.153
+      ]
+     },
+     {
+      "angle": [
+       1.076,
+       -1.153,
+       25,
+       133
+      ],
+      "r": 0.663
+     },
+     {
+      "label": "108°",
+      "at": [
+       1.297,
+       -0.015
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       313,
+       49
+      ],
+      "r": 0.53
+     },
+     {
+      "label": "A",
+      "at": [
+       2.63,
+       3.093
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.39,
+       -0.248
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       1.053,
+       -1.65
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "The arrows show parallel lines. Adding a third parallel line through $B$ may help. Find the size of $\\angle ABC$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABC$.",
+   "answer": "86",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.01,
+    "items": [
+     {
+      "seg": [
+       -1.8,
+       -0.011,
+       -1.8,
+       4.789
+      ]
+     },
+     {
+      "par": [
+       -1.8,
+       3.109,
+       -1.8,
+       4.789
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       1.8,
+       -0.835,
+       1.8,
+       3.965
+      ]
+     },
+     {
+      "par": [
+       1.8,
+       2.285,
+       1.8,
+       3.965
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        -1.8,
+        2.389
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        1.8,
+        1.565
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       -1.8,
+       2.389,
+       307,
+       90
+      ],
+      "r": 0.625
+     },
+     {
+      "label": "143°",
+      "at": [
+       -0.763,
+       2.736
+      ]
+     },
+     {
+      "angle": [
+       1.8,
+       1.565,
+       90,
+       221
+      ],
+      "r": 0.625
+     },
+     {
+      "label": "131°",
+      "at": [
+       0.805,
+       2.018
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       41,
+       127
+      ],
+      "r": 0.5
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.149,
+       2.534
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       0,
+       -0.469
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.202,
+       1.557
+      ]
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "116",
+   "figure": {
+    "kind": "diagram",
+    "unit": 39.21,
+    "items": [
+     {
+      "poly": [
+       [
+        -1.25,
+        2
+       ],
+       [
+        0,
+        4
+       ],
+       [
+        6.401,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4,
+       0,
+       0
+      ]
+     },
+     {
+      "tick": [
+       -1.25,
+       2,
+       0,
+       4
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -1.25,
+       2,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.383
+     },
+     {
+      "angle": [
+       0,
+       4,
+       238,
+       328
+      ],
+      "right": true,
+      "r": 0.383
+     },
+     {
+      "angle": [
+       0,
+       4,
+       270,
+       328
+      ],
+      "r": 0.867
+     },
+     {
+      "label": "58°",
+      "at": [
+       0.606,
+       2.907
+      ]
+     },
+     {
+      "angle": [
+       -1.25,
+       2,
+       302,
+       58
+      ],
+      "r": 0.51
+     },
+     {
+      "label": "x°",
+      "at": [
+       -0.357,
+       2
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "68",
+   "figure": {
+    "kind": "diagram",
+    "unit": 29.96,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        4.95
+       ]
+      ]
+     },
+     {
+      "seg": [
+       2,
+       4.95,
+       2.562,
+       6.341
+      ]
+     },
+     {
+      "seg": [
+       2,
+       4.95,
+       4.4,
+       4.95
+      ],
+      "arrow": "end"
+     },
+     {
+      "par": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       4.95
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       4.95
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       2,
+       4.95,
+       248,
+       292
+      ],
+      "r": 0.667
+     },
+     {
+      "label": "44°",
+      "at": [
+       2,
+       3.436
+      ]
+     },
+     {
+      "angle": [
+       2,
+       4.95,
+       0,
+       68
+      ],
+      "r": 0.667
+     },
+     {
+      "label": "x°",
+      "at": [
+       2.968,
+       5.603
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "55",
+   "figure": {
+    "kind": "diagram",
+    "unit": 46.75,
+    "items": [
+     {
+      "seg": [
+       -1.6,
+       0,
+       2.6,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.78,
+       0,
+       2.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -0.881,
+       -3.106,
+       3.319,
+       -3.106
+      ]
+     },
+     {
+      "par": [
+       -0.881,
+       -3.106,
+       0.659,
+       -3.106
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.501,
+        -0.798
+       ],
+       [
+        0.459,
+        -1.877
+       ],
+       [
+        1.319,
+        -3.106
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       332,
+       0
+      ],
+      "r": 0.471
+     },
+     {
+      "label": "28°",
+      "at": [
+       1.458,
+       -0.364
+      ]
+     },
+     {
+      "angle": [
+       1.501,
+       -0.798,
+       152,
+       226
+      ],
+      "r": 0.428
+     },
+     {
+      "label": "74°",
+      "at": [
+       0.762,
+       -0.915
+      ]
+     },
+     {
+      "angle": [
+       0.459,
+       -1.877,
+       305,
+       46
+      ],
+      "r": 0.428
+     },
+     {
+      "label": "101°",
+      "at": [
+       1.205,
+       -1.936
+      ]
+     },
+     {
+      "angle": [
+       1.319,
+       -3.106,
+       125,
+       180
+      ],
+      "r": 0.428
+     },
+     {
+      "label": "x°",
+      "at": [
+       0.621,
+       -2.742
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Reasoning",
+   "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
+   "type": "expression",
+   "prompt": "Diagram a",
+   "answer": "180-a",
+   "figure": {
+    "kind": "diagram",
+    "unit": 51,
+    "items": [
+     {
+      "seg": [
+       -2,
+       1.4,
+       2,
+       1.4
+      ]
+     },
+     {
+      "par": [
+       0.6,
+       1.4,
+       2,
+       1.4
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -2.51,
+       0,
+       1.49,
+       0
+      ]
+     },
+     {
+      "par": [
+       0.09,
+       0,
+       1.49,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -0.817,
+       -0.846,
+       0.308,
+       2.246
+      ]
+     },
+     {
+      "angle": [
+       0,
+       1.4,
+       250,
+       0
+      ],
+      "r": 0.392
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.394,
+       0.838
+      ]
+     },
+     {
+      "angle": [
+       -0.51,
+       0,
+       0,
+       70
+      ],
+      "r": 0.392
+     },
+     {
+      "point": [
+       0,
+       1.4
+      ],
+      "name": "A",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -0.51,
+       0
+      ],
+      "name": "B",
+      "pos": "se"
+     },
+     {
+      "point": [
+       1.49,
+       0
+      ],
+      "name": "C",
+      "pos": "s"
+     }
+    ]
+   },
+   "hint": "Type an expression such as 90 - a (leave out the degree signs)"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Reasoning",
+   "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
+   "type": "expression",
+   "prompt": "Diagram b",
+   "answer": "180-a",
+   "figure": {
+    "kind": "diagram",
+    "unit": 57.68,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       1.033,
+       1.942
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.954,
+       -0.521
+      ]
+     },
+     {
+      "seg": [
+       2.954,
+       -0.521,
+       3.987,
+       1.422
+      ],
+      "arrow": "end"
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.033,
+       1.942
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       2.954,
+       -0.521,
+       3.987,
+       1.422
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.954,
+       -0.521,
+       62,
+       170
+      ],
+      "r": 0.347
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.688,
+       0.024
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       350,
+       62
+      ],
+      "r": 0.347
+     },
+     {
+      "point": [
+       1.033,
+       1.942
+      ],
+      "name": "A",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "B",
+      "pos": "w"
+     },
+     {
+      "point": [
+       2.954,
+       -0.521
+      ],
+      "name": "C",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Reasoning",
+   "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
+   "type": "expression",
+   "prompt": "Diagram c",
+   "answer": "180-a-b",
+   "figure": {
+    "kind": "diagram",
+    "unit": 56.47,
+    "items": [
+     {
+      "seg": [
+       -0.673,
+       0.489,
+       0,
+       3
+      ]
+     },
+     {
+      "seg": [
+       3.4,
+       3.4,
+       2.65,
+       0.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       3.4,
+       3.4
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       2.65,
+       0.6
+      ]
+     },
+     {
+      "par": [
+       -0.673,
+       0.489,
+       0,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       2.65,
+       0.6,
+       3.4,
+       3.4
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       3,
+       317.831,
+       6.71
+      ],
+      "r": 0.46
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.693,
+       2.778
+      ]
+     },
+     {
+      "angle": [
+       3.4,
+       3.4,
+       186.71,
+       255
+      ],
+      "r": 0.354
+     },
+     {
+      "label": "b°",
+      "at": [
+       2.931,
+       2.995
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       255,
+       317.831
+      ],
+      "r": 0.283
+     },
+     {
+      "point": [
+       -0.673,
+       0.489
+      ],
+      "name": "A",
+      "pos": "s"
+     },
+     {
+      "point": [
+       0,
+       3
+      ],
+      "name": "B",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       2.65,
+       0.6
+      ],
+      "name": "C",
+      "pos": "se"
+     },
+     {
+      "point": [
+       3.4,
+       3.4
+      ],
+      "name": "D",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Reasoning",
+   "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
+   "type": "expression",
+   "prompt": "Diagram d",
+   "answer": "180-a-b",
+   "figure": {
+    "kind": "diagram",
+    "unit": 48.59,
+    "items": [
+     {
+      "poly": [
+       [
+        1.552,
+        2.918
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ]
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4.939,
+       1.766
+      ],
+      "arrow": "end"
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.552,
+       2.918
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       4,
+       0,
+       4.939,
+       1.766
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       4,
+       0,
+       130,
+       180
+      ],
+      "r": 0.329
+     },
+     {
+      "label": "a°",
+      "at": [
+       3.25,
+       0.35
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       62,
+       130
+      ],
+      "r": 0.494
+     },
+     {
+      "label": "b°",
+      "at": [
+       3.916,
+       0.798
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       62
+      ],
+      "r": 0.412
+     },
+     {
+      "point": [
+       1.552,
+       2.918
+      ],
+      "name": "A",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "B",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "name": "C",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Reasoning",
+   "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
+   "type": "expression",
+   "prompt": "Diagram e",
+   "answer": "a+c",
+   "figure": {
+    "kind": "diagram",
+    "unit": 43.02,
+    "items": [
+     {
+      "seg": [
+       -1.152,
+       1.6,
+       2.648,
+       1.6
+      ]
+     },
+     {
+      "par": [
+       -1.152,
+       1.6,
+       1.088,
+       1.6
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0.394,
+       -1.6,
+       4.194,
+       -1.6
+      ]
+     },
+     {
+      "par": [
+       0.394,
+       -1.6,
+       2.634,
+       -1.6
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        2.048,
+        1.6
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        3.594,
+        -1.6
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       2.048,
+       1.6,
+       180,
+       218
+      ],
+      "r": 0.465
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.9,
+       1.205
+      ]
+     },
+     {
+      "angle": [
+       3.594,
+       -1.6,
+       156,
+       180
+      ],
+      "r": 0.465
+     },
+     {
+      "label": "c°",
+      "at": [
+       1.735,
+       -1.205
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       336,
+       38
+      ],
+      "r": 0.465
+     },
+     {
+      "point": [
+       2.048,
+       1.6
+      ],
+      "name": "A",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "B",
+      "pos": "w"
+     },
+     {
+      "point": [
+       3.594,
+       -1.6
+      ],
+      "name": "C",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Reasoning",
+   "stem": "Write an expression for $\\angle ABC$ in each diagram, using the pronumerals shown. The arrows show parallel lines.",
+   "type": "expression",
+   "prompt": "Diagram f",
+   "answer": "180-2c",
+   "figure": {
+    "kind": "diagram",
+    "unit": 48.98,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.492,
+        -2
+       ],
+       [
+        0,
+        -4
+       ]
+      ]
+     },
+     {
+      "seg": [
+       2.605,
+       -1.16,
+       2.605,
+       -2.84
+      ]
+     },
+     {
+      "par": [
+       2.605,
+       -1.16,
+       2.605,
+       -2.84
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       0,
+       -4
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.492,
+       -2,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.492,
+       -2,
+       0,
+       -4
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.605,
+       -2.84,
+       24,
+       90
+      ],
+      "r": 0.408
+     },
+     {
+      "label": "c°",
+      "at": [
+       2.995,
+       -2.241
+      ]
+     },
+     {
+      "angle": [
+       4.492,
+       -2,
+       156,
+       204
+      ],
+      "r": 0.408
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "n"
+     },
+     {
+      "point": [
+       4.492,
+       -2
+      ],
+      "name": "B",
+      "pos": "e"
+     },
+     {
+      "point": [
+       0,
+       -4
+      ],
+      "name": "C",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "In this diagram, $\\angle ABD = 54^\\circ$, $\\angle DBC = 54^\\circ$ and $\\angle BCD = 72^\\circ$.",
+   "type": "numeric",
+   "prompt": "Find $\\angle BDC$.",
+   "answer": "54",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 46.7,
+    "items": [
+     {
+      "poly": [
+       [
+        1.167,
+        4.068
+       ],
+       [
+        3.383,
+        1.231
+       ],
+       [
+        0,
+        0
+       ]
+      ]
+     },
+     {
+      "seg": [
+       1.167,
+       4.068,
+       -1.089,
+       3.247
+      ]
+     },
+     {
+      "angle": [
+       1.167,
+       4.068,
+       200,
+       254
+      ],
+      "r": 0.514
+     },
+     {
+      "label": "54°",
+      "at": [
+       0.597,
+       3.457
+      ]
+     },
+     {
+      "angle": [
+       1.167,
+       4.068,
+       254,
+       308
+      ],
+      "r": 0.514
+     },
+     {
+      "label": "54°",
+      "at": [
+       1.326,
+       3.248
+      ]
+     },
+     {
+      "angle": [
+       3.383,
+       1.231,
+       128,
+       200
+      ],
+      "r": 0.428
+     },
+     {
+      "label": "72°",
+      "at": [
+       2.663,
+       1.438
+      ]
+     },
+     {
+      "point": [
+       -1.089,
+       3.247
+      ],
+      "name": "A",
+      "pos": "w"
+     },
+     {
+      "point": [
+       1.167,
+       4.068
+      ],
+      "name": "B",
+      "pos": "n"
+     },
+     {
+      "point": [
+       3.383,
+       1.231
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "s"
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "In this diagram, $\\angle ABD = 54^\\circ$, $\\angle DBC = 54^\\circ$ and $\\angle BCD = 72^\\circ$.",
+   "type": "choice",
+   "prompt": "Which reason shows that $AB$ is parallel to $DC$?",
+   "answer": 1,
+   "options": [
+    "∠ABD and ∠DBC are equal",
+    "∠ABD and ∠BDC are equal alternate angles",
+    "∠BCD and ∠BDC add to 126°",
+    "Triangle BCD is isosceles"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "In this diagram, the ray from $B$ is parallel to $AC$. The angles at $A$ and $B$ inside the triangle are $a^\\circ$ and $b^\\circ$, and the angle between $BC$ and the ray is $c^\\circ$.",
+   "type": "numeric",
+   "prompt": "If $a = 58$ and $b = 71$, find $c$.",
+   "answer": "51",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 49.03,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        1.452,
+        3.261
+       ]
+      ]
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4.895,
+       2.01
+      ],
+      "arrow": "end"
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.452,
+       3.261
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       4,
+       0,
+       4.895,
+       2.01
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       66
+      ],
+      "r": 0.408
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.599,
+       0.389
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       128,
+       180
+      ],
+      "r": 0.367
+     },
+     {
+      "label": "b°",
+      "at": [
+       3.289,
+       0.347
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       66,
+       128
+      ],
+      "r": 0.489
+     },
+     {
+      "label": "c°",
+      "at": [
+       3.903,
+       0.789
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "name": "B",
+      "pos": "se"
+     },
+     {
+      "point": [
+       1.452,
+       3.261
+      ],
+      "name": "C",
+      "pos": "n"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "In this diagram, the ray from $B$ is parallel to $AC$. The angles at $A$ and $B$ inside the triangle are $a^\\circ$ and $b^\\circ$, and the angle between $BC$ and the ray is $c^\\circ$.",
+   "type": "choice",
+   "prompt": "Which reason shows that $\\angle ACB = c^\\circ$?",
+   "answer": 0,
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Co-interior angles add to 180°",
+    "Vertically opposite angles are equal"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "In this diagram, the ray from $B$ is parallel to $AC$. The angles at $A$ and $B$ inside the triangle are $a^\\circ$ and $b^\\circ$, and the angle between $BC$ and the ray is $c^\\circ$.",
+   "type": "choice",
+   "prompt": "The angle between the ray and the extension of $AB$ beyond $B$ equals $a^\\circ$. Which reason shows this?",
+   "answer": 1,
+   "options": [
+    "Alternate angles in parallel lines are equal",
+    "Corresponding angles in parallel lines are equal",
+    "Co-interior angles add to 180°",
+    "Vertically opposite angles are equal"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Enrichment",
+   "stem": "Find the size of $\\angle ABC$ in each diagram for the values given. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "$a = 128$ and $c = 76$",
+   "answer": "52",
+   "figure": {
+    "kind": "diagram",
+    "unit": 57.55,
+    "items": [
+     {
+      "seg": [
+       -0.8,
+       3,
+       3.544,
+       3
+      ]
+     },
+     {
+      "par": [
+       1.063,
+       3,
+       3.544,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       -0.8,
+       0,
+       3.544,
+       0
+      ]
+     },
+     {
+      "par": [
+       1.063,
+       0,
+       3.544,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0,
+       3,
+       2.344,
+       0
+      ]
+     },
+     {
+      "seg": [
+       2.344,
+       3,
+       0,
+       0
+      ]
+     },
+     {
+      "angle": [
+       2.344,
+       0,
+       0,
+       128
+      ],
+      "r": 0.348
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.61,
+       0.547
+      ]
+     },
+     {
+      "angle": [
+       1.172,
+       1.5,
+       52,
+       128
+      ],
+      "r": 0.278
+     },
+     {
+      "label": "c°",
+      "at": [
+       1.172,
+       2.039
+      ]
+     },
+     {
+      "point": [
+       0,
+       3
+      ],
+      "name": "A",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       2.344,
+       3
+      ],
+      "name": "B",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       1.172,
+       1.5
+      ],
+      "name": "C",
+      "pos": "w"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       2.344,
+       0
+      ],
+      "name": "E",
+      "pos": "s"
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Enrichment",
+   "stem": "Find the size of $\\angle ABC$ in each diagram for the values given. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "$a = 48$ and $b = 67$",
+   "answer": "115",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.67,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.635,
+       -2.927
+      ]
+     },
+     {
+      "seg": [
+       2.635,
+       -2.927,
+       4,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       312,
+       0
+      ],
+      "r": 0.48
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.916,
+       -0.408
+      ]
+     },
+     {
+      "angle": [
+       2.635,
+       -2.927,
+       65,
+       132
+      ],
+      "r": 0.48
+     },
+     {
+      "label": "b°",
+      "at": [
+       2.511,
+       -2.096
+      ]
+     },
+     {
+      "angle": [
+       4,
+       0,
+       245,
+       0
+      ],
+      "r": 0.384
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "n"
+     },
+     {
+      "point": [
+       4,
+       0
+      ],
+      "name": "B",
+      "pos": "n"
+     },
+     {
+      "point": [
+       6,
+       0
+      ],
+      "name": "C",
+      "pos": "n"
+     },
+     {
+      "point": [
+       2.635,
+       -2.927
+      ],
+      "name": "A",
+      "pos": "s"
+     }
+    ]
+   },
+   "units": "°"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Enrichment",
+   "stem": "Find the size of $\\angle ABC$ in each diagram for the values given. The arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "$a = 48$ and $b = 64$",
+   "answer": "112",
+   "figure": {
+    "kind": "diagram",
+    "unit": 46.02,
+    "items": [
+     {
+      "seg": [
+       -1.55,
+       0.926,
+       1.457,
+       2.02
+      ]
+     },
+     {
+      "seg": [
+       -1.699,
+       -2.108,
+       2.06,
+       -0.74
+      ]
+     },
+     {
+      "par": [
+       -1.55,
+       0.926,
+       0.706,
+       1.747
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -1.699,
+       -2.108,
+       1.12,
+       -1.082
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        0.706,
+        1.747
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        1.12,
+        -1.082
+       ]
+      ],
+      "open": true
+     },
+     {
+      "angle": [
+       0.706,
+       1.747,
+       200,
+       248
+      ],
+      "r": 0.435
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.052,
+       1.116
+      ]
+     },
+     {
+      "angle": [
+       1.12,
+       -1.082,
+       136,
+       200
+      ],
+      "r": 0.435
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.377,
+       -0.924
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       316,
+       68
+      ],
+      "r": 0.348
+     },
+     {
+      "point": [
+       -1.55,
+       0.926
+      ],
+      "name": "E",
+      "pos": "w"
+     },
+     {
+      "point": [
+       0.706,
+       1.747
+      ],
+      "name": "A",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "B",
+      "pos": "w"
+     },
+     {
+      "point": [
+       1.12,
+       -1.082
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -1.699,
+       -2.108
+      ],
+      "name": "D",
+      "pos": "w"
+     }
+    ]
+   },
+   "units": "°"
+  }
+ ]
+},
+{
+ "id": "y9-7c",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7C Quadrilaterals and other polygons",
+ "description": "Use the angle sum of quadrilaterals and other polygons, the properties of special quadrilaterals and regular polygons to find unknown angles.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral in each quadrilateral.",
+   "type": "numeric",
+   "prompt": "Find $c$.",
+   "answer": "108",
+   "figure": {
+    "kind": "diagram",
+    "unit": 48.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.2,
+        0
+       ],
+       [
+        3.273,
+        2.853
+       ],
+       [
+        -0.526,
+        1.619
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       108
+      ],
+      "r": 0.37
+     },
+     {
+      "label": "c°",
+      "at": [
+       0.399,
+       0.549
+      ]
+     },
+     {
+      "angle": [
+       4.2,
+       0,
+       108,
+       180
+      ],
+      "r": 0.37
+     },
+     {
+      "label": "72°",
+      "at": [
+       3.651,
+       0.399
+      ]
+     },
+     {
+      "angle": [
+       3.273,
+       2.853,
+       198,
+       288
+      ],
+      "right": true,
+      "r": 0.308
+     },
+     {
+      "angle": [
+       -0.526,
+       1.619,
+       288,
+       18
+      ],
+      "right": true,
+      "r": 0.308
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral in each quadrilateral.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "150",
+   "figure": {
+    "kind": "diagram",
+    "unit": 44.15,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.939,
+        0.695
+       ],
+       [
+        1.413,
+        2.97
+       ],
+       [
+        -0.599,
+        3.397
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       10,
+       100
+      ],
+      "right": true,
+      "r": 0.34
+     },
+     {
+      "angle": [
+       3.939,
+       0.695,
+       138,
+       190
+      ],
+      "r": 0.408
+     },
+     {
+      "label": "52°",
+      "at": [
+       3.095,
+       0.937
+      ]
+     },
+     {
+      "angle": [
+       1.413,
+       2.97,
+       168,
+       318
+      ],
+      "r": 0.408
+     },
+     {
+      "label": "x°",
+      "at": [
+       1.073,
+       2.304
+      ]
+     },
+     {
+      "angle": [
+       -0.599,
+       3.397,
+       280,
+       348
+      ],
+      "r": 0.408
+     },
+     {
+      "label": "68°",
+      "at": [
+       -0.08,
+       2.86
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral in each quadrilateral.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "40",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5.446,
+        -0.765
+       ],
+       [
+        6.462,
+        1.628
+       ],
+       [
+        5.379,
+        3.361
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       352,
+       32
+      ],
+      "r": 0.506
+     },
+     {
+      "label": "x°",
+      "at": [
+       1.366,
+       0.29
+      ]
+     },
+     {
+      "angle": [
+       5.446,
+       -0.765,
+       67,
+       172
+      ],
+      "r": 0.506
+     },
+     {
+      "label": "105°",
+      "at": [
+       4.99,
+       0.042
+      ]
+     },
+     {
+      "angle": [
+       6.462,
+       1.628,
+       122,
+       247
+      ],
+      "r": 0.506
+     },
+     {
+      "label": "125°",
+      "at": [
+       5.538,
+       1.555
+      ]
+     },
+     {
+      "angle": [
+       5.379,
+       3.361,
+       212,
+       302
+      ],
+      "right": true,
+      "r": 0.421
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral in each quadrilateral.",
+   "type": "numeric",
+   "prompt": "Find $d$.",
+   "answer": "117",
+   "figure": {
+    "kind": "diagram",
+    "unit": 50,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        2.666,
+        2.749
+       ],
+       [
+        -1.4,
+        2.749
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       117
+      ],
+      "r": 0.36
+     },
+     {
+      "label": "d°",
+      "at": [
+       0.345,
+       0.563
+      ]
+     },
+     {
+      "angle": [
+       3.2,
+       0,
+       101,
+       180
+      ],
+      "r": 0.36
+     },
+     {
+      "label": "79°",
+      "at": [
+       2.691,
+       0.42
+      ]
+     },
+     {
+      "angle": [
+       2.666,
+       2.749,
+       180,
+       281
+      ],
+      "r": 0.36
+     },
+     {
+      "label": "101°",
+      "at": [
+       2.246,
+       2.239
+      ]
+     },
+     {
+      "angle": [
+       -1.4,
+       2.749,
+       297,
+       0
+      ],
+      "r": 0.36
+     },
+     {
+      "label": "63°",
+      "at": [
+       -0.838,
+       2.404
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral in each quadrilateral.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "135",
+   "figure": {
+    "kind": "diagram",
+    "unit": 37.77,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        3.454,
+        2.546
+       ],
+       [
+        -0.089,
+        2.546
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       92
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "92°",
+      "at": [
+       0.607,
+       0.628
+      ]
+     },
+     {
+      "angle": [
+       6,
+       0,
+       135,
+       180
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "45°",
+      "at": [
+       4.913,
+       0.45
+      ]
+     },
+     {
+      "angle": [
+       3.454,
+       2.546,
+       180,
+       315
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "a°",
+      "at": [
+       3.12,
+       1.738
+      ]
+     },
+     {
+      "angle": [
+       -0.089,
+       2.546,
+       272,
+       0
+      ],
+      "r": 0.477
+     },
+     {
+      "label": "88°",
+      "at": [
+       0.54,
+       1.939
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral in each quadrilateral.",
+   "type": "numeric",
+   "prompt": "Find $y$.",
+   "answer": "225",
+   "figure": {
+    "kind": "diagram",
+    "unit": 19.57,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.954,
+        0.521
+       ],
+       [
+        5.821,
+        -1.487
+       ],
+       [
+        2.248,
+        6.177
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       10,
+       70
+      ],
+      "r": 0.92
+     },
+     {
+      "label": "60°",
+      "at": [
+       1.331,
+       1.117
+      ]
+     },
+     {
+      "angle": [
+       2.954,
+       0.521,
+       325,
+       190
+      ],
+      "r": 0.92
+     },
+     {
+      "label": "y°",
+      "at": [
+       3.319,
+       2.167
+      ]
+     },
+     {
+      "angle": [
+       5.821,
+       -1.487,
+       115,
+       145
+      ],
+      "r": 0.92
+     },
+     {
+      "seg": [
+       4.087,
+       -1.577,
+       5.23,
+       -0.782
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "30°",
+      "at": [
+       3.883,
+       -1.61
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       2.248,
+       6.177,
+       250,
+       295
+      ],
+      "r": 0.92
+     },
+     {
+      "label": "45°",
+      "at": [
+       2.347,
+       3.909
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "109",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26.4,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.847,
+        -2.364
+       ],
+       [
+        8.713,
+        0
+       ],
+       [
+        1.847,
+        2.364
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.847,
+       2.364,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.847,
+       -2.364
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.847,
+       -2.364,
+       8.713,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       8.713,
+       0,
+       1.847,
+       2.364
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       308,
+       52
+      ],
+      "r": 0.682
+     },
+     {
+      "label": "104°",
+      "at": [
+       1.25,
+       0
+      ]
+     },
+     {
+      "angle": [
+       8.713,
+       0,
+       161,
+       199
+      ],
+      "r": 0.682
+     },
+     {
+      "label": "38°",
+      "at": [
+       6.735,
+       0
+      ]
+     },
+     {
+      "angle": [
+       1.847,
+       2.364,
+       232,
+       341
+      ],
+      "r": 0.682
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.202,
+       1.165
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "54",
+   "figure": {
+    "kind": "diagram",
+    "unit": 29.98,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.13,
+        -1.491
+       ],
+       [
+        0,
+        -5.671
+       ],
+       [
+        2.13,
+        -1.491
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -2.13,
+       -1.491
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.13,
+       -1.491,
+       0,
+       -5.671
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       -5.671,
+       2.13,
+       -1.491
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.13,
+       -1.491,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       215,
+       325
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "110°",
+      "at": [
+       0,
+       -1.101
+      ]
+     },
+     {
+      "angle": [
+       2.13,
+       -1.491,
+       145,
+       243
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "98°",
+      "at": [
+       1.062,
+       -1.758
+      ]
+     },
+     {
+      "angle": [
+       0,
+       -5.671,
+       63,
+       117
+      ],
+      "r": 0.6
+     },
+     {
+      "label": "x°",
+      "at": [
+       0,
+       -4.422
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "62",
+   "figure": {
+    "kind": "diagram",
+    "unit": 43.18,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.2,
+        0
+       ],
+       [
+        5.327,
+        2.119
+       ],
+       [
+        1.127,
+        2.119
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       0,
+       0,
+       4.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.127,
+       2.119,
+       5.327,
+       2.119
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.127,
+       2.119,
+       242,
+       0
+      ],
+      "r": 0.417
+     },
+     {
+      "label": "118°",
+      "at": [
+       1.52,
+       1.464
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       62
+      ],
+      "r": 0.417
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.655,
+       0.394
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "42",
+   "figure": {
+    "kind": "diagram",
+    "unit": 43.11,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        0.136,
+        3.479
+       ],
+       [
+        -0.931,
+        0.839
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       -0.931,
+       0.839,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0.136,
+       3.479,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       138
+      ],
+      "r": 0.418
+     },
+     {
+      "seg": [
+       -0.787,
+       0.055,
+       0.15,
+       0.39
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "138°",
+      "at": [
+       -0.879,
+       0.074
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       4,
+       0,
+       138,
+       180
+      ],
+      "r": 0.418
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.973,
+       0.394
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $y$.",
+   "answer": "56",
+   "figure": {
+    "kind": "diagram",
+    "unit": 43.98,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        5.23,
+        1.824
+       ],
+       [
+        1.23,
+        1.824
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       1.23,
+       1.824,
+       5.23,
+       1.824
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.23,
+       1.824
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       4,
+       0,
+       5.23,
+       1.824
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.23,
+       1.824,
+       236,
+       0
+      ],
+      "r": 0.409
+     },
+     {
+      "label": "124°",
+      "at": [
+       1.583,
+       1.161
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       56
+      ],
+      "r": 0.409
+     },
+     {
+      "label": "y°",
+      "at": [
+       0.727,
+       0.387
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the value of the pronumeral. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "103",
+   "figure": {
+    "kind": "diagram",
+    "unit": 54.32,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ],
+       [
+        4.05,
+        1.949
+       ],
+       [
+        0.45,
+        1.949
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       0,
+       0,
+       3.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0.45,
+       1.949,
+       4.05,
+       1.949
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       0.45,
+       1.949
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       3.6,
+       0,
+       4.05,
+       1.949
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       77
+      ],
+      "r": 0.331
+     },
+     {
+      "label": "77°",
+      "at": [
+       0.475,
+       0.378
+      ]
+     },
+     {
+      "angle": [
+       0.45,
+       1.949,
+       257,
+       0
+      ],
+      "r": 0.331
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.828,
+       1.473
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "102",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40.82,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.383,
+        1.231
+       ],
+       [
+        2.494,
+        3.674
+       ],
+       [
+        0.537,
+        3.259
+       ],
+       [
+        -1.314,
+        2.102
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       20,
+       122
+      ],
+      "r": 0.441
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.263,
+       0.764
+      ]
+     },
+     {
+      "angle": [
+       3.383,
+       1.231,
+       110,
+       200
+      ],
+      "right": true,
+      "r": 0.367
+     },
+     {
+      "angle": [
+       2.494,
+       3.674,
+       192,
+       290
+      ],
+      "r": 0.441
+     },
+     {
+      "label": "98°",
+      "at": [
+       2.102,
+       2.967
+      ]
+     },
+     {
+      "angle": [
+       0.537,
+       3.259,
+       212,
+       12
+      ],
+      "r": 0.441
+     },
+     {
+      "label": "160°",
+      "at": [
+       0.84,
+       2.509
+      ]
+     },
+     {
+      "angle": [
+       -1.314,
+       2.102,
+       302,
+       32
+      ],
+      "right": true,
+      "r": 0.367
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "146",
+   "figure": {
+    "kind": "diagram",
+    "unit": 49.18,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.8,
+        0
+       ],
+       [
+        2.03,
+        2.188
+       ],
+       [
+        0.395,
+        3.66
+       ],
+       [
+        -1.005,
+        3.66
+       ],
+       [
+        -1.438,
+        2.329
+       ],
+       [
+        -1.166,
+        0.786
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       146
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.196,
+       0.642
+      ]
+     },
+     {
+      "angle": [
+       1.8,
+       0,
+       84,
+       180
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "96°",
+      "at": [
+       1.351,
+       0.499
+      ]
+     },
+     {
+      "angle": [
+       2.03,
+       2.188,
+       138,
+       264
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "126°",
+      "at": [
+       1.404,
+       1.947
+      ]
+     },
+     {
+      "angle": [
+       0.395,
+       3.66,
+       180,
+       318
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "138°",
+      "at": [
+       0.155,
+       3.034
+      ]
+     },
+     {
+      "angle": [
+       -1.005,
+       3.66,
+       252,
+       0
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "108°",
+      "at": [
+       -0.611,
+       3.117
+      ]
+     },
+     {
+      "angle": [
+       -1.438,
+       2.329,
+       280,
+       72
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "152°",
+      "at": [
+       -0.768,
+       2.282
+      ]
+     },
+     {
+      "angle": [
+       -1.166,
+       0.786,
+       326,
+       100
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "134°",
+      "at": [
+       -0.603,
+       1.152
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "227",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40.53,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.067,
+        -0.752
+       ],
+       [
+        4.458,
+        -0.543
+       ],
+       [
+        4.197,
+        2.445
+       ],
+       [
+        2.519,
+        1.356
+       ],
+       [
+        -1.216,
+        2.287
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       340,
+       118
+      ],
+      "r": 0.444
+     },
+     {
+      "label": "138°",
+      "at": [
+       0.534,
+       0.614
+      ]
+     },
+     {
+      "angle": [
+       2.067,
+       -0.752,
+       5,
+       160
+      ],
+      "r": 0.444
+     },
+     {
+      "label": "155°",
+      "at": [
+       2.174,
+       0.055
+      ]
+     },
+     {
+      "angle": [
+       4.458,
+       -0.543,
+       95,
+       185
+      ],
+      "right": true,
+      "r": 0.37
+     },
+     {
+      "angle": [
+       4.197,
+       2.445,
+       213,
+       275
+      ],
+      "r": 0.444
+     },
+     {
+      "label": "62°",
+      "at": [
+       3.84,
+       1.713
+      ]
+     },
+     {
+      "angle": [
+       2.519,
+       1.356,
+       166,
+       33
+      ],
+      "r": 0.444
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.654,
+       0.553
+      ]
+     },
+     {
+      "angle": [
+       -1.216,
+       2.287,
+       298,
+       346
+      ],
+      "r": 0.444
+     },
+     {
+      "label": "48°",
+      "at": [
+       -0.404,
+       1.653
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "30",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26.25,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0.868,
+        -4.924
+       ],
+       [
+        -1.89,
+        -7.238
+       ],
+       [
+        5.529,
+        -6.589
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       280,
+       310
+      ],
+      "r": 0.686
+     },
+     {
+      "label": "a°",
+      "at": [
+       1.057,
+       -2.268
+      ]
+     },
+     {
+      "angle": [
+       0.868,
+       -4.924,
+       220,
+       100
+      ],
+      "r": 0.686
+     },
+     {
+      "label": "240°",
+      "at": [
+       2.05,
+       -5.354
+      ]
+     },
+     {
+      "angle": [
+       -1.89,
+       -7.238,
+       5,
+       40
+      ],
+      "r": 0.686
+     },
+     {
+      "label": "35°",
+      "at": [
+       0.1,
+       -6.414
+      ]
+     },
+     {
+      "angle": [
+       5.529,
+       -6.589,
+       130,
+       185
+      ],
+      "r": 0.686
+     },
+     {
+      "label": "55°",
+      "at": [
+       4.233,
+       -6.052
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular octagon: find $a$.",
+   "answer": "45",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.39,
+    "items": [
+     {
+      "poly": [
+       [
+        0.995,
+        -2.402
+       ],
+       [
+        2.402,
+        -0.995
+       ],
+       [
+        2.402,
+        0.995
+       ],
+       [
+        0.995,
+        2.402
+       ],
+       [
+        -0.995,
+        2.402
+       ],
+       [
+        -2.402,
+        0.995
+       ],
+       [
+        -2.402,
+        -0.995
+       ],
+       [
+        -0.995,
+        -2.402
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0.995,
+       -2.402,
+       2.402,
+       -0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.402,
+       -0.995,
+       2.402,
+       0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.402,
+       0.995,
+       0.995,
+       2.402
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0.995,
+       2.402,
+       -0.995,
+       2.402
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.995,
+       2.402,
+       -2.402,
+       0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.402,
+       0.995,
+       -2.402,
+       -0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.402,
+       -0.995,
+       -0.995,
+       -2.402
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.995,
+       -2.402,
+       0.995,
+       -2.402
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0.995,
+       -2.402,
+       3.335,
+       -2.402
+      ]
+     },
+     {
+      "angle": [
+       0.995,
+       -2.402,
+       0,
+       45
+      ],
+      "r": 0.622
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.155,
+       -1.922
+      ]
+     },
+     {
+      "angle": [
+       0.995,
+       -2.402,
+       45,
+       180
+      ],
+      "r": 0.452
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.66,
+       -1.593
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular octagon: find $b$.",
+   "answer": "135",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.39,
+    "items": [
+     {
+      "poly": [
+       [
+        0.995,
+        -2.402
+       ],
+       [
+        2.402,
+        -0.995
+       ],
+       [
+        2.402,
+        0.995
+       ],
+       [
+        0.995,
+        2.402
+       ],
+       [
+        -0.995,
+        2.402
+       ],
+       [
+        -2.402,
+        0.995
+       ],
+       [
+        -2.402,
+        -0.995
+       ],
+       [
+        -0.995,
+        -2.402
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0.995,
+       -2.402,
+       2.402,
+       -0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.402,
+       -0.995,
+       2.402,
+       0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.402,
+       0.995,
+       0.995,
+       2.402
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0.995,
+       2.402,
+       -0.995,
+       2.402
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.995,
+       2.402,
+       -2.402,
+       0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.402,
+       0.995,
+       -2.402,
+       -0.995
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.402,
+       -0.995,
+       -0.995,
+       -2.402
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.995,
+       -2.402,
+       0.995,
+       -2.402
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0.995,
+       -2.402,
+       3.335,
+       -2.402
+      ]
+     },
+     {
+      "angle": [
+       0.995,
+       -2.402,
+       0,
+       45
+      ],
+      "r": 0.622
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.155,
+       -1.922
+      ]
+     },
+     {
+      "angle": [
+       0.995,
+       -2.402,
+       45,
+       180
+      ],
+      "r": 0.452
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.66,
+       -1.593
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular nonagon: find $a$.",
+   "answer": "40",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.71,
+    "items": [
+     {
+      "poly": [
+       [
+        0.889,
+        -2.443
+       ],
+       [
+        2.252,
+        -1.3
+       ],
+       [
+        2.561,
+        0.451
+       ],
+       [
+        1.671,
+        1.992
+       ],
+       [
+        0,
+        2.6
+       ],
+       [
+        -1.671,
+        1.992
+       ],
+       [
+        -2.561,
+        0.451
+       ],
+       [
+        -2.252,
+        -1.3
+       ],
+       [
+        -0.889,
+        -2.443
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0.889,
+       -2.443,
+       2.252,
+       -1.3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.252,
+       -1.3,
+       2.561,
+       0.451
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.561,
+       0.451,
+       1.671,
+       1.992
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.671,
+       1.992,
+       0,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       2.6,
+       -1.671,
+       1.992
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.671,
+       1.992,
+       -2.561,
+       0.451
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.561,
+       0.451,
+       -2.252,
+       -1.3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.252,
+       -1.3,
+       -0.889,
+       -2.443
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.889,
+       -2.443,
+       0.889,
+       -2.443
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0.889,
+       -2.443,
+       3.229,
+       -2.443
+      ]
+     },
+     {
+      "angle": [
+       0.889,
+       -2.443,
+       0,
+       40
+      ],
+      "r": 0.653
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.275,
+       -1.939
+      ]
+     },
+     {
+      "angle": [
+       0.889,
+       -2.443,
+       40,
+       180
+      ],
+      "r": 0.475
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.575,
+       -1.579
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular nonagon: find $b$.",
+   "answer": "140",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.71,
+    "items": [
+     {
+      "poly": [
+       [
+        0.889,
+        -2.443
+       ],
+       [
+        2.252,
+        -1.3
+       ],
+       [
+        2.561,
+        0.451
+       ],
+       [
+        1.671,
+        1.992
+       ],
+       [
+        0,
+        2.6
+       ],
+       [
+        -1.671,
+        1.992
+       ],
+       [
+        -2.561,
+        0.451
+       ],
+       [
+        -2.252,
+        -1.3
+       ],
+       [
+        -0.889,
+        -2.443
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0.889,
+       -2.443,
+       2.252,
+       -1.3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.252,
+       -1.3,
+       2.561,
+       0.451
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.561,
+       0.451,
+       1.671,
+       1.992
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.671,
+       1.992,
+       0,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       2.6,
+       -1.671,
+       1.992
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.671,
+       1.992,
+       -2.561,
+       0.451
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.561,
+       0.451,
+       -2.252,
+       -1.3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.252,
+       -1.3,
+       -0.889,
+       -2.443
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.889,
+       -2.443,
+       0.889,
+       -2.443
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0.889,
+       -2.443,
+       3.229,
+       -2.443
+      ]
+     },
+     {
+      "angle": [
+       0.889,
+       -2.443,
+       0,
+       40
+      ],
+      "r": 0.653
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.275,
+       -1.939
+      ]
+     },
+     {
+      "angle": [
+       0.889,
+       -2.443,
+       40,
+       180
+      ],
+      "r": 0.475
+     },
+     {
+      "label": "b°",
+      "at": [
+       0.575,
+       -1.579
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular pentagon: find $a$.",
+   "answer": "252",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.14,
+    "items": [
+     {
+      "poly": [
+       [
+        1.528,
+        -2.103
+       ],
+       [
+        2.473,
+        0.803
+       ],
+       [
+        0,
+        2.6
+       ],
+       [
+        -2.473,
+        0.803
+       ],
+       [
+        -1.528,
+        -2.103
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.528,
+       -2.103,
+       2.473,
+       0.803
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.473,
+       0.803,
+       0,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       2.6,
+       -2.473,
+       0.803
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.473,
+       0.803,
+       -1.528,
+       -2.103
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.528,
+       -2.103,
+       1.528,
+       -2.103
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       2.6,
+       216,
+       324
+      ],
+      "r": 0.443
+     },
+     {
+      "label": "b°",
+      "at": [
+       0,
+       1.742
+      ]
+     },
+     {
+      "angle": [
+       0,
+       2.6,
+       324,
+       216
+      ],
+      "r": 0.387
+     },
+     {
+      "label": "a°",
+      "at": [
+       0,
+       3.43
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular pentagon: find $b$.",
+   "answer": "108",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.14,
+    "items": [
+     {
+      "poly": [
+       [
+        1.528,
+        -2.103
+       ],
+       [
+        2.473,
+        0.803
+       ],
+       [
+        0,
+        2.6
+       ],
+       [
+        -2.473,
+        0.803
+       ],
+       [
+        -1.528,
+        -2.103
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.528,
+       -2.103,
+       2.473,
+       0.803
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.473,
+       0.803,
+       0,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       2.6,
+       -2.473,
+       0.803
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.473,
+       0.803,
+       -1.528,
+       -2.103
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.528,
+       -2.103,
+       1.528,
+       -2.103
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       2.6,
+       216,
+       324
+      ],
+      "r": 0.443
+     },
+     {
+      "label": "b°",
+      "at": [
+       0,
+       1.742
+      ]
+     },
+     {
+      "angle": [
+       0,
+       2.6,
+       324,
+       216
+      ],
+      "r": 0.387
+     },
+     {
+      "label": "a°",
+      "at": [
+       0,
+       3.43
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular decagon: find $a$.",
+   "answer": "216",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.37,
+    "items": [
+     {
+      "poly": [
+       [
+        0.803,
+        -2.473
+       ],
+       [
+        2.103,
+        -1.528
+       ],
+       [
+        2.6,
+        0
+       ],
+       [
+        2.103,
+        1.528
+       ],
+       [
+        0.803,
+        2.473
+       ],
+       [
+        -0.803,
+        2.473
+       ],
+       [
+        -2.103,
+        1.528
+       ],
+       [
+        -2.6,
+        0
+       ],
+       [
+        -2.103,
+        -1.528
+       ],
+       [
+        -0.803,
+        -2.473
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0.803,
+       -2.473,
+       2.103,
+       -1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.103,
+       -1.528,
+       2.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.6,
+       0,
+       2.103,
+       1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.103,
+       1.528,
+       0.803,
+       2.473
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0.803,
+       2.473,
+       -0.803,
+       2.473
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.803,
+       2.473,
+       -2.103,
+       1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.103,
+       1.528,
+       -2.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.6,
+       0,
+       -2.103,
+       -1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.103,
+       -1.528,
+       -0.803,
+       -2.473
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.803,
+       -2.473,
+       0.803,
+       -2.473
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -0.803,
+       2.473,
+       216,
+       0
+      ],
+      "r": 0.465
+     },
+     {
+      "label": "b°",
+      "at": [
+       -0.525,
+       1.615
+      ]
+     },
+     {
+      "angle": [
+       -0.803,
+       2.473,
+       0,
+       216
+      ],
+      "r": 0.407
+     },
+     {
+      "label": "a°",
+      "at": [
+       -1.073,
+       3.303
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular decagon: find $b$.",
+   "answer": "144",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.37,
+    "items": [
+     {
+      "poly": [
+       [
+        0.803,
+        -2.473
+       ],
+       [
+        2.103,
+        -1.528
+       ],
+       [
+        2.6,
+        0
+       ],
+       [
+        2.103,
+        1.528
+       ],
+       [
+        0.803,
+        2.473
+       ],
+       [
+        -0.803,
+        2.473
+       ],
+       [
+        -2.103,
+        1.528
+       ],
+       [
+        -2.6,
+        0
+       ],
+       [
+        -2.103,
+        -1.528
+       ],
+       [
+        -0.803,
+        -2.473
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0.803,
+       -2.473,
+       2.103,
+       -1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.103,
+       -1.528,
+       2.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.6,
+       0,
+       2.103,
+       1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.103,
+       1.528,
+       0.803,
+       2.473
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0.803,
+       2.473,
+       -0.803,
+       2.473
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.803,
+       2.473,
+       -2.103,
+       1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.103,
+       1.528,
+       -2.6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.6,
+       0,
+       -2.103,
+       -1.528
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.103,
+       -1.528,
+       -0.803,
+       -2.473
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.803,
+       -2.473,
+       0.803,
+       -2.473
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -0.803,
+       2.473,
+       216,
+       0
+      ],
+      "r": 0.465
+     },
+     {
+      "label": "b°",
+      "at": [
+       -0.525,
+       1.615
+      ]
+     },
+     {
+      "angle": [
+       -0.803,
+       2.473,
+       0,
+       216
+      ],
+      "r": 0.407
+     },
+     {
+      "label": "a°",
+      "at": [
+       -1.073,
+       3.303
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Use the angle sum $S = (n - 2) \\times 180^\\circ$ to find the value of each pronumeral. The polygons in parts e to m are regular.",
+   "type": "numeric",
+   "prompt": "Regular hexagon: find $a$.",
+   "answer": "120",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.66,
+    "items": [
+     {
+      "poly": [
+       [
+        1.2,
+        -2.078
+       ],
+       [
+        2.4,
+        0
+       ],
+       [
+        1.2,
+        2.078
+       ],
+       [
+        -1.2,
+        2.078
+       ],
+       [
+        -2.4,
+        0
+       ],
+       [
+        -1.2,
+        -2.078
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.2,
+       -2.078,
+       2.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.4,
+       0,
+       1.2,
+       2.078
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.2,
+       2.078,
+       -1.2,
+       2.078
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.2,
+       2.078,
+       -2.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.4,
+       0,
+       -1.2,
+       -2.078
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.2,
+       -2.078,
+       1.2,
+       -2.078
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       1.2,
+       -2.078,
+       2.6,
+       -2.078
+      ]
+     },
+     {
+      "seg": [
+       1.2,
+       -2.078,
+       0.5,
+       -3.291
+      ]
+     },
+     {
+      "angle": [
+       1.2,
+       -2.078,
+       240,
+       0
+      ],
+      "r": 0.632
+     },
+     {
+      "seg": [
+       0.204,
+       -2.481,
+       1.516,
+       -2.626
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "a°",
+      "at": [
+       0.106,
+       -2.623
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
+   "type": "choice",
+   "prompt": "Two pairs of equal-length sides",
+   "answer": 3,
+   "options": [
+    "square, rectangle",
+    "square, rhombus, kite",
+    "square, rectangle, rhombus, parallelogram",
+    "square, rectangle, rhombus, parallelogram, kite",
+    "square, rhombus"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
+   "type": "choice",
+   "prompt": "All interior angles are $90^\\circ$",
+   "answer": 0,
+   "options": [
+    "square, rectangle",
+    "square, rhombus, kite",
+    "square, rectangle, rhombus, parallelogram",
+    "square, rectangle, rhombus, parallelogram, kite",
+    "square, rhombus"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
+   "type": "choice",
+   "prompt": "The diagonals are equal in length",
+   "answer": 0,
+   "options": [
+    "square, rectangle",
+    "square, rhombus, kite",
+    "square, rectangle, rhombus, parallelogram",
+    "square, rectangle, rhombus, parallelogram, kite",
+    "square, rhombus"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Which list gives ALL the special quadrilaterals (square, rectangle, rhombus, parallelogram, kite, trapezium) with this property? (Here a trapezium has just one pair of parallel sides and its other two sides are not equal.)",
+   "type": "choice",
+   "prompt": "The diagonals cross at right angles",
+   "answer": 1,
+   "options": [
+    "square, rectangle",
+    "square, rhombus, kite",
+    "square, rectangle, rhombus, parallelogram",
+    "square, rectangle, rhombus, parallelogram, kite",
+    "square, rhombus"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Find the number of sides of a polygon with each angle sum.",
+   "type": "numeric",
+   "prompt": "$2340^\\circ$",
+   "answer": "15"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Find the number of sides of a polygon with each angle sum.",
+   "type": "numeric",
+   "prompt": "$3780^\\circ$",
+   "answer": "23"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Find the number of sides of a polygon with each angle sum.",
+   "type": "numeric",
+   "prompt": "$16\\,200^\\circ$",
+   "answer": "92"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "100",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.74,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.29,
+        -2.024
+       ],
+       [
+        6.176,
+        0
+       ],
+       [
+        1.29,
+        2.024
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.29,
+       -2.024
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.29,
+       2.024,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.29,
+       -2.024,
+       6.176,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       6.176,
+       0,
+       1.29,
+       2.024
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       57.5,
+       302.5
+      ],
+      "r": 0.378
+     },
+     {
+      "label": "245°",
+      "at": [
+       -0.882,
+       0
+      ]
+     },
+     {
+      "seg": [
+       6.176,
+       0,
+       7.562,
+       0.574
+      ]
+     },
+     {
+      "angle": [
+       6.176,
+       0,
+       22.5,
+       157.5
+      ],
+      "r": 0.504
+     },
+     {
+      "label": "135°",
+      "at": [
+       6.176,
+       0.977
+      ]
+     },
+     {
+      "angle": [
+       1.29,
+       -2.024,
+       22.5,
+       122.5
+      ],
+      "r": 0.567
+     },
+     {
+      "label": "x°",
+      "at": [
+       1.602,
+       -1.032
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "52",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.37,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.007,
+        -2.229
+       ],
+       [
+        0,
+        -6.345
+       ],
+       [
+        2.007,
+        -2.229
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -2.007,
+       -2.229,
+       2.007,
+       -2.229
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -2.007,
+       -2.229
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.007,
+       -2.229
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -2.007,
+       -2.229,
+       0,
+       -6.345
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.007,
+       -2.229,
+       0,
+       -6.345
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       228,
+       312
+      ],
+      "r": 0.705
+     },
+     {
+      "label": "84°",
+      "at": [
+       0,
+       -1.234
+      ]
+     },
+     {
+      "angle": [
+       -2.007,
+       -2.229,
+       296,
+       0
+      ],
+      "r": 0.705
+     },
+     {
+      "label": "64°",
+      "at": [
+       -0.961,
+       -2.883
+      ]
+     },
+     {
+      "angle": [
+       2.007,
+       -2.229,
+       180,
+       244
+      ],
+      "r": 0.705
+     },
+     {
+      "label": "64°",
+      "at": [
+       0.961,
+       -2.883
+      ]
+     },
+     {
+      "angle": [
+       0,
+       -6.345,
+       64,
+       116
+      ],
+      "r": 0.705
+     },
+     {
+      "label": "x°",
+      "at": [
+       0,
+       -4.978
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "230",
+   "figure": {
+    "kind": "diagram",
+    "unit": 33.39,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.409,
+        3.44
+       ],
+       [
+        0.342,
+        2.688
+       ],
+       [
+        -3.391,
+        4.843
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -0.803,
+       -1.147
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.803,
+       -1.147
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       235,
+       305
+      ],
+      "r": 0.599
+     },
+     {
+      "label": "70°",
+      "at": [
+       0,
+       -1.048
+      ]
+     },
+     {
+      "angle": [
+       2.409,
+       3.44,
+       235,
+       200
+      ],
+      "r": 0.359
+     },
+     {
+      "label": "325°",
+      "at": [
+       3.074,
+       3.951
+      ]
+     },
+     {
+      "angle": [
+       -3.391,
+       4.843,
+       305,
+       330
+      ],
+      "r": 0.539
+     },
+     {
+      "label": "25°",
+      "at": [
+       -1.657,
+       3.254
+      ]
+     },
+     {
+      "angle": [
+       0.342,
+       2.688,
+       150,
+       20
+      ],
+      "r": 0.419
+     },
+     {
+      "label": "x°",
+      "at": [
+       0.266,
+       1.823
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "41",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.18,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.503,
+        0
+       ],
+       [
+        6.823,
+        3.299
+       ],
+       [
+        0.823,
+        3.299
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0.823,
+       3.299,
+       2.503,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "par": [
+       0,
+       0,
+       2.503,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0.823,
+       3.299,
+       6.823,
+       3.299
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       76
+      ],
+      "r": 0.569
+     },
+     {
+      "label": "76°",
+      "at": [
+       0.784,
+       0.613
+      ]
+     },
+     {
+      "angle": [
+       0.823,
+       3.299,
+       297,
+       0
+      ],
+      "r": 0.625
+     },
+     {
+      "label": "63°",
+      "at": [
+       1.719,
+       2.749
+      ]
+     },
+     {
+      "angle": [
+       0.823,
+       3.299,
+       256,
+       297
+      ],
+      "r": 0.512
+     },
+     {
+      "label": "x°",
+      "at": [
+       0.979,
+       1.928
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "32",
+   "figure": {
+    "kind": "diagram",
+    "unit": 54.63,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.8,
+        0
+       ],
+       [
+        1.573,
+        2.517
+       ],
+       [
+        -1.227,
+        2.517
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.573,
+       2.517
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -1.227,
+       2.517,
+       2.8,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.8,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.8,
+       0,
+       1.573,
+       2.517
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1.573,
+       2.517,
+       -1.227,
+       2.517
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -1.227,
+       2.517,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       58,
+       116
+      ],
+      "r": 0.366
+     },
+     {
+      "label": "58°",
+      "at": [
+       0.034,
+       0.641
+      ]
+     },
+     {
+      "angle": [
+       -1.227,
+       2.517,
+       328,
+       0
+      ],
+      "r": 0.476
+     },
+     {
+      "label": "x°",
+      "at": [
+       -0.142,
+       2.205
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Sides with the same marks are equal, and arrows show parallel sides.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "110",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.8,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.74,
+        -1.932
+       ],
+       [
+        6.522,
+        0
+       ],
+       [
+        1.74,
+        1.932
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       1.74,
+       1.932,
+       1.74,
+       -1.932
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.522,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.74,
+       1.932
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.74,
+       -1.932
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.74,
+       1.932,
+       6.522,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1.74,
+       -1.932,
+       6.522,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       312,
+       48
+      ],
+      "r": 0.489
+     },
+     {
+      "seg": [
+       0.064,
+       0.922,
+       0.489,
+       0
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "96°",
+      "at": [
+       0.087,
+       1.247
+      ]
+     },
+     {
+      "angle": [
+       1.74,
+       1.932,
+       270,
+       338
+      ],
+      "r": 0.544
+     },
+     {
+      "label": "68°",
+      "at": [
+       2.272,
+       1.144
+      ]
+     },
+     {
+      "angle": [
+       1.74,
+       -1.932,
+       22,
+       132
+      ],
+      "r": 0.489
+     },
+     {
+      "seg": [
+       0.83,
+       -1.772,
+       1.85,
+       -1.456
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "x°",
+      "at": [
+       0.726,
+       -1.715
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Think about a regular polygon with $n$ sides. Write an expression in $n$ for each of these.",
+   "type": "expression",
+   "prompt": "The sum of the interior angles, $S$, in degrees",
+   "answer": "180(n-2)",
+   "hint": "Use brackets where needed, for example 180(n-2)",
+   "accept": [
+    "S=180(n-2)"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Think about a regular polygon with $n$ sides. Write an expression in $n$ for each of these.",
+   "type": "expression",
+   "prompt": "The size of each interior angle, $I$, in degrees",
+   "answer": "180(n-2)/n",
+   "accept": [
+    "I=180(n-2)/n"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Think about a regular polygon with $n$ sides. Write an expression in $n$ for each of these.",
+   "type": "expression",
+   "prompt": "The size of each exterior angle, $E$, in degrees",
+   "answer": "360/n",
+   "accept": [
+    "E=360/n"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Use your rule from part c to find the size of each exterior angle of a regular polygon with $18$ sides.",
+   "answer": "20",
+   "units": "°"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
+   "type": "numeric",
+   "prompt": "A hexagon",
+   "answer": "3"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
+   "type": "numeric",
+   "prompt": "A heptagon",
+   "answer": "4"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
+   "type": "numeric",
+   "prompt": "A decagon",
+   "answer": "7"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "A non-convex polygon has at least one reflex interior angle. What is the greatest number of reflex interior angles possible in each polygon?",
+   "type": "expression",
+   "prompt": "Write an expression for the greatest number of reflex interior angles in a polygon with $n$ sides.",
+   "answer": "n-3"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
+   "type": "numeric",
+   "prompt": "Solve $5 \\times 180 - S = 360$ to find the angle sum of a pentagon.",
+   "answer": "540",
+   "units": "°"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
+   "type": "numeric",
+   "prompt": "Write the matching equation for a hexagon and solve it to find the angle sum of a hexagon.",
+   "answer": "720",
+   "units": "°"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
+   "type": "numeric",
+   "prompt": "Do the same for a heptagon. What is its angle sum?",
+   "answer": "900",
+   "units": "°"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Walking once around any polygon and turning at each corner, you turn through a total of $360^\\circ$, so the exterior angles add to $360^\\circ$. Each exterior angle is $180^\\circ$ minus the interior angle next to it. For a pentagon this gives $5 \\times 180^\\circ - S = 360^\\circ$, where $S$ is the angle sum.",
+   "type": "expression",
+   "prompt": "Do the same for a polygon with $n$ sides. Write the angle sum as an expression in $n$.",
+   "answer": "180n-360"
+  }
+ ]
+},
+{
+ "id": "y9-7d",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7D Congruent triangles",
+ "description": "Choose the congruence test (SSS, SAS, AAS or RHS) for a pair of triangles, write congruence statements and use congruence to find unknown sides and angles.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Choose the test.",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.42,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.801
+       ],
+       [
+        5,
+        -1.801
+       ],
+       [
+        3.243,
+        1.801
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       5,
+       -1.801,
+       3.243,
+       1.801
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       -1.801,
+       0,
+       48
+      ],
+      "r": 0.547
+     },
+     {
+      "angle": [
+       5,
+       -1.801,
+       116,
+       180
+      ],
+      "r": 0.547
+     },
+     {
+      "angle": [
+       5,
+       -1.801,
+       116,
+       180
+      ],
+      "r": 0.693
+     },
+     {
+      "poly": [
+       [
+        7.608,
+        -2.37
+       ],
+       [
+        10.93,
+        -0.13
+       ],
+       [
+        6.6,
+        2.37
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       7.608,
+       -2.37,
+       10.93,
+       -0.13
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       6.6,
+       2.37,
+       282,
+       330
+      ],
+      "r": 0.547
+     },
+     {
+      "angle": [
+       10.93,
+       -0.13,
+       150,
+       214
+      ],
+      "r": 0.547
+     },
+     {
+      "angle": [
+       10.93,
+       -0.13,
+       150,
+       214
+      ],
+      "r": 0.693
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Choose the test.",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.24,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.23
+       ],
+       [
+        5.2,
+        -1.23
+       ],
+       [
+        2.046,
+        1.23
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       -1.23,
+       5.2,
+       -1.23
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5.2,
+       -1.23,
+       2.046,
+       1.23
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.046,
+       1.23,
+       0,
+       -1.23
+      ],
+      "n": 3
+     },
+     {
+      "poly": [
+       [
+        11.686,
+        1.506
+       ],
+       [
+        6.8,
+        -0.273
+       ],
+       [
+        10.605,
+        -1.506
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       11.686,
+       1.506,
+       6.8,
+       -0.273
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6.8,
+       -0.273,
+       10.605,
+       -1.506
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       10.605,
+       -1.506,
+       11.686,
+       1.506
+      ],
+      "n": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Choose the test.",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.686
+       ],
+       [
+        5,
+        -1.686
+       ],
+       [
+        0,
+        1.686
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -1.686,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.577
+     },
+     {
+      "tick": [
+       0,
+       -1.686,
+       5,
+       -1.686
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5,
+       -1.686,
+       0,
+       1.686
+      ],
+      "n": 2
+     },
+     {
+      "poly": [
+       [
+        6.6,
+        2.5
+       ],
+       [
+        9.973,
+        -2.5
+       ],
+       [
+        9.973,
+        2.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.973,
+       2.5,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.577
+     },
+     {
+      "tick": [
+       9.973,
+       -2.5,
+       9.973,
+       2.5
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       6.6,
+       2.5,
+       9.973,
+       -2.5
+      ],
+      "n": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Choose the test.",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 29.05,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.669
+       ],
+       [
+        5.2,
+        -1.669
+       ],
+       [
+        2.086,
+        1.669
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       -1.669,
+       5.2,
+       -1.669
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.086,
+       1.669,
+       0,
+       -1.669
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       -1.669,
+       0,
+       58
+      ],
+      "r": 0.516
+     },
+     {
+      "poly": [
+       [
+        10.142,
+        1.992
+       ],
+       [
+        6.8,
+        -1.992
+       ],
+       [
+        11.359,
+        -1.753
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       10.142,
+       1.992,
+       6.8,
+       -1.992
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       11.359,
+       -1.753,
+       10.142,
+       1.992
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       10.142,
+       1.992,
+       230,
+       288
+      ],
+      "r": 0.516
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Choose the test.",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 23.8,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.719
+       ],
+       [
+        4.4,
+        -1.719
+       ],
+       [
+        0,
+        1.719
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -1.719,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.63
+     },
+     {
+      "tick": [
+       0,
+       -1.719,
+       4.4,
+       -1.719
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       1.719,
+       0,
+       -1.719
+      ],
+      "n": 2
+     },
+     {
+      "poly": [
+       [
+        9.371,
+        -0.097
+       ],
+       [
+        6,
+        2.731
+       ],
+       [
+        7.161,
+        -2.731
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.371,
+       -0.097,
+       140,
+       230
+      ],
+      "right": true,
+      "r": 0.63
+     },
+     {
+      "tick": [
+       9.371,
+       -0.097,
+       6,
+       2.731
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       7.161,
+       -2.731,
+       9.371,
+       -0.097
+      ],
+      "n": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Which congruence test (SSS, SAS, AAS or RHS) would you use to show that each pair of triangles is congruent? Sides with the same marks are equal, and angles with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Choose the test.",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.73,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.695
+       ],
+       [
+        5,
+        -1.695
+       ],
+       [
+        1.101,
+        1.695
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       -1.695,
+       5,
+       -1.695
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       5,
+       -1.695,
+       139,
+       180
+      ],
+      "r": 0.522
+     },
+     {
+      "angle": [
+       1.101,
+       1.695,
+       252,
+       319
+      ],
+      "r": 0.522
+     },
+     {
+      "angle": [
+       1.101,
+       1.695,
+       252,
+       319
+      ],
+      "r": 0.661
+     },
+     {
+      "poly": [
+       [
+        11.485,
+        0.483
+       ],
+       [
+        6.6,
+        2.165
+       ],
+       [
+        9.1,
+        -2.165
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       6.6,
+       2.165,
+       9.1,
+       -2.165
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       6.6,
+       2.165,
+       300,
+       341
+      ],
+      "r": 0.522
+     },
+     {
+      "angle": [
+       11.485,
+       0.483,
+       161,
+       228
+      ],
+      "r": 0.522
+     },
+     {
+      "angle": [
+       11.485,
+       0.483,
+       161,
+       228
+      ],
+      "r": 0.661
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.38,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -0.833
+       ],
+       [
+        4,
+        -0.833
+       ],
+       [
+        0,
+        0.833
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -0.833,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.436
+     },
+     {
+      "label": "12",
+      "at": [
+       2,
+       -1.299
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.291,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "y",
+      "at": [
+       2.174,
+       0.417
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        5.6,
+        -0.833
+       ],
+       [
+        9.6,
+        0.833
+       ],
+       [
+        5.6,
+        0.833
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       5.6,
+       0.833,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.436
+     },
+     {
+      "label": "5",
+      "at": [
+       5.309,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "13",
+      "at": [
+       7.774,
+       -0.417
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       7.6,
+       1.299
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $y$.",
+   "answer": "13",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.38,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -0.833
+       ],
+       [
+        4,
+        -0.833
+       ],
+       [
+        0,
+        0.833
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -0.833,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.436
+     },
+     {
+      "label": "12",
+      "at": [
+       2,
+       -1.299
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.291,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "y",
+      "at": [
+       2.174,
+       0.417
+      ],
+      "anchor": "start"
+     },
+     {
+      "poly": [
+       [
+        5.6,
+        -0.833
+       ],
+       [
+        9.6,
+        0.833
+       ],
+       [
+        5.6,
+        0.833
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       5.6,
+       0.833,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.436
+     },
+     {
+      "label": "5",
+      "at": [
+       5.309,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "13",
+      "at": [
+       7.774,
+       -0.417
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       7.6,
+       1.299
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.95,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -0.745
+       ],
+       [
+        4.5,
+        -0.745
+       ],
+       [
+        1.333,
+        0.745
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       2.25,
+       -1.246
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       3.122,
+       0.437
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4",
+      "at": [
+       0.34,
+       0.292
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        10.329,
+        -0.297
+       ],
+       [
+        6.1,
+        1.242
+       ],
+       [
+        8.566,
+        -1.242
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       8.382,
+       0.932
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7.017,
+       -0.314
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       9.673,
+       -1.191
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $y$.",
+   "answer": "7",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.95,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -0.745
+       ],
+       [
+        4.5,
+        -0.745
+       ],
+       [
+        1.333,
+        0.745
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       2.25,
+       -1.246
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       3.122,
+       0.437
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4",
+      "at": [
+       0.34,
+       0.292
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        10.329,
+        -0.297
+       ],
+       [
+        6.1,
+        1.242
+       ],
+       [
+        8.566,
+        -1.242
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       8.382,
+       0.932
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7.017,
+       -0.314
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       9.673,
+       -1.191
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "112",
+   "figure": {
+    "kind": "diagram",
+    "unit": 23.02,
+    "items": [
+     {
+      "poly": [
+       [
+        1.368,
+        -1.693
+       ],
+       [
+        6.368,
+        -1.693
+       ],
+       [
+        0,
+        1.693
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.368,
+       -1.693,
+       6.368,
+       -1.693
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       1.693,
+       1.368,
+       -1.693
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.368,
+       -1.693,
+       0,
+       112
+      ],
+      "r": 0.782
+     },
+     {
+      "label": "112°",
+      "at": [
+       2.17,
+       -0.504
+      ]
+     },
+     {
+      "angle": [
+       6.368,
+       -1.693,
+       152,
+       180
+      ],
+      "r": 0.782
+     },
+     {
+      "seg": [
+       5.204,
+       -2.602,
+       5.609,
+       -1.504
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "b°",
+      "at": [
+       5.141,
+       -2.923
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        14.336,
+        1.693
+       ],
+       [
+        7.968,
+        -1.693
+       ],
+       [
+        12.968,
+        -1.693
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       7.968,
+       -1.693,
+       12.968,
+       -1.693
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       12.968,
+       -1.693,
+       14.336,
+       1.693
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       7.968,
+       -1.693,
+       0,
+       28
+      ],
+      "r": 0.782
+     },
+     {
+      "seg": [
+       9.132,
+       -2.602,
+       8.727,
+       -1.504
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "28°",
+      "at": [
+       9.195,
+       -2.923
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       12.968,
+       -1.693,
+       68,
+       180
+      ],
+      "r": 0.782
+     },
+     {
+      "label": "a°",
+      "at": [
+       12.166,
+       -0.504
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "28",
+   "figure": {
+    "kind": "diagram",
+    "unit": 23.02,
+    "items": [
+     {
+      "poly": [
+       [
+        1.368,
+        -1.693
+       ],
+       [
+        6.368,
+        -1.693
+       ],
+       [
+        0,
+        1.693
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       1.368,
+       -1.693,
+       6.368,
+       -1.693
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       1.693,
+       1.368,
+       -1.693
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       1.368,
+       -1.693,
+       0,
+       112
+      ],
+      "r": 0.782
+     },
+     {
+      "label": "112°",
+      "at": [
+       2.17,
+       -0.504
+      ]
+     },
+     {
+      "angle": [
+       6.368,
+       -1.693,
+       152,
+       180
+      ],
+      "r": 0.782
+     },
+     {
+      "seg": [
+       5.204,
+       -2.602,
+       5.609,
+       -1.504
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "b°",
+      "at": [
+       5.141,
+       -2.923
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        14.336,
+        1.693
+       ],
+       [
+        7.968,
+        -1.693
+       ],
+       [
+        12.968,
+        -1.693
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       7.968,
+       -1.693,
+       12.968,
+       -1.693
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       12.968,
+       -1.693,
+       14.336,
+       1.693
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       7.968,
+       -1.693,
+       0,
+       28
+      ],
+      "r": 0.782
+     },
+     {
+      "seg": [
+       9.132,
+       -2.602,
+       8.727,
+       -1.504
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "28°",
+      "at": [
+       9.195,
+       -2.923
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       12.968,
+       -1.693,
+       68,
+       180
+      ],
+      "r": 0.782
+     },
+     {
+      "label": "a°",
+      "at": [
+       12.166,
+       -0.504
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "58",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.186
+       ],
+       [
+        5,
+        -1.186
+       ],
+       [
+        1.483,
+        1.186
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       -1.186,
+       5,
+       -1.186
+      ],
+      "n": 3
+     },
+     {
+      "tick": [
+       5,
+       -1.186,
+       1.483,
+       1.186
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       -1.186,
+       0,
+       58
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "58°",
+      "at": [
+       1.078,
+       -0.589
+      ]
+     },
+     {
+      "angle": [
+       5,
+       -1.186,
+       146,
+       180
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "b°",
+      "at": [
+       3.045,
+       -0.589
+      ]
+     },
+     {
+      "poly": [
+       [
+        8.083,
+        -1.186
+       ],
+       [
+        11.6,
+        1.186
+       ],
+       [
+        6.6,
+        1.186
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       11.6,
+       1.186,
+       6.6,
+       1.186
+      ],
+      "n": 3
+     },
+     {
+      "tick": [
+       8.083,
+       -1.186,
+       11.6,
+       1.186
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       6.6,
+       1.186,
+       302,
+       0
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "a°",
+      "at": [
+       7.678,
+       0.589
+      ]
+     },
+     {
+      "angle": [
+       11.6,
+       1.186,
+       180,
+       214
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "34°",
+      "at": [
+       9.645,
+       0.589
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "34",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28.45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.186
+       ],
+       [
+        5,
+        -1.186
+       ],
+       [
+        1.483,
+        1.186
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       -1.186,
+       5,
+       -1.186
+      ],
+      "n": 3
+     },
+     {
+      "tick": [
+       5,
+       -1.186,
+       1.483,
+       1.186
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       0,
+       -1.186,
+       0,
+       58
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "58°",
+      "at": [
+       1.078,
+       -0.589
+      ]
+     },
+     {
+      "angle": [
+       5,
+       -1.186,
+       146,
+       180
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "b°",
+      "at": [
+       3.045,
+       -0.589
+      ]
+     },
+     {
+      "poly": [
+       [
+        8.083,
+        -1.186
+       ],
+       [
+        11.6,
+        1.186
+       ],
+       [
+        6.6,
+        1.186
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       11.6,
+       1.186,
+       6.6,
+       1.186
+      ],
+      "n": 3
+     },
+     {
+      "tick": [
+       8.083,
+       -1.186,
+       11.6,
+       1.186
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       6.6,
+       1.186,
+       302,
+       0
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "a°",
+      "at": [
+       7.678,
+       0.589
+      ]
+     },
+     {
+      "angle": [
+       11.6,
+       1.186,
+       180,
+       214
+      ],
+      "r": 0.633
+     },
+     {
+      "label": "34°",
+      "at": [
+       9.645,
+       0.589
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "57",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24.83,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.618
+       ],
+       [
+        3.4,
+        -2.618
+       ],
+       [
+        0,
+        2.618
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -2.618,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.604
+     },
+     {
+      "label": "x",
+      "at": [
+       1.7,
+       -3.262
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2.618,
+       0,
+       -2.618
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3.4,
+       -2.618,
+       0,
+       2.618
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       3.4,
+       -2.618,
+       123,
+       180
+      ],
+      "r": 0.725
+     },
+     {
+      "label": "57°",
+      "at": [
+       2.139,
+       -1.933
+      ]
+     },
+     {
+      "poly": [
+       [
+        10.236,
+        -1.7
+       ],
+       [
+        10.236,
+        1.7
+       ],
+       [
+        5,
+        -1.7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       10.236,
+       -1.7,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.604
+     },
+     {
+      "label": "3.4",
+      "at": [
+       10.638,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       5,
+       -1.7,
+       10.236,
+       -1.7
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       10.236,
+       1.7,
+       5,
+       -1.7
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       10.236,
+       1.7,
+       213,
+       270
+      ],
+      "r": 0.725
+     },
+     {
+      "label": "b°",
+      "at": [
+       9.551,
+       0.439
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "3.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 24.83,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.618
+       ],
+       [
+        3.4,
+        -2.618
+       ],
+       [
+        0,
+        2.618
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -2.618,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.604
+     },
+     {
+      "label": "x",
+      "at": [
+       1.7,
+       -3.262
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2.618,
+       0,
+       -2.618
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3.4,
+       -2.618,
+       0,
+       2.618
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       3.4,
+       -2.618,
+       123,
+       180
+      ],
+      "r": 0.725
+     },
+     {
+      "label": "57°",
+      "at": [
+       2.139,
+       -1.933
+      ]
+     },
+     {
+      "poly": [
+       [
+        10.236,
+        -1.7
+       ],
+       [
+        10.236,
+        1.7
+       ],
+       [
+        5,
+        -1.7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       10.236,
+       -1.7,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.604
+     },
+     {
+      "label": "3.4",
+      "at": [
+       10.638,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       5,
+       -1.7,
+       10.236,
+       -1.7
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       10.236,
+       1.7,
+       5,
+       -1.7
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       10.236,
+       1.7,
+       213,
+       270
+      ],
+      "r": 0.725
+     },
+     {
+      "label": "b°",
+      "at": [
+       9.551,
+       0.439
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "128",
+   "figure": {
+    "kind": "diagram",
+    "unit": 21.96,
+    "items": [
+     {
+      "poly": [
+       [
+        2.481,
+        -1.588
+       ],
+       [
+        7.481,
+        -1.588
+       ],
+       [
+        0,
+        1.588
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x",
+      "at": [
+       4.017,
+       0.651
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       2.481,
+       -1.588,
+       7.481,
+       -1.588
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       1.588,
+       2.481,
+       -1.588
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       2.481,
+       -1.588,
+       0,
+       128
+      ],
+      "r": 0.82
+     },
+     {
+      "label": "128°",
+      "at": [
+       3.14,
+       -0.237
+      ]
+     },
+     {
+      "angle": [
+       7.481,
+       -1.588,
+       157,
+       180
+      ],
+      "r": 0.82
+     },
+     {
+      "seg": [
+       6.261,
+       -2.541,
+       6.678,
+       -1.424
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "b°",
+      "at": [
+       6.195,
+       -2.877
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        9.081,
+        -2.771
+       ],
+       [
+        15.025,
+        2.771
+       ],
+       [
+        10.326,
+        1.061
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.35",
+      "at": [
+       12.5,
+       -0.479
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       15.025,
+       2.771,
+       10.326,
+       1.061
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       10.326,
+       1.061,
+       9.081,
+       -2.771
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       10.326,
+       1.061,
+       252,
+       20
+      ],
+      "r": 0.82
+     },
+     {
+      "label": "a°",
+      "at": [
+       11.407,
+       0.018
+      ]
+     },
+     {
+      "angle": [
+       15.025,
+       2.771,
+       200,
+       223
+      ],
+      "r": 0.82
+     },
+     {
+      "seg": [
+       13.552,
+       3.25,
+       14.326,
+       2.343
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "23°",
+      "at": [
+       13.397,
+       3.418
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "23",
+   "figure": {
+    "kind": "diagram",
+    "unit": 21.96,
+    "items": [
+     {
+      "poly": [
+       [
+        2.481,
+        -1.588
+       ],
+       [
+        7.481,
+        -1.588
+       ],
+       [
+        0,
+        1.588
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x",
+      "at": [
+       4.017,
+       0.651
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       2.481,
+       -1.588,
+       7.481,
+       -1.588
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       1.588,
+       2.481,
+       -1.588
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       2.481,
+       -1.588,
+       0,
+       128
+      ],
+      "r": 0.82
+     },
+     {
+      "label": "128°",
+      "at": [
+       3.14,
+       -0.237
+      ]
+     },
+     {
+      "angle": [
+       7.481,
+       -1.588,
+       157,
+       180
+      ],
+      "r": 0.82
+     },
+     {
+      "seg": [
+       6.261,
+       -2.541,
+       6.678,
+       -1.424
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "b°",
+      "at": [
+       6.195,
+       -2.877
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        9.081,
+        -2.771
+       ],
+       [
+        15.025,
+        2.771
+       ],
+       [
+        10.326,
+        1.061
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.35",
+      "at": [
+       12.5,
+       -0.479
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       15.025,
+       2.771,
+       10.326,
+       1.061
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       10.326,
+       1.061,
+       9.081,
+       -2.771
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       10.326,
+       1.061,
+       252,
+       20
+      ],
+      "r": 0.82
+     },
+     {
+      "label": "a°",
+      "at": [
+       11.407,
+       0.018
+      ]
+     },
+     {
+      "angle": [
+       15.025,
+       2.771,
+       200,
+       223
+      ],
+      "r": 0.82
+     },
+     {
+      "seg": [
+       13.552,
+       3.25,
+       14.326,
+       2.343
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "23°",
+      "at": [
+       13.397,
+       3.418
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $x$.",
+   "answer": "7.35",
+   "figure": {
+    "kind": "diagram",
+    "unit": 21.96,
+    "items": [
+     {
+      "poly": [
+       [
+        2.481,
+        -1.588
+       ],
+       [
+        7.481,
+        -1.588
+       ],
+       [
+        0,
+        1.588
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x",
+      "at": [
+       4.017,
+       0.651
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       2.481,
+       -1.588,
+       7.481,
+       -1.588
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       1.588,
+       2.481,
+       -1.588
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       2.481,
+       -1.588,
+       0,
+       128
+      ],
+      "r": 0.82
+     },
+     {
+      "label": "128°",
+      "at": [
+       3.14,
+       -0.237
+      ]
+     },
+     {
+      "angle": [
+       7.481,
+       -1.588,
+       157,
+       180
+      ],
+      "r": 0.82
+     },
+     {
+      "seg": [
+       6.261,
+       -2.541,
+       6.678,
+       -1.424
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "b°",
+      "at": [
+       6.195,
+       -2.877
+      ],
+      "anchor": "end"
+     },
+     {
+      "poly": [
+       [
+        9.081,
+        -2.771
+       ],
+       [
+        15.025,
+        2.771
+       ],
+       [
+        10.326,
+        1.061
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.35",
+      "at": [
+       12.5,
+       -0.479
+      ],
+      "anchor": "start"
+     },
+     {
+      "tick": [
+       15.025,
+       2.771,
+       10.326,
+       1.061
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       10.326,
+       1.061,
+       9.081,
+       -2.771
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       10.326,
+       1.061,
+       252,
+       20
+      ],
+      "r": 0.82
+     },
+     {
+      "label": "a°",
+      "at": [
+       11.407,
+       0.018
+      ]
+     },
+     {
+      "angle": [
+       15.025,
+       2.771,
+       200,
+       223
+      ],
+      "r": 0.82
+     },
+     {
+      "seg": [
+       13.552,
+       3.25,
+       14.326,
+       2.343
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "23°",
+      "at": [
+       13.397,
+       3.418
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "68",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.575
+       ],
+       [
+        4.25,
+        -1.575
+       ],
+       [
+        2.125,
+        1.575
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3.8",
+      "at": [
+       0.724,
+       0.229
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       4.25,
+       -1.575,
+       2.125,
+       1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.125,
+       1.575,
+       0,
+       -1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       -1.575,
+       4.25,
+       -1.575
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.125,
+       1.575,
+       236,
+       304
+      ],
+      "r": 0.551
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.125,
+       0.565
+      ]
+     },
+     {
+      "poly": [
+       [
+        10.1,
+        1.575
+       ],
+       [
+        5.85,
+        1.575
+       ],
+       [
+        7.975,
+        -1.575
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "y",
+      "at": [
+       6.573,
+       -0.229
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       5.85,
+       1.575,
+       7.975,
+       -1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       7.975,
+       -1.575,
+       10.1,
+       1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       10.1,
+       1.575,
+       5.85,
+       1.575
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       7.975,
+       -1.575,
+       56,
+       124
+      ],
+      "r": 0.551
+     },
+     {
+      "label": "68°",
+      "at": [
+       7.975,
+       -0.565
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $y$.",
+   "answer": "3.8",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.575
+       ],
+       [
+        4.25,
+        -1.575
+       ],
+       [
+        2.125,
+        1.575
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3.8",
+      "at": [
+       0.724,
+       0.229
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       4.25,
+       -1.575,
+       2.125,
+       1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.125,
+       1.575,
+       0,
+       -1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       -1.575,
+       4.25,
+       -1.575
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.125,
+       1.575,
+       236,
+       304
+      ],
+      "r": 0.551
+     },
+     {
+      "label": "a°",
+      "at": [
+       2.125,
+       0.565
+      ]
+     },
+     {
+      "poly": [
+       [
+        10.1,
+        1.575
+       ],
+       [
+        5.85,
+        1.575
+       ],
+       [
+        7.975,
+        -1.575
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "y",
+      "at": [
+       6.573,
+       -0.229
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       5.85,
+       1.575,
+       7.975,
+       -1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       7.975,
+       -1.575,
+       10.1,
+       1.575
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       10.1,
+       1.575,
+       5.85,
+       1.575
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       7.975,
+       -1.575,
+       56,
+       124
+      ],
+      "r": 0.551
+     },
+     {
+      "label": "68°",
+      "at": [
+       7.975,
+       -0.565
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $a$.",
+   "answer": "7.3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.38,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.732
+       ],
+       [
+        4,
+        -1.732
+       ],
+       [
+        2,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "a",
+      "at": [
+       0.672,
+       0.189
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       0,
+       -1.732,
+       4,
+       -1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       -1.732,
+       2,
+       1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2,
+       1.732,
+       0,
+       -1.732
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        9.6,
+        1.732
+       ],
+       [
+        5.6,
+        1.732
+       ],
+       [
+        7.6,
+        -1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.3",
+      "at": [
+       6.272,
+       -0.189
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       9.6,
+       1.732,
+       5.6,
+       1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5.6,
+       1.732,
+       7.6,
+       -1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       7.6,
+       -1.732,
+       9.6,
+       1.732
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       9.6,
+       1.732,
+       180,
+       240
+      ],
+      "r": 0.524
+     },
+     {
+      "label": "b°",
+      "at": [
+       8.743,
+       1.238
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2q",
+   "label": "2q",
+   "section": "Fluency",
+   "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. Sides with the same marks are equal.",
+   "type": "numeric",
+   "prompt": "Find $b$.",
+   "answer": "60",
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.38,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.732
+       ],
+       [
+        4,
+        -1.732
+       ],
+       [
+        2,
+        1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "a",
+      "at": [
+       0.672,
+       0.189
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       0,
+       -1.732,
+       4,
+       -1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       -1.732,
+       2,
+       1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2,
+       1.732,
+       0,
+       -1.732
+      ],
+      "n": 1
+     },
+     {
+      "poly": [
+       [
+        9.6,
+        1.732
+       ],
+       [
+        5.6,
+        1.732
+       ],
+       [
+        7.6,
+        -1.732
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.3",
+      "at": [
+       6.272,
+       -0.189
+      ],
+      "anchor": "end"
+     },
+     {
+      "tick": [
+       9.6,
+       1.732,
+       5.6,
+       1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5.6,
+       1.732,
+       7.6,
+       -1.732
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       7.6,
+       -1.732,
+       9.6,
+       1.732
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       9.6,
+       1.732,
+       180,
+       240
+      ],
+      "r": 0.524
+     },
+     {
+      "label": "b°",
+      "at": [
+       8.743,
+       1.238
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which congruence statement is correct?",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "poly": [
+       [
+        1.368,
+        -1.879
+       ],
+       [
+        4.187,
+        -0.853
+       ],
+       [
+        0,
+        1.879
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       1.368,
+       -1.879,
+       20,
+       110
+      ],
+      "right": true,
+      "r": 0.536
+     },
+     {
+      "label": "6",
+      "at": [
+       2.969,
+       -1.891
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       2.387,
+       0.962
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "B",
+      "at": [
+       1.233,
+       -2.395
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       4.638,
+       -1.035
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.302,
+       2.161
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.387,
+        2.5
+       ],
+       [
+        6.387,
+        -2.5
+       ],
+       [
+        9.387,
+        -2.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.387,
+       -2.5,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.536
+     },
+     {
+      "label": "6",
+      "at": [
+       7.887,
+       -3.071
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       9.744,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "F",
+      "at": [
+       9.521,
+       2.873
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       6.03,
+       -2.869
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.626,
+       -2.97
+      ]
+     },
+     {
+      "poly": [
+       [
+        12.955,
+        -2.392
+       ],
+       [
+        14.406,
+        2.392
+       ],
+       [
+        11.587,
+        1.366
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       11.587,
+       1.366,
+       290,
+       20
+      ],
+      "right": true,
+      "r": 0.536
+     },
+     {
+      "label": "6",
+      "at": [
+       12.806,
+       2.404
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       14.082,
+       -0.122
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "I",
+      "at": [
+       12.951,
+       -2.928
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       14.681,
+       2.695
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       11.198,
+       1.549
+      ]
+     }
+    ]
+   },
+   "options": [
+    "△ABC ≡ △DEF",
+    "△ABC ≡ △GHI",
+    "△ACB ≡ △GIH",
+    "△BAC ≡ △HGI"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are congruent?",
+   "answer": 3,
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "poly": [
+       [
+        1.368,
+        -1.879
+       ],
+       [
+        4.187,
+        -0.853
+       ],
+       [
+        0,
+        1.879
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       1.368,
+       -1.879,
+       20,
+       110
+      ],
+      "right": true,
+      "r": 0.536
+     },
+     {
+      "label": "6",
+      "at": [
+       2.969,
+       -1.891
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       2.387,
+       0.962
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "B",
+      "at": [
+       1.233,
+       -2.395
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       4.638,
+       -1.035
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.302,
+       2.161
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.387,
+        2.5
+       ],
+       [
+        6.387,
+        -2.5
+       ],
+       [
+        9.387,
+        -2.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.387,
+       -2.5,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.536
+     },
+     {
+      "label": "6",
+      "at": [
+       7.887,
+       -3.071
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       9.744,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "F",
+      "at": [
+       9.521,
+       2.873
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       6.03,
+       -2.869
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.626,
+       -2.97
+      ]
+     },
+     {
+      "poly": [
+       [
+        12.955,
+        -2.392
+       ],
+       [
+        14.406,
+        2.392
+       ],
+       [
+        11.587,
+        1.366
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       11.587,
+       1.366,
+       290,
+       20
+      ],
+      "right": true,
+      "r": 0.536
+     },
+     {
+      "label": "6",
+      "at": [
+       12.806,
+       2.404
+      ]
+     },
+     {
+      "label": "10",
+      "at": [
+       14.082,
+       -0.122
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "I",
+      "at": [
+       12.951,
+       -2.928
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       14.681,
+       2.695
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       11.198,
+       1.549
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which congruence statement is correct?",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.75,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.09
+       ],
+       [
+        4.432,
+        -0.309
+       ],
+       [
+        1.223,
+        1.09
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       2.306,
+       -1.209
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       3.029,
+       0.853
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       0.245,
+       0.206
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.375,
+       -1.351
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.853,
+       -0.408
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       1.018,
+       1.395
+      ]
+     },
+     {
+      "poly": [
+       [
+        6.632,
+        -1.054
+       ],
+       [
+        10.11,
+        -1.446
+       ],
+       [
+        6.662,
+        1.446
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       8.691,
+       0.364
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "7",
+      "at": [
+       8.312,
+       -1.766
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       6.319,
+       0.2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "F",
+      "at": [
+       6.269,
+       -1.336
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       10.491,
+       -1.693
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       6.436,
+       1.738
+      ]
+     },
+     {
+      "poly": [
+       [
+        13.678,
+        1.879
+       ],
+       [
+        12.31,
+        -1.879
+       ],
+       [
+        15.285,
+        -0.036
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       12.625,
+       0.134
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7",
+      "at": [
+       14.056,
+       -1.375
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       14.826,
+       1.211
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "G",
+      "at": [
+       13.66,
+       2.237
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       12.051,
+       -2.279
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       15.707,
+       -0.107
+      ]
+     }
+    ]
+   },
+   "options": [
+    "△ABC ≡ △EFD",
+    "△ABC ≡ △GHI",
+    "△ACB ≡ △EDF",
+    "△BAC ≡ △FED"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are congruent?",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.75,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.09
+       ],
+       [
+        4.432,
+        -0.309
+       ],
+       [
+        1.223,
+        1.09
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       2.306,
+       -1.209
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       3.029,
+       0.853
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       0.245,
+       0.206
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.375,
+       -1.351
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.853,
+       -0.408
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       1.018,
+       1.395
+      ]
+     },
+     {
+      "poly": [
+       [
+        6.632,
+        -1.054
+       ],
+       [
+        10.11,
+        -1.446
+       ],
+       [
+        6.662,
+        1.446
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       8.691,
+       0.364
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "7",
+      "at": [
+       8.312,
+       -1.766
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       6.319,
+       0.2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "F",
+      "at": [
+       6.269,
+       -1.336
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       10.491,
+       -1.693
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       6.436,
+       1.738
+      ]
+     },
+     {
+      "poly": [
+       [
+        13.678,
+        1.879
+       ],
+       [
+        12.31,
+        -1.879
+       ],
+       [
+        15.285,
+        -0.036
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       12.625,
+       0.134
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "7",
+      "at": [
+       14.056,
+       -1.375
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       14.826,
+       1.211
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "G",
+      "at": [
+       13.66,
+       2.237
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       12.051,
+       -2.279
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       15.707,
+       -0.107
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which congruence statement is correct?",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.993
+       ],
+       [
+        3,
+        -1.993
+       ],
+       [
+        3.344,
+        1.993
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       1.5,
+       -2.524
+      ]
+     },
+     {
+      "label": "8",
+      "at": [
+       3.52,
+       -0.03
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       -1.993,
+       0,
+       50
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "50°",
+      "at": [
+       1.212,
+       -1.428
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.366,
+       -2.289
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       3.24,
+       -2.419
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.525,
+       2.318
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.483,
+        -1.299
+       ],
+       [
+        7.983,
+        1.299
+       ],
+       [
+        5.544,
+        -0.604
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       9.107,
+       0.216
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "8",
+      "at": [
+       7.422,
+       -1.473
+      ]
+     },
+     {
+      "angle": [
+       9.483,
+       -1.299,
+       120,
+       170
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "50°",
+      "at": [
+       8.388,
+       -0.532
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.853,
+       -1.589
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       8.071,
+       1.656
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       5.119,
+       -0.751
+      ]
+     },
+     {
+      "poly": [
+       [
+        15.622,
+        -0.604
+       ],
+       [
+        13.183,
+        1.299
+       ],
+       [
+        11.683,
+        -1.299
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       12.059,
+       0.216
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "8",
+      "at": [
+       13.745,
+       -1.473
+      ]
+     },
+     {
+      "angle": [
+       11.683,
+       -1.299,
+       10,
+       60
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "50°",
+      "at": [
+       12.778,
+       -0.532
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       16.047,
+       -0.751
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       13.095,
+       1.656
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       11.314,
+       -1.589
+      ]
+     }
+    ]
+   },
+   "options": [
+    "△ABC ≡ △FED",
+    "△DEF ≡ △HIG",
+    "△DFE ≡ △HGI",
+    "△EDF ≡ △IHG"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are congruent?",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.993
+       ],
+       [
+        3,
+        -1.993
+       ],
+       [
+        3.344,
+        1.993
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       1.5,
+       -2.524
+      ]
+     },
+     {
+      "label": "8",
+      "at": [
+       3.52,
+       -0.03
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       -1.993,
+       0,
+       50
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "50°",
+      "at": [
+       1.212,
+       -1.428
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.366,
+       -2.289
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       3.24,
+       -2.419
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.525,
+       2.318
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.483,
+        -1.299
+       ],
+       [
+        7.983,
+        1.299
+       ],
+       [
+        5.544,
+        -0.604
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       9.107,
+       0.216
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "8",
+      "at": [
+       7.422,
+       -1.473
+      ]
+     },
+     {
+      "angle": [
+       9.483,
+       -1.299,
+       120,
+       170
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "50°",
+      "at": [
+       8.388,
+       -0.532
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.853,
+       -1.589
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       8.071,
+       1.656
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       5.119,
+       -0.751
+      ]
+     },
+     {
+      "poly": [
+       [
+        15.622,
+        -0.604
+       ],
+       [
+        13.183,
+        1.299
+       ],
+       [
+        11.683,
+        -1.299
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       12.059,
+       0.216
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "8",
+      "at": [
+       13.745,
+       -1.473
+      ]
+     },
+     {
+      "angle": [
+       11.683,
+       -1.299,
+       10,
+       60
+      ],
+      "r": 0.598
+     },
+     {
+      "label": "50°",
+      "at": [
+       12.778,
+       -0.532
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       16.047,
+       -0.751
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       13.095,
+       1.656
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       11.314,
+       -1.589
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which congruence statement is correct?",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.85,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.586
+       ],
+       [
+        5.259,
+        -1.586
+       ],
+       [
+        3.78,
+        1.586
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       4.928,
+       0.19
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       -1.586,
+       0,
+       40
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "40°",
+      "at": [
+       1.677,
+       -0.976
+      ]
+     },
+     {
+      "angle": [
+       5.259,
+       -1.586,
+       115,
+       180
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "65°",
+      "at": [
+       4.26,
+       -0.949
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.44,
+       -1.812
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       5.682,
+       -1.857
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.94,
+       1.953
+      ]
+     },
+     {
+      "poly": [
+       [
+        8.509,
+        -1.125
+       ],
+       [
+        11.19,
+        1.125
+       ],
+       [
+        7.459,
+        1.125
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       10.186,
+       -0.401
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       7.459,
+       1.125,
+       295,
+       0
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "65°",
+      "at": [
+       8.459,
+       0.488
+      ]
+     },
+     {
+      "angle": [
+       11.19,
+       1.125,
+       180,
+       220
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "40°",
+      "at": [
+       9.513,
+       0.514
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       8.349,
+       -1.636
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       11.63,
+       1.208
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       7.037,
+       1.252
+      ]
+     },
+     {
+      "poly": [
+       [
+        13.39,
+        -2.43
+       ],
+       [
+        16.876,
+        -2.125
+       ],
+       [
+        14.247,
+        2.43
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       15.183,
+       -2.849
+      ]
+     },
+     {
+      "angle": [
+       14.247,
+       2.43,
+       260,
+       300
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "40°",
+      "at": [
+       14.557,
+       0.672
+      ]
+     },
+     {
+      "angle": [
+       16.876,
+       -2.125,
+       120,
+       185
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "65°",
+      "at": [
+       15.825,
+       -1.578
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       13.089,
+       -2.859
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       17.26,
+       -2.463
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       14.16,
+       2.817
+      ]
+     }
+    ]
+   },
+   "options": [
+    "△ABC ≡ △DEF",
+    "△ABC ≡ △HGI",
+    "△ACB ≡ △HIG",
+    "△BAC ≡ △GHI"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are congruent?",
+   "answer": 2,
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.85,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -1.586
+       ],
+       [
+        5.259,
+        -1.586
+       ],
+       [
+        3.78,
+        1.586
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       4.928,
+       0.19
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       -1.586,
+       0,
+       40
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "40°",
+      "at": [
+       1.677,
+       -0.976
+      ]
+     },
+     {
+      "angle": [
+       5.259,
+       -1.586,
+       115,
+       180
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "65°",
+      "at": [
+       4.26,
+       -0.949
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.44,
+       -1.812
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       5.682,
+       -1.857
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.94,
+       1.953
+      ]
+     },
+     {
+      "poly": [
+       [
+        8.509,
+        -1.125
+       ],
+       [
+        11.19,
+        1.125
+       ],
+       [
+        7.459,
+        1.125
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       10.186,
+       -0.401
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       7.459,
+       1.125,
+       295,
+       0
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "65°",
+      "at": [
+       8.459,
+       0.488
+      ]
+     },
+     {
+      "angle": [
+       11.19,
+       1.125,
+       180,
+       220
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "40°",
+      "at": [
+       9.513,
+       0.514
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       8.349,
+       -1.636
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       11.63,
+       1.208
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       7.037,
+       1.252
+      ]
+     },
+     {
+      "poly": [
+       [
+        13.39,
+        -2.43
+       ],
+       [
+        16.876,
+        -2.125
+       ],
+       [
+        14.247,
+        2.43
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7",
+      "at": [
+       15.183,
+       -2.849
+      ]
+     },
+     {
+      "angle": [
+       14.247,
+       2.43,
+       260,
+       300
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "40°",
+      "at": [
+       14.557,
+       0.672
+      ]
+     },
+     {
+      "angle": [
+       16.876,
+       -2.125,
+       120,
+       185
+      ],
+      "r": 0.646
+     },
+     {
+      "label": "65°",
+      "at": [
+       15.825,
+       -1.578
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       13.089,
+       -2.859
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       17.26,
+       -2.463
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       14.16,
+       2.817
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which congruence statement is correct?",
+   "answer": 0,
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.11,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.25
+       ],
+       [
+        2.5,
+        -2.25
+       ],
+       [
+        0,
+        2.25
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -2.25,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "5",
+      "at": [
+       1.25,
+       -2.764
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       -0.321,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.203,
+       -2.68
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.811,
+       -2.594
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.112,
+       2.588
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.2,
+        -1.25
+       ],
+       [
+        9.2,
+        1.25
+       ],
+       [
+        4.7,
+        -1.25
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.2,
+       -1.25,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "5",
+      "at": [
+       9.521,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "9",
+      "at": [
+       6.95,
+       -1.764
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.565,
+       -1.517
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       9.48,
+       1.496
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       4.297,
+       -1.426
+      ]
+     },
+     {
+      "poly": [
+       [
+        13.9,
+        1.871
+       ],
+       [
+        11.4,
+        -1.871
+       ],
+       [
+        13.9,
+        -1.871
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       13.9,
+       -1.871,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "5",
+      "at": [
+       12.65,
+       -2.385
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       12.294,
+       0.238
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "G",
+      "at": [
+       14.032,
+       2.203
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       11.065,
+       -2.185
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       14.132,
+       -2.283
+      ]
+     }
+    ]
+   },
+   "options": [
+    "△ABC ≡ △DFE",
+    "△ABC ≡ △GHI",
+    "△ACB ≡ △DEF",
+    "△BAC ≡ △FDE"
+   ]
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the three triangles are congruent.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are congruent?",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.11,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.25
+       ],
+       [
+        2.5,
+        -2.25
+       ],
+       [
+        0,
+        2.25
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -2.25,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "5",
+      "at": [
+       1.25,
+       -2.764
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       -0.321,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.203,
+       -2.68
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.811,
+       -2.594
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.112,
+       2.588
+      ]
+     },
+     {
+      "poly": [
+       [
+        9.2,
+        -1.25
+       ],
+       [
+        9.2,
+        1.25
+       ],
+       [
+        4.7,
+        -1.25
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.2,
+       -1.25,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "5",
+      "at": [
+       9.521,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "9",
+      "at": [
+       6.95,
+       -1.764
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.565,
+       -1.517
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       9.48,
+       1.496
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       4.297,
+       -1.426
+      ]
+     },
+     {
+      "poly": [
+       [
+        13.9,
+        1.871
+       ],
+       [
+        11.4,
+        -1.871
+       ],
+       [
+        13.9,
+        -1.871
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       13.9,
+       -1.871,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.482
+     },
+     {
+      "label": "5",
+      "at": [
+       12.65,
+       -2.385
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       12.294,
+       0.238
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "G",
+      "at": [
+       14.032,
+       2.203
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       11.065,
+       -2.185
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       14.132,
+       -2.283
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Which triangle is congruent to triangle A?",
+   "answer": 2,
+   "options": [
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+   ],
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 36.93,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         2.634,
+         0.706
+        ],
+        [
+         2.086,
+         2.979
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "6",
+       "at": [
+        1.428,
+        -0.06
+       ]
+      },
+      {
+       "label": "8",
+       "at": [
+        0.745,
+        1.698
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        15,
+        55
+       ],
+       "r": 0.487
+      },
+      {
+       "label": "40°",
+       "at": [
+        1.103,
+        0.772
+       ]
+      }
+     ],
+     "caption": "A"
+    },
+    {
+     "kind": "diagram",
+     "unit": 36.79,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.182,
+         0
+        ],
+        [
+         2.094,
+         2.99
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "7",
+       "at": [
+        1.591,
+        -0.435
+       ]
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        55
+       ],
+       "r": 0.489
+      },
+      {
+       "label": "55°",
+       "at": [
+        0.888,
+        0.462
+       ]
+      },
+      {
+       "angle": [
+        3.182,
+        0,
+        110,
+        180
+       ],
+       "r": 0.489
+      },
+      {
+       "label": "70°",
+       "at": [
+        2.447,
+        0.514
+       ]
+      }
+     ],
+     "caption": "B"
+    },
+    {
+     "kind": "diagram",
+     "unit": 30.25,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         2.727,
+         0
+        ],
+        [
+         0,
+         3.636
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.496
+      },
+      {
+       "label": "6",
+       "at": [
+        1.364,
+        -0.529
+       ]
+      },
+      {
+       "label": "10",
+       "at": [
+        1.723,
+        2.088
+       ],
+       "anchor": "start"
+      }
+     ],
+     "caption": "C"
+    },
+    {
+     "kind": "diagram",
+     "unit": 34.93,
+     "items": [
+      {
+       "poly": [
+        [
+         1.818,
+         -3.149
+        ],
+        [
+         2.563,
+         -0.933
+        ],
+        [
+         0,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "6",
+       "at": [
+        1.435,
+        -0.046
+       ]
+      },
+      {
+       "label": "8",
+       "at": [
+        0.587,
+        -1.761
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        300,
+        340
+       ],
+       "r": 0.515
+      },
+      {
+       "label": "40°",
+       "at": [
+        1.09,
+        -0.915
+       ]
+      }
+     ],
+     "caption": "D"
+    },
+    {
+     "kind": "diagram",
+     "unit": 42.2,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -2.774,
+         0
+        ],
+        [
+         -1.825,
+         -2.606
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "7",
+       "at": [
+        -0.652,
+        -1.486
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        235
+       ],
+       "r": 0.427
+      },
+      {
+       "label": "55°",
+       "at": [
+        -0.774,
+        -0.403
+       ]
+      },
+      {
+       "angle": [
+        -2.774,
+        0,
+        290,
+        0
+       ],
+       "r": 0.427
+      },
+      {
+       "label": "70°",
+       "at": [
+        -2.133,
+        -0.448
+       ]
+      }
+     ],
+     "caption": "E"
+    },
+    {
+     "kind": "diagram",
+     "unit": 40.33,
+     "items": [
+      {
+       "poly": [
+        [
+         -3.636,
+         0
+        ],
+        [
+         0,
+         -2.727
+        ],
+        [
+         0,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        270
+       ],
+       "right": true,
+       "r": 0.372
+      },
+      {
+       "label": "6",
+       "at": [
+        0.248,
+        -1.364
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "10",
+       "at": [
+        -2.038,
+        -1.657
+       ],
+       "anchor": "end"
+      }
+     ],
+     "caption": "F"
+    },
+    {
+     "kind": "diagram",
+     "unit": 40.83,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.636,
+         0
+        ],
+        [
+         3.21,
+         2.694
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "8",
+       "at": [
+        1.818,
+        -0.392
+       ]
+      },
+      {
+       "label": "6",
+       "at": [
+        3.688,
+        1.389
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        40
+       ],
+       "r": 0.441
+      },
+      {
+       "label": "40°",
+       "at": [
+        1.144,
+        0.416
+       ]
+      }
+     ],
+     "caption": "G"
+    },
+    {
+     "kind": "diagram",
+     "unit": 34.57,
+     "items": [
+      {
+       "poly": [
+        [
+         2.99,
+         -2.094
+        ],
+        [
+         2.99,
+         1.088
+        ],
+        [
+         0,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "7",
+       "at": [
+        1.34,
+        0.969
+       ]
+      },
+      {
+       "angle": [
+        0,
+        0,
+        325,
+        20
+       ],
+       "r": 0.521
+      },
+      {
+       "label": "55°",
+       "at": [
+        1.056,
+        -0.139
+       ]
+      },
+      {
+       "angle": [
+        2.99,
+        1.088,
+        200,
+        270
+       ],
+       "r": 0.521
+      },
+      {
+       "label": "70°",
+       "at": [
+        2.442,
+        0.306
+       ]
+      }
+     ],
+     "caption": "H"
+    }
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Which test shows that triangles A and D are congruent?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Which triangle is congruent to triangle B?",
+   "answer": 6,
+   "options": [
+    "A",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Which test shows that triangles B and H are congruent?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Which triangle is congruent to triangle C?",
+   "answer": 4,
+   "options": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Which test shows that triangles C and F are congruent?",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Problem-solving",
+   "stem": "Here are eight triangles, labelled A to H. Lengths are in cm.",
+   "type": "choice",
+   "prompt": "Triangle E has angles of $55^\\circ$ and $70^\\circ$, like triangles B and H. Is triangle E congruent to triangle B?",
+   "answer": 1,
+   "options": [
+    "Yes, because the angles match",
+    "No, because the 7 cm side is in a different place",
+    "Yes, because both have a 7 cm side"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Each pair of triangles is congruent. Use Pythagoras' theorem to find the length $BC$.",
+   "type": "numeric",
+   "prompt": "$\\triangle ABC \\equiv \\triangle DEF$",
+   "answer": "17",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.5
+       ],
+       [
+        2.667,
+        -2.5
+       ],
+       [
+        0,
+        2.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -2.5,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.5
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.204,
+       -2.949
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       2.983,
+       -2.863
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.112,
+       2.852
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.267,
+        1.333
+       ],
+       [
+        9.267,
+        -1.333
+       ],
+       [
+        9.267,
+        1.333
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       9.267,
+       1.333,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.5
+     },
+     {
+      "label": "8",
+      "at": [
+       9.6,
+       0
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15",
+      "at": [
+       6.767,
+       1.867
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       3.848,
+       1.378
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       9.563,
+       -1.716
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       9.649,
+       1.471
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Each pair of triangles is congruent. Use Pythagoras' theorem to find the length $BC$.",
+   "type": "numeric",
+   "prompt": "$\\triangle ABC \\equiv \\triangle STU$",
+   "answer": "29",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.61,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        -2.1
+       ],
+       [
+        4,
+        -2.1
+       ],
+       [
+        0,
+        2.1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       -2.1,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.49
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.293,
+       -2.473
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       4.376,
+       -2.363
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       -0.183,
+       2.418
+      ]
+     },
+     {
+      "poly": [
+       [
+        5.6,
+        2
+       ],
+       [
+        5.6,
+        -2
+       ],
+       [
+        9.8,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       5.6,
+       2,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.49
+     },
+     {
+      "label": "20",
+      "at": [
+       5.273,
+       0
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "21",
+      "at": [
+       7.7,
+       2.523
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       5.292,
+       2.228
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       5.403,
+       -2.441
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       10.183,
+       2.117
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "If two triangles have three pairs of equal corresponding angles, must they be congruent?",
+   "answer": 1,
+   "options": [
+    "Yes, AAA is a congruence test",
+    "No, one triangle could be an enlargement of the other",
+    "Only if they are right-angled"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "Two triangles meet at a point where their sides cross. Sides with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Why are the two angles where the triangles meet equal?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 17.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -3.195,
+        -1.163
+       ],
+       [
+        -2.777,
+        4.81
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.195,
+        1.163
+       ],
+       [
+        2.777,
+        -4.81
+       ]
+      ]
+     },
+     {
+      "tick": [
+       -3.195,
+       -1.163,
+       -2.777,
+       4.81
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       3.195,
+       1.163,
+       2.777,
+       -4.81
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -2.777,
+       4.81,
+       266,
+       300
+      ],
+      "r": 1.132
+     },
+     {
+      "seg": [
+       -0.993,
+       4.09,
+       -2.523,
+       3.708
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "34°",
+      "at": [
+       -0.816,
+       3.835
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       2.777,
+       -4.81,
+       86,
+       120
+      ],
+      "r": 1.132
+     },
+     {
+      "seg": [
+       0.993,
+       -4.09,
+       2.523,
+       -3.708
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "34°",
+      "at": [
+       0.816,
+       -3.835
+      ],
+      "anchor": "end"
+     }
+    ]
+   },
+   "options": [
+    "They are alternate angles",
+    "They are co-interior angles",
+    "They are vertically opposite angles",
+    "They are both right angles"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "Two triangles meet at a point where their sides cross. Sides with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are congruent?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "$ABCD$ is a parallelogram with diagonal $AC$. Sides with the same marks are equal.",
+   "type": "choice",
+   "prompt": "Which test shows that $\\triangle ABC \\equiv \\triangle CDA$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 43.65,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.4,
+        0
+       ],
+       [
+        5.499,
+        2.356
+       ],
+       [
+        1.099,
+        2.356
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       1.099,
+       2.356,
+       4.4,
+       0
+      ]
+     },
+     {
+      "tick": [
+       1.099,
+       2.356,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.4,
+       0,
+       5.499,
+       2.356
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.4,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       5.499,
+       2.356,
+       1.099,
+       2.356
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1.099,
+       2.356,
+       4.4,
+       0
+      ],
+      "n": 3
+     },
+     {
+      "label": "B",
+      "at": [
+       -0.274,
+       -0.163
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.642,
+       -0.219
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       5.773,
+       2.428
+      ]
+     },
+     {
+      "label": "A",
+      "at": [
+       0.856,
+       2.484
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "$ABCD$ is a parallelogram with diagonal $AC$. Sides with the same marks are equal.",
+   "type": "choice",
+   "prompt": "What does this tell you about $\\angle B$ and $\\angle D$?",
+   "answer": 0,
+   "options": [
+    "∠B = ∠D",
+    "∠B + ∠D = 180°",
+    "∠B = 2∠D",
+    "Nothing"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
+   "type": "text",
+   "prompt": "Which side is shared by the two smaller triangles?",
+   "answer": "BD",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 39.27,
+    "items": [
+     {
+      "poly": [
+       [
+        -2,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        0,
+        3.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       3.4,
+       0,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       3.4,
+       -2,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       3.4,
+       2,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       3.4,
+       239.534,
+       270
+      ],
+      "r": 0.56
+     },
+     {
+      "angle": [
+       0,
+       3.4,
+       270,
+       300.466
+      ],
+      "r": 0.56
+     },
+     {
+      "angle": [
+       0,
+       3.4,
+       239.534,
+       270
+      ],
+      "r": 0.662
+     },
+     {
+      "angle": [
+       0,
+       3.4,
+       270,
+       300.466
+      ],
+      "r": 0.662
+     },
+     {
+      "label": "A",
+      "at": [
+       -2.288,
+       -0.214
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       2.288,
+       -0.214
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       0,
+       3.68
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       0,
+       -0.42
+      ]
+     }
+    ]
+   },
+   "accept": [
+    "DB"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
+   "type": "choice",
+   "prompt": "Which test shows that the two smaller triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
+   "type": "choice",
+   "prompt": "Which congruence statement is correct?",
+   "answer": 1,
+   "options": [
+    "△ABD ≡ △BCD",
+    "△ABD ≡ △CBD",
+    "△ABD ≡ △DBC",
+    "△ABD ≡ △CDB"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "In $\\triangle ABC$, $AB = CB$ and the line $BD$ cuts $\\angle ABC$ into two equal angles.",
+   "type": "numeric",
+   "prompt": "The two angles at $D$ are equal and add to $180^\\circ$. What is the size of $\\angle ADB$?",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Angle, side, side (ASS) is not a congruence test. Here $AB = 6$ cm and $\\angle A = 35^\\circ$. The arc shows every point that is $4.5$ cm from $B$.",
+   "type": "numeric",
+   "prompt": "How many points on the ray from $A$ are exactly $4.5$ cm from $B$?",
+   "answer": "2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 25.43,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       7.782,
+       5.449
+      ],
+      "arrow": "end"
+     },
+     {
+      "arc": [
+       6,
+       0,
+       4.5,
+       72.886,
+       177.114
+      ]
+     },
+     {
+      "seg": [
+       6,
+       0,
+       1.651,
+       1.156
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6.401,
+       4.482
+      ],
+      "dash": true
+     },
+     {
+      "point": [
+       1.651,
+       1.156
+      ],
+      "name": "C₁",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       6.401,
+       4.482
+      ],
+      "name": "C₂",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       6,
+       0
+      ],
+      "name": "B",
+      "pos": "se"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       35
+      ],
+      "r": 0.629
+     },
+     {
+      "seg": [
+       1.054,
+       -0.823,
+       0.6,
+       0.189
+      ],
+      "thin": true,
+      "arrow": "end"
+     },
+     {
+      "label": "35°",
+      "at": [
+       1.111,
+       -1.114
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       3,
+       -0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Angle, side, side (ASS) is not a congruence test. Here $AB = 6$ cm and $\\angle A = 35^\\circ$. The arc shows every point that is $4.5$ cm from $B$.",
+   "type": "numeric",
+   "prompt": "How many different triangles $ABC$ have $AB = 6$ cm, $\\angle A = 35^\\circ$ and $BC = 4.5$ cm?",
+   "answer": "2"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Angle, side, side (ASS) is not a congruence test. Here $AB = 6$ cm and $\\angle A = 35^\\circ$. The arc shows every point that is $4.5$ cm from $B$.",
+   "type": "choice",
+   "prompt": "So is knowing an angle and two sides, with the angle not between the sides, enough to prove two triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-7e",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7E Using congruence in proof",
+ "description": "Pick the congruence test and the reasons behind a proof, then use congruent triangles to find equal angles and lengths.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram a: $\\triangle PQR$ and $\\triangle PSR$. Which congruence test proves the triangles are congruent?",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "seg": [
+       0,
+       4.2,
+       -2.228,
+       0.565
+      ]
+     },
+     {
+      "seg": [
+       -2.228,
+       0.565,
+       0,
+       -0.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -0.8,
+       2.228,
+       0.565
+      ]
+     },
+     {
+      "seg": [
+       2.228,
+       0.565,
+       0,
+       4.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4.2,
+       0,
+       -0.8
+      ]
+     },
+     {
+      "angle": [
+       -2.228,
+       0.565,
+       328.5,
+       58.5
+      ],
+      "right": true,
+      "r": 0.417
+     },
+     {
+      "angle": [
+       2.228,
+       0.565,
+       121.5,
+       211.5
+      ],
+      "right": true,
+      "r": 0.417
+     },
+     {
+      "tick": [
+       0,
+       4.2,
+       -2.228,
+       0.565
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       4.2,
+       2.228,
+       0.565
+      ],
+      "n": 2
+     },
+     {
+      "label": "P",
+      "at": [
+       0,
+       4.506
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       -2.577,
+       0.42
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       0,
+       -1.217
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       2.577,
+       0.42
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "text",
+   "prompt": "Diagram a: Name the side that is common to both triangles.",
+   "answer": "PR",
+   "accept": [
+    "RP"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "seg": [
+       0,
+       4.2,
+       -2.228,
+       0.565
+      ]
+     },
+     {
+      "seg": [
+       -2.228,
+       0.565,
+       0,
+       -0.8
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -0.8,
+       2.228,
+       0.565
+      ]
+     },
+     {
+      "seg": [
+       2.228,
+       0.565,
+       0,
+       4.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       4.2,
+       0,
+       -0.8
+      ]
+     },
+     {
+      "angle": [
+       -2.228,
+       0.565,
+       328.5,
+       58.5
+      ],
+      "right": true,
+      "r": 0.417
+     },
+     {
+      "angle": [
+       2.228,
+       0.565,
+       121.5,
+       211.5
+      ],
+      "right": true,
+      "r": 0.417
+     },
+     {
+      "tick": [
+       0,
+       4.2,
+       -2.228,
+       0.565
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       4.2,
+       2.228,
+       0.565
+      ],
+      "n": 2
+     },
+     {
+      "label": "P",
+      "at": [
+       0,
+       4.506
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       -2.577,
+       0.42
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       0,
+       -1.217
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       2.577,
+       0.42
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram b: $\\triangle KLM$ and $\\triangle KNM$. Which congruence test proves the triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.92,
+    "items": [
+     {
+      "seg": [
+       -3,
+       0,
+       -0.735,
+       1.646
+      ]
+     },
+     {
+      "seg": [
+       -0.735,
+       1.646,
+       3.5,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3.5,
+       0,
+       -0.735,
+       -1.646
+      ]
+     },
+     {
+      "seg": [
+       -0.735,
+       -1.646,
+       -3,
+       0
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       0,
+       3.5,
+       0
+      ]
+     },
+     {
+      "tick": [
+       -3,
+       0,
+       -0.735,
+       1.646
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -3,
+       0,
+       -0.735,
+       -1.646
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -3,
+       0,
+       7.2,
+       28.8
+      ],
+      "r": 0.867
+     },
+     {
+      "angle": [
+       -3,
+       0,
+       331.2,
+       352.8
+      ],
+      "r": 0.867
+     },
+     {
+      "label": "K",
+      "at": [
+       -3.352,
+       -0.054
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       -0.836,
+       1.929
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       3.852,
+       -0.054
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       -0.836,
+       -2.037
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "text",
+   "prompt": "Diagram b: Name the side that is common to both triangles.",
+   "answer": "KM",
+   "accept": [
+    "MK"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.92,
+    "items": [
+     {
+      "seg": [
+       -3,
+       0,
+       -0.735,
+       1.646
+      ]
+     },
+     {
+      "seg": [
+       -0.735,
+       1.646,
+       3.5,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3.5,
+       0,
+       -0.735,
+       -1.646
+      ]
+     },
+     {
+      "seg": [
+       -0.735,
+       -1.646,
+       -3,
+       0
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       0,
+       3.5,
+       0
+      ]
+     },
+     {
+      "tick": [
+       -3,
+       0,
+       -0.735,
+       1.646
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -3,
+       0,
+       -0.735,
+       -1.646
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -3,
+       0,
+       7.2,
+       28.8
+      ],
+      "r": 0.867
+     },
+     {
+      "angle": [
+       -3,
+       0,
+       331.2,
+       352.8
+      ],
+      "r": 0.867
+     },
+     {
+      "label": "K",
+      "at": [
+       -3.352,
+       -0.054
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       -0.836,
+       1.929
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       3.852,
+       -0.054
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       -0.836,
+       -2.037
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram c: $\\triangle WXY$ and $\\triangle WZY$. Which congruence test proves the triangles are congruent?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.26,
+    "items": [
+     {
+      "seg": [
+       0,
+       3,
+       -1.9,
+       1.3
+      ]
+     },
+     {
+      "seg": [
+       -1.9,
+       1.3,
+       0,
+       -3.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -3.2,
+       1.9,
+       1.3
+      ]
+     },
+     {
+      "seg": [
+       1.9,
+       1.3,
+       0,
+       3
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       0,
+       -3.2
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       230.82,
+       261
+      ],
+      "r": 0.682
+     },
+     {
+      "angle": [
+       0,
+       3,
+       279,
+       309.18
+      ],
+      "r": 0.682
+     },
+     {
+      "angle": [
+       -1.9,
+       1.3,
+       301.891,
+       32.82
+      ],
+      "r": 0.403
+     },
+     {
+      "angle": [
+       -1.9,
+       1.3,
+       301.891,
+       32.82
+      ],
+      "r": 0.558
+     },
+     {
+      "angle": [
+       1.9,
+       1.3,
+       147.18,
+       238.109
+      ],
+      "r": 0.403
+     },
+     {
+      "angle": [
+       1.9,
+       1.3,
+       147.18,
+       238.109
+      ],
+      "r": 0.558
+     },
+     {
+      "label": "W",
+      "at": [
+       0,
+       3.341
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       -2.278,
+       1.377
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       0,
+       -3.665
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       2.278,
+       1.377
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "text",
+   "prompt": "Diagram c: Name the side that is common to both triangles.",
+   "answer": "WY",
+   "accept": [
+    "YW"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.26,
+    "items": [
+     {
+      "seg": [
+       0,
+       3,
+       -1.9,
+       1.3
+      ]
+     },
+     {
+      "seg": [
+       -1.9,
+       1.3,
+       0,
+       -3.2
+      ]
+     },
+     {
+      "seg": [
+       0,
+       -3.2,
+       1.9,
+       1.3
+      ]
+     },
+     {
+      "seg": [
+       1.9,
+       1.3,
+       0,
+       3
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3,
+       0,
+       -3.2
+      ]
+     },
+     {
+      "angle": [
+       0,
+       3,
+       230.82,
+       261
+      ],
+      "r": 0.682
+     },
+     {
+      "angle": [
+       0,
+       3,
+       279,
+       309.18
+      ],
+      "r": 0.682
+     },
+     {
+      "angle": [
+       -1.9,
+       1.3,
+       301.891,
+       32.82
+      ],
+      "r": 0.403
+     },
+     {
+      "angle": [
+       -1.9,
+       1.3,
+       301.891,
+       32.82
+      ],
+      "r": 0.558
+     },
+     {
+      "angle": [
+       1.9,
+       1.3,
+       147.18,
+       238.109
+      ],
+      "r": 0.403
+     },
+     {
+      "angle": [
+       1.9,
+       1.3,
+       147.18,
+       238.109
+      ],
+      "r": 0.558
+     },
+     {
+      "label": "W",
+      "at": [
+       0,
+       3.341
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       -2.278,
+       1.377
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       0,
+       -3.665
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       2.278,
+       1.377
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram d: $\\triangle EFG$ and $\\triangle EHG$. Which congruence test proves the triangles are congruent?",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 54.86,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3.443,
+       -0.564
+      ]
+     },
+     {
+      "seg": [
+       3.443,
+       -0.564,
+       4.375,
+       1.421
+      ]
+     },
+     {
+      "seg": [
+       4.375,
+       1.421,
+       2.454,
+       2.48
+      ]
+     },
+     {
+      "seg": [
+       2.454,
+       2.48,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.375,
+       1.421
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.443,
+       -0.564
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.454,
+       2.48
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3.443,
+       -0.564,
+       4.375,
+       1.421
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.454,
+       2.48,
+       4.375,
+       1.421
+      ],
+      "n": 1
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.225,
+       -0.11
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       3.568,
+       -0.801
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       4.6,
+       1.458
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       2.437,
+       2.68
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "text",
+   "prompt": "Diagram d: Name the side that is common to both triangles.",
+   "answer": "EG",
+   "accept": [
+    "GE"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 54.86,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       3.443,
+       -0.564
+      ]
+     },
+     {
+      "seg": [
+       3.443,
+       -0.564,
+       4.375,
+       1.421
+      ]
+     },
+     {
+      "seg": [
+       4.375,
+       1.421,
+       2.454,
+       2.48
+      ]
+     },
+     {
+      "seg": [
+       2.454,
+       2.48,
+       0,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.375,
+       1.421
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.443,
+       -0.564
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.454,
+       2.48
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       3.443,
+       -0.564,
+       4.375,
+       1.421
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.454,
+       2.48,
+       4.375,
+       1.421
+      ],
+      "n": 1
+     },
+     {
+      "label": "E",
+      "at": [
+       -0.225,
+       -0.11
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       3.568,
+       -0.801
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       4.6,
+       1.458
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       2.437,
+       2.68
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram e: $\\triangle RTS$ and $\\triangle UTV$. Which congruence test proves the triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 49.26,
+    "items": [
+     {
+      "seg": [
+       -2.298,
+       1.928,
+       1.302,
+       -1.093
+      ]
+     },
+     {
+      "seg": [
+       -2.298,
+       -1.928,
+       1.302,
+       1.093
+      ]
+     },
+     {
+      "seg": [
+       -2.298,
+       1.928,
+       1.302,
+       1.093
+      ]
+     },
+     {
+      "seg": [
+       -2.298,
+       -1.928,
+       1.302,
+       -1.093
+      ]
+     },
+     {
+      "tick": [
+       -2.298,
+       1.928,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -2.298,
+       -1.928,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.302,
+       1.093
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.302,
+       -1.093
+      ],
+      "n": 1
+     },
+     {
+      "label": "R",
+      "at": [
+       -2.544,
+       1.989
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       -2.544,
+       -2.152
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       1.548,
+       1.154
+      ]
+     },
+     {
+      "label": "V",
+      "at": [
+       1.548,
+       -1.316
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       0.447,
+       -0.081
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram e: Which reason tells you that $\\angle RTS = \\angle UTV$?",
+   "answer": 1,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 49.26,
+    "items": [
+     {
+      "seg": [
+       -2.298,
+       1.928,
+       1.302,
+       -1.093
+      ]
+     },
+     {
+      "seg": [
+       -2.298,
+       -1.928,
+       1.302,
+       1.093
+      ]
+     },
+     {
+      "seg": [
+       -2.298,
+       1.928,
+       1.302,
+       1.093
+      ]
+     },
+     {
+      "seg": [
+       -2.298,
+       -1.928,
+       1.302,
+       -1.093
+      ]
+     },
+     {
+      "tick": [
+       -2.298,
+       1.928,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -2.298,
+       -1.928,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.302,
+       1.093
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.302,
+       -1.093
+      ],
+      "n": 1
+     },
+     {
+      "label": "R",
+      "at": [
+       -2.544,
+       1.989
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       -2.544,
+       -2.152
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       1.548,
+       1.154
+      ]
+     },
+     {
+      "label": "V",
+      "at": [
+       1.548,
+       -1.316
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       0.447,
+       -0.081
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram f: $\\triangle KLM$ and $\\triangle PNM$. Which congruence test proves the triangles are congruent?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -1.5,
+       2,
+       3,
+       2
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -2,
+       1.5,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       -1.5,
+       2,
+       1.5,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       3,
+       2,
+       -3,
+       -2
+      ]
+     },
+     {
+      "par": [
+       -1.5,
+       2,
+       3,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -3,
+       -2,
+       1.5,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.5,
+       2,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.5,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "label": "K",
+      "at": [
+       -1.747,
+       2.147
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       3.247,
+       2.147
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       -3.247,
+       -2.347
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       1.747,
+       -2.347
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.542,
+       -0.196
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram f: Which reason tells you that $\\angle LKM = \\angle NPM$?",
+   "answer": 2,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -1.5,
+       2,
+       3,
+       2
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -2,
+       1.5,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       -1.5,
+       2,
+       1.5,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       3,
+       2,
+       -3,
+       -2
+      ]
+     },
+     {
+      "par": [
+       -1.5,
+       2,
+       3,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -3,
+       -2,
+       1.5,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -1.5,
+       2,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.5,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "label": "K",
+      "at": [
+       -1.747,
+       2.147
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       3.247,
+       2.147
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       -3.247,
+       -2.347
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       1.747,
+       -2.347
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.542,
+       -0.196
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram g: $\\triangle WYX$ and $\\triangle VYZ$. Which congruence test proves the triangles are congruent?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -1.8,
+       2,
+       3,
+       2
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -2,
+       1.8,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       -1.8,
+       2,
+       1.8,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       3,
+       2,
+       -3,
+       -2
+      ]
+     },
+     {
+      "par": [
+       -1.8,
+       2,
+       3,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -3,
+       -2,
+       1.8,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       2
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -3,
+       -2
+      ],
+      "n": 2
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.047,
+       2.147
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       3.247,
+       2.147
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       -3.247,
+       -2.347
+      ]
+     },
+     {
+      "label": "V",
+      "at": [
+       2.047,
+       -2.347
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       -0.55,
+       -0.1
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram g: Which reason tells you that $\\angle WYX = \\angle VYZ$?",
+   "answer": 1,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -1.8,
+       2,
+       3,
+       2
+      ]
+     },
+     {
+      "seg": [
+       -3,
+       -2,
+       1.8,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       -1.8,
+       2,
+       1.8,
+       -2
+      ]
+     },
+     {
+      "seg": [
+       3,
+       2,
+       -3,
+       -2
+      ]
+     },
+     {
+      "par": [
+       -1.8,
+       2,
+       3,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -3,
+       -2,
+       1.8,
+       -2
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3,
+       2
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       -3,
+       -2
+      ],
+      "n": 2
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.047,
+       2.147
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       3.247,
+       2.147
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       -3.247,
+       -2.347
+      ]
+     },
+     {
+      "label": "V",
+      "at": [
+       2.047,
+       -2.347
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       -0.55,
+       -0.1
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram h: $\\triangle EFH$ and $\\triangle GFH$. Which congruence test proves the triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.62,
+    "items": [
+     {
+      "seg": [
+       4.4,
+       2.6,
+       4.4,
+       -2.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       2.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       -2.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.4,
+       2.6
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.4,
+       -2.6
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       6.116,
+       24.463
+      ],
+      "r": 0.982
+     },
+     {
+      "angle": [
+       0,
+       0,
+       335.537,
+       353.884
+      ],
+      "r": 0.982
+     },
+     {
+      "label": "E",
+      "at": [
+       4.686,
+       2.77
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       4.804,
+       -0.116
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       4.686,
+       -3.002
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       -0.404,
+       -0.116
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "text",
+   "prompt": "Diagram h: Name the side that is common to both triangles.",
+   "answer": "FH",
+   "accept": [
+    "HF"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 34.62,
+    "items": [
+     {
+      "seg": [
+       4.4,
+       2.6,
+       4.4,
+       -2.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       2.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       -2.6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.4,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.4,
+       2.6
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.4,
+       -2.6
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       0,
+       0,
+       6.116,
+       24.463
+      ],
+      "r": 0.982
+     },
+     {
+      "angle": [
+       0,
+       0,
+       335.537,
+       353.884
+      ],
+      "r": 0.982
+     },
+     {
+      "label": "E",
+      "at": [
+       4.686,
+       2.77
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       4.804,
+       -0.116
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       4.686,
+       -3.002
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       -0.404,
+       -0.116
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1q",
+   "label": "1q",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram i: $\\triangle JKL$ and $\\triangle LMJ$. Which congruence test proves the triangles are congruent?",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 48.08,
+    "items": [
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        5.2,
+        0
+       ],
+       [
+        4.2,
+        2.4
+       ],
+       [
+        0,
+        2.4
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.4,
+       5.2,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2.4,
+       4.2,
+       2.4
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1,
+       0,
+       5.2,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       2.4,
+       1,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.2,
+       2.4,
+       5.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "J",
+      "at": [
+       -0.246,
+       2.472
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       4.416,
+       2.521
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       5.446,
+       -0.155
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.784,
+       -0.204
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1r",
+   "label": "1r",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "text",
+   "prompt": "Diagram i: Name the side that is common to both triangles.",
+   "answer": "JL",
+   "accept": [
+    "LJ"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 48.08,
+    "items": [
+     {
+      "poly": [
+       [
+        1,
+        0
+       ],
+       [
+        5.2,
+        0
+       ],
+       [
+        4.2,
+        2.4
+       ],
+       [
+        0,
+        2.4
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.4,
+       5.2,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2.4,
+       4.2,
+       2.4
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       1,
+       0,
+       5.2,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       2.4,
+       1,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4.2,
+       2.4,
+       5.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "J",
+      "at": [
+       -0.246,
+       2.472
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       4.416,
+       2.521
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       5.446,
+       -0.155
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.784,
+       -0.204
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1s",
+   "label": "1s",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram j: $\\triangle WXZ$ and $\\triangle YZX$. Which congruence test proves the triangles are congruent?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 52.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ],
+       [
+        4.8,
+        2.2
+       ],
+       [
+        1.2,
+        2.2
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.8,
+       2.2
+      ]
+     },
+     {
+      "par": [
+       1.2,
+       2.2,
+       4.8,
+       2.2
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       3.6,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.2,
+       2.2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3.6,
+       0,
+       4.8,
+       2.2
+      ],
+      "n": 1
+     },
+     {
+      "label": "W",
+      "at": [
+       1.016,
+       2.33
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       -0.227,
+       -0.142
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       3.784,
+       -0.207
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       5.027,
+       2.266
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1t",
+   "label": "1t",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram j: Which reason tells you that $\\angle WZX = \\angle YXZ$?",
+   "answer": 2,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 52.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ],
+       [
+        4.8,
+        2.2
+       ],
+       [
+        1.2,
+        2.2
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.8,
+       2.2
+      ]
+     },
+     {
+      "par": [
+       1.2,
+       2.2,
+       4.8,
+       2.2
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       3.6,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.2,
+       2.2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3.6,
+       0,
+       4.8,
+       2.2
+      ],
+      "n": 1
+     },
+     {
+      "label": "W",
+      "at": [
+       1.016,
+       2.33
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       -0.227,
+       -0.142
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       3.784,
+       -0.207
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       5.027,
+       2.266
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1u",
+   "label": "1u",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram k: $\\triangle MNO$ and $\\triangle PNO$ ($O$ is the centre of the circle). Which congruence test proves the triangles are congruent?",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.5,
+       -2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.5,
+       2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2.5,
+       -2.403,
+       -0.689
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       2.5,
+       2.403,
+       -0.689
+      ],
+      "n": 2
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       -2.74,
+       -0.886
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       2.74,
+       -0.886
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0,
+       -0.475
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1v",
+   "label": "1v",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram k: Which reason tells you that $OM = OP$?",
+   "answer": 3,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.5,
+       -2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.5,
+       2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       -2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.403,
+       -0.689
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "tick": [
+       0,
+       2.5,
+       -2.403,
+       -0.689
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       2.5,
+       2.403,
+       -0.689
+      ],
+      "n": 2
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       -2.74,
+       -0.886
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       2.74,
+       -0.886
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0,
+       -0.475
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1w",
+   "label": "1w",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram l: $\\triangle EOF$ and $\\triangle GOH$ ($O$ is the centre of the circle, and $EG$ and $FH$ pass through $O$). Which congruence test proves the triangles are congruent?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       -2.12,
+       1.325,
+       2.12,
+       -1.325
+      ]
+     },
+     {
+      "seg": [
+       2.12,
+       1.325,
+       -2.12,
+       -1.325
+      ]
+     },
+     {
+      "seg": [
+       -2.12,
+       1.325,
+       -2.12,
+       -1.325
+      ]
+     },
+     {
+      "seg": [
+       2.12,
+       1.325,
+       2.12,
+       -1.325
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       -2.417,
+       1.41
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       -2.417,
+       -1.61
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       2.417,
+       -1.61
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       2.417,
+       1.41
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0,
+       0.275
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1x",
+   "label": "1x",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of triangles, with equal sides and angles marked. For each diagram, choose the congruence test, then give the extra fact or reason the proof needs.",
+   "type": "choice",
+   "prompt": "Diagram l: Which reason tells you that $OE$, $OF$, $OG$ and $OH$ are all equal?",
+   "answer": 3,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       -2.12,
+       1.325,
+       2.12,
+       -1.325
+      ]
+     },
+     {
+      "seg": [
+       2.12,
+       1.325,
+       -2.12,
+       -1.325
+      ]
+     },
+     {
+      "seg": [
+       -2.12,
+       1.325,
+       -2.12,
+       -1.325
+      ]
+     },
+     {
+      "seg": [
+       2.12,
+       1.325,
+       2.12,
+       -1.325
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "E",
+      "at": [
+       -2.417,
+       1.41
+      ]
+     },
+     {
+      "label": "F",
+      "at": [
+       -2.417,
+       -1.61
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       2.417,
+       -1.61
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       2.417,
+       1.41
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0,
+       0.275
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $KP$ and $NL$ are straight lines that cross at $M$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle KLM \\equiv \\triangle PNM$?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 37.5,
+    "items": [
+     {
+      "seg": [
+       -3.2,
+       1.6,
+       3.2,
+       -1.6
+      ]
+     },
+     {
+      "seg": [
+       -1.5,
+       -1.6,
+       1.5,
+       1.6
+      ]
+     },
+     {
+      "seg": [
+       -3.2,
+       1.6,
+       1.5,
+       1.6
+      ]
+     },
+     {
+      "seg": [
+       -1.5,
+       -1.6,
+       3.2,
+       -1.6
+      ]
+     },
+     {
+      "tick": [
+       -3.2,
+       1.6,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       3.2,
+       -1.6
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       -1.5,
+       -1.6,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       1.5,
+       1.6
+      ],
+      "n": 1
+     },
+     {
+      "label": "N",
+      "at": [
+       -3.464,
+       1.757
+      ]
+     },
+     {
+      "label": "P",
+      "at": [
+       1.764,
+       1.757
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       -1.764,
+       -1.971
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       3.464,
+       -1.971
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.578,
+       -0.005
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $KP$ and $NL$ are straight lines that cross at $M$.",
+   "type": "numeric",
+   "prompt": "Given $\\angle LKM = 37^\\circ$, use the congruent triangles to find $\\angle NPM$.",
+   "answer": "37",
+   "units": "°"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $KP$ and $NL$ are straight lines that cross at $M$.",
+   "type": "choice",
+   "prompt": "Which reason proves that $KL \\parallel NP$?",
+   "answer": 0,
+   "options": [
+    "∠LKM and ∠NPM are equal alternate angles",
+    "∠LKM and ∠NPM are equal corresponding angles",
+    "∠KML and ∠PMN are vertically opposite",
+    "KM = MP"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $FH$ and $JK$ are straight lines that cross at right angles at $G$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle FGJ \\equiv \\triangle HGK$?",
+   "answer": 3,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "seg": [
+       -2.681,
+       0,
+       2.681,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       2.5,
+       0,
+       -2.5
+      ]
+     },
+     {
+      "seg": [
+       -2.681,
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       2.681,
+       0,
+       0,
+       -2.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.375
+     },
+     {
+      "tick": [
+       -2.681,
+       0,
+       0,
+       2.5
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       2.681,
+       0,
+       0,
+       -2.5
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       0,
+       2.5
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       0,
+       0,
+       -2.5
+      ],
+      "n": 1
+     },
+     {
+      "label": "F",
+      "at": [
+       -3.031,
+       -0.1
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       3.031,
+       -0.1
+      ]
+     },
+     {
+      "label": "J",
+      "at": [
+       0,
+       2.75
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       0,
+       -2.95
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       0.25,
+       0.25
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $FH$ and $JK$ are straight lines that cross at right angles at $G$.",
+   "type": "numeric",
+   "prompt": "Given $\\angle GFJ = 43^\\circ$, find $\\angle GHK$.",
+   "answer": "43",
+   "units": "°"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $FH$ and $JK$ are straight lines that cross at right angles at $G$.",
+   "type": "choice",
+   "prompt": "Which reason proves that $FJ \\parallel HK$?",
+   "answer": 1,
+   "options": [
+    "∠FGJ and ∠HGK are both right angles",
+    "∠JFG and ∠KHG are equal alternate angles",
+    "FJ = HK",
+    "∠JFG and ∠KHG are co-interior angles"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Look at this diagram, where equal sides are marked.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle QRT \\equiv \\triangle STR$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 49.97,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.2,
+        0
+       ],
+       [
+        5.003,
+        2.473
+       ],
+       [
+        0.803,
+        2.473
+       ]
+      ]
+     },
+     {
+      "seg": [
+       5.003,
+       2.473,
+       0,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0.803,
+       2.473,
+       5.003,
+       2.473
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4.2,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0.803,
+       2.473,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       5.003,
+       2.473,
+       4.2,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "Q",
+      "at": [
+       0.593,
+       2.586
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       5.237,
+       2.548
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       4.41,
+       -0.193
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       -0.233,
+       -0.155
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Look at this diagram, where equal sides are marked.",
+   "type": "numeric",
+   "prompt": "Given $\\angle QTR = 46^\\circ$, find $\\angle SRT$.",
+   "answer": "46",
+   "units": "°"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Look at this diagram, where equal sides are marked.",
+   "type": "choice",
+   "prompt": "Which reason proves that $QT \\parallel RS$?",
+   "answer": 2,
+   "options": [
+    "QT = RS",
+    "∠QTR and ∠SRT are co-interior angles",
+    "∠QTR and ∠SRT are equal alternate angles",
+    "RT is common to both triangles"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle WOX \\equiv \\triangle ZOY$?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       -2.476,
+       0.348,
+       2.476,
+       -0.348
+      ]
+     },
+     {
+      "seg": [
+       -0.434,
+       2.462,
+       0.434,
+       -2.462
+      ]
+     },
+     {
+      "seg": [
+       -2.476,
+       0.348,
+       -0.434,
+       2.462
+      ]
+     },
+     {
+      "seg": [
+       2.476,
+       -0.348,
+       0.434,
+       -2.462
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "W",
+      "at": [
+       -2.822,
+       0.297
+      ]
+     },
+     {
+      "label": "X",
+      "at": [
+       -0.495,
+       2.707
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       2.822,
+       -0.497
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       0.495,
+       -2.907
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.26,
+       0.17
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
+   "type": "numeric",
+   "prompt": "Given $\\angle OWX = 54^\\circ$, find $\\angle OZY$.",
+   "answer": "54",
+   "units": "°"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
+   "type": "numeric",
+   "prompt": "Given $\\angle OWX = 54^\\circ$, find $\\angle ZOY$. ($\\triangle WOX$ is isosceles.)",
+   "answer": "72",
+   "units": "°"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "$O$ is the centre of the circle. $WZ$ and $XY$ are diameters.",
+   "type": "choice",
+   "prompt": "Which reason proves that $WX \\parallel YZ$?",
+   "answer": 0,
+   "options": [
+    "∠XWZ and ∠YZW are equal alternate angles",
+    "OW = OZ",
+    "∠WOX and ∠ZOY are vertically opposite",
+    "The chords WX and YZ are equal"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $L$, $M$ and $N$ lie on a straight line, $KL = KN$ and $\\angle LKM = \\angle NKM$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle LKM \\equiv \\triangle NKM$?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 31.31,
+    "items": [
+     {
+      "seg": [
+       0,
+       2.874,
+       0,
+       -2.874
+      ]
+     },
+     {
+      "seg": [
+       4.6,
+       0,
+       0,
+       2.874
+      ]
+     },
+     {
+      "seg": [
+       4.6,
+       0,
+       0,
+       -2.874
+      ]
+     },
+     {
+      "seg": [
+       4.6,
+       0,
+       0,
+       0
+      ]
+     },
+     {
+      "tick": [
+       4.6,
+       0,
+       0,
+       2.874
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4.6,
+       0,
+       0,
+       -2.874
+      ],
+      "n": 2
+     },
+     {
+      "angle": [
+       4.6,
+       0,
+       154.4,
+       173.6
+      ],
+      "r": 1.086
+     },
+     {
+      "angle": [
+       4.6,
+       0,
+       186.4,
+       205.6
+      ],
+      "r": 1.086
+     },
+     {
+      "label": "L",
+      "at": [
+       -0.316,
+       3.063
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       -0.447,
+       -0.128
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       -0.316,
+       -3.318
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       5.047,
+       -0.128
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $L$, $M$ and $N$ lie on a straight line, $KL = KN$ and $\\angle LKM = \\angle NKM$.",
+   "type": "numeric",
+   "prompt": "So $\\angle LMK = \\angle NMK$, and together they make a straight angle. Find $\\angle LMK$.",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $L$, $M$ and $N$ lie on a straight line, $KL = KN$ and $\\angle LKM = \\angle NKM$.",
+   "type": "numeric",
+   "prompt": "Given $\\angle LKN = 64^\\circ$, find $\\angle KLM$.",
+   "answer": "58",
+   "units": "°"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $TS$ is perpendicular to $RU$ and $\\angle RTS = \\angle UTS$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle RST \\equiv \\triangle UST$?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 50,
+    "items": [
+     {
+      "seg": [
+       -2.059,
+       0,
+       2.059,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.2,
+       -2.059,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.2,
+       2.059,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       3.2,
+       0,
+       0
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.3
+     },
+     {
+      "angle": [
+       0,
+       3.2,
+       243.789,
+       263.447
+      ],
+      "r": 0.52
+     },
+     {
+      "angle": [
+       0,
+       3.2,
+       276.553,
+       296.211
+      ],
+      "r": 0.52
+     },
+     {
+      "label": "T",
+      "at": [
+       0,
+       3.4
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       -2.323,
+       -0.176
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       0,
+       -0.36
+      ]
+     },
+     {
+      "label": "U",
+      "at": [
+       2.323,
+       -0.176
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $TS$ is perpendicular to $RU$ and $\\angle RTS = \\angle UTS$.",
+   "type": "numeric",
+   "prompt": "So $\\triangle RTU$ is isosceles. Given $RT = 8.5$ cm, find $UT$.",
+   "answer": "8.5",
+   "units": "cm"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "In this diagram, $TS$ is perpendicular to $RU$ and $\\angle RTS = \\angle UTS$.",
+   "type": "numeric",
+   "prompt": "Given $RS = 4.6$ cm, find $RU$.",
+   "answer": "9.2",
+   "units": "cm"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a parallelogram. The diagonal $PR$ splits it into two triangles.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle PQR \\equiv \\triangle RSP$?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 44.64,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.4,
+        0
+       ],
+       [
+        5.6,
+        2.3
+       ],
+       [
+        1.2,
+        2.3
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.6,
+       2.3
+      ]
+     },
+     {
+      "par": [
+       1.2,
+       2.3,
+       5.6,
+       2.3
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       4.4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.2,
+       2.3
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       4.4,
+       0,
+       5.6,
+       2.3
+      ],
+      "n": 2
+     },
+     {
+      "label": "P",
+      "at": [
+       -0.269,
+       -0.155
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       4.636,
+       -0.215
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       5.869,
+       2.366
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       0.964,
+       2.425
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a parallelogram. The diagonal $PR$ splits it into two triangles.",
+   "type": "choice",
+   "prompt": "Which reason tells you that $\\angle QPR = \\angle SRP$?",
+   "answer": 2,
+   "options": [
+    "They share a common side",
+    "Vertically opposite angles are equal",
+    "Alternate angles on parallel lines are equal",
+    "Radii of the same circle are equal"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "$PQRS$ is a parallelogram. The diagonal $PR$ splits it into two triangles.",
+   "type": "numeric",
+   "prompt": "Given $PQ = 12.4$ cm, find $SR$.",
+   "answer": "12.4",
+   "units": "cm"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle OGM \\equiv \\triangle OHM$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 44,
+    "items": [
+     {
+      "circle": [
+       0,
+       0,
+       2.5
+      ]
+     },
+     {
+      "seg": [
+       0.114,
+       -2.497,
+       1.693,
+       1.84
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.349,
+       -0.855
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0.114,
+       -2.497
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       1.693,
+       1.84
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0.114,
+       -2.497,
+       0.904,
+       -0.329
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0.904,
+       -0.329,
+       1.693,
+       1.84
+      ],
+      "n": 2
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.299,
+       0.018
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       0.129,
+       -2.906
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       1.908,
+       1.983
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       2.648,
+       -1.055
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       1.274,
+       -0.247
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
+   "type": "numeric",
+   "prompt": "So $\\angle OMG = \\angle OMH$, and together they make a straight angle. Find $\\angle OMG$.",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
+   "type": "numeric",
+   "prompt": "The radius is $13$ cm and the chord $GH$ is $24$ cm long. Find $OM$.",
+   "answer": "5",
+   "units": "cm"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "$O$ is the centre of the circle and $M$ is the midpoint of the chord $GH$. The dashed radii $OG$ and $OH$ form two triangles.",
+   "type": "numeric",
+   "prompt": "Using the same measurements, find $MN$.",
+   "answer": "8",
+   "units": "cm"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "$JKLM$ is a parallelogram. Its diagonals cross at $N$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle JKN \\equiv \\triangle LMN$?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 45.45,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.4,
+        0
+       ],
+       [
+        5.5,
+        2.4
+       ],
+       [
+        1.1,
+        2.4
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       5.5,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       4.4,
+       0,
+       1.1,
+       2.4
+      ]
+     },
+     {
+      "par": [
+       1.1,
+       2.4,
+       5.5,
+       2.4
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       4.4,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.1,
+       2.4
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       4.4,
+       0,
+       5.5,
+       2.4
+      ],
+      "n": 1
+     },
+     {
+      "label": "J",
+      "at": [
+       -0.262,
+       -0.158
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       4.631,
+       -0.212
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       5.762,
+       2.47
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.869,
+       2.524
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       2.791,
+       1.506
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "$JKLM$ is a parallelogram. Its diagonals cross at $N$.",
+   "type": "numeric",
+   "prompt": "So the diagonals bisect each other. Given $JL = 17.4$ cm, find $JN$.",
+   "answer": "8.7",
+   "units": "cm"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "$JKLM$ is a parallelogram. Its diagonals cross at $N$.",
+   "type": "numeric",
+   "prompt": "Given $KN = 5.6$ cm, find $KM$.",
+   "answer": "11.2",
+   "units": "cm"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "$ABCD$ is a rectangle. Use $\\triangle ABC$ and $\\triangle BAD$ to show the diagonals are equal.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle ABC \\equiv \\triangle BAD$?",
+   "answer": 1,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 59.52,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.2,
+        0
+       ],
+       [
+        4.2,
+        1.44
+       ],
+       [
+        0,
+        1.44
+       ]
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       4.2,
+       1.44
+      ]
+     },
+     {
+      "seg": [
+       4.2,
+       0,
+       0,
+       1.44
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.252
+     },
+     {
+      "angle": [
+       4.2,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.252
+     },
+     {
+      "label": "A",
+      "at": [
+       -0.207,
+       -0.104
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       4.407,
+       -0.104
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       4.407,
+       1.477
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       -0.207,
+       1.477
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "$ABCD$ is a rectangle. Use $\\triangle ABC$ and $\\triangle BAD$ to show the diagonals are equal.",
+   "type": "numeric",
+   "prompt": "A rectangular gate frame is $7$ m wide and $2.4$ m high. Find the length of each diagonal.",
+   "answer": "7.4",
+   "units": "m"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle PQT \\equiv \\triangle RST$ (using alternate angles and $PQ = RS$)?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 52.24,
+    "items": [
+     {
+      "poly": [
+       [
+        -2.393,
+        -1.116
+       ],
+       [
+        0.465,
+        -0.997
+       ],
+       [
+        2.393,
+        1.116
+       ],
+       [
+        -0.465,
+        0.997
+       ]
+      ]
+     },
+     {
+      "seg": [
+       -2.393,
+       -1.116,
+       2.393,
+       1.116
+      ]
+     },
+     {
+      "seg": [
+       0.465,
+       -0.997,
+       -0.465,
+       0.997
+      ]
+     },
+     {
+      "tick": [
+       -2.393,
+       -1.116,
+       0.465,
+       -0.997
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0.465,
+       -0.997,
+       2.393,
+       1.116
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.393,
+       1.116,
+       -0.465,
+       0.997
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       -0.465,
+       0.997,
+       -2.393,
+       -1.116
+      ],
+      "n": 1
+     },
+     {
+      "label": "P",
+      "at": [
+       -2.618,
+       -1.259
+      ]
+     },
+     {
+      "label": "Q",
+      "at": [
+       0.57,
+       -1.261
+      ]
+     },
+     {
+      "label": "R",
+      "at": [
+       2.618,
+       1.183
+      ]
+     },
+     {
+      "label": "S",
+      "at": [
+       -0.57,
+       1.184
+      ]
+     },
+     {
+      "label": "T",
+      "at": [
+       0.118,
+       0.247
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
+   "type": "choice",
+   "prompt": "This shows $QT = ST$. Which test then proves $\\triangle PQT \\equiv \\triangle PST$?",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
+   "type": "numeric",
+   "prompt": "So $\\angle PTQ = \\angle PTS$. Find $\\angle PTQ$.",
+   "answer": "90",
+   "units": "°"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "$PQRS$ is a rhombus (all four sides are equal and opposite sides are parallel). Its diagonals cross at $T$.",
+   "type": "numeric",
+   "prompt": "The rhombus has sides of $13$ cm and the diagonal $QS$ is $10$ cm. Find the length of the diagonal $PR$.",
+   "answer": "24",
+   "units": "cm"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "$\\triangle XYZ$ is equilateral. $M$ is the midpoint of $XY$.",
+   "type": "choice",
+   "prompt": "Which test proves $\\triangle XMZ \\equiv \\triangle YMZ$, and so $\\angle X = \\angle Y$?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 49.07,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        3.464
+       ]
+      ]
+     },
+     {
+      "seg": [
+       2,
+       3.464,
+       2,
+       0
+      ],
+      "dash": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       4,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       3.464
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2,
+       3.464,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "X",
+      "at": [
+       -0.229,
+       -0.173
+      ]
+     },
+     {
+      "label": "Y",
+      "at": [
+       4.229,
+       -0.173
+      ]
+     },
+     {
+      "label": "Z",
+      "at": [
+       2,
+       3.688
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       2,
+       -0.367
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAS",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "$\\triangle XYZ$ is equilateral. $M$ is the midpoint of $XY$.",
+   "type": "numeric",
+   "prompt": "In the same way all three angles are equal. Find the size of each angle.",
+   "answer": "60",
+   "units": "°"
+  }
+ ]
+},
+{
+ "id": "y9-7f",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7F Enlargement and similar figures",
+ "description": "Enlarge shapes from a centre, find scale factors and missing sides in similar figures, and use scale in real situations.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
+   "type": "point",
+   "prompt": "Scale factor $\\frac{1}{3}$: find $A'$.",
+   "answer": "(7,5)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     0,
+     10
+    ],
+    "y": [
+     0,
+     8
+    ],
+    "points": {
+     "A": [
+      3,
+      1
+     ],
+     "B": [
+      6,
+      1
+     ],
+     "C": [
+      3,
+      4
+     ],
+     "O": [
+      9,
+      7
+     ]
+    },
+    "path": [
+     [
+      3,
+      1
+     ],
+     [
+      6,
+      1
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "closed": true
+   }
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
+   "type": "point",
+   "prompt": "Scale factor $\\frac{1}{3}$: find $B'$.",
+   "answer": "(8,5)"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
+   "type": "point",
+   "prompt": "Scale factor $\\frac{1}{3}$: find $C'$.",
+   "answer": "(7,6)"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
+   "type": "point",
+   "prompt": "Scale factor $2$: find $A'$.",
+   "answer": "(-3,-5)"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
+   "type": "point",
+   "prompt": "Scale factor $2$: find $B'$.",
+   "answer": "(3,-5)"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Triangle $ABC$ is enlarged using $O$ as the centre of enlargement. Give the coordinates of each image point as $(x, y)$.",
+   "type": "point",
+   "prompt": "Scale factor $2$: find $C'$.",
+   "answer": "(-3,1)"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
+   "type": "point",
+   "prompt": "Scale factor $\\frac{1}{2}$: find the coordinates of $A'$.",
+   "answer": "(3,3)",
+   "stemFigure": {
+    "kind": "plane",
+    "x": [
+     0,
+     8
+    ],
+    "y": [
+     0,
+     8
+    ],
+    "points": {
+     "A": [
+      2,
+      2
+     ],
+     "B": [
+      6,
+      2
+     ],
+     "C": [
+      6,
+      6
+     ],
+     "D": [
+      2,
+      6
+     ],
+     "O": [
+      4,
+      4
+     ]
+    },
+    "path": [
+     [
+      2,
+      2
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      6,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ],
+    "closed": true
+   }
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
+   "type": "point",
+   "prompt": "Scale factor $\\frac{1}{2}$: find the coordinates of $C'$.",
+   "answer": "(5,5)"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
+   "type": "numeric",
+   "prompt": "Scale factor $\\frac{1}{2}$: what is the side length of the image square, in grid units?",
+   "answer": "2"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
+   "type": "point",
+   "prompt": "Scale factor $1.5$: find the coordinates of $A'$.",
+   "answer": "(1,1)"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
+   "type": "point",
+   "prompt": "Scale factor $1.5$: find the coordinates of $C'$.",
+   "answer": "(7,7)"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Square $ABCD$ has its centre at $O$. It is enlarged using $O$ as the centre of enlargement.",
+   "type": "numeric",
+   "prompt": "Scale factor $1.5$: what is the side length of the image square, in grid units?",
+   "answer": "6"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair a: find the scale factor that enlarges the left figure to the right figure.",
+   "answer": "1.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.52,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        0,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -1.102
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       4.612,
+       3.816
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.689,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       8,
+       0,
+       150.504,
+       172.626
+      ],
+      "r": 0.964
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.033
+     },
+     {
+      "poly": [
+       [
+        24.8,
+        0
+       ],
+       [
+        12.8,
+        0
+       ],
+       [
+        24.8,
+        9
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "12",
+      "at": [
+       18.8,
+       -1.102
+      ]
+     },
+     {
+      "label": "15",
+      "at": [
+       18.188,
+       5.316
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       25.489,
+       4.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       12.8,
+       0,
+       7.374,
+       29.496
+      ],
+      "r": 0.964
+     },
+     {
+      "angle": [
+       24.8,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 1.033
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair a: find $x$.",
+   "answer": "9",
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.52,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        0,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -1.102
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       4.612,
+       3.816
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.689,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       8,
+       0,
+       150.504,
+       172.626
+      ],
+      "r": 0.964
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.033
+     },
+     {
+      "poly": [
+       [
+        24.8,
+        0
+       ],
+       [
+        12.8,
+        0
+       ],
+       [
+        24.8,
+        9
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "12",
+      "at": [
+       18.8,
+       -1.102
+      ]
+     },
+     {
+      "label": "15",
+      "at": [
+       18.188,
+       5.316
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       25.489,
+       4.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       12.8,
+       0,
+       7.374,
+       29.496
+      ],
+      "r": 0.964
+     },
+     {
+      "angle": [
+       24.8,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 1.033
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair a: find $y$.",
+   "answer": "10",
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.52,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        0,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -1.102
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       4.612,
+       3.816
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.689,
+       3
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       8,
+       0,
+       150.504,
+       172.626
+      ],
+      "r": 0.964
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.033
+     },
+     {
+      "poly": [
+       [
+        24.8,
+        0
+       ],
+       [
+        12.8,
+        0
+       ],
+       [
+        24.8,
+        9
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "12",
+      "at": [
+       18.8,
+       -1.102
+      ]
+     },
+     {
+      "label": "15",
+      "at": [
+       18.188,
+       5.316
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       25.489,
+       4.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       12.8,
+       0,
+       7.374,
+       29.496
+      ],
+      "r": 0.964
+     },
+     {
+      "angle": [
+       24.8,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 1.033
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair b: find the scale factor that enlarges the left figure to the right figure.",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 13.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        2.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -1.224
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       5.946,
+       3.049
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       0.389,
+       2.662
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       9,
+       51
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       8,
+       0,
+       149.429,
+       172.357
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       8,
+       0,
+       149.429,
+       172.357
+      ],
+      "r": 1.453
+     },
+     {
+      "poly": [
+       [
+        26.656,
+        5
+       ],
+       [
+        12.8,
+        13
+       ],
+       [
+        17.996,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "16",
+      "at": [
+       20.309,
+       10.006
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "14",
+      "at": [
+       14.53,
+       6.153
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       22.907,
+       1.494
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       26.656,
+       5,
+       159,
+       201
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       12.8,
+       13,
+       299.429,
+       322.357
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       12.8,
+       13,
+       299.429,
+       322.357
+      ],
+      "r": 1.453
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair b: find $x$.",
+   "answer": "10",
+   "figure": {
+    "kind": "diagram",
+    "unit": 13.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        2.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -1.224
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       5.946,
+       3.049
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       0.389,
+       2.662
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       9,
+       51
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       8,
+       0,
+       149.429,
+       172.357
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       8,
+       0,
+       149.429,
+       172.357
+      ],
+      "r": 1.453
+     },
+     {
+      "poly": [
+       [
+        26.656,
+        5
+       ],
+       [
+        12.8,
+        13
+       ],
+       [
+        17.996,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "16",
+      "at": [
+       20.309,
+       10.006
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "14",
+      "at": [
+       14.53,
+       6.153
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       22.907,
+       1.494
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       26.656,
+       5,
+       159,
+       201
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       12.8,
+       13,
+       299.429,
+       322.357
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       12.8,
+       13,
+       299.429,
+       322.357
+      ],
+      "r": 1.453
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair b: find $y$.",
+   "answer": "7",
+   "figure": {
+    "kind": "diagram",
+    "unit": 13.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        8,
+        0
+       ],
+       [
+        2.5,
+        4.33
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "8",
+      "at": [
+       4,
+       -1.224
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       5.946,
+       3.049
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       0.389,
+       2.662
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       9,
+       51
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       8,
+       0,
+       149.429,
+       172.357
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       8,
+       0,
+       149.429,
+       172.357
+      ],
+      "r": 1.453
+     },
+     {
+      "poly": [
+       [
+        26.656,
+        5
+       ],
+       [
+        12.8,
+        13
+       ],
+       [
+        17.996,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "16",
+      "at": [
+       20.309,
+       10.006
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "14",
+      "at": [
+       14.53,
+       6.153
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       22.907,
+       1.494
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       26.656,
+       5,
+       159,
+       201
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       12.8,
+       13,
+       299.429,
+       322.357
+      ],
+      "r": 1.071
+     },
+     {
+      "angle": [
+       12.8,
+       13,
+       299.429,
+       322.357
+      ],
+      "r": 1.453
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair c: find the scale factor that enlarges the left figure to the right figure.",
+   "answer": "1.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 7.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        7.5
+       ],
+       [
+        10,
+        16
+       ],
+       [
+        0,
+        16
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "y",
+      "at": [
+       6.17,
+       2.19
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "10",
+      "at": [
+       5,
+       18.108
+      ]
+     },
+     {
+      "label": "16",
+      "at": [
+       -1.318,
+       8
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       10,
+       7.5,
+       99,
+       207.87
+      ],
+      "r": 1.845
+     },
+     {
+      "angle": [
+       10,
+       16,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "angle": [
+       0,
+       16,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "poly": [
+       [
+        30,
+        0
+       ],
+       [
+        16,
+        10.5
+       ],
+       [
+        16,
+        22.4
+       ],
+       [
+        30,
+        22.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "17.5",
+      "at": [
+       21.83,
+       3.69
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "14",
+      "at": [
+       23,
+       24.508
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       31.318,
+       11.2
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       16,
+       10.5,
+       332.13,
+       81
+      ],
+      "r": 1.845
+     },
+     {
+      "angle": [
+       16,
+       22.4,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "angle": [
+       30,
+       22.4,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.976
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair c: find $x$.",
+   "answer": "22.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 7.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        7.5
+       ],
+       [
+        10,
+        16
+       ],
+       [
+        0,
+        16
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "y",
+      "at": [
+       6.17,
+       2.19
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "10",
+      "at": [
+       5,
+       18.108
+      ]
+     },
+     {
+      "label": "16",
+      "at": [
+       -1.318,
+       8
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       10,
+       7.5,
+       99,
+       207.87
+      ],
+      "r": 1.845
+     },
+     {
+      "angle": [
+       10,
+       16,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "angle": [
+       0,
+       16,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "poly": [
+       [
+        30,
+        0
+       ],
+       [
+        16,
+        10.5
+       ],
+       [
+        16,
+        22.4
+       ],
+       [
+        30,
+        22.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "17.5",
+      "at": [
+       21.83,
+       3.69
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "14",
+      "at": [
+       23,
+       24.508
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       31.318,
+       11.2
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       16,
+       10.5,
+       332.13,
+       81
+      ],
+      "r": 1.845
+     },
+     {
+      "angle": [
+       16,
+       22.4,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "angle": [
+       30,
+       22.4,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.976
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair c: find $y$.",
+   "answer": "12.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 7.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        7.5
+       ],
+       [
+        10,
+        16
+       ],
+       [
+        0,
+        16
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "y",
+      "at": [
+       6.17,
+       2.19
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "10",
+      "at": [
+       5,
+       18.108
+      ]
+     },
+     {
+      "label": "16",
+      "at": [
+       -1.318,
+       8
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       10,
+       7.5,
+       99,
+       207.87
+      ],
+      "r": 1.845
+     },
+     {
+      "angle": [
+       10,
+       16,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "angle": [
+       0,
+       16,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "poly": [
+       [
+        30,
+        0
+       ],
+       [
+        16,
+        10.5
+       ],
+       [
+        16,
+        22.4
+       ],
+       [
+        30,
+        22.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "17.5",
+      "at": [
+       21.83,
+       3.69
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "14",
+      "at": [
+       23,
+       24.508
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       31.318,
+       11.2
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       16,
+       10.5,
+       332.13,
+       81
+      ],
+      "r": 1.845
+     },
+     {
+      "angle": [
+       16,
+       22.4,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.976
+     },
+     {
+      "angle": [
+       30,
+       22.4,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.976
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair d: find the scale factor that enlarges the left figure to the right figure.",
+   "answer": "0.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        3.5
+       ],
+       [
+        3,
+        7.5
+       ],
+       [
+        0,
+        3.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       3,
+       -0.8
+      ]
+     },
+     {
+      "label": "3.5",
+      "at": [
+       6.5,
+       1.75
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.044,
+       5.908
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       3,
+       7.5,
+       242.13,
+       297.87
+      ],
+      "r": 0.7
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "angle": [
+       6,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "poly": [
+       [
+        9.6,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        12,
+        1.4
+       ],
+       [
+        10.8,
+        3
+       ],
+       [
+        9.6,
+        1.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2.4",
+      "at": [
+       10.8,
+       -0.8
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       12.5,
+       0.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2",
+      "at": [
+       11.944,
+       2.608
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       10.8,
+       3,
+       242.13,
+       297.87
+      ],
+      "r": 0.7
+     },
+     {
+      "angle": [
+       9.6,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "angle": [
+       12,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair d: find $x$.",
+   "answer": "5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        3.5
+       ],
+       [
+        3,
+        7.5
+       ],
+       [
+        0,
+        3.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       3,
+       -0.8
+      ]
+     },
+     {
+      "label": "3.5",
+      "at": [
+       6.5,
+       1.75
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.044,
+       5.908
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       3,
+       7.5,
+       242.13,
+       297.87
+      ],
+      "r": 0.7
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "angle": [
+       6,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "poly": [
+       [
+        9.6,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        12,
+        1.4
+       ],
+       [
+        10.8,
+        3
+       ],
+       [
+        9.6,
+        1.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2.4",
+      "at": [
+       10.8,
+       -0.8
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       12.5,
+       0.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2",
+      "at": [
+       11.944,
+       2.608
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       10.8,
+       3,
+       242.13,
+       297.87
+      ],
+      "r": 0.7
+     },
+     {
+      "angle": [
+       9.6,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "angle": [
+       12,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair d: find $y$.",
+   "answer": "1.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        3.5
+       ],
+       [
+        3,
+        7.5
+       ],
+       [
+        0,
+        3.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       3,
+       -0.8
+      ]
+     },
+     {
+      "label": "3.5",
+      "at": [
+       6.5,
+       1.75
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       5.044,
+       5.908
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       3,
+       7.5,
+       242.13,
+       297.87
+      ],
+      "r": 0.7
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "angle": [
+       6,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "poly": [
+       [
+        9.6,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        12,
+        1.4
+       ],
+       [
+        10.8,
+        3
+       ],
+       [
+        9.6,
+        1.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2.4",
+      "at": [
+       10.8,
+       -0.8
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       12.5,
+       0.7
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2",
+      "at": [
+       11.944,
+       2.608
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       10.8,
+       3,
+       242.13,
+       297.87
+      ],
+      "r": 0.7
+     },
+     {
+      "angle": [
+       9.6,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.75
+     },
+     {
+      "angle": [
+       12,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.75
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair e: find the scale factor that enlarges the left figure to the right figure.",
+   "answer": "1.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 55.56,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.5,
+        0
+       ],
+       [
+        0.9,
+        1.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2.5",
+      "at": [
+       1.25,
+       -0.288
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       1.54,
+       0.387
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       0.646,
+       0.453
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0.9,
+       1.2,
+       233.13,
+       323.13
+      ],
+      "right": true,
+      "r": 0.27
+     },
+     {
+      "poly": [
+       [
+        3.7,
+        0
+       ],
+       [
+        7.2,
+        0
+       ],
+       [
+        4.96,
+        1.68
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3.5",
+      "at": [
+       5.45,
+       -0.288
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       5.92,
+       0.627
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2.1",
+      "at": [
+       4.526,
+       0.693
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       4.96,
+       1.68,
+       233.13,
+       323.13
+      ],
+      "right": true,
+      "r": 0.27
+     },
+     {
+      "arc": [
+       1.25,
+       0,
+       1.25,
+       0,
+       180
+      ]
+     },
+     {
+      "arc": [
+       5.45,
+       0,
+       1.75,
+       0,
+       180
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair e: find $x$.",
+   "answer": "1.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 55.56,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.5,
+        0
+       ],
+       [
+        0.9,
+        1.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2.5",
+      "at": [
+       1.25,
+       -0.288
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       1.54,
+       0.387
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       0.646,
+       0.453
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0.9,
+       1.2,
+       233.13,
+       323.13
+      ],
+      "right": true,
+      "r": 0.27
+     },
+     {
+      "poly": [
+       [
+        3.7,
+        0
+       ],
+       [
+        7.2,
+        0
+       ],
+       [
+        4.96,
+        1.68
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3.5",
+      "at": [
+       5.45,
+       -0.288
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       5.92,
+       0.627
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2.1",
+      "at": [
+       4.526,
+       0.693
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       4.96,
+       1.68,
+       233.13,
+       323.13
+      ],
+      "right": true,
+      "r": 0.27
+     },
+     {
+      "arc": [
+       1.25,
+       0,
+       1.25,
+       0,
+       180
+      ]
+     },
+     {
+      "arc": [
+       5.45,
+       0,
+       1.75,
+       0,
+       180
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair e: find $y$.",
+   "answer": "2.8",
+   "figure": {
+    "kind": "diagram",
+    "unit": 55.56,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.5,
+        0
+       ],
+       [
+        0.9,
+        1.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2.5",
+      "at": [
+       1.25,
+       -0.288
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       1.54,
+       0.387
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       0.646,
+       0.453
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0.9,
+       1.2,
+       233.13,
+       323.13
+      ],
+      "right": true,
+      "r": 0.27
+     },
+     {
+      "poly": [
+       [
+        3.7,
+        0
+       ],
+       [
+        7.2,
+        0
+       ],
+       [
+        4.96,
+        1.68
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3.5",
+      "at": [
+       5.45,
+       -0.288
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       5.92,
+       0.627
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "2.1",
+      "at": [
+       4.526,
+       0.693
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       4.96,
+       1.68,
+       233.13,
+       323.13
+      ],
+      "right": true,
+      "r": 0.27
+     },
+     {
+      "arc": [
+       1.25,
+       0,
+       1.25,
+       0,
+       180
+      ]
+     },
+     {
+      "arc": [
+       5.45,
+       0,
+       1.75,
+       0,
+       180
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair f: find the scale factor that enlarges the left figure to the right figure.",
+   "answer": "0.8",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20.41,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.5,
+        0
+       ],
+       [
+        4.902,
+        1.5
+       ],
+       [
+        3.214,
+        3.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.5",
+      "at": [
+       3.75,
+       -0.784
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.573,
+       1.395
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       1.087,
+       2.352
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       9,
+       41
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       156,
+       174
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       156,
+       174
+      ],
+      "r": 0.931
+     },
+     {
+      "poly": [
+       [
+        12,
+        2
+       ],
+       [
+        17.638,
+        4.052
+       ],
+       [
+        16.095,
+        2.214
+       ],
+       [
+        15.464,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       14.557,
+       3.746
+      ]
+     },
+     {
+      "label": "2.4",
+      "at": [
+       17.387,
+       2.696
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y",
+      "at": [
+       13.36,
+       0.355
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       12,
+       2,
+       339,
+       11
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       17.638,
+       4.052,
+       206,
+       224
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       17.638,
+       4.052,
+       206,
+       224
+      ],
+      "r": 0.931
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3q",
+   "label": "3q",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair f: find $x$.",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20.41,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.5,
+        0
+       ],
+       [
+        4.902,
+        1.5
+       ],
+       [
+        3.214,
+        3.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.5",
+      "at": [
+       3.75,
+       -0.784
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.573,
+       1.395
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       1.087,
+       2.352
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       9,
+       41
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       156,
+       174
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       156,
+       174
+      ],
+      "r": 0.931
+     },
+     {
+      "poly": [
+       [
+        12,
+        2
+       ],
+       [
+        17.638,
+        4.052
+       ],
+       [
+        16.095,
+        2.214
+       ],
+       [
+        15.464,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       14.557,
+       3.746
+      ]
+     },
+     {
+      "label": "2.4",
+      "at": [
+       17.387,
+       2.696
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y",
+      "at": [
+       13.36,
+       0.355
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       12,
+       2,
+       339,
+       11
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       17.638,
+       4.052,
+       206,
+       224
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       17.638,
+       4.052,
+       206,
+       224
+      ],
+      "r": 0.931
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3r",
+   "label": "3r",
+   "section": "Fluency",
+   "stem": "Each pair of figures is similar (matching angles are marked the same way).",
+   "type": "numeric",
+   "prompt": "Pair f: find $y$.",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 20.41,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.5,
+        0
+       ],
+       [
+        4.902,
+        1.5
+       ],
+       [
+        3.214,
+        3.83
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "7.5",
+      "at": [
+       3.75,
+       -0.784
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.573,
+       1.395
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "5",
+      "at": [
+       1.087,
+       2.352
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       9,
+       41
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       156,
+       174
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       7.5,
+       0,
+       156,
+       174
+      ],
+      "r": 0.931
+     },
+     {
+      "poly": [
+       [
+        12,
+        2
+       ],
+       [
+        17.638,
+        4.052
+       ],
+       [
+        16.095,
+        2.214
+       ],
+       [
+        15.464,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "6",
+      "at": [
+       14.557,
+       3.746
+      ]
+     },
+     {
+      "label": "2.4",
+      "at": [
+       17.387,
+       2.696
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "y",
+      "at": [
+       13.36,
+       0.355
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       12,
+       2,
+       339,
+       11
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       17.638,
+       4.052,
+       206,
+       224
+      ],
+      "r": 0.686
+     },
+     {
+      "angle": [
+       17.638,
+       4.052,
+       206,
+       224
+      ],
+      "r": 0.931
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "numeric",
+   "prompt": "Diagram a: find the scale factor.",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.731,
+       1.631
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.269,
+       1.631
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.269,
+       3.169
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       1.731,
+       3.169
+      ]
+     },
+     {
+      "poly": [
+       [
+        3,
+        4
+       ],
+       [
+        5,
+        4
+       ],
+       [
+        5,
+        6
+       ],
+       [
+        3,
+        6
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       2.731,
+       3.631
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       5.269,
+       3.631
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       5.269,
+       6.169
+      ]
+     },
+     {
+      "label": "D′",
+      "at": [
+       2.731,
+       6.169
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "point",
+   "prompt": "Diagram a: find the coordinates $(x, y)$ of the centre of enlargement.",
+   "answer": "(1,0)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        3,
+        3
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.731,
+       1.631
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.269,
+       1.631
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       3.269,
+       3.169
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       1.731,
+       3.169
+      ]
+     },
+     {
+      "poly": [
+       [
+        3,
+        4
+       ],
+       [
+        5,
+        4
+       ],
+       [
+        5,
+        6
+       ],
+       [
+        3,
+        6
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       2.731,
+       3.631
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       5.269,
+       3.631
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       5.269,
+       6.169
+      ]
+     },
+     {
+      "label": "D′",
+      "at": [
+       2.731,
+       6.169
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "numeric",
+   "prompt": "Diagram b: find the scale factor.",
+   "answer": "0.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        4
+       ],
+       [
+        6,
+        4
+       ],
+       [
+        6,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.631,
+       3.808
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6.34,
+       3.73
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6.269,
+       6.169
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        4,
+        2
+       ],
+       [
+        4,
+        3
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       1.631,
+       1.808
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       4.34,
+       1.73
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       4.269,
+       3.169
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "point",
+   "prompt": "Diagram b: find the coordinates $(x, y)$ of the centre of enlargement.",
+   "answer": "(2,0)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        4
+       ],
+       [
+        6,
+        4
+       ],
+       [
+        6,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.631,
+       3.808
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       6.34,
+       3.73
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       6.269,
+       6.169
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        4,
+        2
+       ],
+       [
+        4,
+        3
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       1.631,
+       1.808
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       4.34,
+       1.73
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       4.269,
+       3.169
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "numeric",
+   "prompt": "Diagram c: find the scale factor.",
+   "answer": "0.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        1,
+        3
+       ],
+       [
+        5,
+        3
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        1,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       0.66,
+       2.73
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       5.34,
+       2.73
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       5.34,
+       5.07
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       0.66,
+       5.07
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        4,
+        2
+       ],
+       [
+        4,
+        3
+       ],
+       [
+        2,
+        3
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       1.66,
+       1.73
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       4.34,
+       1.73
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       4.34,
+       3.07
+      ]
+     },
+     {
+      "label": "D′",
+      "at": [
+       1.66,
+       3.07
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "point",
+   "prompt": "Diagram c: find the coordinates $(x, y)$ of the centre of enlargement.",
+   "answer": "(3,1)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 31.08,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       6,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       6,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       6,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       6,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       6,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       6,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       6.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       6.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       6.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        1,
+        3
+       ],
+       [
+        5,
+        3
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        1,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       0.66,
+       2.73
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       5.34,
+       2.73
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       5.34,
+       5.07
+      ]
+     },
+     {
+      "label": "D",
+      "at": [
+       0.66,
+       5.07
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        4,
+        2
+       ],
+       [
+        4,
+        3
+       ],
+       [
+        2,
+        3
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       1.66,
+       1.73
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       4.34,
+       1.73
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       4.34,
+       3.07
+      ]
+     },
+     {
+      "label": "D′",
+      "at": [
+       1.66,
+       3.07
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "numeric",
+   "prompt": "Diagram d: find the scale factor.",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.38,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       7,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       7,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       7,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       7,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       7,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       7,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       7,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       7.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7,
+       -0.45
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       -0.4,
+       6.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       7.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       7.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.731,
+       1.631
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.34,
+       1.73
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       1.83,
+       3.24
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        4
+       ],
+       [
+        7,
+        4
+       ],
+       [
+        4,
+        7
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       3.731,
+       3.631
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       7.34,
+       3.73
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       3.83,
+       7.24
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Problem-solving",
+   "stem": "Each diagram shows a shape (shaded) and its image (unshaded) after an enlargement.",
+   "type": "point",
+   "prompt": "Diagram d: find the coordinates $(x, y)$ of the centre of enlargement.",
+   "answer": "(1,1)",
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.38,
+    "items": [
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       7,
+       0
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       1,
+       0,
+       1,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       1,
+       7,
+       1
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2,
+       0,
+       2,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       2,
+       7,
+       2
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       3,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       3,
+       7,
+       3
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       4,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       4,
+       7,
+       4
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       5,
+       0,
+       5,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       5,
+       7,
+       5
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       6,
+       7,
+       6
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       7,
+       0,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       7,
+       7,
+       7
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       7.6,
+       0
+      ],
+      "arrow": "end"
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       7.6
+      ],
+      "arrow": "end"
+     },
+     {
+      "label": "1",
+      "at": [
+       1,
+       -0.45
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.4,
+       0.92
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.4,
+       1.92
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       3,
+       -0.45
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -0.4,
+       2.92
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       4,
+       -0.45
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.4,
+       3.92
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       5,
+       -0.45
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.4,
+       4.92
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       6,
+       -0.45
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.4,
+       5.92
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       7,
+       -0.45
+      ]
+     },
+     {
+      "label": "7",
+      "at": [
+       -0.4,
+       6.92
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       -0.35,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       7.95,
+       -0.1
+      ]
+     },
+     {
+      "label": "y",
+      "at": [
+       0,
+       7.95
+      ]
+     },
+     {
+      "poly": [
+       [
+        2,
+        2
+       ],
+       [
+        3,
+        2
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.731,
+       1.631
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.34,
+       1.73
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       1.83,
+       3.24
+      ]
+     },
+     {
+      "poly": [
+       [
+        4,
+        4
+       ],
+       [
+        7,
+        4
+       ],
+       [
+        4,
+        7
+       ]
+      ]
+     },
+     {
+      "label": "A′",
+      "at": [
+       3.731,
+       3.631
+      ]
+     },
+     {
+      "label": "B′",
+      "at": [
+       7.34,
+       3.73
+      ]
+     },
+     {
+      "label": "C′",
+      "at": [
+       3.83,
+       7.24
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How tall is the shadow if the wall is $5$ m from the light?",
+   "answer": "3.2",
+   "units": "m",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30.47,
+    "items": [
+     {
+      "seg": [
+       -0.5,
+       0,
+       7.6,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       5.28
+      ]
+     },
+     {
+      "seg": [
+       4.5,
+       0,
+       4.5,
+       1.6
+      ]
+     },
+     {
+      "seg": [
+       7,
+       0,
+       0,
+       4.48
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0.12,
+       0,
+       0.12,
+       4.48
+      ]
+     },
+     {
+      "point": [
+       7,
+       0
+      ]
+     },
+     {
+      "label": "Wall",
+      "at": [
+       -0.3,
+       5.58
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "Shadow",
+      "at": [
+       0.35,
+       2.24
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "Light",
+      "at": [
+       7.25,
+       0.25
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "1.6 m",
+      "at": [
+       4.35,
+       0.8
+      ],
+      "anchor": "end"
+     },
+     {
+      "dim": [
+       4.5,
+       0,
+       7,
+       0
+      ],
+      "label": "2.5 m",
+      "off": -0.525
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How tall is the shadow if the wall is $8$ m from the light?",
+   "answer": "5.12",
+   "units": "m"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How tall is the shadow if the wall is $3.5$ m from the light?",
+   "answer": "2.24",
+   "units": "m"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How tall is the shadow if the wall is $5$ m from the person?",
+   "answer": "4.8",
+   "units": "m"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How tall is the shadow if the wall is $3$ m from the person?",
+   "answer": "3.52",
+   "units": "m"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How far is the person from the wall if the shadow is $6.4$ m tall?",
+   "answer": "7.5",
+   "units": "m"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "A person $1.6$ m tall stands $2.5$ m in front of a light on the floor. Their shadow falls on a wall behind them. The light, the top of their head and the top of the shadow are in a straight line, so the triangles are similar.",
+   "type": "numeric",
+   "prompt": "How far is the person from the wall if the shadow is $4$ m tall?",
+   "answer": "3.75",
+   "units": "m"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A bus is $14.7$ m long. In a photo of the side of the bus, it is $7$ cm long and $1.9$ cm high.",
+   "type": "numeric",
+   "prompt": "How many metres of real bus does each centimetre of the photo show?",
+   "answer": "2.1",
+   "units": "m"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A bus is $14.7$ m long. In a photo of the side of the bus, it is $7$ cm long and $1.9$ cm high.",
+   "type": "numeric",
+   "prompt": "Estimate the actual height of the bus, correct to one decimal place.",
+   "answer": "4.0",
+   "units": "m",
+   "dp": 1
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "A figure is enlarged by a scale factor of $a$, where $a > 0$.",
+   "type": "choice",
+   "prompt": "For which values of $a$ is the image larger than the original figure?",
+   "answer": 0,
+   "options": [
+    "a > 1",
+    "0 < a < 1",
+    "a = 1"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "A figure is enlarged by a scale factor of $a$, where $a > 0$.",
+   "type": "choice",
+   "prompt": "For which values of $a$ is the image smaller than the original figure?",
+   "answer": 1,
+   "options": [
+    "a > 1",
+    "0 < a < 1",
+    "a = 1"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "A figure is enlarged by a scale factor of $a$, where $a > 0$.",
+   "type": "numeric",
+   "prompt": "For what value of $a$ is the image congruent to the original figure?",
+   "answer": "1"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Decide whether any two of these shapes must be similar.",
+   "type": "choice",
+   "prompt": "Any two squares",
+   "answer": 0,
+   "options": [
+    "Always similar",
+    "Not necessarily similar"
+   ]
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Decide whether any two of these shapes must be similar.",
+   "type": "choice",
+   "prompt": "Any two rectangles",
+   "answer": 1,
+   "options": [
+    "Always similar",
+    "Not necessarily similar"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Decide whether any two of these shapes must be similar.",
+   "type": "choice",
+   "prompt": "Any two equilateral triangles",
+   "answer": 0,
+   "options": [
+    "Always similar",
+    "Not necessarily similar"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Decide whether any two of these shapes must be similar.",
+   "type": "choice",
+   "prompt": "Any two isosceles triangles",
+   "answer": 1,
+   "options": [
+    "Always similar",
+    "Not necessarily similar"
+   ]
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "Decide whether any two of these shapes must be similar.",
+   "type": "choice",
+   "prompt": "Any two circles",
+   "answer": 0,
+   "options": [
+    "Always similar",
+    "Not necessarily similar"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "An object is enlarged, then the image is enlarged again to get back to the original size.",
+   "type": "numeric",
+   "prompt": "The first enlargement uses a scale factor of $2.5$. What scale factor reverses it?",
+   "answer": "0.4",
+   "accept": [
+    "2/5"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "An object is enlarged, then the image is enlarged again to get back to the original size.",
+   "type": "expression",
+   "prompt": "The first enlargement uses a scale factor of $k$. What scale factor reverses it?",
+   "answer": "1/k",
+   "hint": "Type a fraction with /, for example 2/k"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A map has a scale ratio of $1 : 40\\,000$.",
+   "type": "numeric",
+   "prompt": "What length on the ground, in kilometres, is shown by $3$ cm on the map?",
+   "answer": "1.2",
+   "units": "km"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A map has a scale ratio of $1 : 40\\,000$.",
+   "type": "numeric",
+   "prompt": "What length on the map, in centimetres, shows $14$ km on the ground?",
+   "answer": "35",
+   "units": "cm"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "Figure 1 has side length $48$ cm. Find the side length of the smallest triangle in Figure 2.",
+   "answer": "24",
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 32.5,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         2,
+         3.464
+        ]
+       ]
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         2,
+         3.464
+        ]
+       ],
+       "fill": true
+      }
+     ],
+     "caption": "Figure 1"
+    },
+    {
+     "kind": "diagram",
+     "unit": 32.5,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         2,
+         3.464
+        ]
+       ]
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         1,
+         1.732
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         3,
+         1.732
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1.732
+        ],
+        [
+         3,
+         1.732
+        ],
+        [
+         2,
+         3.464
+        ]
+       ],
+       "fill": true
+      }
+     ],
+     "caption": "Figure 2"
+    },
+    {
+     "kind": "diagram",
+     "unit": 32.5,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         2,
+         3.464
+        ]
+       ]
+      },
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         1,
+         0
+        ],
+        [
+         0.5,
+         0.866
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         0
+        ],
+        [
+         2,
+         0
+        ],
+        [
+         1.5,
+         0.866
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         0.5,
+         0.866
+        ],
+        [
+         1.5,
+         0.866
+        ],
+        [
+         1,
+         1.732
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         2.5,
+         0.866
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         3,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         3.5,
+         0.866
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2.5,
+         0.866
+        ],
+        [
+         3.5,
+         0.866
+        ],
+        [
+         3,
+         1.732
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1,
+         1.732
+        ],
+        [
+         2,
+         1.732
+        ],
+        [
+         1.5,
+         2.598
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         2,
+         1.732
+        ],
+        [
+         3,
+         1.732
+        ],
+        [
+         2.5,
+         2.598
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "poly": [
+        [
+         1.5,
+         2.598
+        ],
+        [
+         2.5,
+         2.598
+        ],
+        [
+         2,
+         3.464
+        ]
+       ],
+       "fill": true
+      }
+     ],
+     "caption": "Figure 3"
+    }
+   ],
+   "units": "cm"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "Find the side length of the smallest triangle in Figure 3.",
+   "answer": "12",
+   "units": "cm"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "Find the side length of the smallest triangle in Figure 7.",
+   "answer": "0.75",
+   "units": "cm"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "What fraction of the large triangle is shaded in Figure 2?",
+   "answer": "0.75",
+   "accept": [
+    "0.75"
+   ]
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "What fraction of the large triangle is shaded in Figure 4?",
+   "answer": "27/64"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "What fraction of the large triangle is shaded in Figure 6?",
+   "answer": "243/1024"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "The Sierpinski triangle pattern starts with a shaded equilateral triangle (Figure 1). To make each new figure, every shaded triangle is enlarged by a factor of $\\frac{1}{2}$ and three copies are arranged in its place, leaving the middle unshaded.",
+   "type": "numeric",
+   "prompt": "If the process carries on forever, what fraction of the large triangle is still shaded?",
+   "answer": "0"
+  }
+ ]
+},
+{
+ "id": "y9-7g",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7G Similar triangles",
+ "description": "Choose the test (SSS, SAS, AAA or RHS) that shows two triangles are similar, write similarity statements and use scale factors to find unknown sides.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 40.87,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         4.082,
+         3.425
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        40
+       ],
+       "r": 0.489
+      },
+      {
+       "label": "40°",
+       "at": [
+        1.143,
+        0.416
+       ]
+      },
+      {
+       "angle": [
+        5,
+        0,
+        105,
+        180
+       ],
+       "r": 0.489
+      },
+      {
+       "label": "75°",
+       "at": [
+        4.321,
+        0.521
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 25.4,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6.647,
+         -1.172
+        ],
+        [
+         4.624,
+         -5.511
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        6.647,
+        -1.172,
+        170,
+        245
+       ],
+       "r": 0.787
+      },
+      {
+       "label": "75°",
+       "at": [
+        5.425,
+        -1.808
+       ]
+      },
+      {
+       "angle": [
+        4.624,
+        -5.511,
+        65,
+        130
+       ],
+       "r": 0.787
+      },
+      {
+       "label": "65°",
+       "at": [
+        4.444,
+        -4.145
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 34.79,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6.325,
+         0
+        ],
+        [
+         0,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "7",
+       "at": [
+        3.352,
+        1.901
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "3",
+       "at": [
+        -0.287,
+        1.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.431
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 12.3,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         -11.384
+        ],
+        [
+         -5.4,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "21",
+       "at": [
+        -3.624,
+        -6.13
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "9",
+       "at": [
+        -2.7,
+        1.301
+       ]
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        270
+       ],
+       "right": true,
+       "r": 1.22
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 31.43,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         7,
+         0
+        ],
+        [
+         4.143,
+         2.799
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "7",
+       "at": [
+        3.5,
+        -0.509
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        5.89,
+        1.724
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "5",
+       "at": [
+        1.805,
+        1.794
+       ],
+       "anchor": "end"
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 22.3,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -9.867,
+         -3.591
+        ],
+        [
+         -4.403,
+         -6.071
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "10.5",
+       "at": [
+        -5.173,
+        -1.137
+       ]
+      },
+      {
+       "label": "6",
+       "at": [
+        -7.422,
+        -5.463
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "7.5",
+       "at": [
+        -1.711,
+        -3.392
+       ],
+       "anchor": "start"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 36.67,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         4.096,
+         2.868
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "6",
+       "at": [
+        3,
+        -0.436
+       ]
+      },
+      {
+       "label": "5",
+       "at": [
+        1.815,
+        1.767
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        35
+       ],
+       "r": 0.545
+      },
+      {
+       "label": "35°",
+       "at": [
+        1.47,
+        0.464
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 13.42,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -2.795,
+         10.432
+        ],
+        [
+         3.078,
+         8.457
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "12",
+       "at": [
+        -2.229,
+        4.993
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "10",
+       "at": [
+        2.383,
+        3.921
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        70,
+        105
+       ],
+       "r": 1.49
+      },
+      {
+       "label": "35°",
+       "at": [
+        0.184,
+        4.209
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 3,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 25.54,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6.08,
+         2.835
+        ],
+        [
+         -2.536,
+         5.438
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "9",
+       "at": [
+        1.95,
+        4.727
+       ]
+      },
+      {
+       "label": "6",
+       "at": [
+        -1.713,
+        2.511
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        25,
+        115
+       ],
+       "right": true,
+       "r": 0.587
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 37.25,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -4.202,
+         -1.53
+        ],
+        [
+         1.368,
+         -3.759
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "6",
+       "at": [
+        -1.572,
+        -3.032
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        0.988,
+        -1.769
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        200,
+        290
+       ],
+       "right": true,
+       "r": 0.403
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 44,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         2.941,
+         2.059
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        35
+       ],
+       "r": 0.455
+      },
+      {
+       "label": "35°",
+       "at": [
+        1.225,
+        0.386
+       ]
+      },
+      {
+       "angle": [
+        2.941,
+        2.059,
+        215,
+        315
+       ],
+       "r": 0.455
+      },
+      {
+       "label": "100°",
+       "at": [
+        2.871,
+        1.267
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 33.85,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -6.5,
+         0
+        ],
+        [
+         -3.823,
+         -2.677
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        -6.5,
+        0,
+        315,
+        0
+       ],
+       "r": 0.591
+      },
+      {
+       "label": "45°",
+       "at": [
+        -5.287,
+        -0.502
+       ]
+      },
+      {
+       "angle": [
+        -3.823,
+        -2.677,
+        35,
+        135
+       ],
+       "r": 0.591
+      },
+      {
+       "label": "100°",
+       "at": [
+        -3.733,
+        -1.647
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 57.21,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         -0.845,
+         1.813
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "3",
+       "at": [
+        1.5,
+        -0.28
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.621,
+        0.814
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        115
+       ],
+       "r": 0.35
+      },
+      {
+       "label": "115°",
+       "at": [
+        0.329,
+        0.516
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 22.27,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -4.677,
+         2.7
+        ],
+        [
+         -0.314,
+         -3.586
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "7.5",
+       "at": [
+        -1.997,
+        1.941
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "5",
+       "at": [
+        0.314,
+        -1.834
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        150,
+        265
+       ],
+       "r": 0.898
+      },
+      {
+       "label": "115°",
+       "at": [
+        -1.394,
+        -0.726
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Choose the similarity test which proves that each pair of triangles is similar.",
+   "type": "choice",
+   "prompt": "Which test proves these triangles are similar?",
+   "answer": 0,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 36.67,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         4.333,
+         2.494
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "6",
+       "at": [
+        3,
+        -0.436
+       ]
+      },
+      {
+       "label": "3",
+       "at": [
+        5.469,
+        1.449
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "5",
+       "at": [
+        1.96,
+        1.606
+       ],
+       "anchor": "end"
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 20.33,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         10.149,
+         -3.694
+        ],
+        [
+         5.794,
+         -6.887
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "15",
+       "at": [
+        5.337,
+        -1.124
+       ]
+      },
+      {
+       "label": "7.5",
+       "at": [
+        8.403,
+        -5.879
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "12.5",
+       "at": [
+        2.375,
+        -3.882
+       ],
+       "anchor": "end"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
+   "type": "text",
+   "prompt": "$\\triangle PQR \\ ||| \\ \\triangle$ ___",
+   "answer": "YZX",
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 55,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         0,
+         2.2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.273
+      },
+      {
+       "angle": [
+        4,
+        0,
+        151.189,
+        180
+       ],
+       "r": 0.291
+      },
+      {
+       "label": "Q",
+       "at": [
+        -0.207,
+        -0.15
+       ]
+      },
+      {
+       "label": "R",
+       "at": [
+        4.228,
+        -0.099
+       ]
+      },
+      {
+       "label": "P",
+       "at": [
+        -0.159,
+        2.339
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 25.61,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -4.85,
+         2.8
+        ],
+        [
+         -1.54,
+         -2.667
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        150,
+        240
+       ],
+       "right": true,
+       "r": 0.586
+      },
+      {
+       "angle": [
+        -4.85,
+        2.8,
+        301.189,
+        330
+       ],
+       "r": 0.625
+      },
+      {
+       "label": "Z",
+       "at": [
+        0.508,
+        -0.089
+       ]
+      },
+      {
+       "label": "X",
+       "at": [
+        -5.206,
+        3.083
+       ]
+      },
+      {
+       "label": "Y",
+       "at": [
+        -1.432,
+        -3.242
+       ]
+      }
+     ]
+    }
+   ],
+   "accept": [
+    "△YZX",
+    "ΔYZX",
+    "triangle YZX",
+    "△ YZX",
+    "Δ YZX"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
+   "type": "text",
+   "prompt": "$\\triangle KLM \\ ||| \\ \\triangle$ ___",
+   "answer": "UST",
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 37.43,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4.5,
+         0
+        ],
+        [
+         3.139,
+         3.74
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        50
+       ],
+       "r": 0.427
+      },
+      {
+       "angle": [
+        3.139,
+        3.74,
+        230,
+        290
+       ],
+       "r": 0.427
+      },
+      {
+       "angle": [
+        3.139,
+        3.74,
+        230,
+        290
+       ],
+       "r": 0.561
+      },
+      {
+       "label": "K",
+       "at": [
+        -0.312,
+        -0.206
+       ]
+      },
+      {
+       "label": "L",
+       "at": [
+        4.793,
+        -0.24
+       ]
+      },
+      {
+       "label": "M",
+       "at": [
+        3.219,
+        4.025
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 31.24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.76,
+         4.481
+        ],
+        [
+         6.348,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        50
+       ],
+       "r": 0.512
+      },
+      {
+       "angle": [
+        6.348,
+        0,
+        120,
+        180
+       ],
+       "r": 0.512
+      },
+      {
+       "angle": [
+        6.348,
+        0,
+        120,
+        180
+       ],
+       "r": 0.672
+      },
+      {
+       "label": "U",
+       "at": [
+        -0.38,
+        -0.233
+       ]
+      },
+      {
+       "label": "S",
+       "at": [
+        3.814,
+        4.83
+       ]
+      },
+      {
+       "label": "T",
+       "at": [
+        6.72,
+        -0.251
+       ]
+      }
+     ]
+    }
+   ],
+   "accept": [
+    "△UST",
+    "ΔUST",
+    "triangle UST",
+    "△ UST",
+    "Δ UST"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
+   "type": "text",
+   "prompt": "$\\triangle MJK \\ ||| \\ \\triangle$ ___",
+   "answer": "MLN",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.69,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.4,
+        2
+       ],
+       [
+        -0.6,
+        2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.84,
+        -3.2
+       ],
+       [
+        0.96,
+        -3.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       -2.4,
+       2,
+       -0.6,
+       2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0.96,
+       -3.2,
+       3.84,
+       -3.2
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       -2.4,
+       2,
+       320.194,
+       0
+      ],
+      "r": 0.489
+     },
+     {
+      "angle": [
+       3.84,
+       -3.2,
+       140.194,
+       180
+      ],
+      "r": 0.489
+     },
+     {
+      "label": "J",
+      "at": [
+       -2.694,
+       2.207
+      ]
+     },
+     {
+      "label": "K",
+      "at": [
+       -0.749,
+       2.308
+      ]
+     },
+     {
+      "label": "L",
+      "at": [
+       4.156,
+       -3.503
+      ]
+     },
+     {
+      "label": "N",
+      "at": [
+       1.037,
+       -3.651
+      ]
+     },
+     {
+      "label": "M",
+      "at": [
+       0.75,
+       0.25
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "accept": [
+    "△MLN",
+    "ΔMLN",
+    "triangle MLN",
+    "△ MLN",
+    "Δ MLN"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
+   "type": "text",
+   "prompt": "$\\triangle OHI \\ ||| \\ \\triangle$ ___",
+   "answer": "OFG",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.91,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1.5,
+        -2.2
+       ],
+       [
+        1.2,
+        -2.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2.25,
+        3.3
+       ],
+       [
+        -1.8,
+        3.3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       -1.5,
+       -2.2,
+       1.2,
+       -2.2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -1.8,
+       3.3,
+       2.25,
+       3.3
+      ],
+      "n": 1
+     },
+     {
+      "label": "F",
+      "at": [
+       -1.705,
+       -2.632
+      ]
+     },
+     {
+      "label": "G",
+      "at": [
+       1.364,
+       -2.652
+      ]
+     },
+     {
+      "label": "H",
+      "at": [
+       2.514,
+       3.563
+      ]
+     },
+     {
+      "label": "I",
+      "at": [
+       -2.034,
+       3.585
+      ]
+     },
+     {
+      "label": "O",
+      "at": [
+       0.7,
+       0.1
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "accept": [
+    "△OFG",
+    "ΔOFG",
+    "triangle OFG",
+    "△ OFG",
+    "Δ OFG"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
+   "type": "text",
+   "prompt": "$\\triangle TUW \\ ||| \\ \\triangle$ ___",
+   "answer": "TVX",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7,
+        0
+       ],
+       [
+        6.2,
+        3.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       3.15,
+       0,
+       2.79,
+       1.62
+      ]
+     },
+     {
+      "par": [
+       3.15,
+       0,
+       2.79,
+       1.62
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       7,
+       0,
+       6.2,
+       3.6
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "T",
+      "pos": "s"
+     },
+     {
+      "point": [
+       3.15,
+       0
+      ],
+      "name": "U",
+      "pos": "s"
+     },
+     {
+      "point": [
+       7,
+       0
+      ],
+      "name": "V",
+      "pos": "s"
+     },
+     {
+      "point": [
+       2.79,
+       1.62
+      ],
+      "name": "W",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       6.2,
+       3.6
+      ],
+      "name": "X",
+      "pos": "n"
+     }
+    ]
+   },
+   "accept": [
+    "△TVX",
+    "ΔTVX",
+    "triangle TVX",
+    "△ TVX",
+    "Δ TVX"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. Complete each similarity statement, writing the letters in matching order. Angles marked the same way are equal, and arrows show parallel lines.",
+   "type": "text",
+   "prompt": "$\\triangle GHI \\ ||| \\ \\triangle$ ___",
+   "answer": "GKL",
+   "figure": {
+    "kind": "diagram",
+    "unit": 38.1,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        2.6,
+        4.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       1.3,
+       2.1,
+       4.3,
+       2.1
+      ]
+     },
+     {
+      "par": [
+       1.3,
+       2.1,
+       4.3,
+       2.1
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       2.6,
+       4.2
+      ],
+      "name": "G",
+      "pos": "n"
+     },
+     {
+      "point": [
+       1.3,
+       2.1
+      ],
+      "name": "H",
+      "pos": "w"
+     },
+     {
+      "point": [
+       4.3,
+       2.1
+      ],
+      "name": "I",
+      "pos": "e"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "K",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       6,
+       0
+      ],
+      "name": "L",
+      "pos": "se"
+     }
+    ]
+   },
+   "accept": [
+    "△GKL",
+    "ΔGKL",
+    "triangle GKL",
+    "△ GKL",
+    "Δ GKL"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "In this diagram $BD$ is parallel to $AE$, so $\\triangle CBD$ and $\\triangle CAE$ are similar.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are similar?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 23.37,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6.5,
+        0
+       ],
+       [
+        7.962,
+        6.846
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       3.714,
+       0,
+       4.549,
+       3.912
+      ]
+     },
+     {
+      "par": [
+       3.714,
+       0,
+       4.549,
+       3.912
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       6.5,
+       0,
+       7.962,
+       6.846
+      ],
+      "n": 1
+     },
+     {
+      "label": "6 cm",
+      "at": [
+       2.607,
+       2.95
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       4.268,
+       1.109
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "7 cm",
+      "at": [
+       6.635,
+       2.119
+      ],
+      "anchor": "end"
+     },
+     {
+      "dim": [
+       0,
+       0,
+       7.962,
+       6.846
+      ],
+      "label": "x cm",
+      "off": 1.711
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "s"
+     },
+     {
+      "point": [
+       3.714,
+       0
+      ],
+      "name": "B",
+      "pos": "s"
+     },
+     {
+      "point": [
+       6.5,
+       0
+      ],
+      "name": "A",
+      "pos": "s"
+     },
+     {
+      "point": [
+       4.549,
+       3.912
+      ],
+      "name": "D",
+      "pos": "n"
+     },
+     {
+      "point": [
+       7.962,
+       6.846
+      ],
+      "name": "E",
+      "pos": "ne"
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "In this diagram $BD$ is parallel to $AE$, so $\\triangle CBD$ and $\\triangle CAE$ are similar.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "10.5",
+   "units": "cm"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "For this pair of right-angled triangles:",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are similar?",
+   "answer": 3,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 11.72,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -5
+       ],
+       [
+        12,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "5 m",
+      "at": [
+       -0.853,
+       -2.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "13 m",
+      "at": [
+       6.51,
+       -3.723
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x m",
+      "at": [
+       6,
+       1.365
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 1.279
+     },
+     {
+      "poly": [
+       [
+        29,
+        0.625
+       ],
+       [
+        29,
+        -5.625
+       ],
+       [
+        14,
+        0.625
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "15 m",
+      "at": [
+       29.853,
+       -2.5
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "39 m",
+      "at": [
+       20.99,
+       -3.723
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "36 m",
+      "at": [
+       21.5,
+       1.99
+      ]
+     },
+     {
+      "angle": [
+       29,
+       0.625,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.279
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "For this pair of right-angled triangles:",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "12",
+   "units": "m"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
+   "type": "numeric",
+   "prompt": "Pair a: the scale factor.",
+   "answer": "1.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 12.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "10",
+      "at": [
+       5,
+       -1.271
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.794,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.191
+     },
+     {
+      "angle": [
+       10,
+       0,
+       158.199,
+       180
+      ],
+      "r": 1.271
+     },
+     {
+      "poly": [
+       [
+        27,
+        5
+       ],
+       [
+        12,
+        5
+       ],
+       [
+        27,
+        -1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x",
+      "at": [
+       19.5,
+       6.271
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       27.794,
+       2
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       27,
+       5,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.191
+     },
+     {
+      "angle": [
+       12,
+       5,
+       338.199,
+       0
+      ],
+      "r": 1.271
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
+   "type": "numeric",
+   "prompt": "Pair a: the value of $x$.",
+   "answer": "15",
+   "figure": {
+    "kind": "diagram",
+    "unit": 12.59,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "10",
+      "at": [
+       5,
+       -1.271
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -0.794,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.191
+     },
+     {
+      "angle": [
+       10,
+       0,
+       158.199,
+       180
+      ],
+      "r": 1.271
+     },
+     {
+      "poly": [
+       [
+        27,
+        5
+       ],
+       [
+        12,
+        5
+       ],
+       [
+        27,
+        -1
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "x",
+      "at": [
+       19.5,
+       6.271
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       27.794,
+       2
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       27,
+       5,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 1.191
+     },
+     {
+      "angle": [
+       12,
+       5,
+       338.199,
+       0
+      ],
+      "r": 1.271
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
+   "type": "numeric",
+   "prompt": "Pair b: the scale factor.",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 13.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        3.295,
+        12.235
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       4.5,
+       -1.224
+      ]
+     },
+     {
+      "label": "13.5",
+      "at": [
+       7.016,
+       6.523
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       9,
+       0,
+       115,
+       180
+      ],
+      "r": 1.224
+     },
+     {
+      "poly": [
+       [
+        10.8,
+        8.972
+       ],
+       [
+        15,
+        8.972
+       ],
+       [
+        12.338,
+        3.263
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3",
+      "at": [
+       12.9,
+       10.196
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       14.538,
+       5.712
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       15,
+       8.972,
+       180,
+       245
+      ],
+      "r": 1.224
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "These pairs of triangles are similar. For each pair find the scale factor which enlarges the smaller triangle to the larger one, then the value of $x$.",
+   "type": "numeric",
+   "prompt": "Pair b: the value of $x$.",
+   "answer": "4.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 13.08,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        3.295,
+        12.235
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "9",
+      "at": [
+       4.5,
+       -1.224
+      ]
+     },
+     {
+      "label": "13.5",
+      "at": [
+       7.016,
+       6.523
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       9,
+       0,
+       115,
+       180
+      ],
+      "r": 1.224
+     },
+     {
+      "poly": [
+       [
+        10.8,
+        8.972
+       ],
+       [
+        15,
+        8.972
+       ],
+       [
+        12.338,
+        3.263
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "3",
+      "at": [
+       12.9,
+       10.196
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       14.538,
+       5.712
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       15,
+       8.972,
+       180,
+       245
+      ],
+      "r": 1.224
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "In this diagram the top and bottom sides are parallel.",
+   "type": "choice",
+   "prompt": "Which test shows that the two triangles are similar?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 18.75,
+    "items": [
+     {
+      "poly": [
+       [
+        -6.428,
+        7.66
+       ],
+       [
+        9.572,
+        7.66
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        -2.393,
+        -1.915
+       ],
+       [
+        1.607,
+        -1.915
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       -6.428,
+       7.66,
+       9.572,
+       7.66
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -2.393,
+       -1.915,
+       1.607,
+       -1.915
+      ],
+      "n": 1
+     },
+     {
+      "label": "x mm",
+      "at": [
+       1.572,
+       8.407
+      ]
+     },
+     {
+      "label": "4 mm",
+      "at": [
+       -0.393,
+       -2.662
+      ]
+     },
+     {
+      "label": "10 mm",
+      "at": [
+       -2.73,
+       4.237
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "2.5 mm",
+      "at": [
+       1.288,
+       -0.551
+      ],
+      "anchor": "start"
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "In this diagram the top and bottom sides are parallel.",
+   "type": "numeric",
+   "prompt": "Find the value of $x$.",
+   "answer": "16",
+   "units": "mm"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
+   "type": "choice",
+   "prompt": "Diagram a: which test shows the triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 12.13,
+    "items": [
+     {
+      "poly": [
+       [
+        -9.467,
+        -3.221
+       ],
+       [
+        -9.467,
+        11.779
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.787,
+        1.288
+       ],
+       [
+        3.787,
+        -4.712
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       -9.467,
+       -3.221,
+       -9.467,
+       11.779
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3.787,
+       -4.712,
+       3.787,
+       1.288
+      ],
+      "n": 1
+     },
+     {
+      "label": "15",
+      "at": [
+       -9.962,
+       1.279
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "10",
+      "at": [
+       -4.423,
+       -2.522
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       1.583,
+       1.556
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       4.282,
+       -3.212
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       128.79,
+       198.79
+      ],
+      "r": 1.649
+     },
+     {
+      "label": "70°",
+      "at": [
+       -2.771,
+       0.806
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram a: find $x$.",
+   "answer": "6",
+   "figure": {
+    "kind": "diagram",
+    "unit": 12.13,
+    "items": [
+     {
+      "poly": [
+       [
+        -9.467,
+        -3.221
+       ],
+       [
+        -9.467,
+        11.779
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.787,
+        1.288
+       ],
+       [
+        3.787,
+        -4.712
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "par": [
+       -9.467,
+       -3.221,
+       -9.467,
+       11.779
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3.787,
+       -4.712,
+       3.787,
+       1.288
+      ],
+      "n": 1
+     },
+     {
+      "label": "15",
+      "at": [
+       -9.962,
+       1.279
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "10",
+      "at": [
+       -4.423,
+       -2.522
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       1.583,
+       1.556
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       4.282,
+       -3.212
+      ],
+      "anchor": "start"
+     },
+     {
+      "angle": [
+       0,
+       0,
+       128.79,
+       198.79
+      ],
+      "r": 1.649
+     },
+     {
+      "label": "70°",
+      "at": [
+       -2.771,
+       0.806
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
+   "type": "choice",
+   "prompt": "Diagram b: which test shows the triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.17,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        0,
+        12
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       4
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.059
+     },
+     {
+      "angle": [
+       6,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.059
+     },
+     {
+      "label": "6",
+      "at": [
+       3,
+       -0.847
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       7.5,
+       -0.847
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       5.718,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       -0.424,
+       6
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram b: find $x$.",
+   "answer": "12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.17,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        0,
+        12
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       6,
+       0,
+       6,
+       4
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.059
+     },
+     {
+      "angle": [
+       6,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 1.059
+     },
+     {
+      "label": "6",
+      "at": [
+       3,
+       -0.847
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       7.5,
+       -0.847
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       5.718,
+       2
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "x",
+      "at": [
+       -0.424,
+       6
+      ],
+      "anchor": "end"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
+   "type": "choice",
+   "prompt": "Diagram c: which test shows the triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.21,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        0.95,
+        11.962
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0.57,
+       7.177,
+       4.57,
+       7.177
+      ]
+     },
+     {
+      "par": [
+       0.57,
+       7.177,
+       4.57,
+       7.177
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "6",
+      "at": [
+       3.3,
+       9.978
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "9",
+      "at": [
+       7.825,
+       3.997
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4",
+      "at": [
+       1.77,
+       6.333
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       3,
+       -0.844
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "For each pair of similar triangles, choose the test that shows they are similar, then find the value of $x$.",
+   "type": "numeric",
+   "prompt": "Diagram c: find $x$.",
+   "answer": "10",
+   "figure": {
+    "kind": "diagram",
+    "unit": 14.21,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        10,
+        0
+       ],
+       [
+        0.95,
+        11.962
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0.57,
+       7.177,
+       4.57,
+       7.177
+      ]
+     },
+     {
+      "par": [
+       0.57,
+       7.177,
+       4.57,
+       7.177
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       10,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "6",
+      "at": [
+       3.3,
+       9.978
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "9",
+      "at": [
+       7.825,
+       3.997
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4",
+      "at": [
+       1.77,
+       6.333
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       3,
+       -0.844
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram a",
+   "answer": "2",
+   "figure": {
+    "kind": "diagram",
+    "unit": 26.67,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        6.056,
+        5.228
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       2.019,
+       1.743,
+       8.019,
+       1.743
+      ]
+     },
+     {
+      "par": [
+       2.019,
+       1.743,
+       8.019,
+       1.743
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       0,
+       0,
+       9,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "4",
+      "at": [
+       7.329,
+       3.65
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       8.802,
+       1.036
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "6",
+      "at": [
+       3.819,
+       1.293
+      ]
+     },
+     {
+      "label": "9",
+      "at": [
+       2.7,
+       -0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram b",
+   "answer": "12",
+   "figure": {
+    "kind": "diagram",
+    "unit": 10,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        25.981,
+        0
+       ],
+       [
+        25.981,
+        -15
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       10.392,
+       0,
+       10.392,
+       -6
+      ]
+     },
+     {
+      "par": [
+       10.392,
+       -6,
+       10.392,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       25.981,
+       -15,
+       25.981,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "x",
+      "at": [
+       4.636,
+       -3.97
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "18",
+      "at": [
+       17.627,
+       -11.47
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6",
+      "at": [
+       10.892,
+       -4.2
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "15",
+      "at": [
+       26.581,
+       -10.5
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in each diagram. Arrows show parallel lines.",
+   "type": "numeric",
+   "prompt": "Diagram c",
+   "answer": "4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 18.39,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        3.804,
+        8.157
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4,
+       0,
+       6.536,
+       5.438
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       3.804,
+       8.157
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       4,
+       0,
+       6.536,
+       5.438
+      ],
+      "n": 1
+     },
+     {
+      "label": "9",
+      "at": [
+       2.242,
+       5.906
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "6",
+      "at": [
+       6.146,
+       3.633
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "x",
+      "at": [
+       2,
+       -0.653
+      ]
+     },
+     {
+      "label": "8",
+      "at": [
+       8,
+       -0.653
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
+   "type": "choice",
+   "prompt": "Group a",
+   "answer": 1,
+   "options": [
+    "Triangle ABC",
+    "Triangle DEF",
+    "Triangle GHI"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 40,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         1.83,
+         1.83
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        45
+       ],
+       "r": 0.5
+      },
+      {
+       "label": "45°",
+       "at": [
+        1.026,
+        0.425
+       ]
+      },
+      {
+       "angle": [
+        1.83,
+        1.83,
+        225,
+        330
+       ],
+       "r": 0.5
+      },
+      {
+       "label": "105°",
+       "at": [
+        1.944,
+        0.963
+       ]
+      },
+      {
+       "label": "A",
+       "at": [
+        -0.314,
+        -0.134
+       ]
+      },
+      {
+       "label": "C",
+       "at": [
+        5.317,
+        -0.121
+       ]
+      },
+      {
+       "label": "B",
+       "at": [
+        1.718,
+        2.085
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 42.11,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -4.75,
+         0
+        ],
+        [
+         -1.956,
+         -1.956
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        225
+       ],
+       "r": 0.475
+      },
+      {
+       "label": "45°",
+       "at": [
+        -0.975,
+        -0.404
+       ]
+      },
+      {
+       "angle": [
+        -1.956,
+        -1.956,
+        45,
+        145
+       ],
+       "r": 0.475
+      },
+      {
+       "label": "100°",
+       "at": [
+        -2.029,
+        -1.128
+       ]
+      },
+      {
+       "label": "D",
+       "at": [
+        0.296,
+        0.039
+       ]
+      },
+      {
+       "label": "E",
+       "at": [
+        -5.049,
+        0.03
+       ]
+      },
+      {
+       "label": "F",
+       "at": [
+        -1.892,
+        -2.306
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 50,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         4,
+         0
+        ],
+        [
+         2.536,
+         -1.464
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        330,
+        0
+       ],
+       "r": 0.4
+      },
+      {
+       "label": "30°",
+       "at": [
+        1.269,
+        -0.34
+       ]
+      },
+      {
+       "angle": [
+        2.536,
+        -1.464,
+        45,
+        150
+       ],
+       "r": 0.4
+      },
+      {
+       "label": "105°",
+       "at": [
+        2.445,
+        -0.77
+       ]
+      },
+      {
+       "label": "G",
+       "at": [
+        -0.254,
+        0.017
+       ]
+      },
+      {
+       "label": "I",
+       "at": [
+        4.251,
+        0.027
+       ]
+      },
+      {
+       "label": "H",
+       "at": [
+        2.625,
+        -1.748
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
+   "type": "choice",
+   "prompt": "Group b",
+   "answer": 0,
+   "options": [
+    "Triangle ABC",
+    "Triangle DEF",
+    "Triangle GHI"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 26.97,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         7.416,
+         0
+        ],
+        [
+         0,
+         3
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "8",
+       "at": [
+        3.924,
+        2.035
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "3",
+       "at": [
+        -0.371,
+        1.5
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.556
+      },
+      {
+       "label": "A",
+       "at": [
+        -0.447,
+        -0.255
+       ]
+      },
+      {
+       "label": "B",
+       "at": [
+        7.889,
+        -0.17
+       ]
+      },
+      {
+       "label": "C",
+       "at": [
+        -0.375,
+        3.229
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 36.37,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -5.499,
+         0
+        ],
+        [
+         0,
+         2.4
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "10",
+       "at": [
+        -2.92,
+        1.591
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "4",
+       "at": [
+        0.275,
+        1.2
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        90,
+        180
+       ],
+       "right": true,
+       "r": 0.412
+      },
+      {
+       "label": "D",
+       "at": [
+        0.328,
+        -0.198
+       ]
+      },
+      {
+       "label": "E",
+       "at": [
+        -5.848,
+        -0.131
+       ]
+      },
+      {
+       "label": "F",
+       "at": [
+        0.269,
+        2.58
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 32.33,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -6.186,
+         0
+        ],
+        [
+         0,
+         -2.7
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "15",
+       "at": [
+        -3.285,
+        -1.789
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "6",
+       "at": [
+        0.309,
+        -1.35
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        270
+       ],
+       "right": true,
+       "r": 0.464
+      },
+      {
+       "label": "G",
+       "at": [
+        0.369,
+        0.099
+       ]
+      },
+      {
+       "label": "H",
+       "at": [
+        -6.579,
+        0.024
+       ]
+      },
+      {
+       "label": "I",
+       "at": [
+        0.303,
+        -3.026
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
+   "type": "choice",
+   "prompt": "Group c",
+   "answer": 2,
+   "options": [
+    "Triangle ABC",
+    "Triangle DEF",
+    "Triangle GHI"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 50,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3,
+         0
+        ],
+        [
+         -1,
+         1.732
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "3",
+       "at": [
+        1.5,
+        -0.32
+       ]
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.725,
+        0.736
+       ],
+       "anchor": "end"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        120
+       ],
+       "r": 0.4
+      },
+      {
+       "label": "120°",
+       "at": [
+        0.35,
+        0.606
+       ]
+      },
+      {
+       "label": "B",
+       "at": [
+        -0.197,
+        -0.21
+       ]
+      },
+      {
+       "label": "A",
+       "at": [
+        3.252,
+        -0.102
+       ]
+      },
+      {
+       "label": "C",
+       "at": [
+        -1.214,
+        1.84
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 56.82,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -2.64,
+         0
+        ],
+        [
+         0.88,
+         -1.524
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "2.4",
+       "at": [
+        -1.32,
+        0.282
+       ]
+      },
+      {
+       "label": "1.6",
+       "at": [
+        0.638,
+        -0.648
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        300
+       ],
+       "r": 0.352
+      },
+      {
+       "label": "120°",
+       "at": [
+        -0.308,
+        -0.533
+       ]
+      },
+      {
+       "label": "E",
+       "at": [
+        0.173,
+        0.115
+       ]
+      },
+      {
+       "label": "D",
+       "at": [
+        -2.862,
+        0.02
+       ]
+      },
+      {
+       "label": "F",
+       "at": [
+        1.068,
+        -1.69
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 57.74,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         1.2,
+         2.078
+        ],
+        [
+         -1.92,
+         0
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "1.5",
+       "at": [
+        0.795,
+        0.927
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "1.2",
+       "at": [
+        -0.96,
+        -0.277
+       ]
+      },
+      {
+       "angle": [
+        0,
+        0,
+        60,
+        180
+       ],
+       "r": 0.346
+      },
+      {
+       "label": "120°",
+       "at": [
+        -0.303,
+        0.525
+       ]
+      },
+      {
+       "label": "H",
+       "at": [
+        0.074,
+        -0.247
+       ]
+      },
+      {
+       "label": "G",
+       "at": [
+        1.362,
+        2.2
+       ]
+      },
+      {
+       "label": "I",
+       "at": [
+        -2.128,
+        -0.12
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "In each group, two of the triangles are similar. Which triangle is not similar to the other two?",
+   "type": "choice",
+   "prompt": "Group d",
+   "answer": 1,
+   "options": [
+    "Triangle ABC",
+    "Triangle DEF",
+    "Triangle GHI"
+   ],
+   "figure": [
+    {
+     "kind": "diagram",
+     "unit": 16.85,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         3,
+         7.416
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "6",
+       "at": [
+        3,
+        -0.949
+       ]
+      },
+      {
+       "label": "8",
+       "at": [
+        5.174,
+        3.981
+       ],
+       "anchor": "start"
+      },
+      {
+       "tick": [
+        6,
+        0,
+        3,
+        7.416
+       ],
+       "n": 1
+      },
+      {
+       "tick": [
+        3,
+        7.416,
+        0,
+        0
+       ],
+       "n": 1
+      },
+      {
+       "label": "B",
+       "at": [
+        -0.595,
+        -0.609
+       ]
+      },
+      {
+       "label": "C",
+       "at": [
+        6.595,
+        -0.609
+       ]
+      },
+      {
+       "label": "A",
+       "at": [
+        3,
+        8.069
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 27.41,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         4.56
+        ],
+        [
+         -5.809,
+         2.28
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "3.8",
+       "at": [
+        0.365,
+        2.28
+       ],
+       "anchor": "start"
+      },
+      {
+       "label": "5.2",
+       "at": [
+        -3.112,
+        3.949
+       ],
+       "anchor": "end"
+      },
+      {
+       "tick": [
+        0,
+        4.56,
+        -5.809,
+        2.28
+       ],
+       "n": 1
+      },
+      {
+       "tick": [
+        -5.809,
+        2.28,
+        0,
+        0
+       ],
+       "n": 1
+      },
+      {
+       "label": "E",
+       "at": [
+        0.307,
+        -0.434
+       ]
+      },
+      {
+       "label": "F",
+       "at": [
+        0.307,
+        4.849
+       ]
+      },
+      {
+       "label": "D",
+       "at": [
+        -6.283,
+        2.207
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 25.25,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         0,
+         -4.95
+        ],
+        [
+         6.118,
+         -2.475
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "label": "9",
+       "at": [
+        -0.396,
+        -2.475
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "12",
+       "at": [
+        3.29,
+        -4.284
+       ],
+       "anchor": "start"
+      },
+      {
+       "tick": [
+        0,
+        -4.95,
+        6.118,
+        -2.475
+       ],
+       "n": 2
+      },
+      {
+       "tick": [
+        6.118,
+        -2.475,
+        0,
+        0
+       ],
+       "n": 2
+      },
+      {
+       "label": "H",
+       "at": [
+        -0.327,
+        0.318
+       ]
+      },
+      {
+       "label": "I",
+       "at": [
+        -0.327,
+        -5.426
+       ]
+      },
+      {
+       "label": "G",
+       "at": [
+        6.633,
+        -2.554
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Look at these two triangles.",
+   "type": "numeric",
+   "prompt": "Find the size of $\\angle C$.",
+   "answer": "45",
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 40,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         5,
+         0
+        ],
+        [
+         1.59,
+         3.41
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        65
+       ],
+       "r": 0.5
+      },
+      {
+       "label": "65°",
+       "at": [
+        0.738,
+        0.47
+       ]
+      },
+      {
+       "angle": [
+        1.59,
+        3.41,
+        245,
+        315
+       ],
+       "r": 0.5
+      },
+      {
+       "label": "70°",
+       "at": [
+        1.742,
+        2.548
+       ]
+      },
+      {
+       "label": "A",
+       "at": [
+        -0.289,
+        -0.199
+       ]
+      },
+      {
+       "label": "C",
+       "at": [
+        5.301,
+        -0.172
+       ]
+      },
+      {
+       "label": "B",
+       "at": [
+        1.506,
+        3.674
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 17.88,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         -6.5,
+         0
+        ],
+        [
+         -3.651,
+         -7.829
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        245
+       ],
+       "r": 1.118
+      },
+      {
+       "label": "65°",
+       "at": [
+        -1.651,
+        -1.052
+       ]
+      },
+      {
+       "angle": [
+        -3.651,
+        -7.829,
+        65,
+        110
+       ],
+       "r": 1.118
+      },
+      {
+       "label": "45°",
+       "at": [
+        -3.542,
+        -5.347
+       ]
+      },
+      {
+       "label": "G",
+       "at": [
+        0.576,
+        0.332
+       ]
+      },
+      {
+       "label": "I",
+       "at": [
+        -7.057,
+        0.355
+       ]
+      },
+      {
+       "label": "H",
+       "at": [
+        -3.688,
+        -8.667
+       ]
+      }
+     ]
+    }
+   ],
+   "units": "°"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Look at these two triangles.",
+   "type": "text",
+   "prompt": "Complete the similarity statement: $\\triangle ABC \\ ||| \\ \\triangle$ ___",
+   "answer": "GIH",
+   "accept": [
+    "△GIH",
+    "ΔGIH",
+    "triangle GIH",
+    "△ GIH",
+    "Δ GIH"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Look at these two triangles.",
+   "type": "choice",
+   "prompt": "Which test shows the triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
+   "type": "numeric",
+   "prompt": "Find $\\angle ABD$.",
+   "answer": "20",
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 28.75,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         1.601,
+         1.601
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "seg": [
+        6,
+        0,
+        8,
+        0
+       ]
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        45
+       ],
+       "r": 0.696
+      },
+      {
+       "seg": [
+        0.932,
+        -0.728,
+        0.643,
+        0.266
+       ],
+       "thin": true,
+       "arrow": "end"
+      },
+      {
+       "label": "45°",
+       "at": [
+        0.983,
+        -0.985
+       ],
+       "anchor": "start"
+      },
+      {
+       "angle": [
+        1.601,
+        1.601,
+        225,
+        340
+       ],
+       "r": 0.696
+      },
+      {
+       "label": "115°",
+       "at": [
+        1.865,
+        0.413
+       ]
+      },
+      {
+       "point": [
+        0,
+        0
+       ],
+       "name": "A",
+       "pos": "s"
+      },
+      {
+       "point": [
+        6,
+        0
+       ],
+       "name": "B",
+       "pos": "s"
+      },
+      {
+       "point": [
+        8,
+        0
+       ],
+       "name": "C",
+       "pos": "s"
+      },
+      {
+       "point": [
+        1.601,
+        1.601
+       ],
+       "name": "D",
+       "pos": "n"
+      }
+     ]
+    },
+    {
+     "kind": "diagram",
+     "unit": 28.75,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         6,
+         0
+        ],
+        [
+         3.288,
+         -1.899
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "seg": [
+        -2,
+        0,
+        0,
+        0
+       ]
+      },
+      {
+       "angle": [
+        0,
+        0,
+        180,
+        330
+       ],
+       "r": 0.696
+      },
+      {
+       "label": "150°",
+       "at": [
+        -0.315,
+        -1.176
+       ]
+      },
+      {
+       "angle": [
+        3.288,
+        -1.899,
+        35,
+        150
+       ],
+       "r": 0.696
+      },
+      {
+       "label": "115°",
+       "at": [
+        3.235,
+        -0.682
+       ]
+      },
+      {
+       "point": [
+        0,
+        0
+       ],
+       "name": "Y",
+       "pos": "n"
+      },
+      {
+       "point": [
+        6,
+        0
+       ],
+       "name": "X",
+       "pos": "n"
+      },
+      {
+       "point": [
+        -2,
+        0
+       ],
+       "name": "Z",
+       "pos": "n"
+      },
+      {
+       "point": [
+        3.288,
+        -1.899
+       ],
+       "name": "W",
+       "pos": "s"
+      }
+     ]
+    }
+   ],
+   "units": "°"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
+   "type": "numeric",
+   "prompt": "Find $\\angle XYW$.",
+   "answer": "30",
+   "units": "°"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
+   "type": "numeric",
+   "prompt": "Find $\\angle YXW$.",
+   "answer": "35",
+   "units": "°"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "In the first diagram $A$, $B$ and $C$ lie on a straight line. In the second, $Z$, $Y$ and $X$ lie on a straight line.",
+   "type": "choice",
+   "prompt": "Are $\\triangle ABD$ and $\\triangle XYW$ similar?",
+   "answer": 1,
+   "options": [
+    "Yes, they both have a 115° angle",
+    "No, their other two angles do not match"
+   ]
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "Two lines cross between two parallel lines, forming two triangles. Which reason shows the two triangles are similar?",
+   "answer": 1,
+   "figure": {
+    "kind": "diagram",
+    "unit": 36.36,
+    "items": [
+     {
+      "seg": [
+       -0.8,
+       2.4,
+       5.8,
+       2.4
+      ]
+     },
+     {
+      "seg": [
+       -0.8,
+       0,
+       5.8,
+       0
+      ]
+     },
+     {
+      "par": [
+       -0.8,
+       2.4,
+       5.8,
+       2.4
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -0.8,
+       0,
+       5.8,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "seg": [
+       0.8,
+       2.4,
+       4,
+       0
+      ]
+     },
+     {
+      "seg": [
+       3,
+       2.4,
+       1.2,
+       0
+      ]
+     }
+    ]
+   },
+   "options": [
+    "SAS: two pairs of sides are equal",
+    "AAA: the angles where the lines cross are vertically opposite, and the other angles are alternate angles",
+    "RHS: both triangles have a right angle",
+    "SSS: the parallel sides are equal"
+   ]
+  },
+  {
+   "id": "q13",
+   "label": "13",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "The congruence tests are SSS, SAS, AAS and RHS. Which similarity test is most like the AAS congruence test?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "numeric",
+   "prompt": "Find the area of the triangular cross-section of the original prism.",
+   "answer": "5",
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.4,
+         0
+        ],
+        [
+         0,
+         2.2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "seg": [
+        3.4,
+        0,
+        5,
+        1
+       ]
+      },
+      {
+       "seg": [
+        0,
+        2.2,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        5,
+        1,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        1.6,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        5,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        1.6,
+        3.2
+       ],
+       "dash": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.625
+      },
+      {
+       "label": "2",
+       "at": [
+        -0.25,
+        1.1
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "5",
+       "at": [
+        1.7,
+        -0.5
+       ]
+      },
+      {
+       "label": "4",
+       "at": [
+        4.445,
+        0.108
+       ],
+       "anchor": "start"
+      }
+     ],
+     "caption": "Original"
+    },
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.4,
+         0
+        ],
+        [
+         0,
+         2.2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "seg": [
+        3.4,
+        0,
+        5,
+        1
+       ]
+      },
+      {
+       "seg": [
+        0,
+        2.2,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        5,
+        1,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        1.6,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        5,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        1.6,
+        3.2
+       ],
+       "dash": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.625
+      },
+      {
+       "label": "4",
+       "at": [
+        -0.25,
+        1.1
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "10",
+       "at": [
+        1.7,
+        -0.5
+       ]
+      },
+      {
+       "label": "8",
+       "at": [
+        4.445,
+        0.108
+       ],
+       "anchor": "start"
+      }
+     ],
+     "caption": "Image 1"
+    },
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.4,
+         0
+        ],
+        [
+         0,
+         2.2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "seg": [
+        3.4,
+        0,
+        5,
+        1
+       ]
+      },
+      {
+       "seg": [
+        0,
+        2.2,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        5,
+        1,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        1.6,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        5,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        1.6,
+        3.2
+       ],
+       "dash": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.625
+      },
+      {
+       "label": "6",
+       "at": [
+        -0.25,
+        1.1
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "15",
+       "at": [
+        1.7,
+        -0.5
+       ]
+      },
+      {
+       "label": "12",
+       "at": [
+        4.445,
+        0.108
+       ],
+       "anchor": "start"
+      }
+     ],
+     "caption": "Image 2"
+    },
+    {
+     "kind": "diagram",
+     "unit": 24,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         3.4,
+         0
+        ],
+        [
+         0,
+         2.2
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "seg": [
+        3.4,
+        0,
+        5,
+        1
+       ]
+      },
+      {
+       "seg": [
+        0,
+        2.2,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        5,
+        1,
+        1.6,
+        3.2
+       ]
+      },
+      {
+       "seg": [
+        0,
+        0,
+        1.6,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        5,
+        1
+       ],
+       "dash": true
+      },
+      {
+       "seg": [
+        1.6,
+        1,
+        1.6,
+        3.2
+       ],
+       "dash": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.625
+      },
+      {
+       "label": "8",
+       "at": [
+        -0.25,
+        1.1
+       ],
+       "anchor": "end"
+      },
+      {
+       "label": "20",
+       "at": [
+        1.7,
+        -0.5
+       ]
+      },
+      {
+       "label": "16",
+       "at": [
+        4.445,
+        0.108
+       ],
+       "anchor": "start"
+      }
+     ],
+     "caption": "Image 3"
+    }
+   ],
+   "units": "units²"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "ordered",
+   "prompt": "Find the cross-section areas of Image 1, Image 2 and Image 3, in that order.",
+   "answer": [
+    "20",
+    "45",
+    "80"
+   ]
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "ordered",
+   "prompt": "Find the area scale factors of Image 1, Image 2 and Image 3 (image area ÷ original area), in that order.",
+   "answer": [
+    "4",
+    "9",
+    "16"
+   ]
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "numeric",
+   "prompt": "Find the volume of the original prism.",
+   "answer": "20",
+   "units": "units³"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "ordered",
+   "prompt": "Find the volumes of Image 1, Image 2 and Image 3, in that order.",
+   "answer": [
+    "160",
+    "540",
+    "1280"
+   ]
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "ordered",
+   "prompt": "Find the volume scale factors of Image 1, Image 2 and Image 3, in that order.",
+   "answer": [
+    "8",
+    "27",
+    "64"
+   ]
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "These four triangular prisms are similar (not drawn to scale). Each cross-section is a right-angled triangle. The length scale factors of Image 1, 2 and 3 compared with the original are 2, 3 and 4.",
+   "type": "choice",
+   "prompt": "How does the area scale factor compare with the length scale factor?",
+   "answer": 1,
+   "options": [
+    "It is double the length scale factor",
+    "It is the square of the length scale factor",
+    "It is the cube of the length scale factor",
+    "It is the same"
+   ]
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "expression",
+   "prompt": "Write the area scale factor when the length scale factor is $n$.",
+   "answer": "n^2",
+   "hint": "Type n squared as n^2"
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the area scale factor when the length scale factor is $10$.",
+   "answer": "100"
+  },
+  {
+   "id": "q14j",
+   "label": "14j",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the area scale factor when the length scale factor is $20$.",
+   "answer": "400"
+  },
+  {
+   "id": "q14k",
+   "label": "14k",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the area scale factor when the length scale factor is $100$.",
+   "answer": "10000"
+  },
+  {
+   "id": "q14l",
+   "label": "14l",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the area scale factor when the length scale factor is $\\frac{1}{2}$.",
+   "answer": "0.25"
+  },
+  {
+   "id": "q14m",
+   "label": "14m",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "choice",
+   "prompt": "How does the volume scale factor compare with the length scale factor?",
+   "answer": 2,
+   "options": [
+    "It is triple the length scale factor",
+    "It is the square of the length scale factor",
+    "It is the cube of the length scale factor",
+    "It is the same"
+   ]
+  },
+  {
+   "id": "q14n",
+   "label": "14n",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "expression",
+   "prompt": "Write the volume scale factor when the length scale factor is $n$.",
+   "answer": "n^3",
+   "hint": "Type n cubed as n^3"
+  },
+  {
+   "id": "q14o",
+   "label": "14o",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the volume scale factor when the length scale factor is $5$.",
+   "answer": "125"
+  },
+  {
+   "id": "q14p",
+   "label": "14p",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the volume scale factor when the length scale factor is $10$.",
+   "answer": "1000"
+  },
+  {
+   "id": "q14q",
+   "label": "14q",
+   "section": "Enrichment",
+   "stem": "Use the pattern from the prisms.",
+   "type": "numeric",
+   "prompt": "Find the volume scale factor when the length scale factor is $\\frac{1}{2}$.",
+   "answer": "0.125"
+  }
+ ]
+},
+{
+ "id": "y9-7h",
+ "year": 9,
+ "chapter": "Chapter 7: Geometry",
+ "title": "7H Proving and applying similar triangles",
+ "description": "Give reasons why two triangles are similar, then use similar triangles to find unknown lengths in diagrams and real situations.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "text",
+   "prompt": "Diagram a: $\\triangle PQR \\ ||| \\ \\triangle$ ___",
+   "answer": "TSR",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.1,
+    "items": [
+     {
+      "seg": [
+       -1.8,
+       2.6,
+       2.34,
+       -3.38
+      ]
+     },
+     {
+      "seg": [
+       0.6,
+       2.6,
+       -0.78,
+       -3.38
+      ]
+     },
+     {
+      "seg": [
+       -1.8,
+       2.6,
+       0.6,
+       2.6
+      ]
+     },
+     {
+      "seg": [
+       -0.78,
+       -3.38,
+       2.34,
+       -3.38
+      ]
+     },
+     {
+      "par": [
+       -1.8,
+       2.6,
+       0.6,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -0.78,
+       -3.38,
+       2.34,
+       -3.38
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       -1.8,
+       2.6
+      ],
+      "name": "P",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       0.6,
+       2.6
+      ],
+      "name": "Q",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       2.34,
+       -3.38
+      ],
+      "name": "T",
+      "pos": "se"
+     },
+     {
+      "point": [
+       -0.78,
+       -3.38
+      ],
+      "name": "S",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "R",
+      "pos": "e"
+     }
+    ]
+   },
+   "accept": [
+    "△TSR",
+    "ΔTSR",
+    "triangle TSR",
+    "△ TSR",
+    "Δ TSR"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "choice",
+   "prompt": "Diagram a: the reason",
+   "answer": 0,
+   "options": [
+    "AAA: alternate angles are equal, and vertically opposite angles are equal",
+    "AAA: corresponding angles are equal, and the triangles share a common angle",
+    "AAA: the triangles share a common angle, and another pair of angles is marked equal",
+    "SAS: two pairs of sides are in the same ratio, and the included angles are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.1,
+    "items": [
+     {
+      "seg": [
+       -1.8,
+       2.6,
+       2.34,
+       -3.38
+      ]
+     },
+     {
+      "seg": [
+       0.6,
+       2.6,
+       -0.78,
+       -3.38
+      ]
+     },
+     {
+      "seg": [
+       -1.8,
+       2.6,
+       0.6,
+       2.6
+      ]
+     },
+     {
+      "seg": [
+       -0.78,
+       -3.38,
+       2.34,
+       -3.38
+      ]
+     },
+     {
+      "par": [
+       -1.8,
+       2.6,
+       0.6,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -0.78,
+       -3.38,
+       2.34,
+       -3.38
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       -1.8,
+       2.6
+      ],
+      "name": "P",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       0.6,
+       2.6
+      ],
+      "name": "Q",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       2.34,
+       -3.38
+      ],
+      "name": "T",
+      "pos": "se"
+     },
+     {
+      "point": [
+       -0.78,
+       -3.38
+      ],
+      "name": "S",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "R",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "text",
+   "prompt": "Diagram b: $\\triangle FGH \\ ||| \\ \\triangle$ ___",
+   "answer": "JIH",
+   "figure": {
+    "kind": "diagram",
+    "unit": 55.52,
+    "items": [
+     {
+      "seg": [
+       -2.819,
+       1.026,
+       1.504,
+       -0.547
+      ]
+     },
+     {
+      "seg": [
+       -1.839,
+       -1.543,
+       0.981,
+       0.823
+      ]
+     },
+     {
+      "seg": [
+       -2.819,
+       1.026,
+       -1.839,
+       -1.543
+      ]
+     },
+     {
+      "seg": [
+       1.504,
+       -0.547,
+       0.981,
+       0.823
+      ]
+     },
+     {
+      "par": [
+       -2.819,
+       1.026,
+       -1.839,
+       -1.543
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.504,
+       -0.547,
+       0.981,
+       0.823
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       -2.819,
+       1.026
+      ],
+      "name": "F",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -1.839,
+       -1.543
+      ],
+      "name": "G",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       1.504,
+       -0.547
+      ],
+      "name": "J",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0.981,
+       0.823
+      ],
+      "name": "I",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "H",
+      "pos": "s"
+     }
+    ]
+   },
+   "accept": [
+    "△JIH",
+    "ΔJIH",
+    "triangle JIH",
+    "△ JIH",
+    "Δ JIH"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "choice",
+   "prompt": "Diagram b: the reason",
+   "answer": 0,
+   "options": [
+    "AAA: alternate angles are equal, and vertically opposite angles are equal",
+    "AAA: corresponding angles are equal, and the triangles share a common angle",
+    "AAA: the triangles share a common angle, and another pair of angles is marked equal",
+    "SAS: two pairs of sides are in the same ratio, and the included angles are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 55.52,
+    "items": [
+     {
+      "seg": [
+       -2.819,
+       1.026,
+       1.504,
+       -0.547
+      ]
+     },
+     {
+      "seg": [
+       -1.839,
+       -1.543,
+       0.981,
+       0.823
+      ]
+     },
+     {
+      "seg": [
+       -2.819,
+       1.026,
+       -1.839,
+       -1.543
+      ]
+     },
+     {
+      "seg": [
+       1.504,
+       -0.547,
+       0.981,
+       0.823
+      ]
+     },
+     {
+      "par": [
+       -2.819,
+       1.026,
+       -1.839,
+       -1.543
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       1.504,
+       -0.547,
+       0.981,
+       0.823
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       -2.819,
+       1.026
+      ],
+      "name": "F",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -1.839,
+       -1.543
+      ],
+      "name": "G",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       1.504,
+       -0.547
+      ],
+      "name": "J",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0.981,
+       0.823
+      ],
+      "name": "I",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "H",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "text",
+   "prompt": "Diagram c: $\\triangle MLP \\ ||| \\ \\triangle$ ___",
+   "answer": "MKN",
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6.5,
+        0.6
+       ],
+       [
+        1.4,
+        3.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       2.925,
+       0.27,
+       3.695,
+       2.14
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.4,
+       3.4
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       2.925,
+       0.27,
+       3.695,
+       2.14
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "K",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       2.925,
+       0.27
+      ],
+      "name": "L",
+      "pos": "s"
+     },
+     {
+      "point": [
+       6.5,
+       0.6
+      ],
+      "name": "M",
+      "pos": "e"
+     },
+     {
+      "point": [
+       1.4,
+       3.4
+      ],
+      "name": "N",
+      "pos": "n"
+     },
+     {
+      "point": [
+       3.695,
+       2.14
+      ],
+      "name": "P",
+      "pos": "n"
+     }
+    ]
+   },
+   "accept": [
+    "△MKN",
+    "ΔMKN",
+    "triangle MKN",
+    "△ MKN",
+    "Δ MKN"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "choice",
+   "prompt": "Diagram c: the reason",
+   "answer": 1,
+   "options": [
+    "AAA: alternate angles are equal, and vertically opposite angles are equal",
+    "AAA: corresponding angles are equal, and the triangles share a common angle",
+    "AAA: the triangles share a common angle, and another pair of angles is marked equal",
+    "SAS: two pairs of sides are in the same ratio, and the included angles are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6.5,
+        0.6
+       ],
+       [
+        1.4,
+        3.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       2.925,
+       0.27,
+       3.695,
+       2.14
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       1.4,
+       3.4
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       2.925,
+       0.27,
+       3.695,
+       2.14
+      ],
+      "n": 1
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "K",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       2.925,
+       0.27
+      ],
+      "name": "L",
+      "pos": "s"
+     },
+     {
+      "point": [
+       6.5,
+       0.6
+      ],
+      "name": "M",
+      "pos": "e"
+     },
+     {
+      "point": [
+       1.4,
+       3.4
+      ],
+      "name": "N",
+      "pos": "n"
+     },
+     {
+      "point": [
+       3.695,
+       2.14
+      ],
+      "name": "P",
+      "pos": "n"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "text",
+   "prompt": "Diagram d: $\\triangle RVU \\ ||| \\ \\triangle$ ___",
+   "answer": "RST",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.09,
+    "items": [
+     {
+      "poly": [
+       [
+        1.2,
+        5
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        4.017,
+        -0.298
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0.5,
+       2.083,
+       2.407,
+       2.73
+      ]
+     },
+     {
+      "angle": [
+       2.407,
+       2.73,
+       118,
+       198.743
+      ],
+      "r": 0.499
+     },
+     {
+      "angle": [
+       0,
+       0,
+       355.762,
+       76.504
+      ],
+      "r": 0.499
+     },
+     {
+      "point": [
+       1.2,
+       5
+      ],
+      "name": "R",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "S",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       4.017,
+       -0.298
+      ],
+      "name": "T",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0.5,
+       2.083
+      ],
+      "name": "U",
+      "pos": "w"
+     },
+     {
+      "point": [
+       2.407,
+       2.73
+      ],
+      "name": "V",
+      "pos": "e"
+     }
+    ]
+   },
+   "accept": [
+    "△RST",
+    "ΔRST",
+    "triangle RST",
+    "△ RST",
+    "Δ RST"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Arrows show parallel lines and angles marked the same way are equal. Complete the similarity statement, then choose the reason the triangles are similar.",
+   "type": "choice",
+   "prompt": "Diagram d: the reason",
+   "answer": 2,
+   "options": [
+    "AAA: alternate angles are equal, and vertically opposite angles are equal",
+    "AAA: corresponding angles are equal, and the triangles share a common angle",
+    "AAA: the triangles share a common angle, and another pair of angles is marked equal",
+    "SAS: two pairs of sides are in the same ratio, and the included angles are equal"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 32.09,
+    "items": [
+     {
+      "poly": [
+       [
+        1.2,
+        5
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        4.017,
+        -0.298
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0.5,
+       2.083,
+       2.407,
+       2.73
+      ]
+     },
+     {
+      "angle": [
+       2.407,
+       2.73,
+       118,
+       198.743
+      ],
+      "r": 0.499
+     },
+     {
+      "angle": [
+       0,
+       0,
+       355.762,
+       76.504
+      ],
+      "r": 0.499
+     },
+     {
+      "point": [
+       1.2,
+       5
+      ],
+      "name": "R",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "S",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       4.017,
+       -0.298
+      ],
+      "name": "T",
+      "pos": "se"
+     },
+     {
+      "point": [
+       0.5,
+       2.083
+      ],
+      "name": "U",
+      "pos": "w"
+     },
+     {
+      "point": [
+       2.407,
+       2.73
+      ],
+      "name": "V",
+      "pos": "e"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "text",
+   "prompt": "Diagram a: $\\triangle CDB \\ ||| \\ \\triangle$ ___",
+   "answer": "CAE",
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -11.738,
+        2.495
+       ],
+       [
+        -8.651,
+        -2.481
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -2.934,
+       0.624,
+       -3.845,
+       -1.103
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -1.377,
+       0.738
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -1.804,
+       -0.966
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       -11.738,
+       2.495
+      ],
+      "label": "12",
+      "off": -0.954
+     },
+     {
+      "dim": [
+       -8.651,
+       -2.481,
+       0,
+       0
+      ],
+      "label": "9",
+      "off": -0.954
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -11.738,
+       2.495
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -8.651,
+       -2.481
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       -2.934,
+       0.624
+      ],
+      "name": "D",
+      "pos": "n"
+     },
+     {
+      "point": [
+       -3.845,
+       -1.103
+      ],
+      "name": "B",
+      "pos": "s"
+     }
+    ]
+   },
+   "accept": [
+    "△CAE",
+    "ΔCAE",
+    "triangle CAE",
+    "△ CAE",
+    "Δ CAE"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "numeric",
+   "prompt": "Diagram a: the scale factor",
+   "answer": "3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -11.738,
+        2.495
+       ],
+       [
+        -8.651,
+        -2.481
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -2.934,
+       0.624,
+       -3.845,
+       -1.103
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -1.377,
+       0.738
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -1.804,
+       -0.966
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       -11.738,
+       2.495
+      ],
+      "label": "12",
+      "off": -0.954
+     },
+     {
+      "dim": [
+       -8.651,
+       -2.481,
+       0,
+       0
+      ],
+      "label": "9",
+      "off": -0.954
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -11.738,
+       2.495
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -8.651,
+       -2.481
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       -2.934,
+       0.624
+      ],
+      "name": "D",
+      "pos": "n"
+     },
+     {
+      "point": [
+       -3.845,
+       -1.103
+      ],
+      "name": "B",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "choice",
+   "prompt": "Diagram a: the test",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 27.26,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -11.738,
+        2.495
+       ],
+       [
+        -8.651,
+        -2.481
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -2.934,
+       0.624,
+       -3.845,
+       -1.103
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       -1.377,
+       0.738
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       -1.804,
+       -0.966
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       -11.738,
+       2.495
+      ],
+      "label": "12",
+      "off": -0.954
+     },
+     {
+      "dim": [
+       -8.651,
+       -2.481,
+       0,
+       0
+      ],
+      "label": "9",
+      "off": -0.954
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -11.738,
+       2.495
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -8.651,
+       -2.481
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       -2.934,
+       0.624
+      ],
+      "name": "D",
+      "pos": "n"
+     },
+     {
+      "point": [
+       -3.845,
+       -1.103
+      ],
+      "name": "B",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "text",
+   "prompt": "Diagram b: $\\triangle DEC \\ ||| \\ \\triangle$ ___",
+   "answer": "DBA",
+   "figure": {
+    "kind": "diagram",
+    "unit": 9.97,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        14.854,
+        2.088
+       ],
+       [
+        11.737,
+        22.074
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4.695,
+       8.829,
+       5.942,
+       0.835
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       14.854,
+       2.088
+      ],
+      "label": "15",
+      "off": -3.813
+     },
+     {
+      "dim": [
+       0,
+       0,
+       5.942,
+       0.835
+      ],
+      "label": "6",
+      "off": -1.405
+     },
+     {
+      "dim": [
+       11.737,
+       22.074,
+       0,
+       0
+      ],
+      "label": "25",
+      "off": -3.813
+     },
+     {
+      "dim": [
+       4.695,
+       8.829,
+       0,
+       0
+      ],
+      "label": "10",
+      "off": -1.405
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       14.854,
+       2.088
+      ],
+      "name": "A",
+      "pos": "e"
+     },
+     {
+      "point": [
+       11.737,
+       22.074
+      ],
+      "name": "B",
+      "pos": "n"
+     },
+     {
+      "point": [
+       4.695,
+       8.829
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       5.942,
+       0.835
+      ],
+      "name": "C",
+      "pos": "ne"
+     }
+    ]
+   },
+   "accept": [
+    "△DBA",
+    "ΔDBA",
+    "triangle DBA",
+    "△ DBA",
+    "Δ DBA"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "numeric",
+   "prompt": "Diagram b: the scale factor",
+   "answer": "2.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 9.97,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        14.854,
+        2.088
+       ],
+       [
+        11.737,
+        22.074
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4.695,
+       8.829,
+       5.942,
+       0.835
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       14.854,
+       2.088
+      ],
+      "label": "15",
+      "off": -3.813
+     },
+     {
+      "dim": [
+       0,
+       0,
+       5.942,
+       0.835
+      ],
+      "label": "6",
+      "off": -1.405
+     },
+     {
+      "dim": [
+       11.737,
+       22.074,
+       0,
+       0
+      ],
+      "label": "25",
+      "off": -3.813
+     },
+     {
+      "dim": [
+       4.695,
+       8.829,
+       0,
+       0
+      ],
+      "label": "10",
+      "off": -1.405
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       14.854,
+       2.088
+      ],
+      "name": "A",
+      "pos": "e"
+     },
+     {
+      "point": [
+       11.737,
+       22.074
+      ],
+      "name": "B",
+      "pos": "n"
+     },
+     {
+      "point": [
+       4.695,
+       8.829
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       5.942,
+       0.835
+      ],
+      "name": "C",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "choice",
+   "prompt": "Diagram b: the test",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 9.97,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        14.854,
+        2.088
+       ],
+       [
+        11.737,
+        22.074
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       4.695,
+       8.829,
+       5.942,
+       0.835
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       14.854,
+       2.088
+      ],
+      "label": "15",
+      "off": -3.813
+     },
+     {
+      "dim": [
+       0,
+       0,
+       5.942,
+       0.835
+      ],
+      "label": "6",
+      "off": -1.405
+     },
+     {
+      "dim": [
+       11.737,
+       22.074,
+       0,
+       0
+      ],
+      "label": "25",
+      "off": -3.813
+     },
+     {
+      "dim": [
+       4.695,
+       8.829,
+       0,
+       0
+      ],
+      "label": "10",
+      "off": -1.405
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       14.854,
+       2.088
+      ],
+      "name": "A",
+      "pos": "e"
+     },
+     {
+      "point": [
+       11.737,
+       22.074
+      ],
+      "name": "B",
+      "pos": "n"
+     },
+     {
+      "point": [
+       4.695,
+       8.829
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       5.942,
+       0.835
+      ],
+      "name": "C",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "text",
+   "prompt": "Diagram c: $\\triangle DCE \\ ||| \\ \\triangle$ ___",
+   "answer": "BCA",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.79,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1,
+        1.732
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.25,
+        -3.897
+       ],
+       [
+        1.5,
+        -2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.753,
+       0.72
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       1.003,
+       1.153
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4.5",
+      "at": [
+       -0.872,
+       -2.095
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3",
+      "at": [
+       0.497,
+       -1.445
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -1,
+       1.732
+      ],
+      "name": "D",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       1.5,
+       2.598
+      ],
+      "name": "E",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       -2.25,
+       -3.897
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       1.5,
+       -2.598
+      ],
+      "name": "B",
+      "pos": "se"
+     }
+    ]
+   },
+   "accept": [
+    "△BCA",
+    "ΔBCA",
+    "triangle BCA",
+    "△ BCA",
+    "Δ BCA"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "numeric",
+   "prompt": "Diagram c: the scale factor",
+   "answer": "1.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.79,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1,
+        1.732
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.25,
+        -3.897
+       ],
+       [
+        1.5,
+        -2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.753,
+       0.72
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       1.003,
+       1.153
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4.5",
+      "at": [
+       -0.872,
+       -2.095
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3",
+      "at": [
+       0.497,
+       -1.445
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -1,
+       1.732
+      ],
+      "name": "D",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       1.5,
+       2.598
+      ],
+      "name": "E",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       -2.25,
+       -3.897
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       1.5,
+       -2.598
+      ],
+      "name": "B",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Each diagram shows a pair of similar triangles. Complete the similarity statement, find the scale factor from the smaller triangle to the larger one, and choose the test.",
+   "type": "choice",
+   "prompt": "Diagram c: the test",
+   "answer": 1,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ],
+   "figure": {
+    "kind": "diagram",
+    "unit": 30.79,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -1,
+        1.732
+       ],
+       [
+        1.5,
+        2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.25,
+        -3.897
+       ],
+       [
+        1.5,
+        -2.598
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.753,
+       0.72
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       1.003,
+       1.153
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "4.5",
+      "at": [
+       -0.872,
+       -2.095
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "3",
+      "at": [
+       0.497,
+       -1.445
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "e"
+     },
+     {
+      "point": [
+       -1,
+       1.732
+      ],
+      "name": "D",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       1.5,
+       2.598
+      ],
+      "name": "E",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       -2.25,
+       -3.897
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       1.5,
+       -2.598
+      ],
+      "name": "B",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Problem-solving",
+   "stem": "A tree casts a shadow $18$ m long. At the same time, a $1.5$ m vertical stick casts a shadow $0.6$ m long.",
+   "type": "choice",
+   "prompt": "Why are the two triangles formed by the objects and their shadows similar?",
+   "answer": 0,
+   "stemFigure": [
+    {
+     "kind": "diagram",
+     "unit": 3.78,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         18,
+         0
+        ],
+        [
+         0,
+         45
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 3.971
+      },
+      {
+       "label": "18 m",
+       "at": [
+        9,
+        -3.176
+       ]
+      },
+      {
+       "label": "h m",
+       "at": [
+        -1.588,
+        22.5
+       ],
+       "anchor": "end"
+      }
+     ],
+     "caption": "Tree"
+    },
+    {
+     "kind": "diagram",
+     "unit": 113.33,
+     "items": [
+      {
+       "poly": [
+        [
+         0,
+         0
+        ],
+        [
+         0.6,
+         0
+        ],
+        [
+         0,
+         1.5
+        ]
+       ],
+       "fill": true
+      },
+      {
+       "angle": [
+        0,
+        0,
+        0,
+        90
+       ],
+       "right": true,
+       "r": 0.132
+      },
+      {
+       "label": "0.6 m",
+       "at": [
+        0.3,
+        -0.106
+       ]
+      },
+      {
+       "label": "1.5 m",
+       "at": [
+        -0.053,
+        0.75
+       ],
+       "anchor": "end"
+      }
+     ],
+     "caption": "Stick (enlarged)"
+    }
+   ],
+   "options": [
+    "AAA: both make a right angle with the ground, and the sun's rays hit the ground at the same angle",
+    "SSS: all three sides are in the same ratio",
+    "RHS: both triangles have the same hypotenuse",
+    "SAS: the two heights are equal"
+   ]
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Problem-solving",
+   "stem": "A tree casts a shadow $18$ m long. At the same time, a $1.5$ m vertical stick casts a shadow $0.6$ m long.",
+   "type": "numeric",
+   "prompt": "Find the height of the tree.",
+   "answer": "45",
+   "units": "m"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Two straight cables hold up a vertical pole and make the same angle with the ground. The cables are $5$ m and $12$ m long, and the shorter cable reaches $3.5$ m up the pole. The longer cable reaches the top.",
+   "type": "choice",
+   "prompt": "Which test shows the two triangles are similar?",
+   "answer": 2,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 19.32,
+    "items": [
+     {
+      "seg": [
+       -9.37,
+       0,
+       1.2,
+       0
+      ]
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       8.8
+      ]
+     },
+     {
+      "seg": [
+       -8.57,
+       0,
+       0,
+       8.4
+      ]
+     },
+     {
+      "seg": [
+       -3.571,
+       0,
+       0,
+       3.5
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.776
+     },
+     {
+      "angle": [
+       -8.57,
+       0,
+       0,
+       44.427
+      ],
+      "r": 1.035
+     },
+     {
+      "angle": [
+       -3.571,
+       0,
+       0,
+       44.427
+      ],
+      "r": 1.035
+     },
+     {
+      "label": "12 m",
+      "at": [
+       -4.229,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "5 m",
+      "at": [
+       -1.234,
+       1.545
+      ],
+      "anchor": "start"
+     },
+     {
+      "dim": [
+       0,
+       0,
+       0,
+       3.5
+      ],
+      "label": "3.5 m",
+      "off": -1.139
+     }
+    ]
+   },
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Two straight cables hold up a vertical pole and make the same angle with the ground. The cables are $5$ m and $12$ m long, and the shorter cable reaches $3.5$ m up the pole. The longer cable reaches the top.",
+   "type": "numeric",
+   "prompt": "Find the height of the pole.",
+   "answer": "8.4",
+   "units": "m"
+  },
+  {
+   "id": "q5",
+   "label": "5",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Priya stands $4.5$ m from a vertical lamp post at night and casts a shadow $1.5$ m long. The tip of her shadow is on the same straight line as the top of the lamp post and the top of her head. If Priya is $1.6$ m tall, find the height of the lamp post.",
+   "answer": "6.4",
+   "units": "m"
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Ana wants to find the width of a river without crossing it. She puts pegs on her side of the river as shown, lined up with a tree on the far bank. Find the width of the river.",
+   "answer": "24",
+   "units": "m",
+   "figure": {
+    "kind": "diagram",
+    "unit": 5,
+    "items": [
+     {
+      "seg": [
+       -4,
+       0,
+       55,
+       0
+      ]
+     },
+     {
+      "seg": [
+       -4,
+       24,
+       55,
+       24
+      ]
+     },
+     {
+      "seg": [
+       0,
+       24,
+       51,
+       -10
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       24
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       51,
+       0,
+       51,
+       -10
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 3
+     },
+     {
+      "angle": [
+       51,
+       0,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 3
+     },
+     {
+      "point": [
+       0,
+       24
+      ],
+      "name": "tree",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "point": [
+       36,
+       0
+      ]
+     },
+     {
+      "point": [
+       51,
+       0
+      ]
+     },
+     {
+      "point": [
+       51,
+       -10
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       36,
+       0
+      ],
+      "label": "36 m",
+      "off": -2.8
+     },
+     {
+      "label": "15 m",
+      "at": [
+       43.5,
+       1.8
+      ]
+     },
+     {
+      "label": "10 m",
+      "at": [
+       52.2,
+       -5
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "river",
+      "at": [
+       -3,
+       12
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A rock sits on the far side of a deep chasm. Using the measurements shown, find the width of the chasm.",
+   "answer": "6",
+   "units": "m",
+   "figure": {
+    "kind": "diagram",
+    "unit": 18.75,
+    "items": [
+     {
+      "seg": [
+       -14,
+       0,
+       2,
+       0
+      ]
+     },
+     {
+      "seg": [
+       -14,
+       6,
+       2,
+       6
+      ]
+     },
+     {
+      "seg": [
+       0,
+       6,
+       -12.5,
+       -1.5
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       0,
+       6
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       -12.5,
+       0,
+       -12.5,
+       -1.5
+      ],
+      "dash": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.8
+     },
+     {
+      "angle": [
+       -12.5,
+       0,
+       270,
+       0
+      ],
+      "right": true,
+      "r": 0.8
+     },
+     {
+      "point": [
+       0,
+       6
+      ],
+      "name": "rock",
+      "pos": "n"
+     },
+     {
+      "point": [
+       -10,
+       0
+      ]
+     },
+     {
+      "point": [
+       -12.5,
+       0
+      ]
+     },
+     {
+      "point": [
+       -12.5,
+       -1.5
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ]
+     },
+     {
+      "label": "10 m",
+      "at": [
+       -5,
+       0.5
+      ]
+     },
+     {
+      "label": "2.5 m",
+      "at": [
+       -11.25,
+       0.5
+      ]
+     },
+     {
+      "label": "1.5 m",
+      "at": [
+       -12.82,
+       -0.75
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "chasm",
+      "at": [
+       1,
+       3
+      ],
+      "anchor": "start"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "The two triangles in this diagram are similar (angles marked the same way are equal). Find the length $AB$.",
+   "answer": "13",
+   "figure": {
+    "kind": "diagram",
+    "unit": 13.63,
+    "items": [
+     {
+      "poly": [
+       [
+        -10,
+        0
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        3.119,
+        14.672
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -3,
+       0,
+       0.416,
+       1.956
+      ]
+     },
+     {
+      "angle": [
+       -3,
+       0,
+       0,
+       29.8
+      ],
+      "r": 1.174
+     },
+     {
+      "angle": [
+       3.119,
+       14.672,
+       228.2,
+       258
+      ],
+      "r": 1.174
+     },
+     {
+      "dim": [
+       -10,
+       0,
+       -3,
+       0
+      ],
+      "label": "7",
+      "off": -1.027
+     },
+     {
+      "dim": [
+       -3,
+       0,
+       0,
+       0
+      ],
+      "label": "3",
+      "off": -1.027
+     },
+     {
+      "label": "2",
+      "at": [
+       0.728,
+       0.868
+      ],
+      "anchor": "start"
+     },
+     {
+      "point": [
+       0.416,
+       1.956
+      ],
+      "name": "A",
+      "pos": "w"
+     },
+     {
+      "point": [
+       3.119,
+       14.672
+      ],
+      "name": "B",
+      "pos": "ne"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
+   "type": "text",
+   "prompt": "Complete the similarity statement: $\\triangle DAC \\ ||| \\ \\triangle$ ___",
+   "answer": "DBA",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 19.89,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        2.667,
+        7.542
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       2.667,
+       7.542,
+       5.333,
+       0
+      ]
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2.667,
+       7.542
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       2.667,
+       7.542,
+       5.333,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "angle": [
+       2.667,
+       7.542,
+       250.529,
+       289.471
+      ],
+      "r": 0.805
+     },
+     {
+      "angle": [
+       12,
+       0,
+       141.058,
+       180
+      ],
+      "r": 0.805
+     },
+     {
+      "label": "8 cm",
+      "at": [
+       0.421,
+       2.397
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "12 cm",
+      "at": [
+       6.996,
+       3.354
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       2.667,
+       7.542
+      ],
+      "name": "A",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "D",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       5.333,
+       0
+      ],
+      "name": "C",
+      "pos": "s"
+     },
+     {
+      "point": [
+       12,
+       0
+      ],
+      "name": "B",
+      "pos": "se"
+     }
+    ]
+   },
+   "accept": [
+    "△DBA",
+    "ΔDBA",
+    "triangle DBA",
+    "△ DBA",
+    "Δ DBA"
+   ],
+   "hint": "Type the three letters in matching order, for example ABC"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
+   "type": "choice",
+   "prompt": "Which test shows these triangles are similar?",
+   "answer": 2,
+   "options": [
+    "SSS",
+    "SAS",
+    "AAA",
+    "RHS"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
+   "type": "numeric",
+   "prompt": "$\\angle DAB$ is equal to $\\angle ADB$, so $DB = AB$. Find the length $DC$ as a fraction.",
+   "answer": "16/3",
+   "units": "cm",
+   "as": "fraction",
+   "hint": "Type a fraction like 7/2"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ADC$ is isosceles with $AD = AC = 8$ cm, $AB = 12$ cm, and the marked angles are equal.",
+   "type": "numeric",
+   "prompt": "Find the length $CB$ as a fraction.",
+   "answer": "20/3",
+   "units": "cm",
+   "as": "fraction"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
+   "type": "choice",
+   "prompt": "$\\triangle ABD$ and $\\triangle CBA$ are similar. Which angle do they share?",
+   "answer": 0,
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.75,
+        0
+       ],
+       [
+        0,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0,
+       0,
+       2.4,
+       1.8
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.441
+     },
+     {
+      "angle": [
+       2.4,
+       1.8,
+       216.87,
+       306.87
+      ],
+      "right": true,
+      "r": 0.441
+     },
+     {
+      "label": "5",
+      "at": [
+       -0.176,
+       2.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       1.426,
+       3.569
+      ],
+      "anchor": "start"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       3.75,
+       0
+      ],
+      "name": "B",
+      "pos": "se"
+     },
+     {
+      "point": [
+       2.4,
+       1.8
+      ],
+      "name": "C",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       5
+      ],
+      "name": "D",
+      "pos": "nw"
+     }
+    ]
+   },
+   "options": [
+    "∠ABD",
+    "∠ADB",
+    "∠BAD"
+   ]
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
+   "type": "choice",
+   "prompt": "$\\triangle ABD$ and $\\triangle CAD$ are similar. Which angle do they share?",
+   "answer": 1,
+   "options": [
+    "∠ABD",
+    "∠ADB",
+    "∠BAD"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
+   "type": "numeric",
+   "prompt": "Find the length $BD$.",
+   "answer": "6.25"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
+   "type": "numeric",
+   "prompt": "Find the length $AC$.",
+   "answer": "3"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "In this diagram $\\triangle ABD$ has a right angle at $A$, and $AC$ is perpendicular to $BD$.",
+   "type": "numeric",
+   "prompt": "Find the length $AB$.",
+   "answer": "3.75"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
+   "type": "numeric",
+   "prompt": "Diagram a: $AE = k \\times AC$",
+   "answer": "3.5",
+   "figure": {
+    "kind": "diagram",
+    "unit": 41.41,
+    "items": [
+     {
+      "seg": [
+       -1.434,
+       2.048,
+       0.574,
+       -0.819
+      ]
+     },
+     {
+      "seg": [
+       -1.932,
+       -0.518,
+       4.83,
+       1.294
+      ]
+     },
+     {
+      "seg": [
+       -1.434,
+       2.048,
+       4.83,
+       1.294
+      ]
+     },
+     {
+      "seg": [
+       -1.932,
+       -0.518,
+       0.574,
+       -0.819
+      ]
+     },
+     {
+      "par": [
+       -1.434,
+       2.048,
+       4.83,
+       1.294
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       -1.932,
+       -0.518,
+       0.574,
+       -0.819
+      ],
+      "n": 1
+     },
+     {
+      "label": "10",
+      "at": [
+       -0.904,
+       0.893
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "4",
+      "at": [
+       0.1,
+       -0.54
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       -1.434,
+       2.048
+      ],
+      "name": "D",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       4.83,
+       1.294
+      ],
+      "name": "E",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "n"
+     },
+     {
+      "point": [
+       -1.932,
+       -0.518
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       0.574,
+       -0.819
+      ],
+      "name": "B",
+      "pos": "se"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
+   "type": "numeric",
+   "prompt": "Diagram b: $BC = k \\times CE$",
+   "answer": "0.4",
+   "figure": {
+    "kind": "diagram",
+    "unit": 28,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -10,
+        0
+       ],
+       [
+        -4.638,
+        -5.243
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       -2.8,
+       0,
+       -2.65,
+       -2.996
+      ]
+     },
+     {
+      "angle": [
+       -10,
+       0,
+       315.643,
+       0
+      ],
+      "r": 0.571
+     },
+     {
+      "angle": [
+       -2.65,
+       -2.996,
+       48.509,
+       92.866
+      ],
+      "r": 0.571
+     },
+     {
+      "label": "3",
+      "at": [
+       -2.5,
+       -1.487
+      ],
+      "anchor": "start"
+     },
+     {
+      "label": "7.5",
+      "at": [
+       -7.576,
+       -2.884
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       -10,
+       0
+      ],
+      "name": "E",
+      "pos": "nw"
+     },
+     {
+      "point": [
+       -2.8,
+       0
+      ],
+      "name": "D",
+      "pos": "n"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "C",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       -2.65,
+       -2.996
+      ],
+      "name": "B",
+      "pos": "se"
+     },
+     {
+      "point": [
+       -4.638,
+       -5.243
+      ],
+      "name": "A",
+      "pos": "s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
+   "type": "numeric",
+   "prompt": "Diagram c: $CE = k \\times CD$",
+   "answer": "1.75",
+   "figure": {
+    "kind": "diagram",
+    "unit": 35.71,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7,
+        0
+       ],
+       [
+        -0.8,
+        4.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       3,
+       0,
+       2.543,
+       2.4
+      ]
+     },
+     {
+      "par": [
+       0,
+       0,
+       -0.8,
+       4.2
+      ],
+      "n": 1
+     },
+     {
+      "par": [
+       3,
+       0,
+       2.543,
+       2.4
+      ],
+      "n": 1
+     },
+     {
+      "label": "3",
+      "at": [
+       1.5,
+       -0.336
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       5,
+       -0.336
+      ]
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       3,
+       0
+      ],
+      "name": "B",
+      "pos": "s"
+     },
+     {
+      "point": [
+       7,
+       0
+      ],
+      "name": "C",
+      "pos": "se"
+     },
+     {
+      "point": [
+       2.543,
+       2.4
+      ],
+      "name": "D",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       -0.8,
+       4.2
+      ],
+      "name": "E",
+      "pos": "nw"
+     }
+    ]
+   }
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "In each diagram a length is a multiple of another length. Find the number $k$. Arrows show parallel lines and angles marked the same way are equal.",
+   "type": "numeric",
+   "prompt": "Diagram d: $AB = k \\times BC$",
+   "answer": "7/3",
+   "figure": {
+    "kind": "diagram",
+    "unit": 16,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        12,
+        0
+       ],
+       [
+        0,
+        10
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       8.4,
+       0,
+       8.4,
+       3
+      ]
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.938
+     },
+     {
+      "angle": [
+       8.4,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.938
+     },
+     {
+      "label": "10",
+      "at": [
+       -0.375,
+       5
+      ],
+      "anchor": "end"
+     },
+     {
+      "label": "3",
+      "at": [
+       8.15,
+       1.5
+      ],
+      "anchor": "end"
+     },
+     {
+      "point": [
+       0,
+       0
+      ],
+      "name": "A",
+      "pos": "sw"
+     },
+     {
+      "point": [
+       8.4,
+       0
+      ],
+      "name": "B",
+      "pos": "s"
+     },
+     {
+      "point": [
+       12,
+       0
+      ],
+      "name": "C",
+      "pos": "se"
+     },
+     {
+      "point": [
+       8.4,
+       3
+      ],
+      "name": "D",
+      "pos": "ne"
+     },
+     {
+      "point": [
+       0,
+       10
+      ],
+      "name": "E",
+      "pos": "nw"
+     }
+    ]
+   },
+   "hint": "A fraction like 5/3 is fine"
+  }
+ ]
+}
+);
+
 // Chapter 8
 window.H3_BANK.sets.push(
 {
