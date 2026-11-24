@@ -143939,6 +143939,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9a-read",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write the coordinates of each point shown on the number plane.",
@@ -143986,6 +143987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9a-read",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write the coordinates of each point shown on the number plane.",
@@ -143995,6 +143997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-9a-read",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write the coordinates of each point shown on the number plane.",
@@ -144004,6 +144007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-9a-read",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write the coordinates of each point shown on the number plane.",
@@ -144013,6 +144017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-9a-read",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write the coordinates of each point shown on the number plane.",
@@ -144022,6 +144027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-9a-read",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write the coordinates of each point shown on the number plane.",
@@ -144031,6 +144037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9a-read",
    "label": "2a",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144118,6 +144125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9a-read",
    "label": "2b",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144127,6 +144135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9a-read",
    "label": "2c",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144136,6 +144145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9a-read",
    "label": "2d",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144145,6 +144155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-9a-read",
    "label": "2e",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144154,6 +144165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-9a-read",
    "label": "2f",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144163,6 +144175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-9a-read",
    "label": "2g",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144172,6 +144185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-9a-read",
    "label": "2h",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144181,6 +144195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-9a-read",
    "label": "2i",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144190,6 +144205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-9a-read",
    "label": "2j",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144199,6 +144215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-9a-read",
    "label": "2k",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144208,6 +144225,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-9a-read",
    "label": "2l",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144217,6 +144235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-9a-read",
    "label": "2m",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144226,6 +144245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-9a-read",
    "label": "2n",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144235,6 +144255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-9a-read",
    "label": "2o",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144244,6 +144265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-9a-read",
    "label": "2p",
    "section": "Fluency",
    "stem": "Which point on this number plane is at each of these coordinates?",
@@ -144253,6 +144275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9a-plot",
    "label": "3a",
    "section": "Fluency",
    "stem": "On a number plane from $-5$ to $5$ on both axes, plot these points in order and join them. Which picture do they make?",
@@ -144269,6 +144292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9a-plot",
    "label": "3b",
    "section": "Fluency",
    "stem": "On a number plane from $-5$ to $5$ on both axes, plot these points in order and join them. Which picture do they make?",
@@ -144285,6 +144309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9a-inline",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "In each set, one point is not in line with the other four. Name that point.",
@@ -144295,6 +144320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9a-inline",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "In each set, one point is not in line with the other four. Name that point.",
@@ -144304,6 +144330,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9a-inline",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "In each set, one point is not in line with the other four. Name that point.",
@@ -144313,6 +144340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9a-inline",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "In each set, one point is not in line with the other four. Name that point.",
@@ -144322,6 +144350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9a-plot",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
@@ -144339,6 +144368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9a-plot",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
@@ -144356,6 +144386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9a-plot",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
@@ -144373,6 +144404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-9a-plot",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "The points in each set are joined in order to make a basic shape. Which shape is it?",
@@ -144390,6 +144422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9a-midpoint",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
@@ -144400,6 +144433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9a-midpoint",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
@@ -144409,6 +144443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9a-midpoint",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
@@ -144418,6 +144453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-9a-midpoint",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "The midpoint of a line segment is the point that cuts it in half. Find the midpoint of the segment joining each pair of points.",
@@ -144427,6 +144463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9a-lattice",
    "label": "7a",
    "section": "Reasoning",
    "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
@@ -144436,6 +144473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9a-lattice",
    "label": "7b",
    "section": "Reasoning",
    "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
@@ -144445,6 +144483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-9a-lattice",
    "label": "7c",
    "section": "Reasoning",
    "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
@@ -144454,6 +144493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-9a-lattice",
    "label": "7d",
    "section": "Reasoning",
    "stem": "How many points with whole-number coordinates (both $x$ and $y$ integers) lie on the segment joining these points? Count the two end points too.",
@@ -144463,6 +144503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9a-quadrants",
    "label": "8a",
    "section": "Reasoning",
    "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
@@ -144475,6 +144516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9a-quadrants",
    "label": "8b",
    "section": "Reasoning",
    "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
@@ -144486,6 +144528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9a-quadrants",
    "label": "8c",
    "section": "Reasoning",
    "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
@@ -144498,6 +144541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-9a-quadrants",
    "label": "8d",
    "section": "Reasoning",
    "stem": "The point $(a, b)$ is on a number plane. Which quadrant or quadrants match each description?",
@@ -144510,6 +144554,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-9a-quadrants",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -144524,6 +144569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9a-distance",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Find the distance between each pair of points.",
@@ -144533,6 +144579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9a-distance",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Find the distance between each pair of points.",
@@ -144542,6 +144589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-9a-distance",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Find the distance between each pair of points.",
@@ -144551,6 +144599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-9a-distance",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Find the distance between each pair of points.",
@@ -144560,6 +144609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-9a-distance",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Find the distance between each pair of points.",
@@ -144569,6 +144619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-9a-distance",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Find the distance between each pair of points.",
@@ -144578,6 +144629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9a-pythag",
    "label": "11a",
    "section": "Enrichment",
    "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
@@ -144588,6 +144640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9a-pythag",
    "label": "11b",
    "section": "Enrichment",
    "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
@@ -144598,6 +144651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-9a-pythag",
    "label": "11c",
    "section": "Enrichment",
    "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
@@ -144608,6 +144662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-9a-pythag",
    "label": "11d",
    "section": "Enrichment",
    "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
@@ -144618,6 +144673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-9a-pythag",
    "label": "11e",
    "section": "Enrichment",
    "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
@@ -144628,6 +144684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-9a-pythag",
    "label": "11f",
    "section": "Enrichment",
    "stem": "When two points are not in line vertically or horizontally, Pythagoras' theorem ($c^2 = a^2 + b^2$) gives the distance between them. Find the distance between each pair of points, rounding to $2$ decimal places where needed.",
@@ -144647,6 +144704,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y8-9b-table",
    "label": "1",
    "section": "Fluency",
    "type": "ordered",
@@ -144683,6 +144741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9b-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144726,6 +144785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9b-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144768,6 +144828,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9b-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144810,6 +144871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9b-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144852,6 +144914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-9b-table",
    "label": "2e",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144894,6 +144957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-9b-table",
    "label": "2f",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144936,6 +145000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-9b-table",
    "label": "2g",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -144978,6 +145043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-9b-table",
    "label": "2h",
    "section": "Fluency",
    "stem": "For each rule, complete the table of values for $x$ from $-3$ to $3$.",
@@ -145020,6 +145086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9b-hv",
    "label": "3a",
    "section": "Fluency",
    "stem": "The points in each table all lie on one straight line. Write the rule for the line.",
@@ -145051,6 +145118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9b-hv",
    "label": "3b",
    "section": "Fluency",
    "stem": "The points in each table all lie on one straight line. Write the rule for the line.",
@@ -145081,6 +145149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9b-onpoint",
    "label": "4a",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145096,6 +145165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9b-onpoint",
    "label": "4b",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145111,6 +145181,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9b-onpoint",
    "label": "4c",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145126,6 +145197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9b-onpoint",
    "label": "4d",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145141,6 +145213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-9b-onpoint",
    "label": "4e",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145156,6 +145229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-9b-onpoint",
    "label": "4f",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145171,6 +145245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-9b-onpoint",
    "label": "4g",
    "section": "Fluency",
    "stem": "For each rule, decide which of the two points lie on its graph.",
@@ -145186,6 +145261,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9b-table",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
@@ -145229,6 +145305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9b-table",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
@@ -145271,6 +145348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9b-table",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
@@ -145313,6 +145391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-9b-table",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "For $x$-values from $-3$ to $3$, complete the table of values for each rule. Remember that subtracting a negative is the same as adding, for example $4 - (-2) = 4 + 2$.",
@@ -145355,6 +145434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9b-intercepts",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145365,6 +145445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9b-intercepts",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145374,6 +145455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9b-intercepts",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145383,6 +145465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-9b-intercepts",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145392,6 +145475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-9b-intercepts",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145401,6 +145485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-9b-intercepts",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145410,6 +145495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-9b-intercepts",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145419,6 +145505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-9b-intercepts",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145428,6 +145515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-9b-intercepts",
    "label": "6i",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145437,6 +145525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y8-9b-intercepts",
    "label": "6j",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145446,6 +145535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y8-9b-intercepts",
    "label": "6k",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145455,6 +145545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y8-9b-intercepts",
    "label": "6l",
    "section": "Problem-solving",
    "stem": "State the coordinates of the point where the graph of each rule cuts the given axis.",
@@ -145464,6 +145555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-9b-meet",
    "label": "7",
    "section": "Problem-solving",
    "type": "point",
@@ -145472,6 +145564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9b-gaps",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A straight line graph is drawn from a rule. Its table of values has some gaps.",
@@ -145509,6 +145602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9b-gaps",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A straight line graph is drawn from a rule. Its table of values has some gaps.",
@@ -145522,6 +145616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9b-gaps",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A straight line graph is drawn from a rule. Its table of values has some gaps.",
@@ -145531,6 +145626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9b-table",
    "label": "9a",
    "section": "Reasoning",
    "type": "numeric",
@@ -145539,6 +145635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9b-table",
    "label": "9b",
    "section": "Reasoning",
    "stem": "You can graph a straight line by plotting just two points. For each rule, find the $y$-values when $x = 0$ and when $x = 1$.",
@@ -145552,6 +145649,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9b-table",
    "label": "9c",
    "section": "Reasoning",
    "stem": "You can graph a straight line by plotting just two points. For each rule, find the $y$-values when $x = 0$ and when $x = 1$.",
@@ -145564,6 +145662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-9b-gaps",
    "label": "10",
    "section": "Reasoning",
    "type": "point",
@@ -145597,6 +145696,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-9b-direction",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Look back at your rules in Question 2.",
@@ -145612,6 +145712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-9b-direction",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Look back at your rules in Question 2.",
@@ -145627,6 +145728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-9b-direction",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Look back at your rules in Question 2.",
@@ -145640,6 +145742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9b-intercepts",
    "label": "13a",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145653,6 +145756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9b-intercepts",
    "label": "13b",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145665,6 +145769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-9b-intercepts",
    "label": "13c",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145677,6 +145782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-9b-intercepts",
    "label": "13d",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145689,6 +145795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-9b-intercepts",
    "label": "13e",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145701,6 +145808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-9b-intercepts",
    "label": "13f",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145713,6 +145821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y8-9b-intercepts",
    "label": "13g",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145725,6 +145834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y8-9b-intercepts",
    "label": "13h",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145737,6 +145847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y8-9b-intercepts",
    "label": "13i",
    "section": "Enrichment",
    "stem": "The $x$-intercept is where the graph cuts the $x$-axis ($y = 0$) and the $y$-intercept is where it cuts the $y$-axis ($x = 0$). Find both intercepts for each rule.",
@@ -145758,6 +145869,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9c-table",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145792,6 +145904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9c-table",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145825,6 +145938,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9c-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145858,6 +145972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9c-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145891,6 +146006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9c-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145924,6 +146040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9c-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145957,6 +146074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9c-table",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -145990,6 +146108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9c-table",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -146023,6 +146142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9c-table",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -146056,6 +146176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9c-table",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the rule for each table of values.",
@@ -146089,6 +146210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9c-graph",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
@@ -146136,6 +146258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9c-graph",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
@@ -146187,6 +146310,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9c-graph",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
@@ -146238,6 +146362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9c-graph",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the rule for each graph. It may help to make a table of $(x, y)$ values first.",
@@ -146285,6 +146410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9c-table",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
@@ -146297,6 +146423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9c-table",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
@@ -146309,6 +146436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9c-table",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
@@ -146321,6 +146449,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-9c-table",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find the rule for each set of points. Try to do it without drawing a graph or a table.",
@@ -146333,6 +146462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9c-sticks",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Write a rule for each matchstick pattern.",
@@ -146503,6 +146633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9c-sticks",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Write a rule for each matchstick pattern.",
@@ -146793,6 +146924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9c-sticks",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Write a rule for each matchstick pattern.",
@@ -146987,6 +147119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9c-twopoints",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The table shows two points on a straight line graph, $(0, -1)$ and $(2, 5)$.",
@@ -147022,6 +147155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9c-twopoints",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The table shows two points on a straight line graph, $(0, -1)$ and $(2, 5)$.",
@@ -147034,6 +147168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9c-twopoints",
    "label": "8a",
    "section": "Problem-solving",
    "type": "expression",
@@ -147045,6 +147180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9c-twopoints",
    "label": "8b",
    "section": "Problem-solving",
    "type": "expression",
@@ -147056,6 +147192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9c-rewrite",
    "label": "9a",
    "section": "Reasoning",
    "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
@@ -147071,6 +147208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9c-rewrite",
    "label": "9b",
    "section": "Reasoning",
    "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
@@ -147086,6 +147224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9c-rewrite",
    "label": "9c",
    "section": "Reasoning",
    "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
@@ -147101,6 +147240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-9c-rewrite",
    "label": "9d",
    "section": "Reasoning",
    "stem": "The rule $y = -2x + 3$ can also be written as $y = 3 - 2x$. Which rule is the same as each of these?",
@@ -147116,6 +147256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9c-sticks",
    "label": "10a",
    "section": "Reasoning",
    "type": "numeric",
@@ -147124,6 +147265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9c-sticks",
    "label": "10b",
    "section": "Reasoning",
    "type": "numeric",
@@ -147132,6 +147274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9c-steps",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
@@ -147167,6 +147310,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9c-steps",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
@@ -147176,6 +147320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-9c-steps",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
@@ -147188,6 +147333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-9c-steps",
    "label": "11d",
    "section": "Reasoning",
    "stem": "A straight line graph passes through $(20, 12)$ and $(24, 18)$.",
@@ -147197,6 +147343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-9c-letters",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A straight line passes through the points $(0, -3)$ and $(1, m)$.",
@@ -147206,6 +147353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-9c-letters",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A straight line passes through the points $(0, -3)$ and $(1, m)$.",
@@ -147219,6 +147367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9c-letters",
    "label": "13a",
    "section": "Reasoning",
    "stem": "A straight line passes through the points $(0, p)$ and $(1, q)$.",
@@ -147228,6 +147377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9c-letters",
    "label": "13b",
    "section": "Reasoning",
    "stem": "A straight line passes through the points $(0, p)$ and $(1, q)$.",
@@ -147240,6 +147390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-9c-steps",
    "label": "14a",
    "section": "Enrichment",
    "stem": "In this table the $x$-values go up by $2$ each time.",
@@ -147268,6 +147419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-9c-steps",
    "label": "14b",
    "section": "Enrichment",
    "stem": "In this table the $x$-values go up by $2$ each time.",
@@ -147280,6 +147432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-9c-steps",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Find the rule for each table.",
@@ -147313,6 +147466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-9c-steps",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Find the rule for each table.",
@@ -147346,6 +147500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-9c-steps",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Find the rule for each table.",
@@ -147379,6 +147534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-9c-steps",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Find the rule for each table.",
@@ -147421,6 +147577,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9d-solve",
    "label": "1a",
    "section": "Fluency",
    "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
@@ -147451,6 +147608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9d-solve",
    "label": "1b",
    "section": "Fluency",
    "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
@@ -147460,6 +147618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-9d-solve",
    "label": "1c",
    "section": "Fluency",
    "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
@@ -147469,6 +147628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-9d-solve",
    "label": "1d",
    "section": "Fluency",
    "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
@@ -147478,6 +147638,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-9d-solve",
    "label": "1e",
    "section": "Fluency",
    "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
@@ -147487,6 +147648,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-9d-solve",
    "label": "1f",
    "section": "Fluency",
    "stem": "Use the graph of $y = 2x - 3$ to solve each equation.",
@@ -147496,6 +147658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9d-solve",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
@@ -147526,6 +147689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9d-solve",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
@@ -147535,6 +147699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9d-solve",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
@@ -147544,6 +147709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9d-solve",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
@@ -147553,6 +147719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-9d-solve",
    "label": "2e",
    "section": "Fluency",
    "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
@@ -147562,6 +147729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-9d-solve",
    "label": "2f",
    "section": "Fluency",
    "stem": "Use the graph of $y = 1 - x$ to solve each equation.",
@@ -147571,6 +147739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9d-readgraph",
    "label": "3a",
    "section": "Fluency",
    "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
@@ -147611,6 +147780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9d-readgraph",
    "label": "3b",
    "section": "Fluency",
    "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
@@ -147621,6 +147791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9d-readgraph",
    "label": "3c",
    "section": "Fluency",
    "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
@@ -147631,6 +147802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9d-readgraph",
    "label": "3d",
    "section": "Fluency",
    "stem": "This graph shows the distance travelled by a kayaker over $4$ hours.",
@@ -147641,6 +147813,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9d-intersect",
    "label": "4a",
    "section": "Fluency",
    "stem": "Complete a table of values for each pair of lines, graph them on the same axes and read off the point of intersection.",
@@ -147698,6 +147871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9d-intersect",
    "label": "4b",
    "section": "Fluency",
    "stem": "Complete a table of values for each pair of lines, graph them on the same axes and read off the point of intersection.",
@@ -147755,6 +147929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9d-software",
    "label": "5a",
    "section": "Fluency",
    "stem": "Use graphing software to sketch $y = 2.5x - 1.5$ for $x$- and $y$-values between $-7$ and $7$. Use the graph to solve each equation, rounding to $2$ decimal places where needed.",
@@ -147765,6 +147940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9d-software",
    "label": "5b",
    "section": "Fluency",
    "stem": "Use graphing software to sketch $y = 2.5x - 1.5$ for $x$- and $y$-values between $-7$ and $7$. Use the graph to solve each equation, rounding to $2$ decimal places where needed.",
@@ -147775,6 +147951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9d-software",
    "label": "5c",
    "section": "Fluency",
    "stem": "Use graphing software to sketch $y = 2.5x - 1.5$ for $x$- and $y$-values between $-7$ and $7$. Use the graph to solve each equation, rounding to $2$ decimal places where needed.",
@@ -147785,6 +147962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9d-software",
    "label": "6a",
    "section": "Fluency",
    "stem": "Use graphing software to sketch each pair of lines and find the coordinates of the point of intersection, rounding to $2$ decimal places.",
@@ -147796,6 +147974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9d-software",
    "label": "6b",
    "section": "Fluency",
    "stem": "Use graphing software to sketch each pair of lines and find the coordinates of the point of intersection, rounding to $2$ decimal places.",
@@ -147806,6 +147985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9d-readgraph",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147850,6 +148030,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9d-readgraph",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147860,6 +148041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-9d-readgraph",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147870,6 +148052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-9d-readgraph",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147880,6 +148063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-9d-readgraph",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147890,6 +148074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-9d-readgraph",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147900,6 +148085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y8-9d-readgraph",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147910,6 +148096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y8-9d-readgraph",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "This graph shows a car journey over $5$ hours.",
@@ -147920,6 +148107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9d-intersect",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
@@ -148396,6 +148584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9d-intersect",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
@@ -148405,6 +148594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9d-intersect",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
@@ -148414,6 +148604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-9d-intersect",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Use the graphs of $y = 7 - 2x$ and $y = x + 1$ to answer these questions.",
@@ -148423,6 +148614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9d-story",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148935,6 +149127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9d-story",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148944,6 +149137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9d-story",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148953,6 +149147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-9d-story",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148962,6 +149157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-9d-story",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148971,6 +149167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-9d-story",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148980,6 +149177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y8-9d-story",
    "label": "9g",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148989,6 +149187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y8-9d-story",
    "label": "9h",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -148998,6 +149197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y8-9d-story",
    "label": "9i",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -149007,6 +149207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y8-9d-story",
    "label": "9j",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -149016,6 +149217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9k",
+   "help": "y8-9d-story",
    "label": "9k",
    "section": "Problem-solving",
    "stem": "Ava and Noah are saving for a school camp. Ava has already saved $\\$30$ and earns $\\$5$ per hour walking dogs. Noah has saved $\\$12$ and earns $\\$8$ per hour tutoring. The graph shows the amount $A$ (in dollars) each has saved after working $n$ hours.",
@@ -149025,6 +149227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9d-story",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149109,6 +149312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9d-story",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149129,6 +149333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-9d-story",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149142,6 +149347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-9d-story",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149152,6 +149358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-9d-story",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149161,6 +149368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-9d-story",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149170,6 +149378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y8-9d-story",
    "label": "10g",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149182,6 +149391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y8-9d-story",
    "label": "10h",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149191,6 +149401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10i",
+   "help": "y8-9d-story",
    "label": "10i",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149200,6 +149411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10j",
+   "help": "y8-9d-story",
    "label": "10j",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149209,6 +149421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10k",
+   "help": "y8-9d-story",
    "label": "10k",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149218,6 +149431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10l",
+   "help": "y8-9d-story",
    "label": "10l",
    "section": "Problem-solving",
    "stem": "Leo and Mia run a $10$-second race. Leo runs at $7$ m/s. Mia is given a $12$ m head start and runs at $5$ m/s. Let $d$ be the distance (in metres) from Leo's starting line after $t$ seconds.",
@@ -149228,6 +149442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9d-intersect",
    "label": "11a",
    "section": "Reasoning",
    "stem": "The graph shows the lines $y = 10 - 3x$ and $y = x + 2$.",
@@ -149661,6 +149876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9d-intersect",
    "label": "11b",
    "section": "Reasoning",
    "stem": "The graph shows the lines $y = 10 - 3x$ and $y = x + 2$.",
@@ -149679,6 +149895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-9d-intersect",
    "label": "11c",
    "section": "Reasoning",
    "stem": "The graph shows the lines $y = 10 - 3x$ and $y = x + 2$.",
@@ -149688,6 +149905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y8-9d-pointeq",
    "label": "12",
    "section": "Reasoning",
    "type": "choice",
@@ -149702,6 +149920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9d-pointeq",
    "label": "13a",
    "section": "Reasoning",
    "stem": "The point $(1.37, 1.74)$ lies on the line $y = 2x - 1$.",
@@ -149712,6 +149931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9d-pointeq",
    "label": "13b",
    "section": "Reasoning",
    "stem": "The point $(1.37, 1.74)$ lies on the line $y = 2x - 1$.",
@@ -149725,6 +149945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-9d-parabola",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Use this graph of $y = x^2$ to solve these equations.",
@@ -150378,6 +150599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-9d-parabola",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Use this graph of $y = x^2$ to solve these equations.",
@@ -150390,6 +150612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-9d-parabola",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Use this graph of $y = x^2$ to solve these equations.",
@@ -150402,6 +150625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-9d-parabola",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
@@ -150415,6 +150639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-9d-parabola",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
@@ -150428,6 +150653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-9d-parabola",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
@@ -150441,6 +150667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-9d-parabola",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
@@ -150454,6 +150681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y8-9d-parabola",
    "label": "14h",
    "section": "Enrichment",
    "stem": "Use graphing software to graph $y = x^2$ and solve these equations, rounding to $2$ decimal places.",
@@ -150467,6 +150695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y8-9d-parabola",
    "label": "14i",
    "section": "Enrichment",
    "type": "choice",
@@ -150480,6 +150709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14j",
+   "help": "y8-9d-parabola",
    "label": "14j",
    "section": "Enrichment",
    "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
@@ -150492,6 +150722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14k",
+   "help": "y8-9d-parabola",
    "label": "14k",
    "section": "Enrichment",
    "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
@@ -150505,6 +150736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14l",
+   "help": "y8-9d-parabola",
    "label": "14l",
    "section": "Enrichment",
    "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
@@ -150518,6 +150750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14m",
+   "help": "y8-9d-parabola",
    "label": "14m",
    "section": "Enrichment",
    "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
@@ -150532,6 +150765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14n",
+   "help": "y8-9d-parabola",
    "label": "14n",
    "section": "Enrichment",
    "stem": "Use graphing software to solve each equation by finding the $x$-values where the two graphs intersect. Round to $2$ decimal places where needed.",
@@ -150550,6 +150784,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9e-lines",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write the rule for each horizontal or vertical line.",
@@ -150587,6 +150822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9e-lines",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write the rule for each horizontal or vertical line.",
@@ -150623,6 +150859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-9e-lines",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write the rule for each horizontal or vertical line.",
@@ -150659,6 +150896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-9e-lines",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write the rule for each horizontal or vertical line.",
@@ -150695,6 +150933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-9e-lines",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write the rule for each horizontal or vertical line.",
@@ -150731,6 +150970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-9e-lines",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write the rule for each horizontal or vertical line.",
@@ -150767,6 +151007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9e-lines",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150777,6 +151018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9e-lines",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150786,6 +151028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9e-lines",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150795,6 +151038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9e-lines",
    "label": "2d",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150804,6 +151048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-9e-lines",
    "label": "2e",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150813,6 +151058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-9e-lines",
    "label": "2f",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150822,6 +151068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-9e-lines",
    "label": "2g",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150831,6 +151078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-9e-lines",
    "label": "2h",
    "section": "Fluency",
    "stem": "Each rule gives a horizontal or vertical line. State the coordinates of the point where the line crosses an axis.",
@@ -150840,6 +151088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9e-boundary",
    "label": "3a",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150855,6 +151104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9e-boundary",
    "label": "3b",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150870,6 +151120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9e-boundary",
    "label": "3c",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150885,6 +151136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9e-boundary",
    "label": "3d",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150900,6 +151152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-9e-boundary",
    "label": "3e",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150915,6 +151168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-9e-boundary",
    "label": "3f",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150930,6 +151184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-9e-boundary",
    "label": "3g",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150945,6 +151200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-9e-boundary",
    "label": "3h",
    "section": "Fluency",
    "stem": "You are sketching each region on a number plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -150960,6 +151216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9e-boundary",
    "label": "4a",
    "section": "Fluency",
    "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
@@ -151659,6 +151916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9e-boundary",
    "label": "4b",
    "section": "Fluency",
    "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
@@ -152374,6 +152632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9e-boundary",
    "label": "4c",
    "section": "Fluency",
    "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
@@ -153125,6 +153384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9e-boundary",
    "label": "4d",
    "section": "Fluency",
    "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
@@ -153859,6 +154119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-9e-boundary",
    "label": "4e",
    "section": "Fluency",
    "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
@@ -154485,6 +154746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-9e-boundary",
    "label": "4f",
    "section": "Fluency",
    "stem": "Write the inequality that matches each shaded region. A dashed line is not included in the region; a solid line is.",
@@ -155128,6 +155390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9e-solve-up",
    "label": "5a",
    "section": "Fluency",
    "stem": "Use the point where the two graphs intersect to solve each equation.",
@@ -155562,6 +155825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9e-solve-up",
    "label": "5b",
    "section": "Fluency",
    "stem": "Use the point where the two graphs intersect to solve each equation.",
@@ -155996,6 +156260,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9e-solve-up",
    "label": "6a",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156027,6 +156292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9e-solve-up",
    "label": "6b",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156057,6 +156323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9e-solve-up",
    "label": "6c",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156087,6 +156354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-9e-solve-up",
    "label": "6d",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156117,6 +156385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-9e-solve-up",
    "label": "6e",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156147,6 +156416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-9e-solve-up",
    "label": "6f",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156177,6 +156447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9e-solve-down",
    "label": "7a",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156207,6 +156478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9e-solve-down",
    "label": "7b",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156237,6 +156509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-9e-solve-down",
    "label": "7c",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156267,6 +156540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-9e-solve-down",
    "label": "7d",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156297,6 +156571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-9e-solve-down",
    "label": "7e",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156327,6 +156602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-9e-solve-down",
    "label": "7f",
    "section": "Fluency",
    "stem": "Solve each inequality using the given graph.",
@@ -156357,6 +156633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9e-boundary",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Match each rule with its graph, A to F.",
@@ -157562,6 +157839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9e-boundary",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Match each rule with its graph, A to F.",
@@ -157579,6 +157857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9e-boundary",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Match each rule with its graph, A to F.",
@@ -157596,6 +157875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-9e-boundary",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Match each rule with its graph, A to F.",
@@ -157613,6 +157893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-9e-boundary",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Match each rule with its graph, A to F.",
@@ -157630,6 +157911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-9e-boundary",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Match each rule with its graph, A to F.",
@@ -157647,6 +157929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9e-solve-down",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
@@ -157683,6 +157966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9e-solve-down",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
@@ -157692,6 +157976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9e-solve-down",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
@@ -157701,6 +157986,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-9e-solve-down",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
@@ -157711,6 +157997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-9e-solve-down",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
@@ -157720,6 +158007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-9e-solve-down",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Use the graph of $y = -2x + 4$ to solve these equations and inequalities.",
@@ -157729,6 +158017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9e-boundary",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157742,6 +158031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9e-boundary",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157755,6 +158045,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-9e-boundary",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157768,6 +158059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-9e-boundary",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157781,6 +158073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-9e-boundary",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157794,6 +158087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-9e-boundary",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157807,6 +158101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y8-9e-boundary",
    "label": "10g",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157820,6 +158115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y8-9e-boundary",
    "label": "10h",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157833,6 +158129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10i",
+   "help": "y8-9e-boundary",
    "label": "10i",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157846,6 +158143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10j",
+   "help": "y8-9e-boundary",
    "label": "10j",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157859,6 +158157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10k",
+   "help": "y8-9e-boundary",
    "label": "10k",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157872,6 +158171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10l",
+   "help": "y8-9e-boundary",
    "label": "10l",
    "section": "Problem-solving",
    "stem": "Is the point $(-2, 3)$ on the given line or inside the given region?",
@@ -157885,6 +158185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9e-rect",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "Find the area of the rectangle enclosed by each set of lines.",
@@ -157895,6 +158196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9e-rect",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "Find the area of the rectangle enclosed by each set of lines.",
@@ -157905,6 +158207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-9e-lines",
    "label": "12a",
    "section": "Reasoning",
    "type": "expression",
@@ -157914,6 +158217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-9e-lines",
    "label": "12b",
    "section": "Reasoning",
    "type": "expression",
@@ -157922,6 +158226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9e-solve-up",
    "label": "13a",
    "section": "Reasoning",
    "stem": "To solve $2x + 4 \\ge 0$ with the graph of $y = 2x + 4$, choose the $x$-values of the points on the line that are also in the region $y \\ge 0$. So the solution is $x \\ge -2$. Use the given graphs to solve these inequalities.",
@@ -157953,6 +158258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9e-solve-up",
    "label": "13b",
    "section": "Reasoning",
    "stem": "To solve $2x + 4 \\ge 0$ with the graph of $y = 2x + 4$, choose the $x$-values of the points on the line that are also in the region $y \\ge 0$. So the solution is $x \\ge -2$. Use the given graphs to solve these inequalities.",
@@ -157983,6 +158289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-9e-rect",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A rectangular region can be described by four inequalities, for example $x \\ge 1$, $x \\le 4$, $y \\ge 1$ and $y \\le 5$. Which four inequalities describe each shaded rectangle?",
@@ -158280,6 +158587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-9e-rect",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A rectangular region can be described by four inequalities, for example $x \\ge 1$, $x \\le 4$, $y \\ge 1$ and $y \\le 5$. Which four inequalities describe each shaded rectangle?",
@@ -158709,6 +159017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-9e-halfplane",
    "label": "15a",
    "section": "Enrichment",
    "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -158724,6 +159033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-9e-halfplane",
    "label": "15b",
    "section": "Enrichment",
    "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -158739,6 +159049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-9e-halfplane",
    "label": "15c",
    "section": "Enrichment",
    "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -158754,6 +159065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-9e-halfplane",
    "label": "15d",
    "section": "Enrichment",
    "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -158769,6 +159081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-9e-halfplane",
    "label": "15e",
    "section": "Enrichment",
    "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -158784,6 +159097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-9e-halfplane",
    "label": "15f",
    "section": "Enrichment",
    "stem": "You are sketching each half plane. How should the boundary line be drawn, and which side should be shaded?",
@@ -158808,6 +159122,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9f-intercepts",
    "label": "1a",
    "section": "Fluency",
    "stem": "For the graph of $y = 4x - 20$, find the:",
@@ -158818,6 +159133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9f-intercepts",
    "label": "1b",
    "section": "Fluency",
    "stem": "For the graph of $y = 4x - 20$, find the:",
@@ -158827,6 +159143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9f-intercepts",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158837,6 +159154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9f-intercepts",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158846,6 +159164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9f-intercepts",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158855,6 +159174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9f-intercepts",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158864,6 +159184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-9f-intercepts",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158873,6 +159194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-9f-intercepts",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158882,6 +159204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-9f-intercepts",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158891,6 +159214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-9f-intercepts",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158900,6 +159224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-9f-intercepts",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158909,6 +159234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-9f-intercepts",
    "label": "2j",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158918,6 +159244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-9f-intercepts",
    "label": "2k",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158927,6 +159254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-9f-intercepts",
    "label": "2l",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for the graph of each rule.",
@@ -158936,6 +159264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9f-intercepts",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -158946,6 +159275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9f-intercepts",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -158955,6 +159285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9f-intercepts",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -158964,6 +159295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9f-intercepts",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -158973,6 +159305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-9f-intercepts",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -158982,6 +159315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-9f-intercepts",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -158991,6 +159325,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-9f-intercepts",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -159000,6 +159335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-9f-intercepts",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -159009,6 +159345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y8-9f-intercepts",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -159018,6 +159355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y8-9f-intercepts",
    "label": "3j",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -159027,6 +159365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y8-9f-intercepts",
    "label": "3k",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -159036,6 +159375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y8-9f-intercepts",
    "label": "3l",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts for these rules. Some coordinates will involve fractions.",
@@ -159045,6 +159385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9f-readgraph",
    "label": "4a",
    "section": "Fluency",
    "stem": "The graph of $y = 2x + 4$ is drawn below. Read off where it crosses each axis.",
@@ -159076,6 +159417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9f-readgraph",
    "label": "4b",
    "section": "Fluency",
    "stem": "The graph of $y = 2x + 4$ is drawn below. Read off where it crosses each axis.",
@@ -159085,6 +159427,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9f-intercepts",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159095,6 +159438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9f-intercepts",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159104,6 +159448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9f-intercepts",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159113,6 +159458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-9f-intercepts",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159122,6 +159468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-9f-intercepts",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159131,6 +159478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-9f-intercepts",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159140,6 +159488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-9f-intercepts",
    "label": "5g",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159149,6 +159498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y8-9f-intercepts",
    "label": "5h",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159158,6 +159508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y8-9f-intercepts",
    "label": "5i",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159167,6 +159518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y8-9f-intercepts",
    "label": "5j",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159176,6 +159528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y8-9f-intercepts",
    "label": "5k",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159185,6 +159538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y8-9f-intercepts",
    "label": "5l",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159194,6 +159548,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5m",
+   "help": "y8-9f-intercepts",
    "label": "5m",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159203,6 +159558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5n",
+   "help": "y8-9f-intercepts",
    "label": "5n",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159212,6 +159568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5o",
+   "help": "y8-9f-intercepts",
    "label": "5o",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159221,6 +159578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5p",
+   "help": "y8-9f-intercepts",
    "label": "5p",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159230,6 +159588,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5q",
+   "help": "y8-9f-intercepts",
    "label": "5q",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159239,6 +159598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5r",
+   "help": "y8-9f-intercepts",
    "label": "5r",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graphs of these rules (the two points you would use to sketch each graph).",
@@ -159248,6 +159608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9f-area",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
@@ -159258,6 +159619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9f-area",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
@@ -159268,6 +159630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9f-area",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
@@ -159278,6 +159641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-9f-area",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the area of the triangle enclosed by the $x$-axis, the $y$-axis and the given line. First find the $x$- and $y$-intercepts.",
@@ -159288,6 +159652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9f-intercepts",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Consider the rule $y = 3x + 4$.",
@@ -159298,6 +159663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9f-intercepts",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Consider the rule $y = 3x + 4$.",
@@ -159313,6 +159679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9f-intercepts",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Consider the rule $y = 4x - 8$.",
@@ -159323,6 +159690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9f-intercepts",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Consider the rule $y = 4x - 8$.",
@@ -159338,6 +159706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9f-twopoints",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A straight line graph passes through the points $(3, 2)$ and $(5, 6)$.",
@@ -159348,6 +159717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9f-twopoints",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A straight line graph passes through the points $(3, 2)$ and $(5, 6)$.",
@@ -159357,6 +159727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9f-context",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "The depth of water ($D$ cm) in a leaking bucket is given by $D = -3t + 24$, where $t$ is the time in seconds.",
@@ -159367,6 +159738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9f-context",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "The depth of water ($D$ cm) in a leaking bucket is given by $D = -3t + 24$, where $t$ is the time in seconds.",
@@ -159377,6 +159749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9f-context",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "The data left on a phone plan ($D$ megabytes) is given by $D = -t + 350$, where $t$ is the number of minutes spent streaming.",
@@ -159387,6 +159760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9f-context",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "The data left on a phone plan ($D$ megabytes) is given by $D = -t + 350$, where $t$ is the number of minutes spent streaming.",
@@ -159397,6 +159771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-9f-special",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Some lines never cross the $x$-axis.",
@@ -159412,6 +159787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-9f-special",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Some lines never cross the $x$-axis.",
@@ -159427,6 +159803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9f-special",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Some lines have the $x$-intercept and $y$-intercept at the same point.",
@@ -159437,6 +159814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9f-special",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Some lines have the $x$-intercept and $y$-intercept at the same point.",
@@ -159446,6 +159824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-9f-special",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Some lines have the $x$-intercept and $y$-intercept at the same point.",
@@ -159461,6 +159840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y8-9f-intercepts",
    "label": "14",
    "section": "Reasoning",
    "type": "expression",
@@ -159473,6 +159853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-9f-general",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159483,6 +159864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-9f-general",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159492,6 +159874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-9f-general",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159501,6 +159884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-9f-general",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159510,6 +159894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y8-9f-general",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159519,6 +159904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16f",
+   "help": "y8-9f-general",
    "label": "16f",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159528,6 +159914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16g",
+   "help": "y8-9f-general",
    "label": "16g",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159537,6 +159924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16h",
+   "help": "y8-9f-general",
    "label": "16h",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159546,6 +159934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16i",
+   "help": "y8-9f-general",
    "label": "16i",
    "section": "Enrichment",
    "stem": "Find the $x$-intercept of the graph of each rule. Start by substituting $y = 0$.",
@@ -159564,6 +159953,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9g-sign",
    "label": "1a",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159681,6 +160071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9g-sign",
    "label": "1b",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159696,6 +160087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-9g-sign",
    "label": "1c",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159711,6 +160103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-9g-sign",
    "label": "1d",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159726,6 +160119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9g-sign",
    "label": "2a",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159843,6 +160237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9g-sign",
    "label": "2b",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159858,6 +160253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9g-sign",
    "label": "2c",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159873,6 +160269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9g-sign",
    "label": "2d",
    "section": "Fluency",
    "stem": "Decide if each line labelled a, b, c and d on this graph has a positive, negative, zero or undefined gradient.",
@@ -159888,6 +160285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9g-riserun",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
@@ -159925,6 +160323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9g-riserun",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
@@ -159961,6 +160360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9g-riserun",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
@@ -159997,6 +160397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9g-riserun",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
@@ -160037,6 +160438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-9g-riserun",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
@@ -160077,6 +160479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-9g-riserun",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the gradient of each line. Use gradient $= \\frac{\\text{rise}}{\\text{run}}$.",
@@ -160117,6 +160520,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9g-riserun",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the gradient of each line.",
@@ -160154,6 +160558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9g-riserun",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the gradient of each line.",
@@ -160190,6 +160595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9g-riserun",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the gradient of each line.",
@@ -160226,6 +160632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9g-riserun",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the gradient of each line.",
@@ -160266,6 +160673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-9g-riserun",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the gradient of each line.",
@@ -160306,6 +160714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-9g-riserun",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the gradient of each line.",
@@ -160346,6 +160755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-9g-compare",
    "label": "5",
    "section": "Problem-solving",
    "type": "choice",
@@ -160359,6 +160769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-9g-compare",
    "label": "6",
    "section": "Problem-solving",
    "type": "choice",
@@ -160372,6 +160783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9g-riserun",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
@@ -160413,6 +160825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9g-riserun",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
@@ -160453,6 +160866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-9g-riserun",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
@@ -160493,6 +160907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-9g-riserun",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the gradient of each line. You will first need to calculate the rise and the run.",
@@ -160533,6 +160948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9g-points",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -160543,6 +160959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9g-points",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -160552,6 +160969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9g-points",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -160561,6 +160979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-9g-points",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -160570,6 +160989,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-9g-points",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -160579,6 +160999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-9g-points",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -160588,6 +161009,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9g-origin",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
@@ -160597,6 +161019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9g-origin",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
@@ -160606,6 +161029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9g-origin",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
@@ -160615,6 +161039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-9g-origin",
    "label": "9d",
    "section": "Reasoning",
    "stem": "A line with gradient $4$ joins the origin $(0, 0)$ to another point $A$.",
@@ -160628,6 +161053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9g-sign",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Think about graphs with rules of the form $y = kx$, such as $y = 2x$ or $y = -7x$.",
@@ -160643,6 +161069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9g-sign",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Think about graphs with rules of the form $y = kx$, such as $y = 2x$ or $y = -7x$.",
@@ -160658,6 +161085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-9g-sign",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Think about graphs with rules of the form $y = kx$, such as $y = 2x$ or $y = -7x$.",
@@ -160672,6 +161100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9g-origin",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
@@ -160681,6 +161110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9g-origin",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
@@ -160690,6 +161120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-9g-origin",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
@@ -160703,6 +161134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-9g-origin",
    "label": "11d",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $3$.",
@@ -160716,6 +161148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-9g-origin",
    "label": "12a",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
@@ -160726,6 +161159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-9g-origin",
    "label": "12b",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
@@ -160735,6 +161169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-9g-origin",
    "label": "12c",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
@@ -160748,6 +161183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-9g-origin",
    "label": "12d",
    "section": "Reasoning",
    "stem": "A line joins the point $(0, 0)$ to the point $(a, b)$ and has a gradient of $-\\frac{2}{3}$.",
@@ -160761,6 +161197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9g-points",
    "label": "13a",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160802,6 +161239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9g-points",
    "label": "13b",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160842,6 +161280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-9g-points",
    "label": "13c",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160882,6 +161321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-9g-points",
    "label": "13d",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160922,6 +161362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-9g-points",
    "label": "13e",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160931,6 +161372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-9g-points",
    "label": "13f",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160940,6 +161382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y8-9g-points",
    "label": "13g",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160949,6 +161392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y8-9g-points",
    "label": "13h",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160958,6 +161402,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y8-9g-points",
    "label": "13i",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160967,6 +161412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13j",
+   "help": "y8-9g-points",
    "label": "13j",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160976,6 +161422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13k",
+   "help": "y8-9g-points",
    "label": "13k",
    "section": "Enrichment",
    "stem": "The rise and run between two points are the differences between their $y$-coordinates and their $x$-coordinates. Use this to find the gradient of the line joining the points.",
@@ -160994,6 +161441,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9h-mc",
    "label": "1a",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161004,6 +161452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9h-mc",
    "label": "1b",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161013,6 +161462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-9h-mc",
    "label": "1c",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161022,6 +161472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-9h-mc",
    "label": "1d",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161031,6 +161482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-9h-mc",
    "label": "1e",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161040,6 +161492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-9h-mc",
    "label": "1f",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161049,6 +161502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y8-9h-mc",
    "label": "1g",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161058,6 +161512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y8-9h-mc",
    "label": "1h",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161067,6 +161522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9h-mc",
    "label": "2a",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161077,6 +161533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9h-mc",
    "label": "2b",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161086,6 +161543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9h-mc",
    "label": "2c",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161095,6 +161553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9h-mc",
    "label": "2d",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161104,6 +161563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-9h-mc",
    "label": "2e",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161113,6 +161573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-9h-mc",
    "label": "2f",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161122,6 +161583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-9h-mc",
    "label": "2g",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161131,6 +161593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-9h-mc",
    "label": "2h",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161140,6 +161603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-9h-mc",
    "label": "2i",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161149,6 +161613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-9h-mc",
    "label": "2j",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161158,6 +161623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-9h-mc",
    "label": "2k",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161167,6 +161633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-9h-mc",
    "label": "2l",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161176,6 +161643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y8-9h-mc",
    "label": "2m",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161185,6 +161653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y8-9h-mc",
    "label": "2n",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161194,6 +161663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y8-9h-mc",
    "label": "2o",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161203,6 +161673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y8-9h-mc",
    "label": "2p",
    "section": "Fluency",
    "stem": "State the gradient ($m$) and the $y$-intercept ($c$) for the graph of each rule.",
@@ -161212,6 +161683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9h-graph",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
@@ -161256,6 +161728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9h-graph",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
@@ -161299,6 +161772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9h-graph",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
@@ -161342,6 +161816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9h-graph",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
@@ -161385,6 +161860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-9h-graph",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
@@ -161428,6 +161904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-9h-graph",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the gradient ($m$) and the $y$-intercept ($c$).",
@@ -161471,6 +161948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9h-graph",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
@@ -161515,6 +161993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9h-graph",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
@@ -161558,6 +162037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9h-graph",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
@@ -161601,6 +162081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9h-graph",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
@@ -161644,6 +162125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-9h-graph",
    "label": "4e",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
@@ -161687,6 +162169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-9h-graph",
    "label": "4f",
    "section": "Fluency",
    "stem": "Find the rule for each graph by first finding the values of $m$ and $c$.",
@@ -161730,6 +162213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9h-graph",
    "label": "5a",
    "section": "Fluency",
    "stem": "These graphs have rules that involve fractions. Find $m$ and $c$ and write the rule.",
@@ -161774,6 +162258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9h-graph",
    "label": "5b",
    "section": "Fluency",
    "stem": "These graphs have rules that involve fractions. Find $m$ and $c$ and write the rule.",
@@ -161817,6 +162302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9h-graph",
    "label": "5c",
    "section": "Fluency",
    "stem": "These graphs have rules that involve fractions. Find $m$ and $c$ and write the rule.",
@@ -161860,6 +162346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-9h-steep",
    "label": "6",
    "section": "Problem-solving",
    "type": "ordered",
@@ -161874,6 +162361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-9h-steep",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
@@ -161936,6 +162424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-9h-steep",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
@@ -161998,6 +162487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-9h-steep",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
@@ -162060,6 +162550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-9h-steep",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Each graph is drawn without numbers on the axes (and the axes may have different scales). Choose the correct rule for each graph.",
@@ -162122,6 +162613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9h-points",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the rule for the line joining each pair of points.",
@@ -162135,6 +162627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9h-points",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the rule for the line joining each pair of points.",
@@ -162147,6 +162640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9h-points",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the rule for the line joining each pair of points.",
@@ -162159,6 +162653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-9h-points",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Find the rule for the line joining each pair of points.",
@@ -162171,6 +162666,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9h-points",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
@@ -162184,6 +162680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9h-points",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
@@ -162196,6 +162693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9h-points",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
@@ -162208,6 +162706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-9h-points",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A line passes through the two points given. The $y$-intercept is not given. Find $m$ and $c$ and write the rule. A sketch may help.",
@@ -162220,6 +162719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9h-points",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Lines are parallel if they have the same gradient.",
@@ -162229,6 +162729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9h-points",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Lines are parallel if they have the same gradient.",
@@ -162242,6 +162743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9h-points",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A graph passes through the points $(0, -3)$ and $(6, -3)$.",
@@ -162251,6 +162753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9h-points",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A graph passes through the points $(0, -3)$ and $(6, -3)$.",
@@ -162260,6 +162763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-9h-points",
    "label": "11c",
    "section": "Reasoning",
    "stem": "A graph passes through the points $(0, -3)$ and $(6, -3)$.",
@@ -162270,6 +162774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-9h-letters",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Write the rule for each graph. Your rule should include the pronumerals $p$ and/or $q$.",
@@ -162345,6 +162850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-9h-letters",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Write the rule for each graph. Your rule should include the pronumerals $p$ and/or $q$.",
@@ -162419,6 +162925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-9h-letters",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Write the rule for each graph. Your rule should include the pronumerals $p$ and/or $q$.",
@@ -162501,6 +163008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-9h-rearrange",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162511,6 +163019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-9h-rearrange",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162520,6 +163029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-9h-rearrange",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162529,6 +163039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-9h-rearrange",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162538,6 +163049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-9h-rearrange",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162547,6 +163059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-9h-rearrange",
    "label": "13f",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162556,6 +163069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y8-9h-rearrange",
    "label": "13g",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162565,6 +163079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y8-9h-rearrange",
    "label": "13h",
    "section": "Reasoning",
    "stem": "Rearrange each rule into the form $y = mx + c$, then state $m$ and $c$.",
@@ -162574,6 +163089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-9h-sketch",
    "label": "14a",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162584,6 +163100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-9h-sketch",
    "label": "14b",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162593,6 +163110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-9h-sketch",
    "label": "14c",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162602,6 +163120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-9h-sketch",
    "label": "14d",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162611,6 +163130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-9h-sketch",
    "label": "14e",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162620,6 +163140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-9h-sketch",
    "label": "14f",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162629,6 +163150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-9h-sketch",
    "label": "14g",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162638,6 +163160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y8-9h-sketch",
    "label": "14h",
    "section": "Enrichment",
    "stem": "To sketch a graph, plot the $y$-intercept, then use the gradient to step to a second point. For each rule, find the point on the graph with the given $x$-coordinate.",
@@ -162656,6 +163179,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9i-speed",
    "label": "1a",
    "section": "Fluency",
    "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
@@ -162695,6 +163219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9i-speed",
    "label": "1b",
    "section": "Fluency",
    "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
@@ -162708,6 +163233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-9i-speed",
    "label": "1c",
    "section": "Fluency",
    "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
@@ -162718,6 +163244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-9i-speed",
    "label": "1d",
    "section": "Fluency",
    "stem": "A walker walks at a constant speed of $4$ km per hour for $5$ hours.",
@@ -162728,6 +163255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9i-speed",
    "label": "2a",
    "section": "Fluency",
    "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
@@ -162770,6 +163298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9i-speed",
    "label": "2b",
    "section": "Fluency",
    "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
@@ -162782,6 +163311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9i-speed",
    "label": "2c",
    "section": "Fluency",
    "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
@@ -162792,6 +163322,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9i-speed",
    "label": "2d",
    "section": "Fluency",
    "stem": "A ferry travels along a river at a constant speed of $7$ km per hour for $6$ hours.",
@@ -162802,6 +163333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9i-drain",
    "label": "3a",
    "section": "Fluency",
    "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
@@ -162844,6 +163376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9i-drain",
    "label": "3b",
    "section": "Fluency",
    "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
@@ -162856,6 +163389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9i-drain",
    "label": "3c",
    "section": "Fluency",
    "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
@@ -162866,6 +163400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9i-drain",
    "label": "3d",
    "section": "Fluency",
    "stem": "A bath holds $36$ L of water. The plug is pulled out and the volume drops by $6$ L per second for $6$ seconds.",
@@ -162876,6 +163411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9i-drain",
    "label": "4a",
    "section": "Fluency",
    "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
@@ -162912,6 +163448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9i-drain",
    "label": "4b",
    "section": "Fluency",
    "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
@@ -162924,6 +163461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9i-drain",
    "label": "4c",
    "section": "Fluency",
    "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
@@ -162934,6 +163472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9i-drain",
    "label": "4d",
    "section": "Fluency",
    "stem": "A drone flying at a height of $360$ m starts to come down at a steady $90$ m per minute for $4$ minutes.",
@@ -162944,6 +163483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9i-drain",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A camping gas canister starts with $2.4$ kg of gas. Gas is used at a rate of $0.3$ kg per hour.",
@@ -162957,6 +163497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9i-drain",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A camping gas canister starts with $2.4$ kg of gas. Gas is used at a rate of $0.3$ kg per hour.",
@@ -162967,6 +163508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9i-drain",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A camping gas canister starts with $2.4$ kg of gas. Gas is used at a rate of $0.3$ kg per hour.",
@@ -162977,6 +163519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9i-units",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A rower completes a $30$ km course at an average speed of $8$ km per hour.",
@@ -162990,6 +163533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9i-units",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A rower completes a $30$ km course at an average speed of $8$ km per hour.",
@@ -163000,6 +163544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9i-units",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "A rower completes a $30$ km course at an average speed of $8$ km per hour.",
@@ -163013,6 +163558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-9i-units",
    "label": "7",
    "section": "Problem-solving",
    "type": "ordered",
@@ -163025,6 +163571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9i-meaning",
    "label": "8a",
    "section": "Reasoning",
    "stem": "The volume of water in a tank (in litres) is given by $V = 1500 - 250t$, where $t$ is in hours.",
@@ -163035,6 +163582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9i-meaning",
    "label": "8b",
    "section": "Reasoning",
    "stem": "The volume of water in a tank (in litres) is given by $V = 1500 - 250t$, where $t$ is in hours.",
@@ -163048,6 +163596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9i-meaning",
    "label": "8c",
    "section": "Reasoning",
    "stem": "The volume of water in a tank (in litres) is given by $V = 1500 - 250t$, where $t$ is in hours.",
@@ -163058,6 +163607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-9i-meaning",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
@@ -163068,6 +163618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-9i-meaning",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
@@ -163081,6 +163632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-9i-meaning",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
@@ -163091,6 +163643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-9i-meaning",
    "label": "9d",
    "section": "Reasoning",
    "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
@@ -163101,6 +163654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-9i-meaning",
    "label": "9e",
    "section": "Reasoning",
    "stem": "A toy balloon's height (in metres) above the ground after $t$ seconds is given by the rule $h = 12 - 3t$.",
@@ -163114,6 +163668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9i-cost",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A phone call costs $15$ cents plus $0.4$ cents per second.",
@@ -163127,6 +163682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9i-cost",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A phone call costs $15$ cents plus $0.4$ cents per second.",
@@ -163140,6 +163696,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-9i-two",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163188,6 +163745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-9i-two",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163204,6 +163762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-9i-two",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163214,6 +163773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-9i-two",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163227,6 +163787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-9i-two",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163240,6 +163801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-9i-two",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163251,6 +163813,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y8-9i-two",
    "label": "11g",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163261,6 +163824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y8-9i-two",
    "label": "11h",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163271,6 +163835,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y8-9i-two",
    "label": "11i",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163284,6 +163849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y8-9i-two",
    "label": "11j",
    "section": "Enrichment",
    "stem": "Two small planes are near the same airfield. The first plane takes off from the runway and climbs at $18$ m per second. At the same moment, the second plane is flying at $90$ m and comes down at $9$ m per second.",
@@ -163308,6 +163874,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-9j-table",
    "label": "1a",
    "section": "Fluency",
    "stem": "Use a table of values to draw the graph of $y = x^2 - 3$.",
@@ -163350,6 +163917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-9j-table",
    "label": "1b",
    "section": "Fluency",
    "stem": "Use a table of values to draw the graph of $y = x^2 - 3$.",
@@ -163473,6 +164041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-9j-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
@@ -163515,6 +164084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-9j-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
@@ -163556,6 +164126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-9j-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
@@ -163594,6 +164165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-9j-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "Complete the table of values for each rule (the first step in plotting its graph). Type the missing $y$-values from left to right.",
@@ -163635,6 +164207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-9j-data",
    "label": "3a",
    "section": "Fluency",
    "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
@@ -163675,6 +164248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-9j-data",
    "label": "3b",
    "section": "Fluency",
    "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
@@ -163685,6 +164259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-9j-data",
    "label": "3c",
    "section": "Fluency",
    "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
@@ -163695,6 +164270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-9j-data",
    "label": "3d",
    "section": "Fluency",
    "stem": "The value of one Australian dollar in Swiss francs over a $6$-month period is shown in this table.",
@@ -163710,6 +164286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-9j-maxarea",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
@@ -163762,6 +164339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-9j-maxarea",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
@@ -163779,6 +164357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-9j-maxarea",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
@@ -163794,6 +164373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-9j-maxarea",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
@@ -163804,6 +164384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-9j-maxarea",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Priya has $12$ cm of string to form a rectangle. The table shows some possible widths.",
@@ -163814,6 +164395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-9j-perimeter",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
@@ -163854,6 +164436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-9j-perimeter",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
@@ -163868,6 +164451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-9j-perimeter",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
@@ -163881,6 +164465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-9j-perimeter",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
@@ -163891,6 +164476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-9j-perimeter",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Leo has enough paint to cover $16$ cm$^2$. He will paint a rectangle with this area.",
@@ -163901,6 +164487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-9j-minmax",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the smallest and largest values of $y$ on the graph of each rule, if $x$ goes from $-3$ to $3$.",
@@ -163914,6 +164501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-9j-minmax",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the smallest and largest values of $y$ on the graph of each rule, if $x$ goes from $-3$ to $3$.",
@@ -163926,6 +164514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-9j-minmax",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the smallest and largest values of $y$ on the graph of each rule, if $x$ goes from $-3$ to $3$.",
@@ -163938,6 +164527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-9j-linear",
    "label": "8a",
    "section": "Reasoning",
    "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
@@ -163951,6 +164541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-9j-linear",
    "label": "8b",
    "section": "Reasoning",
    "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
@@ -163964,6 +164555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-9j-linear",
    "label": "8c",
    "section": "Reasoning",
    "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
@@ -163977,6 +164569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-9j-linear",
    "label": "8d",
    "section": "Reasoning",
    "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
@@ -163990,6 +164583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-9j-linear",
    "label": "8e",
    "section": "Reasoning",
    "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
@@ -164003,6 +164597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-9j-linear",
    "label": "8f",
    "section": "Reasoning",
    "stem": "By choosing and plotting a few points in your head, decide whether each rule gives a linear (straight line) or non-linear graph.",
@@ -164016,6 +164611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-9j-maxarea",
    "label": "9",
    "section": "Reasoning",
    "type": "numeric",
@@ -164024,6 +164620,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-9j-family",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
@@ -164039,6 +164636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-9j-family",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
@@ -164054,6 +164652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-9j-family",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
@@ -164064,6 +164663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-9j-family",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Think about these families of parabolas. A table of values or graphing software may help.",
@@ -164086,6 +164686,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10a-choose",
    "label": "1a",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -164837,6 +165438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10a-choose",
    "label": "1b",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -165567,6 +166169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10a-choose",
    "label": "2a",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -166111,6 +166714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10a-choose",
    "label": "2b",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -166865,6 +167469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10a-choose",
    "label": "2c",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -167649,6 +168254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10a-choose",
    "label": "2d",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -168382,6 +168988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10a-choose",
    "label": "3a",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -169034,6 +169641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10a-choose",
    "label": "3b",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -169686,6 +170294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10a-choose",
    "label": "3c",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -170311,6 +170920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10a-choose",
    "label": "3d",
    "section": "Fluency",
    "stem": "The shaded shape is reflected in the dashed mirror line. Which diagram shows the correct image (the unshaded shape)?",
@@ -171035,6 +171645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10a-line",
    "label": "4a",
    "section": "Fluency",
    "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
@@ -171465,6 +172076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10a-line",
    "label": "4b",
    "section": "Fluency",
    "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
@@ -171827,6 +172439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10a-line",
    "label": "4c",
    "section": "Fluency",
    "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
@@ -172241,6 +172854,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-10a-line",
    "label": "4d",
    "section": "Fluency",
    "stem": "The shaded shape has been reflected to give the unshaded shape. What is the equation of the mirror line?",
@@ -172535,6 +173149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-10a-line",
    "label": "4e",
    "section": "Fluency",
    "stem": "The shaded shape has been reflected to give the unshaded shape. Which dashed line, p, q or r, is the mirror line?",
@@ -172763,6 +173378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-10a-line",
    "label": "4f",
    "section": "Fluency",
    "stem": "The shaded shape has been reflected to give the unshaded shape. Which dashed line, p, q or r, is the mirror line?",
@@ -173045,6 +173661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10a-axes",
    "label": "5a",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173095,6 +173712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10a-axes",
    "label": "5b",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173104,6 +173722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-10a-axes",
    "label": "5c",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173113,6 +173732,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-10a-axes",
    "label": "5d",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173162,6 +173782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-10a-axes",
    "label": "5e",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173171,6 +173792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-10a-axes",
    "label": "5f",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173180,6 +173802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10a-axes",
    "label": "6a",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173237,6 +173860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10a-axes",
    "label": "6b",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173246,6 +173870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-10a-axes",
    "label": "6c",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173255,6 +173880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-10a-axes",
    "label": "6d",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $x$-axis. State the coordinates of each image point.",
@@ -173264,6 +173890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-10a-axes",
    "label": "6e",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173321,6 +173948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-10a-axes",
    "label": "6f",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173330,6 +173958,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-10a-axes",
    "label": "6g",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173339,6 +173968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-10a-axes",
    "label": "6h",
    "section": "Fluency",
    "stem": "Rectangle $ABCD$ is reflected in the $y$-axis. State the coordinates of each image point.",
@@ -173348,6 +173978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10a-symmetry",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173392,6 +174023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10a-symmetry",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173428,6 +174060,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-10a-symmetry",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173464,6 +174097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-10a-symmetry",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173500,6 +174134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-10a-symmetry",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173536,6 +174171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-10a-symmetry",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173568,6 +174204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y8-10a-symmetry",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173604,6 +174241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y8-10a-symmetry",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173636,6 +174274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y8-10a-symmetry",
    "label": "7i",
    "section": "Problem-solving",
    "stem": "How many lines of symmetry does each shape have?",
@@ -173676,6 +174315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-10a-lines",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174119,6 +174759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-10a-lines",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174128,6 +174769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-10a-lines",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174137,6 +174779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-10a-lines",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174146,6 +174789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-10a-lines",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174155,6 +174799,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-10a-lines",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174164,6 +174809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y8-10a-lines",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174173,6 +174819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y8-10a-lines",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174182,6 +174829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y8-10a-lines",
    "label": "8i",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174191,6 +174839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8j",
+   "help": "y8-10a-lines",
    "label": "8j",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174200,6 +174849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8k",
+   "help": "y8-10a-lines",
    "label": "8k",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174209,6 +174859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8l",
+   "help": "y8-10a-lines",
    "label": "8l",
    "section": "Problem-solving",
    "stem": "The point $(3, -2)$ is reflected in the given mirror line. State the coordinates of the image point. The lines $x = 2$ and $y = 1$ are drawn as examples.",
@@ -174218,6 +174869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-10a-facts",
    "label": "9",
    "section": "Reasoning",
    "type": "numeric",
@@ -174227,6 +174879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-10a-symmetry",
    "label": "10",
    "section": "Reasoning",
    "type": "expression",
@@ -174235,6 +174888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-10a-facts",
    "label": "11",
    "section": "Reasoning",
    "type": "choice",
@@ -174249,6 +174903,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-10a-diag",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -174726,6 +175381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-10a-diag",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -174735,6 +175391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-10a-diag",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -174744,6 +175401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-10a-diag",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Triangle $ABC$ has vertices $A(1, -2)$, $B(4, -2)$ and $C(4, -1)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -174753,6 +175411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-10a-diag",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -175242,6 +175901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-10a-diag",
    "label": "12f",
    "section": "Reasoning",
    "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -175251,6 +175911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y8-10a-diag",
    "label": "12g",
    "section": "Reasoning",
    "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -175260,6 +175921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y8-10a-diag",
    "label": "12h",
    "section": "Reasoning",
    "stem": "Rectangle $ABCD$ has vertices $A(1, 2)$, $B(4, 2)$, $C(4, 3)$ and $D(1, 3)$. The dashed lines are $y = x$ and $y = -x$.",
@@ -175269,6 +175931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y8-10a-facts",
    "label": "13",
    "section": "Reasoning",
    "type": "choice",
@@ -175283,6 +175946,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-10a-point",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Each shape is reflected through the point $P$ (each point goes straight through $P$ to the same distance on the other side). Give the coordinates of the image of vertex $A$.",
@@ -175332,6 +175996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-10a-point",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Each shape is reflected through the point $P$ (each point goes straight through $P$ to the same distance on the other side). Give the coordinates of the image of vertex $A$.",
@@ -175377,6 +176042,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-10a-point",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Each shape is reflected through the point $P$ (each point goes straight through $P$ to the same distance on the other side). Give the coordinates of the image of vertex $A$.",
@@ -175422,6 +176088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-10a-point",
    "label": "14d",
    "section": "Enrichment",
    "stem": "A shape has point symmetry if a reflection through its centre point gives exactly the same shape. Does this shape have point symmetry?",
@@ -175462,6 +176129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-10a-point",
    "label": "14e",
    "section": "Enrichment",
    "stem": "A shape has point symmetry if a reflection through its centre point gives exactly the same shape. Does this shape have point symmetry?",
@@ -175498,6 +176166,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-10a-point",
    "label": "14f",
    "section": "Enrichment",
    "stem": "A shape has point symmetry if a reflection through its centre point gives exactly the same shape. Does this shape have point symmetry?",
@@ -175562,6 +176231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-10a-point",
    "label": "14g",
    "section": "Enrichment",
    "type": "numeric",
@@ -175579,6 +176249,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10b-vector",
    "label": "1a",
    "section": "Fluency",
    "stem": "State the translation vector that moves:",
@@ -175618,6 +176289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10b-vector",
    "label": "1b",
    "section": "Fluency",
    "stem": "State the translation vector that moves:",
@@ -175627,6 +176299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10b-vector",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175636,6 +176309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10b-vector",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175645,6 +176319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10b-vector",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175654,6 +176329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10b-vector",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175663,6 +176339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10b-vector",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175672,6 +176349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-10b-vector",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175681,6 +176359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-10b-vector",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175690,6 +176369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-10b-vector",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175699,6 +176379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-10b-vector",
    "label": "2i",
    "section": "Fluency",
    "stem": "Write the vector that takes each point to its image. A grid may help.",
@@ -175708,6 +176389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10b-apply",
    "label": "3a",
    "section": "Fluency",
    "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
@@ -175761,6 +176443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10b-apply",
    "label": "3b",
    "section": "Fluency",
    "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
@@ -175802,6 +176485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10b-apply",
    "label": "3c",
    "section": "Fluency",
    "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
@@ -175847,6 +176531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10b-apply",
    "label": "3d",
    "section": "Fluency",
    "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
@@ -175888,6 +176573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-10b-apply",
    "label": "3e",
    "section": "Fluency",
    "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
@@ -175937,6 +176623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-10b-apply",
    "label": "3f",
    "section": "Fluency",
    "stem": "Each shape is translated by the given vector. Where does the vertex $P$ end up?",
@@ -175986,6 +176673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10b-apply",
    "label": "4a",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -175995,6 +176683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10b-apply",
    "label": "4b",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176004,6 +176693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10b-apply",
    "label": "4c",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176013,6 +176703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-10b-apply",
    "label": "4d",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176022,6 +176713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-10b-apply",
    "label": "4e",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176031,6 +176723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-10b-apply",
    "label": "4f",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176040,6 +176733,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-10b-apply",
    "label": "4g",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176049,6 +176743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-10b-apply",
    "label": "4h",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176058,6 +176753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-10b-apply",
    "label": "4i",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176067,6 +176763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y8-10b-apply",
    "label": "4j",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176076,6 +176773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y8-10b-apply",
    "label": "4k",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176085,6 +176783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y8-10b-apply",
    "label": "4l",
    "section": "Fluency",
    "stem": "Write the coordinates of the image of the point $A(11, -3)$ after a translation by each vector.",
@@ -176094,6 +176793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10b-distance",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Which vector takes an object the greatest distance from where it started?",
@@ -176108,6 +176808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10b-distance",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Which vector takes an object the greatest distance from where it started?",
@@ -176122,6 +176823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10b-combine",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A delivery bike rides around the city streets following these vectors: $(4, 1)$, $(-6, 3)$, $(2, -2)$ and $(-3, -4)$.",
@@ -176131,6 +176833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10b-combine",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A delivery bike rides around the city streets following these vectors: $(4, 1)$, $(-6, 3)$, $(2, -2)$ and $(-3, -4)$.",
@@ -176140,6 +176843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10b-combine",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
@@ -176149,6 +176853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10b-combine",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
@@ -176158,6 +176863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-10b-combine",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
@@ -176167,6 +176873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-10b-combine",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A point is moved by these translation vectors, one after another. The last vector $(x, y)$ takes it back to where it started. Find $(x, y)$.",
@@ -176176,6 +176883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-10b-combine",
    "label": "8a",
    "section": "Reasoning",
    "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
@@ -176185,6 +176893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-10b-combine",
    "label": "8b",
    "section": "Reasoning",
    "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
@@ -176194,6 +176903,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-10b-combine",
    "label": "8c",
    "section": "Reasoning",
    "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
@@ -176204,6 +176914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-10b-combine",
    "label": "8d",
    "section": "Reasoning",
    "stem": "A reverse vector moves a point the same distance in the opposite direction. Write the reverse of each vector.",
@@ -176213,6 +176924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-10b-combine",
    "label": "9a",
    "section": "Reasoning",
    "stem": "These translation vectors are applied to a shape one after the other. What single vector would do all of them in one go?",
@@ -176222,6 +176934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-10b-combine",
    "label": "9b",
    "section": "Reasoning",
    "stem": "These translation vectors are applied to a shape one after the other. What single vector would do all of them in one go?",
@@ -176231,6 +176944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-10b-combine",
    "label": "9c",
    "section": "Reasoning",
    "stem": "These translation vectors are applied to a shape one after the other. What single vector would do all of them in one go?",
@@ -176241,6 +176955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10b-overlap",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A rectangle $ABCD$ has corners at $A(-1, -3)$, $B(-1, 5)$, $C(5, 5)$ and $D(5, -3)$. It is translated by a vector, and the original and the image may overlap.",
@@ -176251,6 +176966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10b-overlap",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A rectangle $ABCD$ has corners at $A(-1, -3)$, $B(-1, 5)$, $C(5, 5)$ and $D(5, -3)$. It is translated by a vector, and the original and the image may overlap.",
@@ -176261,6 +176977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-10b-overlap",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A rectangle $ABCD$ has corners at $A(-1, -3)$, $B(-1, 5)$, $C(5, 5)$ and $D(5, -3)$. It is translated by a vector, and the original and the image may overlap.",
@@ -176270,6 +176987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-10b-possum",
    "label": "11a",
    "section": "Enrichment",
    "stem": "A possum on open ground has $1$ second to reach a hiding hole before a dog spots it. It can run at most $6$ metres in one second.",
@@ -176352,6 +177070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-10b-possum",
    "label": "11b",
    "section": "Enrichment",
    "stem": "A possum on open ground has $1$ second to reach a hiding hole before a dog spots it. It can run at most $6$ metres in one second.",
@@ -176365,6 +177084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-10b-possum",
    "label": "11c",
    "section": "Enrichment",
    "stem": "A possum on open ground has $1$ second to reach a hiding hole before a dog spots it. It can run at most $6$ metres in one second.",
@@ -176383,6 +177103,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10c-order",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176419,6 +177140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10c-order",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176485,6 +177207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10c-order",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176529,6 +177252,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10c-order",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176565,6 +177289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10c-order",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176617,6 +177342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10c-order",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176669,6 +177395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10c-order",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176729,6 +177456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-10c-order",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the order of rotational symmetry for each shape.",
@@ -176881,6 +177609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10c-grid",
    "label": "3a",
    "section": "Fluency",
    "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
@@ -176938,6 +177667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10c-grid",
    "label": "3b",
    "section": "Fluency",
    "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
@@ -176995,6 +177725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10c-grid",
    "label": "3c",
    "section": "Fluency",
    "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
@@ -177044,6 +177775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10c-grid",
    "label": "3d",
    "section": "Fluency",
    "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
@@ -177097,6 +177829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-10c-grid",
    "label": "3e",
    "section": "Fluency",
    "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
@@ -177146,6 +177879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-10c-grid",
    "label": "3f",
    "section": "Fluency",
    "stem": "Each shape is rotated about the point $C$ by the given angle and direction. Where does the vertex $P$ end up?",
@@ -177195,6 +177929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10c-grid",
    "label": "4a",
    "section": "Fluency",
    "stem": "The shaded shape is rotated about the point $C$. Which diagram shows the correct image (the unshaded shape)?",
@@ -177946,6 +178681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10c-grid",
    "label": "4b",
    "section": "Fluency",
    "stem": "The shaded shape is rotated about the point $C$. Which diagram shows the correct image (the unshaded shape)?",
@@ -178616,6 +179352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10c-grid",
    "label": "4c",
    "section": "Fluency",
    "stem": "The shaded shape is rotated about the point $C$. Which diagram shows the correct image (the unshaded shape)?",
@@ -179394,6 +180131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10c-origin",
    "label": "5a",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179421,6 +180159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10c-origin",
    "label": "5b",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179430,6 +180169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-10c-origin",
    "label": "5c",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179439,6 +180179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-10c-origin",
    "label": "5d",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179448,6 +180189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-10c-origin",
    "label": "5e",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179457,6 +180199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-10c-origin",
    "label": "5f",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179466,6 +180209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-10c-origin",
    "label": "5g",
    "section": "Fluency",
    "stem": "The point $A(-2, 5)$ is rotated about the origin $(0, 0)$ by the given angle and direction. Give the coordinates of $A'$.",
@@ -179475,6 +180219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10c-origin",
    "label": "6a",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
@@ -179524,6 +180269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10c-origin",
    "label": "6b",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
@@ -179533,6 +180279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-10c-origin",
    "label": "6c",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
@@ -179542,6 +180289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-10c-origin",
    "label": "6d",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
@@ -179551,6 +180299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-10c-origin",
    "label": "6e",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
@@ -179560,6 +180309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-10c-origin",
    "label": "6f",
    "section": "Fluency",
    "stem": "Triangle $ABC$ is rotated about $(0, 0)$ by the given angle and direction. Give the coordinates of the image point.",
@@ -179569,6 +180319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10c-grid",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The shaded shape has been rotated about $C$ to give the unshaded image. By how many degrees has it been rotated?",
@@ -179759,6 +180510,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10c-grid",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The shaded shape has been rotated about $C$ to give the unshaded image. By how many degrees has it been rotated?",
@@ -179943,6 +180695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-10c-grid",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "The shaded shape has been rotated about $C$ to give the unshaded image. By how many degrees has it been rotated?",
@@ -180125,6 +180878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-10c-letters",
    "label": "8",
    "section": "Problem-solving",
    "type": "list",
@@ -180140,6 +180894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-10c-letters",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Which shape has these properties?",
@@ -180155,6 +180910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-10c-letters",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Which shape has these properties?",
@@ -180170,6 +180926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-10c-letters",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Which shape has these properties?",
@@ -180317,6 +181074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10c-equal",
    "label": "10a",
    "section": "Reasoning",
    "stem": "What value of $x$ (between $0$ and $360$) makes each sentence true?",
@@ -180326,6 +181084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10c-equal",
    "label": "10b",
    "section": "Reasoning",
    "stem": "What value of $x$ (between $0$ and $360$) makes each sentence true?",
@@ -180335,6 +181094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-10c-centre",
    "label": "11a",
    "section": "Enrichment",
    "stem": "To find the centre of rotation $C$ when the angle is known, draw the isosceles triangle $ACA'$. In this example the angle of rotation is $50°$, so $2x + 50 = 180$ and $x = 65$. Find $x$ for each angle of rotation.",
@@ -180429,6 +181189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-10c-centre",
    "label": "11b",
    "section": "Enrichment",
    "stem": "To find the centre of rotation $C$ when the angle is known, draw the isosceles triangle $ACA'$. In this example the angle of rotation is $50°$, so $2x + 50 = 180$ and $x = 65$. Find $x$ for each angle of rotation.",
@@ -180447,6 +181208,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10d-match",
    "label": "1a",
    "section": "Fluency",
    "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
@@ -180561,6 +181323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10d-match",
    "label": "1b",
    "section": "Fluency",
    "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
@@ -180570,6 +181333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-10d-match",
    "label": "1c",
    "section": "Fluency",
    "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
@@ -180583,6 +181347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-10d-match",
    "label": "1d",
    "section": "Fluency",
    "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
@@ -180595,6 +181360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-10d-match",
    "label": "1e",
    "section": "Fluency",
    "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
@@ -180614,6 +181380,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-10d-match",
    "label": "1f",
    "section": "Fluency",
    "stem": "These two quadrilaterals are congruent. Name the part of quadrilateral $EFGH$ that matches each part of quadrilateral $ABCD$.",
@@ -180632,6 +181399,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10d-match",
    "label": "2a",
    "section": "Fluency",
    "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
@@ -180768,6 +181536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10d-match",
    "label": "2b",
    "section": "Fluency",
    "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
@@ -180777,6 +181546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10d-match",
    "label": "2c",
    "section": "Fluency",
    "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
@@ -180790,6 +181560,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10d-match",
    "label": "2d",
    "section": "Fluency",
    "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
@@ -180802,6 +181573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10d-match",
    "label": "2e",
    "section": "Fluency",
    "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
@@ -180821,6 +181593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-10d-match",
    "label": "2f",
    "section": "Fluency",
    "stem": "These two pentagons are congruent. Name the part of pentagon $FGHIJ$ that matches each part of pentagon $ABCDE$.",
@@ -180839,6 +181612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10d-looks",
    "label": "3a",
    "section": "Fluency",
    "stem": "Which shape looks congruent to the given shape? Type its letter.",
@@ -181144,6 +181918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10d-looks",
    "label": "3b",
    "section": "Fluency",
    "stem": "Which shape looks congruent to the given shape? Type its letter.",
@@ -181153,6 +181928,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10d-looks",
    "label": "3c",
    "section": "Fluency",
    "stem": "Which shape looks congruent to the given shape? Type its letter.",
@@ -181162,6 +181938,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10d-looks",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Which triangle looks congruent to the given triangle? Type its letter.",
@@ -181427,6 +182204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10d-looks",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Which triangle looks congruent to the given triangle? Type its letter.",
@@ -181436,6 +182214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10d-looks",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Which triangle looks congruent to the given triangle? Type its letter.",
@@ -181445,6 +182224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10d-count",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
@@ -181592,6 +182372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10d-count",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
@@ -181601,6 +182382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-10d-count",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
@@ -181610,6 +182392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-10d-count",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "The square below has side length $4$ units. How many congruent triangles are there in the diagram with each area?",
@@ -181619,6 +182402,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10d-match",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
@@ -181761,6 +182545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10d-match",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
@@ -181937,6 +182722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-10d-match",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
@@ -182078,6 +182864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-10d-match",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "These pairs of shapes are congruent (lengths in cm). Complete each congruence statement by writing the matching vertices in the same order.",
@@ -182293,6 +183080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10d-cut",
    "label": "7a",
    "section": "Reasoning",
    "stem": "An isosceles triangle $PQR$ is cut from $R$ to $N$, the midpoint of $PQ$.",
@@ -182408,6 +183196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10d-cut",
    "label": "7b",
    "section": "Reasoning",
    "stem": "An isosceles triangle $PQR$ is cut from $R$ to $N$, the midpoint of $PQ$.",
@@ -182422,6 +183211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-10d-cut",
    "label": "8a",
    "section": "Reasoning",
    "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
@@ -182550,6 +183340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-10d-cut",
    "label": "8b",
    "section": "Reasoning",
    "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
@@ -182563,6 +183354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-10d-cut",
    "label": "8c",
    "section": "Reasoning",
    "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
@@ -182578,6 +183370,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-10d-cut",
    "label": "8d",
    "section": "Reasoning",
    "stem": "A kite $KLMN$ has $KL = KN$ and $ML = MN$. Its diagonals are $KM$ and $LN$.",
@@ -182591,6 +183384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-10d-cut",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -182604,6 +183398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10d-combined",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
@@ -183079,6 +183874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10d-combined",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
@@ -183529,6 +184325,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-10d-combined",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
@@ -183987,6 +184784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-10d-combined",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Each shape is mapped to its image (the unshaded shape) by the transformations given. Reflections are in the $x$- or $y$-axis and rotations are about $O(0, 0)$. Find the translation vector used last.",
@@ -184454,6 +185252,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10e-tests",
    "label": "1a",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these two triangles are congruent?",
@@ -184553,6 +185352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10e-tests",
    "label": "1b",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these two triangles are congruent?",
@@ -184658,6 +185458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10e-tests",
    "label": "2a",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
@@ -184763,6 +185564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10e-tests",
    "label": "2b",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
@@ -184865,6 +185667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10e-tests",
    "label": "2c",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
@@ -184968,6 +185771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10e-tests",
    "label": "2d",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
@@ -185077,6 +185881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10e-tests",
    "label": "2e",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
@@ -185168,6 +185973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-10e-tests",
    "label": "2f",
    "section": "Fluency",
    "stem": "Which test (SSS, SAS, AAS or RHS) would you choose to show these triangles are congruent?",
@@ -185262,6 +186068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10e-tests",
    "label": "3a",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185277,6 +186084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10e-tests",
    "label": "3b",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185292,6 +186100,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10e-tests",
    "label": "3c",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185307,6 +186116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10e-tests",
    "label": "3d",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185322,6 +186132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-10e-tests",
    "label": "3e",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185337,6 +186148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-10e-tests",
    "label": "3f",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185352,6 +186164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-10e-tests",
    "label": "3g",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185367,6 +186180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-10e-tests",
    "label": "3h",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185382,6 +186196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y8-10e-tests",
    "label": "3i",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185397,6 +186212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y8-10e-tests",
    "label": "3j",
    "section": "Fluency",
    "stem": "State which test (SSS, SAS, AAS or RHS) shows that each triangle is unique.",
@@ -185412,6 +186228,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10e-find",
    "label": "4a",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. The marked angles are equal.",
@@ -185526,6 +186343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10e-find",
    "label": "4b",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. The marked angles are equal.",
@@ -185536,6 +186354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10e-find",
    "label": "4c",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
@@ -185638,6 +186457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-10e-find",
    "label": "4d",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
@@ -185648,6 +186468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-10e-find",
    "label": "4e",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
@@ -185752,6 +186573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-10e-find",
    "label": "4f",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral.",
@@ -185762,6 +186584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-10e-find",
    "label": "4g",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The shape is a parallelogram cut by a diagonal.)",
@@ -185859,6 +186682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-10e-find",
    "label": "4h",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The shape is a parallelogram cut by a diagonal.)",
@@ -185869,6 +186693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-10e-find",
    "label": "4i",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point. Sides with the same marks are equal.)",
@@ -185991,6 +186816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y8-10e-find",
    "label": "4j",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point. Sides with the same marks are equal.)",
@@ -186001,6 +186827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y8-10e-find",
    "label": "4k",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point. Sides with the same marks are equal.)",
@@ -186011,6 +186838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y8-10e-find",
    "label": "4l",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point and $b$ is at that point. Sides with the same marks are equal.)",
@@ -186135,6 +186963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y8-10e-find",
    "label": "4m",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point and $b$ is at that point. Sides with the same marks are equal.)",
@@ -186145,6 +186974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y8-10e-find",
    "label": "4n",
    "section": "Fluency",
    "stem": "Each pair of triangles is congruent. Find the value of each pronumeral. (The triangles meet at a point and $b$ is at that point. Sides with the same marks are equal.)",
@@ -186155,6 +186985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10e-decide",
    "label": "5a",
    "section": "Fluency",
    "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
@@ -186259,6 +187090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10e-decide",
    "label": "5b",
    "section": "Fluency",
    "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
@@ -186365,6 +187197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-10e-decide",
    "label": "5c",
    "section": "Fluency",
    "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
@@ -186476,6 +187309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-10e-decide",
    "label": "5d",
    "section": "Fluency",
    "stem": "Decide if each pair of triangles is congruent. If it is, choose the reason.",
@@ -186586,6 +187420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10e-missing",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
@@ -186727,6 +187562,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10e-missing",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
@@ -186873,6 +187709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-10e-missing",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
@@ -187011,6 +187848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-10e-missing",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Which piece of information must be added for the two triangles to be congruent? Choose from: ∠B = 40°, ∠C = 25°, EF = 6 m, DE = 6 m, AC = 7 cm, AB = 7 cm, ∠A = 25°.",
@@ -187149,6 +187987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10e-decide",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
@@ -187258,6 +188097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10e-decide",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
@@ -187367,6 +188207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-10e-decide",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
@@ -187476,6 +188317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-10e-decide",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Are these two triangles congruent? You may need the angle sum of a triangle first.",
@@ -187583,6 +188425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-10e-pythag",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Two triangular blocks of land have the measurements shown.",
@@ -187681,6 +188524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-10e-pythag",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Two triangular blocks of land have the measurements shown.",
@@ -187694,6 +188538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-10e-decide",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Decide if each test is enough to prove two triangles are congruent.",
@@ -187707,6 +188552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-10e-decide",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Decide if each test is enough to prove two triangles are congruent.",
@@ -187720,6 +188566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10e-proof",
    "label": "10a",
    "section": "Reasoning",
    "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
@@ -187849,6 +188696,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10e-proof",
    "label": "10b",
    "section": "Reasoning",
    "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
@@ -187963,6 +188811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-10e-proof",
    "label": "10c",
    "section": "Reasoning",
    "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
@@ -188081,6 +188930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-10e-proof",
    "label": "10d",
    "section": "Reasoning",
    "stem": "These pairs of triangles are congruent. Which test (SSS, SAS, AAS or RHS) would you use in a proof? Marks show equal sides, equal angles and parallel lines.",
@@ -188208,6 +189058,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10f-vertex",
    "label": "1a",
    "section": "Fluency",
    "stem": "An isosceles trapezium has two angles of $70°$, as shown. Copies of it are fitted together to make a tiling.",
@@ -188283,6 +189134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10f-vertex",
    "label": "1b",
    "section": "Fluency",
    "stem": "An isosceles trapezium has two angles of $70°$, as shown. Copies of it are fitted together to make a tiling.",
@@ -188293,6 +189145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-10f-vertex",
    "label": "1c",
    "section": "Fluency",
    "stem": "An isosceles trapezium has two angles of $70°$, as shown. Copies of it are fitted together to make a tiling.",
@@ -188306,6 +189159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10f-vertex",
    "label": "2a",
    "section": "Fluency",
    "stem": "A regular tessellation uses copies of just one regular polygon. How many copies meet at each vertex of the tessellation?",
@@ -188315,6 +189169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10f-vertex",
    "label": "2b",
    "section": "Fluency",
    "stem": "A regular tessellation uses copies of just one regular polygon. How many copies meet at each vertex of the tessellation?",
@@ -188324,6 +189179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10f-vertex",
    "label": "2c",
    "section": "Fluency",
    "stem": "A regular tessellation uses copies of just one regular polygon. How many copies meet at each vertex of the tessellation?",
@@ -188333,6 +189189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10f-vertex",
    "label": "3a",
    "section": "Fluency",
    "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
@@ -188377,6 +189234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10f-vertex",
    "label": "3b",
    "section": "Fluency",
    "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
@@ -188413,6 +189271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10f-vertex",
    "label": "3c",
    "section": "Fluency",
    "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
@@ -188629,6 +189488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10f-vertex",
    "label": "3d",
    "section": "Fluency",
    "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
@@ -188669,6 +189529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-10f-vertex",
    "label": "3e",
    "section": "Fluency",
    "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
@@ -188717,6 +189578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-10f-vertex",
    "label": "3f",
    "section": "Fluency",
    "stem": "Does this shape tessellate by itself? You may use reflections, rotations and translations of the shape.",
@@ -188841,6 +189703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10f-name",
    "label": "4a",
    "section": "Fluency",
    "stem": "By looking at any vertex, name this semi-regular tessellation.",
@@ -189479,6 +190342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10f-name",
    "label": "4b",
    "section": "Fluency",
    "stem": "By looking at any vertex, name this semi-regular tessellation.",
@@ -190676,6 +191540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10f-name",
    "label": "4c",
    "section": "Fluency",
    "stem": "By looking at any vertex, name this semi-regular tessellation.",
@@ -191934,6 +192799,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-10f-name",
    "label": "4d",
    "section": "Fluency",
    "stem": "By looking at any vertex, name this semi-regular tessellation.",
@@ -193433,6 +194299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10f-tiles",
    "label": "5a",
    "section": "Fluency",
    "stem": "Each tile is made of unit squares. How many tiles are needed to cover the rectangle exactly, with no gaps or overlaps?",
@@ -193553,6 +194420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10f-tiles",
    "label": "5b",
    "section": "Fluency",
    "stem": "Each tile is made of unit squares. How many tiles are needed to cover the rectangle exactly, with no gaps or overlaps?",
@@ -193652,6 +194520,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-10f-tiles",
    "label": "5c",
    "section": "Fluency",
    "stem": "Using a mixture of the two tiles:",
@@ -193661,6 +194530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10f-name",
    "label": "6a",
    "section": "Fluency",
    "stem": "Name each regular tessellation from Question 2 by looking at one vertex (type the number of sides of each polygon around the vertex, with dots between).",
@@ -193674,6 +194544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10f-name",
    "label": "6b",
    "section": "Fluency",
    "stem": "Name each regular tessellation from Question 2 by looking at one vertex (type the number of sides of each polygon around the vertex, with dots between).",
@@ -193687,6 +194558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-10f-name",
    "label": "6c",
    "section": "Fluency",
    "stem": "Name each regular tessellation from Question 2 by looking at one vertex (type the number of sides of each polygon around the vertex, with dots between).",
@@ -193700,6 +194572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-10f-tiles",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -193708,6 +194581,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-10f-gap",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A tessellation is made using only regular dodecagons (12 sides) and one other regular polygon. At each vertex, two dodecagons meet.",
@@ -193718,6 +194592,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-10f-gap",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A tessellation is made using only regular dodecagons (12 sides) and one other regular polygon. At each vertex, two dodecagons meet.",
@@ -193728,6 +194603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-10f-gap",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A tessellation is made using only regular dodecagons (12 sides) and one other regular polygon. At each vertex, two dodecagons meet.",
@@ -193743,6 +194619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y8-10f-tiles",
    "label": "10",
    "section": "Reasoning",
    "type": "numeric",
@@ -193751,6 +194628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-10f-vertex",
    "label": "11",
    "section": "Reasoning",
    "type": "choice",
@@ -193764,6 +194642,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-10f-gap",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Interior angles explain which regular polygons tessellate by themselves.",
@@ -193774,6 +194653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-10f-gap",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Interior angles explain which regular polygons tessellate by themselves.",
@@ -193787,6 +194667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-10f-gap",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Interior angles explain which regular polygons tessellate by themselves.",
@@ -193802,6 +194683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y8-10f-gap",
    "label": "15",
    "section": "Enrichment",
    "type": "numeric",
@@ -193820,6 +194702,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10g-proof",
    "label": "1a",
    "section": "Fluency",
    "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
@@ -193991,6 +194874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10g-proof",
    "label": "1b",
    "section": "Fluency",
    "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
@@ -194006,6 +194890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-10g-proof",
    "label": "1c",
    "section": "Fluency",
    "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
@@ -194019,6 +194904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-10g-proof",
    "label": "1d",
    "section": "Fluency",
    "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
@@ -194034,6 +194920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-10g-proof",
    "label": "1e",
    "section": "Fluency",
    "stem": "Follow these steps to prove that the diagonals of square $PQRS$ bisect each other. The diagonals meet at $M$.",
@@ -194049,6 +194936,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10g-proof",
    "label": "2a",
    "section": "Fluency",
    "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
@@ -194198,6 +195086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10g-proof",
    "label": "2b",
    "section": "Fluency",
    "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
@@ -194213,6 +195102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10g-proof",
    "label": "2c",
    "section": "Fluency",
    "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
@@ -194225,6 +195115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10g-proof",
    "label": "2d",
    "section": "Fluency",
    "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
@@ -194240,6 +195131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10g-proof",
    "label": "2e",
    "section": "Fluency",
    "stem": "Prove that the diagonals of parallelogram $JKLM$ bisect each other. You may assume that opposite sides are equal, so $JK = LM$. The diagonals meet at $N$.",
@@ -194255,6 +195147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10g-tests",
    "label": "3a",
    "section": "Fluency",
    "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
@@ -194341,6 +195234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10g-tests",
    "label": "3b",
    "section": "Fluency",
    "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
@@ -194423,6 +195317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10g-tests",
    "label": "3c",
    "section": "Fluency",
    "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
@@ -194511,6 +195406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10g-tests",
    "label": "3d",
    "section": "Fluency",
    "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
@@ -194638,6 +195534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-10g-tests",
    "label": "3e",
    "section": "Fluency",
    "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
@@ -194724,6 +195621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-10g-tests",
    "label": "3f",
    "section": "Fluency",
    "stem": "Which test would be used to prove that the two triangles in each diagram are congruent? Equal marks show equal sides or angles.",
@@ -194833,6 +195731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10g-proof",
    "label": "4a",
    "section": "Fluency",
    "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
@@ -194947,6 +195846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10g-proof",
    "label": "4b",
    "section": "Fluency",
    "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
@@ -194962,6 +195862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10g-proof",
    "label": "4c",
    "section": "Fluency",
    "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
@@ -194974,6 +195875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-10g-proof",
    "label": "4d",
    "section": "Fluency",
    "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
@@ -194989,6 +195891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-10g-proof",
    "label": "4e",
    "section": "Fluency",
    "stem": "$WXYZ$ is a parallelogram, so it has two pairs of parallel sides. The diagonal $XZ$ is drawn.",
@@ -195004,6 +195907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10g-angles",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "$EFGH$ is a rhombus (all sides equal). Its diagonals meet at $K$. Assume that $EK = KG$.",
@@ -195151,6 +196055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10g-angles",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "$EFGH$ is a rhombus (all sides equal). Its diagonals meet at $K$. Assume that $EK = KG$.",
@@ -195161,6 +196066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-10g-angles",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "$ABCD$ is a square. Its diagonals meet at $E$. Assume that $AE = EC$ and $BE = ED$.",
@@ -195326,6 +196232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-10g-angles",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "$ABCD$ is a square. Its diagonals meet at $E$. Assume that $AE = EC$ and $BE = ED$.",
@@ -195336,6 +196243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-10g-angles",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "$ABCD$ is a square. Its diagonals meet at $E$. Assume that $AE = EC$ and $BE = ED$.",
@@ -195346,6 +196254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10g-angles",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "$ABCD$ is a kite with $AB = AD$ and $CB = CD$. The diagonal $AC$ is drawn.",
@@ -195460,6 +196369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10g-angles",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "$ABCD$ is a kite with $AB = AD$ and $CB = CD$. The diagonal $AC$ is drawn.",
@@ -195475,6 +196385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-10g-angles",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "$ABCD$ is a kite with $AB = AD$ and $CB = CD$. The diagonal $AC$ is drawn.",
@@ -195485,6 +196396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-10g-pythag",
    "label": "8a",
    "section": "Reasoning",
    "stem": "$EFGH$ is a rectangle with $EF = 20$ cm and $FG = 21$ cm. Opposite sides are equal.",
@@ -195624,6 +196536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-10g-pythag",
    "label": "8b",
    "section": "Reasoning",
    "stem": "$EFGH$ is a rectangle with $EF = 20$ cm and $FG = 21$ cm. Opposite sides are equal.",
@@ -195634,6 +196547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-10g-pythag",
    "label": "8c",
    "section": "Reasoning",
    "stem": "$EFGH$ is a rectangle with $EF = 20$ cm and $FG = 21$ cm. Opposite sides are equal.",
@@ -195649,6 +196563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-10g-proof",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
@@ -195773,6 +196688,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-10g-proof",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
@@ -195788,6 +196704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-10g-proof",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
@@ -195803,6 +196720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-10g-proof",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Follow the steps of Question 2 to show that the opposite sides of rectangle $WXYZ$ are equal. The diagonal $WY$ is drawn.",
@@ -195815,6 +196733,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10g-trap",
    "label": "10a",
    "section": "Reasoning",
    "stem": "$PQRS$ is a trapezium with $PQ \\parallel SR$. Its diagonals meet at $T$.",
@@ -195934,6 +196853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10g-trap",
    "label": "10b",
    "section": "Reasoning",
    "stem": "$PQRS$ is a trapezium with $PQ \\parallel SR$. Its diagonals meet at $T$.",
@@ -195957,6 +196877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-10g-trap",
    "label": "10c",
    "section": "Reasoning",
    "stem": "$PQRS$ is a trapezium with $PQ \\parallel SR$. Its diagonals meet at $T$.",
@@ -195972,6 +196893,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-10g-angles",
    "label": "11a",
    "section": "Reasoning",
    "stem": "$PQRS$ is a kite with $PS = PQ$ and $RS = RQ$. Its diagonals meet at $E$. Assume that $\\angle SPE = \\angle QPE$, as marked.",
@@ -196119,6 +197041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-10g-angles",
    "label": "11b",
    "section": "Reasoning",
    "stem": "$PQRS$ is a kite with $PS = PQ$ and $RS = RQ$. Its diagonals meet at $E$. Assume that $\\angle SPE = \\angle QPE$, as marked.",
@@ -196134,6 +197057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-10g-angles",
    "label": "11c",
    "section": "Reasoning",
    "stem": "$PQRS$ is a kite with $PS = PQ$ and $RS = RQ$. Its diagonals meet at $E$. Assume that $\\angle SPE = \\angle QPE$, as marked.",
@@ -196144,6 +197068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-10g-tests",
    "label": "12a",
    "section": "Enrichment",
    "type": "choice",
@@ -196257,6 +197182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-10g-tests",
    "label": "12b",
    "section": "Enrichment",
    "type": "choice",
@@ -196385,6 +197311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-10g-tests",
    "label": "12c",
    "section": "Enrichment",
    "type": "numeric",
@@ -196510,6 +197437,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10h-sf",
    "label": "1a",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -196715,6 +197643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10h-sf",
    "label": "1b",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -196735,6 +197664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-10h-sf",
    "label": "1c",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -196745,6 +197675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-10h-sf",
    "label": "1d",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -196754,6 +197685,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-10h-sf",
    "label": "1e",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -196763,6 +197695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-10h-sf",
    "label": "1f",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -196772,6 +197705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y8-10h-sf",
    "label": "1g",
    "section": "Fluency",
    "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
@@ -196918,6 +197852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y8-10h-sf",
    "label": "1h",
    "section": "Fluency",
    "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
@@ -196937,6 +197872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y8-10h-sf",
    "label": "1i",
    "section": "Fluency",
    "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
@@ -196946,6 +197882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y8-10h-sf",
    "label": "1j",
    "section": "Fluency",
    "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
@@ -196955,6 +197892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y8-10h-sf",
    "label": "1k",
    "section": "Fluency",
    "stem": "Triangles $JKL$ and $RST$ are similar, with the vertices in matching order.",
@@ -196964,6 +197902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10h-sf",
    "label": "2a",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -197188,6 +198127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10h-sf",
    "label": "2b",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -197207,6 +198147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10h-sf",
    "label": "2c",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -197216,6 +198157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10h-sf",
    "label": "2d",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -197225,6 +198167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10h-sf",
    "label": "2e",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -197234,6 +198177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-10h-sf",
    "label": "2f",
    "section": "Fluency",
    "stem": "Quadrilaterals $ABCD$ and $EFGH$ are similar, with the vertices in matching order.",
@@ -197243,6 +198187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-10h-sf",
    "label": "2g",
    "section": "Fluency",
    "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
@@ -197473,6 +198418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-10h-sf",
    "label": "2h",
    "section": "Fluency",
    "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
@@ -197492,6 +198438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-10h-sf",
    "label": "2i",
    "section": "Fluency",
    "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
@@ -197501,6 +198448,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-10h-sf",
    "label": "2j",
    "section": "Fluency",
    "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
@@ -197510,6 +198458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-10h-sf",
    "label": "2k",
    "section": "Fluency",
    "stem": "Pentagons $ABCDE$ and $FGHIJ$ are similar, with the vertices in matching order.",
@@ -197519,6 +198468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10h-grid",
    "label": "3a",
    "section": "Fluency",
    "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
@@ -197761,6 +198711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10h-grid",
    "label": "3b",
    "section": "Fluency",
    "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
@@ -197987,6 +198938,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10h-grid",
    "label": "3c",
    "section": "Fluency",
    "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
@@ -198221,6 +199173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10h-grid",
    "label": "3d",
    "section": "Fluency",
    "stem": "Are the two shapes on the grid similar? If so, what is the scale factor?",
@@ -198593,6 +199546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10h-grid",
    "label": "4a",
    "section": "Fluency",
    "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
@@ -198756,6 +199710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10h-grid",
    "label": "4b",
    "section": "Fluency",
    "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
@@ -198965,6 +199920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10h-grid",
    "label": "4c",
    "section": "Fluency",
    "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
@@ -199194,6 +200150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-10h-grid",
    "label": "4d",
    "section": "Fluency",
    "stem": "Decide whether the two shapes are similar by looking at corresponding angles and the ratios of corresponding sides.",
@@ -199363,6 +200320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-10h-words",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -199372,6 +200330,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-10h-words",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -199381,6 +200340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y8-10h-circles",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -199390,6 +200350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-10h-circles",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -199398,6 +200359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-10h-always",
    "label": "9a",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199411,6 +200373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-10h-always",
    "label": "9b",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199424,6 +200387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-10h-always",
    "label": "9c",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199437,6 +200401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-10h-always",
    "label": "9d",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199450,6 +200415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-10h-always",
    "label": "9e",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199463,6 +200429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-10h-always",
    "label": "9f",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199476,6 +200443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y8-10h-always",
    "label": "9g",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199489,6 +200457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y8-10h-always",
    "label": "9h",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199502,6 +200471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y8-10h-always",
    "label": "9i",
    "section": "Reasoning",
    "stem": "True or false?",
@@ -199515,6 +200485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10h-always",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Think about angles and side ratios.",
@@ -199529,6 +200500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10h-always",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Think about angles and side ratios.",
@@ -199542,6 +200514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-10h-circles",
    "label": "11",
    "section": "Reasoning",
    "type": "ratio",
@@ -199552,6 +200525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-10h-squares",
    "label": "12a",
    "section": "Enrichment",
    "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
@@ -199676,6 +200650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-10h-squares",
    "label": "12b",
    "section": "Enrichment",
    "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
@@ -199686,6 +200661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-10h-squares",
    "label": "12c",
    "section": "Enrichment",
    "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
@@ -199696,6 +200672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-10h-squares",
    "label": "12d",
    "section": "Enrichment",
    "stem": "A design is made of squares. Each square is formed by joining the midpoints of the sides of the next larger square. The outside square has sides of $6$ cm.",
@@ -199714,6 +200691,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-10i-ratio",
    "label": "1a",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. What ratio (scale factor) of corresponding sides shows this? Give it from the smaller triangle to the larger.",
@@ -199858,6 +200836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-10i-ratio",
    "label": "1b",
    "section": "Fluency",
    "stem": "These pairs of triangles are similar. What ratio (scale factor) of corresponding sides shows this? Give it from the smaller triangle to the larger.",
@@ -199997,6 +200976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-10i-tests",
    "label": "2a",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200100,6 +201080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-10i-tests",
    "label": "2b",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200195,6 +201176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-10i-tests",
    "label": "2c",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200302,6 +201284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-10i-tests",
    "label": "2d",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200409,6 +201392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-10i-tests",
    "label": "2e",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200516,6 +201500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-10i-tests",
    "label": "2f",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200623,6 +201608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-10i-tests",
    "label": "2g",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200718,6 +201704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-10i-tests",
    "label": "2h",
    "section": "Fluency",
    "stem": "Which test (AAA, SSS, SAS or RHS) shows that the two triangles are similar?",
@@ -200841,6 +201828,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-10i-find",
    "label": "3a",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -200958,6 +201946,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-10i-find",
    "label": "3b",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -200967,6 +201956,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-10i-find",
    "label": "3c",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -201118,6 +202108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-10i-find",
    "label": "3d",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -201127,6 +202118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-10i-find",
    "label": "3e",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -201255,6 +202247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-10i-find",
    "label": "3f",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -201264,6 +202257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-10i-find",
    "label": "3g",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -201397,6 +202391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-10i-find",
    "label": "3h",
    "section": "Fluency",
    "stem": "Each pair of triangles is similar. Find the value of each pronumeral.",
@@ -201406,6 +202401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-10i-ratio",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Two triangular running tracks are used for the junior and open divisions of a school carnival.",
@@ -201518,6 +202514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-10i-ratio",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Two triangular running tracks are used for the junior and open divisions of a school carnival.",
@@ -201532,6 +202529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-10i-ratio",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Two triangular running tracks are used for the junior and open divisions of a school carnival.",
@@ -201541,6 +202539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-10i-tests",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
@@ -201634,6 +202633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-10i-tests",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
@@ -201727,6 +202727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-10i-tests",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
@@ -201836,6 +202837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-10i-tests",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Use the angle sum of a triangle to decide whether the two triangles are similar.",
@@ -201945,6 +202947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-10i-world",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -202074,6 +203077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-10i-world",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Trees (dots) on the banks of a river are used to make two right-angled triangles, as shown. The measurements are $5$ m, $6$ m and $21$ m.",
@@ -202223,6 +203227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-10i-world",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Trees (dots) on the banks of a river are used to make two right-angled triangles, as shown. The measurements are $5$ m, $6$ m and $21$ m.",
@@ -202232,6 +203237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-10i-world",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Trees (dots) on the banks of a river are used to make two right-angled triangles, as shown. The measurements are $5$ m, $6$ m and $21$ m.",
@@ -202242,6 +203248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-10i-reason",
    "label": "8",
    "section": "Reasoning",
    "type": "choice",
@@ -202256,6 +203263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-10i-reason",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A student measures two angles in each triangle first, then a side if needed. Classify each pair as congruent (C), similar but not congruent (S), or neither (N).",
@@ -202270,6 +203278,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-10i-reason",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A student measures two angles in each triangle first, then a side if needed. Classify each pair as congruent (C), similar but not congruent (S), or neither (N).",
@@ -202284,6 +203293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-10i-reason",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A student measures two angles in each triangle first, then a side if needed. Classify each pair as congruent (C), similar but not congruent (S), or neither (N).",
@@ -202298,6 +203308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-10i-reason",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Choose the correct reason why the two triangles are similar.",
@@ -202417,6 +203428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-10i-reason",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Choose the correct reason why the two triangles are similar.",
@@ -202523,6 +203535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-10i-reason",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Choose the correct reason why the two triangles are similar.",
@@ -202617,6 +203630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-10i-reason",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Choose the correct reason why the two triangles are similar.",
@@ -202734,6 +203748,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-10i-pythag",
    "label": "11a",
    "section": "Reasoning",
    "stem": "$\\triangle PQR$ has a right angle at $Q$, $PQ = 8$ and $QR = 15$. $\\triangle STU$ has a right angle at $T$, $ST = 24$ and $SU = 51$.",
@@ -202877,6 +203892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-10i-pythag",
    "label": "11b",
    "section": "Reasoning",
    "stem": "$\\triangle PQR$ has a right angle at $Q$, $PQ = 8$ and $QR = 15$. $\\triangle STU$ has a right angle at $T$, $ST = 24$ and $SU = 51$.",
@@ -202886,6 +203902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-10i-pythag",
    "label": "11c",
    "section": "Reasoning",
    "stem": "$\\triangle PQR$ has a right angle at $Q$, $PQ = 8$ and $QR = 15$. $\\triangle STU$ has a right angle at $T$, $ST = 24$ and $SU = 51$.",
@@ -202900,6 +203917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-10i-part",
    "label": "12a",
    "section": "Enrichment",
    "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
@@ -202992,6 +204010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-10i-part",
    "label": "12b",
    "section": "Enrichment",
    "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
@@ -203082,6 +204101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-10i-part",
    "label": "12c",
    "section": "Enrichment",
    "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
@@ -203166,6 +204186,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-10i-part",
    "label": "12d",
    "section": "Enrichment",
    "stem": "In each diagram, $x$ cm is not a full side of a triangle. Find the value of $x$.",
