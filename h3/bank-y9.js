@@ -124824,6 +124824,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6a-expand",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124834,6 +124835,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6a-expand",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124843,6 +124845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6a-expand",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124852,6 +124855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6a-expand",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124861,6 +124865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6a-expand",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124871,6 +124876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6a-expand",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124880,6 +124886,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6a-expand",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124889,6 +124896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6a-expand",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form.",
@@ -124899,6 +124907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6a-evaluate",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124908,6 +124917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6a-evaluate",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124917,6 +124927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6a-evaluate",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124926,6 +124937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6a-evaluate",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124935,6 +124947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6a-evaluate",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124944,6 +124957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6a-evaluate",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124953,6 +124967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6a-evaluate",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124962,6 +124977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6a-evaluate",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124971,6 +124987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-6a-evaluate",
    "label": "2i",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124981,6 +124998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-6a-evaluate",
    "label": "2j",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124990,6 +125008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-6a-evaluate",
    "label": "2k",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -124999,6 +125018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-6a-evaluate",
    "label": "2l",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -125008,6 +125028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-6a-evaluate",
    "label": "2m",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -125017,6 +125038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-6a-evaluate",
    "label": "2n",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -125026,6 +125048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-6a-evaluate",
    "label": "2o",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -125035,6 +125058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-6a-evaluate",
    "label": "2p",
    "section": "Fluency",
    "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
@@ -125044,6 +125068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6a-index-form",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125055,6 +125080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6a-index-form",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125065,6 +125091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6a-index-form",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125075,6 +125102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6a-index-form",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125085,6 +125113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6a-index-form",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125095,6 +125124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6a-index-form",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125105,6 +125135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6a-index-form",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125115,6 +125146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6a-index-form",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125125,6 +125157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6a-index-form",
    "label": "4a",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125138,6 +125171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6a-index-form",
    "label": "4b",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125150,6 +125184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6a-index-form",
    "label": "4c",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125177,6 +125212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6a-index-form",
    "label": "4d",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125191,6 +125227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6a-index-form",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125205,6 +125242,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6a-index-form",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125219,6 +125257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6a-index-form",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125233,6 +125272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6a-index-form",
    "label": "5d",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125247,6 +125287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6a-index-form",
    "label": "5e",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125260,6 +125301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6a-index-form",
    "label": "5f",
    "section": "Fluency",
    "stem": "Write each of the following in index form.",
@@ -125273,6 +125315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6a-primes",
    "label": "6a",
    "section": "Fluency",
    "stem": "Express each of the following as a product of prime factors in index form.",
@@ -125284,6 +125327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6a-primes",
    "label": "6b",
    "section": "Fluency",
    "stem": "Express each of the following as a product of prime factors in index form.",
@@ -125294,6 +125338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6a-primes",
    "label": "6c",
    "section": "Fluency",
    "stem": "Express each of the following as a product of prime factors in index form.",
@@ -125304,6 +125349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6a-primes",
    "label": "6d",
    "section": "Fluency",
    "stem": "Express each of the following as a product of prime factors in index form.",
@@ -125314,6 +125360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6a-primes",
    "label": "6e",
    "section": "Fluency",
    "stem": "Express each of the following as a product of prime factors in index form.",
@@ -125324,6 +125371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6a-primes",
    "label": "6f",
    "section": "Fluency",
    "stem": "Express each of the following as a product of prime factors in index form.",
@@ -125334,6 +125382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6a-sub",
    "label": "7a",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125343,6 +125392,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6a-sub",
    "label": "7b",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125352,6 +125402,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6a-sub",
    "label": "7c",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125361,6 +125412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6a-sub",
    "label": "7d",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125370,6 +125422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6a-sub",
    "label": "7e",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125379,6 +125432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6a-sub",
    "label": "7f",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125388,6 +125442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-6a-sub",
    "label": "7g",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125397,6 +125452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-6a-sub",
    "label": "7h",
    "section": "Fluency",
    "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
@@ -125406,6 +125462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6a-missing",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125415,6 +125472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6a-missing",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125424,6 +125482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6a-missing",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125433,6 +125492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-6a-missing",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125442,6 +125502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-6a-missing",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125451,6 +125512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-6a-missing",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125460,6 +125522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-6a-missing",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125469,6 +125532,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-6a-missing",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -125478,6 +125542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6a-growth",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
@@ -125488,6 +125553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6a-growth",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
@@ -125498,6 +125564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-6a-growth",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
@@ -125508,6 +125575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-6a-growth",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
@@ -125517,6 +125585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-6a-growth",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "A financial adviser says she can double your money every year, so you invest $\\$750$ with her.",
@@ -125527,6 +125596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-6a-growth",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "A financial adviser says she can double your money every year, so you invest $\\$750$ with her.",
@@ -125537,6 +125607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-6a-growth",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -125546,6 +125617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-6a-evaluate",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125555,6 +125627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-6a-evaluate",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125564,6 +125637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-6a-evaluate",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125573,6 +125647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-6a-evaluate",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125582,6 +125657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-6a-evaluate",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125591,6 +125667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-6a-evaluate",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125600,6 +125677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-6a-evaluate",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125609,6 +125687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-6a-evaluate",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -125618,6 +125697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-6a-decimal",
    "label": "14a",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125630,6 +125710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-6a-decimal",
    "label": "14b",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125641,6 +125722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-6a-decimal",
    "label": "14c",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125652,6 +125734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-6a-decimal",
    "label": "14d",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125663,6 +125746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-6a-decimal",
    "label": "14e",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125674,6 +125758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-6a-decimal",
    "label": "14f",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125685,6 +125770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-6a-decimal",
    "label": "14g",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125696,6 +125782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-6a-decimal",
    "label": "14h",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125707,6 +125794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y9-6a-decimal",
    "label": "14i",
    "section": "Reasoning",
    "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
@@ -125718,6 +125806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-6a-lcm-hcf",
    "label": "15a",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125731,6 +125820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-6a-lcm-hcf",
    "label": "15b",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125743,6 +125833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-6a-lcm-hcf",
    "label": "15c",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125755,6 +125846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-6a-lcm-hcf",
    "label": "15d",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125767,6 +125859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-6a-lcm-hcf",
    "label": "15e",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125779,6 +125872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y9-6a-lcm-hcf",
    "label": "15f",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125791,6 +125885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y9-6a-lcm-hcf",
    "label": "15g",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125803,6 +125898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15h",
+   "help": "y9-6a-lcm-hcf",
    "label": "15h",
    "section": "Enrichment",
    "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
@@ -125824,6 +125920,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6b-numbers",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125835,6 +125932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6b-numbers",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125845,6 +125943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6b-numbers",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125855,6 +125954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6b-numbers",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125865,6 +125965,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6b-numbers",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125876,6 +125977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6b-numbers",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125886,6 +125988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6b-numbers",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125896,6 +125999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6b-numbers",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125906,6 +126010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6b-numbers",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125916,6 +126021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6b-numbers",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125926,6 +126032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6b-numbers",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125936,6 +126043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6b-numbers",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify, giving your answers in index form.",
@@ -125949,6 +126057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6b-mult-letters",
    "label": "3a",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -125960,6 +126069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6b-mult-letters",
    "label": "3b",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -125970,6 +126080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6b-mult-letters",
    "label": "3c",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -125980,6 +126091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6b-mult-letters",
    "label": "3d",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -125990,6 +126102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6b-mult-letters",
    "label": "3e",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126000,6 +126113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6b-mult-letters",
    "label": "3f",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126010,6 +126124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6b-mult-letters",
    "label": "3g",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126020,6 +126135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6b-mult-letters",
    "label": "3h",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126030,6 +126146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-6b-mult-letters",
    "label": "3i",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126040,6 +126157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-6b-mult-letters",
    "label": "3j",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126050,6 +126168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-6b-mult-letters",
    "label": "3k",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126061,6 +126180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-6b-mult-letters",
    "label": "3l",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126071,6 +126191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-6b-mult-letters",
    "label": "3m",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126081,6 +126202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-6b-mult-letters",
    "label": "3n",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126091,6 +126213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-6b-mult-letters",
    "label": "3o",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126101,6 +126224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-6b-mult-letters",
    "label": "3p",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for multiplication.",
@@ -126111,6 +126235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6b-divide",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126122,6 +126247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6b-divide",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126132,6 +126258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6b-divide",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126142,6 +126269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6b-divide",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126152,6 +126280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6b-divide",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126162,6 +126291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6b-divide",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126176,6 +126306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6b-divide",
    "label": "4g",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126186,6 +126317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6b-divide",
    "label": "4h",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126196,6 +126328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-6b-divide",
    "label": "4i",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126206,6 +126339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-6b-divide",
    "label": "4j",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126216,6 +126350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-6b-divide",
    "label": "4k",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126226,6 +126361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-6b-divide",
    "label": "4l",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126236,6 +126372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y9-6b-divide",
    "label": "4m",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126249,6 +126386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y9-6b-divide",
    "label": "4n",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126262,6 +126400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y9-6b-divide",
    "label": "4o",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126272,6 +126411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y9-6b-divide",
    "label": "4p",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126285,6 +126425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4q",
+   "help": "y9-6b-divide",
    "label": "4q",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126298,6 +126439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4r",
+   "help": "y9-6b-divide",
    "label": "4r",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126311,6 +126453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4s",
+   "help": "y9-6b-divide",
    "label": "4s",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126324,6 +126467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4t",
+   "help": "y9-6b-divide",
    "label": "4t",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index law for division.",
@@ -126334,6 +126478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6b-mixed",
    "label": "5a",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126345,6 +126490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6b-mixed",
    "label": "5b",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126355,6 +126501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6b-mixed",
    "label": "5c",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126365,6 +126512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6b-mixed",
    "label": "5d",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126375,6 +126523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6b-mixed",
    "label": "5e",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126385,6 +126534,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6b-mixed",
    "label": "5f",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126395,6 +126545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-6b-mixed",
    "label": "5g",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126405,6 +126556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-6b-mixed",
    "label": "5h",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126415,6 +126567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-6b-mixed",
    "label": "5i",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126425,6 +126578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-6b-mixed",
    "label": "5j",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126435,6 +126589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-6b-mixed",
    "label": "5k",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126445,6 +126600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-6b-mixed",
    "label": "5l",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws for multiplication and division.",
@@ -126455,6 +126611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6b-mixed",
    "label": "6a",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126469,6 +126626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6b-mixed",
    "label": "6b",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126482,6 +126640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6b-mixed",
    "label": "6c",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126492,6 +126651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6b-mixed",
    "label": "6d",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126505,6 +126665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6b-mixed",
    "label": "6e",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126515,6 +126676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6b-mixed",
    "label": "6f",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126525,6 +126687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-6b-mixed",
    "label": "6g",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126535,6 +126698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-6b-mixed",
    "label": "6h",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126545,6 +126709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-6b-mixed",
    "label": "6i",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -126555,6 +126720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6b-missing",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126564,6 +126730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6b-missing",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126573,6 +126740,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6b-missing",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126582,6 +126750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6b-missing",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126591,6 +126760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6b-missing",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126600,6 +126770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6b-missing",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126609,6 +126780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-6b-missing",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126618,6 +126790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-6b-missing",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126627,6 +126800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-6b-missing",
    "label": "7i",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126636,6 +126810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-6b-missing",
    "label": "7j",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126645,6 +126820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7k",
+   "help": "y9-6b-missing",
    "label": "7k",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126654,6 +126830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7l",
+   "help": "y9-6b-missing",
    "label": "7l",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -126663,6 +126840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6b-evaluate",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126672,6 +126850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6b-evaluate",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126681,6 +126860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6b-evaluate",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126690,6 +126870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-6b-evaluate",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126699,6 +126880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-6b-evaluate",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126708,6 +126890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-6b-evaluate",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126717,6 +126900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-6b-evaluate",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126726,6 +126910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-6b-evaluate",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator.",
@@ -126735,6 +126920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6b-count",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "If $m$ and $n$ are positive whole numbers, how many combinations of $m$ and $n$ make each statement true? (Count $m = 1, n = 2$ and $m = 2, n = 1$ as different.)",
@@ -126744,6 +126930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6b-count",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "If $m$ and $n$ are positive whole numbers, how many combinations of $m$ and $n$ make each statement true? (Count $m = 1, n = 2$ and $m = 2, n = 1$ as different.)",
@@ -126753,6 +126940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-6b-mistakes",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Each of these answers is incorrect. Give the correct answer.",
@@ -126763,6 +126951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-6b-mistakes",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Each of these answers is incorrect. Give the correct answer.",
@@ -126773,6 +126962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-6b-mistakes",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Each of these answers is incorrect. Give the correct answer.",
@@ -126784,6 +126974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-6b-mistakes",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Each of these answers is incorrect. Give the correct answer.",
@@ -126794,6 +126985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-6b-mistakes",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Each of these answers is incorrect. Give the correct answer.",
@@ -126804,6 +126996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-6b-mistakes",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Each of these answers is incorrect. Give the correct answer.",
@@ -126814,6 +127007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-6b-sub",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126825,6 +127019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-6b-sub",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126835,6 +127030,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-6b-sub",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126845,6 +127041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-6b-sub",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126855,6 +127052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-6b-sub",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126865,6 +127063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-6b-sub",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126875,6 +127074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-6b-sub",
    "label": "11g",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126885,6 +127085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-6b-sub",
    "label": "11h",
    "section": "Reasoning",
    "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
@@ -126895,6 +127096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-6b-letters",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126905,6 +127107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-6b-letters",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126914,6 +127117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-6b-letters",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126923,6 +127127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-6b-letters",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126932,6 +127137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-6b-letters",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126941,6 +127147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-6b-letters",
    "label": "12f",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126950,6 +127157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-6b-letters",
    "label": "12g",
    "section": "Reasoning",
    "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
@@ -126959,6 +127167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-6b-letters",
    "label": "12h",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -126969,6 +127178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12i",
+   "help": "y9-6b-letters",
    "label": "12i",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -126979,6 +127189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12j",
+   "help": "y9-6b-letters",
    "label": "12j",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -126989,6 +127200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12k",
+   "help": "y9-6b-letters",
    "label": "12k",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -126999,6 +127211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12l",
+   "help": "y9-6b-letters",
    "label": "12l",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -127009,6 +127222,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12m",
+   "help": "y9-6b-letters",
    "label": "12m",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -127019,6 +127233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12n",
+   "help": "y9-6b-letters",
    "label": "12n",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -127029,6 +127244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12o",
+   "help": "y9-6b-letters",
    "label": "12o",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
@@ -127039,6 +127255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-6b-mixed",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Simplify each expression fully.",
@@ -127049,6 +127266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-6b-mixed",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Simplify each expression fully.",
@@ -127062,6 +127280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-6b-mixed",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Simplify each expression fully.",
@@ -127072,6 +127291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-6b-mixed",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Simplify each expression fully.",
@@ -127091,6 +127311,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6c-power",
    "label": "1a",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127102,6 +127323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6c-power",
    "label": "1b",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127112,6 +127334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6c-power",
    "label": "1c",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127122,6 +127345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6c-power",
    "label": "1d",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127132,6 +127356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6c-power",
    "label": "1e",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127142,6 +127367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6c-power",
    "label": "1f",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127152,6 +127378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6c-power",
    "label": "1g",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127162,6 +127389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6c-power",
    "label": "1h",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127172,6 +127400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-6c-power",
    "label": "1i",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127183,6 +127412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-6c-power",
    "label": "1j",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127193,6 +127423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-6c-power",
    "label": "1k",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127203,6 +127434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-6c-power",
    "label": "1l",
    "section": "Fluency",
    "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
@@ -127213,6 +127445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6c-zero",
    "label": "2a",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127222,6 +127455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6c-zero",
    "label": "2b",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127231,6 +127465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6c-zero",
    "label": "2c",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127240,6 +127475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6c-zero",
    "label": "2d",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127249,6 +127485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6c-zero",
    "label": "2e",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127258,6 +127495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6c-zero",
    "label": "2f",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127267,6 +127505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6c-zero",
    "label": "2g",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127276,6 +127515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6c-zero",
    "label": "2h",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127285,6 +127525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6c-zero",
    "label": "3a",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127294,6 +127535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6c-zero",
    "label": "3b",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127303,6 +127545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6c-zero",
    "label": "3c",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127312,6 +127555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6c-zero",
    "label": "3d",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127321,6 +127565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6c-zero",
    "label": "3e",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127330,6 +127575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6c-zero",
    "label": "3f",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127339,6 +127585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6c-zero",
    "label": "3g",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127348,6 +127595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6c-zero",
    "label": "3h",
    "section": "Fluency",
    "stem": "Evaluate each of the following.",
@@ -127357,6 +127605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6c-combine",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127368,6 +127617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6c-combine",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127378,6 +127628,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6c-combine",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127388,6 +127639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6c-combine",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127398,6 +127650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6c-combine",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127408,6 +127661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6c-combine",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127418,6 +127672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6c-combine",
    "label": "4g",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127428,6 +127683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6c-combine",
    "label": "4h",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127438,6 +127694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-6c-combine",
    "label": "4i",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127448,6 +127705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-6c-combine",
    "label": "4j",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127458,6 +127716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-6c-combine",
    "label": "4k",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127468,6 +127727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-6c-combine",
    "label": "4l",
    "section": "Fluency",
    "stem": "Simplify each of the following by combining the index laws.",
@@ -127478,6 +127738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6c-combine",
    "label": "5a",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127489,6 +127750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6c-combine",
    "label": "5b",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127499,6 +127761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6c-combine",
    "label": "5c",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127509,6 +127772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6c-combine",
    "label": "5d",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127518,6 +127782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6c-combine",
    "label": "5e",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127528,6 +127793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6c-combine",
    "label": "5f",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127538,6 +127804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-6c-combine",
    "label": "5g",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127548,6 +127815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-6c-combine",
    "label": "5h",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127558,6 +127826,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-6c-combine",
    "label": "5i",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -127568,6 +127837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6c-fractions",
    "label": "6a",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws.",
@@ -127579,6 +127849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6c-fractions",
    "label": "6b",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws.",
@@ -127589,6 +127860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6c-fractions",
    "label": "6c",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws.",
@@ -127599,6 +127871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6c-fractions",
    "label": "6d",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws.",
@@ -127612,6 +127885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6c-fractions",
    "label": "6e",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws.",
@@ -127625,6 +127899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6c-fractions",
    "label": "6f",
    "section": "Fluency",
    "stem": "Simplify each of the following using the index laws.",
@@ -127638,6 +127913,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6c-rule",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127647,6 +127923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6c-rule",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127656,6 +127933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6c-rule",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127665,6 +127943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6c-rule",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127674,6 +127953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6c-rule",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127683,6 +127963,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6c-rule",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127692,6 +127973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-6c-rule",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
@@ -127702,6 +127984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-6c-count",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -127710,6 +127993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6c-evaluate",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Evaluate these without using a calculator.",
@@ -127719,6 +128003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6c-evaluate",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Evaluate these without using a calculator.",
@@ -127728,6 +128013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-6c-evaluate",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Evaluate these without using a calculator.",
@@ -127737,6 +128023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-6c-evaluate",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Evaluate these without using a calculator.",
@@ -127746,6 +128033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-6c-evaluate",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Evaluate these without using a calculator.",
@@ -127755,6 +128043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-6c-evaluate",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Evaluate these without using a calculator.",
@@ -127764,6 +128053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-6c-mistakes",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Each of these working steps contains an error. Give the correct answer.",
@@ -127774,6 +128064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-6c-mistakes",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Each of these working steps contains an error. Give the correct answer.",
@@ -127784,6 +128075,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-6c-mistakes",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Each of these working steps contains an error. Give the correct answer.",
@@ -127793,6 +128085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-6c-power",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
@@ -127804,6 +128097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-6c-power",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
@@ -127817,6 +128111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-6c-power",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
@@ -127827,6 +128122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-6c-power",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
@@ -127837,6 +128133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-6c-power",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type an index that is an expression in brackets, for example 2^(ab).",
@@ -127847,6 +128144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-6c-power",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type an index that is an expression in brackets, for example 2^(ab).",
@@ -127857,6 +128155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-6c-power",
    "label": "11g",
    "section": "Reasoning",
    "stem": "Simplify these expressions. Type an index that is an expression in brackets, for example 2^(ab).",
@@ -127867,6 +128166,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-6c-fractions",
    "label": "12",
    "section": "Reasoning",
    "type": "numeric",
@@ -127875,6 +128175,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-6c-base",
    "label": "13a",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127886,6 +128187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-6c-base",
    "label": "13b",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127896,6 +128198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-6c-base",
    "label": "13c",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127906,6 +128209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-6c-base",
    "label": "13d",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127916,6 +128220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-6c-base",
    "label": "13e",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127926,6 +128231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-6c-base",
    "label": "13f",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127936,6 +128242,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-6c-base",
    "label": "13g",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127946,6 +128253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-6c-base",
    "label": "13h",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127956,6 +128264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y9-6c-base",
    "label": "13i",
    "section": "Enrichment",
    "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
@@ -127975,6 +128284,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6d-brackets",
    "label": "1a",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -127986,6 +128296,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6d-brackets",
    "label": "1b",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -127996,6 +128307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6d-brackets",
    "label": "1c",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128006,6 +128318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6d-brackets",
    "label": "1d",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128016,6 +128329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6d-brackets",
    "label": "1e",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128026,6 +128340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6d-brackets",
    "label": "1f",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128036,6 +128351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6d-brackets",
    "label": "1g",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128046,6 +128362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6d-brackets",
    "label": "1h",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128056,6 +128373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-6d-brackets",
    "label": "1i",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128066,6 +128384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-6d-brackets",
    "label": "1j",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128075,6 +128394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-6d-brackets",
    "label": "1k",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128085,6 +128405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-6d-brackets",
    "label": "1l",
    "section": "Fluency",
    "stem": "Expand each of the following using the index law for brackets.",
@@ -128095,6 +128416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6d-simplify",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128106,6 +128428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6d-simplify",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128116,6 +128439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6d-simplify",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128126,6 +128450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6d-simplify",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128136,6 +128461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6d-simplify",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128146,6 +128472,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6d-simplify",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128156,6 +128483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6d-simplify",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128166,6 +128494,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6d-simplify",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128176,6 +128505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-6d-simplify",
    "label": "2i",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128186,6 +128516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-6d-simplify",
    "label": "2j",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128196,6 +128527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-6d-simplify",
    "label": "2k",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128206,6 +128538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-6d-simplify",
    "label": "2l",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128216,6 +128549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-6d-simplify",
    "label": "2m",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128226,6 +128560,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-6d-simplify",
    "label": "2n",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128236,6 +128571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-6d-simplify",
    "label": "2o",
    "section": "Fluency",
    "stem": "Simplify each of the following by applying the index laws.",
@@ -128246,6 +128582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6d-fractions",
    "label": "3a",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128260,6 +128597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6d-fractions",
    "label": "3b",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128273,6 +128611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6d-fractions",
    "label": "3c",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128283,6 +128622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6d-fractions",
    "label": "3d",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128293,6 +128633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6d-fractions",
    "label": "3e",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128306,6 +128647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6d-fractions",
    "label": "3f",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128319,6 +128661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6d-fractions",
    "label": "3g",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128332,6 +128675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6d-fractions",
    "label": "3h",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128345,6 +128689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-6d-fractions",
    "label": "3i",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128358,6 +128703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-6d-fractions",
    "label": "3j",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128371,6 +128717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-6d-fractions",
    "label": "3k",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128384,6 +128731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-6d-fractions",
    "label": "3l",
    "section": "Fluency",
    "stem": "Apply the index law for fractions to expand the following.",
@@ -128397,6 +128745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6d-frac-mult",
    "label": "4a",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -128410,6 +128759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6d-frac-mult",
    "label": "4b",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -128423,6 +128773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6d-frac-mult",
    "label": "4c",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -128436,6 +128787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6d-frac-mult",
    "label": "4d",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -128446,6 +128798,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6d-frac-mult",
    "label": "4e",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -128456,6 +128809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6d-frac-mult",
    "label": "4f",
    "section": "Fluency",
    "stem": "Simplify each of the following.",
@@ -128466,6 +128820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6d-rule",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128475,6 +128830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6d-rule",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128484,6 +128840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6d-rule",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128495,6 +128852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6d-rule",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128504,6 +128862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6d-rule",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128513,6 +128872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6d-rule",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128523,6 +128883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-6d-rule",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
@@ -128533,6 +128894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6d-find",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
@@ -128542,6 +128904,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6d-find",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
@@ -128551,6 +128914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6d-find",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
@@ -128560,6 +128924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6d-find",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
@@ -128569,6 +128934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6d-find",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
@@ -128578,6 +128944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6d-find",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
@@ -128587,6 +128954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6d-signs",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
@@ -128600,6 +128968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6d-signs",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
@@ -128613,6 +128982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6d-signs",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
@@ -128626,6 +128996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6d-signs",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
@@ -128639,6 +129010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6d-ratio",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
@@ -128648,6 +129020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6d-ratio",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
@@ -128657,6 +129030,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6d-ratio",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
@@ -128667,6 +129041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-6d-ratio",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
@@ -128676,6 +129051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6d-test",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
@@ -128685,6 +129061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6d-test",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
@@ -128694,6 +129071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-6d-test",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
@@ -128707,6 +129085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-6d-test",
    "label": "9d",
    "section": "Enrichment",
    "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
@@ -128720,6 +129099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-6d-test",
    "label": "9e",
    "section": "Enrichment",
    "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
@@ -128733,6 +129113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-6d-test",
    "label": "9f",
    "section": "Enrichment",
    "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
@@ -128746,6 +129127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-6d-test",
    "label": "9g",
    "section": "Enrichment",
    "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
@@ -128759,6 +129141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-6d-test",
    "label": "9h",
    "section": "Enrichment",
    "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
@@ -128772,6 +129155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-6d-test",
    "label": "9i",
    "section": "Enrichment",
    "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
@@ -128794,6 +129178,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6e-negative",
    "label": "1a",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128805,6 +129190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6e-negative",
    "label": "1b",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128815,6 +129201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6e-negative",
    "label": "1c",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128825,6 +129212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6e-negative",
    "label": "1d",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128835,6 +129223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6e-negative",
    "label": "1e",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128844,6 +129233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6e-negative",
    "label": "1f",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128853,6 +129243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6e-negative",
    "label": "1g",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128863,6 +129254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6e-negative",
    "label": "1h",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128873,6 +129265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-6e-negative",
    "label": "1i",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128883,6 +129276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-6e-negative",
    "label": "1j",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128896,6 +129290,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-6e-negative",
    "label": "1k",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128906,6 +129301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-6e-negative",
    "label": "1l",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128919,6 +129315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-6e-negative",
    "label": "1m",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128929,6 +129326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-6e-negative",
    "label": "1n",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128939,6 +129337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-6e-negative",
    "label": "1o",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128952,6 +129351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-6e-negative",
    "label": "1p",
    "section": "Fluency",
    "stem": "Express each of the following with positive indices only.",
@@ -128962,6 +129362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6e-bottom",
    "label": "2a",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -128973,6 +129374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6e-bottom",
    "label": "2b",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -128983,6 +129385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6e-bottom",
    "label": "2c",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -128993,6 +129396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6e-bottom",
    "label": "2d",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129003,6 +129407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6e-bottom",
    "label": "2e",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129013,6 +129418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6e-bottom",
    "label": "2f",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129023,6 +129429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6e-bottom",
    "label": "2g",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129033,6 +129440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6e-bottom",
    "label": "2h",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129043,6 +129451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-6e-bottom",
    "label": "2i",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129053,6 +129462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-6e-bottom",
    "label": "2j",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129063,6 +129473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-6e-bottom",
    "label": "2k",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129073,6 +129484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-6e-bottom",
    "label": "2l",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129086,6 +129498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-6e-bottom",
    "label": "2m",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129099,6 +129512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-6e-bottom",
    "label": "2n",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129109,6 +129523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-6e-bottom",
    "label": "2o",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129122,6 +129537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-6e-bottom",
    "label": "2p",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129135,6 +129551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6e-bottom",
    "label": "3a",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129149,6 +129566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6e-bottom",
    "label": "3b",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129162,6 +129580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6e-bottom",
    "label": "3c",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129175,6 +129594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6e-bottom",
    "label": "3d",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129188,6 +129608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6e-bottom",
    "label": "3e",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129201,6 +129622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6e-bottom",
    "label": "3f",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129214,6 +129636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6e-bottom",
    "label": "3g",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129227,6 +129650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6e-bottom",
    "label": "3h",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129240,6 +129664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6e-bottom",
    "label": "4a",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129254,6 +129679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6e-bottom",
    "label": "4b",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129267,6 +129693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6e-bottom",
    "label": "4c",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129280,6 +129707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6e-bottom",
    "label": "4d",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices only.",
@@ -129290,6 +129718,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6e-bottom",
    "label": "4e",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices, then evaluate.",
@@ -129300,6 +129729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6e-bottom",
    "label": "4f",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices, then evaluate.",
@@ -129309,6 +129739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6e-bottom",
    "label": "4g",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices, then evaluate.",
@@ -129318,6 +129749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6e-bottom",
    "label": "4h",
    "section": "Fluency",
    "stem": "Express each of the following using positive indices, then evaluate.",
@@ -129327,6 +129759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6e-evaluate",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129337,6 +129770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6e-evaluate",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129346,6 +129780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6e-evaluate",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129355,6 +129790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6e-evaluate",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129364,6 +129800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6e-evaluate",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129373,6 +129810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6e-evaluate",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129382,6 +129820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-6e-evaluate",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129391,6 +129830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-6e-evaluate",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129400,6 +129840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-6e-evaluate",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129409,6 +129850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-6e-evaluate",
    "label": "5j",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129418,6 +129860,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-6e-evaluate",
    "label": "5k",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129427,6 +129870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-6e-evaluate",
    "label": "5l",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129436,6 +129880,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5m",
+   "help": "y9-6e-evaluate",
    "label": "5m",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129445,6 +129890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5n",
+   "help": "y9-6e-evaluate",
    "label": "5n",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129454,6 +129900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5o",
+   "help": "y9-6e-evaluate",
    "label": "5o",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129463,6 +129910,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5p",
+   "help": "y9-6e-evaluate",
    "label": "5p",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129472,6 +129920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5q",
+   "help": "y9-6e-evaluate",
    "label": "5q",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129481,6 +129930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5r",
+   "help": "y9-6e-evaluate",
    "label": "5r",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129490,6 +129940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5s",
+   "help": "y9-6e-evaluate",
    "label": "5s",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129499,6 +129950,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5t",
+   "help": "y9-6e-evaluate",
    "label": "5t",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129508,6 +129960,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5u",
+   "help": "y9-6e-evaluate",
    "label": "5u",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129517,6 +129970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5v",
+   "help": "y9-6e-evaluate",
    "label": "5v",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129526,6 +129980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5w",
+   "help": "y9-6e-evaluate",
    "label": "5w",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129535,6 +129990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5x",
+   "help": "y9-6e-evaluate",
    "label": "5x",
    "section": "Problem-solving",
    "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
@@ -129544,6 +130000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-6e-evaluate",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -129554,6 +130011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6e-solve",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in these equations.",
@@ -129563,6 +130021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6e-solve",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in these equations.",
@@ -129572,6 +130031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6e-solve",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in these equations.",
@@ -129581,6 +130041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6e-solve",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in these equations.",
@@ -129590,6 +130051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6e-solve",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in these equations.",
@@ -129599,6 +130061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6e-solve",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in these equations.",
@@ -129608,6 +130071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6e-mistakes",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Each of these working steps contains an error. Give the correct answer.",
@@ -129619,6 +130083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6e-mistakes",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Each of these working steps contains an error. Give the correct answer.",
@@ -129632,6 +130097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6e-mistakes",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Each of these working steps contains an error. Give the correct answer.",
@@ -129642,6 +130108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6e-reciprocal",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Consider the number $\\left(\\frac{4}{5}\\right)^{-1}$.",
@@ -129655,6 +130122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6e-reciprocal",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Use the same method to simplify these.",
@@ -129664,6 +130132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-6e-reciprocal",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Use the same method to simplify these.",
@@ -129673,6 +130142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-6e-reciprocal",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Use the same method to simplify these.",
@@ -129683,6 +130153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-6e-reciprocal",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Use the same method to simplify these.",
@@ -129693,6 +130164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-6e-reciprocal",
    "label": "9f",
    "section": "Reasoning",
    "type": "choice",
@@ -129707,6 +130179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-6e-reciprocal",
    "label": "9g",
    "section": "Reasoning",
    "stem": "Simplify these fractions.",
@@ -129717,6 +130190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-6e-reciprocal",
    "label": "9h",
    "section": "Reasoning",
    "stem": "Simplify these fractions.",
@@ -129726,6 +130200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-6e-reciprocal",
    "label": "9i",
    "section": "Reasoning",
    "stem": "Simplify these fractions.",
@@ -129735,6 +130210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-6e-reciprocal",
    "label": "9j",
    "section": "Reasoning",
    "stem": "Simplify these fractions.",
@@ -129744,6 +130220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-6e-solve",
    "label": "10a",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129753,6 +130230,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-6e-solve",
    "label": "10b",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129762,6 +130240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-6e-solve",
    "label": "10c",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129771,6 +130250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-6e-solve",
    "label": "10d",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129780,6 +130260,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-6e-solve",
    "label": "10e",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129789,6 +130270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-6e-solve",
    "label": "10f",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129798,6 +130280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-6e-solve",
    "label": "10g",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129807,6 +130290,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y9-6e-solve",
    "label": "10h",
    "section": "Enrichment",
    "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
@@ -129825,6 +130309,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6f-to-sci",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129836,6 +130321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6f-to-sci",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129846,6 +130332,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6f-to-sci",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129856,6 +130343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6f-to-sci",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129866,6 +130354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6f-to-sci",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129876,6 +130365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6f-to-sci",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129886,6 +130376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6f-to-sci",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129896,6 +130387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6f-to-sci",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129906,6 +130398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-6f-to-sci",
    "label": "1i",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129916,6 +130409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6f-to-sci",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129928,6 +130422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6f-to-sci",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129939,6 +130434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6f-to-sci",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129949,6 +130445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6f-to-sci",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129960,6 +130457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6f-to-sci",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129971,6 +130469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6f-to-sci",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129982,6 +130481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6f-to-sci",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -129993,6 +130493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6f-to-sci",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -130004,6 +130505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-6f-to-sci",
    "label": "2i",
    "section": "Fluency",
    "stem": "Write the following using scientific notation.",
@@ -130015,6 +130517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6f-to-sci",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130025,6 +130528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6f-to-sci",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130035,6 +130539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6f-to-sci",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130045,6 +130550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6f-to-sci",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130055,6 +130561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6f-to-sci",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130065,6 +130572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6f-to-sci",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130075,6 +130583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6f-to-sci",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130086,6 +130595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6f-to-sci",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130096,6 +130606,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-6f-to-sci",
    "label": "3i",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130107,6 +130618,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-6f-to-sci",
    "label": "3j",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130117,6 +130629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-6f-to-sci",
    "label": "3k",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130127,6 +130640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-6f-to-sci",
    "label": "3l",
    "section": "Fluency",
    "stem": "Write each of the following numbers using scientific notation.",
@@ -130137,6 +130651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6f-to-decimal",
    "label": "4a",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130146,6 +130661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6f-to-decimal",
    "label": "4b",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130155,6 +130671,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6f-to-decimal",
    "label": "4c",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130164,6 +130681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6f-to-decimal",
    "label": "4d",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130173,6 +130691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6f-to-decimal",
    "label": "4e",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130182,6 +130701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6f-to-decimal",
    "label": "4f",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130191,6 +130711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6f-to-decimal",
    "label": "4g",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130200,6 +130721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6f-to-decimal",
    "label": "4h",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130209,6 +130731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-6f-to-decimal",
    "label": "4i",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130218,6 +130741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6f-to-decimal",
    "label": "5a",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130228,6 +130752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6f-to-decimal",
    "label": "5b",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130238,6 +130763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6f-to-decimal",
    "label": "5c",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130248,6 +130774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6f-to-decimal",
    "label": "5d",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130258,6 +130785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6f-to-decimal",
    "label": "5e",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130267,6 +130795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6f-to-decimal",
    "label": "5f",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130277,6 +130806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-6f-to-decimal",
    "label": "5g",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130287,6 +130817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-6f-to-decimal",
    "label": "5h",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130296,6 +130827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-6f-to-decimal",
    "label": "5i",
    "section": "Fluency",
    "stem": "Express each of the following in decimal form (as a basic numeral).",
@@ -130305,6 +130837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6f-to-sci",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130315,6 +130848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6f-to-sci",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130325,6 +130859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6f-to-sci",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130336,6 +130871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6f-to-sci",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130346,6 +130882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6f-to-sci",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130357,6 +130894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6f-to-sci",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130368,6 +130906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-6f-to-sci",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Express each of these approximate numbers using scientific notation.",
@@ -130378,6 +130917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6f-to-decimal",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Express each of these numbers in decimal form.",
@@ -130387,6 +130927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6f-to-decimal",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Express each of these numbers in decimal form.",
@@ -130396,6 +130937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6f-to-decimal",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Express each of these numbers in decimal form.",
@@ -130405,6 +130947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6f-to-decimal",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Express each of these numbers in decimal form.",
@@ -130415,6 +130958,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6f-to-decimal",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Express each of these numbers in decimal form.",
@@ -130425,6 +130969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6f-to-decimal",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Express each of these numbers in decimal form.",
@@ -130434,6 +130979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6f-units",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130444,6 +130990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6f-units",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130455,6 +131002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6f-units",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130466,6 +131014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-6f-units",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130477,6 +131026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-6f-units",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130488,6 +131038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-6f-units",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130499,6 +131050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-6f-units",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130509,6 +131061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-6f-units",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130519,6 +131072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-6f-units",
    "label": "8i",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130529,6 +131083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8j",
+   "help": "y9-6f-units",
    "label": "8j",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130539,6 +131094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8k",
+   "help": "y9-6f-units",
    "label": "8k",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130550,6 +131106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8l",
+   "help": "y9-6f-units",
    "label": "8l",
    "section": "Problem-solving",
    "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
@@ -130561,6 +131118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6f-add",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A city planning to host an international sports games predicted that staging the games would cost $\\$2.3$ billion ($\\$2.3 \\times 10^{9}$), not counting infrastructure. In fact, $\\$260$ million extra was spent on staging the games. Building and upgrading infrastructure cost $\\$915$ million. Give each answer in scientific notation.",
@@ -130571,6 +131129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6f-add",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A city planning to host an international sports games predicted that staging the games would cost $\\$2.3$ billion ($\\$2.3 \\times 10^{9}$), not counting infrastructure. In fact, $\\$260$ million extra was spent on staging the games. Building and upgrading infrastructure cost $\\$915$ million. Give each answer in scientific notation.",
@@ -130581,6 +131140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-6f-add",
    "label": "10",
    "section": "Problem-solving",
    "type": "numeric",
@@ -130590,6 +131150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-6f-add",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -130599,6 +131160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-6f-adjust",
    "label": "12a",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130609,6 +131171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-6f-adjust",
    "label": "12b",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130619,6 +131182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-6f-adjust",
    "label": "12c",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130629,6 +131193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-6f-adjust",
    "label": "12d",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130639,6 +131204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-6f-adjust",
    "label": "12e",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130649,6 +131215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-6f-adjust",
    "label": "12f",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130659,6 +131226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-6f-adjust",
    "label": "12g",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130669,6 +131237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-6f-adjust",
    "label": "12h",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130679,6 +131248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12i",
+   "help": "y9-6f-adjust",
    "label": "12i",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130689,6 +131259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12j",
+   "help": "y9-6f-adjust",
    "label": "12j",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130699,6 +131270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12k",
+   "help": "y9-6f-adjust",
    "label": "12k",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130709,6 +131281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12l",
+   "help": "y9-6f-adjust",
    "label": "12l",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130719,6 +131292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12m",
+   "help": "y9-6f-adjust",
    "label": "12m",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130730,6 +131304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12n",
+   "help": "y9-6f-adjust",
    "label": "12n",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130741,6 +131316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12o",
+   "help": "y9-6f-adjust",
    "label": "12o",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130752,6 +131328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12p",
+   "help": "y9-6f-adjust",
    "label": "12p",
    "section": "Reasoning",
    "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
@@ -130763,6 +131340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-6f-powers",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130773,6 +131351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-6f-powers",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130783,6 +131362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-6f-powers",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130794,6 +131374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-6f-powers",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130805,6 +131386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-6f-powers",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130815,6 +131397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-6f-powers",
    "label": "13f",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130825,6 +131408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-6f-powers",
    "label": "13g",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130836,6 +131420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-6f-powers",
    "label": "13h",
    "section": "Reasoning",
    "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
@@ -130846,6 +131431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-6f-multiply",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130856,6 +131442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-6f-multiply",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130866,6 +131453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-6f-multiply",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130876,6 +131464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-6f-multiply",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130886,6 +131475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-6f-multiply",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130896,6 +131486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-6f-multiply",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130906,6 +131497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-6f-multiply",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130916,6 +131508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-6f-multiply",
    "label": "14h",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130926,6 +131519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y9-6f-multiply",
    "label": "14i",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130937,6 +131531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14j",
+   "help": "y9-6f-multiply",
    "label": "14j",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130948,6 +131543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14k",
+   "help": "y9-6f-multiply",
    "label": "14k",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130959,6 +131555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14l",
+   "help": "y9-6f-multiply",
    "label": "14l",
    "section": "Enrichment",
    "stem": "Use index laws to simplify these and write each answer in scientific notation.",
@@ -130970,6 +131567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-6f-multiply",
    "label": "15",
    "section": "Enrichment",
    "type": "numeric",
@@ -130979,6 +131577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-6f-multiply",
    "label": "16a",
    "section": "Enrichment",
    "stem": "The speed of light is $3 \\times 10^{5}$ km/s.",
@@ -130990,6 +131589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-6f-multiply",
    "label": "16b",
    "section": "Enrichment",
    "stem": "The speed of light is $3 \\times 10^{5}$ km/s.",
@@ -131000,6 +131600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-6f-multiply",
    "label": "16c",
    "section": "Enrichment",
    "stem": "The speed of light is $3 \\times 10^{5}$ km/s.",
@@ -131019,6 +131620,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6g-count",
    "label": "1a",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131028,6 +131630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6g-count",
    "label": "1b",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131037,6 +131640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6g-count",
    "label": "1c",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131046,6 +131650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6g-count",
    "label": "1d",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131055,6 +131660,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6g-count",
    "label": "1e",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131064,6 +131670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6g-count",
    "label": "1f",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131073,6 +131680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6g-count",
    "label": "2a",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131082,6 +131690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6g-count",
    "label": "2b",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131091,6 +131700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6g-count",
    "label": "2c",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131100,6 +131710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6g-count",
    "label": "2d",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131109,6 +131720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6g-count",
    "label": "2e",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131118,6 +131730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6g-count",
    "label": "2f",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131127,6 +131740,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6g-count",
    "label": "2g",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131136,6 +131750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6g-count",
    "label": "2h",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131145,6 +131760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-6g-count",
    "label": "2i",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131154,6 +131770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-6g-count",
    "label": "2j",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131163,6 +131780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-6g-count",
    "label": "2k",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131172,6 +131790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-6g-count",
    "label": "2l",
    "section": "Fluency",
    "stem": "State the number of significant figures in these numbers.",
@@ -131181,6 +131800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6g-round",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131192,6 +131812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6g-round",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131202,6 +131823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6g-round",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131212,6 +131834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6g-round",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131222,6 +131845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6g-round",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131233,6 +131857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6g-round",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131243,6 +131868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6g-round",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131253,6 +131879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6g-round",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131263,6 +131890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-6g-round",
    "label": "3i",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131273,6 +131901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-6g-round",
    "label": "3j",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131283,6 +131912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-6g-round",
    "label": "3k",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131293,6 +131923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-6g-round",
    "label": "3l",
    "section": "Fluency",
    "stem": "Write these numbers using scientific notation and three significant figures.",
@@ -131303,6 +131934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6g-round",
    "label": "4a",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131313,6 +131945,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6g-round",
    "label": "4b",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131323,6 +131956,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6g-round",
    "label": "4c",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131333,6 +131967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6g-round",
    "label": "4d",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131343,6 +131978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6g-round",
    "label": "4e",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131353,6 +131989,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6g-round",
    "label": "4f",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131363,6 +132000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6g-round",
    "label": "4g",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131373,6 +132011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6g-round",
    "label": "4h",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131383,6 +132022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-6g-round",
    "label": "4i",
    "section": "Fluency",
    "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
@@ -131394,6 +132034,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6g-calc",
    "label": "5a",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131406,6 +132047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6g-calc",
    "label": "5b",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131417,6 +132059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6g-calc",
    "label": "5c",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131427,6 +132070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6g-calc",
    "label": "5d",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131438,6 +132082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6g-calc",
    "label": "5e",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131448,6 +132093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6g-calc",
    "label": "5f",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131458,6 +132104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-6g-calc",
    "label": "5g",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131468,6 +132115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-6g-calc",
    "label": "5h",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131479,6 +132127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-6g-calc",
    "label": "5i",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131489,6 +132138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-6g-calc",
    "label": "5j",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131499,6 +132149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-6g-calc",
    "label": "5k",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131509,6 +132160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-6g-calc",
    "label": "5l",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
@@ -131519,6 +132171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6g-calc",
    "label": "6a",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131529,6 +132182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6g-calc",
    "label": "6b",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131539,6 +132193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6g-calc",
    "label": "6c",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131549,6 +132204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6g-calc",
    "label": "6d",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131559,6 +132215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6g-calc",
    "label": "6e",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131569,6 +132226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6g-calc",
    "label": "6f",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131579,6 +132237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-6g-calc",
    "label": "6g",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131589,6 +132248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-6g-calc",
    "label": "6h",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131599,6 +132259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-6g-calc",
    "label": "6i",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131609,6 +132270,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y9-6g-calc",
    "label": "6j",
    "section": "Fluency",
    "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
@@ -131619,6 +132281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-6g-calc",
    "label": "7",
    "section": "Problem-solving",
    "type": "numeric",
@@ -131628,6 +132291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-6g-calc",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -131637,6 +132301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-6g-calc",
    "label": "9",
    "section": "Problem-solving",
    "type": "numeric",
@@ -131646,6 +132311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-6g-order",
    "label": "10",
    "section": "Problem-solving",
    "type": "ordered",
@@ -131661,6 +132327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-6g-display",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
@@ -131670,6 +132337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-6g-display",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
@@ -131679,6 +132347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-6g-display",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
@@ -131688,6 +132357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-6g-display",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
@@ -131697,6 +132367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-6g-display",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
@@ -131706,6 +132377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-6g-display",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
@@ -131716,6 +132388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-6g-display",
    "label": "12",
    "section": "Reasoning",
    "type": "numeric",
@@ -131725,6 +132398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-6g-round",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Round these numbers to three significant figures. Keep them in scientific notation.",
@@ -131735,6 +132409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-6g-round",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Round these numbers to three significant figures. Keep them in scientific notation.",
@@ -131745,6 +132420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-6g-round",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Round these numbers to three significant figures. Keep them in scientific notation.",
@@ -131755,6 +132431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-6g-growth",
    "label": "14a",
    "section": "Enrichment",
    "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures.",
@@ -131765,6 +132442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-6g-growth",
    "label": "14b",
    "section": "Enrichment",
    "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures. Type A cells double every $8$ hours and type B cells triple every $8$ hours.",
@@ -131775,6 +132453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-6g-growth",
    "label": "14c",
    "section": "Enrichment",
    "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures. Type A cells double every $8$ hours and type B cells triple every $8$ hours.",
@@ -131785,6 +132464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-6g-growth",
    "label": "14d",
    "section": "Enrichment",
    "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures. Type A cells double every $8$ hours and type B cells triple every $8$ hours.",
@@ -131804,6 +132484,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6h-roots",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write these numbers using a root sign. Type a square root like sqrt6 or √6.",
@@ -131814,6 +132495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6h-roots",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write these numbers using a root sign. Type a square root like sqrt6 or √6.",
@@ -131824,6 +132506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6h-roots",
    "label": "1c",
    "section": "Fluency",
    "stem": "Which of these is the same as the number shown?",
@@ -131839,6 +132522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6h-roots",
    "label": "1d",
    "section": "Fluency",
    "stem": "Which of these is the same as the number shown?",
@@ -131854,6 +132538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6h-roots",
    "label": "1e",
    "section": "Fluency",
    "stem": "Which of these is the same as the number shown?",
@@ -131869,6 +132554,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6h-roots",
    "label": "1f",
    "section": "Fluency",
    "stem": "Which of these is the same as the number shown?",
@@ -131884,6 +132570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6h-roots",
    "label": "1g",
    "section": "Fluency",
    "stem": "Which of these is the same as the number shown?",
@@ -131899,6 +132586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6h-roots",
    "label": "1h",
    "section": "Fluency",
    "stem": "Which of these is the same as the number shown?",
@@ -131914,6 +132602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6h-roots",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131925,6 +132614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6h-roots",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131935,6 +132625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6h-roots",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131945,6 +132636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6h-roots",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131955,6 +132647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6h-roots",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131965,6 +132658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6h-roots",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131975,6 +132669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6h-roots",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131985,6 +132680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6h-roots",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
@@ -131995,6 +132691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6h-evaluate",
    "label": "3a",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132004,6 +132701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6h-evaluate",
    "label": "3b",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132013,6 +132711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6h-evaluate",
    "label": "3c",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132022,6 +132721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6h-evaluate",
    "label": "3d",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132031,6 +132731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6h-evaluate",
    "label": "3e",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132040,6 +132741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6h-evaluate",
    "label": "3f",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132049,6 +132751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6h-evaluate",
    "label": "3g",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132058,6 +132761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6h-evaluate",
    "label": "3h",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132067,6 +132771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-6h-evaluate",
    "label": "3i",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132076,6 +132781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-6h-evaluate",
    "label": "3j",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132085,6 +132791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-6h-evaluate",
    "label": "3k",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132094,6 +132801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-6h-evaluate",
    "label": "3l",
    "section": "Fluency",
    "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
@@ -132103,6 +132811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6h-laws",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132114,6 +132823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6h-laws",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132124,6 +132834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6h-laws",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132134,6 +132845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6h-laws",
    "label": "4d",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132144,6 +132856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6h-laws",
    "label": "4e",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132154,6 +132867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6h-laws",
    "label": "4f",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132164,6 +132878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6h-laws",
    "label": "4g",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132174,6 +132889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6h-laws",
    "label": "4h",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132184,6 +132900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-6h-laws",
    "label": "4i",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132194,6 +132911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-6h-laws",
    "label": "4j",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132204,6 +132922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-6h-laws",
    "label": "4k",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132214,6 +132933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-6h-laws",
    "label": "4l",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132224,6 +132944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y9-6h-laws",
    "label": "4m",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132234,6 +132955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y9-6h-laws",
    "label": "4n",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132244,6 +132966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y9-6h-laws",
    "label": "4o",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132254,6 +132977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y9-6h-laws",
    "label": "4p",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
@@ -132264,6 +132988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6h-laws",
    "label": "5a",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions.",
@@ -132275,6 +133000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6h-laws",
    "label": "5b",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions.",
@@ -132285,6 +133011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6h-laws",
    "label": "5c",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions.",
@@ -132295,6 +133022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6h-laws",
    "label": "5d",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions.",
@@ -132305,6 +133033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6h-laws",
    "label": "5e",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions.",
@@ -132315,6 +133044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6h-laws",
    "label": "5f",
    "section": "Fluency",
    "stem": "Use index laws to simplify these expressions.",
@@ -132325,6 +133055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6h-negative",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132335,6 +133066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6h-negative",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132344,6 +133076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6h-negative",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132353,6 +133086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6h-negative",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132362,6 +133096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6h-negative",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132371,6 +133106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6h-negative",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132380,6 +133116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-6h-negative",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132389,6 +133126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-6h-negative",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
@@ -132398,6 +133136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6h-pythag",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
@@ -132463,6 +133202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6h-pythag",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
@@ -132527,6 +133267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6h-pythag",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
@@ -132591,6 +133332,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6h-pythag",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
@@ -132655,6 +133397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6h-pythag",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
@@ -132719,6 +133462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6h-pythag",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
@@ -132783,6 +133527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6h-power-frac",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132792,6 +133537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6h-power-frac",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132801,6 +133547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6h-power-frac",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132810,6 +133557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-6h-power-frac",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132819,6 +133567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-6h-power-frac",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132828,6 +133577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-6h-power-frac",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132837,6 +133587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-6h-power-frac",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132846,6 +133597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-6h-power-frac",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
@@ -132855,6 +133607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-6h-laws",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
@@ -132864,6 +133617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-6h-laws",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
@@ -132873,6 +133627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-6h-laws",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
@@ -132882,6 +133637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-6h-laws",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
@@ -132891,6 +133647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-6h-laws",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
@@ -132900,6 +133657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-6h-laws",
    "label": "9f",
    "section": "Reasoning",
    "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
@@ -132909,6 +133667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-6h-calculator",
    "label": "10",
    "section": "Reasoning",
    "type": "choice",
@@ -132923,6 +133682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-6h-undo",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -132932,6 +133692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-6h-undo",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -132941,6 +133702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-6h-undo",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -132950,6 +133712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-6h-undo",
    "label": "11d",
    "section": "Reasoning",
    "type": "expression",
@@ -132959,6 +133722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-6h-undo",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -132968,6 +133732,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-6h-undo",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -132977,6 +133742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-6h-undo",
    "label": "11g",
    "section": "Reasoning",
    "stem": "Evaluate the following.",
@@ -132986,6 +133752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-6h-undo",
    "label": "11h",
    "section": "Reasoning",
    "type": "expression",
@@ -132995,6 +133762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y9-6h-undo",
    "label": "11i",
    "section": "Reasoning",
    "stem": "Simplify these, for $a \\geq 0$.",
@@ -133005,6 +133773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y9-6h-undo",
    "label": "11j",
    "section": "Reasoning",
    "stem": "Simplify these, for $a \\geq 0$.",
@@ -133015,6 +133784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11k",
+   "help": "y9-6h-undo",
    "label": "11k",
    "section": "Reasoning",
    "stem": "Simplify these, for $a \\geq 0$.",
@@ -133025,6 +133795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11l",
+   "help": "y9-6h-undo",
    "label": "11l",
    "section": "Reasoning",
    "stem": "Simplify these, for $a \\geq 0$.",
@@ -133035,6 +133806,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-6h-evaluate",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133045,6 +133817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-6h-evaluate",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133054,6 +133827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-6h-evaluate",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133063,6 +133837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-6h-evaluate",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133072,6 +133847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-6h-evaluate",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133081,6 +133857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-6h-evaluate",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133090,6 +133867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-6h-evaluate",
    "label": "12g",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133099,6 +133877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-6h-evaluate",
    "label": "12h",
    "section": "Enrichment",
    "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
@@ -133108,6 +133887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-6h-negative",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
@@ -133117,6 +133897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-6h-negative",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
@@ -133126,6 +133907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-6h-negative",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
@@ -133135,6 +133917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-6h-negative",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
@@ -133153,6 +133936,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-6i-collect",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133164,6 +133948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-6i-collect",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133174,6 +133959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-6i-collect",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133184,6 +133970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-6i-collect",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133194,6 +133981,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-6i-collect",
    "label": "1e",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133204,6 +133992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-6i-collect",
    "label": "1f",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133214,6 +134003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-6i-collect",
    "label": "1g",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133224,6 +134014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-6i-collect",
    "label": "1h",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133234,6 +134025,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-6i-collect",
    "label": "1i",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133244,6 +134036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-6i-collect",
    "label": "1j",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133254,6 +134047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-6i-collect",
    "label": "1k",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133264,6 +134058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-6i-collect",
    "label": "1l",
    "section": "Fluency",
    "stem": "Simplify by collecting like surds.",
@@ -133274,6 +134069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-6i-multiply",
    "label": "2a",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133285,6 +134081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-6i-multiply",
    "label": "2b",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133295,6 +134092,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-6i-multiply",
    "label": "2c",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133305,6 +134103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-6i-multiply",
    "label": "2d",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133315,6 +134114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-6i-multiply",
    "label": "2e",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133325,6 +134125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-6i-multiply",
    "label": "2f",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133335,6 +134136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-6i-multiply",
    "label": "2g",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133345,6 +134147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-6i-multiply",
    "label": "2h",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133355,6 +134158,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-6i-multiply",
    "label": "2i",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133365,6 +134169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-6i-multiply",
    "label": "2j",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133375,6 +134180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-6i-multiply",
    "label": "2k",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133385,6 +134191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-6i-multiply",
    "label": "2l",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133395,6 +134202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-6i-multiply",
    "label": "2m",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133405,6 +134213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-6i-multiply",
    "label": "2n",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133415,6 +134224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-6i-multiply",
    "label": "2o",
    "section": "Fluency",
    "stem": "Simplify.",
@@ -133425,6 +134235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-6i-frac",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133435,6 +134246,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-6i-frac",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133445,6 +134257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-6i-frac",
    "label": "3c",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133455,6 +134268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-6i-frac",
    "label": "3d",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133466,6 +134280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-6i-frac",
    "label": "3e",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133476,6 +134291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-6i-frac",
    "label": "3f",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133486,6 +134302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-6i-frac",
    "label": "3g",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133496,6 +134313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-6i-frac",
    "label": "3h",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133506,6 +134324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-6i-frac",
    "label": "3i",
    "section": "Problem-solving",
    "stem": "Simplify.",
@@ -133516,6 +134335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-6i-coeff",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133526,6 +134346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-6i-coeff",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133536,6 +134357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-6i-coeff",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133546,6 +134368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-6i-coeff",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133556,6 +134379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-6i-coeff",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133566,6 +134390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-6i-coeff",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133576,6 +134401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-6i-coeff",
    "label": "4g",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133586,6 +134412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-6i-coeff",
    "label": "4h",
    "section": "Problem-solving",
    "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
@@ -133597,6 +134424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-6i-expand",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
@@ -133607,6 +134435,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-6i-expand",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
@@ -133617,6 +134446,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-6i-expand",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
@@ -133627,6 +134457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-6i-expand",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
@@ -133637,6 +134468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-6i-expand",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
@@ -133647,6 +134479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-6i-expand",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
@@ -133657,6 +134490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-6i-simplify",
    "label": "6a",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133668,6 +134502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-6i-simplify",
    "label": "6b",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133678,6 +134513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-6i-simplify",
    "label": "6c",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133688,6 +134524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-6i-simplify",
    "label": "6d",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133698,6 +134535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-6i-simplify",
    "label": "6e",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133708,6 +134546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-6i-simplify",
    "label": "6f",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133718,6 +134557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-6i-simplify",
    "label": "6g",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133728,6 +134568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-6i-simplify",
    "label": "6h",
    "section": "Reasoning",
    "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
@@ -133738,6 +134579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-6i-like",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133748,6 +134590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-6i-like",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133758,6 +134601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-6i-like",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133768,6 +134612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-6i-like",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133778,6 +134623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-6i-like",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133788,6 +134634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-6i-like",
    "label": "7f",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133798,6 +134645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-6i-like",
    "label": "7g",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133808,6 +134656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-6i-like",
    "label": "7h",
    "section": "Reasoning",
    "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
@@ -133818,6 +134667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-6i-binomial",
    "label": "8a",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133829,6 +134679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-6i-binomial",
    "label": "8b",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133839,6 +134690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-6i-binomial",
    "label": "8c",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133849,6 +134701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-6i-binomial",
    "label": "8d",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133859,6 +134712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-6i-binomial",
    "label": "8e",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133869,6 +134723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-6i-binomial",
    "label": "8f",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133879,6 +134734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-6i-binomial",
    "label": "8g",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133889,6 +134745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-6i-binomial",
    "label": "8h",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133899,6 +134756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-6i-binomial",
    "label": "8i",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133909,6 +134767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8j",
+   "help": "y9-6i-binomial",
    "label": "8j",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133919,6 +134778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8k",
+   "help": "y9-6i-binomial",
    "label": "8k",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
@@ -133929,6 +134789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8l",
+   "help": "y9-6i-binomial",
    "label": "8l",
    "section": "Enrichment",
    "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
