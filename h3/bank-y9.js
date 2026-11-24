@@ -140883,6 +140883,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10a-standard",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140897,6 +140898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10a-standard",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140910,6 +140912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10a-standard",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140923,6 +140926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-10a-standard",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140936,6 +140940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-10a-standard",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140949,6 +140954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-10a-standard",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140962,6 +140968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-10a-standard",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140975,6 +140982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-10a-standard",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -140988,6 +140996,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-10a-standard",
    "label": "1i",
    "section": "Fluency",
    "stem": "Write each equation in standard form $ax^2 + bx + c = 0$ with $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141001,6 +141010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10a-check",
    "label": "2a",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141014,6 +141024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10a-check",
    "label": "2b",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141027,6 +141038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10a-check",
    "label": "2c",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141040,6 +141052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10a-check",
    "label": "2d",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141053,6 +141066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10a-check",
    "label": "2e",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141066,6 +141080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10a-check",
    "label": "2f",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141079,6 +141094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-10a-check",
    "label": "2g",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141092,6 +141108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-10a-check",
    "label": "2h",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141105,6 +141122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-10a-check",
    "label": "2i",
    "section": "Fluency",
    "stem": "Substitute the given value of $x$ into the equation. Is it a solution?",
@@ -141118,6 +141136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10a-check",
    "label": "3a",
    "section": "Fluency",
    "stem": "Consider the equation $x^2 - 4x - 12  =  0$.",
@@ -141127,6 +141146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10a-check",
    "label": "3b",
    "section": "Fluency",
    "stem": "Consider the equation $x^2 - 4x - 12  =  0$.",
@@ -141136,6 +141156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10a-check",
    "label": "3c",
    "section": "Fluency",
    "stem": "Consider the equation $x^2 - 4x - 12  =  0$.",
@@ -141151,6 +141172,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10a-check",
    "label": "4a",
    "section": "Fluency",
    "stem": "Consider the equation $x^2 + x - 20  =  0$.",
@@ -141160,6 +141182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10a-check",
    "label": "4b",
    "section": "Fluency",
    "stem": "Consider the equation $x^2 + x - 20  =  0$.",
@@ -141169,6 +141192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-10a-check",
    "label": "4c",
    "section": "Fluency",
    "stem": "Consider the equation $x^2 + x - 20  =  0$.",
@@ -141184,6 +141208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10a-nfl",
    "label": "5a",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141197,6 +141222,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10a-nfl",
    "label": "5b",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141209,6 +141235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10a-nfl",
    "label": "5c",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141221,6 +141248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10a-nfl",
    "label": "5d",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141233,6 +141261,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10a-nfl",
    "label": "5e",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141245,6 +141274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10a-nfl",
    "label": "5f",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141257,6 +141287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-10a-nfl",
    "label": "5g",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141269,6 +141300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-10a-nfl",
    "label": "5h",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141282,6 +141314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-10a-nfl",
    "label": "5i",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141294,6 +141327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-10a-nfl",
    "label": "5j",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141306,6 +141340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-10a-nfl",
    "label": "5k",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141318,6 +141353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-10a-nfl",
    "label": "5l",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141330,6 +141366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10a-nfl-linear",
    "label": "6a",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141343,6 +141380,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10a-nfl-linear",
    "label": "6b",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141355,6 +141393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-10a-nfl-linear",
    "label": "6c",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141367,6 +141406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-10a-nfl-linear",
    "label": "6d",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141379,6 +141419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-10a-nfl-linear",
    "label": "6e",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141391,6 +141432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-10a-nfl-linear",
    "label": "6f",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141403,6 +141445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-10a-nfl-linear",
    "label": "6g",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141415,6 +141458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-10a-nfl-linear",
    "label": "6h",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141427,6 +141471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-10a-nfl-linear",
    "label": "6i",
    "section": "Fluency",
    "stem": "Use the Null Factor Law to solve each equation.",
@@ -141439,6 +141484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10a-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the numbers $x$ that satisfy each condition.",
@@ -141452,6 +141498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10a-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the numbers $x$ that satisfy each condition.",
@@ -141464,6 +141511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-10a-words",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the numbers $x$ that satisfy each condition.",
@@ -141476,6 +141524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-10a-words",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the numbers $x$ that satisfy each condition.",
@@ -141488,6 +141537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-10a-words",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the numbers $x$ that satisfy each condition.",
@@ -141500,6 +141550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-10a-tidy",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141514,6 +141565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-10a-tidy",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141527,6 +141579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-10a-tidy",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141540,6 +141593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-10a-tidy",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141553,6 +141607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-10a-tidy",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141566,6 +141621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-10a-tidy",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141579,6 +141635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-10a-tidy",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141592,6 +141649,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-10a-tidy",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "Write each equation as a quadratic in standard form $ax^2 + bx + c = 0$, removing any brackets and fractions. Use whole numbers with no common factor and $a > 0$. Give the values of $a$, $b$ and $c$, in that order.",
@@ -141605,6 +141663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-10a-trial",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
@@ -141618,6 +141677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-10a-trial",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
@@ -141630,6 +141690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-10a-trial",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
@@ -141642,6 +141703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-10a-trial",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
@@ -141654,6 +141716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-10a-trial",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
@@ -141666,6 +141729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-10a-trial",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Each equation has two whole-number solutions between $-5$ and $5$. Use trial and error to find them.",
@@ -141678,6 +141742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-10a-special",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Consider the equation $(x + 4)^2 = 0$, which is the same as $(x + 4)(x + 4) = 0$.",
@@ -141690,6 +141755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-10a-special",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Consider the equation $(x + 4)^2 = 0$, which is the same as $(x + 4)(x + 4) = 0$.",
@@ -141699,6 +141765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-10a-special",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Solve each equation. Each has only one solution.",
@@ -141710,6 +141777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-10a-special",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Solve each equation. Each has only one solution.",
@@ -141721,6 +141789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-10a-special",
    "label": "10e",
    "section": "Reasoning",
    "stem": "Solve each equation. Each has only one solution.",
@@ -141732,6 +141801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-10a-special",
    "label": "10f",
    "section": "Reasoning",
    "stem": "Solve each equation. Each has only one solution.",
@@ -141743,6 +141813,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10a-special",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
@@ -141755,6 +141826,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10a-special",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
@@ -141767,6 +141839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-10a-special",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
@@ -141779,6 +141852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-10a-special",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
@@ -141791,6 +141865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-10a-special",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Solve each equation. (Hint: dividing both sides by the number in front does not change the solutions.)",
@@ -141803,6 +141878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-10a-never",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
@@ -141812,6 +141888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-10a-never",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
@@ -141821,6 +141898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-10a-never",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
@@ -141830,6 +141908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-10a-never",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
@@ -141839,6 +141918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-10a-never",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Consider the equation $(x - 2)^2 + 3 = 0$.",
@@ -141853,6 +141933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-10a-names",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
@@ -141870,6 +141951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-10a-names",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
@@ -141887,6 +141969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-10a-names",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
@@ -141904,6 +141987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-10a-names",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
@@ -141921,6 +142005,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-10a-names",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
@@ -141938,6 +142023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-10a-names",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Polynomials are named by the highest power of $x$: constant (no $x$), linear ($x$), quadratic ($x^2$), cubic ($x^3$), quartic ($x^4$) and quintic ($x^5$). Name each polynomial equation.",
@@ -141955,6 +142041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-10a-special",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Solve each polynomial equation using the Null Factor Law.",
@@ -141969,6 +142056,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-10a-special",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Solve each polynomial equation using the Null Factor Law.",
@@ -141982,6 +142070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-10a-special",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Solve each polynomial equation using the Null Factor Law.",
@@ -141995,6 +142084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-10a-special",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Solve each polynomial equation using the Null Factor Law.",
@@ -142018,6 +142108,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10b-common",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142031,6 +142122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10b-common",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142043,6 +142135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10b-common",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142055,6 +142148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-10b-common",
    "label": "1d",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142067,6 +142161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-10b-common",
    "label": "1e",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142079,6 +142174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-10b-common",
    "label": "1f",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142091,6 +142187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-10b-common",
    "label": "1g",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142104,6 +142201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-10b-common",
    "label": "1h",
    "section": "Fluency",
    "stem": "Solve these equations.",
@@ -142116,6 +142214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10b-common",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve these equations by first taking out the highest common factor.",
@@ -142129,6 +142228,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10b-common",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve these equations by first taking out the highest common factor.",
@@ -142141,6 +142241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10b-common",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve these equations by first taking out the highest common factor.",
@@ -142153,6 +142254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10b-common",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve these equations by first taking out the highest common factor.",
@@ -142165,6 +142267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10b-common",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve these equations by first taking out the highest common factor.",
@@ -142177,6 +142280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10b-common",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve these equations by first taking out the highest common factor.",
@@ -142189,6 +142293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10b-common",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve these equations by first rearranging into standard form.",
@@ -142201,6 +142306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10b-common",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve these equations by first rearranging into standard form.",
@@ -142213,6 +142319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10b-common",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve these equations by first rearranging into standard form.",
@@ -142225,6 +142332,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-10b-common",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve these equations by first rearranging into standard form.",
@@ -142237,6 +142345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-10b-common",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve these equations by first rearranging into standard form.",
@@ -142249,6 +142358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-10b-common",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve these equations by first rearranging into standard form.",
@@ -142261,6 +142371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10b-square",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve these equations. Remember there are two solutions.",
@@ -142274,6 +142385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10b-square",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve these equations. Remember there are two solutions.",
@@ -142286,6 +142398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-10b-square",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve these equations. Remember there are two solutions.",
@@ -142298,6 +142411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-10b-square",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve these equations. Remember there are two solutions.",
@@ -142310,6 +142424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-10b-square",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve these equations. Remember there are two solutions.",
@@ -142322,6 +142437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-10b-square",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve these equations. Remember there are two solutions.",
@@ -142334,6 +142450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10b-square",
    "label": "5a",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142346,6 +142463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10b-square",
    "label": "5b",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142358,6 +142476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10b-square",
    "label": "5c",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142370,6 +142489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10b-square",
    "label": "5d",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142382,6 +142502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10b-square",
    "label": "5e",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142396,6 +142517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10b-square",
    "label": "5f",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142409,6 +142531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-10b-square",
    "label": "5g",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142422,6 +142545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-10b-square",
    "label": "5h",
    "section": "Fluency",
    "stem": "Solve each equation by first noting the common factor. Leave any square roots in exact form.",
@@ -142435,6 +142559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10b-rearrange",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142448,6 +142573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10b-rearrange",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142460,6 +142586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-10b-rearrange",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142472,6 +142599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-10b-rearrange",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142484,6 +142612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-10b-rearrange",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142496,6 +142625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-10b-rearrange",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142508,6 +142638,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-10b-rearrange",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142520,6 +142651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-10b-rearrange",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142532,6 +142664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-10b-rearrange",
    "label": "6i",
    "section": "Problem-solving",
    "stem": "Solve these equations by first rearranging where necessary.",
@@ -142544,6 +142677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10b-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Write an equation for each and solve it to find the possible values of the number.",
@@ -142557,6 +142691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10b-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Write an equation for each and solve it to find the possible values of the number.",
@@ -142569,6 +142704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-10b-words",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Write an equation for each and solve it to find the possible values of the number.",
@@ -142581,6 +142717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-10b-fractions",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Remove brackets or fractions to help solve these equations.",
@@ -142593,6 +142730,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-10b-fractions",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Remove brackets or fractions to help solve these equations.",
@@ -142605,6 +142743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-10b-fractions",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Remove brackets or fractions to help solve these equations.",
@@ -142617,6 +142756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-10b-fractions",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Remove brackets or fractions to help solve these equations.",
@@ -142629,6 +142769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-10b-fractions",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Remove brackets or fractions to help solve these equations.",
@@ -142641,6 +142782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-10b-fractions",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Remove brackets or fractions to help solve these equations.",
@@ -142653,6 +142795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-10b-square",
    "label": "9",
    "section": "Reasoning",
    "type": "choice",
@@ -142666,6 +142809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-10b-common",
    "label": "10",
    "section": "Reasoning",
    "type": "expression",
@@ -142678,6 +142822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10b-frac-square",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
@@ -142691,6 +142836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10b-frac-square",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
@@ -142703,6 +142849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-10b-frac-square",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
@@ -142715,6 +142862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-10b-frac-square",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
@@ -142727,6 +142875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-10b-frac-square",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
@@ -142739,6 +142888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-10b-frac-square",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $4x^2 = 9$ gives $x^2 = \\frac{9}{4}$, so $x = \\frac{3}{2}$ or $x = -\\frac{3}{2}$.",
@@ -142751,6 +142901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-10b-shifted",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
@@ -142763,6 +142914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-10b-shifted",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
@@ -142775,6 +142927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-10b-shifted",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
@@ -142787,6 +142940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-10b-shifted",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
@@ -142799,6 +142953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-10b-shifted",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
@@ -142811,6 +142966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-10b-shifted",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Solve these equations. For example, $(x - 1)^2 - 4 = 0$ becomes $(x - 1)^2 = 4$, so $x - 1 = 2$ or $x - 1 = -2$, giving $x = 3$ or $x = -1$.",
@@ -142832,6 +142988,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10c-factorise",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142845,6 +143002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10c-factorise",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142857,6 +143015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10c-factorise",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142869,6 +143028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10c-factorise",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142881,6 +143041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10c-factorise",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142893,6 +143054,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10c-factorise",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142905,6 +143067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10c-factorise",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142917,6 +143080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10c-factorise",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142929,6 +143093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10c-factorise",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142941,6 +143106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-10c-factorise",
    "label": "2g",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142953,6 +143119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-10c-factorise",
    "label": "2h",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142965,6 +143132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-10c-factorise",
    "label": "2i",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142977,6 +143145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-10c-factorise",
    "label": "2j",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -142989,6 +143158,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-10c-factorise",
    "label": "2k",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -143001,6 +143171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-10c-factorise",
    "label": "2l",
    "section": "Fluency",
    "stem": "Solve these quadratic equations.",
@@ -143013,6 +143184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10c-factorise",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143025,6 +143197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10c-factorise",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143036,6 +143209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10c-factorise",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143047,6 +143221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-10c-factorise",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143058,6 +143233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-10c-factorise",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143069,6 +143245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-10c-factorise",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143080,6 +143257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-10c-factorise",
    "label": "3g",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143091,6 +143269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-10c-factorise",
    "label": "3h",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143102,6 +143281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-10c-factorise",
    "label": "3i",
    "section": "Fluency",
    "stem": "Solve these quadratic equations, which include perfect squares.",
@@ -143113,6 +143293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10c-rearrange",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143125,6 +143306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10c-rearrange",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143137,6 +143319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-10c-rearrange",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143148,6 +143331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-10c-rearrange",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143160,6 +143344,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-10c-rearrange",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143172,6 +143357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-10c-rearrange",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143183,6 +143369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-10c-rearrange",
    "label": "4g",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143195,6 +143382,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-10c-rearrange",
    "label": "4h",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143207,6 +143395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-10c-rearrange",
    "label": "4i",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143219,6 +143408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-10c-rearrange",
    "label": "4j",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143231,6 +143421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-10c-rearrange",
    "label": "4k",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143243,6 +143434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-10c-rearrange",
    "label": "4l",
    "section": "Fluency",
    "stem": "Solve these quadratic equations by first rearranging to standard form.",
@@ -143255,6 +143447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10c-hcf",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143267,6 +143460,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10c-hcf",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143279,6 +143473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10c-hcf",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143291,6 +143486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10c-hcf",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143303,6 +143499,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10c-hcf",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143314,6 +143511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10c-hcf",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143325,6 +143523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-10c-hcf",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143336,6 +143535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-10c-hcf",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143347,6 +143547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-10c-hcf",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Solve these equations by taking out a common factor as the first step.",
@@ -143359,6 +143560,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10c-context",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The temperature in $^\\circ$C inside a research hut in Antarctica, $t$ hours after 10 a.m., is given by $t^2 - 10t + 21$.",
@@ -143372,6 +143574,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10c-context",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The temperature in $^\\circ$C inside a research hut in Antarctica, $t$ hours after 10 a.m., is given by $t^2 - 10t + 21$.",
@@ -143391,6 +143594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10c-build",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
@@ -143404,6 +143608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10c-build",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
@@ -143416,6 +143621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-10c-build",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
@@ -143428,6 +143634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-10c-build",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
@@ -143440,6 +143647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-10c-build",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
@@ -143452,6 +143660,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-10c-build",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Write down a quadratic equation $x^2 + bx + c = 0$ that has the given solutions. Give the values of $b$ and $c$, in that order.",
@@ -143464,6 +143673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-10c-rearrange",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
@@ -143476,6 +143686,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-10c-rearrange",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
@@ -143487,6 +143698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-10c-rearrange",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
@@ -143499,6 +143711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-10c-rearrange",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
@@ -143511,6 +143724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-10c-rearrange",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
@@ -143523,6 +143737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-10c-rearrange",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Remove brackets, decimals or fractions and write in standard form to help solve these equations.",
@@ -143535,6 +143750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-10c-jess",
    "label": "9",
    "section": "Reasoning",
    "stem": "Jess solved $x^2 + x - 20 = -8$ like this: $(x + 5)(x - 4) = -8$, so $x + 5 = -8$ or $x - 4 = -8$, giving $x = -13$ or $x = -4$. Her working is wrong: the Null Factor Law only works when one side is $0$.",
@@ -143547,6 +143763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-10c-factorise",
    "label": "10",
    "section": "Reasoning",
    "type": "numeric",
@@ -143555,6 +143772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10c-build",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Write down a quadratic equation in factorised form that has these solutions.",
@@ -143565,6 +143783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10c-build",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Write down a quadratic equation in factorised form that has these solutions.",
@@ -143574,6 +143793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-10c-nonmonic",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143587,6 +143807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-10c-nonmonic",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143599,6 +143820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-10c-nonmonic",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143611,6 +143833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-10c-nonmonic",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143623,6 +143846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-10c-nonmonic",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143635,6 +143859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-10c-nonmonic",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143646,6 +143871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-10c-nonmonic",
    "label": "12g",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143658,6 +143884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-10c-nonmonic",
    "label": "12h",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143670,6 +143897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12i",
+   "help": "y9-10c-nonmonic",
    "label": "12i",
    "section": "Enrichment",
    "stem": "Quadratics where the coefficient of $x^2$ is not $1$ are called non-monic. For example, $2x^2 + 5x - 3 = 0$ factorises to $(2x - 1)(x + 3) = 0$. Solve these quadratic equations.",
@@ -143690,6 +143918,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10d-rect",
    "label": "1a",
    "section": "Fluency",
    "stem": "The length of a rectangular poster is $6$ cm more than its width, and its area is $112$ cm$^2$.",
@@ -143700,6 +143929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10d-rect",
    "label": "1b",
    "section": "Fluency",
    "stem": "The length of a rectangular poster is $6$ cm more than its width, and its area is $112$ cm$^2$.",
@@ -143710,6 +143940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10d-rect",
    "label": "2a",
    "section": "Fluency",
    "stem": "The length of a rectangular flyer is $3$ cm more than its width, and its area is $40$ cm$^2$.",
@@ -143720,6 +143951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10d-rect",
    "label": "2b",
    "section": "Fluency",
    "stem": "The length of a rectangular flyer is $3$ cm more than its width, and its area is $40$ cm$^2$.",
@@ -143730,6 +143962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-10d-product",
    "label": "3",
    "section": "Fluency",
    "type": "list",
@@ -143742,6 +143975,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-10d-product",
    "label": "4",
    "section": "Fluency",
    "type": "list",
@@ -143753,6 +143987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-10d-product",
    "label": "5",
    "section": "Fluency",
    "type": "list",
@@ -143764,6 +143999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10d-rect",
    "label": "6a",
    "section": "Fluency",
    "stem": "The length of a rectangular vegetable patch is $15$ metres less than its width, and its area is $54$ m$^2$.",
@@ -143774,6 +144010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10d-rect",
    "label": "6b",
    "section": "Fluency",
    "stem": "The length of a rectangular vegetable patch is $15$ metres less than its width, and its area is $54$ m$^2$.",
@@ -143784,6 +144021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10d-area",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A square of side length $12$ metres has a square of side length $x$ metres removed from one corner.",
@@ -143871,6 +144109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10d-area",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A square of side length $12$ metres has a square of side length $x$ metres removed from one corner.",
@@ -143881,6 +144120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-10d-area",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -143973,6 +144213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-10d-area",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A rectangular shed ($4$ m by $6$ m) is extended to form an L shape, as shown. The new part is $x$ m wide.",
@@ -144046,6 +144287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-10d-area",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A rectangular shed ($4$ m by $6$ m) is extended to form an L shape, as shown. The new part is $x$ m wide.",
@@ -144056,6 +144298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-10d-pythag",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Use Pythagoras' theorem to find the value of $x$ in each right-angled triangle.",
@@ -144117,6 +144360,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-10d-pythag",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Use Pythagoras' theorem to find the value of $x$ in each right-angled triangle.",
@@ -144178,6 +144422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-10d-pythag",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Use Pythagoras' theorem to find the value of $x$ in each right-angled triangle.",
@@ -144239,6 +144484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10d-rect",
    "label": "11a",
    "section": "Reasoning",
    "stem": "The area of this rectangle is $40$ cm$^2$, which gives the equation $x^2 + 3x - 40 = 0$.",
@@ -144272,6 +144518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10d-rect",
    "label": "11b",
    "section": "Reasoning",
    "stem": "The area of this rectangle is $40$ cm$^2$, which gives the equation $x^2 + 3x - 40 = 0$.",
@@ -144286,6 +144533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-10d-product",
    "label": "12a",
    "section": "Reasoning",
    "stem": "The product of a whole number and one less than the same number is $12$. This gives the equation $x^2 - x - 12 = 0$.",
@@ -144299,6 +144547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-10d-product",
    "label": "12b",
    "section": "Reasoning",
    "stem": "The product of a whole number and one less than the same number is $12$. This gives the equation $x^2 - x - 12 = 0$.",
@@ -144308,6 +144557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-10d-formula",
    "label": "13a",
    "section": "Reasoning",
    "stem": "This table shows the sum of the first $n$ positive whole numbers. For example, if $n = 3$ the sum is $1 + 2 + 3 = 6$.",
@@ -144345,6 +144595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-10d-formula",
    "label": "13b",
    "section": "Reasoning",
    "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
@@ -144354,6 +144605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-10d-formula",
    "label": "13c",
    "section": "Reasoning",
    "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
@@ -144363,6 +144615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-10d-formula",
    "label": "13d",
    "section": "Reasoning",
    "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
@@ -144372,6 +144625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-10d-formula",
    "label": "13e",
    "section": "Reasoning",
    "stem": "The sum of the first $n$ positive whole numbers is given by $\\frac{n(n + 1)}{2}$.",
@@ -144381,6 +144635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-10d-formula",
    "label": "14a",
    "section": "Reasoning",
    "stem": "The number of diagonals in a polygon with $n$ sides is given by $\\frac{n}{2}(n - 3)$.",
@@ -144413,6 +144668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-10d-formula",
    "label": "14b",
    "section": "Reasoning",
    "stem": "The number of diagonals in a polygon with $n$ sides is given by $\\frac{n}{2}(n - 3)$.",
@@ -144422,6 +144678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-10d-formula",
    "label": "14c",
    "section": "Reasoning",
    "stem": "The number of diagonals in a polygon with $n$ sides is given by $\\frac{n}{2}(n - 3)$.",
@@ -144431,6 +144688,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-10d-area",
    "label": "15a",
    "section": "Enrichment",
    "stem": "A square picture of side length $30$ cm has a border of width $x$ cm all the way round.",
@@ -144512,6 +144770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-10d-area",
    "label": "15b",
    "section": "Enrichment",
    "stem": "A square picture of side length $30$ cm has a border of width $x$ cm all the way round.",
@@ -144522,6 +144781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-10d-area",
    "label": "16",
    "section": "Enrichment",
    "type": "numeric",
@@ -144662,6 +144922,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10e-features",
    "label": "1a",
    "section": "Fluency",
    "stem": "Graph A: state each feature of this parabola.",
@@ -144937,6 +145198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10e-features",
    "label": "1b",
    "section": "Fluency",
    "stem": "Graph A: state each feature of this parabola.",
@@ -144950,6 +145212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10e-features",
    "label": "1c",
    "section": "Fluency",
    "stem": "Graph A: state each feature of this parabola.",
@@ -144960,6 +145223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-10e-features",
    "label": "1d",
    "section": "Fluency",
    "stem": "Graph A: state each feature of this parabola.",
@@ -144973,6 +145237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-10e-features",
    "label": "1e",
    "section": "Fluency",
    "stem": "Graph A: state each feature of this parabola.",
@@ -144982,6 +145247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-10e-features",
    "label": "1f",
    "section": "Fluency",
    "stem": "Graph B: state each feature of this parabola.",
@@ -145208,6 +145474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-10e-features",
    "label": "1g",
    "section": "Fluency",
    "stem": "Graph B: state each feature of this parabola.",
@@ -145221,6 +145488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-10e-features",
    "label": "1h",
    "section": "Fluency",
    "stem": "Graph B: state each feature of this parabola.",
@@ -145230,6 +145498,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-10e-features",
    "label": "1i",
    "section": "Fluency",
    "stem": "Graph B: state each feature of this parabola.",
@@ -145242,6 +145511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-10e-features",
    "label": "1j",
    "section": "Fluency",
    "stem": "Graph B: state each feature of this parabola.",
@@ -145251,6 +145521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-10e-features",
    "label": "1k",
    "section": "Fluency",
    "stem": "Graph C: state each feature of this parabola.",
@@ -145477,6 +145748,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-10e-features",
    "label": "1l",
    "section": "Fluency",
    "stem": "Graph C: state each feature of this parabola.",
@@ -145490,6 +145762,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-10e-features",
    "label": "1m",
    "section": "Fluency",
    "stem": "Graph C: state each feature of this parabola.",
@@ -145499,6 +145772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-10e-features",
    "label": "1n",
    "section": "Fluency",
    "stem": "Graph C: state each feature of this parabola.",
@@ -145508,6 +145782,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-10e-features",
    "label": "1o",
    "section": "Fluency",
    "stem": "Graph C: state each feature of this parabola.",
@@ -145517,6 +145792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-10e-features",
    "label": "1p",
    "section": "Fluency",
    "stem": "Graph D: state each feature of this parabola.",
@@ -145743,6 +146019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-10e-features",
    "label": "1q",
    "section": "Fluency",
    "stem": "Graph D: state each feature of this parabola.",
@@ -145756,6 +146033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-10e-features",
    "label": "1r",
    "section": "Fluency",
    "stem": "Graph D: state each feature of this parabola.",
@@ -145765,6 +146043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1s",
+   "help": "y9-10e-features",
    "label": "1s",
    "section": "Fluency",
    "stem": "Graph D: state each feature of this parabola.",
@@ -145776,6 +146055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1t",
+   "help": "y9-10e-features",
    "label": "1t",
    "section": "Fluency",
    "stem": "Graph D: state each feature of this parabola.",
@@ -145785,6 +146065,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1u",
+   "help": "y9-10e-features",
    "label": "1u",
    "section": "Fluency",
    "stem": "Graph E: state each feature of this parabola.",
@@ -146067,6 +146348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1v",
+   "help": "y9-10e-features",
    "label": "1v",
    "section": "Fluency",
    "stem": "Graph E: state each feature of this parabola.",
@@ -146080,6 +146362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1w",
+   "help": "y9-10e-features",
    "label": "1w",
    "section": "Fluency",
    "stem": "Graph E: state each feature of this parabola.",
@@ -146089,6 +146372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1x",
+   "help": "y9-10e-features",
    "label": "1x",
    "section": "Fluency",
    "stem": "Graph E: state each feature of this parabola.",
@@ -146101,6 +146385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1y",
+   "help": "y9-10e-features",
    "label": "1y",
    "section": "Fluency",
    "stem": "Graph E: state each feature of this parabola.",
@@ -146110,6 +146395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10e-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 4$.",
@@ -146147,6 +146433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10e-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 4$.",
@@ -146160,6 +146447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10e-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 4$.",
@@ -146170,6 +146458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10e-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 4$.",
@@ -146179,6 +146468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10e-table",
    "label": "2e",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 4$.",
@@ -146188,6 +146478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10e-table",
    "label": "2f",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 4$.",
@@ -146201,6 +146492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10e-table",
    "label": "3a",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
@@ -146244,6 +146536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10e-table",
    "label": "3b",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
@@ -146257,6 +146550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10e-table",
    "label": "3c",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
@@ -146267,6 +146561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-10e-table",
    "label": "3d",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
@@ -146276,6 +146571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-10e-table",
    "label": "3e",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
@@ -146285,6 +146581,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-10e-table",
    "label": "3f",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = x^2 - 2x - 3$.",
@@ -146298,6 +146595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10e-table",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = 4 - x^2$.",
@@ -146341,6 +146639,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10e-table",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = 4 - x^2$.",
@@ -146354,6 +146653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-10e-table",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = 4 - x^2$.",
@@ -146364,6 +146664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-10e-table",
    "label": "4d",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = 4 - x^2$.",
@@ -146373,6 +146674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-10e-table",
    "label": "4e",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = 4 - x^2$.",
@@ -146382,6 +146684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-10e-table",
    "label": "4f",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = 4 - x^2$.",
@@ -146395,6 +146698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10e-table",
    "label": "5a",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
@@ -146441,6 +146745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10e-table",
    "label": "5b",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
@@ -146454,6 +146759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10e-table",
    "label": "5c",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
@@ -146464,6 +146770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10e-table",
    "label": "5d",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
@@ -146474,6 +146781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10e-table",
    "label": "5e",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
@@ -146483,6 +146791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10e-table",
    "label": "5f",
    "section": "Fluency",
    "stem": "Use the quadratic rule $y = -x^2 - x + 6$.",
@@ -146496,6 +146805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10e-context",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
@@ -147301,6 +147611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10e-context",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
@@ -147311,6 +147622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-10e-context",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
@@ -147321,6 +147633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-10e-context",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "This graph shows the height of a netball, $y$ metres, $t$ seconds after it is thrown up from the ground.",
@@ -147331,6 +147644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10e-context",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
@@ -148037,6 +148351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10e-context",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
@@ -148047,6 +148362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-10e-context",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
@@ -148057,6 +148373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-10e-context",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "The graph shows the height, $h$ m, of a rocket $t$ seconds after it is fired up into the air from the top of a cliff.",
@@ -148067,6 +148384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-10e-symmetry",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A parabola has $x$-intercepts at $(-4, 0)$ and $(2, 0)$. The $y$-coordinate of its turning point is $-9$.",
@@ -148077,6 +148395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-10e-symmetry",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A parabola has $x$-intercepts at $(-4, 0)$ and $(2, 0)$. The $y$-coordinate of its turning point is $-9$.",
@@ -148086,6 +148405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-10e-symmetry",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A parabola has a turning point at $(2, 5)$ and one of its $x$-intercepts at $(0, 0)$.",
@@ -148095,6 +148415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-10e-symmetry",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A parabola has a turning point at $(2, 5)$ and one of its $x$-intercepts at $(0, 0)$.",
@@ -148104,6 +148425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-10e-rule",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
@@ -148318,6 +148640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-10e-rule",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
@@ -148547,6 +148870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-10e-rule",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
@@ -148760,6 +149084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-10e-rule",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
@@ -148973,6 +149298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-10e-rule",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
@@ -149186,6 +149512,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-10e-rule",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "Write the rule for each parabola. Use trial and error, and check your rule by substituting a point on the graph.",
@@ -149431,6 +149758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10e-possible",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Is it possible to draw a parabola with each property?",
@@ -149444,6 +149772,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10e-possible",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Is it possible to draw a parabola with each property?",
@@ -149457,6 +149786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-10e-possible",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Is it possible to draw a parabola with each property?",
@@ -149470,6 +149800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-10e-possible",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Is it possible to draw a parabola with each property?",
@@ -149483,6 +149814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-10e-table",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Each student made an error. Find the correct $y$-value.",
@@ -149492,6 +149824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-10e-table",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Each student made an error. Find the correct $y$-value.",
@@ -149501,6 +149834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-10e-solve-table",
    "label": "13a",
    "section": "Reasoning",
    "stem": "This graph shows the parabola $y = x^2 - 1$.",
@@ -149747,6 +150081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-10e-solve-table",
    "label": "13b",
    "section": "Reasoning",
    "stem": "This graph shows the parabola $y = x^2 - 1$.",
@@ -149756,6 +150091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-10e-solve-table",
    "label": "13c",
    "section": "Reasoning",
    "stem": "This graph shows the parabola $y = x^2 - 1$.",
@@ -149771,6 +150107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-10e-solve-table",
    "label": "13d",
    "section": "Reasoning",
    "stem": "This graph shows the parabola $y = x^2 - 1$.",
@@ -149786,6 +150123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-10e-solve-table",
    "label": "13e",
    "section": "Reasoning",
    "stem": "This graph shows the parabola $y = x^2 - 1$.",
@@ -149801,6 +150139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-10e-solve-table",
    "label": "14a",
    "section": "Reasoning",
    "stem": "This table is for the rule $y = x^2 + 2x$.",
@@ -149839,6 +150178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-10e-solve-table",
    "label": "14b",
    "section": "Reasoning",
    "stem": "This table is for the rule $y = x^2 + 2x$.",
@@ -149851,6 +150191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-10e-solve-table",
    "label": "14c",
    "section": "Reasoning",
    "stem": "This table is for the rule $y = x^2 + 2x$.",
@@ -149860,6 +150201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-10e-solve-table",
    "label": "14d",
    "section": "Reasoning",
    "stem": "This table is for the rule $y = x^2 + 2x$.",
@@ -149869,6 +150211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-10e-solve-table",
    "label": "14e",
    "section": "Reasoning",
    "stem": "This table is for the rule $y = x^2 + 2x$.",
@@ -149887,6 +150230,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10f-table",
    "label": "1a",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149924,6 +150268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10f-table",
    "label": "1b",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149939,6 +150284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10f-table",
    "label": "1c",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149954,6 +150300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-10f-table",
    "label": "1d",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149964,6 +150311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-10f-table",
    "label": "1e",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149973,6 +150321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-10f-table",
    "label": "1f",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149986,6 +150335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-10f-table",
    "label": "1g",
    "section": "Fluency",
    "stem": "Consider the graphs of $y = x^2$, $y = 4x^2$ and $y = \\frac{1}{4}x^2$ for $-2 \\le x \\le 2$.",
@@ -149999,6 +150349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10f-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 7x^2$.",
@@ -150036,6 +150387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10f-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 7x^2$.",
@@ -150045,6 +150397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10f-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 7x^2$.",
@@ -150055,6 +150408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10f-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 7x^2$.",
@@ -150068,6 +150422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10f-table",
    "label": "2e",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 3x^2$.",
@@ -150104,6 +150459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10f-table",
    "label": "2f",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 3x^2$.",
@@ -150113,6 +150469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-10f-table",
    "label": "2g",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 3x^2$.",
@@ -150122,6 +150479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-10f-table",
    "label": "2h",
    "section": "Fluency",
    "stem": "Consider the graph of $y = 3x^2$.",
@@ -150135,6 +150493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-10f-table",
    "label": "2i",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
@@ -150171,6 +150530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-10f-table",
    "label": "2j",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
@@ -150180,6 +150540,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-10f-table",
    "label": "2k",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
@@ -150189,6 +150550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-10f-table",
    "label": "2l",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{8}x^2$.",
@@ -150202,6 +150564,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-10f-table",
    "label": "2m",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
@@ -150238,6 +150601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-10f-table",
    "label": "2n",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
@@ -150247,6 +150611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-10f-table",
    "label": "2o",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
@@ -150256,6 +150621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-10f-table",
    "label": "2p",
    "section": "Fluency",
    "stem": "Consider the graph of $y = \\frac{1}{3}x^2$.",
@@ -150269,6 +150635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10f-table",
    "label": "3a",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -4x^2$.",
@@ -150306,6 +150673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10f-table",
    "label": "3b",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -4x^2$.",
@@ -150315,6 +150683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10f-table",
    "label": "3c",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -4x^2$.",
@@ -150325,6 +150694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-10f-table",
    "label": "3d",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -4x^2$.",
@@ -150338,6 +150708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-10f-table",
    "label": "3e",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -5x^2$.",
@@ -150374,6 +150745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-10f-table",
    "label": "3f",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -5x^2$.",
@@ -150383,6 +150755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-10f-table",
    "label": "3g",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -5x^2$.",
@@ -150392,6 +150765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-10f-table",
    "label": "3h",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -5x^2$.",
@@ -150405,6 +150779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-10f-table",
    "label": "3i",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
@@ -150441,6 +150816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-10f-table",
    "label": "3j",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
@@ -150450,6 +150826,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-10f-table",
    "label": "3k",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
@@ -150459,6 +150836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-10f-table",
    "label": "3l",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{5}x^2$.",
@@ -150472,6 +150850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-10f-table",
    "label": "3m",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
@@ -150508,6 +150887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-10f-table",
    "label": "3n",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
@@ -150517,6 +150897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-10f-table",
    "label": "3o",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
@@ -150526,6 +150907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-10f-table",
    "label": "3p",
    "section": "Fluency",
    "stem": "Consider the graph of $y = -\\frac{1}{6}x^2$.",
@@ -150539,6 +150921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10f-order",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Here are eight quadratic rules of the form $y = ax^2$: A $y = 5x^2$, B $y = -8x^2$, C $y = 3x^2$, D $y = \\frac{1}{7}x^2$, E $y = \\frac{x^2}{6}$, F $y = 0.4x^2$, G $y = -3.6x^2$, H $y = -0.2x^2$.",
@@ -150558,6 +150941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10f-order",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Here are eight quadratic rules of the form $y = ax^2$: A $y = 5x^2$, B $y = -8x^2$, C $y = 3x^2$, D $y = \\frac{1}{7}x^2$, E $y = \\frac{x^2}{6}$, F $y = 0.4x^2$, G $y = -3.6x^2$, H $y = -0.2x^2$.",
@@ -150577,6 +150961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10f-findA",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
@@ -150731,6 +151116,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10f-findA",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
@@ -150965,6 +151351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10f-findA",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
@@ -151143,6 +151530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10f-findA",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
@@ -151281,6 +151669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10f-findA",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
@@ -151555,6 +151944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10f-findA",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation. Check by substituting the coordinates of a point on the graph.",
@@ -151693,6 +152083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10f-transform",
    "label": "6a",
    "section": "Reasoning",
    "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
@@ -151708,6 +152099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10f-transform",
    "label": "6b",
    "section": "Reasoning",
    "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
@@ -151723,6 +152115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-10f-transform",
    "label": "6c",
    "section": "Reasoning",
    "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
@@ -151738,6 +152131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-10f-transform",
    "label": "6d",
    "section": "Reasoning",
    "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
@@ -151753,6 +152147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-10f-transform",
    "label": "6e",
    "section": "Reasoning",
    "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
@@ -151768,6 +152163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-10f-transform",
    "label": "6f",
    "section": "Reasoning",
    "stem": "The graph of $y = -2x^2$ can be obtained from $y = x^2$ by a reflection in the $x$-axis and a dilation by a factor of $2$ from the $x$-axis. Which transformations take the first graph to the second?",
@@ -151783,6 +152179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10f-transform",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Write the rule for the graph after each set of transformations.",
@@ -151796,6 +152193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10f-transform",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Write the rule for the graph after each set of transformations.",
@@ -151808,6 +152206,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-10f-transform",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Write the rule for the graph after each set of transformations.",
@@ -151820,6 +152219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-10f-transform",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Write the rule for the graph after each set of transformations.",
@@ -151832,6 +152232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-10f-transform",
    "label": "8",
    "section": "Reasoning",
    "type": "choice",
@@ -151844,6 +152245,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-10f-transform",
    "label": "9",
    "section": "Reasoning",
    "type": "expression",
@@ -151856,6 +152258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-10f-findA",
    "label": "10a",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151869,6 +152272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-10f-findA",
    "label": "10b",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151881,6 +152285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-10f-findA",
    "label": "10c",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151893,6 +152298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-10f-findA",
    "label": "10d",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151905,6 +152311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-10f-findA",
    "label": "10e",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151917,6 +152324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-10f-findA",
    "label": "10f",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151929,6 +152337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-10f-findA",
    "label": "10g",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151941,6 +152350,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y9-10f-findA",
    "label": "10h",
    "section": "Enrichment",
    "stem": "A parabola has a rule of the form $y = ax^2$. Substitute the given point to find $a$, then write the rule. For example, through $(1, 4)$: $4 = a \\times 1^2$, so $y = 4x^2$.",
@@ -151953,6 +152363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-10f-findA",
    "label": "11",
    "section": "Enrichment",
    "type": "expression",
@@ -151974,6 +152385,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10g-tp",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -151984,6 +152396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10g-tp",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -151993,6 +152406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10g-tp",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152002,6 +152416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-10g-tp",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152011,6 +152426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-10g-tp",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152020,6 +152436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-10g-tp",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152029,6 +152446,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-10g-tp",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152038,6 +152456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-10g-tp",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152047,6 +152466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-10g-tp",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152056,6 +152476,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-10g-tp",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152065,6 +152486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-10g-tp",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152074,6 +152496,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-10g-tp",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152083,6 +152506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10g-tp",
    "label": "2a",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152093,6 +152517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10g-tp",
    "label": "2b",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152102,6 +152527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10g-tp",
    "label": "2c",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152111,6 +152537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10g-tp",
    "label": "2d",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152120,6 +152547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10g-tp",
    "label": "2e",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152129,6 +152557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10g-tp",
    "label": "2f",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152138,6 +152567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-10g-tp",
    "label": "2g",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152147,6 +152577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-10g-tp",
    "label": "2h",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152156,6 +152587,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-10g-tp",
    "label": "2i",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152165,6 +152597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-10g-tp",
    "label": "2j",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152174,6 +152607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-10g-tp",
    "label": "2k",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152183,6 +152617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-10g-tp",
    "label": "2l",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -152192,6 +152627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10g-graph-rule",
    "label": "3a",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153041,6 +153477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10g-graph-rule",
    "label": "3b",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153050,6 +153487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10g-graph-rule",
    "label": "3c",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153059,6 +153497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-10g-graph-rule",
    "label": "3d",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153072,6 +153511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-10g-graph-rule",
    "label": "3e",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153081,6 +153521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-10g-graph-rule",
    "label": "3f",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153094,6 +153535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-10g-graph-rule",
    "label": "3g",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153103,6 +153545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-10g-graph-rule",
    "label": "3h",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153116,6 +153559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-10g-graph-rule",
    "label": "3i",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153125,6 +153569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-10g-graph-rule",
    "label": "3j",
    "section": "Fluency",
    "stem": "The diagram shows the graphs of $y = x^2$, $y = -x^2$, $y = -(x - 1)^2 + 4$ and $y = (x + 2)^2 - 1$.",
@@ -153138,6 +153583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10g-tp",
    "label": "4a",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153148,6 +153594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10g-tp",
    "label": "4b",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153157,6 +153604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-10g-tp",
    "label": "4c",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153166,6 +153614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-10g-tp",
    "label": "4d",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153175,6 +153624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-10g-tp",
    "label": "4e",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153184,6 +153634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-10g-tp",
    "label": "4f",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153193,6 +153644,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-10g-tp",
    "label": "4g",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153202,6 +153654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-10g-tp",
    "label": "4h",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153211,6 +153664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-10g-tp",
    "label": "4i",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153220,6 +153674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-10g-tp",
    "label": "4j",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153229,6 +153684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-10g-tp",
    "label": "4k",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153238,6 +153694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-10g-tp",
    "label": "4l",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153247,6 +153704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y9-10g-tp",
    "label": "4m",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153256,6 +153714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y9-10g-tp",
    "label": "4n",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153265,6 +153724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y9-10g-tp",
    "label": "4o",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153274,6 +153734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y9-10g-tp",
    "label": "4p",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153283,6 +153744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4q",
+   "help": "y9-10g-tp",
    "label": "4q",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153292,6 +153754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4r",
+   "help": "y9-10g-tp",
    "label": "4r",
    "section": "Fluency",
    "stem": "For each rule, find the coordinates of the turning point and of the $y$-intercept.",
@@ -153301,6 +153764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10g-graph-rule",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -153541,6 +154005,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10g-graph-rule",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -153781,6 +154246,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10g-graph-rule",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -154021,6 +154487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10g-graph-rule",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -154261,6 +154728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10g-graph-rule",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -154501,6 +154969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10g-graph-rule",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -154741,6 +155210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-10g-graph-rule",
    "label": "5g",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -154981,6 +155451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-10g-graph-rule",
    "label": "5h",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -155221,6 +155692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-10g-graph-rule",
    "label": "5i",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -155461,6 +155933,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-10g-graph-rule",
    "label": "5j",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -155701,6 +156174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-10g-graph-rule",
    "label": "5k",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -155941,6 +156415,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-10g-graph-rule",
    "label": "5l",
    "section": "Problem-solving",
    "stem": "Match each parabola with its equation.",
@@ -156181,6 +156656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10g-graph-rule",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -156490,6 +156966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10g-graph-rule",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -156786,6 +157263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-10g-graph-rule",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -157094,6 +157572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-10g-graph-rule",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -157402,6 +157881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-10g-graph-rule",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -157758,6 +158238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-10g-graph-rule",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Write the rule for each graph in turning point form, $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158074,6 +158555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10g-tp",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
@@ -158084,6 +158566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10g-tp",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
@@ -158093,6 +158576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-10g-tp",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
@@ -158102,6 +158586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-10g-tp",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
@@ -158111,6 +158596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-10g-tp",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "A bike track is modelled by two quadratics. The first part is $y = -(x - 1)^2 + 4$ for $-2 \\le x \\le 3$, and the second part is $y = (x - 5)^2 - 4$ for $3 \\le x \\le 8$.",
@@ -158125,6 +158611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-10g-reorder",
    "label": "8a",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158139,6 +158626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-10g-reorder",
    "label": "8b",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158152,6 +158640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-10g-reorder",
    "label": "8c",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158165,6 +158654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-10g-reorder",
    "label": "8d",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158178,6 +158668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-10g-reorder",
    "label": "8e",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158191,6 +158682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-10g-reorder",
    "label": "8f",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158204,6 +158696,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y9-10g-reorder",
    "label": "8g",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158213,6 +158706,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y9-10g-reorder",
    "label": "8h",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158222,6 +158716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8i",
+   "help": "y9-10g-reorder",
    "label": "8i",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158231,6 +158726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8j",
+   "help": "y9-10g-reorder",
    "label": "8j",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158240,6 +158736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8k",
+   "help": "y9-10g-reorder",
    "label": "8k",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158249,6 +158746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8l",
+   "help": "y9-10g-reorder",
    "label": "8l",
    "section": "Reasoning",
    "stem": "For example, $y = 4 - (x + 2)^2$ can be rearranged to $y = -(x + 2)^2 + 4$, which is the form $y = a(x - h)^2 + k$ with $a = -1$, $h = -2$ and $k = 4$.",
@@ -158258,6 +158756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-10g-tp",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A quadratic has the rule $y = a(x - h)^2 + k$.",
@@ -158268,6 +158767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-10g-tp",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A quadratic has the rule $y = a(x - h)^2 + k$.",
@@ -158278,6 +158778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-10g-graph-rule",
    "label": "10a",
    "section": "Reasoning",
    "stem": "How does the graph of the first rule compare with the graph of the second?",
@@ -158293,6 +158794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-10g-graph-rule",
    "label": "10b",
    "section": "Reasoning",
    "stem": "How does the graph of the first rule compare with the graph of the second?",
@@ -158308,6 +158810,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10g-find-c",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
@@ -158321,6 +158824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10g-find-c",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
@@ -158333,6 +158837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-10g-find-c",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
@@ -158345,6 +158850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-10g-find-c",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = x^2 + c$ that passes through each point.",
@@ -158357,6 +158863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-10g-find-c",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
@@ -158369,6 +158876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-10g-find-c",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
@@ -158381,6 +158889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-10g-find-c",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
@@ -158393,6 +158902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-10g-find-c",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Find the rule of the quadratic of the form $y = -x^2 + c$ that passes through each point.",
@@ -158405,6 +158915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-10g-find-h",
    "label": "13a",
    "section": "Enrichment",
    "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
@@ -158418,6 +158929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-10g-find-h",
    "label": "13b",
    "section": "Enrichment",
    "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
@@ -158430,6 +158942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-10g-find-h",
    "label": "13c",
    "section": "Enrichment",
    "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
@@ -158442,6 +158955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-10g-find-h",
    "label": "13d",
    "section": "Enrichment",
    "stem": "A quadratic has a rule of the form $y = (x - h)^2$. Find both possible rules if its graph passes through each point.",
@@ -158454,6 +158968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-10g-tp-yint",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158467,6 +158982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-10g-tp-yint",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158479,6 +158995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-10g-tp-yint",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158491,6 +159008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-10g-tp-yint",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158503,6 +159021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-10g-tp-yint",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158515,6 +159034,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-10g-tp-yint",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Find the rule for each parabola from its turning point (TP) and $y$-intercept. Each rule has the form $y = (x - h)^2 + k$ or $y = -(x - h)^2 + k$.",
@@ -158536,6 +159056,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-10h-intercepts",
    "label": "1a",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158549,6 +159070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-10h-intercepts",
    "label": "1b",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158559,6 +159081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-10h-intercepts",
    "label": "1c",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158571,6 +159094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-10h-intercepts",
    "label": "1d",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158580,6 +159104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-10h-intercepts",
    "label": "1e",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158592,6 +159117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-10h-intercepts",
    "label": "1f",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158601,6 +159127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-10h-intercepts",
    "label": "1g",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158613,6 +159140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-10h-intercepts",
    "label": "1h",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158622,6 +159150,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-10h-intercepts",
    "label": "1i",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158634,6 +159163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-10h-intercepts",
    "label": "1j",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158643,6 +159173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-10h-intercepts",
    "label": "1k",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158655,6 +159186,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-10h-intercepts",
    "label": "1l",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158664,6 +159196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-10h-intercepts",
    "label": "1m",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158676,6 +159209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-10h-intercepts",
    "label": "1n",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158685,6 +159219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-10h-intercepts",
    "label": "1o",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158697,6 +159232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-10h-intercepts",
    "label": "1p",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158706,6 +159242,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-10h-intercepts",
    "label": "1q",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158718,6 +159255,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-10h-intercepts",
    "label": "1r",
    "section": "Fluency",
    "stem": "For each quadratic relation, find the $x$-intercepts and the $y$-intercept.",
@@ -158727,6 +159265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-10h-common",
    "label": "2a",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
@@ -158738,6 +159277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-10h-common",
    "label": "2b",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
@@ -158751,6 +159291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-10h-common",
    "label": "2c",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
@@ -158761,6 +159302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-10h-common",
    "label": "2d",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x$.",
@@ -158770,6 +159312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-10h-common",
    "label": "2e",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
@@ -158780,6 +159323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-10h-common",
    "label": "2f",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
@@ -158792,6 +159336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-10h-common",
    "label": "2g",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
@@ -158801,6 +159346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-10h-common",
    "label": "2h",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x$.",
@@ -158810,6 +159356,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-10h-common",
    "label": "2i",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - x$.",
@@ -158820,6 +159367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-10h-common",
    "label": "2j",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - x$.",
@@ -158832,6 +159380,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-10h-common",
    "label": "2k",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - x$.",
@@ -158841,6 +159390,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-10h-common",
    "label": "2l",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - x$.",
@@ -158851,6 +159401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2m",
+   "help": "y9-10h-common",
    "label": "2m",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 8x + x^2$.",
@@ -158861,6 +159412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2n",
+   "help": "y9-10h-common",
    "label": "2n",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 8x + x^2$.",
@@ -158873,6 +159425,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2o",
+   "help": "y9-10h-common",
    "label": "2o",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 8x + x^2$.",
@@ -158882,6 +159435,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2p",
+   "help": "y9-10h-common",
    "label": "2p",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 8x + x^2$.",
@@ -158891,6 +159445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2q",
+   "help": "y9-10h-common",
    "label": "2q",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 4x - x^2$.",
@@ -158901,6 +159456,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2r",
+   "help": "y9-10h-common",
    "label": "2r",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 4x - x^2$.",
@@ -158913,6 +159469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2s",
+   "help": "y9-10h-common",
    "label": "2s",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 4x - x^2$.",
@@ -158922,6 +159479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2t",
+   "help": "y9-10h-common",
    "label": "2t",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = 4x - x^2$.",
@@ -158931,6 +159489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2u",
+   "help": "y9-10h-common",
    "label": "2u",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
@@ -158941,6 +159500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2v",
+   "help": "y9-10h-common",
    "label": "2v",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
@@ -158953,6 +159513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2w",
+   "help": "y9-10h-common",
    "label": "2w",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
@@ -158962,6 +159523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2x",
+   "help": "y9-10h-common",
    "label": "2x",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = -x^2 - 6x$.",
@@ -158971,6 +159533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-10h-sketch",
    "label": "3a",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
@@ -158981,6 +159544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-10h-sketch",
    "label": "3b",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
@@ -158992,6 +159556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-10h-sketch",
    "label": "3c",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
@@ -159005,6 +159570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-10h-sketch",
    "label": "3d",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
@@ -159015,6 +159581,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-10h-sketch",
    "label": "3e",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 5x + 4$.",
@@ -159025,6 +159592,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-10h-sketch",
    "label": "3f",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
@@ -159034,6 +159602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-10h-sketch",
    "label": "3g",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
@@ -159044,6 +159613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-10h-sketch",
    "label": "3h",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
@@ -159056,6 +159626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-10h-sketch",
    "label": "3i",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
@@ -159065,6 +159636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-10h-sketch",
    "label": "3j",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 - 6x + 8$.",
@@ -159074,6 +159646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-10h-sketch",
    "label": "3k",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
@@ -159083,6 +159656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-10h-sketch",
    "label": "3l",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
@@ -159093,6 +159667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-10h-sketch",
    "label": "3m",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
@@ -159105,6 +159680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-10h-sketch",
    "label": "3n",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
@@ -159114,6 +159690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-10h-sketch",
    "label": "3o",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 2x - 15$.",
@@ -159123,6 +159700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-10h-sketch",
    "label": "3p",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
@@ -159132,6 +159710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3q",
+   "help": "y9-10h-sketch",
    "label": "3q",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
@@ -159142,6 +159721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3r",
+   "help": "y9-10h-sketch",
    "label": "3r",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
@@ -159153,6 +159733,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3s",
+   "help": "y9-10h-sketch",
    "label": "3s",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
@@ -159162,6 +159743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3t",
+   "help": "y9-10h-sketch",
    "label": "3t",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 6x + 9$.",
@@ -159171,6 +159753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3u",
+   "help": "y9-10h-sketch",
    "label": "3u",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
@@ -159180,6 +159763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3v",
+   "help": "y9-10h-sketch",
    "label": "3v",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
@@ -159190,6 +159774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3w",
+   "help": "y9-10h-sketch",
    "label": "3w",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
@@ -159202,6 +159787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3x",
+   "help": "y9-10h-sketch",
    "label": "3x",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
@@ -159211,6 +159797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3y",
+   "help": "y9-10h-sketch",
    "label": "3y",
    "section": "Fluency",
    "stem": "Consider the quadratic relation $y = x^2 + 4x + 3$.",
@@ -159220,6 +159807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-10h-sketch",
    "label": "4a",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159233,6 +159821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-10h-sketch",
    "label": "4b",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159242,6 +159831,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-10h-sketch",
    "label": "4c",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159251,6 +159841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-10h-sketch",
    "label": "4d",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159263,6 +159854,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-10h-sketch",
    "label": "4e",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159272,6 +159864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-10h-sketch",
    "label": "4f",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159281,6 +159874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-10h-sketch",
    "label": "4g",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159293,6 +159887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-10h-sketch",
    "label": "4h",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159302,6 +159897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-10h-sketch",
    "label": "4i",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159312,6 +159908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-10h-sketch",
    "label": "4j",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159324,6 +159921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-10h-sketch",
    "label": "4k",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159333,6 +159931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-10h-sketch",
    "label": "4l",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159342,6 +159941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y9-10h-sketch",
    "label": "4m",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159354,6 +159954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y9-10h-sketch",
    "label": "4n",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159363,6 +159964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y9-10h-sketch",
    "label": "4o",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159372,6 +159974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y9-10h-sketch",
    "label": "4p",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159384,6 +159987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4q",
+   "help": "y9-10h-sketch",
    "label": "4q",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159393,6 +159997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4r",
+   "help": "y9-10h-sketch",
    "label": "4r",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159402,6 +160007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4s",
+   "help": "y9-10h-sketch",
    "label": "4s",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159414,6 +160020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4t",
+   "help": "y9-10h-sketch",
    "label": "4t",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159423,6 +160030,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4u",
+   "help": "y9-10h-sketch",
    "label": "4u",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159433,6 +160041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4v",
+   "help": "y9-10h-sketch",
    "label": "4v",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159444,6 +160053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4w",
+   "help": "y9-10h-sketch",
    "label": "4w",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159453,6 +160063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4x",
+   "help": "y9-10h-sketch",
    "label": "4x",
    "section": "Fluency",
    "stem": "For each relation, find the key features of its graph.",
@@ -159462,6 +160073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-10h-symmetry",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Use the symmetry of each parabola to find the missing number (?).",
@@ -159835,6 +160447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-10h-symmetry",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Use the symmetry of each parabola to find the missing number (?).",
@@ -160212,6 +160825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-10h-symmetry",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Use the symmetry of each parabola to find the missing number (?).",
@@ -160593,6 +161207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-10h-symmetry",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Use the symmetry of each parabola to find the missing number (?).",
@@ -160918,6 +161533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-10h-symmetry",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Use the symmetry of each parabola to find the missing number (?).",
@@ -161143,6 +161759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-10h-symmetry",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Use the symmetry of each parabola to find the missing number (?).",
@@ -161492,6 +162109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-10h-flight",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The path of a ball is given by $y = 40x - x^2$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
@@ -161502,6 +162120,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-10h-flight",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The path of a ball is given by $y = 40x - x^2$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
@@ -161512,6 +162131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-10h-flight",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A test rocket follows the path $y = 0.2x(150 - x)$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
@@ -161522,6 +162142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-10h-flight",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A test rocket follows the path $y = 0.2x(150 - x)$, where $y$ is its height in metres above the ground and $x$ is the horizontal distance in metres.",
@@ -161532,6 +162153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-10h-intercepts",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Write an expression for the $y$-coordinate of the $y$-intercept of each quadratic.",
@@ -161542,6 +162164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-10h-intercepts",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Write an expression for the $y$-coordinate of the $y$-intercept of each quadratic.",
@@ -161551,6 +162174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-10h-two-forms",
    "label": "10a",
    "section": "Reasoning",
    "stem": "The rule $y = x^2 - 4x - 12$ can also be written as $y = (x - 2)^2 - 16$.",
@@ -161561,6 +162185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-10h-two-forms",
    "label": "10b",
    "section": "Reasoning",
    "stem": "The rule $y = x^2 - 4x - 12$ can also be written as $y = (x - 2)^2 - 16$.",
@@ -161574,6 +162199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-10h-two-forms",
    "label": "10c",
    "section": "Reasoning",
    "stem": "The rule $y = x^2 - 6x - 16$ can be written in the form $y = (x - h)^2 + k$.",
@@ -161583,6 +162209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-10h-two-forms",
    "label": "10d",
    "section": "Reasoning",
    "stem": "The rule $y = x^2 - 6x - 16$ can be written in the form $y = (x - h)^2 + k$.",
@@ -161592,6 +162219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-10h-find-a",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
@@ -161901,6 +162529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-10h-find-a",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
@@ -162193,6 +162822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-10h-find-a",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
@@ -162513,6 +163143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-10h-find-a",
    "label": "11d",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
@@ -162805,6 +163436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-10h-find-a",
    "label": "11e",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
@@ -163153,6 +163785,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-10h-find-a",
    "label": "11f",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
@@ -163417,6 +164050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-10h-find-a",
    "label": "11g",
    "section": "Enrichment",
    "stem": "Find the rule for each graph in intercept form $y = a(x - p)(x - q)$. For example, a graph with $x$-intercepts $-1$ and $3$ and $y$-intercept $-6$ gives $-6 = a(0 + 1)(0 - 3)$, so $a = 2$ and $y = 2(x + 1)(x - 3)$.",
