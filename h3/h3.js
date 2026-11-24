@@ -30,7 +30,7 @@
   // help panels for a year is one more entry in its list.
   const YEAR_FILES = {
     7: [],
-    // 8: ['/h3/bank-y8.js'],   // switched on once the first Year 8 chapter is in bank-y8.js
+    // 8: ['/h3/bank-y8.js', '/h3/helps-y8-ch1.js', '/h3/helps-y8-ch3.js', '/h3/helps-y8-ch5.js'],   // switched on once the first Year 8 chapter is in bank-y8.js
   };
   const YEARS = Object.keys(YEAR_FILES).map(Number);
   const yearLoaded = { 7: true }, yearLoading = {};
