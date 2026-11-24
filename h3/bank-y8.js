@@ -110886,6 +110886,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7a-check",
    "label": "1a",
    "section": "Fluency",
    "stem": "State whether each equation is true or false.",
@@ -110899,6 +110900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7a-check",
    "label": "1b",
    "section": "Fluency",
    "stem": "State whether each equation is true or false.",
@@ -110912,6 +110914,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7a-check",
    "label": "1c",
    "section": "Fluency",
    "stem": "State whether each equation is true or false.",
@@ -110925,6 +110928,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7a-check",
    "label": "2a",
    "section": "Fluency",
    "stem": "Classify each equation as true or false.",
@@ -110938,6 +110942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7a-check",
    "label": "2b",
    "section": "Fluency",
    "stem": "Classify each equation as true or false.",
@@ -110951,6 +110956,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7a-check",
    "label": "2c",
    "section": "Fluency",
    "stem": "Classify each equation as true or false.",
@@ -110964,6 +110970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7a-check",
    "label": "2d",
    "section": "Fluency",
    "stem": "Classify each equation as true or false.",
@@ -110977,6 +110984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7a-check",
    "label": "2e",
    "section": "Fluency",
    "stem": "Classify each equation as true or false.",
@@ -110990,6 +110998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7a-check",
    "label": "2f",
    "section": "Fluency",
    "stem": "Classify each equation as true or false.",
@@ -111003,6 +111012,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7a-check",
    "label": "3a",
    "section": "Fluency",
    "stem": "If $x = 3$, state whether each equation is true or false.",
@@ -111016,6 +111026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7a-check",
    "label": "3b",
    "section": "Fluency",
    "stem": "If $x = 3$, state whether each equation is true or false.",
@@ -111029,6 +111040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7a-check",
    "label": "3c",
    "section": "Fluency",
    "stem": "If $x = 3$, state whether each equation is true or false.",
@@ -111042,6 +111054,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7a-check",
    "label": "3d",
    "section": "Fluency",
    "stem": "If $x = 3$, state whether each equation is true or false.",
@@ -111055,6 +111068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-7a-check",
    "label": "3e",
    "section": "Fluency",
    "stem": "If $x = 3$, state whether each equation is true or false.",
@@ -111068,6 +111082,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-7a-check",
    "label": "3f",
    "section": "Fluency",
    "stem": "If $x = 3$, state whether each equation is true or false.",
@@ -111081,6 +111096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7a-check",
    "label": "4a",
    "section": "Fluency",
    "stem": "If $a = 4$, state whether each equation is true or false.",
@@ -111094,6 +111110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7a-check",
    "label": "4b",
    "section": "Fluency",
    "stem": "If $a = 4$, state whether each equation is true or false.",
@@ -111107,6 +111124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7a-check",
    "label": "4c",
    "section": "Fluency",
    "stem": "If $a = 4$, state whether each equation is true or false.",
@@ -111120,6 +111138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7a-check",
    "label": "4d",
    "section": "Fluency",
    "stem": "If $a = 4$, state whether each equation is true or false.",
@@ -111133,6 +111152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7a-check",
    "label": "4e",
    "section": "Fluency",
    "stem": "If $a = 4$, state whether each equation is true or false.",
@@ -111146,6 +111166,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7a-check",
    "label": "4f",
    "section": "Fluency",
    "stem": "If $a = 4$, state whether each equation is true or false.",
@@ -111159,6 +111180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7a-check",
    "label": "5a",
    "section": "Fluency",
    "stem": "Someone has tried to solve each equation. Is the proposed solution correct or incorrect?",
@@ -111172,6 +111194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7a-check",
    "label": "5b",
    "section": "Fluency",
    "stem": "Someone has tried to solve each equation. Is the proposed solution correct or incorrect?",
@@ -111185,6 +111208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7a-check",
    "label": "5c",
    "section": "Fluency",
    "stem": "Someone has tried to solve each equation. Is the proposed solution correct or incorrect?",
@@ -111198,6 +111222,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7a-check",
    "label": "5d",
    "section": "Fluency",
    "stem": "Someone has tried to solve each equation. Is the proposed solution correct or incorrect?",
@@ -111211,6 +111236,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7a-solve",
    "label": "6a",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111220,6 +111246,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7a-solve",
    "label": "6b",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111229,6 +111256,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7a-solve",
    "label": "6c",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111238,6 +111266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-7a-solve",
    "label": "6d",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111247,6 +111276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-7a-solve",
    "label": "6e",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111256,6 +111286,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-7a-solve",
    "label": "6f",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111265,6 +111296,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-7a-solve",
    "label": "6g",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111274,6 +111306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-7a-solve",
    "label": "6h",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111283,6 +111316,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-7a-solve",
    "label": "6i",
    "section": "Fluency",
    "stem": "State a solution to each equation.",
@@ -111292,6 +111326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7a-write",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Write an equation for each problem. You do not need to solve it.",
@@ -111302,6 +111337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7a-write",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Write an equation for each problem. You do not need to solve it.",
@@ -111311,6 +111347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7a-write",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Write an equation for each problem. You do not need to solve it.",
@@ -111320,6 +111357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-7a-write",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Write an equation for each problem. You do not need to solve it.",
@@ -111329,6 +111367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-7a-write",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Write an equation for each problem. You do not need to solve it.",
@@ -111338,6 +111377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-7a-write",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Write an equation for each problem. You do not need to solve it.",
@@ -111347,6 +111387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7a-solve",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the value of the unknown number in each of the following.",
@@ -111356,6 +111397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7a-solve",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the value of the unknown number in each of the following.",
@@ -111365,6 +111407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-7a-solve",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the value of the unknown number in each of the following.",
@@ -111374,6 +111417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-7a-solve",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Find the value of the unknown number in each of the following.",
@@ -111383,6 +111427,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-7a-solve",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Find the value of the unknown number in each of the following.",
@@ -111392,6 +111437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-7a-solve",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Find the value of the unknown number in each of the following.",
@@ -111401,6 +111447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7a-write",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Kiara buys $x$ kg of apples at $\\$4.50$ per kg. She spends $\\$13.50$ altogether.",
@@ -111411,6 +111458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7a-write",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Kiara buys $x$ kg of apples at $\\$4.50$ per kg. She spends $\\$13.50$ altogether.",
@@ -111420,6 +111468,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7a-age",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "In $14$ years' time, Jada's age will be triple her current age. She is now $j$ years old.",
@@ -111429,6 +111478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7a-age",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "In $14$ years' time, Jada's age will be triple her current age. She is now $j$ years old.",
@@ -111438,6 +111488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7a-age",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "In $14$ years' time, Jada's age will be triple her current age. She is now $j$ years old.",
@@ -111448,6 +111499,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-7a-age",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "In $14$ years' time, Jada's age will be triple her current age. She is now $j$ years old.",
@@ -111458,6 +111510,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-7a-two",
    "label": "11",
    "section": "Problem-solving",
    "type": "list",
@@ -111470,6 +111523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7a-two",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Think about the equation $x^2 = 16$ and others like it.",
@@ -111483,6 +111537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7a-two",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Think about the equation $x^2 = 16$ and others like it.",
@@ -111496,6 +111551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7a-two",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Think about the equation $x^2 = 16$ and others like it.",
@@ -111509,6 +111565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-7a-two",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Think about the equation $x^2 = 16$ and others like it.",
@@ -111518,6 +111575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-7a-two",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Think about the equation $x^2 = 16$ and others like it.",
@@ -111527,6 +111585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-7a-always",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111541,6 +111600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-7a-always",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111555,6 +111615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-7a-always",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111569,6 +111630,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-7a-always",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111583,6 +111645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-7a-always",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111597,6 +111660,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-7a-always",
    "label": "13f",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111611,6 +111675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y8-7a-always",
    "label": "13g",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111625,6 +111690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y8-7a-always",
    "label": "13h",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111639,6 +111705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y8-7a-always",
    "label": "13i",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111653,6 +111720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13j",
+   "help": "y8-7a-always",
    "label": "13j",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111667,6 +111735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13k",
+   "help": "y8-7a-always",
    "label": "13k",
    "section": "Reasoning",
    "stem": "Classify each equation as always true, sometimes true or never true.",
@@ -111681,6 +111750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-7a-two",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Equations can have more than one solution.",
@@ -111694,6 +111764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-7a-two",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Equations can have more than one solution.",
@@ -111703,6 +111774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-7a-pairs",
    "label": "16a",
    "section": "Enrichment",
    "stem": "For each pair of equations, find the values of $c$ and $d$ that make both equations true.",
@@ -111716,6 +111788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-7a-pairs",
    "label": "16b",
    "section": "Enrichment",
    "stem": "For each pair of equations, find the values of $c$ and $d$ that make both equations true.",
@@ -111728,6 +111801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-7a-pairs",
    "label": "16c",
    "section": "Enrichment",
    "stem": "For each pair of equations, find the values of $c$ and $d$ that make both equations true.",
@@ -111740,6 +111814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y8-7a-pairs",
    "label": "16d",
    "section": "Enrichment",
    "stem": "For each pair of equations, find the values of $c$ and $d$ that make both equations true.",
@@ -111761,6 +111836,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7b-apply",
    "label": "1a",
    "section": "Fluency",
    "stem": "Apply the given operation to both sides of each equation. What number goes in place of the ?",
@@ -111770,6 +111846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7b-apply",
    "label": "1b",
    "section": "Fluency",
    "stem": "Apply the given operation to both sides of each equation. What number goes in place of the ?",
@@ -111779,6 +111856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7b-apply",
    "label": "1c",
    "section": "Fluency",
    "stem": "Apply the given operation to both sides of each equation. What number goes in place of the ?",
@@ -111788,6 +111866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7b-apply",
    "label": "2a",
    "section": "Fluency",
    "stem": "For each equation, apply the given operation to both sides. What number goes in place of the ?",
@@ -111797,6 +111876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7b-apply",
    "label": "2b",
    "section": "Fluency",
    "stem": "For each equation, apply the given operation to both sides. What number goes in place of the ?",
@@ -111806,6 +111886,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7b-apply",
    "label": "2c",
    "section": "Fluency",
    "stem": "For each equation, apply the given operation to both sides. What number goes in place of the ?",
@@ -111815,6 +111896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7b-apply",
    "label": "2d",
    "section": "Fluency",
    "stem": "For each equation, apply the given operation to both sides. What number goes in place of the ?",
@@ -111824,6 +111906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7b-apply",
    "label": "2e",
    "section": "Fluency",
    "stem": "For each equation, apply the given operation to both sides. What number goes in place of the ?",
@@ -111833,6 +111916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7b-apply",
    "label": "2f",
    "section": "Fluency",
    "stem": "For each equation, apply the given operation to both sides. What number goes in place of the ?",
@@ -111842,6 +111926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7b-solve",
    "label": "3a",
    "section": "Fluency",
    "stem": "Complete the working to solve each equation.",
@@ -111851,6 +111936,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7b-solve",
    "label": "3b",
    "section": "Fluency",
    "stem": "Complete the working to solve each equation.",
@@ -111860,6 +111946,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7b-solve",
    "label": "3c",
    "section": "Fluency",
    "stem": "Complete the working to solve each equation.",
@@ -111873,6 +111960,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7b-solve",
    "label": "3d",
    "section": "Fluency",
    "stem": "Complete the working to solve each equation.",
@@ -111886,6 +111974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-7b-solve",
    "label": "3e",
    "section": "Fluency",
    "stem": "Complete the working to solve each equation.",
@@ -111895,6 +111984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-7b-solve",
    "label": "3f",
    "section": "Fluency",
    "stem": "Complete the working to solve each equation.",
@@ -111904,6 +111994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7b-solve",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111913,6 +112004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7b-solve",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111922,6 +112014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7b-solve",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111931,6 +112024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7b-solve",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111940,6 +112034,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7b-solve",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111949,6 +112044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7b-solve",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111958,6 +112054,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-7b-solve",
    "label": "4g",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111967,6 +112064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-7b-solve",
    "label": "4h",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111976,6 +112074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-7b-solve",
    "label": "4i",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -111985,6 +112084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7b-solve",
    "label": "5a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -111994,6 +112094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7b-solve",
    "label": "5b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112003,6 +112104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7b-solve",
    "label": "5c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112012,6 +112114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7b-solve",
    "label": "5d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112021,6 +112124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-7b-solve",
    "label": "5e",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112030,6 +112134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-7b-solve",
    "label": "5f",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112039,6 +112144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-7b-solve",
    "label": "5g",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112048,6 +112154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y8-7b-solve",
    "label": "5h",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112057,6 +112164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y8-7b-solve",
    "label": "5i",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112066,6 +112174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7b-negative",
    "label": "6a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112075,6 +112184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7b-negative",
    "label": "6b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112084,6 +112194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7b-negative",
    "label": "6c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112093,6 +112204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-7b-negative",
    "label": "6d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112102,6 +112214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-7b-negative",
    "label": "6e",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112111,6 +112224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-7b-negative",
    "label": "6f",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112120,6 +112234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-7b-negative",
    "label": "6g",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112129,6 +112244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-7b-negative",
    "label": "6h",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112138,6 +112254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-7b-negative",
    "label": "6i",
    "section": "Fluency",
    "stem": "Solve each equation algebraically and check your solutions.",
@@ -112147,6 +112264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7b-fraction",
    "label": "7a",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112158,6 +112276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7b-fraction",
    "label": "7b",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112168,6 +112287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7b-fraction",
    "label": "7c",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112178,6 +112298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-7b-fraction",
    "label": "7d",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112188,6 +112309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-7b-fraction",
    "label": "7e",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112198,6 +112320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-7b-fraction",
    "label": "7f",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112208,6 +112331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y8-7b-fraction",
    "label": "7g",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112218,6 +112342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y8-7b-fraction",
    "label": "7h",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112228,6 +112353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y8-7b-fraction",
    "label": "7i",
    "section": "Fluency",
    "stem": "These equations do not all have whole number solutions. Solve each one, giving the solution as a fraction.",
@@ -112238,6 +112364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7b-words",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "For each of the following, write an equation and solve it algebraically. What is the value of the pronumeral?",
@@ -112247,6 +112374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7b-words",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "For each of the following, write an equation and solve it algebraically. What is the value of the pronumeral?",
@@ -112256,6 +112384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-7b-words",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "For each of the following, write an equation and solve it algebraically. What is the value of the pronumeral?",
@@ -112265,6 +112394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-7b-words",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "For each of the following, write an equation and solve it algebraically. What is the value of the pronumeral?",
@@ -112274,6 +112404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-7b-words",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "For each of the following, write an equation and solve it algebraically. What is the value of the pronumeral?",
@@ -112283,6 +112414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-7b-words",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "For each of the following, write an equation and solve it algebraically. What is the value of the pronumeral?",
@@ -112292,6 +112424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7b-brackets",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Solve each equation algebraically. More than two steps are involved.",
@@ -112301,6 +112434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7b-brackets",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Solve each equation algebraically. More than two steps are involved.",
@@ -112310,6 +112444,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-7b-brackets",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Solve each equation algebraically. More than two steps are involved.",
@@ -112319,6 +112454,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7b-rect",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Each shape is a rectangle. By solving equations algebraically, find the value of each pronumeral. Some answers are fractions.",
@@ -112386,6 +112522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7b-rect",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Each shape is a rectangle. By solving equations algebraically, find the value of each pronumeral. Some answers are fractions.",
@@ -112453,6 +112590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7b-rect",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Each shape is a rectangle. By solving equations algebraically, find the value of each pronumeral. Some answers are fractions.",
@@ -112509,6 +112647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-7b-rect",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Each shape is a rectangle. By solving equations algebraically, find the value of each pronumeral. Some answers are fractions.",
@@ -112576,6 +112715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y8-7b-words",
    "label": "11",
    "section": "Problem-solving",
    "type": "numeric",
@@ -112585,6 +112725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7b-equivalent",
    "label": "12a",
    "section": "Reasoning",
    "type": "ordered",
@@ -112597,6 +112738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7b-equivalent",
    "label": "12b",
    "section": "Reasoning",
    "type": "choice",
@@ -112609,6 +112751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-7b-equivalent",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Decide whether each pair of equations is equivalent.",
@@ -112622,6 +112765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-7b-equivalent",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Decide whether each pair of equations is equivalent.",
@@ -112635,6 +112779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-7b-equivalent",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Decide whether each pair of equations is equivalent.",
@@ -112648,6 +112793,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-7b-brackets",
    "label": "14a",
    "section": "Reasoning",
    "type": "numeric",
@@ -112656,6 +112802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-7b-divide",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112665,6 +112812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-7b-divide",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112674,6 +112822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-7b-divide",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112683,6 +112832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-7b-divide",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112692,6 +112842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-7b-divide",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112701,6 +112852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-7b-divide",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112710,6 +112862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y8-7b-divide",
    "label": "15g",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112719,6 +112872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15h",
+   "help": "y8-7b-divide",
    "label": "15h",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112728,6 +112882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15i",
+   "help": "y8-7b-divide",
    "label": "15i",
    "section": "Enrichment",
    "stem": "Solve each equation by first dividing every term on both sides by the same number.",
@@ -112746,6 +112901,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7c-simple",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112755,6 +112911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7c-simple",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112764,6 +112921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7c-simple",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112773,6 +112931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-7c-simple",
    "label": "1d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112782,6 +112941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7c-simple",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112791,6 +112951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7c-simple",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112800,6 +112961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7c-simple",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112809,6 +112971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7c-simple",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112818,6 +112981,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7c-simple",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112827,6 +112991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7c-simple",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112836,6 +113001,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7c-simple",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112845,6 +113011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7c-simple",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112854,6 +113021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7c-twostep",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112863,6 +113031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7c-twostep",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112872,6 +113041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7c-twostep",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112881,6 +113051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7c-twostep",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112890,6 +113061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7c-twostep",
    "label": "5a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112899,6 +113071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7c-twostep",
    "label": "5b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112908,6 +113081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7c-twostep",
    "label": "5c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112917,6 +113091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7c-twostep",
    "label": "5d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112926,6 +113101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-7c-twostep",
    "label": "5e",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112935,6 +113111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-7c-twostep",
    "label": "5f",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112944,6 +113121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-7c-twostep",
    "label": "5g",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112953,6 +113131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y8-7c-twostep",
    "label": "5h",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -112962,6 +113141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7c-negative",
    "label": "6a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112971,6 +113151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7c-negative",
    "label": "6b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112980,6 +113161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7c-negative",
    "label": "6c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112989,6 +113171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-7c-negative",
    "label": "6d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -112998,6 +113181,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-7c-negative",
    "label": "6e",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113007,6 +113191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-7c-negative",
    "label": "6f",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113016,6 +113201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-7c-negative",
    "label": "6g",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113025,6 +113211,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-7c-negative",
    "label": "6h",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113034,6 +113221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-7c-negative",
    "label": "6i",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113043,6 +113231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y8-7c-negative",
    "label": "6j",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113052,6 +113241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y8-7c-negative",
    "label": "6k",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113061,6 +113251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y8-7c-negative",
    "label": "6l",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113070,6 +113261,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6m",
+   "help": "y8-7c-negative",
    "label": "6m",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113079,6 +113271,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6n",
+   "help": "y8-7c-negative",
    "label": "6n",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113088,6 +113281,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6o",
+   "help": "y8-7c-negative",
    "label": "6o",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113097,6 +113291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6p",
+   "help": "y8-7c-negative",
    "label": "6p",
    "section": "Fluency",
    "stem": "Solve each equation algebraically. Check your solutions by substituting.",
@@ -113106,6 +113301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7c-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "For each puzzle, write an equation and solve it to find the unknown number.",
@@ -113115,6 +113311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7c-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "For each puzzle, write an equation and solve it to find the unknown number.",
@@ -113124,6 +113321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7c-words",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "For each puzzle, write an equation and solve it to find the unknown number.",
@@ -113133,6 +113331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-7c-words",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "For each puzzle, write an equation and solve it to find the unknown number.",
@@ -113142,6 +113341,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-7c-words",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "For each puzzle, write an equation and solve it to find the unknown number.",
@@ -113151,6 +113351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-7c-words",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "For each puzzle, write an equation and solve it to find the unknown number.",
@@ -113160,6 +113361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7c-words",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "The average of two numbers is found by adding them and dividing the result by $2$.",
@@ -113169,6 +113371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7c-words",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "The average of two numbers is found by adding them and dividing the result by $2$.",
@@ -113178,6 +113381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-7c-words",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "The average of two numbers is found by adding them and dividing the result by $2$.",
@@ -113187,6 +113391,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-7c-words",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "The average of two numbers is found by adding them and dividing the result by $2$.",
@@ -113196,6 +113401,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7c-words",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A cafe bill of $\\$120$ has to be paid. Zoe puts in one-quarter of the money in her purse, leaving $\\$85$ for the others at the table to pay.",
@@ -113206,6 +113412,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7c-words",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A cafe bill of $\\$120$ has to be paid. Zoe puts in one-quarter of the money in her purse, leaving $\\$85$ for the others at the table to pay.",
@@ -113216,6 +113423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7c-twostep",
    "label": "10a",
    "section": "Reasoning",
    "stem": "The equations $\\frac{a + 5}{2} = 6$ and $\\frac{a}{2} + 5 = 6$ look alike but are different.",
@@ -113225,6 +113433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7c-twostep",
    "label": "10b",
    "section": "Reasoning",
    "stem": "The equations $\\frac{a + 5}{2} = 6$ and $\\frac{a}{2} + 5 = 6$ look alike but are different.",
@@ -113234,6 +113443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7c-dividefirst",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113243,6 +113453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7c-dividefirst",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113256,6 +113467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-7c-dividefirst",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113265,6 +113477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-7c-dividefirst",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113274,6 +113487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-7c-dividefirst",
    "label": "11e",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113283,6 +113497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-7c-dividefirst",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113292,6 +113507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y8-7c-dividefirst",
    "label": "11g",
    "section": "Reasoning",
    "stem": "Instead of multiplying by the denominator first, you can sometimes divide both sides by a number first.",
@@ -113301,6 +113517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7c-bottom",
    "label": "12a",
    "section": "Reasoning",
    "stem": "To solve an equation with the pronumeral in the denominator, first multiply both sides by that pronumeral. Use this method to solve each equation.",
@@ -113310,6 +113527,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7c-bottom",
    "label": "12b",
    "section": "Reasoning",
    "stem": "To solve an equation with the pronumeral in the denominator, first multiply both sides by that pronumeral. Use this method to solve each equation.",
@@ -113319,6 +113537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7c-bottom",
    "label": "12c",
    "section": "Reasoning",
    "stem": "To solve an equation with the pronumeral in the denominator, first multiply both sides by that pronumeral. Use this method to solve each equation.",
@@ -113328,6 +113547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-7c-bottom",
    "label": "12d",
    "section": "Reasoning",
    "stem": "To solve an equation with the pronumeral in the denominator, first multiply both sides by that pronumeral. Use this method to solve each equation.",
@@ -113337,6 +113557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-7c-bottom",
    "label": "12e",
    "section": "Reasoning",
    "stem": "To solve an equation with the pronumeral in the denominator, first multiply both sides by that pronumeral. Use this method to solve each equation.",
@@ -113346,6 +113567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-7c-bottom",
    "label": "12f",
    "section": "Reasoning",
    "stem": "To solve an equation with the pronumeral in the denominator, first multiply both sides by that pronumeral. Use this method to solve each equation.",
@@ -113355,6 +113577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-7c-twostep",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Solve each equation. Give the solutions as fractions where needed.",
@@ -113366,6 +113589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-7c-twostep",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Solve each equation. Give the solutions as fractions where needed.",
@@ -113376,6 +113600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-7c-twostep",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Solve each equation. Give the solutions as fractions where needed.",
@@ -113386,6 +113611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-7c-twostep",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Solve each equation. Give the solutions as fractions where needed.",
@@ -113396,6 +113622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-7c-combine",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Combine the fractions using a common denominator, then solve each equation. For example, $\\frac{2x}{3} + \\frac{5x}{4} = \\frac{23x}{12}$.",
@@ -113405,6 +113632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-7c-combine",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Combine the fractions using a common denominator, then solve each equation. For example, $\\frac{2x}{3} + \\frac{5x}{4} = \\frac{23x}{12}$.",
@@ -113414,6 +113642,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-7c-combine",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Combine the fractions using a common denominator, then solve each equation. For example, $\\frac{2x}{3} + \\frac{5x}{4} = \\frac{23x}{12}$.",
@@ -113423,6 +113652,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-7c-combine",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Combine the fractions using a common denominator, then solve each equation. For example, $\\frac{2x}{3} + \\frac{5x}{4} = \\frac{23x}{12}$.",
@@ -113432,6 +113662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-7c-combine",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Combine the fractions using a common denominator, then solve each equation. For example, $\\frac{2x}{3} + \\frac{5x}{4} = \\frac{23x}{12}$.",
@@ -113441,6 +113672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-7c-combine",
    "label": "14f",
    "section": "Enrichment",
    "stem": "Combine the fractions using a common denominator, then solve each equation. For example, $\\frac{2x}{3} + \\frac{5x}{4} = \\frac{23x}{12}$.",
@@ -113459,6 +113691,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7d-collect",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve each equation and check your solution by substituting.",
@@ -113468,6 +113701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7d-collect",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve each equation and check your solution by substituting.",
@@ -113477,6 +113711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7d-collect",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve each equation and check your solution by substituting.",
@@ -113486,6 +113721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7d-collect",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve each equation. Check your solution by substituting.",
@@ -113495,6 +113731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7d-collect",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve each equation. Check your solution by substituting.",
@@ -113504,6 +113741,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7d-collect",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve each equation. Check your solution by substituting.",
@@ -113513,6 +113751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7d-collect",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve each equation. Check your solution by substituting.",
@@ -113522,6 +113761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7d-collect",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve each equation. Check your solution by substituting.",
@@ -113531,6 +113771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7d-collect",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve each equation. Check your solution by substituting.",
@@ -113540,6 +113781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7d-collect",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113549,6 +113791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7d-collect",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113558,6 +113801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7d-collect",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113567,6 +113811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7d-collect",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113576,6 +113821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-7d-collect",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113585,6 +113831,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-7d-collect",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113594,6 +113841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7d-collect",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113603,6 +113851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7d-collect",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113612,6 +113861,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7d-collect",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113621,6 +113871,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7d-collect",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113630,6 +113881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7d-collect",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113639,6 +113891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7d-collect",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113648,6 +113901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-7d-collect",
    "label": "4g",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113657,6 +113911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-7d-collect",
    "label": "4h",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113666,6 +113921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-7d-collect",
    "label": "4i",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113675,6 +113931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y8-7d-collect",
    "label": "4j",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113684,6 +113941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y8-7d-collect",
    "label": "4k",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113693,6 +113951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y8-7d-collect",
    "label": "4l",
    "section": "Fluency",
    "stem": "Solve each equation.",
@@ -113702,6 +113961,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7d-fraction",
    "label": "5a",
    "section": "Fluency",
    "stem": "Solve each equation, giving the solution as an improper fraction where needed.",
@@ -113713,6 +113973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7d-fraction",
    "label": "5b",
    "section": "Fluency",
    "stem": "Solve each equation, giving the solution as an improper fraction where needed.",
@@ -113723,6 +113984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7d-fraction",
    "label": "5c",
    "section": "Fluency",
    "stem": "Solve each equation, giving the solution as an improper fraction where needed.",
@@ -113733,6 +113995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7d-fraction",
    "label": "5d",
    "section": "Fluency",
    "stem": "Solve each equation, giving the solution as an improper fraction where needed.",
@@ -113743,6 +114006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-7d-fraction",
    "label": "5e",
    "section": "Fluency",
    "stem": "Solve each equation, giving the solution as an improper fraction where needed.",
@@ -113753,6 +114017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-7d-fraction",
    "label": "5f",
    "section": "Fluency",
    "stem": "Solve each equation, giving the solution as an improper fraction where needed.",
@@ -113763,6 +114028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7d-words",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Write an equation and solve it algebraically to find the unknown number.",
@@ -113772,6 +114038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7d-words",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Write an equation and solve it algebraically to find the unknown number.",
@@ -113781,6 +114048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7d-words",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Write an equation and solve it algebraically to find the unknown number.",
@@ -113790,6 +114058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-7d-words",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Write an equation and solve it algebraically to find the unknown number.",
@@ -113799,6 +114068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7d-shapes",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the values of $x$ and $y$ in each rectangle.",
@@ -113866,6 +114136,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7d-shapes",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the values of $x$ and $y$ in each rectangle.",
@@ -113933,6 +114204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7d-shapes",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Use the side lengths of this rectangle to find $x$ and $y$ first.",
@@ -113997,6 +114269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7d-shapes",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Use the side lengths of this rectangle to find $x$ and $y$ first.",
@@ -114007,6 +114280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7d-words",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "At a newsagency, Mei bought $5$ pens and a $\\$2.40$ notebook, while her brother Sam bought $2$ pens and a $\\$6.30$ diary. The two totals were the same.",
@@ -114017,6 +114291,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7d-words",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "At a newsagency, Mei bought $5$ pens and a $\\$2.40$ notebook, while her brother Sam bought $2$ pens and a $\\$6.30$ diary. The two totals were the same.",
@@ -114027,6 +114302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-7d-words",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "At a newsagency, Mei bought $5$ pens and a $\\$2.40$ notebook, while her brother Sam bought $2$ pens and a $\\$6.30$ diary. The two totals were the same.",
@@ -114036,6 +114312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7d-collect",
    "label": "10a",
    "section": "Reasoning",
    "stem": "To solve $15 + 2x = 6x + 3$ you can subtract $2x$ first or subtract $6x$ first.",
@@ -114049,6 +114326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7d-collect",
    "label": "10b",
    "section": "Reasoning",
    "stem": "To solve $15 + 2x = 6x + 3$ you can subtract $2x$ first or subtract $6x$ first.",
@@ -114062,6 +114340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7d-shapes",
    "label": "11a",
    "section": "Reasoning",
    "stem": "This shape is a rectangle. In the diagram it does not look like a square.",
@@ -114129,6 +114408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7d-shapes",
    "label": "11b",
    "section": "Reasoning",
    "stem": "This shape is a rectangle. In the diagram it does not look like a square.",
@@ -114142,6 +114422,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-7d-shapes",
    "label": "11c",
    "section": "Reasoning",
    "stem": "This shape is a rectangle. In the diagram it does not look like a square.",
@@ -114155,6 +114436,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7d-none",
    "label": "12a",
    "section": "Reasoning",
    "type": "choice",
@@ -114168,6 +114450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7d-none",
    "label": "12b",
    "section": "Reasoning",
    "type": "choice",
@@ -114181,6 +114464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-7d-shapes",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -114244,6 +114528,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-7d-shapes",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -114347,6 +114632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-7d-shapes",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -114448,6 +114734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-7d-shapes",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -114559,6 +114846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-7d-shapes",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -114631,6 +114919,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7e-expand",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114640,6 +114929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7e-expand",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114649,6 +114939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7e-expand",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114658,6 +114949,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-7e-expand",
    "label": "1d",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114667,6 +114959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7e-expand",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114676,6 +114969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7e-expand",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114685,6 +114979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7e-expand",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114694,6 +114989,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7e-expand",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114703,6 +114999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7e-expand",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114712,6 +115009,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7e-expand",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve each equation by first expanding the brackets.",
@@ -114721,6 +115019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7e-negative",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve each equation. Take care with the negative numbers.",
@@ -114730,6 +115029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7e-negative",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve each equation. Take care with the negative numbers.",
@@ -114739,6 +115039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7e-negative",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve each equation. Take care with the negative numbers.",
@@ -114748,6 +115049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7e-negative",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve each equation. Take care with the negative numbers.",
@@ -114757,6 +115059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-7e-negative",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve each equation. Take care with the negative numbers.",
@@ -114766,6 +115069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-7e-negative",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve each equation. Take care with the negative numbers.",
@@ -114775,6 +115079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7e-collect",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114784,6 +115089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7e-collect",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114793,6 +115099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7e-collect",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114802,6 +115109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7e-collect",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114811,6 +115119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7e-collect",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114820,6 +115129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7e-collect",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114829,6 +115139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-7e-collect",
    "label": "4g",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114838,6 +115149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-7e-collect",
    "label": "4h",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114847,6 +115159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-7e-collect",
    "label": "4i",
    "section": "Fluency",
    "stem": "Solve each equation by expanding and collecting like terms.",
@@ -114856,6 +115169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7e-both",
    "label": "5a",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114865,6 +115179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7e-both",
    "label": "5b",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114874,6 +115189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7e-both",
    "label": "5c",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114883,6 +115199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7e-both",
    "label": "5d",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114892,6 +115209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-7e-both",
    "label": "5e",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114901,6 +115219,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-7e-both",
    "label": "5f",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114910,6 +115229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-7e-both",
    "label": "5g",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114919,6 +115239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y8-7e-both",
    "label": "5h",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114928,6 +115249,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y8-7e-both",
    "label": "5i",
    "section": "Fluency",
    "stem": "Solve each equation by expanding the brackets on both sides.",
@@ -114937,6 +115259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7e-both",
    "label": "6a",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -114946,6 +115269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7e-both",
    "label": "6b",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -114955,6 +115279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7e-both",
    "label": "6c",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -114964,6 +115289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-7e-both",
    "label": "6d",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -114973,6 +115299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-7e-both",
    "label": "6e",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -114982,6 +115309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-7e-both",
    "label": "6f",
    "section": "Fluency",
    "stem": "Solve each equation algebraically.",
@@ -114991,6 +115319,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7e-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "In $6$ years' time, Priya's age multiplied by $3$ will give $51$. Priya is $p$ years old now.",
@@ -115000,6 +115329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7e-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "In $6$ years' time, Priya's age multiplied by $3$ will give $51$. Priya is $p$ years old now.",
@@ -115010,6 +115340,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7e-words",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "In $6$ years' time, Priya's age multiplied by $3$ will give $51$. Priya is $p$ years old now.",
@@ -115020,6 +115351,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-7e-words",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "In $6$ years' time, Priya's age multiplied by $3$ will give $51$. Priya is $p$ years old now.",
@@ -115030,6 +115362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7e-words",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Tomas's usual hourly wage is $\\$w$. He works $6$ hours at this wage and then $2$ more hours at a higher wage of $\\$(w + 5)$.",
@@ -115039,6 +115372,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7e-words",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Tomas's usual hourly wage is $\\$w$. He works $6$ hours at this wage and then $2$ more hours at a higher wage of $\\$(w + 5)$.",
@@ -115049,6 +115383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7e-words",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Triple Kira's age $6$ years ago is equal to double her age $2$ years ago.",
@@ -115059,6 +115394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7e-words",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Triple Kira's age $6$ years ago is equal to double her age $2$ years ago.",
@@ -115069,6 +115405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7e-rect",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Rectangles $A$ and $B$ in the diagram have the same area. The diagram is not drawn to scale.",
@@ -115187,6 +115524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7e-rect",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Rectangles $A$ and $B$ in the diagram have the same area. The diagram is not drawn to scale.",
@@ -115197,6 +115535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7e-expand",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Some equations with brackets can be solved by dividing first instead of expanding.",
@@ -115206,6 +115545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7e-expand",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Some equations with brackets can be solved by dividing first instead of expanding.",
@@ -115215,6 +115555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-7e-expand",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Some equations with brackets can be solved by dividing first instead of expanding.",
@@ -115228,6 +115569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7e-words",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Dev is asked how many people are in the next room. He says that if $4$ more people walked in and then the number of people tripled, this would be the same as multiplying the number of people by $5$ and then $7$ people leaving. Let $n$ be the number of people in the room now.",
@@ -115238,6 +115580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7e-words",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Dev is asked how many people are in the next room. He says that if $4$ more people walked in and then the number of people tripled, this would be the same as multiplying the number of people by $5$ and then $7$ people leaving. Let $n$ be the number of people in the room now.",
@@ -115248,6 +115591,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7e-words",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Dev is asked how many people are in the next room. He says that if $4$ more people walked in and then the number of people tripled, this would be the same as multiplying the number of people by $5$ and then $7$ people leaving. Let $n$ be the number of people in the room now.",
@@ -115261,6 +115605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-7e-words",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Bryn says that four times his age $3$ years ago is the same as six times how old he will be next year. Let $b$ be his age now.",
@@ -115271,6 +115616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-7e-words",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Bryn says that four times his age $3$ years ago is the same as six times how old he will be next year. Let $b$ be his age now.",
@@ -115280,6 +115626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-7e-words",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Bryn says that four times his age $3$ years ago is the same as six times how old he will be next year. Let $b$ be his age now.",
@@ -115293,6 +115640,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-7e-mistake",
    "label": "14a",
    "section": "Reasoning",
    "stem": "A common mistake is to expand $3(n + 4)$ as $3n + 4$.",
@@ -115307,6 +115655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-7e-mistake",
    "label": "14b",
    "section": "Reasoning",
    "stem": "A common mistake is to expand $3(n + 4)$ as $3n + 4$.",
@@ -115321,6 +115670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-7e-mistake",
    "label": "14c",
    "section": "Reasoning",
    "stem": "A common mistake is to expand $3(n + 4)$ as $3n + 4$.",
@@ -115330,6 +115680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-7e-both",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Solve each equation. Some answers are fractions.",
@@ -115340,6 +115691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-7e-both",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Solve each equation. Some answers are fractions.",
@@ -115349,6 +115701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-7e-both",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Solve each equation. Some answers are fractions.",
@@ -115358,6 +115711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-7e-both",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Solve each equation. Some answers are fractions.",
@@ -115367,6 +115721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-7e-both",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Solve each equation. Some answers are fractions.",
@@ -115376,6 +115731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y8-7e-both",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Solve each equation. Some answers are fractions.",
@@ -115394,6 +115750,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7f-square",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115407,6 +115764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7f-square",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115419,6 +115777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7f-square",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115431,6 +115790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-7f-square",
    "label": "1d",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115443,6 +115803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-7f-square",
    "label": "1e",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115455,6 +115816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-7f-square",
    "label": "1f",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115467,6 +115829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y8-7f-square",
    "label": "1g",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115479,6 +115842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y8-7f-square",
    "label": "1h",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115491,6 +115855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y8-7f-square",
    "label": "1i",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115503,6 +115868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y8-7f-square",
    "label": "1j",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115515,6 +115881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y8-7f-square",
    "label": "1k",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115527,6 +115894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y8-7f-square",
    "label": "1l",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115539,6 +115907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7f-round",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115553,6 +115922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7f-round",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115566,6 +115936,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7f-round",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115579,6 +115950,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7f-round",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115592,6 +115964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7f-round",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115605,6 +115978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7f-round",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115618,6 +115992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-7f-round",
    "label": "2g",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115631,6 +116006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-7f-round",
    "label": "2h",
    "section": "Fluency",
    "stem": "Solve the following and round to two decimal places.",
@@ -115644,6 +116020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7f-coeff",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115656,6 +116033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7f-coeff",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115668,6 +116046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7f-coeff",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115680,6 +116059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7f-coeff",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115692,6 +116072,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-7f-coeff",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115704,6 +116085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-7f-coeff",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115716,6 +116098,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-7f-coeff",
    "label": "3g",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115728,6 +116111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-7f-coeff",
    "label": "3h",
    "section": "Fluency",
    "stem": "Solve the following equations.",
@@ -115740,6 +116124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7f-square",
    "label": "4a",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115749,6 +116134,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7f-square",
    "label": "4b",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115758,6 +116144,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7f-square",
    "label": "4c",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115767,6 +116154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7f-square",
    "label": "4d",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115776,6 +116164,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7f-square",
    "label": "4e",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115785,6 +116174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7f-square",
    "label": "4f",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115794,6 +116184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-7f-square",
    "label": "4g",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115803,6 +116194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-7f-square",
    "label": "4h",
    "section": "Fluency",
    "stem": "State the number of solutions for these equations.",
@@ -115812,6 +116204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-7f-area",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -115821,6 +116214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-7f-area",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -115830,6 +116224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7f-coeff",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115842,6 +116237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7f-coeff",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115854,6 +116250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7f-coeff",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115866,6 +116263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-7f-coeff",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115878,6 +116276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-7f-coeff",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115890,6 +116289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-7f-coeff",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115902,6 +116302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y8-7f-coeff",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115914,6 +116315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y8-7f-coeff",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "By first dividing both sides by the coefficient of $x^2$, solve these simple quadratic equations.",
@@ -115926,6 +116328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7f-square",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Solve the equations with the given conditions.",
@@ -115935,6 +116338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7f-square",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Solve the equations with the given conditions.",
@@ -115944,6 +116348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-7f-square",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Solve the equations with the given conditions.",
@@ -115953,6 +116358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-7f-square",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Solve the equations with the given conditions.",
@@ -115962,6 +116368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7f-square",
    "label": "10a",
    "section": "Reasoning",
    "stem": "The exact solutions to $x^2 = 7$ can be written as $x = \\sqrt{7}$ or $x = -\\sqrt{7}$, or together as $x = \\pm\\sqrt{7}$. Choose the exact solutions to each equation.",
@@ -115977,6 +116384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7f-square",
    "label": "10b",
    "section": "Reasoning",
    "stem": "The exact solutions to $x^2 = 7$ can be written as $x = \\sqrt{7}$ or $x = -\\sqrt{7}$, or together as $x = \\pm\\sqrt{7}$. Choose the exact solutions to each equation.",
@@ -115992,6 +116400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7f-square",
    "label": "10c",
    "section": "Reasoning",
    "stem": "The exact solutions to $x^2 = 7$ can be written as $x = \\sqrt{7}$ or $x = -\\sqrt{7}$, or together as $x = \\pm\\sqrt{7}$. Choose the exact solutions to each equation.",
@@ -116007,6 +116416,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-7f-square",
    "label": "10d",
    "section": "Reasoning",
    "stem": "The exact solutions to $x^2 = 7$ can be written as $x = \\sqrt{7}$ or $x = -\\sqrt{7}$, or together as $x = \\pm\\sqrt{7}$. Choose the exact solutions to each equation.",
@@ -116022,6 +116432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7f-triad",
    "label": "11a",
    "section": "Enrichment",
    "stem": "The triad $(a, b, c) = (9, 40, 41)$ satisfies the equation $a^2 + b^2 = c^2$ because $9^2 + 40^2 = 41^2$. Does each triad also satisfy $a^2 + b^2 = c^2$?",
@@ -116035,6 +116446,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7f-triad",
    "label": "11b",
    "section": "Enrichment",
    "stem": "The triad $(a, b, c) = (9, 40, 41)$ satisfies the equation $a^2 + b^2 = c^2$ because $9^2 + 40^2 = 41^2$. Does each triad also satisfy $a^2 + b^2 = c^2$?",
@@ -116048,6 +116460,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-7f-triad",
    "label": "11c",
    "section": "Enrichment",
    "stem": "The triad $(a, b, c) = (9, 40, 41)$ satisfies the equation $a^2 + b^2 = c^2$ because $9^2 + 40^2 = 41^2$. Does each triad also satisfy $a^2 + b^2 = c^2$?",
@@ -116061,6 +116474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-7f-triad",
    "label": "11d",
    "section": "Enrichment",
    "stem": "The triad $(a, b, c) = (9, 40, 41)$ satisfies the equation $a^2 + b^2 = c^2$ because $9^2 + 40^2 = 41^2$. Does each triad also satisfy $a^2 + b^2 = c^2$?",
@@ -116074,6 +116488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-7f-triad",
    "label": "11e",
    "section": "Enrichment",
    "stem": "The triad $(a, b, c) = (9, 40, 41)$ satisfies the equation $a^2 + b^2 = c^2$ because $9^2 + 40^2 = 41^2$. Does each triad also satisfy $a^2 + b^2 = c^2$?",
@@ -116087,6 +116502,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-7f-triad",
    "label": "11f",
    "section": "Enrichment",
    "stem": "The triad $(a, b, c) = (9, 40, 41)$ satisfies the equation $a^2 + b^2 = c^2$ because $9^2 + 40^2 = 41^2$. Does each triad also satisfy $a^2 + b^2 = c^2$?",
@@ -116100,6 +116516,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y8-7f-triad",
    "label": "11g",
    "section": "Enrichment",
    "type": "choice",
@@ -116112,6 +116529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7f-coeff",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116124,6 +116542,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7f-coeff",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116136,6 +116555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7f-coeff",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116148,6 +116568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-7f-coeff",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116160,6 +116581,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-7f-coeff",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116172,6 +116594,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-7f-coeff",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116184,6 +116607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y8-7f-coeff",
    "label": "12g",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116196,6 +116620,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y8-7f-coeff",
    "label": "12h",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116208,6 +116633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12i",
+   "help": "y8-7f-coeff",
    "label": "12i",
    "section": "Enrichment",
    "stem": "Solve these quadratic equations. First get $x^2$ on its own, then take the square root.",
@@ -116229,6 +116655,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7g-formula",
    "label": "1a",
    "section": "Fluency",
    "stem": "Consider the rule $A = 3p + 8$. Find the value of $A$ if:",
@@ -116238,6 +116665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7g-formula",
    "label": "1b",
    "section": "Fluency",
    "stem": "Consider the rule $A = 3p + 8$. Find the value of $A$ if:",
@@ -116247,6 +116675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7g-formula",
    "label": "1c",
    "section": "Fluency",
    "stem": "Consider the rule $A = 3p + 8$. Find the value of $A$ if:",
@@ -116256,6 +116685,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-7g-formula",
    "label": "1d",
    "section": "Fluency",
    "stem": "Consider the rule $A = 3p + 8$. Find the value of $A$ if:",
@@ -116265,6 +116695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7g-formula",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the formula for a rectangle's perimeter, $P = 2l + 2w$, to find:",
@@ -116274,6 +116705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7g-formula",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the formula for a rectangle's perimeter, $P = 2l + 2w$, to find:",
@@ -116283,6 +116715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7g-formula",
    "label": "3a",
    "section": "Fluency",
    "stem": "Consider the rule $U = 6a + 9$.",
@@ -116292,6 +116725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7g-formula",
    "label": "3b",
    "section": "Fluency",
    "stem": "Consider the rule $U = 6a + 9$.",
@@ -116301,6 +116735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7g-formula",
    "label": "3c",
    "section": "Fluency",
    "stem": "Consider the rule $U = 6a + 9$.",
@@ -116310,6 +116745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7g-formula",
    "label": "4a",
    "section": "Fluency",
    "stem": "Consider the relationship $y = 3x + 6$.",
@@ -116319,6 +116755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7g-formula",
    "label": "4b",
    "section": "Fluency",
    "stem": "Consider the relationship $y = 3x + 6$.",
@@ -116328,6 +116765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7g-formula",
    "label": "4c",
    "section": "Fluency",
    "stem": "Consider the relationship $y = 3x + 6$.",
@@ -116337,6 +116775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y8-7g-formula",
    "label": "5",
    "section": "Fluency",
    "type": "numeric",
@@ -116345,6 +116784,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7g-formula",
    "label": "6a",
    "section": "Fluency",
    "stem": "Assume that $x$ and $y$ are related by the equation $5x + 2y = 30$.",
@@ -116354,6 +116794,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7g-formula",
    "label": "6b",
    "section": "Fluency",
    "stem": "Assume that $x$ and $y$ are related by the equation $5x + 2y = 30$.",
@@ -116363,6 +116804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7g-formula",
    "label": "6c",
    "section": "Fluency",
    "stem": "Assume that $x$ and $y$ are related by the equation $5x + 2y = 30$.",
@@ -116372,6 +116814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-7g-formula",
    "label": "6d",
    "section": "Fluency",
    "stem": "Assume that $x$ and $y$ are related by the equation $5x + 2y = 30$.",
@@ -116381,6 +116824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7g-formula",
    "label": "7a",
    "section": "Fluency",
    "stem": "Consider the formula $G = k(2a + p) + a$.",
@@ -116390,6 +116834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7g-formula",
    "label": "7b",
    "section": "Fluency",
    "stem": "Consider the formula $G = k(2a + p) + a$.",
@@ -116399,6 +116844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7g-formula",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "The cost $\\$C$ of a ride-share trip of $d$ km is given by $C = 4 + 3d$.",
@@ -116409,6 +116855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7g-formula",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "The cost $\\$C$ of a ride-share trip of $d$ km is given by $C = 4 + 3d$. Another trip has a total cost of $\\$151$.",
@@ -116419,6 +116866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-7g-formula",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "The cost $\\$C$ of a ride-share trip of $d$ km is given by $C = 4 + 3d$. Another trip has a total cost of $\\$151$.",
@@ -116428,6 +116876,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-7g-formula",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "The cost $\\$C$ of a ride-share trip of $d$ km is given by $C = 4 + 3d$. Another trip has a total cost of $\\$151$.",
@@ -116438,6 +116887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7g-formula",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "To convert a temperature from Celsius to Fahrenheit, the rule is $F = 1.8C + 32$.",
@@ -116447,6 +116897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7g-formula",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "To convert a temperature from Celsius to Fahrenheit, the rule is $F = 1.8C + 32$.",
@@ -116456,6 +116907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-7g-formula",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "To convert a temperature from Celsius to Fahrenheit, the rule is $F = 1.8C + 32$.",
@@ -116467,6 +116919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7g-trapezium",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "The formula for the area of a trapezium is $A = \\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides and $h$ is the height.",
@@ -116617,6 +117070,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7g-trapezium",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "The formula for the area of a trapezium is $A = \\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides and $h$ is the height.",
@@ -116626,6 +117080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7g-trapezium",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "The formula for the area of a trapezium is $A = \\frac{1}{2}(a + b)h$, where $a$ and $b$ are the parallel sides and $h$ is the height.",
@@ -116713,6 +117168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7g-rule",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Evangeline is a scientist measuring the volume of a gas, $V$ mL, and its temperature, $T$ °C.",
@@ -116743,6 +117199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7g-rule",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Evangeline is a scientist measuring the volume of a gas, $V$ mL, and its temperature, $T$ °C.",
@@ -116753,6 +117210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7g-equal",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Consider the rule $G = 150 - 5p$.",
@@ -116762,6 +117220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7g-equal",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Consider the rule $G = 150 - 5p$.",
@@ -116771,6 +117230,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y8-7g-rule",
    "label": "13",
    "section": "Reasoning",
    "type": "choice",
@@ -116812,6 +117272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-7g-equal",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Temperatures in degrees Fahrenheit and Celsius are related by the rule $F = 1.8C + 32$.",
@@ -116821,6 +117282,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-7g-equal",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Temperatures in degrees Fahrenheit and Celsius are related by the rule $F = 1.8C + 32$.",
@@ -116831,6 +117293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-7g-plans",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Two companies have mobile phone plans based on the number of minutes spent talking each month ($t$) and the number of calls made ($c$). Company A's cost in cents is $A = 25t + 10c + 200$ and company B's cost in cents is $B = 35t + 5c$.",
@@ -116841,6 +117304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-7g-plans",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Two companies have mobile phone plans based on the number of minutes spent talking each month ($t$) and the number of calls made ($c$). Company A's cost in cents is $A = 25t + 10c + 200$ and company B's cost in cents is $B = 35t + 5c$.",
@@ -116851,6 +117315,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-7g-plans",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Two companies have mobile phone plans based on the number of minutes spent talking each month ($t$) and the number of calls made ($c$). Company A's cost in cents is $A = 25t + 10c + 200$ and company B's cost in cents is $B = 35t + 5c$.",
@@ -116861,6 +117326,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-7g-plans",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Two companies have mobile phone plans based on the number of minutes spent talking each month ($t$) and the number of calls made ($c$). Company A's cost in cents is $A = 25t + 10c + 200$ and company B's cost in cents is $B = 35t + 5c$.",
@@ -116871,6 +117337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-7g-plans",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Two companies have mobile phone plans based on the number of minutes spent talking each month ($t$) and the number of calls made ($c$). Company A's cost in cents is $A = 25t + 10c + 200$ and company B's cost in cents is $B = 35t + 5c$.",
@@ -116890,6 +117357,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7h-story",
    "label": "1a",
    "section": "Fluency",
    "stem": "Mia buys $5$ muffins for her netball team. The total cost is $\\$15$. Let $m$ stand for the cost, in dollars, of one muffin.",
@@ -116900,6 +117368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7h-story",
    "label": "1b",
    "section": "Fluency",
    "stem": "Mia buys $5$ muffins for her netball team. The total cost is $\\$15$. Let $m$ stand for the cost, in dollars, of one muffin.",
@@ -116909,6 +117378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7h-story",
    "label": "1c",
    "section": "Fluency",
    "stem": "Mia buys $5$ muffins for her netball team. The total cost is $\\$15$. Let $m$ stand for the cost, in dollars, of one muffin.",
@@ -116919,6 +117389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7h-story",
    "label": "2b",
    "section": "Fluency",
    "stem": "Ravi buys $6$ smoothies for $\\$31.80$. Let $s$ stand for the cost, in dollars, of one smoothie.",
@@ -116929,6 +117400,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7h-story",
    "label": "2c",
    "section": "Fluency",
    "stem": "Ravi buys $6$ smoothies for $\\$31.80$. Let $s$ stand for the cost, in dollars, of one smoothie.",
@@ -116938,6 +117410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7h-story",
    "label": "2d",
    "section": "Fluency",
    "stem": "Ravi buys $6$ smoothies for $\\$31.80$. Let $s$ stand for the cost, in dollars, of one smoothie.",
@@ -116948,6 +117421,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7h-story",
    "label": "3b",
    "section": "Fluency",
    "stem": "A desk and $8$ matching chairs cost $\\$2150$ altogether. The desk alone costs $\\$910$. Let $c$ stand for the cost, in dollars, of one chair.",
@@ -116958,6 +117432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7h-story",
    "label": "3c",
    "section": "Fluency",
    "stem": "A desk and $8$ matching chairs cost $\\$2150$ altogether. The desk alone costs $\\$910$. Let $c$ stand for the cost, in dollars, of one chair.",
@@ -116967,6 +117442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7h-story",
    "label": "3d",
    "section": "Fluency",
    "stem": "A desk and $8$ matching chairs cost $\\$2150$ altogether. The desk alone costs $\\$910$. Let $c$ stand for the cost, in dollars, of one chair.",
@@ -116977,6 +117453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7h-shape",
    "label": "4a",
    "section": "Fluency",
    "stem": "The perimeter of this rectangle is $80$ cm.",
@@ -117002,6 +117479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7h-shape",
    "label": "4b",
    "section": "Fluency",
    "stem": "The perimeter of this rectangle is $80$ cm.",
@@ -117011,6 +117489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7h-shape",
    "label": "4c",
    "section": "Fluency",
    "stem": "The perimeter of this rectangle is $80$ cm.",
@@ -117021,6 +117500,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7h-story",
    "label": "5b",
    "section": "Fluency",
    "stem": "An electrician charges an $\\$85$ call-out fee plus $\\$60$ per hour. The total cost of one visit was $\\$235$. Let $h$ stand for the length of the visit in hours.",
@@ -117031,6 +117511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7h-story",
    "label": "5c",
    "section": "Fluency",
    "stem": "An electrician charges an $\\$85$ call-out fee plus $\\$60$ per hour. The total cost of one visit was $\\$235$. Let $h$ stand for the length of the visit in hours.",
@@ -117040,6 +117521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7h-story",
    "label": "5d",
    "section": "Fluency",
    "stem": "An electrician charges an $\\$85$ call-out fee plus $\\$60$ per hour. The total cost of one visit was $\\$235$. Let $h$ stand for the length of the visit in hours.",
@@ -117050,6 +117532,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y8-7h-number",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -117058,6 +117541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7h-shape",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A square has a perimeter of $34$ cm.",
@@ -117068,6 +117552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7h-shape",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A square has a perimeter of $34$ cm.",
@@ -117078,6 +117563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y8-7h-number",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -117087,6 +117573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7h-shape",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "The angles in a quadrilateral add to $360°$. Use the diagram to find:",
@@ -117177,6 +117664,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7h-shape",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "The angles in a quadrilateral add to $360°$. Use the diagram to find:",
@@ -117186,6 +117674,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7h-number",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "The sum of three consecutive whole numbers is $432$.",
@@ -117195,6 +117684,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7h-number",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "The sum of three consecutive whole numbers is $432$.",
@@ -117204,6 +117694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7h-number",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "The sum of three consecutive whole numbers is $432$.",
@@ -117213,6 +117704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7h-shape",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "The width of a rectangular pool is $4$ metres more than its length. The perimeter of the pool is $64$ metres.",
@@ -117223,6 +117715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-7h-shape",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "The width of a rectangular pool is $4$ metres more than its length. The perimeter of the pool is $64$ metres.",
@@ -117233,6 +117726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7h-average",
    "label": "12a",
    "section": "Reasoning",
    "stem": "The average of two numbers can be found by adding them and dividing by $2$.",
@@ -117242,6 +117736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7h-average",
    "label": "12b",
    "section": "Reasoning",
    "stem": "The average of two numbers can be found by adding them and dividing by $2$.",
@@ -117251,6 +117746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7h-average",
    "label": "12c",
    "section": "Reasoning",
    "stem": "The average of two numbers can be found by adding them and dividing by $2$.",
@@ -117264,6 +117760,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-7h-sensible",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Consider these five equations. A: $6x = 42$, B: $9 + x = 13$, C: $13 + x = 9$, D: $4x = 10$, E: $5x + 2 = 2x + 11$.",
@@ -117279,6 +117776,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-7h-sensible",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Consider these five equations. A: $6x = 42$, B: $9 + x = 13$, C: $13 + x = 9$, D: $4x = 10$, E: $5x + 2 = 2x + 11$.",
@@ -117294,6 +117792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-7h-number",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Find the unknown number using equations. The answers might not be whole numbers.",
@@ -117303,6 +117802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-7h-number",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Find the unknown number using equations. The answers might not be whole numbers.",
@@ -117312,6 +117812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y8-7h-number",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Find the unknown number using equations. The answers might not be whole numbers.",
@@ -117322,6 +117823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y8-7h-number",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Find the unknown number using equations. The answers might not be whole numbers.",
@@ -117331,6 +117833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y8-7h-number",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Find the unknown number using equations. The answers might not be whole numbers.",
@@ -117349,6 +117852,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7i-read",
    "label": "1a",
    "section": "Fluency",
    "stem": "Each number line from $0$ to $8$ shows an inequality. Write the inequality using $x$. A closed (filled) circle means the number is included; an open circle means it is not.",
@@ -117593,6 +118097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7i-read",
    "label": "1b",
    "section": "Fluency",
    "stem": "Each number line from $0$ to $8$ shows an inequality. Write the inequality using $x$. A closed (filled) circle means the number is included; an open circle means it is not.",
@@ -117802,6 +118307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7i-read",
    "label": "1c",
    "section": "Fluency",
    "stem": "Each number line from $0$ to $8$ shows an inequality. Write the inequality using $x$. A closed (filled) circle means the number is included; an open circle means it is not.",
@@ -118045,6 +118551,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7i-read",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -118238,6 +118745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7i-read",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -118431,6 +118939,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7i-read",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -118658,6 +119167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7i-read",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -118851,6 +119361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7i-read",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -119044,6 +119555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7i-read",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -119237,6 +119749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-7i-read",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -119464,6 +119977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-7i-read",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write the inequality shown on each number line, using $x$.",
@@ -119691,6 +120205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-7i-read",
    "label": "2i",
    "section": "Fluency",
    "stem": "Which number line shows each inequality?",
@@ -120452,6 +120967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-7i-read",
    "label": "2j",
    "section": "Fluency",
    "stem": "Which number line shows each inequality?",
@@ -121213,6 +121729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-7i-read",
    "label": "2k",
    "section": "Fluency",
    "stem": "Which number line shows each inequality?",
@@ -121974,6 +122491,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-7i-read",
    "label": "2l",
    "section": "Fluency",
    "stem": "Which number line shows each inequality?",
@@ -122735,6 +123253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7i-between",
    "label": "3a",
    "section": "Fluency",
    "stem": "Consider the inequality $3 \\leq x < 8$.",
@@ -122754,6 +123273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7i-between",
    "label": "3b",
    "section": "Fluency",
    "stem": "Consider the inequality $3 \\leq x < 8$.",
@@ -123803,6 +124323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7i-between",
    "label": "4a",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -124077,6 +124598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7i-between",
    "label": "4b",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -124333,6 +124855,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7i-between",
    "label": "4c",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -124637,6 +125160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7i-between",
    "label": "4d",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -124959,6 +125483,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7i-between",
    "label": "4e",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -125167,6 +125692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7i-between",
    "label": "4f",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -125373,6 +125899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-7i-between",
    "label": "4g",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -125581,6 +126108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-7i-between",
    "label": "4h",
    "section": "Fluency",
    "stem": "Which inequality does each number line show?",
@@ -125755,6 +126283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7i-words",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Choose the inequality that matches each description. Here $x$ stands for the quantity described.",
@@ -125774,6 +126303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7i-words",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Choose the inequality that matches each description. Here $x$ stands for the quantity described.",
@@ -125793,6 +126323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7i-words",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Choose the inequality that matches each description. Here $x$ stands for the quantity described.",
@@ -125812,6 +126343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7i-words",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Choose the inequality that matches each description. Here $x$ stands for the quantity described.",
@@ -125831,6 +126363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7i-words",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Ana's age is between $18$ and $24$ inclusive, and Ben's age is between $21$ and $26$ inclusive. Let $a$ be Ana's age and $b$ be Ben's age.",
@@ -125846,6 +126379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7i-words",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Ana's age is between $18$ and $24$ inclusive, and Ben's age is between $21$ and $26$ inclusive. Let $a$ be Ana's age and $b$ be Ben's age.",
@@ -125861,6 +126395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7i-table",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -125906,6 +126441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7i-table",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -125922,6 +126458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7i-table",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -125938,6 +126475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-7i-table",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -125954,6 +126492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-7i-table",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -125970,6 +126509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-7i-table",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -125985,6 +126525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y8-7i-table",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -126000,6 +126541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y8-7i-table",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -126015,6 +126557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y8-7i-table",
    "label": "7i",
    "section": "Problem-solving",
    "stem": "At a school, grades are given for test scores as shown in the table.",
@@ -126030,6 +126573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7i-read",
    "label": "8a",
    "section": "Reasoning",
    "stem": "An inequality can be reversed by swapping the sides and turning the symbol around. For example, $4 < 9$ is the same as $9 > 4$. Choose the equivalent statement for each inequality.",
@@ -126045,6 +126589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7i-read",
    "label": "8b",
    "section": "Reasoning",
    "stem": "An inequality can be reversed by swapping the sides and turning the symbol around. For example, $4 < 9$ is the same as $9 > 4$. Choose the equivalent statement for each inequality.",
@@ -126060,6 +126605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-7i-read",
    "label": "8c",
    "section": "Reasoning",
    "stem": "An inequality can be reversed by swapping the sides and turning the symbol around. For example, $4 < 9$ is the same as $9 > 4$. Choose the equivalent statement for each inequality.",
@@ -126075,6 +126621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-7i-read",
    "label": "8d",
    "section": "Reasoning",
    "stem": "An inequality can be reversed by swapping the sides and turning the symbol around. For example, $4 < 9$ is the same as $9 > 4$. Choose the equivalent statement for each inequality.",
@@ -126090,6 +126637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7i-combine",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Write each pair of inequalities as a single inequality. (Both must be true.)",
@@ -126100,6 +126648,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7i-combine",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Write each pair of inequalities as a single inequality. (Both must be true.)",
@@ -126109,6 +126658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-7i-combine",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Write each pair of inequalities as a single inequality. (Both must be true.)",
@@ -126118,6 +126668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-7i-combine",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Write each pair of inequalities as a single inequality. (Both must be true.)",
@@ -126127,6 +126678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-7i-combine",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Choose the single inequality that means the same as each pair. (Both must be true.)",
@@ -126142,6 +126694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-7i-combine",
    "label": "9f",
    "section": "Reasoning",
    "stem": "Choose the single inequality that means the same as each pair. (Both must be true.)",
@@ -126157,6 +126710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y8-7i-combine",
    "label": "9g",
    "section": "Reasoning",
    "stem": "Choose the single inequality that means the same as each pair. (Both must be true.)",
@@ -126172,6 +126726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y8-7i-combine",
    "label": "9h",
    "section": "Reasoning",
    "stem": "Choose the single inequality that means the same as each pair. (Both must be true.)",
@@ -126187,6 +126742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y8-7i-combine",
    "label": "9i",
    "section": "Reasoning",
    "stem": "Choose the single inequality that means the same as each pair. (Both must be true.)",
@@ -126202,6 +126758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y8-7i-combine",
    "label": "9j",
    "section": "Reasoning",
    "stem": "Choose the single inequality that means the same as each pair. (Both must be true.)",
@@ -126217,6 +126774,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-7i-combine",
    "label": "10a",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126231,6 +126789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-7i-combine",
    "label": "10b",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126245,6 +126804,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7i-combine",
    "label": "10c",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126259,6 +126819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-7i-combine",
    "label": "10d",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126273,6 +126834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-7i-combine",
    "label": "10e",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126287,6 +126849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y8-7i-combine",
    "label": "10f",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126301,6 +126864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y8-7i-combine",
    "label": "10g",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126315,6 +126879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10h",
+   "help": "y8-7i-combine",
    "label": "10h",
    "section": "Reasoning",
    "stem": "How many solutions does each pair of inequalities have? (Both must be true.)",
@@ -126329,6 +126894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7i-limits",
    "label": "11a",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq x \\leq 6$ and $0 \\leq y \\leq 6$. Must each inequality be true?",
@@ -126342,6 +126908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7i-limits",
    "label": "11b",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq x \\leq 6$ and $0 \\leq y \\leq 6$. Must each inequality be true?",
@@ -126355,6 +126922,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-7i-limits",
    "label": "11c",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq x \\leq 6$ and $0 \\leq y \\leq 6$. Must each inequality be true?",
@@ -126368,6 +126936,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-7i-limits",
    "label": "11d",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq x \\leq 6$ and $0 \\leq y \\leq 6$. Must each inequality be true?",
@@ -126381,6 +126950,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y8-7i-limits",
    "label": "11e",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq x \\leq 6$ and $0 \\leq y \\leq 6$. Must each inequality be true?",
@@ -126394,6 +126964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y8-7i-limits",
    "label": "11f",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq x \\leq 6$ and $0 \\leq y \\leq 6$. Must each inequality be true?",
@@ -126407,6 +126978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7i-limits",
    "label": "12a",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126416,6 +126988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7i-limits",
    "label": "12b",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126425,6 +126998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7i-limits",
    "label": "12c",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126434,6 +127008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-7i-limits",
    "label": "12d",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126443,6 +127018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-7i-limits",
    "label": "12e",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126452,6 +127028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-7i-limits",
    "label": "12f",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126461,6 +127038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y8-7i-limits",
    "label": "12g",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126470,6 +127048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y8-7i-limits",
    "label": "12h",
    "section": "Enrichment",
    "stem": "It is known that $0 \\leq a \\leq 5$, $0 \\leq b \\leq 5$ and $0 \\leq c \\leq 5$. What is the largest value each expression could have?",
@@ -126488,6 +127067,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-7j-solve",
    "label": "1a",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126498,6 +127078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-7j-solve",
    "label": "1b",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126507,6 +127088,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-7j-solve",
    "label": "1c",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126516,6 +127098,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-7j-solve",
    "label": "1d",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126525,6 +127108,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-7j-solve",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126534,6 +127118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-7j-solve",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126543,6 +127128,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-7j-solve",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126552,6 +127138,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-7j-solve",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126561,6 +127148,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-7j-solve",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126570,6 +127158,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-7j-solve",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126579,6 +127168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-7j-solve",
    "label": "2g",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126588,6 +127178,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-7j-solve",
    "label": "2h",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126597,6 +127188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-7j-solve",
    "label": "2i",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126606,6 +127198,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-7j-solve",
    "label": "2j",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126615,6 +127208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-7j-solve",
    "label": "2k",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126624,6 +127218,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-7j-solve",
    "label": "2l",
    "section": "Fluency",
    "stem": "Solve the following inequalities.",
@@ -126633,6 +127228,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-7j-fraction",
    "label": "3a",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126642,6 +127238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-7j-fraction",
    "label": "3b",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126651,6 +127248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-7j-fraction",
    "label": "3c",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126660,6 +127258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-7j-fraction",
    "label": "3d",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126669,6 +127268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-7j-fraction",
    "label": "3e",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126678,6 +127278,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-7j-fraction",
    "label": "3f",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126687,6 +127288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-7j-fraction",
    "label": "3g",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126696,6 +127298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-7j-fraction",
    "label": "3h",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving fractions.",
@@ -126705,6 +127308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-7j-negative",
    "label": "4a",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126714,6 +127318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-7j-negative",
    "label": "4b",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126723,6 +127328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-7j-negative",
    "label": "4c",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126732,6 +127338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-7j-negative",
    "label": "4d",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126741,6 +127348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-7j-negative",
    "label": "4e",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126750,6 +127358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-7j-negative",
    "label": "4f",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126759,6 +127368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-7j-negative",
    "label": "4g",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126768,6 +127378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-7j-negative",
    "label": "4h",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126777,6 +127388,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y8-7j-negative",
    "label": "4i",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126786,6 +127398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y8-7j-negative",
    "label": "4j",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126795,6 +127408,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y8-7j-negative",
    "label": "4k",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126804,6 +127418,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y8-7j-negative",
    "label": "4l",
    "section": "Fluency",
    "stem": "Solve the following inequalities involving negative numbers. Remember to reverse the inequality sign when you multiply or divide by a negative number.",
@@ -126813,6 +127428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-7j-match",
    "label": "5a",
    "section": "Fluency",
    "stem": "Match each inequality with its solution on a number line.",
@@ -127412,6 +128028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-7j-match",
    "label": "5b",
    "section": "Fluency",
    "stem": "Match each inequality with its solution on a number line.",
@@ -127427,6 +128044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-7j-match",
    "label": "5c",
    "section": "Fluency",
    "stem": "Match each inequality with its solution on a number line.",
@@ -127442,6 +128060,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-7j-match",
    "label": "5d",
    "section": "Fluency",
    "stem": "Match each inequality with its solution on a number line.",
@@ -127457,6 +128076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-7j-words",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Kai buys $3$ bottles of juice and a $\\$12$ movie ticket. The total cost of his shopping was more than $\\$18$. Let $c$ be the cost, in dollars, of one bottle of juice.",
@@ -127472,6 +128092,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-7j-words",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Kai buys $3$ bottles of juice and a $\\$12$ movie ticket. The total cost of his shopping was more than $\\$18$. Let $c$ be the cost, in dollars, of one bottle of juice.",
@@ -127482,6 +128103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-7j-words",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Kai buys $3$ bottles of juice and a $\\$12$ movie ticket. The total cost of his shopping was more than $\\$18$. Let $c$ be the cost, in dollars, of one bottle of juice.",
@@ -127492,6 +128114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-7j-words",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "In AFL football the score is $6g + b$, where $g$ is the number of goals and $b$ is the number of behinds. A team scored $5$ behinds and their score was less than or equal to $50$.",
@@ -127507,6 +128130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-7j-words",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "In AFL football the score is $6g + b$, where $g$ is the number of goals and $b$ is the number of behinds. A team scored $5$ behinds and their score was less than or equal to $50$.",
@@ -127517,6 +128141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-7j-words",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "In AFL football the score is $6g + b$, where $g$ is the number of goals and $b$ is the number of behinds. A team scored $5$ behinds and their score was less than or equal to $50$.",
@@ -127526,6 +128151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-7j-words",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "To convert degrees Celsius to Fahrenheit, the rule is $F = 1.8C + 32$. Lena tells you the temperature is between $50°$ and $77°$ Fahrenheit inclusive.",
@@ -127536,6 +128162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-7j-words",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "To convert degrees Celsius to Fahrenheit, the rule is $F = 1.8C + 32$. Lena tells you the temperature is between $50°$ and $77°$ Fahrenheit inclusive.",
@@ -127545,6 +128172,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-7j-words",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "To convert degrees Celsius to Fahrenheit, the rule is $F = 1.8C + 32$. Lena tells you the temperature is between $50°$ and $77°$ Fahrenheit inclusive.",
@@ -127560,6 +128188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-7j-words",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "To convert degrees Celsius to Fahrenheit, the rule is $F = 1.8C + 32$. Lena tells you the temperature is between $50°$ and $77°$ Fahrenheit inclusive.",
@@ -127575,6 +128204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-7j-conditions",
    "label": "9a",
    "section": "Reasoning",
    "stem": "To say that a number is positive means it is greater than $0$; negative means it is less than $0$.",
@@ -127585,6 +128215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-7j-conditions",
    "label": "9b",
    "section": "Reasoning",
    "stem": "To say that a number is positive means it is greater than $0$; negative means it is less than $0$.",
@@ -127594,6 +128225,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-7j-conditions",
    "label": "9c",
    "section": "Reasoning",
    "stem": "To say that a number is positive means it is greater than $0$; negative means it is less than $0$.",
@@ -127603,6 +128235,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-7j-conditions",
    "label": "9d",
    "section": "Reasoning",
    "stem": "To say that a number is positive means it is greater than $0$; negative means it is less than $0$.",
@@ -127618,6 +128251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-7j-conditions",
    "label": "10c",
    "section": "Reasoning",
    "type": "choice",
@@ -127630,6 +128264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-7j-conditions",
    "label": "10d",
    "section": "Reasoning",
    "type": "choice",
@@ -127642,6 +128277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-7j-conditions",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A puzzle has four clues about a number $x$. Clue A: $2x > 14$, clue B: $6 - x \\leq 3$, clue C: $3x + 4 \\leq 52$, clue D: $2x + 1 < 40$.",
@@ -127658,6 +128294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-7j-conditions",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A puzzle has four clues about a number $x$. Clue A: $2x > 14$, clue B: $6 - x \\leq 3$, clue C: $3x + 4 \\leq 52$, clue D: $2x + 1 < 40$.",
@@ -127667,6 +128304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-7j-negative",
    "label": "12a",
    "section": "Reasoning",
    "stem": "You can avoid dividing by a negative number by adding the pronumeral term to both sides first. For example, $-3x + 4 < 10$ becomes $4 < 10 + 3x$, so $-6 < 3x$ and $x > -2$. Use this method to solve these inequalities.",
@@ -127676,6 +128314,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-7j-negative",
    "label": "12b",
    "section": "Reasoning",
    "stem": "You can avoid dividing by a negative number by adding the pronumeral term to both sides first. For example, $-3x + 4 < 10$ becomes $4 < 10 + 3x$, so $-6 < 3x$ and $x > -2$. Use this method to solve these inequalities.",
@@ -127685,6 +128324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-7j-negative",
    "label": "12c",
    "section": "Reasoning",
    "stem": "You can avoid dividing by a negative number by adding the pronumeral term to both sides first. For example, $-3x + 4 < 10$ becomes $4 < 10 + 3x$, so $-6 < 3x$ and $x > -2$. Use this method to solve these inequalities.",
@@ -127694,6 +128334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-7j-negative",
    "label": "12d",
    "section": "Reasoning",
    "stem": "You can avoid dividing by a negative number by adding the pronumeral term to both sides first. For example, $-3x + 4 < 10$ becomes $4 < 10 + 3x$, so $-6 < 3x$ and $x > -2$. Use this method to solve these inequalities.",
@@ -127703,6 +128344,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-7j-both",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127712,6 +128354,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-7j-both",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127721,6 +128364,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-7j-both",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127730,6 +128374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y8-7j-both",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127739,6 +128384,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y8-7j-both",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127748,6 +128394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y8-7j-both",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127757,6 +128404,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y8-7j-both",
    "label": "13g",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127766,6 +128414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y8-7j-both",
    "label": "13h",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
@@ -127775,6 +128424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13i",
+   "help": "y8-7j-both",
    "label": "13i",
    "section": "Enrichment",
    "stem": "Solve the following inequalities. They have pronumerals on both sides.",
