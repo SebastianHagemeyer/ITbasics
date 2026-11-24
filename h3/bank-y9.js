@@ -66236,6 +66236,9134 @@ window.H3_BANK.sets.push(
 }
 );
 
+// Chapter 6
+window.H3_BANK.sets.push(
+{
+ "id": "y9-6a",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6A Index notation",
+ "description": "Write products in expanded and index form, evaluate powers, and use prime factors in index form.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$k^{4}$",
+   "answer": "k×k×k×k",
+   "hint": "Put × (or *) between every factor, for example 3×a×a×b."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$w^{3}$",
+   "answer": "w×w×w"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$(4a)^{3}$",
+   "answer": "4×a×4×a×4×a"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$(2y)^{4}$",
+   "answer": "2×y×2×y×2×y×2×y"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$(mn)^{3}$",
+   "answer": "m×n×m×n×m×n",
+   "hint": "Put × between every letter too, for example a×b×a×b, not ab×ab."
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$-2p^{2}q^{3}$",
+   "answer": "-2×p×p×q×q×q"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$5a^{2}b^{4}$",
+   "answer": "5×a×a×b×b×b×b"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form.",
+   "type": "product",
+   "prompt": "$3(cd)^{4}$",
+   "answer": "3×c×d×c×d×c×d×c×d",
+   "hint": "Put × between every letter too, for example a×b×a×b, not ab×ab."
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$7^{2}$",
+   "answer": "49"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$3^{4}$",
+   "answer": "81"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$2^{5}$",
+   "answer": "32"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$15^{1}$",
+   "answer": "15"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$(-3)^{3}$",
+   "answer": "-27"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$(-1)^{9}$",
+   "answer": "-1"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$(-2)^{4}$",
+   "answer": "16"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$(-6)^{2}$",
+   "answer": "36"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{2}{5}\\right)^{3}$",
+   "answer": "8/125",
+   "hint": "Type a fraction like 3/8."
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{4}{5}\\right)^{2}$",
+   "answer": "16/25"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{1}{4}\\right)^{3}$",
+   "answer": "1/64"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{7}{3}\\right)^{2}$",
+   "answer": "49/9"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3}{-4}\\right)^{3}$",
+   "answer": "-27/64"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{-2}{5}\\right)^{4}$",
+   "answer": "16/625"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{-1}{6}\\right)^{2}$",
+   "answer": "1/36"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Write each of the following in expanded form, then evaluate it. Type the value.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3}{-2}\\right)^{5}$",
+   "answer": "-243/32"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$4 \\times 4 \\times 4 \\times 4$",
+   "answer": "4^4",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$9 \\times 9 \\times 9 \\times 9 \\times 9$",
+   "answer": "9^5",
+   "index": true
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$m \\times m \\times m$",
+   "answer": "m^3",
+   "index": true
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$5 \\times p \\times p \\times p \\times p$",
+   "answer": "5p^4",
+   "index": true
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$2 \\times c \\times c \\times c$",
+   "answer": "2c^3",
+   "index": true
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$6 \\times 6 \\times d \\times d \\times d$",
+   "answer": "6^2d^3",
+   "index": true
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$a \\times a \\times a \\times b \\times b$",
+   "answer": "a^3b^2",
+   "index": true
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$3 \\times n \\times 3 \\times n \\times n \\times 3$",
+   "answer": "3^3n^3",
+   "index": true
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "text",
+   "prompt": "$\\frac{3}{4} \\times \\frac{3}{4} \\times \\frac{3}{4} \\times \\frac{3}{4} \\times \\frac{3}{4}$",
+   "answer": "(3/4)^5",
+   "accept": [
+    "3^5/4^5"
+   ],
+   "hint": "Type it with brackets and ^, with no spaces, for example (2/9)^4 or (2/9)^4(1/5)^2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "text",
+   "prompt": "$\\frac{2}{7} \\times \\frac{2}{7} \\times \\frac{2}{7}$",
+   "answer": "(2/7)^3",
+   "accept": [
+    "2^3/7^3"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "text",
+   "prompt": "$\\frac{5}{6} \\times \\frac{5}{6} \\times \\frac{1}{3} \\times \\frac{1}{3} \\times \\frac{1}{3}$",
+   "answer": "(5/6)^2(1/3)^3",
+   "accept": [
+    "(1/3)^3(5/6)^2",
+    "(5/6)^2*(1/3)^3",
+    "(1/3)^3*(5/6)^2",
+    "1^3/3^3(5/6)^2",
+    "(5/6)^2*1^3/3^3",
+    "1^3/3^3*(5/6)^2",
+    "1/3^3(5/6)^2",
+    "(5/6)^2*1/3^3",
+    "1/3^3*(5/6)^2",
+    "5^2/6^2(1/3)^3",
+    "5^2/6^2*(1/3)^3",
+    "(1/3)^3*5^2/6^2",
+    "5^2/6^2*1^3/3^3",
+    "1^3/3^3*5^2/6^2",
+    "5^2/6^2*1/3^3",
+    "1/3^3*5^2/6^2"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "text",
+   "prompt": "$\\frac{5a}{8} \\times \\frac{5a}{8} \\times \\frac{b}{3} \\times \\frac{b}{3} \\times \\frac{b}{3}$",
+   "answer": "(5a/8)^2(b/3)^3",
+   "accept": [
+    "(b/3)^3(5a/8)^2",
+    "(5a/8)^2*(b/3)^3",
+    "(b/3)^3*(5a/8)^2"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$5 \\times a \\times b \\times a \\times 5 \\times b \\times 5 \\times b$",
+   "answer": "5^3a^2b^3",
+   "index": true,
+   "accept": [
+    "125a^2b^3"
+   ],
+   "hint": "Type powers with ^. A number in front is fine, for example 8m^2n^3 or 2^3m^2n^3."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$2m \\times 3n \\times 2m \\times 3n$",
+   "answer": "2^2×3^2×m^2×n^2",
+   "index": true,
+   "accept": [
+    "6^2m^2n^2",
+    "36m^2n^2"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$5p \\times 3q \\times 5p \\times 3q$",
+   "answer": "3^2×5^2×p^2×q^2",
+   "index": true,
+   "accept": [
+    "15^2p^2q^2",
+    "225p^2q^2"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$4ac(4ac)(4c)$",
+   "answer": "4^3a^2c^3",
+   "index": true,
+   "accept": [
+    "64a^2c^3",
+    "2^6a^2c^3"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$2mn(2mn)(2mn)(2mn)$",
+   "answer": "2^4m^4n^4",
+   "index": true,
+   "accept": [
+    "16m^4n^4"
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Write each of the following in index form.",
+   "type": "powers",
+   "prompt": "$5gh \\times 5gh \\times gh \\times 5$",
+   "answer": "5^3g^3h^3",
+   "index": true,
+   "accept": [
+    "125g^3h^3"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Express each of the following as a product of prime factors in index form.",
+   "type": "powers",
+   "prompt": "$21$",
+   "answer": "3×7",
+   "index": true,
+   "hint": "Type the primes with ^ and ×, for example 2^3×5^2."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Express each of the following as a product of prime factors in index form.",
+   "type": "powers",
+   "prompt": "$32$",
+   "answer": "2^5",
+   "index": true
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Express each of the following as a product of prime factors in index form.",
+   "type": "powers",
+   "prompt": "$360$",
+   "answer": "2^3×3^2×5",
+   "index": true
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Express each of the following as a product of prime factors in index form.",
+   "type": "powers",
+   "prompt": "$243$",
+   "answer": "3^5",
+   "index": true
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Express each of the following as a product of prime factors in index form.",
+   "type": "powers",
+   "prompt": "$392$",
+   "answer": "2^3×7^2",
+   "index": true
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Express each of the following as a product of prime factors in index form.",
+   "type": "powers",
+   "prompt": "$675$",
+   "answer": "3^3×5^2",
+   "index": true
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$(ab)^{2}$",
+   "answer": "144"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$(bc)^{3}$",
+   "answer": "-216"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{a}{c}\\right)^{4}$",
+   "answer": "16"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{b}{c}\\right)^{3}$",
+   "answer": "-27/8"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$(abc)^{1}$",
+   "answer": "-24"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$c^{2} + ab$",
+   "answer": "16"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$ab^{2}c$",
+   "answer": "-72"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Fluency",
+   "stem": "If $a = 4$, $b = 3$ and $c = -2$, evaluate these expressions.",
+   "type": "numeric",
+   "prompt": "$c^{2}ab^{3}$",
+   "answer": "432"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$4^{\\square} = 1024$",
+   "answer": "5"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$3^{\\square} = 729$",
+   "answer": "6"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square^{3} = 343$",
+   "answer": "7"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square^{5} = 243$",
+   "answer": "3"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square^{3} = -125$",
+   "answer": "-5"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square^{5} = -32$",
+   "answer": "-2"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square^{3} = \\frac{1}{27}$",
+   "answer": "1/3"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3}{4}\\right)^{\\square} = \\frac{81}{256}$",
+   "answer": "4"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
+   "type": "numeric",
+   "prompt": "How long does it take for $1$ cell to become $8$ cells?",
+   "answer": "18",
+   "units": "minutes"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
+   "type": "numeric",
+   "prompt": "How long does it take for $1$ cell to become $32$ cells?",
+   "answer": "30",
+   "units": "minutes"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
+   "type": "numeric",
+   "prompt": "How long does it take for $1$ cell to become $256$ cells?",
+   "answer": "48",
+   "units": "minutes"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "A bacterium splits in two every $6$ minutes. The new cells keep splitting in the same way. A table of times and numbers of cells may help.",
+   "type": "numeric",
+   "prompt": "A single cell is left to divide for $1.5$ hours. How many cells will there be after this time?",
+   "answer": "32768"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Problem-solving",
+   "stem": "A financial adviser says she can double your money every year, so you invest $\\$750$ with her.",
+   "type": "numeric",
+   "prompt": "How much should your investment be worth after $6$ years?",
+   "answer": "48000",
+   "units": "$"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Problem-solving",
+   "stem": "A financial adviser says she can double your money every year, so you invest $\\$750$ with her.",
+   "type": "numeric",
+   "prompt": "For how many years should you invest if you are hoping for a total of at least $\\$200\\,000$? Give a whole number of years.",
+   "answer": "9",
+   "units": "years"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A $15$ kg block of ice loses $8\\%$ of its mass each hour. How long does it take for the block to be at least $5$ kg lighter than it was at the start? Give your answer as a whole number of hours.",
+   "answer": "5",
+   "units": "hours"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$5^{2}$",
+   "answer": "25"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$(-5)^{2}$",
+   "answer": "25"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$-(5)^{2}$",
+   "answer": "-25"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$-(-5)^{2}$",
+   "answer": "-25"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$4^{3}$",
+   "answer": "64"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$(-4)^{3}$",
+   "answer": "-64"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$-(4)^{3}$",
+   "answer": "-64"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$-(-4)^{3}$",
+   "answer": "64"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(0.5)^{5}$",
+   "answer": "1/32",
+   "as": "fraction",
+   "simplest": true,
+   "hint": "Type the fraction like 27/8."
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(0.25)^{3}$",
+   "answer": "1/64",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(0.4)^{2}$",
+   "answer": "4/25",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(0.2)^{4}$",
+   "answer": "1/625",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(0.3)^{3}$",
+   "answer": "27/1000",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(1.5)^{3}$",
+   "answer": "27/8",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(1.2)^{2}$",
+   "answer": "36/25",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(10.2)^{2}$",
+   "answer": "2601/25",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Reasoning",
+   "stem": "It is often easier to evaluate a decimal raised to a power by first writing the decimal as a fraction, for example $(0.5)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these, giving each answer as a fraction in simplest form.",
+   "type": "numeric",
+   "prompt": "$(2.5)^{3}$",
+   "answer": "125/8",
+   "as": "fraction",
+   "simplest": true
+  },
+  {
+   "id": "q15a",
+   "label": "15a",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$6, 10$",
+   "answer": [
+    "30",
+    "2"
+   ],
+   "hint": "Type the LCM first, then the HCF, separated by a comma."
+  },
+  {
+   "id": "q15b",
+   "label": "15b",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$45, 30$",
+   "answer": [
+    "90",
+    "15"
+   ]
+  },
+  {
+   "id": "q15c",
+   "label": "15c",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$18, 48$",
+   "answer": [
+    "144",
+    "6"
+   ]
+  },
+  {
+   "id": "q15d",
+   "label": "15d",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$12, 20$",
+   "answer": [
+    "60",
+    "4"
+   ]
+  },
+  {
+   "id": "q15e",
+   "label": "15e",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$60, 84$",
+   "answer": [
+    "420",
+    "12"
+   ]
+  },
+  {
+   "id": "q15f",
+   "label": "15f",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$150, 40$",
+   "answer": [
+    "600",
+    "10"
+   ]
+  },
+  {
+   "id": "q15g",
+   "label": "15g",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$225, 135$",
+   "answer": [
+    "675",
+    "45"
+   ]
+  },
+  {
+   "id": "q15h",
+   "label": "15h",
+   "section": "Enrichment",
+   "stem": "The LCM of two numbers in prime factor form is the product of all the different primes raised to their highest power. The HCF is the product of the common primes raised to their smallest power. For example, $12 = 2^2 \\times 3$ and $30 = 2 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$ and the LCM is $2^2 \\times 3 \\times 5 = 60$. Find the LCM and HCF of each pair by first writing the numbers in prime factor form.",
+   "type": "ordered",
+   "prompt": "$1452, 1320$",
+   "answer": [
+    "14520",
+    "132"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-6b",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6B Index laws for multiplication and division",
+ "description": "Use the index laws for multiplication and division to simplify numbers and algebraic terms.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$3^{5} \\times 3^{2}$",
+   "answer": "3^7",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$4^{5} \\times 4^{6}$",
+   "answer": "4^11",
+   "index": true
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$5^{8} \\div 5^{3}$",
+   "answer": "5^5",
+   "index": true
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$9^{7} \\div 9^{2}$",
+   "answer": "9^5",
+   "index": true
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$6^{3} \\times 6^{5}$",
+   "answer": "6^8",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$9^{7} \\times 9$",
+   "answer": "9^8",
+   "index": true
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$2^{5} \\times 2^{5}$",
+   "answer": "2^10",
+   "index": true
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$3^{4} \\times 3^{8}$",
+   "answer": "3^12",
+   "index": true
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$7^{6} \\div 7$",
+   "answer": "7^5",
+   "index": true
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$10^{9} \\div 10^{4}$",
+   "answer": "10^5",
+   "index": true
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "powers",
+   "prompt": "$8^{12} \\div 8^{5}$",
+   "answer": "8^7",
+   "index": true
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify, giving your answers in index form.",
+   "type": "text",
+   "prompt": "$(-3)^{7} \\div (-3)^{4}$",
+   "answer": "(-3)^3",
+   "accept": [
+    "(-3)^(3)"
+   ],
+   "hint": "Keep the negative base in brackets, for example (-5)^2."
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$m^{5} \\times m^{2}$",
+   "answer": "m^7",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$b^{4} \\times b^{7}$",
+   "answer": "b^11",
+   "index": true
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$k^{6} \\times k^{2}$",
+   "answer": "k^8",
+   "index": true
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$w \\times w^{5}$",
+   "answer": "w^6",
+   "index": true
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$g^{3} \\times g$",
+   "answer": "g^4",
+   "index": true
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$n^{3} \\times n \\times n^{2}$",
+   "answer": "n^6",
+   "index": true
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$c \\times c^{4} \\times c^{3}$",
+   "answer": "c^8",
+   "index": true
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$p^{5} \\times p^{2} \\times p^{4}$",
+   "answer": "p^11",
+   "index": true
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$a^{2}b^{4} \\times a^{3}b^{2}$",
+   "answer": "a^5b^6",
+   "index": true
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "powers",
+   "prompt": "$r^{6}s^{2} \\times r^{3}s$",
+   "answer": "r^9s^3",
+   "index": true
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$4m^{2}n^{6} \\times mn^{3}$",
+   "answer": "4m^3n^9",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$ab^{3}c \\times 5ab$",
+   "answer": "5a^2b^4c",
+   "form": "simplified"
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$2k^{4} \\times 6k^{3}$",
+   "answer": "12k^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$3g^{3}h^{2} \\times 4g^{2}h^{4}$",
+   "answer": "12g^5h^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$6u^{3}v \\times 2u^{4}v$",
+   "answer": "12u^7v^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for multiplication.",
+   "type": "expression",
+   "prompt": "$7pq^{3} \\times 3p^{2}q^{4}$",
+   "answer": "21p^3q^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$b^{8} \\div b^{3}$",
+   "answer": "b^5",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$k^{7} \\div k^{4}$",
+   "answer": "k^3",
+   "index": true
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{w^{11}}{w^{3}}$",
+   "answer": "w^8",
+   "index": true
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "powers",
+   "prompt": "$\\frac{g^{9}}{g^{8}}$",
+   "answer": "g",
+   "index": true
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{12p^{9}}{3p^{4}}$",
+   "answer": "4p^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{10c^{8}}{40c^{3}}$",
+   "answer": "c^5/4",
+   "form": "simplified",
+   "accept": [
+    "(c^5)/4"
+   ],
+   "hint": "Type a fraction with /, for example c^5/4 or 2a^3/5."
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{6m^{12}}{3m^{6}}$",
+   "answer": "2m^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{20n^{14}}{4n^{9}}$",
+   "answer": "5n^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$8k^{5} \\div k^{3}$",
+   "answer": "8k^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$15u^{6} \\div u$",
+   "answer": "15u^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$7t^{5} \\div t^{2}$",
+   "answer": "7t^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$9b^{8} \\div b^{7}$",
+   "answer": "9b",
+   "form": "simplified"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{4m^{9}}{16m^{3}}$",
+   "answer": "m^6/4",
+   "form": "simplified",
+   "accept": [
+    "(m^6)/4"
+   ]
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{3w^{3}}{21w}$",
+   "answer": "w^2/7",
+   "form": "simplified",
+   "accept": [
+    "(w^2)/7"
+   ]
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{5a^{6}}{30a^{5}}$",
+   "answer": "a/6",
+   "form": "simplified"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{9y^{7}}{72y}$",
+   "answer": "y^6/8",
+   "form": "simplified",
+   "accept": [
+    "(y^6)/8"
+   ]
+  },
+  {
+   "id": "q4q",
+   "label": "4q",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{18a^{9}b^{7}}{12a^{3}b^{4}}$",
+   "answer": "3a^6b^3/2",
+   "form": "simplified",
+   "accept": [
+    "(3a^6b^3)/2"
+   ]
+  },
+  {
+   "id": "q4r",
+   "label": "4r",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{10s^{7}t^{4}}{25s^{6}t}$",
+   "answer": "2st^3/5",
+   "form": "simplified",
+   "accept": [
+    "(2st^3)/5"
+   ]
+  },
+  {
+   "id": "q4s",
+   "label": "4s",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$\\frac{9m^{6}n^{5}}{6m^{5}n^{4}}$",
+   "answer": "3mn/2",
+   "form": "simplified",
+   "accept": [
+    "(3mn)/2"
+   ]
+  },
+  {
+   "id": "q4t",
+   "label": "4t",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index law for division.",
+   "type": "expression",
+   "prompt": "$-\\frac{7a^{3}b}{ab}$",
+   "answer": "-7a^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$k^{6} \\times k^{3} \\div k^{2}$",
+   "answer": "k^7",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$w^{4} \\times w^{5} \\div w^{6}$",
+   "answer": "w^3",
+   "index": true
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$m^{5} \\div m \\times m^{3}$",
+   "answer": "m^7",
+   "index": true
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$c^{3} \\times c^{4} \\div c^{6}$",
+   "answer": "c",
+   "index": true
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$\\frac{t^{5} \\times t^{2}}{t^{4}}$",
+   "answer": "t^3",
+   "index": true
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$\\frac{p^{3} \\times p^{6}}{p^{5}}$",
+   "answer": "p^4",
+   "index": true
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$\\frac{g^{6} \\times g^{2}}{g^{3}}$",
+   "answer": "g^5",
+   "index": true
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$\\frac{u^{8} \\times u^{3}}{u}$",
+   "answer": "u^10",
+   "index": true
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "expression",
+   "prompt": "$\\frac{4a^{4}b^{3} \\times 6ab}{8a^{2}b^{2}}$",
+   "answer": "3a^3b^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "expression",
+   "prompt": "$\\frac{8m^{5}}{3n^{2}} \\times \\frac{9n^{3}}{4m^{3}}$",
+   "answer": "6m^2n",
+   "form": "simplified"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "expression",
+   "prompt": "$\\frac{18p^{6}q^{4}}{5p^{2}q} \\times \\frac{10p^{3}q^{2}}{9pq^{3}}$",
+   "answer": "4p^6q^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws for multiplication and division.",
+   "type": "powers",
+   "prompt": "$\\frac{r^{5}s^{4}}{r^{3}s} \\times \\frac{r^{4}s^{5}}{r^{2}s^{3}}$",
+   "answer": "r^4s^5",
+   "index": true
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{a^{5}}{b^{3}} \\times \\frac{a^{2}}{b^{4}}$",
+   "answer": "a^7/b^7",
+   "form": "simplified",
+   "accept": [
+    "(a^7)/b^7"
+   ],
+   "hint": "Type a fraction with /, for example a^4/b^2 or 2a^3/(5b^2)."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{p}{q} \\times \\frac{p^{4}}{q}$",
+   "answer": "p^5/q^2",
+   "form": "simplified",
+   "accept": [
+    "(p^5)/q^2"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\frac{m^{5}}{n^{4}} \\times \\frac{n^{7}}{m^{2}}$",
+   "answer": "m^3n^3",
+   "index": true
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{10k}{2u^{4}} \\times \\frac{3k^{5}}{5u^{2}}$",
+   "answer": "3k^6/u^6",
+   "form": "simplified",
+   "accept": [
+    "(3k^6)/u^6"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{2g^{3} \\times 9g^{6}}{6g^{4}}$",
+   "answer": "3g^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{5a^{3}c \\times 4a^{2}c^{3}}{10ac}$",
+   "answer": "2a^4c^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{6k^{5}m^{4}}{4km^{2}} \\times \\frac{8km}{3k^{2}}$",
+   "answer": "4k^3m^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\frac{15a^{6}b^{4}}{4a^{3}b} \\times \\frac{8a^{3}b^{2}}{5ab^{5}}$",
+   "answer": "6a^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\frac{8m^{6}n^{3} \\times 3mn^{2}}{6mn \\times m^{3}n^{4}} \\times \\frac{m^{2}n^{3}}{4m^{4}n}$",
+   "answer": "mn^2",
+   "index": true
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$3^{6} \\times 3^{\\square} = 3^{15}$",
+   "answer": "9"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$7^{\\square} \\times 7^{5} = 7^{12}$",
+   "answer": "7"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$13^{9} \\div 13^{\\square} = 13^{4}$",
+   "answer": "5"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$17^{\\square} \\div 17^{3} = 17$",
+   "answer": "4"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$a^{8} \\times a^{\\square} = a^{9}$",
+   "answer": "1"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$b^{\\square} \\times b^{5} = b^{24}$",
+   "answer": "19"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$k^{11} \\div k^{\\square} = k$",
+   "answer": "10"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$m^{\\square} \\div m^{6} = m^{3}$",
+   "answer": "9"
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square \\times a^{3} \\times 5a^{2} = 20a^{5}$",
+   "answer": "4"
+  },
+  {
+   "id": "q7j",
+   "label": "7j",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$12m^{5} \\div (\\square m^{4}) = m$",
+   "answer": "12"
+  },
+  {
+   "id": "q7k",
+   "label": "7k",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$\\square b^{7} \\div (6b) = \\frac{b^{6}}{3}$",
+   "answer": "2"
+  },
+  {
+   "id": "q7l",
+   "label": "7l",
+   "section": "Problem-solving",
+   "stem": "Find the missing number.",
+   "type": "numeric",
+   "prompt": "$14k^{4} \\div (\\square k^{3}) = \\frac{k}{2}$",
+   "answer": "28"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$6^{8} \\div 6^{6}$",
+   "answer": "36"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$10^{8} \\div 10^{5}$",
+   "answer": "1000"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$12^{10} \\div 12^{8}$",
+   "answer": "144"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$2^{25} \\div 2^{20}$",
+   "answer": "32"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$103^{6} \\div 103^{5}$",
+   "answer": "103"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$500^{41} \\div 500^{40}$",
+   "answer": "500"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$4 \\times 23^{12} \\div 23^{11}$",
+   "answer": "92"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator.",
+   "type": "numeric",
+   "prompt": "$2 \\times 40^{300} \\div 40^{298}$",
+   "answer": "3200"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "If $m$ and $n$ are positive whole numbers, how many combinations of $m$ and $n$ make each statement true? (Count $m = 1, n = 2$ and $m = 2, n = 1$ as different.)",
+   "type": "numeric",
+   "prompt": "$a^{m} \\times a^{n} = a^{10}$",
+   "answer": "9"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "If $m$ and $n$ are positive whole numbers, how many combinations of $m$ and $n$ make each statement true? (Count $m = 1, n = 2$ and $m = 2, n = 1$ as different.)",
+   "type": "numeric",
+   "prompt": "$a^{m} \\times a^{n} = a^{17}$",
+   "answer": "16"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Each of these answers is incorrect. Give the correct answer.",
+   "type": "powers",
+   "prompt": "$b^{5} \\times b = b^{5}$",
+   "answer": "b^6",
+   "index": true
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Each of these answers is incorrect. Give the correct answer.",
+   "type": "powers",
+   "prompt": "$k^{8} \\div k = k^{8}$",
+   "answer": "k^7",
+   "index": true
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Each of these answers is incorrect. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$4a^{6} \\div 8a^{2} = 2a^{3}$",
+   "answer": "a^4/2",
+   "form": "simplified",
+   "hint": "Type a fraction with /, for example m^4/3."
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "Each of these answers is incorrect. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$6m^{9} \\div 12m^{3} = \\frac{1}{2m^{6}}$",
+   "answer": "m^6/2",
+   "form": "simplified"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "Each of these answers is incorrect. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$4p^{5} \\times 2p^{3} = 6p^{8}$",
+   "answer": "8p^8",
+   "form": "simplified"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Reasoning",
+   "stem": "Each of these answers is incorrect. Give the correct answer.",
+   "type": "powers",
+   "prompt": "$g^{7} \\div g^{3} \\times g = g^{7} \\div g^{4} = g^{3}$",
+   "answer": "g^5",
+   "index": true
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$2a$",
+   "answer": "6m",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$3b$",
+   "answer": "6m^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$2c$",
+   "answer": "12m^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$-2a$",
+   "answer": "-6m",
+   "form": "simplified"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$abc$",
+   "answer": "36m^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$\\frac{c}{b}$",
+   "answer": "3m^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$\\frac{ab}{c}$",
+   "answer": "1/m",
+   "form": "simplified"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Reasoning",
+   "stem": "Given that $a = 3m$, $b = 2m^{2}$ and $c = 6m^{4}$, write a simplified expression in terms of $m$ for:",
+   "type": "expression",
+   "prompt": "$\\frac{-2bc}{a}$",
+   "answer": "-8m^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$3^{m} \\times 3^{n}$",
+   "answer": "m+n",
+   "hint": "For example, for 2^a × 2^5 you would type a+5."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$7^{a} \\times 7^{b}$",
+   "answer": "a+b"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$5^{m} \\div 5^{n}$",
+   "answer": "m-n"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$10^{k} \\div 10^{2}$",
+   "answer": "k-2"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$2^{p} \\times 2^{q} \\div 2^{r}$",
+   "answer": "p+q-r"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$10^{p} \\div 10^{q} \\div 10^{r}$",
+   "answer": "p-q-r"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Reasoning",
+   "stem": "Write each of these as a single power of the number shown. Type only the index (the power), as an expression.",
+   "type": "expression",
+   "prompt": "$3^{a} \\times 3^{2a + b} \\times 3^{a - b}$",
+   "answer": "4a"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$t^{m} \\times t^{n}$",
+   "answer": "t^(m+n)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12i",
+   "label": "12i",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$a^{m - 3}b^{m} \\times a^{2m}b^{2}$",
+   "answer": "a^(3m-3)b^(m+2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12j",
+   "label": "12j",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$a^{m}b^{n} \\times a^{n}b^{m}$",
+   "answer": "a^(m+n)b^(m+n)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12k",
+   "label": "12k",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$a^{m}b^{n} \\div (a^{n}b^{m})$",
+   "answer": "a^(m-n)b^(n-m)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12l",
+   "label": "12l",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$w^{m + 3}b^{m} \\div w^{2m} \\times b^{2}$",
+   "answer": "w^(3-m)b^(m+2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12m",
+   "label": "12m",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$\\frac{a^{m} \\times 5a^{n}}{5a^{3}}$",
+   "answer": "a^(m+n-3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12n",
+   "label": "12n",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$\\frac{3p^{a} \\times 4q^{b}}{12q^{4}}$",
+   "answer": "p^aq^(b-4)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12o",
+   "label": "12o",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type indices that are expressions in brackets, for example a^(2m+1).",
+   "type": "expression",
+   "prompt": "$\\frac{12k^{a}n^{b}}{9kn^{2}} \\div \\frac{4k^{a}n^{3a}}{15k}$",
+   "answer": "5n^(b-3a-2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Simplify each expression fully.",
+   "type": "powers",
+   "prompt": "$\\frac{4a^{3}b^{5}}{6a^{2}b} \\times \\frac{3a^{2}b^{2}}{2a^{2}b^{5}}$",
+   "answer": "ab",
+   "index": true
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Simplify each expression fully.",
+   "type": "expression",
+   "prompt": "$\\frac{2a^{4}bc^{2}}{5a^{3}c} \\times \\frac{10b^{3}}{4abc} \\times \\frac{a^{2}bc}{b^{3}c^{2}}$",
+   "answer": "a^2b/c",
+   "form": "simplified",
+   "accept": [
+    "(a^2b)/c"
+   ]
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Simplify each expression fully.",
+   "type": "powers",
+   "prompt": "$\\frac{4a^{5}b^{3}}{a^{3}b^{2}} \\div \\frac{8b^{4}}{2ab^{4}}$",
+   "answer": "a^3b",
+   "index": true
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Simplify each expression fully.",
+   "type": "powers",
+   "prompt": "$\\frac{3a}{2a^{2}b^{4}} \\times \\frac{4a^{3}b^{6}}{ab^{3}} \\div \\frac{6a}{b^{2}}$",
+   "answer": "b",
+   "index": true
+  }
+ ]
+},
+{
+ "id": "y9-6c",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6C Index laws for power of a power and the zero index",
+ "description": "Use the power of a power law and the zero index, and combine them with the other index laws.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(k^{3})^{4}$",
+   "answer": "k^12",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(b^{2})^{7}$",
+   "answer": "b^14",
+   "index": true
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(a^{5})^{3}$",
+   "answer": "a^15",
+   "index": true
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(m^{4})^{6}$",
+   "answer": "m^24",
+   "index": true
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(2^{3})^{4}$",
+   "answer": "2^12",
+   "index": true
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(5^{2})^{4}$",
+   "answer": "5^8",
+   "index": true
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(6^{4})^{3}$",
+   "answer": "6^12",
+   "index": true
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(3^{7})^{2}$",
+   "answer": "3^14",
+   "index": true
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "expression",
+   "prompt": "$2(q^{5})^{3}$",
+   "answer": "2q^15",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "expression",
+   "prompt": "$5(m^{3})^{4}$",
+   "answer": "5m^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "expression",
+   "prompt": "$-2(c^{4})^{3}$",
+   "answer": "-2c^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Apply the index law for power of a power to simplify each of the following. Leave your answers in index form.",
+   "type": "expression",
+   "prompt": "$-6(a^{2})^{5}$",
+   "answer": "-6a^10",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$7^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$12^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$(-4)^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$(-8)^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$-(6^{0})$",
+   "answer": "-1"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{5}{8}\\right)^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$\\left(-\\frac{2}{9}\\right)^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$(3m)^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$4k^{0}$",
+   "answer": "4"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$-6p^{0}$",
+   "answer": "-6"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$8a^{0} - 3a^{0}$",
+   "answer": "5"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$-2n^{0} - (5n)^{0}$",
+   "answer": "-3"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$(2y^{5})^{0} + 4y^{0}$",
+   "answer": "5"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$2^{0} + 3^{0} + 4^{0}$",
+   "answer": "3"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$(3 + 4 + 5)^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Evaluate each of the following.",
+   "type": "numeric",
+   "prompt": "$50^{0} - b^{0}$",
+   "answer": "0"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$3 \\times (3^{4})^{2}$",
+   "answer": "3^9",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$(5^{3})^{2} \\times 5$",
+   "answer": "5^7",
+   "index": true
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$m \\times (m^{0})^{4}$",
+   "answer": "m",
+   "index": true
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$k^{2} \\times (k^{3})^{4}$",
+   "answer": "k^14",
+   "index": true
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$b^{4} \\times (b^{2})^{3}$",
+   "answer": "b^10",
+   "index": true
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$(a^{3})^{2} \\times a^{5}$",
+   "answer": "a^11",
+   "index": true
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$(d^{2})^{5} \\times (d^{3})^{4}$",
+   "answer": "d^22",
+   "index": true
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$(g^{4})^{3} \\times (g)^{5}$",
+   "answer": "g^17",
+   "index": true
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$z^{2} \\times (z^{4})^{2} \\times (z^{3})^{4}$",
+   "answer": "z^22",
+   "index": true
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$a^{2}c \\times (a^{3})^{2} \\times (c^{2})^{4}$",
+   "answer": "a^8c^9",
+   "index": true
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "powers",
+   "prompt": "$p^{2}q \\times (p^{3})^{4} \\times (q^{2})^{3}$",
+   "answer": "p^14q^7",
+   "index": true
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by combining the index laws.",
+   "type": "expression",
+   "prompt": "$(s^{3})^{2} \\times 4(r^{0})^{5} \\times rs^{3}$",
+   "answer": "4rs^9",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$5^{9} \\div (5^{2})^{3}$",
+   "answer": "5^3",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$(6^{3})^{4} \\div 6^{7}$",
+   "answer": "6^5",
+   "index": true
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$(2^{5})^{3} \\div (2^{4})^{2}$",
+   "answer": "2^7",
+   "index": true
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "numeric",
+   "prompt": "$(n^{4})^{3} \\div (n^{2})^{6}$",
+   "answer": "1"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$(w^{4})^{5} \\div (w^{3})^{6}$",
+   "answer": "w^2",
+   "index": true
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$(h^{7})^{3} \\div (h^{4})^{4}$",
+   "answer": "h^5",
+   "index": true
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\frac{(b^{3})^{4}}{b^{7}}$",
+   "answer": "b^5",
+   "index": true
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\frac{(g^{5})^{3}}{g^{9}}$",
+   "answer": "g^6",
+   "index": true
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\frac{(u^{2})^{5}}{u^{2}}$",
+   "answer": "u^8",
+   "index": true
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{4a^{3} \\times 5a^{4}}{10a^{9}}$",
+   "answer": "2/a^2",
+   "form": "simplified",
+   "hint": "Type a fraction with /, for example 3/a^4 or 2a^3b/5."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{6m^{6} \\times 2m^{3}}{4m^{7}}$",
+   "answer": "3m^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{18(k^{3})^{5}}{6(k^{3})^{2}}$",
+   "answer": "3k^9",
+   "form": "simplified"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{6(c^{3})^{4} \\times (d^{5})^{2}}{9(c^{2})^{5} \\times d^{8}}$",
+   "answer": "2c^2d^2/3",
+   "form": "simplified",
+   "accept": [
+    "(2c^2d^2)/3"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{10(p^{4})^{2}(q^{3})^{5}}{15(p^{6})^{0}(q^{2})^{6}}$",
+   "answer": "2p^8q^3/3",
+   "form": "simplified",
+   "accept": [
+    "(2p^8q^3)/3"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following using the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{3(a^{2})^{5}(b^{3})^{4}}{12(a^{4})^{0}(b^{5})^{2}}$",
+   "answer": "a^10b^2/4",
+   "form": "simplified",
+   "accept": [
+    "(a^10b^2)/4"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "Find the number of rabbits when $t = 3$.",
+   "answer": "480"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "Find the number of rabbits when $t = 7$.",
+   "answer": "7680"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "Find the number of rabbits when $t = 0$.",
+   "answer": "60"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "Find the number of rabbits at the start of $2019$.",
+   "answer": "960"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "Find the number of rabbits at the start of $2023$.",
+   "answer": "15360"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "Find the number of rabbits at the start of $2027$.",
+   "answer": "245760"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Problem-solving",
+   "stem": "There are $60$ rabbits on a farm at the start of the year 2015. The number of rabbits, $N$, after $t$ years (from the start of 2015) is given by the rule $N = 60 \\times 2^{t}$.",
+   "type": "numeric",
+   "prompt": "How many years will it take for the number of rabbits to first rise above $1\\,000\\,000$? Give a whole number of years.",
+   "answer": "15",
+   "units": "years"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "If $m$ and $n$ are positive whole numbers, in how many ways can $(a^{m})^{n} = a^{18}$? (Count $m = 2, n = 9$ and $m = 9, n = 2$ as different ways.)",
+   "answer": "6"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without using a calculator.",
+   "type": "numeric",
+   "prompt": "$(3^{2})^{5} \\div 3^{8}$",
+   "answer": "9"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without using a calculator.",
+   "type": "numeric",
+   "prompt": "$(10^{4})^{5} \\div 10^{17}$",
+   "answer": "1000"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without using a calculator.",
+   "type": "numeric",
+   "prompt": "$(a^{5})^{6} \\div a^{30}$",
+   "answer": "1"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without using a calculator.",
+   "type": "numeric",
+   "prompt": "$((-1)^{7})^{3} \\times ((-1)^{4})^{5}$",
+   "answer": "-1"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without using a calculator.",
+   "type": "numeric",
+   "prompt": "$-3((-2)^{2})^{5} \\div (-2)^{7}$",
+   "answer": "24"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Problem-solving",
+   "stem": "Evaluate these without using a calculator.",
+   "type": "numeric",
+   "prompt": "$\\frac{(m^{3})^{4}}{(n^{5})^{3}} \\times \\frac{(n^{3})^{5}}{(m^{2})^{6}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "Each of these working steps contains an error. Give the correct answer.",
+   "type": "powers",
+   "prompt": "$(b^{3})^{6} = b^{9}$",
+   "answer": "b^18",
+   "index": true
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "Each of these working steps contains an error. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$2(m^{4})^{3} = 8m^{12}$",
+   "answer": "2m^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "Each of these working steps contains an error. Give the correct answer.",
+   "type": "numeric",
+   "prompt": "$(5k)^{0} = 5$",
+   "answer": "1"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$((3^{2})^{3})^{4}$",
+   "answer": "3^24",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
+   "type": "text",
+   "prompt": "$(((-3)^{3})^{2})^{5}$",
+   "answer": "(-3)^30",
+   "accept": [
+    "3^30"
+   ],
+   "hint": "Type your answer like (-5)^12 or 5^12."
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$((k^{5})^{3})^{2}$",
+   "answer": "k^30",
+   "index": true
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Simplify these by first working with the inner brackets. Leave your answers in index form.",
+   "type": "powers",
+   "prompt": "$(((b^{3})^{2})^{2})^{3}$",
+   "answer": "b^36",
+   "index": true
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type an index that is an expression in brackets, for example 2^(ab).",
+   "type": "expression",
+   "prompt": "$((3^{a})^{b})^{c}$",
+   "answer": "3^(abc)",
+   "form": "simplified"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type an index that is an expression in brackets, for example 2^(ab).",
+   "type": "expression",
+   "prompt": "$((k^{m})^{n})^{p}$",
+   "answer": "k^(mnp)",
+   "form": "simplified"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Reasoning",
+   "stem": "Simplify these expressions. Type an index that is an expression in brackets, for example 2^(ab).",
+   "type": "expression",
+   "prompt": "$(m^{3a})^{2b}$",
+   "answer": "m^(6ab)",
+   "form": "simplified"
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Simplify $\\frac{6a^{3}b}{3ab^{2}} \\div \\frac{8a^{4}b^{5}}{4a^{2}b^{6}}$ fully.",
+   "answer": "1"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$4^{5}$",
+   "answer": "2^10",
+   "index": true,
+   "hint": "Type powers with ^, for example 5^9 or a^4b^2."
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$27^{4}$",
+   "answer": "3^12",
+   "index": true
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$25^{3}$",
+   "answer": "5^6",
+   "index": true
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$16^{5}$",
+   "answer": "2^20",
+   "index": true
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$49^{4}$",
+   "answer": "7^8",
+   "index": true
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$81^{6}$",
+   "answer": "3^24",
+   "index": true
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$128^{3}$",
+   "answer": "2^21",
+   "index": true
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$625^{5}$",
+   "answer": "5^20",
+   "index": true
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "The base of a number in index form can be changed using the power of a power law, for example $8^2 = (2^3)^2 = 2^6$. Change the base and simplify each of the following, using the smallest possible whole-number base.",
+   "type": "powers",
+   "prompt": "$1000^{6}$",
+   "answer": "10^18",
+   "index": true
+  }
+ ]
+},
+{
+ "id": "y9-6d",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6D Index laws for brackets and fractions",
+ "description": "Expand brackets and fractions raised to a power, and simplify using all the index laws.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(3k)^{2}$",
+   "answer": "9k^2",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(2a)^{5}$",
+   "answer": "32a^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(-4r)^{2}$",
+   "answer": "16r^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$-(2b)^{4}$",
+   "answer": "-16b^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$-(5m)^{3}$",
+   "answer": "-125m^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(-3h^{3})^{2}$",
+   "answer": "9h^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(2c^{3}d^{2})^{4}$",
+   "answer": "16c^12d^8",
+   "form": "simplified"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(3a^{2}b^{4})^{3}$",
+   "answer": "27a^6b^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$4(p^{3}q^{5})^{2}$",
+   "answer": "4p^6q^10",
+   "form": "simplified"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "numeric",
+   "prompt": "$(7t^{3}u^{5}v^{2})^{0}$",
+   "answer": "1"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$-3(p^{2}qr^{4})^{3}$",
+   "answer": "-3p^6q^3r^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Expand each of the following using the index law for brackets.",
+   "type": "expression",
+   "prompt": "$(-2s^{4}t)^{5}$",
+   "answer": "-32s^20t^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$m(4n)^{2}$",
+   "answer": "16mn^2",
+   "form": "simplified",
+   "hint": "Type powers with ^, for example 12a^5b^2."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$a(2b^{3})^{4}$",
+   "answer": "16ab^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$-2(3a^{2}b^{3})^{2}a^{3}$",
+   "answer": "-18a^7b^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$3(2m^{3}n^{2})^{3}$",
+   "answer": "24m^9n^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$(-3a^{3}c^{2}d)^{3}$",
+   "answer": "-27a^9c^6d^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$k(3k)^{2}$",
+   "answer": "9k^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$a(2a^{3})^{3}$",
+   "answer": "8a^10",
+   "form": "simplified"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$4a^{2}(-3a^{3}b)^{2}$",
+   "answer": "36a^8b^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$-2(-m^{2}pq^{3})^{4}$",
+   "answer": "-2m^8p^4q^12",
+   "form": "simplified"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$-(-4c^{3}d^{2}g)^{2}$",
+   "answer": "-16c^6d^4g^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$-3(-2^{2}m^{3}n^{2})^{3}$",
+   "answer": "192m^9n^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$-2a^{3}b^{2}(-3a^{2}b^{4})^{2}$",
+   "answer": "-18a^7b^10",
+   "form": "simplified"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "powers",
+   "prompt": "$(a^{3}b)^{2} \\times (ab^{3})^{3}$",
+   "answer": "a^9b^11",
+   "index": true
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{(3m^{2}n)^{3}}{m^{5}}$",
+   "answer": "27mn^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Simplify each of the following by applying the index laws.",
+   "type": "expression",
+   "prompt": "$\\frac{2(3^{2}c^{3}d^{4})^{3}}{(3cd^{2})^{4}}$",
+   "answer": "18c^5d^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{a}{b}\\right)^{5}$",
+   "answer": "a^5/b^5",
+   "form": "simplified",
+   "accept": [
+    "(a^5)/b^5"
+   ],
+   "hint": "Type a fraction with /, putting a bottom with more than one factor in brackets, for example 8a^3/(27b^6)."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{m}{n}\\right)^{3}$",
+   "answer": "m^3/n^3",
+   "form": "simplified",
+   "accept": [
+    "(m^3)/n^3"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{3}{k}\\right)^{4}$",
+   "answer": "81/k^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{5}{r^{2}}\\right)^{2}$",
+   "answer": "25/r^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{s^{4}}{3}\\right)^{3}$",
+   "answer": "s^12/27",
+   "form": "simplified",
+   "accept": [
+    "(s^12)/27"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{3a}{b}\\right)^{4}$",
+   "answer": "81a^4/b^4",
+   "form": "simplified",
+   "accept": [
+    "(81a^4)/b^4"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{2m^{2}}{5n^{3}}\\right)^{2}$",
+   "answer": "4m^4/(25n^6)",
+   "form": "simplified",
+   "accept": [
+    "(4m^4)/(25n^6)"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{-3t}{m}\\right)^{3}$",
+   "answer": "-27t^3/m^3",
+   "form": "simplified",
+   "accept": [
+    "-(27t^3)/m^3"
+   ]
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{-2f}{3^{2}g^{4}}\\right)^{2}$",
+   "answer": "4f^2/(81g^8)",
+   "form": "simplified",
+   "accept": [
+    "(4f^2)/(81g^8)"
+   ]
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{-2k}{3m^{2}n^{4}}\\right)^{3}$",
+   "answer": "-8k^3/(27m^6n^12)",
+   "form": "simplified",
+   "accept": [
+    "-(8k^3)/(27m^6n^12)"
+   ]
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{2ab^{2}}{5c^{3}}\\right)^{3}$",
+   "answer": "8a^3b^6/(125c^9)",
+   "form": "simplified",
+   "accept": [
+    "(8a^3b^6)/(125c^9)"
+   ]
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Apply the index law for fractions to expand the following.",
+   "type": "expression",
+   "prompt": "$-\\left(\\frac{-4a^{3}b}{3c^{2}}\\right)^{2}$",
+   "answer": "-16a^6b^2/(9c^4)",
+   "form": "simplified",
+   "accept": [
+    "-(16a^6b^2)/(9c^4)"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{a^{3}}{b}\\right)^{2} \\times \\frac{3a}{b^{3}}$",
+   "answer": "3a^7/b^5",
+   "form": "simplified",
+   "accept": [
+    "(3a^7)/b^5"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{m^{2}n}{c}\\right)^{3} \\times \\left(\\frac{n^{2}}{c}\\right)^{2}$",
+   "answer": "m^6n^7/c^5",
+   "form": "simplified",
+   "accept": [
+    "(m^6n^7)/c^5"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{pq^{2}}{r^{3}}\\right)^{2} \\times \\left(\\frac{p^{0}q^{3}}{r}\\right)^{3}$",
+   "answer": "p^2q^13/r^9",
+   "form": "simplified",
+   "accept": [
+    "(p^2q^13)/r^9"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\left(\\frac{a^{2}b}{c}\\right)^{4} \\times \\left(\\frac{ac^{3}}{b}\\right)^{2}$",
+   "answer": "a^10b^2c^2",
+   "index": true
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\left(\\frac{a^{2}c}{b}\\right)^{3} \\times \\left(\\frac{ab^{2}}{c}\\right)^{2}$",
+   "answer": "a^8bc",
+   "index": true
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Simplify each of the following.",
+   "type": "powers",
+   "prompt": "$\\left(\\frac{r^{2}s}{t}\\right)^{3} \\div \\left(\\frac{s}{rt^{2}}\\right)^{2}$",
+   "answer": "r^8st",
+   "index": true
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "numeric",
+   "prompt": "Find the number of germinating seeds after $6$ days.",
+   "answer": "8"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "numeric",
+   "prompt": "Find the number of germinating seeds after $12$ days.",
+   "answer": "64"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "expression",
+   "prompt": "Use the index law for fractions to rewrite the rule without brackets. Type the right-hand side: $N = \\, ?$",
+   "answer": "t^3/27",
+   "form": "simplified",
+   "hint": "For example, type t^2/16."
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the number of seeds germinating after $9$ days.",
+   "answer": "27"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "numeric",
+   "prompt": "Use your rule to find the number of seeds germinating after $15$ days.",
+   "answer": "125"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "numeric",
+   "prompt": "Find the number of days needed for $216$ seeds to germinate.",
+   "answer": "18",
+   "units": "days"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "The number of seeds germinating in a garden bed over three weeks is given by the rule $N = \\left(\\frac{t}{3}\\right)^{3}$, where $N$ is the number of germinating seeds and $t$ is the number of days.",
+   "type": "numeric",
+   "prompt": "Find the number of days needed for $1$ seed to germinate.",
+   "answer": "3",
+   "units": "days"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{a}{4}\\right)^{2} = \\frac{9}{16}$",
+   "answer": "3"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{a}{3}\\right)^{4} = 16$",
+   "answer": "6"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
+   "type": "numeric",
+   "prompt": "$(4a)^{3} = 512$",
+   "answer": "2"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
+   "type": "numeric",
+   "prompt": "$(3a)^{2} = 144$",
+   "answer": "4"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3a}{5}\\right)^{2} = \\frac{36}{25}$",
+   "answer": "2"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Find the value of $a$ that makes each equation true, given $a > 0$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{2a}{5}\\right)^{3} = 216$",
+   "answer": "15"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
+   "type": "choice",
+   "prompt": "$(-3m)^{2} = -(3m)^{2}$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
+   "type": "choice",
+   "prompt": "$(-2m)^{5} = -(2m)^{5}$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
+   "type": "choice",
+   "prompt": "$\\left(\\frac{-4}{k}\\right)^{3} = -\\left(\\frac{4}{k}\\right)^{3}$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "Decide whether each statement is true or false (for every value of the letter, except where it makes a bottom zero).",
+   "type": "choice",
+   "prompt": "$\\left(\\frac{-2}{k}\\right)^{6} = -\\left(\\frac{2}{k}\\right)^{6}$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
+   "type": "numeric",
+   "prompt": "$\\frac{8^{3}}{4^{3}}$",
+   "answer": "8"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
+   "type": "numeric",
+   "prompt": "$\\frac{15^{4}}{5^{4}}$",
+   "answer": "81"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
+   "type": "numeric",
+   "prompt": "$\\frac{6^{4}}{18^{4}}$",
+   "answer": "1/81",
+   "hint": "Type a fraction like 3/8."
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Rather than working out $\\frac{3^4}{6^4}$ as $\\frac{81}{1296}$, it is easier to write $\\frac{3^4}{6^4} = \\left(\\frac{3}{6}\\right)^4 = \\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$. Use this idea to evaluate these without a calculator.",
+   "type": "numeric",
+   "prompt": "$\\frac{4^{3}}{20^{3}}$",
+   "answer": "1/125"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Enrichment",
+   "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
+   "type": "numeric",
+   "prompt": "Using $a = 3$ and $b = 4$, evaluate $(a + b)^2$.",
+   "answer": "49"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Enrichment",
+   "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
+   "type": "numeric",
+   "prompt": "Using $a = 3$ and $b = 4$, evaluate $a^2 + b^2$.",
+   "answer": "25"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Enrichment",
+   "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
+   "type": "choice",
+   "prompt": "Is the equation $(a + b)^2 = a^2 + b^2$ true for all values of $a$ and $b$?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Enrichment",
+   "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
+   "type": "ordered",
+   "prompt": "Using $a = 5$ and $b = 2$, evaluate $(a - b)^2$ and $a^2 - b^2$. Type both values, in that order.",
+   "answer": [
+    "9",
+    "21"
+   ],
+   "hint": "Separate the two values with a comma."
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Enrichment",
+   "stem": "Consider the equation $(a + b)^2 = a^2 + b^2$.",
+   "type": "choice",
+   "prompt": "So is $(a - b)^2 = a^2 - b^2$ true for all values of $a$ and $b$?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Enrichment",
+   "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
+   "type": "choice",
+   "prompt": "$(-ab)^{2} = a^{2}b^{2}$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Enrichment",
+   "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
+   "type": "choice",
+   "prompt": "$-(ab)^{2} = a^{2}b^{2}$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Enrichment",
+   "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
+   "type": "choice",
+   "prompt": "$\\left(\\frac{-a}{b}\\right)^{3} = \\frac{-a^{3}}{b^{3}}$",
+   "answer": 0,
+   "options": [
+    "True",
+    "False"
+   ]
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Enrichment",
+   "stem": "Decide whether each equation is true or false for all values of $a$ and $b$ (with $b \\neq 0$ where $b$ is on the bottom).",
+   "type": "choice",
+   "prompt": "$\\left(\\frac{-a}{b}\\right)^{4} = \\frac{-a^{4}}{b^{4}}$",
+   "answer": 1,
+   "options": [
+    "True",
+    "False"
+   ]
+  }
+ ]
+},
+{
+ "id": "y9-6e",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6E Negative indices",
+ "description": "Write expressions with positive indices, evaluate numbers with negative indices and solve simple index equations.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$k^{-3}$",
+   "answer": "1/k^3",
+   "form": "simplified",
+   "hint": "Type a fraction with /, for example 3/m^4, a^2/b^5 or 1/(2a^3b)."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$a^{-7}$",
+   "answer": "1/a^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$b^{-2}$",
+   "answer": "1/b^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "numeric",
+   "prompt": "$4^{-2}$",
+   "answer": "1/16",
+   "hint": "For a number, give its value as a fraction, for example 1/9."
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "numeric",
+   "prompt": "$3^{-3}$",
+   "answer": "1/27"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "numeric",
+   "prompt": "$8^{-1}$",
+   "answer": "1/8"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$3m^{-4}$",
+   "answer": "3/m^4",
+   "form": "simplified"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$6k^{-2}$",
+   "answer": "6/k^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$2w^{-7}$",
+   "answer": "2/w^7",
+   "form": "simplified"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$a^{5}b^{-3}$",
+   "answer": "a^5/b^3",
+   "form": "simplified",
+   "accept": [
+    "(a^5)/b^3"
+   ]
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$cd^{-6}$",
+   "answer": "c/d^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$g^{3}h^{-2}$",
+   "answer": "g^3/h^2",
+   "form": "simplified",
+   "accept": [
+    "(g^3)/h^2"
+   ]
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$5a^{-2}b^{-4}$",
+   "answer": "5/(a^2b^4)",
+   "form": "simplified"
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$4r^{-5}s^{-1}$",
+   "answer": "4/(r^5s)",
+   "form": "simplified"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$3^{-1}u^{-4}v^{5}$",
+   "answer": "v^5/(3u^4)",
+   "form": "simplified",
+   "accept": [
+    "(v^5)/(3u^4)"
+   ]
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "Express each of the following with positive indices only.",
+   "type": "expression",
+   "prompt": "$2^{-3}m^{-2}n^{-4}$",
+   "answer": "1/(8m^2n^4)",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{k^{-1}}$",
+   "answer": "k",
+   "form": "simplified",
+   "hint": "Type a fraction with /, for example 3/m^4, a^2/b^5 or 1/(2a^3b)."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{b^{-3}}$",
+   "answer": "b^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{m^{-6}}$",
+   "answer": "m^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{n^{-5}}$",
+   "answer": "n^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{4}{q^{-1}}$",
+   "answer": "4q",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{t^{-3}}$",
+   "answer": "5t^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{2}{h^{-6}}$",
+   "answer": "2h^6",
+   "form": "simplified"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{9}{p^{-2}}$",
+   "answer": "9p^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{m}{n^{-3}}$",
+   "answer": "mn^3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{c}{d^{-1}}$",
+   "answer": "cd",
+   "form": "simplified"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{3a^{4}}{b^{-2}}$",
+   "answer": "3a^4b^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{k^{3}}{5m^{-4}}$",
+   "answer": "k^3m^4/5",
+   "form": "simplified",
+   "accept": [
+    "(k^3m^4)/5"
+   ]
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{-5}{6w^{-3}}$",
+   "answer": "-5w^3/6",
+   "form": "simplified",
+   "accept": [
+    "-(5w^3)/6"
+   ]
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{-4}{c^{-5}}$",
+   "answer": "-4c^5",
+   "form": "simplified"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{-2g}{9h^{-5}}$",
+   "answer": "-2gh^5/9",
+   "form": "simplified",
+   "accept": [
+    "-(2gh^5)/9"
+   ]
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{(-2u)^{4}}{3t^{-3}}$",
+   "answer": "16t^3u^4/3",
+   "form": "simplified",
+   "accept": [
+    "(16t^3u^4)/3"
+   ]
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{a^{-3}b^{2}}$",
+   "answer": "5a^3/b^2",
+   "form": "simplified",
+   "accept": [
+    "(5a^3)/b^2"
+   ],
+   "hint": "Type a fraction with /, for example 3/m^4, a^2/b^5 or 1/(2a^3b)."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{1}{m^{-4}n^{5}}$",
+   "answer": "m^4/n^5",
+   "form": "simplified",
+   "accept": [
+    "(m^4)/n^5"
+   ]
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{b^{-2}4^{-1}}{c^{-5}}$",
+   "answer": "c^5/(4b^2)",
+   "form": "simplified",
+   "accept": [
+    "(c^5)/(4b^2)"
+   ]
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{3m^{-2}}{n^{-4}p^{3}}$",
+   "answer": "3n^4/(m^2p^3)",
+   "form": "simplified",
+   "accept": [
+    "(3n^4)/(m^2p^3)"
+   ]
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{4a^{3}c^{-2}}{7b^{-3}d}$",
+   "answer": "4a^3b^3/(7c^2d)",
+   "form": "simplified",
+   "accept": [
+    "(4a^3b^3)/(7c^2d)"
+   ]
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{3^{-1}g^{2}k^{-3}}{2^{-1}m^{-4}n}$",
+   "answer": "2g^2m^4/(3k^3n)",
+   "form": "simplified",
+   "accept": [
+    "(2g^2m^4)/(3k^3n)"
+   ]
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{5r^{-2}s^{-3}}{2^{-1}u^{3}w^{-4}}$",
+   "answer": "10w^4/(r^2s^3u^3)",
+   "form": "simplified",
+   "accept": [
+    "(10w^4)/(r^2s^3u^3)"
+   ]
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{3^{-1}a^{3}b^{-4}}{3c^{-2}d^{-5}}$",
+   "answer": "a^3c^2d^5/(9b^4)",
+   "form": "simplified",
+   "accept": [
+    "(a^3c^2d^5)/(9b^4)"
+   ]
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{m^{-4}}{n^{-4}}$",
+   "answer": "n^4/m^4",
+   "form": "simplified",
+   "accept": [
+    "(n^4)/m^4"
+   ],
+   "hint": "Type a fraction with /, for example 3/m^4, a^2/b^5 or 1/(2a^3b)."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{a^{-3}}{b^{-6}}$",
+   "answer": "b^6/a^3",
+   "form": "simplified",
+   "accept": [
+    "(b^6)/a^3"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{c^{-5}}{d^{-2}}$",
+   "answer": "d^2/c^5",
+   "form": "simplified",
+   "accept": [
+    "(d^2)/c^5"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices only.",
+   "type": "expression",
+   "prompt": "$\\frac{p^{-1}}{q^{-1}}$",
+   "answer": "q/p",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices, then evaluate.",
+   "type": "numeric",
+   "prompt": "$\\frac{3^{-1}}{5^{-2}}$",
+   "answer": "25/3",
+   "hint": "Give the value as a whole number or a fraction, for example 1/9 or -5/8."
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices, then evaluate.",
+   "type": "numeric",
+   "prompt": "$\\frac{2^{-3}}{3^{-2}}$",
+   "answer": "9/8"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices, then evaluate.",
+   "type": "numeric",
+   "prompt": "$\\frac{4^{-2}}{5^{-1}}$",
+   "answer": "5/16"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Express each of the following using positive indices, then evaluate.",
+   "type": "numeric",
+   "prompt": "$\\frac{3^{-3}}{6^{-2}}$",
+   "answer": "4/3"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$4^{-1}$",
+   "answer": "1/4",
+   "hint": "Give the value as a whole number or a fraction, for example 1/9 or -5/8."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$2^{-3}$",
+   "answer": "1/8"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$(-3)^{-2}$",
+   "answer": "1/9"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$-4^{-2}$",
+   "answer": "-1/16"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$3 \\times 10^{-2}$",
+   "answer": "3/100"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$-7 \\times 10^{-3}$",
+   "answer": "-7/1000"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$-5 \\times 3^{-2}$",
+   "answer": "-5/9"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$12 \\times (3^{2})^{-1}$",
+   "answer": "4/3"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$5^{3} \\times 5^{-5}$",
+   "answer": "1/25"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$4^{-5} \\times (4^{2})^{2}$",
+   "answer": "1/4"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$(5^{2})^{-1} \\times (3^{-1})^{-2}$",
+   "answer": "9/25"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$(3^{-2})^{2} \\times (4^{-1})^{-1}$",
+   "answer": "4/81"
+  },
+  {
+   "id": "q5m",
+   "label": "5m",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{6^{-1}}$",
+   "answer": "6"
+  },
+  {
+   "id": "q5n",
+   "label": "5n",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{1}{10^{-3}}$",
+   "answer": "1000"
+  },
+  {
+   "id": "q5o",
+   "label": "5o",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{-3}{4^{-2}}$",
+   "answer": "-48"
+  },
+  {
+   "id": "q5p",
+   "label": "5p",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{5}{2^{-3}}$",
+   "answer": "40"
+  },
+  {
+   "id": "q5q",
+   "label": "5q",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{-7}{3^{-1}}$",
+   "answer": "-21"
+  },
+  {
+   "id": "q5r",
+   "label": "5r",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{2^{4}}{2^{-2}}$",
+   "answer": "64"
+  },
+  {
+   "id": "q5s",
+   "label": "5s",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{2}{5}\\right)^{-2}$",
+   "answer": "25/4"
+  },
+  {
+   "id": "q5t",
+   "label": "5t",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{-5}{2}\\right)^{-3}$",
+   "answer": "-8/125"
+  },
+  {
+   "id": "q5u",
+   "label": "5u",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{(-3)^{2}}{3^{-2}}$",
+   "answer": "81"
+  },
+  {
+   "id": "q5v",
+   "label": "5v",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{(3^{-1})^{3}}{3^{-5}}$",
+   "answer": "9"
+  },
+  {
+   "id": "q5w",
+   "label": "5w",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\frac{(-2^{-1})^{-3}}{(2^{-2})^{-2}}$",
+   "answer": "-1/2"
+  },
+  {
+   "id": "q5x",
+   "label": "5x",
+   "section": "Problem-solving",
+   "stem": "Evaluate without using a calculator. (Hint: first write each expression using positive indices.)",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3^{-2}}{5^{-1}}\\right)^{-1} \\times \\left(\\frac{5^{-1}}{3^{-1}}\\right)^{-2}$",
+   "answer": "5"
+  },
+  {
+   "id": "q6",
+   "label": "6",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "A grain of sand has a mass of $2^{-11}$ kg. How many grams is this? Round to two decimal places.",
+   "answer": "0.49",
+   "dp": 2,
+   "units": "g"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in these equations.",
+   "type": "numeric",
+   "prompt": "$3^{x} = \\frac{1}{27}$",
+   "answer": "-3"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in these equations.",
+   "type": "numeric",
+   "prompt": "$2^{x} = \\frac{1}{128}$",
+   "answer": "-7"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in these equations.",
+   "type": "numeric",
+   "prompt": "$(-2)^{x} = \\frac{1}{16}$",
+   "answer": "-4"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in these equations.",
+   "type": "numeric",
+   "prompt": "$(0.25)^{x} = 4$",
+   "answer": "-1"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in these equations.",
+   "type": "numeric",
+   "prompt": "$(0.2)^{x} = 125$",
+   "answer": "-3"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Find the value of $x$ in these equations.",
+   "type": "numeric",
+   "prompt": "$2(3^{2x}) = \\frac{2}{81}$",
+   "answer": "-2"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Each of these working steps contains an error. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$3m^{-2} = \\frac{1}{3m^{2}}$",
+   "answer": "3/m^2",
+   "form": "simplified",
+   "hint": "Type a fraction with /, for example 3/m^4, a^2/b^5 or 1/(2a^3b)."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Each of these working steps contains an error. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$\\frac{4}{k^{3}} = \\frac{k^{-3}}{4}$",
+   "answer": "4k^-3",
+   "accept": [
+    "4/k^3"
+   ],
+   "form": "simplified"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Each of these working steps contains an error. Give the correct answer.",
+   "type": "expression",
+   "prompt": "$\\frac{5}{(2c)^{-2}} = \\frac{5c^{2}}{4}$",
+   "answer": "20c^2",
+   "form": "simplified"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Consider the number $\\left(\\frac{4}{5}\\right)^{-1}$.",
+   "type": "ordered",
+   "prompt": "Complete this working: $\\left(\\frac{4}{5}\\right)^{-1} = \\frac{1}{\\frac{4}{5}} = 1 \\div \\square = 1 \\times \\square = \\frac{5}{4}$. Type the two missing fractions in order.",
+   "answer": [
+    "4/5",
+    "5/4"
+   ],
+   "hint": "Separate the two fractions with a comma, for example 2/3, 3/2."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Use the same method to simplify these.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{7}{3}\\right)^{-1}$",
+   "answer": "3/7"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "Use the same method to simplify these.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{2}{9}\\right)^{-1}$",
+   "answer": "9/2"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "Use the same method to simplify these.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{m}{4}\\right)^{-1}$",
+   "answer": "4/m",
+   "form": "simplified"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "Use the same method to simplify these.",
+   "type": "expression",
+   "prompt": "$\\left(\\frac{p}{q}\\right)^{-1}$",
+   "answer": "q/p",
+   "form": "simplified"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "What happens to a fraction when it is raised to the power $-1$?",
+   "answer": 2,
+   "options": [
+    "It becomes negative",
+    "It stays the same",
+    "It is turned upside down (it becomes its reciprocal)",
+    "It is halved"
+   ]
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Reasoning",
+   "stem": "Simplify these fractions.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3}{5}\\right)^{-2}$",
+   "answer": "25/9",
+   "hint": "Give the value as a whole number or a fraction, for example 1/9 or -5/8."
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Reasoning",
+   "stem": "Simplify these fractions.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{2}{7}\\right)^{-2}$",
+   "answer": "49/4"
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Reasoning",
+   "stem": "Simplify these fractions.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{1}{3}\\right)^{-4}$",
+   "answer": "81"
+  },
+  {
+   "id": "q9j",
+   "label": "9j",
+   "section": "Reasoning",
+   "stem": "Simplify these fractions.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{5}{2}\\right)^{-3}$",
+   "answer": "8/125"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$2^{x} = 64$",
+   "answer": "6"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$5^{x} = 125$",
+   "answer": "3"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{1}{3}\\right)^{x} = \\frac{1}{81}$",
+   "answer": "4"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{1}{6}\\right)^{x} = \\frac{1}{216}$",
+   "answer": "3"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{3}{4}\\right)^{x} = \\frac{27}{64}$",
+   "answer": "3"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$9^{2x} = 729$",
+   "answer": "3/2"
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$2^{x + 1} = 128$",
+   "answer": "6"
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Enrichment",
+   "stem": "To find $x$ in $2^x = 32$, write $32$ as a power of $2$: $2^x = 2^5$, so $x = 5$. Use this idea to solve these equations for $x$.",
+   "type": "numeric",
+   "prompt": "$3^{2x - 1} = 243$",
+   "answer": "3"
+  }
+ ]
+},
+{
+ "id": "y9-6f",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6F Scientific notation",
+ "description": "Write numbers in scientific notation and as basic numerals, including very large and very small measurements.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$52\\,000$",
+   "answer": "5.2 x 10^4",
+   "as": "scientific",
+   "hint": "Type scientific notation like 3.2 x 10^5 or 4.07 x 10^-3."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$4\\,100\\,000\\,000\\,000$",
+   "answer": "4.1 x 10^12",
+   "as": "scientific"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$27\\,000\\,000\\,000$",
+   "answer": "2.7 x 10^10",
+   "as": "scientific"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-6\\,300\\,000$",
+   "answer": "-6.3 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-4800$",
+   "answer": "-4.8 x 10^3",
+   "as": "scientific"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-9\\,100\\,000$",
+   "answer": "-9.1 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$37$ hundreds",
+   "answer": "3.7 x 10^3",
+   "as": "scientific"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$8$ million",
+   "answer": "8 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$64$ thousands",
+   "answer": "6.4 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,007$",
+   "answer": "7 x 10^-6",
+   "as": "scientific",
+   "hint": "Type scientific notation like 3.2 x 10^5 or 4.07 x 10^-3.",
+   "tolerance": 7e-13
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.0009$",
+   "answer": "9 x 10^-4",
+   "as": "scientific",
+   "tolerance": 9e-11
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-0.005\\,42$",
+   "answer": "-5.42 x 10^-3",
+   "as": "scientific"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,000\\,000\\,48$",
+   "answer": "4.8 x 10^-10",
+   "as": "scientific",
+   "tolerance": 4.8e-17
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-0.000\\,06$",
+   "answer": "-6 x 10^-5",
+   "as": "scientific",
+   "tolerance": 6e-12
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,000\\,003\\,17$",
+   "answer": "3.17 x 10^-9",
+   "as": "scientific",
+   "tolerance": 3.2e-16
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-0.000\\,000\\,002\\,06$",
+   "answer": "-2.06 x 10^-9",
+   "as": "scientific",
+   "tolerance": 2.1e-16
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,000\\,057$",
+   "answer": "5.7 x 10^-8",
+   "as": "scientific",
+   "tolerance": 5.7e-15
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Write the following using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,061\\,8$",
+   "answer": "6.18 x 10^-5",
+   "as": "scientific",
+   "tolerance": 6.2e-12
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$9000$",
+   "answer": "9 x 10^3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$450\\,000$",
+   "answer": "4.5 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$517.3$",
+   "answer": "5.173 x 10^2",
+   "as": "scientific"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$4392.06$",
+   "answer": "4.39206 x 10^3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$6283.17$",
+   "answer": "6.28317 x 10^3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.6$",
+   "answer": "6 x 10^-1",
+   "as": "scientific"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,714$",
+   "answer": "7.14 x 10^-4",
+   "as": "scientific",
+   "tolerance": 7.1e-11
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.004\\,53$",
+   "answer": "4.53 x 10^-3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-0.000\\,08$",
+   "answer": "-8 x 10^-5",
+   "as": "scientific",
+   "tolerance": 8e-12
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-380\\,200\\,000$",
+   "answer": "-3.802 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$28\\,351$",
+   "answer": "2.8351 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Write each of the following numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$-256$",
+   "answer": "-2.56 x 10^2",
+   "as": "scientific"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$6.2 \\times 10^{4}$",
+   "answer": "62000"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$4.8 \\times 10^{6}$",
+   "answer": "4800000"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$2.9 \\times 10^{8}$",
+   "answer": "290000000"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$5.13 \\times 10^{7}$",
+   "answer": "51300000"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$3.67 \\times 10^{5}$",
+   "answer": "367000"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$8.02 \\times 10^{10}$",
+   "answer": "80200000000"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$2.45 \\times 10^{8}$",
+   "answer": "245000000"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$6.08 \\times 10^{2}$",
+   "answer": "608"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$7.249 \\times 10^{5}$",
+   "answer": "724900"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$3.7 \\times 10^{-4}$",
+   "answer": "0.00037",
+   "tolerance": 3.7e-11
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$5.2 \\times 10^{-6}$",
+   "answer": "0.0000052",
+   "tolerance": 5.2e-13
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$6 \\times 10^{-10}$",
+   "answer": "0.0000000006",
+   "tolerance": 6e-17
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$4.71 \\times 10^{-5}$",
+   "answer": "0.0000471",
+   "tolerance": 4.7e-12
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$2.913 \\times 10^{-1}$",
+   "answer": "0.2913"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$8.45 \\times 10^{-7}$",
+   "answer": "0.000000845",
+   "tolerance": 8.4e-14
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$7 \\times 10^{-5}$",
+   "answer": "0.00007",
+   "tolerance": 7e-12
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$3 \\times 10^{-2}$",
+   "answer": "0.03"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Express each of the following in decimal form (as a basic numeral).",
+   "type": "numeric",
+   "prompt": "$2 \\times 10^{-1}$",
+   "answer": "0.2"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "The mass of Jupiter is about $1\\,900\\,000\\,000\\,000\\,000\\,000\\,000\\,000\\,000$ kg.",
+   "answer": "1.9 x 10^27",
+   "as": "scientific"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "The diameter of Jupiter is about $140\\,000\\,000$ m.",
+   "answer": "1.4 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "The diameter of a hydrogen atom is about $0.000\\,000\\,000\\,1$ m.",
+   "answer": "1 x 10^-10",
+   "as": "scientific",
+   "tolerance": 1e-17
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "The average distance from Earth to Mars is about $225\\,000\\,000$ km.",
+   "answer": "2.25 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "A human hair is about $0.000\\,08$ m thick.",
+   "answer": "8 x 10^-5",
+   "as": "scientific",
+   "tolerance": 8e-12
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "A camera flash lasts about $0.0002$ seconds.",
+   "answer": "2 x 10^-4",
+   "as": "scientific",
+   "tolerance": 2e-11
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Express each of these approximate numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "Earth is about $4\\,540\\,000\\,000$ years old.",
+   "answer": "4.54 x 10^9",
+   "as": "scientific"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Express each of these numbers in decimal form.",
+   "type": "numeric",
+   "prompt": "Saturn is about $1.2 \\times 10^{9}$ km from Earth.",
+   "answer": "1200000000"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Express each of these numbers in decimal form.",
+   "type": "numeric",
+   "prompt": "Scientists estimate there are about $2 \\times 10^{16}$ ants on Earth.",
+   "answer": "20000000000000000"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Express each of these numbers in decimal form.",
+   "type": "numeric",
+   "prompt": "The Sun is about $1.5 \\times 10^{8}$ km from Earth.",
+   "answer": "150000000"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Express each of these numbers in decimal form.",
+   "type": "numeric",
+   "prompt": "A sheet of paper is about $1 \\times 10^{-4}$ m thick.",
+   "answer": "0.0001",
+   "tolerance": 1e-11
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Express each of these numbers in decimal form.",
+   "type": "numeric",
+   "prompt": "A small virus is about $1.2 \\times 10^{-7}$ m across.",
+   "answer": "0.00000012",
+   "tolerance": 1.2e-14
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Express each of these numbers in decimal form.",
+   "type": "numeric",
+   "prompt": "The population of a town is $4.6 \\times 10^{4}$.",
+   "answer": "46000"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$735$ milliseconds (seconds)",
+   "answer": "7.35 x 10^-1",
+   "as": "scientific"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$0.64$ milliseconds (seconds)",
+   "answer": "6.4 x 10^-4",
+   "as": "scientific",
+   "tolerance": 6.4e-11
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$3.8$ microseconds (seconds)",
+   "answer": "3.8 x 10^-6",
+   "as": "scientific",
+   "tolerance": 3.8e-13
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$0.047$ microseconds (seconds)",
+   "answer": "4.7 x 10^-8",
+   "as": "scientific",
+   "tolerance": 4.7e-15
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$9$ nanoseconds (seconds)",
+   "answer": "9 x 10^-9",
+   "as": "scientific",
+   "tolerance": 9e-16
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$256.3$ nanoseconds (seconds)",
+   "answer": "2.563 x 10^-7",
+   "as": "scientific",
+   "tolerance": 2.6e-14
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$7$ megabytes (bytes)",
+   "answer": "7 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$5$ terabytes (bytes)",
+   "answer": "5 x 10^12",
+   "as": "scientific"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$38$ gigalitres (litres)",
+   "answer": "3.8 x 10^10",
+   "as": "scientific"
+  },
+  {
+   "id": "q8j",
+   "label": "8j",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$0.271$ megalitres (litres)",
+   "answer": "2.71 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q8k",
+   "label": "8k",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$460$ picograms (grams)",
+   "answer": "4.6 x 10^-10",
+   "as": "scientific",
+   "tolerance": 4.6e-17
+  },
+  {
+   "id": "q8l",
+   "label": "8l",
+   "section": "Problem-solving",
+   "stem": "Write each of these using scientific notation in the unit given in brackets. Remember: milli $= 10^{-3}$, micro $= 10^{-6}$, nano $= 10^{-9}$, pico $= 10^{-12}$, mega $= 10^{6}$, giga $= 10^{9}$, tera $= 10^{12}$.",
+   "type": "numeric",
+   "prompt": "$0.9$ micrograms (grams)",
+   "answer": "9 x 10^-7",
+   "as": "scientific",
+   "tolerance": 9e-14
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "A city planning to host an international sports games predicted that staging the games would cost $\\$2.3$ billion ($\\$2.3 \\times 10^{9}$), not counting infrastructure. In fact, $\\$260$ million extra was spent on staging the games. Building and upgrading infrastructure cost $\\$915$ million. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "What was the actual cost of staging the games, in dollars?",
+   "answer": "2.56 x 10^9",
+   "as": "scientific"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "A city planning to host an international sports games predicted that staging the games would cost $\\$2.3$ billion ($\\$2.3 \\times 10^{9}$), not counting infrastructure. In fact, $\\$260$ million extra was spent on staging the games. Building and upgrading infrastructure cost $\\$915$ million. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "What was the total cost of staging the games and building the infrastructure, in dollars?",
+   "answer": "3.475 x 10^9",
+   "as": "scientific"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Two planets are $3.6 \\times 10^{8}$ km and $2.1 \\times 10^{9}$ km from their sun. What is the difference between these two distances, in kilometres? Give your answer in scientific notation.",
+   "answer": "1.74 x 10^9",
+   "as": "scientific"
+  },
+  {
+   "id": "q11",
+   "label": "11",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "Two particles weigh $3.17 \\times 10^{-2}$ g and $4.52 \\times 10^{-3}$ g. Find the difference in their weights, in grams, in scientific notation.",
+   "answer": "2.718 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$56 \\times 10^{3}$",
+   "answer": "5.6 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$27 \\times 10^{5}$",
+   "answer": "2.7 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$438 \\times 10^{2}$",
+   "answer": "4.38 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$6213 \\times 10^{2}$",
+   "answer": "6.213 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.42 \\times 10^{5}$",
+   "answer": "4.2 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.075 \\times 10^{3}$",
+   "answer": "7.5 x 10^1",
+   "as": "scientific"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.006 \\times 10^{8}$",
+   "answer": "6 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.000\\,52 \\times 10^{9}$",
+   "answer": "5.2 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q12i",
+   "label": "12i",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$74 \\times 10^{-3}$",
+   "answer": "7.4 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q12j",
+   "label": "12j",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$618 \\times 10^{-2}$",
+   "answer": "6.18 x 10^0",
+   "as": "scientific"
+  },
+  {
+   "id": "q12k",
+   "label": "12k",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$2047 \\times 10^{-6}$",
+   "answer": "2.047 x 10^-3",
+   "as": "scientific"
+  },
+  {
+   "id": "q12l",
+   "label": "12l",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$380\\,000 \\times 10^{-1}$",
+   "answer": "3.8 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q12m",
+   "label": "12m",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.05 \\times 10^{-3}$",
+   "answer": "5 x 10^-5",
+   "as": "scientific",
+   "tolerance": 5e-12
+  },
+  {
+   "id": "q12n",
+   "label": "12n",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.0007 \\times 10^{-2}$",
+   "answer": "7 x 10^-6",
+   "as": "scientific",
+   "tolerance": 7e-13
+  },
+  {
+   "id": "q12o",
+   "label": "12o",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.008\\,15 \\times 10^{-1}$",
+   "answer": "8.15 x 10^-4",
+   "as": "scientific",
+   "tolerance": 8.1e-11
+  },
+  {
+   "id": "q12p",
+   "label": "12p",
+   "section": "Reasoning",
+   "stem": "The number $47 \\times 10^{4}$ is not in scientific notation, because $47$ is not between $1$ and $10$. But $47 \\times 10^{4} = 4.7 \\times 10 \\times 10^{4} = 4.7 \\times 10^{5}$. Write these numbers using scientific notation.",
+   "type": "numeric",
+   "prompt": "$0.060\\,02 \\times 10^{-6}$",
+   "answer": "6.002 x 10^-8",
+   "as": "scientific",
+   "tolerance": 6e-15
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(4 \\times 10^{3})^{2}$",
+   "answer": "1.6 x 10^7",
+   "as": "scientific"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(2 \\times 10^{4})^{3}$",
+   "answer": "8 x 10^12",
+   "as": "scientific"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(1.5 \\times 10^{-2})^{2}$",
+   "answer": "2.25 x 10^-4",
+   "as": "scientific",
+   "tolerance": 2.2e-11
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(2.5 \\times 10^{-3})^{3}$",
+   "answer": "1.5625 x 10^-8",
+   "as": "scientific",
+   "tolerance": 1.6e-15
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(4 \\times 10^{-2})^{-2}$",
+   "answer": "6.25 x 10^2",
+   "as": "scientific"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(2 \\times 10^{-4})^{-2}$",
+   "answer": "2.5 x 10^7",
+   "as": "scientific"
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{1}{4} \\times 10^{3}\\right)^{-2}$",
+   "answer": "1.6 x 10^-5",
+   "as": "scientific",
+   "tolerance": 1.6e-12
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Reasoning",
+   "stem": "Use the index laws $(a^m)^n = a^{mn}$ and $(ab)^m = a^m b^m$ to simplify these numbers. Give each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{4}{5} \\times 10^{2}\\right)^{-1}$",
+   "answer": "1.25 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(4 \\times 10^{3}) \\times (2 \\times 10^{5})$",
+   "answer": "8 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(5 \\times 10^{4}) \\times (3 \\times 10^{6})$",
+   "answer": "1.5 x 10^11",
+   "as": "scientific"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(9 \\times 10^{7}) \\div (3 \\times 10^{2})$",
+   "answer": "3 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(8 \\times 10^{18}) \\div (2 \\times 10^{11})$",
+   "answer": "4 x 10^7",
+   "as": "scientific"
+  },
+  {
+   "id": "q14e",
+   "label": "14e",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(6 \\times 10^{3}) \\times (7 \\times 10^{2})$",
+   "answer": "4.2 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q14f",
+   "label": "14f",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(2.5 \\times 10^{4}) \\times (4 \\times 10^{3})$",
+   "answer": "1 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q14g",
+   "label": "14g",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(9 \\times 10^{5}) \\div (0.3 \\times 10^{2})$",
+   "answer": "3 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q14h",
+   "label": "14h",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(2.4 \\times 10^{7}) \\div (0.6 \\times 10^{3})$",
+   "answer": "4 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q14i",
+   "label": "14i",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(4 \\times 10^{-3}) \\times (2 \\times 10^{-6})$",
+   "answer": "8 x 10^-9",
+   "as": "scientific",
+   "tolerance": 8e-16
+  },
+  {
+   "id": "q14j",
+   "label": "14j",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(12 \\times 10^{-2}) \\div (4 \\times 10^{5})$",
+   "answer": "3 x 10^-7",
+   "as": "scientific",
+   "tolerance": 3e-14
+  },
+  {
+   "id": "q14k",
+   "label": "14k",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(6.3 \\times 10^{-4}) \\div (3 \\times 10^{3})$",
+   "answer": "2.1 x 10^-7",
+   "as": "scientific",
+   "tolerance": 2.1e-14
+  },
+  {
+   "id": "q14l",
+   "label": "14l",
+   "section": "Enrichment",
+   "stem": "Use index laws to simplify these and write each answer in scientific notation.",
+   "type": "numeric",
+   "prompt": "$(9.6 \\times 10^{-2}) \\div (1.2 \\times 10^{-2})$",
+   "answer": "8 x 10^0",
+   "as": "scientific",
+   "hint": "A number between 1 and 10 can be written like 8 x 10^0."
+  },
+  {
+   "id": "q15",
+   "label": "15",
+   "section": "Enrichment",
+   "type": "numeric",
+   "prompt": "Mars is about $2.25 \\times 10^{8}$ km from the Sun, and the speed of light is $3 \\times 10^{5}$ km/s. Use index laws to find how many seconds it takes for light to travel from the Sun to Mars.",
+   "answer": "750",
+   "units": "seconds"
+  },
+  {
+   "id": "q16a",
+   "label": "16a",
+   "section": "Enrichment",
+   "stem": "The speed of light is $3 \\times 10^{5}$ km/s.",
+   "type": "numeric",
+   "prompt": "How far, in kilometres, does light travel in one nanosecond ($1 \\times 10^{-9}$ seconds)? Answer in scientific notation.",
+   "answer": "3 x 10^-4",
+   "as": "scientific",
+   "tolerance": 3e-11
+  },
+  {
+   "id": "q16b",
+   "label": "16b",
+   "section": "Enrichment",
+   "stem": "The speed of light is $3 \\times 10^{5}$ km/s.",
+   "type": "numeric",
+   "prompt": "Convert your answer to part a into centimetres.",
+   "answer": "30",
+   "units": "cm"
+  },
+  {
+   "id": "q16c",
+   "label": "16c",
+   "section": "Enrichment",
+   "stem": "The speed of light is $3 \\times 10^{5}$ km/s.",
+   "type": "numeric",
+   "prompt": "How long, in seconds, does light take to travel $600$ kilometres?",
+   "answer": "0.002",
+   "units": "seconds"
+  }
+ ]
+},
+{
+ "id": "y9-6g",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6G Scientific notation using significant figures",
+ "description": "Count significant figures, round numbers in scientific notation and calculate with scientific notation.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$5283$",
+   "answer": "4"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$46$",
+   "answer": "2"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$0.027$",
+   "answer": "2"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$0.000\\,386$",
+   "answer": "3"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$2.6 \\times 10^{5}$",
+   "answer": "2"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$3.105 \\times 10^{-4}$",
+   "answer": "4"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$405$",
+   "answer": "3"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$3008$",
+   "answer": "4"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$50\\,207$",
+   "answer": "5"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$83$",
+   "answer": "2"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$0.0264$",
+   "answer": "3"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$0.7$",
+   "answer": "1"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$0.903$",
+   "answer": "3"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$0.002\\,07$",
+   "answer": "3"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$6.37 \\times 10^{2}$",
+   "answer": "3"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$8.104 \\times 10^{-3}$",
+   "answer": "4"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$2.09 \\times 10^{-5}$",
+   "answer": "3"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "State the number of significant figures in these numbers.",
+   "type": "numeric",
+   "prompt": "$3.4 \\times 10^{7}$",
+   "answer": "2"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$357\\,800$",
+   "answer": "3.58 x 10^5",
+   "as": "scientific",
+   "hint": "Type scientific notation like 3.2 x 10^5 or 4.07 x 10^-3."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$264\\,518$",
+   "answer": "2.65 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$4716$",
+   "answer": "4.72 x 10^3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$5\\,183\\,000$",
+   "answer": "5.18 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$0.000\\,518\\,49$",
+   "answer": "5.18 x 10^-4",
+   "as": "scientific",
+   "tolerance": 5.2e-11
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$0.008\\,237$",
+   "answer": "8.24 x 10^-3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$0.027\\,95$",
+   "answer": "2.80 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$0.004\\,062$",
+   "answer": "4.06 x 10^-3",
+   "as": "scientific"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$61.87$",
+   "answer": "6.19 x 10^1",
+   "as": "scientific"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$718.355$",
+   "answer": "7.18 x 10^2",
+   "as": "scientific"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$37.926$",
+   "answer": "3.79 x 10^1",
+   "as": "scientific"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Write these numbers using scientific notation and three significant figures.",
+   "type": "numeric",
+   "prompt": "$0.295\\,813$",
+   "answer": "2.96 x 10^-1",
+   "as": "scientific"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$58\\,340$ ($3$)",
+   "answer": "5.83 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$36\\,480$ ($2$)",
+   "answer": "3.6 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$7\\,291\\,650$ ($4$)",
+   "answer": "7.292 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$84.52$ ($2$)",
+   "answer": "8.5 x 10^1",
+   "as": "scientific"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$99.951$ ($3$)",
+   "answer": "1.00 x 10^2",
+   "as": "scientific"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$0.025\\,836$ ($4$)",
+   "answer": "2.584 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$0.003\\,07$ ($1$)",
+   "answer": "3 x 10^-3",
+   "as": "scientific"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$0.064\\,82$ ($1$)",
+   "answer": "6 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Write each number using scientific notation, rounding to the number of significant figures given in the brackets.",
+   "type": "numeric",
+   "prompt": "$0.000\\,409\\,0$ ($1$)",
+   "answer": "4 x 10^-4",
+   "as": "scientific",
+   "tolerance": 4e-11
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$3^{-7}$",
+   "answer": "4.572 x 10^-4",
+   "as": "scientific",
+   "hint": "Type scientific notation like 3.2 x 10^5 or 4.07 x 10^-3.",
+   "tolerance": 4.6e-11
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$64^{-3}$",
+   "answer": "3.815 x 10^-6",
+   "as": "scientific",
+   "tolerance": 3.8e-13
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$(-4.2 \\times 10^{-3})^{-3}$",
+   "answer": "-1.350 x 10^7",
+   "as": "scientific"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{2.418}{6 \\times 10^{5}}$",
+   "answer": "4.030 x 10^-6",
+   "as": "scientific",
+   "tolerance": 4e-13
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$3.27 \\times 10^{5} \\times 8 \\times 10^{6}$",
+   "answer": "2.616 x 10^12",
+   "as": "scientific"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$4.829 \\times 10^{3} \\times 2.716 \\times 10^{4}$",
+   "answer": "1.312 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$7.305 \\times 10^{4} \\times 5.12 \\times 10^{-6}$",
+   "answer": "3.740 x 10^-1",
+   "as": "scientific"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$3.48 \\times 10^{-7} \\times 4 \\times 10^{-2}$",
+   "answer": "1.392 x 10^-8",
+   "as": "scientific",
+   "tolerance": 1.4e-15
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$23\\,456^{2}$",
+   "answer": "5.502 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$46.39^{7}$",
+   "answer": "4.623 x 10^11",
+   "as": "scientific"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{2.7 \\times 10^{31}}{6.4 \\times 10^{25}}$",
+   "answer": "4.219 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to four significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{-3.8 \\times 10^{3} \\times 5.2 \\times 10^{6}}{2.6 \\times 10^{5}}$",
+   "answer": "-7.600 x 10^4",
+   "as": "scientific"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{5374}$",
+   "answer": "7.3308 x 10^1",
+   "as": "scientific"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{483 \\times 6.29 \\times 10^{7}}$",
+   "answer": "1.7430 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$4.7 \\times 10^{5} + \\sqrt{3.6 \\times 10^{-2}}$",
+   "answer": "4.7000 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$-6.2 \\times 10^{-4} + \\sqrt{5.3 \\times 10^{-3}}$",
+   "answer": "7.2181 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{6.41 \\times 10^{21} - 3.87 \\times 10^{20}}{3 \\times 10^{6}}$",
+   "answer": "2.0077 x 10^15",
+   "as": "scientific"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{7.315 \\times 10^{46} - 4.208 \\times 10^{43}}{1.6 \\times 10^{19}}$",
+   "answer": "4.5692 x 10^27",
+   "as": "scientific"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{4 \\times 10^{7} + 2 \\times 10^{8}}{7}$",
+   "answer": "3.4286 x 10^7",
+   "as": "scientific"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{3 \\times 10^{8} + 8 \\times 10^{9}}{9}$",
+   "answer": "9.2222 x 10^8",
+   "as": "scientific"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{5.3 \\times 10^{-8} + 6.1 \\times 10^{27}}{3.9 \\times 10^{27}}$",
+   "answer": "1.5641 x 10^0",
+   "as": "scientific"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Fluency",
+   "stem": "Use a calculator to evaluate each of the following. Give your answers in scientific notation correct to five significant figures.",
+   "type": "numeric",
+   "prompt": "$\\frac{3.91 \\times 10^{-6} - 4.12 \\times 10^{-9}}{6.27 \\times 10^{-6} + 5 \\times 10^{-8}}$",
+   "answer": "6.1802 x 10^-1",
+   "as": "scientific"
+  },
+  {
+   "id": "q7",
+   "label": "7",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "The mass of Earth is about $6\\,000\\,000\\,000\\,000\\,000\\,000\\,000\\,000$ kg. The mass of Jupiter is about $318$ times the mass of Earth. Find the mass of Jupiter in kilograms. Give your answer in scientific notation correct to three significant figures.",
+   "answer": "1.91 x 10^27",
+   "as": "scientific"
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "The diameter of Earth is about $12\\,756\\,000$ m. Jupiter's diameter is about $11.2$ times that of Earth. Find the diameter of Jupiter in kilometres. Give your answer in scientific notation correct to three significant figures.",
+   "answer": "1.43 x 10^5",
+   "as": "scientific"
+  },
+  {
+   "id": "q9",
+   "label": "9",
+   "section": "Problem-solving",
+   "type": "numeric",
+   "prompt": "The volume of a sphere is $V = \\frac{4\\pi r^3}{3}$. Assuming Earth is a sphere with a diameter of $12\\,756$ km, find the volume of Earth in km³. Give your answer in scientific notation correct to three significant figures.",
+   "answer": "1.09 x 10^12",
+   "as": "scientific"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Problem-solving",
+   "type": "ordered",
+   "prompt": "Write these numbers from largest to smallest. A: $3.52 \\times 10^{6}$, B: $34.1 \\times 10^{5}$, C: $0.348 \\times 10^{7}$, D: $3507 \\times 10^{3}$, E: $0.035 \\times 10^{8}$",
+   "answer": [
+    "A",
+    "D",
+    "E",
+    "C",
+    "B"
+   ],
+   "hint": "Type the five letters in order, separated by commas, for example C, A, E, B, D."
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
+   "type": "numeric",
+   "prompt": "$5.37\\text{E}6$",
+   "answer": "5370000"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
+   "type": "numeric",
+   "prompt": "$6.4\\text{E}{-3}$",
+   "answer": "0.0064"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
+   "type": "numeric",
+   "prompt": "$3.08\\text{EXP}11$",
+   "answer": "308000000000"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
+   "type": "numeric",
+   "prompt": "$2.744\\text{EXP}{-1}$",
+   "answer": "0.2744"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
+   "type": "numeric",
+   "prompt": "$7.3^{06}$",
+   "answer": "7300000"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Reasoning",
+   "stem": "Calculators and computers often show numbers in scientific notation like this. Write down the number each display represents, as a basic numeral.",
+   "type": "numeric",
+   "prompt": "$8.25^{-11}$",
+   "answer": "0.0000000000825",
+   "tolerance": 8.3e-18
+  },
+  {
+   "id": "q12",
+   "label": "12",
+   "section": "Reasoning",
+   "type": "numeric",
+   "prompt": "Anton writes $412\\,000 \\times 350\\,000 = 1.442^{11}$, copying his calculator screen. Write the correct answer in scientific notation.",
+   "answer": "1.442 x 10^11",
+   "as": "scientific"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Reasoning",
+   "stem": "Round these numbers to three significant figures. Keep them in scientific notation.",
+   "type": "numeric",
+   "prompt": "$4.803 \\times 10^{2}$",
+   "answer": "4.80 x 10^2",
+   "as": "scientific"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Reasoning",
+   "stem": "Round these numbers to three significant figures. Keep them in scientific notation.",
+   "type": "numeric",
+   "prompt": "$7.1048 \\times 10^{-2}$",
+   "answer": "7.10 x 10^-2",
+   "as": "scientific"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Reasoning",
+   "stem": "Round these numbers to three significant figures. Keep them in scientific notation.",
+   "type": "numeric",
+   "prompt": "$5.997 \\times 10^{6}$",
+   "answer": "6.00 x 10^6",
+   "as": "scientific"
+  },
+  {
+   "id": "q14a",
+   "label": "14a",
+   "section": "Enrichment",
+   "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures.",
+   "type": "numeric",
+   "prompt": "How many bacterial cells are in the flask?",
+   "answer": "3.80 x 10^12",
+   "as": "scientific"
+  },
+  {
+   "id": "q14b",
+   "label": "14b",
+   "section": "Enrichment",
+   "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures. Type A cells double every $8$ hours and type B cells triple every $8$ hours.",
+   "type": "numeric",
+   "prompt": "How many cells are in the flask after one day?",
+   "answer": "3.04 x 10^13",
+   "as": "scientific"
+  },
+  {
+   "id": "q14c",
+   "label": "14c",
+   "section": "Enrichment",
+   "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures. Type A cells double every $8$ hours and type B cells triple every $8$ hours.",
+   "type": "numeric",
+   "prompt": "How many cells are in the flask after one week?",
+   "answer": "1.34 x 10^19",
+   "as": "scientific"
+  },
+  {
+   "id": "q14d",
+   "label": "14d",
+   "section": "Enrichment",
+   "stem": "A flask of type A bacteria contains $3.8 \\times 10^{12}$ cells and a flask of type B bacteria contains $5.2 \\times 10^{8}$ cells. The two types are combined in the same flask. Give your answers in scientific notation correct to three significant figures. Type A cells double every $8$ hours and type B cells triple every $8$ hours.",
+   "type": "numeric",
+   "prompt": "How many cells are in the flask after $30$ days?",
+   "answer": "4.54 x 10^51",
+   "as": "scientific"
+  }
+ ]
+},
+{
+ "id": "y9-6h",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6H Fractional indices and surds",
+ "description": "Move between fractional indices and roots, evaluate fractional powers, and write lengths as surds.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Write these numbers using a root sign. Type a square root like sqrt6 or √6.",
+   "type": "numeric",
+   "prompt": "$6^{\\frac{1}{2}}$",
+   "answer": "sqrt6",
+   "as": "surd"
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Write these numbers using a root sign. Type a square root like sqrt6 or √6.",
+   "type": "numeric",
+   "prompt": "$11^{\\frac{1}{2}}$",
+   "answer": "sqrt11",
+   "as": "surd"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Which of these is the same as the number shown?",
+   "type": "choice",
+   "prompt": "$5^{\\frac{1}{3}}$",
+   "answer": 0,
+   "options": [
+    "the cube root of 5",
+    "5 ÷ 3",
+    "5 to the power 3",
+    "3 × 5"
+   ]
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Which of these is the same as the number shown?",
+   "type": "choice",
+   "prompt": "$13^{\\frac{1}{3}}$",
+   "answer": 3,
+   "options": [
+    "13 ÷ 3",
+    "13 to the power 3",
+    "3 × 13",
+    "the cube root of 13"
+   ]
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Which of these is the same as the number shown?",
+   "type": "choice",
+   "prompt": "$29^{\\frac{1}{5}}$",
+   "answer": 2,
+   "options": [
+    "29 to the power 5",
+    "5 × 29",
+    "the fifth root of 29",
+    "29 ÷ 5"
+   ]
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Which of these is the same as the number shown?",
+   "type": "choice",
+   "prompt": "$17^{\\frac{1}{6}}$",
+   "answer": 1,
+   "options": [
+    "6 × 17",
+    "the sixth root of 17",
+    "17 ÷ 6",
+    "17 to the power 6"
+   ]
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Which of these is the same as the number shown?",
+   "type": "choice",
+   "prompt": "$8^{\\frac{1}{9}}$",
+   "answer": 0,
+   "options": [
+    "the ninth root of 8",
+    "8 ÷ 9",
+    "8 to the power 9",
+    "9 × 8"
+   ]
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Which of these is the same as the number shown?",
+   "type": "choice",
+   "prompt": "$2^{\\frac{1}{7}}$",
+   "answer": 3,
+   "options": [
+    "2 ÷ 7",
+    "2 to the power 7",
+    "7 × 2",
+    "the seventh root of 2"
+   ]
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{13}$",
+   "answer": "1/2",
+   "as": "fraction",
+   "hint": "For example, for 5 to the power one half, type 1/2."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{23}$",
+   "answer": "1/2",
+   "as": "fraction"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt[3]{14}$",
+   "answer": "1/3",
+   "as": "fraction"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt[3]{26}$",
+   "answer": "1/3",
+   "as": "fraction"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt[4]{7}$",
+   "answer": "1/4",
+   "as": "fraction"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt[5]{12}$",
+   "answer": "1/5",
+   "as": "fraction"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt[7]{15}$",
+   "answer": "1/7",
+   "as": "fraction"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Write these numbers in index form, using $\\sqrt[n]{a} = a^{\\frac{1}{n}}$. Each answer has the form $b^{k}$: type the index $k$ as a fraction.",
+   "type": "numeric",
+   "prompt": "$\\sqrt[9]{30}$",
+   "answer": "1/9",
+   "as": "fraction"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$36^{\\frac{1}{2}}$",
+   "answer": "6"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$64^{\\frac{1}{2}}$",
+   "answer": "8"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$121^{\\frac{1}{2}}$",
+   "answer": "11"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$196^{\\frac{1}{2}}$",
+   "answer": "14"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$27^{\\frac{1}{3}}$",
+   "answer": "3"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$216^{\\frac{1}{3}}$",
+   "answer": "6"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$343^{\\frac{1}{3}}$",
+   "answer": "7"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$512^{\\frac{1}{3}}$",
+   "answer": "8"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$81^{\\frac{1}{4}}$",
+   "answer": "3"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$625^{\\frac{1}{4}}$",
+   "answer": "5"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$10\\,000^{\\frac{1}{4}}$",
+   "answer": "10"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Without using a calculator, evaluate these numbers with fractional indices.",
+   "type": "numeric",
+   "prompt": "$243^{\\frac{1}{5}}$",
+   "answer": "3"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "powers",
+   "prompt": "$k^{\\frac{1}{4}} \\times k^{\\frac{3}{4}}$",
+   "answer": "k",
+   "index": true,
+   "hint": "Type fractional indices in brackets, for example a^(3/4)."
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$b^{\\frac{1}{5}} \\times b^{\\frac{2}{5}}$",
+   "answer": "b^(3/5)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$c^{\\frac{1}{4}} \\times c^{\\frac{3}{2}}$",
+   "answer": "c^(7/4)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$d^{3} \\times d^{\\frac{1}{3}}$",
+   "answer": "d^(10/3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\frac{m^{\\frac{3}{4}}}{m^{\\frac{1}{4}}}$",
+   "answer": "m^(1/2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "powers",
+   "prompt": "$\\frac{n^{\\frac{5}{3}}}{n^{\\frac{2}{3}}}$",
+   "answer": "n",
+   "index": true
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\frac{p^{\\frac{9}{8}}}{p^{\\frac{3}{8}}}$",
+   "answer": "p^(3/4)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "powers",
+   "prompt": "$\\frac{q^{\\frac{7}{5}}}{q^{\\frac{2}{5}}}$",
+   "answer": "q",
+   "index": true
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "powers",
+   "prompt": "$(r^{3})^{\\frac{1}{3}}$",
+   "answer": "r",
+   "index": true
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "powers",
+   "prompt": "$(s^{4})^{\\frac{3}{4}}$",
+   "answer": "s^3",
+   "index": true
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\left(t^{\\frac{1}{3}}\\right)^{4}$",
+   "answer": "t^(4/3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\left(u^{\\frac{1}{3}}\\right)^{\\frac{1}{2}}$",
+   "answer": "u^(1/6)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\left(w^{\\frac{3}{4}}\\right)^{2}$",
+   "answer": "w^(3/2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\left(a^{\\frac{3}{4}}\\right)^{\\frac{1}{5}}$",
+   "answer": "a^(3/20)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\left(b^{\\frac{2}{3}}\\right)^{\\frac{3}{4}}$",
+   "answer": "b^(1/2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions. Leave your answer in index form.",
+   "type": "expression",
+   "prompt": "$\\left(k^{\\frac{3}{5}}\\right)^{\\frac{10}{9}}$",
+   "answer": "k^(2/3)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions.",
+   "type": "expression",
+   "prompt": "$b \\times b^{\\frac{1}{4}}$",
+   "answer": "b^(5/4)",
+   "form": "simplified",
+   "hint": "Type fractional indices in brackets, for example a^(3/4)."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions.",
+   "type": "expression",
+   "prompt": "$m^{\\frac{1}{3}} \\times m^{\\frac{1}{4}}$",
+   "answer": "m^(7/12)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions.",
+   "type": "expression",
+   "prompt": "$n^{\\frac{3}{5}} \\times n^{\\frac{1}{2}}$",
+   "answer": "n^(11/10)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions.",
+   "type": "expression",
+   "prompt": "$p^{4} \\div p^{\\frac{5}{2}}$",
+   "answer": "p^(3/2)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions.",
+   "type": "expression",
+   "prompt": "$q^{\\frac{3}{4}} \\div q^{\\frac{1}{3}}$",
+   "answer": "q^(5/12)",
+   "form": "simplified"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Use index laws to simplify these expressions.",
+   "type": "expression",
+   "prompt": "$r^{\\frac{5}{6}} \\div r^{\\frac{2}{5}}$",
+   "answer": "r^(13/30)",
+   "form": "simplified"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$9^{-\\frac{1}{2}}$",
+   "answer": "1/3",
+   "hint": "Type a fraction like 3/8."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$64^{-\\frac{1}{3}}$",
+   "answer": "1/4"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$243^{-\\frac{1}{5}}$",
+   "answer": "1/3"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$16^{-\\frac{1}{4}}$",
+   "answer": "1/2"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$49^{-\\frac{1}{2}}$",
+   "answer": "1/7"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$125^{-\\frac{1}{3}}$",
+   "answer": "1/5"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$1\\,000\\,000^{-\\frac{1}{3}}$",
+   "answer": "1/100"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "Evaluate the following without a calculator. (Hint: first rewrite each one with a positive index, using $a^{-m} = \\frac{1}{a^{m}}$.)",
+   "type": "numeric",
+   "prompt": "$625^{-\\frac{1}{4}}$",
+   "answer": "1/5"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "type": "numeric",
+   "prompt": "Find $c$ (the lengths are in cm).",
+   "answer": "sqrt53",
+   "as": "surd",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.5,
+        0
+       ],
+       [
+        0,
+        1.2857142857142858
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "7",
+      "at": [
+       2.25,
+       -0.4
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       0.6428571428571429
+      ]
+     },
+     {
+      "label": "c",
+      "at": [
+       2.6,
+       0.9928571428571429
+      ]
+     }
+    ]
+   },
+   "units": "cm",
+   "hint": "Type a surd like 2sqrt3 or 2√3."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "type": "numeric",
+   "prompt": "Find $c$ (the lengths are in cm).",
+   "answer": "sqrt34",
+   "as": "surd",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -4.5,
+        0
+       ],
+       [
+        0,
+        2.7
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "label": "5",
+      "at": [
+       -2.25,
+       -0.4
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       0.45,
+       1.35
+      ]
+     },
+     {
+      "label": "c",
+      "at": [
+       -2.6,
+       1.7000000000000002
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "type": "numeric",
+   "prompt": "Find $c$ (the lengths are in cm).",
+   "answer": "2sqrt13",
+   "as": "surd",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3,
+        0
+       ],
+       [
+        0,
+        4.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "4",
+      "at": [
+       1.5,
+       -0.4
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       -0.45,
+       2.25
+      ]
+     },
+     {
+      "label": "c",
+      "at": [
+       1.85,
+       2.6
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "type": "numeric",
+   "prompt": "Find $c$ (the lengths are in cm).",
+   "answer": "4sqrt5",
+   "as": "surd",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -4.5,
+        0
+       ],
+       [
+        0,
+        2.25
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "label": "8",
+      "at": [
+       -2.25,
+       -0.4
+      ]
+     },
+     {
+      "label": "4",
+      "at": [
+       0.45,
+       1.125
+      ]
+     },
+     {
+      "label": "c",
+      "at": [
+       -2.6,
+       1.475
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "type": "numeric",
+   "prompt": "Find $c$ (the lengths are in cm).",
+   "answer": "sqrt17",
+   "as": "surd",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.5,
+        0
+       ],
+       [
+        0,
+        1.125
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true
+     },
+     {
+      "label": "4",
+      "at": [
+       2.25,
+       -0.4
+      ]
+     },
+     {
+      "label": "1",
+      "at": [
+       -0.45,
+       0.5625
+      ]
+     },
+     {
+      "label": "c",
+      "at": [
+       2.6,
+       0.9125
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "type": "numeric",
+   "prompt": "Find $c$ (the lengths are in cm).",
+   "answer": "5sqrt10",
+   "as": "surd",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        -4.5,
+        0
+       ],
+       [
+        0,
+        1.5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       90,
+       180
+      ],
+      "right": true
+     },
+     {
+      "label": "15",
+      "at": [
+       -2.25,
+       -0.4
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       0.45,
+       0.75
+      ]
+     },
+     {
+      "label": "c",
+      "at": [
+       -2.6,
+       1.1
+      ]
+     }
+    ]
+   },
+   "units": "cm"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$8^{\\frac{2}{3}}$",
+   "answer": "4"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$125^{\\frac{2}{3}}$",
+   "answer": "25"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$4^{\\frac{3}{2}}$",
+   "answer": "8"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$16^{\\frac{3}{2}}$",
+   "answer": "64"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$81^{\\frac{3}{4}}$",
+   "answer": "27"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$9^{\\frac{5}{2}}$",
+   "answer": "243"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$36^{\\frac{3}{2}}$",
+   "answer": "216"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Problem-solving",
+   "stem": "Note that $8^{\\frac{2}{3}} = \\left(8^{\\frac{1}{3}}\\right)^2 = (\\sqrt[3]{8})^2 = 2^2 = 4$. Use this method to evaluate these numbers.",
+   "type": "numeric",
+   "prompt": "$27^{\\frac{4}{3}}$",
+   "answer": "81"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
+   "type": "numeric",
+   "prompt": "$b^{\\frac{1}{3}} \\times b^{-\\frac{1}{3}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
+   "type": "numeric",
+   "prompt": "$c^{\\frac{3}{5}} \\times c^{-\\frac{3}{5}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
+   "type": "numeric",
+   "prompt": "$d^{\\frac{5}{9}} \\times d^{-\\frac{5}{9}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
+   "type": "numeric",
+   "prompt": "$m^{\\frac{4}{7}} \\div m^{\\frac{4}{7}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
+   "type": "numeric",
+   "prompt": "$\\left(p^{\\frac{1}{3}}\\right)^{\\frac{1}{2}} \\div p^{\\frac{1}{6}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "stem": "Simplify each of these. (Remember $a^0 = 1$.)",
+   "type": "numeric",
+   "prompt": "$q^{3} \\div (q^{2})^{\\frac{3}{2}}$",
+   "answer": "1"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Reasoning",
+   "type": "choice",
+   "prompt": "A student wants to evaluate $16^{\\frac{1}{2}}$ and types 16^1/2 into a calculator, getting $8$. But $16^{\\frac{1}{2}} = \\sqrt{16} = 4$. What has the student done wrong?",
+   "answer": 1,
+   "options": [
+    "The calculator is broken",
+    "The calculator worked out 16^1 then divided by 2; the index needs brackets: 16^(1/2)",
+    "The calculator found 16 ÷ 2 first, then squared it",
+    "Nothing: 8 is the right answer"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{4^{2}}$",
+   "answer": "4"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{8^{2}}$",
+   "answer": "8"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{12^{2}}$",
+   "answer": "12"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Simplify $\\sqrt{a^{2}}$ for $a \\geq 0$.",
+   "answer": "a",
+   "form": "simplified"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{25})^{2}$",
+   "answer": "25"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{11})^{2}$",
+   "answer": "11"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Reasoning",
+   "stem": "Evaluate the following.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{64})^{2}$",
+   "answer": "64"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Reasoning",
+   "type": "expression",
+   "prompt": "Simplify $(\\sqrt{a})^{2}$ for $a \\geq 0$.",
+   "answer": "a",
+   "form": "simplified"
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Reasoning",
+   "stem": "Simplify these, for $a \\geq 0$.",
+   "type": "expression",
+   "prompt": "$\\sqrt[3]{a^{3}}$",
+   "answer": "a",
+   "form": "simplified"
+  },
+  {
+   "id": "q11j",
+   "label": "11j",
+   "section": "Reasoning",
+   "stem": "Simplify these, for $a \\geq 0$.",
+   "type": "expression",
+   "prompt": "$\\sqrt[5]{a^{5}}$",
+   "answer": "a",
+   "form": "simplified"
+  },
+  {
+   "id": "q11k",
+   "label": "11k",
+   "section": "Reasoning",
+   "stem": "Simplify these, for $a \\geq 0$.",
+   "type": "expression",
+   "prompt": "$(\\sqrt[3]{a})^{3}$",
+   "answer": "a",
+   "form": "simplified"
+  },
+  {
+   "id": "q11l",
+   "label": "11l",
+   "section": "Reasoning",
+   "stem": "Simplify these, for $a \\geq 0$.",
+   "type": "expression",
+   "prompt": "$(\\sqrt[6]{a})^{6}$",
+   "answer": "a",
+   "form": "simplified"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{25}{36}\\right)^{\\frac{1}{2}}$",
+   "answer": "5/6",
+   "hint": "Type a fraction like 3/8."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{16}{121}\\right)^{\\frac{1}{2}}$",
+   "answer": "4/11"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{49}{100}\\right)^{\\frac{1}{2}}$",
+   "answer": "7/10"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{27}{64}\\right)^{\\frac{1}{3}}$",
+   "answer": "3/4"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{8}{125}\\right)^{\\frac{1}{3}}$",
+   "answer": "2/5"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{81}{16}\\right)^{\\frac{1}{4}}$",
+   "answer": "3/2"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{625}{256}\\right)^{\\frac{1}{4}}$",
+   "answer": "5/4"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Enrichment",
+   "stem": "Note, for example, that $\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, since $\\frac{2}{3} \\times \\frac{2}{3} = \\frac{4}{9}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{216}{343}\\right)^{\\frac{1}{3}}$",
+   "answer": "6/7"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{25}{16}\\right)^{-\\frac{1}{2}}$",
+   "answer": "4/5"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{81}{100}\\right)^{-\\frac{1}{2}}$",
+   "answer": "10/9"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{27}{8}\\right)^{-\\frac{1}{3}}$",
+   "answer": "2/3"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Note that $\\left(\\frac{4}{9}\\right)^{-\\frac{1}{2}} = \\frac{1}{\\left(\\frac{4}{9}\\right)^{\\frac{1}{2}}} = \\frac{1}{\\frac{2}{3}} = \\frac{3}{2}$. Now evaluate the following.",
+   "type": "numeric",
+   "prompt": "$\\left(\\frac{16}{81}\\right)^{-\\frac{1}{4}}$",
+   "answer": "3/2"
+  }
+ ]
+},
+{
+ "id": "y9-6i",
+ "year": 9,
+ "chapter": "Chapter 6: Indices and surds",
+ "title": "6I Simple operations with surds",
+ "description": "Add, subtract, multiply and divide surds, simplify surds and expand brackets containing surds.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$4\\sqrt{3} + 2\\sqrt{3}$",
+   "answer": "6sqrt3",
+   "as": "surd",
+   "hint": "Type a surd like 2sqrt3 or 2√3."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$3\\sqrt{13} + 5\\sqrt{13}$",
+   "answer": "8sqrt13",
+   "as": "surd"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{6} + 7\\sqrt{6}$",
+   "answer": "8sqrt6",
+   "as": "surd"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$5\\sqrt{2} + \\sqrt{2}$",
+   "answer": "6sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$2\\sqrt{7} + 3\\sqrt{2} + 5\\sqrt{7}$",
+   "answer": "3sqrt2+7sqrt7",
+   "as": "surd"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$4\\sqrt{5} + 2\\sqrt{3} + 3\\sqrt{5}$",
+   "answer": "2sqrt3+7sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$2\\sqrt{10} - 7\\sqrt{10}$",
+   "answer": "-5sqrt10",
+   "as": "surd"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$5\\sqrt{11} - 8\\sqrt{11}$",
+   "answer": "-3sqrt11",
+   "as": "surd"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$6\\sqrt{5} - 4\\sqrt{5} + 3\\sqrt{5}$",
+   "answer": "5sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$4\\sqrt{15} + \\sqrt{15} - 6\\sqrt{15}$",
+   "answer": "-sqrt15",
+   "as": "surd"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$2\\sqrt{3} - \\sqrt{7} + 5\\sqrt{3}$",
+   "answer": "7sqrt3-sqrt7",
+   "as": "surd"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Simplify by collecting like surds.",
+   "type": "numeric",
+   "prompt": "$5\\sqrt{2} + 3\\sqrt{11} - 2\\sqrt{2}$",
+   "answer": "3sqrt2+3sqrt11",
+   "as": "surd"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{3} \\times \\sqrt{5}$",
+   "answer": "sqrt15",
+   "as": "surd",
+   "hint": "Type a surd like 2sqrt3 or 2√3."
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{2} \\times \\sqrt{7}$",
+   "answer": "sqrt14",
+   "as": "surd"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{11} \\times \\sqrt{3}$",
+   "answer": "sqrt33",
+   "as": "surd"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{12} \\times \\sqrt{3}$",
+   "answer": "6",
+   "as": "surd"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{27} \\times \\sqrt{3}$",
+   "answer": "9",
+   "as": "surd"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{5} \\times \\sqrt{7}$",
+   "answer": "sqrt35",
+   "as": "surd"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{5} \\times \\sqrt{5}$",
+   "answer": "5",
+   "as": "surd"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{10} \\times \\sqrt{10}$",
+   "answer": "10",
+   "as": "surd"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{30} \\div \\sqrt{10}$",
+   "answer": "sqrt3",
+   "as": "surd"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{42} \\div \\sqrt{2}$",
+   "answer": "sqrt21",
+   "as": "surd"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{35} \\div \\sqrt{5}$",
+   "answer": "sqrt7",
+   "as": "surd"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{66} \\div \\sqrt{11}$",
+   "answer": "sqrt6",
+   "as": "surd"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{48} \\div \\sqrt{3}$",
+   "answer": "4",
+   "as": "surd"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{50} \\div \\sqrt{2}$",
+   "answer": "5",
+   "as": "surd"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{36} \\div \\sqrt{6}$",
+   "answer": "sqrt6",
+   "as": "surd"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$5 - \\sqrt{2} + 3 - 4\\sqrt{2}$",
+   "answer": "8-5sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{5} - \\sqrt{7} + 3\\sqrt{5}$",
+   "answer": "4sqrt5-sqrt7",
+   "as": "surd"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$4\\sqrt{3} - \\sqrt{6} + 2 + \\sqrt{6}$",
+   "answer": "2+4sqrt3",
+   "as": "surd"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\frac{\\sqrt{3}}{4} + \\frac{\\sqrt{3}}{3}$",
+   "answer": "7sqrt3/12",
+   "as": "surd",
+   "hint": "Type surds like 3sqrt2 (or 3√2), and a surd fraction like 7sqrt3/12."
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\frac{\\sqrt{5}}{2} + \\frac{\\sqrt{5}}{7}$",
+   "answer": "9sqrt5/14",
+   "as": "surd"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\frac{3\\sqrt{2}}{5} - \\frac{\\sqrt{2}}{3}$",
+   "answer": "4sqrt2/15",
+   "as": "surd"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{11} - \\frac{\\sqrt{11}}{4}$",
+   "answer": "3sqrt11/4",
+   "as": "surd"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$4 - \\frac{3\\sqrt{2}}{4} + \\sqrt{2}$",
+   "answer": "4+sqrt2/4",
+   "as": "surd"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Problem-solving",
+   "stem": "Simplify.",
+   "type": "numeric",
+   "prompt": "$\\frac{5\\sqrt{7}}{6} - \\frac{3\\sqrt{7}}{4}$",
+   "answer": "sqrt7/12",
+   "as": "surd"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$4\\sqrt{3} \\times 2\\sqrt{5}$",
+   "answer": "8sqrt15",
+   "as": "surd"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$5\\sqrt{2} \\times 3\\sqrt{7}$",
+   "answer": "15sqrt14",
+   "as": "surd"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$2\\sqrt{5} \\times 6\\sqrt{7}$",
+   "answer": "12sqrt35",
+   "as": "surd"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$3\\sqrt{6} \\times 4\\sqrt{5}$",
+   "answer": "12sqrt30",
+   "as": "surd"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$12\\sqrt{10} \\div 4\\sqrt{2}$",
+   "answer": "3sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$20\\sqrt{15} \\div 5\\sqrt{3}$",
+   "answer": "4sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$18\\sqrt{26} \\div 6\\sqrt{2}$",
+   "answer": "3sqrt13",
+   "as": "surd"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Problem-solving",
+   "stem": "Note, for example, that $2\\sqrt{3} \\times 5\\sqrt{2} = 2 \\times 5 \\times \\sqrt{3} \\times \\sqrt{2} = 10\\sqrt{6}$. Now simplify the following.",
+   "type": "numeric",
+   "prompt": "$4\\sqrt{21} \\div 12\\sqrt{7}$",
+   "answer": "sqrt3/3",
+   "as": "surd",
+   "hint": "Type surds like 3sqrt2 (or 3√2), and a surd fraction like 7sqrt3/12."
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
+   "type": "numeric",
+   "prompt": "$3\\sqrt{2}(2\\sqrt{5} + 4)$",
+   "answer": "12sqrt2+6sqrt10",
+   "as": "surd"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{3}(\\sqrt{5} + \\sqrt{7})$",
+   "answer": "sqrt15+sqrt21",
+   "as": "surd"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
+   "type": "numeric",
+   "prompt": "$2\\sqrt{6}(\\sqrt{2} + 4\\sqrt{5})$",
+   "answer": "4sqrt3+8sqrt30",
+   "as": "surd"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
+   "type": "numeric",
+   "prompt": "$3\\sqrt{7}(2\\sqrt{5} - \\sqrt{7})$",
+   "answer": "6sqrt35-21",
+   "as": "surd"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{11}(\\sqrt{11} - 3\\sqrt{2})$",
+   "answer": "11-3sqrt22",
+   "as": "surd"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Expand and simplify. Recall that $a(b + c) = a \\times b + a \\times c$.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{3}(\\sqrt{5} - 4\\sqrt{3})$",
+   "answer": "sqrt15-12",
+   "as": "surd"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{12}$",
+   "answer": "2sqrt3",
+   "as": "surd",
+   "hint": "Type a surd like 2sqrt3 or 2√3."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{18}$",
+   "answer": "3sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{50}$",
+   "answer": "5sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{28}$",
+   "answer": "2sqrt7",
+   "as": "surd"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{63}$",
+   "answer": "3sqrt7",
+   "as": "surd"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{300}$",
+   "answer": "10sqrt3",
+   "as": "surd"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{90}$",
+   "answer": "3sqrt10",
+   "as": "surd"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Reasoning",
+   "stem": "Using $\\sqrt{ab} = \\sqrt{a} \\times \\sqrt{b}$, the surd $\\sqrt{18}$ can be simplified: $\\sqrt{18} = \\sqrt{9 \\times 2} = \\sqrt{9} \\times \\sqrt{2} = 3\\sqrt{2}$. Use this method to simplify these surds.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{98}$",
+   "answer": "7sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{12} + 4\\sqrt{3}$",
+   "answer": "6sqrt3",
+   "as": "surd"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$5\\sqrt{3} - \\sqrt{27}$",
+   "answer": "2sqrt3",
+   "as": "surd"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{20} + \\sqrt{5}$",
+   "answer": "3sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$7\\sqrt{2} - 2\\sqrt{8}$",
+   "answer": "3sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$3\\sqrt{20} - 4\\sqrt{5}$",
+   "answer": "2sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$\\sqrt{45} + 2\\sqrt{5}$",
+   "answer": "5sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$2\\sqrt{50} - 6\\sqrt{2}$",
+   "answer": "4sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Reasoning",
+   "stem": "Building on the method in Question 6, expressions like $\\sqrt{8} - \\sqrt{2}$ can be simplified: $\\sqrt{8} - \\sqrt{2} = 2\\sqrt{2} - \\sqrt{2} = \\sqrt{2}$. Simplify these expressions.",
+   "type": "numeric",
+   "prompt": "$5\\sqrt{24} - 3\\sqrt{6}$",
+   "answer": "7sqrt6",
+   "as": "surd"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{3} + \\sqrt{2})(\\sqrt{3} + \\sqrt{7})$",
+   "answer": "3+sqrt6+sqrt14+sqrt21",
+   "as": "surd",
+   "hint": "Collect like terms, then type your answer like 4+2sqrt3-sqrt6."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{3})$",
+   "answer": "5-sqrt6-sqrt10+sqrt15",
+   "as": "surd"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(3\\sqrt{2} - 2)(2\\sqrt{3} + 5)$",
+   "answer": "15sqrt2-4sqrt3+6sqrt6-10",
+   "as": "surd"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(2 - \\sqrt{5})(3 + 2\\sqrt{3})$",
+   "answer": "6+4sqrt3-3sqrt5-2sqrt15",
+   "as": "surd"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(3 - \\sqrt{2})(3 + \\sqrt{2})$",
+   "answer": "7",
+   "as": "surd"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{7} + 2)(\\sqrt{7} - 2)$",
+   "answer": "3",
+   "as": "surd"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(2\\sqrt{5} + \\sqrt{2})(2\\sqrt{5} - \\sqrt{2})$",
+   "answer": "18",
+   "as": "surd"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(4\\sqrt{3} + \\sqrt{7})(4\\sqrt{3} - \\sqrt{7})$",
+   "answer": "41",
+   "as": "surd"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(1 + \\sqrt{3})^{2}$",
+   "answer": "4+2sqrt3",
+   "as": "surd"
+  },
+  {
+   "id": "q8j",
+   "label": "8j",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{5} - 2)^{2}$",
+   "answer": "9-4sqrt5",
+   "as": "surd"
+  },
+  {
+   "id": "q8k",
+   "label": "8k",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(3\\sqrt{2} - 1)^{2}$",
+   "answer": "19-6sqrt2",
+   "as": "surd"
+  },
+  {
+   "id": "q8l",
+   "label": "8l",
+   "section": "Enrichment",
+   "stem": "Simplify the following using the rule $(a + b)(c + d) = ac + ad + bc + bd$. Note that $(a + b)^2 = (a + b)(a + b)$.",
+   "type": "numeric",
+   "prompt": "$(\\sqrt{3} + 2\\sqrt{2})^{2}$",
+   "answer": "11+4sqrt6",
+   "as": "surd"
+  }
+ ]
+}
+);
+
 // Chapter 7
 window.H3_BANK.sets.push(
 {
