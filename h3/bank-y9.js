@@ -49039,6 +49039,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4a-table",
    "label": "1a",
    "section": "Fluency",
    "stem": "Complete the table of values for $-3 \\le x \\le 3$. Type the missing $y$-values in order, separated by commas.",
@@ -49082,6 +49083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4a-table",
    "label": "1b",
    "section": "Fluency",
    "stem": "Complete the table of values for $-3 \\le x \\le 3$. Type the missing $y$-values in order, separated by commas.",
@@ -49124,6 +49126,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4a-table",
    "label": "1c",
    "section": "Fluency",
    "stem": "Complete the table of values for $-3 \\le x \\le 3$. Type the missing $y$-values in order, separated by commas.",
@@ -49166,6 +49169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4a-table",
    "label": "1d",
    "section": "Fluency",
    "stem": "Complete the table of values for $-3 \\le x \\le 3$. Type the missing $y$-values in order, separated by commas.",
@@ -49208,6 +49212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4a-intercepts",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49246,6 +49251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4a-intercepts",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49283,6 +49289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4a-intercepts",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49318,6 +49325,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4a-intercepts",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49353,6 +49361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4a-intercepts",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49436,6 +49445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4a-intercepts",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49519,6 +49529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4a-intercepts",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49602,6 +49613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4a-intercepts",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write down the $x$- and $y$-intercepts for each table or graph.",
@@ -49685,6 +49697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4a-onpoint",
    "label": "3a",
    "section": "Fluency",
    "stem": "Decide if the point $(2, 1)$ is on the line with the given rule.",
@@ -49698,6 +49711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4a-onpoint",
    "label": "3b",
    "section": "Fluency",
    "stem": "Decide if the point $(2, 1)$ is on the line with the given rule.",
@@ -49711,6 +49725,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4a-onpoint",
    "label": "3c",
    "section": "Fluency",
    "stem": "Decide if the point $(2, 1)$ is on the line with the given rule.",
@@ -49724,6 +49739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4a-onpoint",
    "label": "3d",
    "section": "Fluency",
    "stem": "Decide if the point $(2, 1)$ is on the line with the given rule.",
@@ -49737,6 +49753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4a-onpoint",
    "label": "3e",
    "section": "Fluency",
    "stem": "Decide if the point $(2, 1)$ is on the line with the given rule.",
@@ -49750,6 +49767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4a-onpoint",
    "label": "3f",
    "section": "Fluency",
    "stem": "Decide if the point $(2, 1)$ is on the line with the given rule.",
@@ -49763,6 +49781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4a-onpoint",
    "label": "4a",
    "section": "Fluency",
    "stem": "Decide if the point $(-2, 5)$ is on the line with the given rule.",
@@ -49776,6 +49795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4a-onpoint",
    "label": "4b",
    "section": "Fluency",
    "stem": "Decide if the point $(-2, 5)$ is on the line with the given rule.",
@@ -49789,6 +49809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4a-onpoint",
    "label": "4c",
    "section": "Fluency",
    "stem": "Decide if the point $(-2, 5)$ is on the line with the given rule.",
@@ -49802,6 +49823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4a-onpoint",
    "label": "4d",
    "section": "Fluency",
    "stem": "Decide if the point $(-2, 5)$ is on the line with the given rule.",
@@ -49815,6 +49837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-4a-onpoint",
    "label": "4e",
    "section": "Fluency",
    "stem": "Decide if the point $(-2, 5)$ is on the line with the given rule.",
@@ -49828,6 +49851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-4a-onpoint",
    "label": "4f",
    "section": "Fluency",
    "stem": "Decide if the point $(-2, 5)$ is on the line with the given rule.",
@@ -49841,6 +49865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4a-rule",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find a rule in the form $y = mx + c$ that matches each table of values.",
@@ -49875,6 +49900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4a-rule",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find a rule in the form $y = mx + c$ that matches each table of values.",
@@ -49908,6 +49934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4a-rule",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find a rule in the form $y = mx + c$ that matches each table of values.",
@@ -49943,6 +49970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-4a-rule",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find a rule in the form $y = mx + c$ that matches each table of values.",
@@ -49978,6 +50006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4a-match",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Match each rule to one of the graphs A, B, C and D.",
@@ -51139,6 +51168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4a-match",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Match each rule to one of the graphs A, B, C and D.",
@@ -51154,6 +51184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-4a-match",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Match each rule to one of the graphs A, B, C and D.",
@@ -51169,6 +51200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-4a-match",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Match each rule to one of the graphs A, B, C and D.",
@@ -51184,6 +51216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4a-equiv",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Decide if each pair of rules is equivalent (gives the same line).",
@@ -51197,6 +51230,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4a-equiv",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Decide if each pair of rules is equivalent (gives the same line).",
@@ -51210,6 +51244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4a-equiv",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Decide if each pair of rules is equivalent (gives the same line).",
@@ -51223,6 +51258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-4a-equiv",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Decide if each pair of rules is equivalent (gives the same line).",
@@ -51236,6 +51272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4a-xint",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Each line passes through the marked points. Use the gradient to find the $x$-intercept. Give it as a fraction.",
@@ -51654,6 +51691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4a-xint",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Each line passes through the marked points. Use the gradient to find the $x$-intercept. Give it as a fraction.",
@@ -52071,6 +52109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4a-identity",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Decide if each equation is true or false (for every value of $x$).",
@@ -52084,6 +52123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4a-identity",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Decide if each equation is true or false (for every value of $x$).",
@@ -52097,6 +52137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4a-identity",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Decide if each equation is true or false (for every value of $x$).",
@@ -52110,6 +52151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4a-identity",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Decide if each equation is true or false (for every value of $x$).",
@@ -52123,6 +52165,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4a-rule",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Find the linear rule linking $x$ and $y$ in each table.",
@@ -52156,6 +52199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4a-rule",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Find the linear rule linking $x$ and $y$ in each table.",
@@ -52189,6 +52233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4a-rule",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Find the linear rule linking $x$ and $y$ in each table.",
@@ -52222,6 +52267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-4a-rule",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Find the linear rule linking $x$ and $y$ in each table.",
@@ -52255,6 +52301,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-4a-rule",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Find the linear rule linking $x$ and $y$ in each table.",
@@ -52289,6 +52336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-4a-rule",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Find the linear rule linking $x$ and $y$ in each table.",
@@ -52331,6 +52379,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4b-general",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52344,6 +52393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4b-general",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52356,6 +52406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4b-general",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52368,6 +52419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4b-general",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52380,6 +52432,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4b-general",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52392,6 +52445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-4b-general",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52404,6 +52458,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-4b-general",
    "label": "1g",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52416,6 +52471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-4b-general",
    "label": "1h",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52428,6 +52484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-4b-general",
    "label": "1i",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each relation. (These are the two points you would use to sketch it.)",
@@ -52440,6 +52497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4b-rule",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each rule.",
@@ -52453,6 +52511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4b-rule",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each rule.",
@@ -52465,6 +52524,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4b-rule",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each rule.",
@@ -52477,6 +52537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4b-rule",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each rule.",
@@ -52489,6 +52550,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4b-rule",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each rule.",
@@ -52501,6 +52563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4b-rule",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each rule.",
@@ -52513,6 +52576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4b-general",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each of these mixed linear relations.",
@@ -52526,6 +52590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4b-general",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each of these mixed linear relations.",
@@ -52538,6 +52603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4b-general",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each of these mixed linear relations.",
@@ -52550,6 +52616,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4b-general",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each of these mixed linear relations.",
@@ -52562,6 +52629,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4b-general",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each of these mixed linear relations.",
@@ -52574,6 +52642,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4b-general",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the $x$- and $y$-intercepts of the graph of each of these mixed linear relations.",
@@ -52586,6 +52655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4b-context",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "The distance $d$ metres of a remote-control car from its charging dock after $t$ seconds is given by the rule $d = 12 - 3t$.",
@@ -52596,6 +52666,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4b-context",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "The distance $d$ metres of a remote-control car from its charging dock after $t$ seconds is given by the rule $d = 12 - 3t$.",
@@ -52606,6 +52677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4b-context",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The height $h$ metres of a hot-air balloon coming in to land, $t$ minutes after it starts to descend, is given by $h = 90 - 6t$.",
@@ -52616,6 +52688,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4b-context",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The height $h$ metres of a hot-air balloon coming in to land, $t$ minutes after it starts to descend, is given by $h = 90 - 6t$.",
@@ -52626,6 +52699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4b-fraction",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the $x$- and $y$-intercepts of the graphs with these rules. Write fractions with /.",
@@ -52639,6 +52713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4b-fraction",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the $x$- and $y$-intercepts of the graphs with these rules. Write fractions with /.",
@@ -52651,6 +52726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-4b-fraction",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the $x$- and $y$-intercepts of the graphs with these rules. Write fractions with /.",
@@ -52663,6 +52739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-4b-fraction",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the $x$- and $y$-intercepts of the graphs with these rules. Write fractions with /.",
@@ -52675,6 +52752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-4b-fraction",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the $x$- and $y$-intercepts of the graphs with these rules. Write fractions with /.",
@@ -52687,6 +52765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-4b-fraction",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the $x$- and $y$-intercepts of the graphs with these rules. Write fractions with /.",
@@ -52699,6 +52778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4b-fracform",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Use your algebra and fraction skills to find the $x$- and $y$-intercepts of these relations.",
@@ -52712,6 +52792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4b-fracform",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Use your algebra and fraction skills to find the $x$- and $y$-intercepts of these relations.",
@@ -52724,6 +52805,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4b-fracform",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Use your algebra and fraction skills to find the $x$- and $y$-intercepts of these relations.",
@@ -52736,6 +52818,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-4b-general",
    "label": "8",
    "section": "Reasoning",
    "type": "point",
@@ -52745,6 +52828,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4b-fromint",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Write down the rule for the graph with these axis intercepts. Write the rule in the form $ax + by = d$.",
@@ -52755,6 +52839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4b-fromint",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Write down the rule for the graph with these axis intercepts. Write the rule in the form $ax + by = d$.",
@@ -52764,6 +52849,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4b-fromint",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Write down the rule for the graph with these axis intercepts. Write the rule in the form $ax + by = d$.",
@@ -52773,6 +52859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4b-fromint",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Write down the rule for the graph with these axis intercepts. Write the rule in the form $ax + by = d$.",
@@ -52782,6 +52869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-4b-fromint",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Write down the rule for the graph with these axis intercepts. Write the rule in the form $ax + by = d$.",
@@ -52791,6 +52879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-4b-fromint",
    "label": "9f",
    "section": "Reasoning",
    "stem": "Write down the rule for the graph with these axis intercepts. Write the rule in the form $ax + by = d$.",
@@ -52800,6 +52889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4b-letters",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Find the $x$- and $y$-intercepts in terms of the constants $a$, $b$ and $c$ for these relations.",
@@ -52813,6 +52903,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4b-letters",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Find the $x$- and $y$-intercepts in terms of the constants $a$, $b$ and $c$ for these relations.",
@@ -52825,6 +52916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4b-letters",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Find the $x$- and $y$-intercepts in terms of the constants $a$, $b$ and $c$ for these relations.",
@@ -52837,6 +52929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-4b-letters",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Find the $x$- and $y$-intercepts in terms of the constants $a$, $b$ and $c$ for these relations.",
@@ -52849,6 +52942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-4b-letters",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Find the $x$- and $y$-intercepts in terms of the constants $a$, $b$ and $c$ for these relations.",
@@ -52861,6 +52955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-4b-letters",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Find the $x$- and $y$-intercepts in terms of the constants $a$, $b$ and $c$ for these relations.",
@@ -52882,6 +52977,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4c-hv",
    "label": "1a",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52892,6 +52988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4c-hv",
    "label": "1b",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52901,6 +52998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4c-hv",
    "label": "1c",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52910,6 +53008,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4c-hv",
    "label": "1d",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52919,6 +53018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4c-hv",
    "label": "1e",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52928,6 +53028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-4c-hv",
    "label": "1f",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52937,6 +53038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-4c-hv",
    "label": "1g",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52946,6 +53048,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-4c-hv",
    "label": "1h",
    "section": "Fluency",
    "stem": "Each line is horizontal or vertical, so it crosses only one axis. Give the point where it crosses that axis.",
@@ -52955,6 +53058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4c-origin",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -52965,6 +53069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4c-origin",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -52974,6 +53079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4c-origin",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -52983,6 +53089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4c-origin",
    "label": "2d",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -52992,6 +53099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4c-origin",
    "label": "2e",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -53001,6 +53109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4c-origin",
    "label": "2f",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -53010,6 +53119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4c-origin",
    "label": "2g",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -53019,6 +53129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4c-origin",
    "label": "2h",
    "section": "Fluency",
    "stem": "Each line passes through the origin. To sketch it you also need a second point: give the point on the line where $x = 1$.",
@@ -53028,6 +53139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4c-classify",
    "label": "3a",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53042,6 +53154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4c-classify",
    "label": "3b",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53056,6 +53169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4c-classify",
    "label": "3c",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53070,6 +53184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4c-classify",
    "label": "3d",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53084,6 +53199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4c-classify",
    "label": "3e",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53098,6 +53214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4c-classify",
    "label": "3f",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53112,6 +53229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-4c-classify",
    "label": "3g",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53126,6 +53244,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-4c-classify",
    "label": "3h",
    "section": "Fluency",
    "stem": "Is the graph of each rule a vertical line, a horizontal line, or a sloping line through the origin?",
@@ -53140,6 +53259,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4c-equation",
    "label": "4a",
    "section": "Fluency",
    "stem": "Give the equation of each graph.",
@@ -53418,6 +53538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4c-equation",
    "label": "4b",
    "section": "Fluency",
    "stem": "Give the equation of each graph.",
@@ -53695,6 +53816,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4c-equation",
    "label": "4c",
    "section": "Fluency",
    "stem": "Give the equation of each graph.",
@@ -53972,6 +54094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4c-equation",
    "label": "4d",
    "section": "Fluency",
    "stem": "Give the equation of each graph.",
@@ -54266,6 +54389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-4c-equation",
    "label": "4e",
    "section": "Fluency",
    "stem": "Give the equation of each graph.",
@@ -54338,6 +54462,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-4c-equation",
    "label": "4f",
    "section": "Fluency",
    "stem": "Give the equation of each graph.",
@@ -54410,6 +54535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4c-equation",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the equation of the straight line that is:",
@@ -54420,6 +54546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4c-equation",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the equation of the straight line that is:",
@@ -54429,6 +54556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4c-equation",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the equation of the straight line that is:",
@@ -54438,6 +54566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-4c-equation",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find the equation of the straight line that is:",
@@ -54447,6 +54576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4c-equation",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "The surface of the sea is the $x$-axis and one unit is 1 metre. State the equation of each path.",
@@ -54456,6 +54586,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4c-equation",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "The surface of the sea is the $x$-axis and one unit is 1 metre. State the equation of each path.",
@@ -54465,6 +54596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4c-meet",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54475,6 +54607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4c-meet",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54484,6 +54617,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4c-meet",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54493,6 +54627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-4c-meet",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54502,6 +54637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-4c-meet",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54511,6 +54647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-4c-meet",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54520,6 +54657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-4c-meet",
    "label": "7g",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54529,6 +54667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-4c-meet",
    "label": "7h",
    "section": "Problem-solving",
    "stem": "The graphs of each pair of equations meet at a point. Find the coordinates of the point.",
@@ -54538,6 +54677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4c-area",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the area of the rectangle enclosed by these four lines.",
@@ -54548,6 +54688,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4c-area",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the area of the rectangle enclosed by these four lines.",
@@ -54558,6 +54699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4c-area",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "The lines $x = -2$, $x = 2$ and $y = -1$ form three sides of a rectangle. Find both possible equations of the fourth line if:",
@@ -54571,6 +54713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4c-area",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "The lines $x = -2$, $x = 2$ and $y = -1$ form three sides of a rectangle. Find both possible equations of the fourth line if:",
@@ -54583,6 +54726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4c-area",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "The lines $x = -2$, $x = 2$ and $y = -1$ form three sides of a rectangle. Find both possible equations of the fourth line if:",
@@ -54595,6 +54739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4c-area",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "The lines $x = -2$, $x = 2$ and $y = -1$ form three sides of a rectangle. Find both possible equations of the fourth line if:",
@@ -54607,6 +54752,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-4c-area",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "The lines $x = -2$, $x = 2$ and $y = -1$ form three sides of a rectangle. Find both possible equations of the fourth line if:",
@@ -54619,6 +54765,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-4c-area",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "The lines $x = -2$, $x = 2$ and $y = -1$ form three sides of a rectangle. Find both possible equations of the fourth line if:",
@@ -54631,6 +54778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4c-mx",
    "label": "10a",
    "section": "Reasoning",
    "stem": "The rule for each graph is of the form $y = mx$. Use the marked point to find $m$, then write the equation.",
@@ -54932,6 +55080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4c-mx",
    "label": "10b",
    "section": "Reasoning",
    "stem": "The rule for each graph is of the form $y = mx$. Use the marked point to find $m$, then write the equation.",
@@ -55232,6 +55381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4c-mx",
    "label": "10c",
    "section": "Reasoning",
    "stem": "The rule for each graph is of the form $y = mx$. Use the marked point to find $m$, then write the equation.",
@@ -55549,6 +55699,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-4c-mx",
    "label": "10d",
    "section": "Reasoning",
    "stem": "The rule for each graph is of the form $y = mx$. Use the marked point to find $m$, then write the equation.",
@@ -55849,6 +56000,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-4c-mx",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Find the equation of the line that passes through the origin and the given point.",
@@ -55858,6 +56010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-4c-mx",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Find the equation of the line that passes through the origin and the given point.",
@@ -55867,6 +56020,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-4c-mx",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Find the equation of the line that passes through the origin and the given point.",
@@ -55876,6 +56030,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-4c-mx",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Find the equation of the line that passes through the origin and the given point.",
@@ -55885,6 +56040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-4c-subject",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Make $y$ or $x$ the subject. The line is horizontal or vertical: give the point where it crosses an axis.",
@@ -55895,6 +56051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-4c-subject",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Make $y$ or $x$ the subject. The line is horizontal or vertical: give the point where it crosses an axis.",
@@ -55904,6 +56061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-4c-subject",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Make $y$ or $x$ the subject. The line is horizontal or vertical: give the point where it crosses an axis.",
@@ -55913,6 +56071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-4c-subject",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Make $y$ or $x$ the subject. The line is horizontal or vertical: give the point where it crosses an axis.",
@@ -55922,6 +56081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-4c-subject",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Make $y$ the subject. The line passes through the origin: give the point on it where $x = 1$.",
@@ -55931,6 +56091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-4c-subject",
    "label": "12f",
    "section": "Reasoning",
    "stem": "Make $y$ the subject. The line passes through the origin: give the point on it where $x = 1$.",
@@ -55940,6 +56101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12g",
+   "help": "y9-4c-subject",
    "label": "12g",
    "section": "Reasoning",
    "stem": "Make $y$ the subject. The line passes through the origin: give the point on it where $x = 1$.",
@@ -55949,6 +56111,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12h",
+   "help": "y9-4c-subject",
    "label": "12h",
    "section": "Reasoning",
    "stem": "Make $y$ the subject. The line passes through the origin: give the point on it where $x = 1$.",
@@ -55958,6 +56121,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-4c-mx",
    "label": "13a",
    "section": "Enrichment",
    "stem": "A vertical line, a horizontal line and a line through the origin all meet at the point $(2, -3)$. Find the equation of:",
@@ -55967,6 +56131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-4c-mx",
    "label": "13b",
    "section": "Enrichment",
    "stem": "A vertical line, a horizontal line and a line through the origin all meet at the point $(2, -3)$. Find the equation of:",
@@ -55976,6 +56141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-4c-mx",
    "label": "13c",
    "section": "Enrichment",
    "stem": "A vertical line, a horizontal line and a line through the origin all meet at the point $(2, -3)$. Find the equation of:",
@@ -55985,6 +56151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-4c-mx",
    "label": "14a",
    "section": "Enrichment",
    "stem": "The lines $y = k$, $x = h$ and $y = mx$ all meet at one point.",
@@ -55995,6 +56162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-4c-mx",
    "label": "14b",
    "section": "Enrichment",
    "stem": "The lines $y = k$, $x = h$ and $y = mx$ all meet at one point.",
@@ -56008,6 +56176,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-4c-triangle",
    "label": "15",
    "section": "Enrichment",
    "type": "numeric",
@@ -56025,6 +56194,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4d-graph",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -56368,6 +56538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4d-graph",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -56662,6 +56833,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4d-graph",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -56985,6 +57157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4d-graph",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -57284,6 +57457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4d-graph",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -57364,6 +57538,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-4d-graph",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -57444,6 +57619,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-4d-graph",
    "label": "1g",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -57524,6 +57700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-4d-graph",
    "label": "1h",
    "section": "Fluency",
    "stem": "Find the gradient of each line. A positive gradient slopes up to the right, a negative gradient slopes down.",
@@ -57604,6 +57781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4d-points",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57614,6 +57792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4d-points",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57623,6 +57802,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4d-points",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57632,6 +57812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4d-points",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57641,6 +57822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4d-points",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57650,6 +57832,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4d-points",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57659,6 +57842,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4d-points",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57668,6 +57852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4d-points",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57677,6 +57862,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-4d-points",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57686,6 +57872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-4d-points",
    "label": "2j",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57695,6 +57882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-4d-points",
    "label": "2k",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57704,6 +57892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-4d-points",
    "label": "2l",
    "section": "Fluency",
    "stem": "Find the gradient of the line joining each pair of points.",
@@ -57713,6 +57902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4d-graph",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the gradient of each of the line segments $A$ to $F$ on this grid.",
@@ -58229,6 +58419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4d-graph",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the gradient of each of the line segments $A$ to $F$ on this grid.",
@@ -58238,6 +58429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4d-graph",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the gradient of each of the line segments $A$ to $F$ on this grid.",
@@ -58247,6 +58439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4d-graph",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the gradient of each of the line segments $A$ to $F$ on this grid.",
@@ -58256,6 +58449,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4d-graph",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the gradient of each of the line segments $A$ to $F$ on this grid.",
@@ -58265,6 +58459,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4d-graph",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the gradient of each of the line segments $A$ to $F$ on this grid.",
@@ -58274,6 +58469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4d-slope",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Find the gradient for each of these slopes. (Falling or descending means a negative gradient.)",
@@ -58283,6 +58479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4d-slope",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Find the gradient for each of these slopes. (Falling or descending means a negative gradient.)",
@@ -58292,6 +58489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4d-slope",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Find the gradient for each of these slopes. (Falling or descending means a negative gradient.)",
@@ -58301,6 +58499,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4d-slope",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Find the gradient for each of these slopes. (Falling or descending means a negative gradient.)",
@@ -58310,6 +58509,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4d-missing",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -58319,6 +58519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4d-missing",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -58328,6 +58529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4d-missing",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -58337,6 +58539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-4d-missing",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find the missing number.",
@@ -58346,6 +58549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-4d-slope",
    "label": "6",
    "section": "Problem-solving",
    "type": "numeric",
@@ -58355,6 +58559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4d-intercept",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Complete this table for six straight lines by finding each missing intercept. (Give the value where the line crosses the axis.)",
@@ -58406,6 +58611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4d-intercept",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Complete this table for six straight lines by finding each missing intercept. (Give the value where the line crosses the axis.)",
@@ -58415,6 +58621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4d-intercept",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Complete this table for six straight lines by finding each missing intercept. (Give the value where the line crosses the axis.)",
@@ -58424,6 +58631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-4d-intercept",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Complete this table for six straight lines by finding each missing intercept. (Give the value where the line crosses the axis.)",
@@ -58433,6 +58641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-4d-intercept",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Complete this table for six straight lines by finding each missing intercept. (Give the value where the line crosses the axis.)",
@@ -58442,6 +58651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-4d-intercept",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Complete this table for six straight lines by finding each missing intercept. (Give the value where the line crosses the axis.)",
@@ -58451,6 +58661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-4d-steeper",
    "label": "8",
    "section": "Reasoning",
    "type": "choice",
@@ -58464,6 +58675,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4d-points",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Two points $A$ and $B$ have coordinates $(x_1, y_1)$ and $(x_2, y_2)$, with $B$ to the right of $A$.",
@@ -58479,6 +58691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4d-points",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Two points $A$ and $B$ have coordinates $(x_1, y_1)$ and $(x_2, y_2)$, with $B$ to the right of $A$.",
@@ -58494,6 +58707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4d-points",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Two points $A$ and $B$ have coordinates $(x_1, y_1)$ and $(x_2, y_2)$, with $B$ to the right of $A$.",
@@ -58509,6 +58723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4d-points",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Use the rule $m = \\frac{y_2 - y_1}{x_2 - x_1}$ to find the gradient between each pair of points.",
@@ -58519,6 +58734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-4d-points",
    "label": "9e",
    "section": "Reasoning",
    "stem": "Use the rule $m = \\frac{y_2 - y_1}{x_2 - x_1}$ to find the gradient between each pair of points.",
@@ -58528,6 +58744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-4d-points",
    "label": "9f",
    "section": "Reasoning",
    "stem": "Use the rule $m = \\frac{y_2 - y_1}{x_2 - x_1}$ to find the gradient between each pair of points.",
@@ -58537,6 +58754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-4d-points",
    "label": "9g",
    "section": "Reasoning",
    "stem": "Use the rule $m = \\frac{y_2 - y_1}{x_2 - x_1}$ to find the gradient between each pair of points.",
@@ -58546,6 +58764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4d-steps",
    "label": "10a",
    "section": "Enrichment",
    "stem": "This line has gradient $-\\frac{3}{4}$, which means it falls $3$ units for every $4$ across. Its $y$-intercept is $(0, 6)$.",
@@ -58890,6 +59109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4d-steps",
    "label": "10b",
    "section": "Enrichment",
    "stem": "This line has gradient $-\\frac{3}{4}$, which means it falls $3$ units for every $4$ across. Its $y$-intercept is $(0, 6)$.",
@@ -58899,6 +59119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4d-steps",
    "label": "10c",
    "section": "Enrichment",
    "stem": "This line has gradient $-\\frac{3}{4}$, which means it falls $3$ units for every $4$ across. Its $y$-intercept is $(0, 6)$.",
@@ -58909,6 +59130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-4d-steps",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Keep the $y$-intercept at $(0, 6)$. What would the coordinates of the $x$-intercept be if the gradient were changed to:",
@@ -58919,6 +59141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-4d-steps",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Keep the $y$-intercept at $(0, 6)$. What would the coordinates of the $x$-intercept be if the gradient were changed to:",
@@ -58928,6 +59151,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-4d-steps",
    "label": "10f",
    "section": "Enrichment",
    "stem": "Keep the $y$-intercept at $(0, 6)$. What would the coordinates of the $x$-intercept be if the gradient were changed to:",
@@ -58937,6 +59161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10g",
+   "help": "y9-4d-steps",
    "label": "10g",
    "section": "Enrichment",
    "stem": "Keep the $y$-intercept at $(0, 6)$. What would the coordinates of the $x$-intercept be if the gradient were changed to:",
@@ -58955,6 +59180,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4e-rule",
    "label": "1a",
    "section": "Fluency",
    "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
@@ -58965,6 +59191,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4e-rule",
    "label": "1b",
    "section": "Fluency",
    "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
@@ -58974,6 +59201,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4e-rule",
    "label": "1c",
    "section": "Fluency",
    "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
@@ -58987,6 +59215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4e-rule",
    "label": "1d",
    "section": "Fluency",
    "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
@@ -58997,6 +59226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4e-rule",
    "label": "1e",
    "section": "Fluency",
    "stem": "A $360$ litre fish tank takes $4$ hours to fill from a hose at a steady rate.",
@@ -59007,6 +59237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4e-rule",
    "label": "2a",
    "section": "Fluency",
    "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
@@ -59017,6 +59248,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4e-rule",
    "label": "2b",
    "section": "Fluency",
    "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
@@ -59026,6 +59258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4e-rule",
    "label": "2c",
    "section": "Fluency",
    "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
@@ -59039,6 +59272,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4e-rule",
    "label": "2d",
    "section": "Fluency",
    "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
@@ -59049,6 +59283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4e-rule",
    "label": "2e",
    "section": "Fluency",
    "stem": "A solar-powered car travels $150$ km in $5$ hours at a steady speed.",
@@ -59059,6 +59294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4e-rule",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write a rule linking the given variables.",
@@ -59072,6 +59308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4e-rule",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write a rule linking the given variables.",
@@ -59084,6 +59321,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4e-rule",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write a rule linking the given variables.",
@@ -59096,6 +59334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4e-rule",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write a rule linking the given variables.",
@@ -59108,6 +59347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4e-graph",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
@@ -59214,6 +59454,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4e-graph",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
@@ -59320,6 +59561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4e-graph",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
@@ -59426,6 +59668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4e-graph",
    "label": "4d",
    "section": "Fluency",
    "stem": "Use the gradient to find the speed shown by each graph. Use the units given on the graph.",
@@ -59532,6 +59775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4e-economy",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "The trip computer in a car shows a fuel economy of $7.5$ L per $100$ km.",
@@ -59542,6 +59786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4e-economy",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "The trip computer in a car shows a fuel economy of $7.5$ L per $100$ km.",
@@ -59552,6 +59797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4e-economy",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "The trip computer in a car shows a fuel economy of $7.5$ L per $100$ km.",
@@ -59562,6 +59808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-4e-compare",
    "label": "6",
    "section": "Problem-solving",
    "type": "choice",
@@ -59575,6 +59822,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-4e-compare",
    "label": "7",
    "section": "Problem-solving",
    "type": "choice",
@@ -59588,6 +59836,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-4e-meet",
    "label": "8",
    "section": "Problem-solving",
    "type": "numeric",
@@ -59597,6 +59846,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4e-proportion",
    "label": "9a",
    "section": "Reasoning",
    "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
@@ -59606,6 +59856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4e-proportion",
    "label": "9b",
    "section": "Reasoning",
    "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
@@ -59617,6 +59868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4e-proportion",
    "label": "9c",
    "section": "Reasoning",
    "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
@@ -59627,6 +59879,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4e-proportion",
    "label": "9d",
    "section": "Reasoning",
    "stem": "The circumference of a circle, $C = 2\\pi r$, is directly proportional to its radius $r$.",
@@ -59638,6 +59891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-4e-proportion",
    "label": "10",
    "section": "Reasoning",
    "type": "choice",
@@ -59651,6 +59905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-4e-rule",
    "label": "11a",
    "section": "Reasoning",
    "stem": "A triangle has a base of $6$ cm and a height of $h$ cm that can change.",
@@ -59664,6 +59919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-4e-rule",
    "label": "11b",
    "section": "Reasoning",
    "stem": "A triangle has a base of $6$ cm and a height of $h$ cm that can change.",
@@ -59673,6 +59929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-4e-rule",
    "label": "12a",
    "section": "Reasoning",
    "stem": "An object travels for exactly $4$ hours.",
@@ -59686,6 +59943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-4e-rule",
    "label": "12b",
    "section": "Reasoning",
    "stem": "An object travels for exactly $4$ hours.",
@@ -59699,6 +59957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-4e-work",
    "label": "13",
    "section": "Enrichment",
    "type": "numeric",
@@ -59709,6 +59968,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-4e-river",
    "label": "14",
    "section": "Enrichment",
    "type": "numeric",
@@ -59727,6 +59987,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4f-mc",
    "label": "1a",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59737,6 +59998,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4f-mc",
    "label": "1b",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59747,6 +60009,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4f-mc",
    "label": "1c",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59756,6 +60019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4f-mc",
    "label": "1d",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59765,6 +60029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4f-mc",
    "label": "1e",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59774,6 +60039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-4f-mc",
    "label": "1f",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59783,6 +60049,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-4f-mc",
    "label": "1g",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59792,6 +60059,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-4f-mc",
    "label": "1h",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59801,6 +60069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-4f-mc",
    "label": "1i",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59810,6 +60079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-4f-mc",
    "label": "1j",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59819,6 +60089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-4f-mc",
    "label": "1k",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59828,6 +60099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-4f-mc",
    "label": "1l",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59837,6 +60109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-4f-mc",
    "label": "1m",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59846,6 +60119,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-4f-mc",
    "label": "1n",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59855,6 +60129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-4f-mc",
    "label": "1o",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59864,6 +60139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-4f-mc",
    "label": "1p",
    "section": "Fluency",
    "stem": "State the gradient and the coordinates of the $y$-intercept for the graph of each rule.",
@@ -59873,6 +60149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4f-rearrange",
    "label": "2a",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59884,6 +60161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4f-rearrange",
    "label": "2b",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59894,6 +60172,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4f-rearrange",
    "label": "2c",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59904,6 +60183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4f-rearrange",
    "label": "2d",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59914,6 +60194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4f-rearrange",
    "label": "2e",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59928,6 +60209,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4f-rearrange",
    "label": "2f",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59941,6 +60223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4f-rearrange",
    "label": "2g",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59954,6 +60237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4f-rearrange",
    "label": "2h",
    "section": "Fluency",
    "stem": "Rearrange each linear equation into the form shown.",
@@ -59967,6 +60251,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4f-mc",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -59977,6 +60262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4f-mc",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -59987,6 +60273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4f-mc",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -59996,6 +60283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4f-mc",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60005,6 +60293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4f-mc",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60014,6 +60303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4f-mc",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60023,6 +60313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-4f-mc",
    "label": "3g",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60032,6 +60323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-4f-mc",
    "label": "3h",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60041,6 +60333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-4f-mc",
    "label": "3i",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60050,6 +60343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-4f-mc",
    "label": "3j",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60059,6 +60353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-4f-mc",
    "label": "3k",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60068,6 +60363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-4f-mc",
    "label": "3l",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60077,6 +60373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3m",
+   "help": "y9-4f-mc",
    "label": "3m",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60086,6 +60383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3n",
+   "help": "y9-4f-mc",
    "label": "3n",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60095,6 +60393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3o",
+   "help": "y9-4f-mc",
    "label": "3o",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60104,6 +60403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3p",
+   "help": "y9-4f-mc",
    "label": "3p",
    "section": "Fluency",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -60113,6 +60413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4f-rearrange",
    "label": "4a",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60123,6 +60424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4f-rearrange",
    "label": "4b",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60133,6 +60435,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4f-rearrange",
    "label": "4c",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60142,6 +60445,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4f-rearrange",
    "label": "4d",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60151,6 +60455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-4f-rearrange",
    "label": "4e",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60160,6 +60465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-4f-rearrange",
    "label": "4f",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60169,6 +60475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-4f-rearrange",
    "label": "4g",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60178,6 +60485,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-4f-rearrange",
    "label": "4h",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60187,6 +60495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-4f-rearrange",
    "label": "4i",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60196,6 +60505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4j",
+   "help": "y9-4f-rearrange",
    "label": "4j",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60205,6 +60515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4k",
+   "help": "y9-4f-rearrange",
    "label": "4k",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60214,6 +60525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4l",
+   "help": "y9-4f-rearrange",
    "label": "4l",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60223,6 +60535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4m",
+   "help": "y9-4f-rearrange",
    "label": "4m",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60232,6 +60545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4n",
+   "help": "y9-4f-rearrange",
    "label": "4n",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60241,6 +60555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4o",
+   "help": "y9-4f-rearrange",
    "label": "4o",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60250,6 +60565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4p",
+   "help": "y9-4f-rearrange",
    "label": "4p",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60259,6 +60575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4q",
+   "help": "y9-4f-rearrange",
    "label": "4q",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60268,6 +60585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4r",
+   "help": "y9-4f-rearrange",
    "label": "4r",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60277,6 +60595,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4s",
+   "help": "y9-4f-rearrange",
    "label": "4s",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60286,6 +60605,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4t",
+   "help": "y9-4f-rearrange",
    "label": "4t",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60295,6 +60615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4u",
+   "help": "y9-4f-rearrange",
    "label": "4u",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60304,6 +60625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4v",
+   "help": "y9-4f-rearrange",
    "label": "4v",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60313,6 +60635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4w",
+   "help": "y9-4f-rearrange",
    "label": "4w",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60322,6 +60645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4x",
+   "help": "y9-4f-rearrange",
    "label": "4x",
    "section": "Fluency",
    "stem": "Rearrange each equation into the form $y = mx + c$, then find the gradient and the $y$-intercept.",
@@ -60331,6 +60655,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4f-match",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Match each equation to one of the straight lines A to F.",
@@ -62126,6 +62451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4f-match",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Match each equation to one of the straight lines A to F.",
@@ -62143,6 +62469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4f-match",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Match each equation to one of the straight lines A to F.",
@@ -62160,6 +62487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-4f-match",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Match each equation to one of the straight lines A to F.",
@@ -62177,6 +62505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-4f-match",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Match each equation to one of the straight lines A to F.",
@@ -62194,6 +62523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-4f-match",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Match each equation to one of the straight lines A to F.",
@@ -62211,6 +62541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4f-rearrange",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62221,6 +62552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4f-rearrange",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62231,6 +62563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-4f-rearrange",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62240,6 +62573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-4f-rearrange",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62249,6 +62583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-4f-rearrange",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62258,6 +62593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-4f-rearrange",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62267,6 +62603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-4f-rearrange",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62276,6 +62613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-4f-rearrange",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62285,6 +62623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-4f-rearrange",
    "label": "6i",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62294,6 +62633,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y9-4f-rearrange",
    "label": "6j",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62303,6 +62643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y9-4f-rearrange",
    "label": "6k",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62312,6 +62653,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y9-4f-rearrange",
    "label": "6l",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62321,6 +62663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6m",
+   "help": "y9-4f-rearrange",
    "label": "6m",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62330,6 +62673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6n",
+   "help": "y9-4f-rearrange",
    "label": "6n",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62339,6 +62683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6o",
+   "help": "y9-4f-rearrange",
    "label": "6o",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62348,6 +62693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6p",
+   "help": "y9-4f-rearrange",
    "label": "6p",
    "section": "Problem-solving",
    "stem": "Find the gradient and the $y$-intercept of each line. (These are the values you would use to sketch the graph.)",
@@ -62357,6 +62703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-4f-forms",
    "label": "7",
    "section": "Problem-solving",
    "type": "list",
@@ -62371,6 +62718,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4f-forms",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Hana says that the graph of $y = 3(x + 2)$ has gradient $3$ and $y$-intercept $(0, 2)$.",
@@ -62381,6 +62729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4f-forms",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Hana says that the graph of $y = 3(x + 2)$ has gradient $3$ and $y$-intercept $(0, 2)$.",
@@ -62391,6 +62740,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-4f-mc",
    "label": "9",
    "section": "Reasoning",
    "type": "expression",
@@ -62400,6 +62750,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4f-rearrange",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Write the rule $ax + by = d$ in gradient-intercept form.",
@@ -62410,6 +62761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4f-rearrange",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Write the rule $ax + by = d$ in gradient-intercept form.",
@@ -62419,6 +62771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4f-rearrange",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Write the rule $ax + by = d$ in gradient-intercept form.",
@@ -62428,6 +62781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-4f-twopoints",
    "label": "11a",
    "section": "Enrichment",
    "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
@@ -62776,6 +63130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-4f-twopoints",
    "label": "11b",
    "section": "Enrichment",
    "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
@@ -62788,6 +63143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-4f-twopoints",
    "label": "11c",
    "section": "Enrichment",
    "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
@@ -62800,6 +63156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-4f-twopoints",
    "label": "11d",
    "section": "Enrichment",
    "stem": "This line passes through $(-2, 1)$ and $(2, 3)$, so its gradient is $\\frac{1}{2}$. Going from $(-2, 1)$ to $x = 0$ is a run of $2$, so the rise is $1$ and the $y$-intercept is $(0, 2)$. The rule is $y = \\frac{1}{2}x + 2$. Use this method to find the rule of the line through each pair of points.",
@@ -62821,6 +63178,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4g-graph",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the equation of each straight line.",
@@ -62906,6 +63264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4g-graph",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the equation of each straight line.",
@@ -62990,6 +63349,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4g-graph",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the equation of each straight line.",
@@ -63074,6 +63434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4g-graph",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the equation of each straight line.",
@@ -63158,6 +63519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4g-point",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63171,6 +63533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4g-point",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63183,6 +63546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4g-point",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63195,6 +63559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4g-point",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63207,6 +63572,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4g-point",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63219,6 +63585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4g-point",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63231,6 +63598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4g-point",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63243,6 +63611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4g-point",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63255,6 +63624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-4g-point",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63267,6 +63637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-4g-point",
    "label": "2j",
    "section": "Fluency",
    "stem": "Find the equation of the line with the given gradient that passes through the given point.",
@@ -63279,6 +63650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4g-graph",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the equation of each straight line. These lines have fractional gradients.",
@@ -63364,6 +63736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4g-graph",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the equation of each straight line. These lines have fractional gradients.",
@@ -63448,6 +63821,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4g-graph",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the equation of each straight line. These lines have fractional gradients.",
@@ -63532,6 +63906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4g-graph",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the equation of each straight line. These lines have fractional gradients.",
@@ -63616,6 +63991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4g-graph",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the equation of each straight line. These lines have fractional gradients.",
@@ -63700,6 +64076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4g-graph",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the equation of each straight line. These lines have fractional gradients.",
@@ -63784,6 +64161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4g-twopoints",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63793,6 +64171,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4g-twopoints",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63806,6 +64185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4g-twopoints",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63815,6 +64195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4g-twopoints",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63827,6 +64208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-4g-twopoints",
    "label": "4e",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63836,6 +64218,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-4g-twopoints",
    "label": "4f",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63848,6 +64231,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-4g-twopoints",
    "label": "4g",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63857,6 +64241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-4g-twopoints",
    "label": "4h",
    "section": "Problem-solving",
    "stem": "For the line joining each pair of points, find the gradient and then the equation of the line.",
@@ -63869,6 +64254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-4g-intercepts",
    "label": "5",
    "section": "Problem-solving",
    "type": "point",
@@ -63878,6 +64264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4g-intercepts",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A line passes through the points $(-2, -1)$ and $(4, 3)$.",
@@ -63888,6 +64275,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4g-intercepts",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A line passes through the points $(-2, -1)$ and $(4, 3)$.",
@@ -63897,6 +64285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4g-context",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A tap on a rainwater tank has been left on and water is running out. After $2$ hours there are $150$ L left in the tank, and after $6$ hours there are $50$ L left. The relationship is linear.",
@@ -63910,6 +64299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4g-context",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A tap on a rainwater tank has been left on and water is running out. After $2$ hours there are $150$ L left in the tank, and after $6$ hours there are $50$ L left. The relationship is linear.",
@@ -63920,6 +64310,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4g-context",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A science class launches model rockets. The launch point is the origin $(0, 0)$, and the positive $x$ direction is east. Each rocket flies in a straight line.",
@@ -63933,6 +64324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4g-context",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A science class launches model rockets. The launch point is the origin $(0, 0)$, and the positive $x$ direction is east. Each rocket flies in a straight line.",
@@ -63945,6 +64337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4g-point",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A line has equation $y = mx - 3$. Find the value of $m$ if the line passes through:",
@@ -63954,6 +64347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4g-point",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A line has equation $y = mx - 3$. Find the value of $m$ if the line passes through:",
@@ -63963,6 +64357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4g-point",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A line has equation $y = mx - 3$. Find the value of $m$ if the line passes through:",
@@ -63972,6 +64367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4g-point",
    "label": "9d",
    "section": "Reasoning",
    "stem": "A line has equation $y = mx - 3$. Find the value of $m$ if the line passes through:",
@@ -63981,6 +64377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4g-point",
    "label": "10a",
    "section": "Reasoning",
    "stem": "A line with rule $y = 3x + c$ passes through $(1, 4)$ and $(2, 7)$.",
@@ -63990,6 +64387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4g-point",
    "label": "10b",
    "section": "Reasoning",
    "stem": "A line with rule $y = 3x + c$ passes through $(1, 4)$ and $(2, 7)$.",
@@ -63999,6 +64397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4g-point",
    "label": "10c",
    "section": "Reasoning",
    "stem": "A line with rule $y = 3x + c$ passes through $(1, 4)$ and $(2, 7)$.",
@@ -64012,6 +64411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-4g-twopoints",
    "label": "11",
    "section": "Reasoning",
    "type": "expression",
@@ -64024,6 +64424,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-4g-twopoints",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Another way to find the equation of the line through $(x_1, y_1)$ and $(x_2, y_2)$ is the rule $y - y_1 = m(x - x_1)$, where $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Use this rule to find the equation of the line through each pair of points. Write your answer in the form $y = mx + c$.",
@@ -64037,6 +64438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-4g-twopoints",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Another way to find the equation of the line through $(x_1, y_1)$ and $(x_2, y_2)$ is the rule $y - y_1 = m(x - x_1)$, where $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Use this rule to find the equation of the line through each pair of points. Write your answer in the form $y = mx + c$.",
@@ -64049,6 +64451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-4g-twopoints",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Another way to find the equation of the line through $(x_1, y_1)$ and $(x_2, y_2)$ is the rule $y - y_1 = m(x - x_1)$, where $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Use this rule to find the equation of the line through each pair of points. Write your answer in the form $y = mx + c$.",
@@ -64061,6 +64464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-4g-twopoints",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Another way to find the equation of the line through $(x_1, y_1)$ and $(x_2, y_2)$ is the rule $y - y_1 = m(x - x_1)$, where $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Use this rule to find the equation of the line through each pair of points. Write your answer in the form $y = mx + c$.",
@@ -64073,6 +64477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-4g-twopoints",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Another way to find the equation of the line through $(x_1, y_1)$ and $(x_2, y_2)$ is the rule $y - y_1 = m(x - x_1)$, where $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Use this rule to find the equation of the line through each pair of points. Write your answer in the form $y = mx + c$.",
@@ -64085,6 +64490,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-4g-twopoints",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Another way to find the equation of the line through $(x_1, y_1)$ and $(x_2, y_2)$ is the rule $y - y_1 = m(x - x_1)$, where $m = \\frac{y_2 - y_1}{x_2 - x_1}$. Use this rule to find the equation of the line through each pair of points. Write your answer in the form $y = mx + c$.",
@@ -64106,6 +64512,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4h-midpoint",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64116,6 +64523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4h-midpoint",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64125,6 +64533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4h-midpoint",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64134,6 +64543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4h-midpoint",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64143,6 +64553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4h-midpoint",
    "label": "1e",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64152,6 +64563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-4h-midpoint",
    "label": "1f",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64161,6 +64573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-4h-midpoint",
    "label": "1g",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64170,6 +64583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-4h-midpoint",
    "label": "1h",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64179,6 +64593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-4h-midpoint",
    "label": "1i",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64188,6 +64603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-4h-midpoint",
    "label": "1j",
    "section": "Fluency",
    "stem": "Find the midpoint $M$ of the line segment joining each pair of points.",
@@ -64197,6 +64613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4h-length",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64208,6 +64625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4h-length",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64219,6 +64637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4h-length",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64230,6 +64649,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4h-length",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64241,6 +64661,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4h-length",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64252,6 +64673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4h-length",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64263,6 +64685,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4h-length",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64274,6 +64697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4h-length",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64285,6 +64709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-4h-length",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the length of the segment joining each pair of points, correct to two decimal places.",
@@ -64296,6 +64721,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4h-endpoint",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "$M$ is the midpoint of the segment $AB$. Find the missing coordinates in the table.",
@@ -64335,6 +64761,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4h-endpoint",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "$M$ is the midpoint of the segment $AB$. Find the missing coordinates in the table.",
@@ -64344,6 +64771,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4h-endpoint",
    "label": "3c",
    "section": "Problem-solving",
    "stem": "$M$ is the midpoint of the segment $AB$. Find the missing coordinates in the table.",
@@ -64353,6 +64781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4h-endpoint",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "A circle has centre $(1, 2)$. Find the coordinates of the other end of a diameter if one end is at:",
@@ -64362,6 +64791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4h-endpoint",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "A circle has centre $(1, 2)$. Find the coordinates of the other end of a diameter if one end is at:",
@@ -64371,6 +64801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4h-endpoint",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "A circle has centre $(1, 2)$. Find the coordinates of the other end of a diameter if one end is at:",
@@ -64380,6 +64811,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4h-length",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to one decimal place.",
@@ -64391,6 +64823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4h-length",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the perimeter of each shape, correct to one decimal place.",
@@ -64402,6 +64835,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4h-lattice",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Some points with whole-number coordinates are exactly $\\sqrt{10}$ units from the point $(2, -1)$. (Hint: $10 = 1^2 + 3^2$.)",
@@ -64411,6 +64845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4h-lattice",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Some points with whole-number coordinates are exactly $\\sqrt{10}$ units from the point $(2, -1)$. (Hint: $10 = 1^2 + 3^2$.)",
@@ -64426,6 +64861,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4h-midpoint",
    "label": "7a",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$.",
@@ -64436,6 +64872,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4h-midpoint",
    "label": "7b",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$.",
@@ -64445,6 +64882,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4h-midpoint",
    "label": "7c",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$.",
@@ -64454,6 +64892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4h-length",
    "label": "8a",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$, where $c > a$ and $d > b$.",
@@ -64463,6 +64902,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4h-length",
    "label": "8b",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$, where $c > a$ and $d > b$.",
@@ -64472,6 +64912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-4h-length",
    "label": "8c",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$, where $c > a$ and $d > b$.",
@@ -64482,6 +64923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-4h-length",
    "label": "8d",
    "section": "Reasoning",
    "stem": "A line segment has end points $(a, b)$ and $(c, d)$, where $c > a$ and $d > b$.",
@@ -64493,6 +64935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4h-ratio",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64582,6 +65025,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4h-ratio",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64591,6 +65035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4h-ratio",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64601,6 +65046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4h-ratio",
    "label": "9d",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64610,6 +65056,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-4h-ratio",
    "label": "9e",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64619,6 +65066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-4h-ratio",
    "label": "9f",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64628,6 +65076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-4h-ratio",
    "label": "9g",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64637,6 +65086,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-4h-ratio",
    "label": "9h",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64646,6 +65096,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-4h-ratio",
    "label": "9i",
    "section": "Enrichment",
    "stem": "Point $P(-2, 1)$ lies on the segment $AB$ from $A(-5, -1)$ to $B(4, 5)$. Going from $A$ to $B$, $P$ divides the segment in the ratio $1 : 2$.",
@@ -64664,6 +65115,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4i-parallel",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the equation of the line that is parallel to the given line and passes through the given point.",
@@ -64677,6 +65129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4i-parallel",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the equation of the line that is parallel to the given line and passes through the given point.",
@@ -64689,6 +65142,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4i-parallel",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the equation of the line that is parallel to the given line and passes through the given point.",
@@ -64701,6 +65155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4i-parallel",
    "label": "1d",
    "section": "Fluency",
    "stem": "Find the equation of the line that is parallel to the given line and passes through the given point.",
@@ -64713,6 +65168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4i-perp",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the equation of the line that is perpendicular to the given line and passes through the given point.",
@@ -64726,6 +65182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4i-perp",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the equation of the line that is perpendicular to the given line and passes through the given point.",
@@ -64738,6 +65195,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4i-perp",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the equation of the line that is perpendicular to the given line and passes through the given point.",
@@ -64750,6 +65208,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4i-perp",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the equation of the line that is perpendicular to the given line and passes through the given point.",
@@ -64762,6 +65221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4i-perp",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the equation of the line that is perpendicular to the given line and passes through the given point.",
@@ -64774,6 +65234,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4i-perp",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the equation of the line that is perpendicular to the given line and passes through the given point.",
@@ -64786,6 +65247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4i-hv",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64796,6 +65258,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4i-hv",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64805,6 +65268,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4i-hv",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64814,6 +65278,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-4i-hv",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64823,6 +65288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-4i-hv",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64832,6 +65298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-4i-hv",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64841,6 +65308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-4i-hv",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64850,6 +65318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-4i-hv",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write the equation of each horizontal or vertical line.",
@@ -64859,6 +65328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4i-point",
    "label": "4a",
    "section": "Problem-solving",
    "stem": "Find the equation of the line which is:",
@@ -64872,6 +65342,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4i-point",
    "label": "4b",
    "section": "Problem-solving",
    "stem": "Find the equation of the line which is:",
@@ -64884,6 +65355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4i-point",
    "label": "4c",
    "section": "Problem-solving",
    "stem": "Find the equation of the line which is:",
@@ -64896,6 +65368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4i-point",
    "label": "4d",
    "section": "Problem-solving",
    "stem": "Find the equation of the line which is:",
@@ -64908,6 +65381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4i-sides",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A right-angled isosceles triangle has vertices at $(0, 4)$, $(4, 0)$ and $(-4, 0)$. Find the equation of each side.",
@@ -65008,6 +65482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4i-sides",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A right-angled isosceles triangle has vertices at $(0, 4)$, $(4, 0)$ and $(-4, 0)$. Find the equation of each side.",
@@ -65020,6 +65495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4i-sides",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A right-angled isosceles triangle has vertices at $(0, 4)$, $(4, 0)$ and $(-4, 0)$. Find the equation of each side.",
@@ -65029,6 +65505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-4i-sides",
    "label": "6",
    "section": "Problem-solving",
    "type": "expression",
@@ -65041,6 +65518,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4i-gradients",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Use $m_2 = -\\frac{1}{m_1}$ to find the gradient of a line perpendicular to a line with the given gradient.",
@@ -65051,6 +65529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4i-gradients",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Use $m_2 = -\\frac{1}{m_1}$ to find the gradient of a line perpendicular to a line with the given gradient.",
@@ -65060,6 +65539,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4i-gradients",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Use $m_2 = -\\frac{1}{m_1}$ to find the gradient of a line perpendicular to a line with the given gradient.",
@@ -65069,6 +65549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-4i-gradients",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Use $m_2 = -\\frac{1}{m_1}$ to find the gradient of a line perpendicular to a line with the given gradient.",
@@ -65078,6 +65559,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-4i-gradients",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Use $m_2 = -\\frac{1}{m_1}$ to find the gradient of a line perpendicular to a line with the given gradient.",
@@ -65088,6 +65570,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4i-gradients",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Rearrange each equation into the form $y = mx + c$ if it helps.",
@@ -65097,6 +65580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4i-gradients",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Rearrange each equation into the form $y = mx + c$ if it helps.",
@@ -65106,6 +65590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-4i-gradients",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Rearrange each equation into the form $y = mx + c$ if it helps.",
@@ -65115,6 +65600,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-4i-gradients",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Rearrange each equation into the form $y = mx + c$ if it helps.",
@@ -65124,6 +65610,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4i-bisector",
    "label": "9a",
    "section": "Enrichment",
    "stem": "The perpendicular bisector of a segment $AB$ is the line that cuts $AB$ at right angles through its midpoint. Find the midpoint of $AB$ first, then find the equation of the perpendicular bisector of the segment joining:",
@@ -65137,6 +65624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4i-bisector",
    "label": "9b",
    "section": "Enrichment",
    "stem": "The perpendicular bisector of a segment $AB$ is the line that cuts $AB$ at right angles through its midpoint. Find the midpoint of $AB$ first, then find the equation of the perpendicular bisector of the segment joining:",
@@ -65149,6 +65637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4i-bisector",
    "label": "9c",
    "section": "Enrichment",
    "stem": "The perpendicular bisector of a segment $AB$ is the line that cuts $AB$ at right angles through its midpoint. Find the midpoint of $AB$ first, then find the equation of the perpendicular bisector of the segment joining:",
@@ -65161,6 +65650,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4i-bisector",
    "label": "9d",
    "section": "Enrichment",
    "stem": "The perpendicular bisector of a segment $AB$ is the line that cuts $AB$ at right angles through its midpoint. Find the midpoint of $AB$ first, then find the equation of the perpendicular bisector of the segment joining:",
@@ -65173,6 +65663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-4i-bisector",
    "label": "9e",
    "section": "Enrichment",
    "stem": "The perpendicular bisector of a segment $AB$ is the line that cuts $AB$ at right angles through its midpoint. Find the midpoint of $AB$ first, then find the equation of the perpendicular bisector of the segment joining:",
@@ -65185,6 +65676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-4i-bisector",
    "label": "9f",
    "section": "Enrichment",
    "stem": "The perpendicular bisector of a segment $AB$ is the line that cuts $AB$ at right angles through its midpoint. Find the midpoint of $AB$ first, then find the equation of the perpendicular bisector of the segment joining:",
@@ -65206,6 +65698,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4j-fee",
    "label": "1a",
    "section": "Fluency",
    "stem": "A sales representative earns $\\$350$ a week plus $\\$25$ for each sale she makes.",
@@ -65219,6 +65712,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4j-fee",
    "label": "1b",
    "section": "Fluency",
    "stem": "A sales representative earns $\\$350$ a week plus $\\$25$ for each sale she makes.",
@@ -65229,6 +65723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4j-fee",
    "label": "1c",
    "section": "Fluency",
    "stem": "A sales representative earns $\\$350$ a week plus $\\$25$ for each sale she makes.",
@@ -65239,6 +65734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4j-fee",
    "label": "1d",
    "section": "Fluency",
    "stem": "A sales representative earns $\\$350$ a week plus $\\$25$ for each sale she makes.",
@@ -65248,6 +65744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4j-fee",
    "label": "2a",
    "section": "Fluency",
    "stem": "A catering company charges $\\$600$ to hire a marquee, plus $\\$30$ per guest.",
@@ -65261,6 +65758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4j-fee",
    "label": "2b",
    "section": "Fluency",
    "stem": "A catering company charges $\\$600$ to hire a marquee, plus $\\$30$ per guest.",
@@ -65271,6 +65769,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4j-fee",
    "label": "2c",
    "section": "Fluency",
    "stem": "A catering company charges $\\$600$ to hire a marquee, plus $\\$30$ per guest.",
@@ -65281,6 +65780,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4j-fee",
    "label": "2d",
    "section": "Fluency",
    "stem": "A catering company charges $\\$600$ to hire a marquee, plus $\\$30$ per guest.",
@@ -65290,6 +65790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4j-fee",
    "label": "3a",
    "section": "Fluency",
    "stem": "An electrician charges a $\\$60$ call-out fee plus $\\$45$ for each hour she works.",
@@ -65302,6 +65803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4j-fee",
    "label": "3b",
    "section": "Fluency",
    "stem": "An electrician charges a $\\$60$ call-out fee plus $\\$45$ for each hour she works.",
@@ -65312,6 +65814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-4j-fee",
    "label": "3c",
    "section": "Fluency",
    "stem": "An electrician charges a $\\$60$ call-out fee plus $\\$45$ for each hour she works.",
@@ -65322,6 +65825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-4j-fee",
    "label": "4a",
    "section": "Fluency",
    "stem": "Hiring a recording studio costs $\\$250$, plus $\\$90$ per hour of studio time.",
@@ -65334,6 +65838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-4j-fee",
    "label": "4b",
    "section": "Fluency",
    "stem": "Hiring a recording studio costs $\\$250$, plus $\\$90$ per hour of studio time.",
@@ -65343,6 +65848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-4j-fee",
    "label": "4c",
    "section": "Fluency",
    "stem": "Hiring a recording studio costs $\\$250$, plus $\\$90$ per hour of studio time.",
@@ -65353,6 +65859,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-4j-fee",
    "label": "4d",
    "section": "Fluency",
    "stem": "Hiring a recording studio costs $\\$250$, plus $\\$90$ per hour of studio time.",
@@ -65363,6 +65870,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-4j-tank",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "A car's fuel tank holds $70$ litres. It has $10$ litres in it to start with, and the pump adds $3$ litres every $12$ seconds.",
@@ -65376,6 +65884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-4j-tank",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "A car's fuel tank holds $70$ litres. It has $10$ litres in it to start with, and the pump adds $3$ litres every $12$ seconds.",
@@ -65386,6 +65895,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-4j-tank",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "A car's fuel tank holds $70$ litres. It has $10$ litres in it to start with, and the pump adds $3$ litres every $12$ seconds.",
@@ -65396,6 +65906,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-4j-tank",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A water tank is full with $3000$ litres, and water is being used at a rate of $25$ litres per minute.",
@@ -65409,6 +65920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-4j-tank",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A water tank is full with $3000$ litres, and water is being used at a rate of $25$ litres per minute.",
@@ -65419,6 +65931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-4j-tank",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "A water tank is full with $3000$ litres, and water is being used at a rate of $25$ litres per minute.",
@@ -65429,6 +65942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-4j-tank",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "A water tank is full with $3000$ litres, and water is being used at a rate of $25$ litres per minute.",
@@ -65439,6 +65953,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4j-tank",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A spa pool holds $1800$ litres of water. It drains at a rate of $60$ litres per minute.",
@@ -65449,6 +65964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4j-tank",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A spa pool holds $1800$ litres of water. It drains at a rate of $60$ litres per minute.",
@@ -65462,6 +65978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4j-tank",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A spa pool holds $1800$ litres of water. It drains at a rate of $60$ litres per minute.",
@@ -65477,6 +65994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-4j-tank",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A spa pool holds $1800$ litres of water. It drains at a rate of $60$ litres per minute.",
@@ -65487,6 +66005,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-4j-tank",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "A spa pool holds $1800$ litres of water. It drains at a rate of $60$ litres per minute.",
@@ -65497,6 +66016,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4j-meaning",
    "label": "8a",
    "section": "Reasoning",
    "stem": "The distance travelled, $d$ km, by a truck after $t$ hours is given by $d = 40 + 90t$.",
@@ -65507,6 +66027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4j-meaning",
    "label": "8b",
    "section": "Reasoning",
    "stem": "The distance travelled, $d$ km, by a truck after $t$ hours is given by $d = 40 + 90t$.",
@@ -65520,6 +66041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4j-meaning",
    "label": "9a",
    "section": "Reasoning",
    "stem": "The height, $h$ metres, of a drone $t$ seconds after it starts to come down is given by $h = 420 - 15t$.",
@@ -65530,6 +66052,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4j-meaning",
    "label": "9b",
    "section": "Reasoning",
    "stem": "The height, $h$ metres, of a drone $t$ seconds after it starts to come down is given by $h = 420 - 15t$.",
@@ -65540,6 +66063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-4j-meaning",
    "label": "9c",
    "section": "Reasoning",
    "stem": "The height, $h$ metres, of a drone $t$ seconds after it starts to come down is given by $h = 420 - 15t$.",
@@ -65550,6 +66074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-4j-meaning",
    "label": "9d",
    "section": "Reasoning",
    "stem": "The height, $h$ metres, of a drone $t$ seconds after it starts to come down is given by $h = 420 - 15t$.",
@@ -65560,6 +66085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-4j-meaning",
    "label": "9e",
    "section": "Reasoning",
    "stem": "The height, $h$ metres, of a drone $t$ seconds after it starts to come down is given by $h = 420 - 15t$.",
@@ -65575,6 +66101,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4j-profit",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Mia runs a sausage sizzle to raise money for her coding club. Hiring the barbecue costs $\\$30$, and each sausage costs $45$ cents.",
@@ -65588,6 +66115,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4j-profit",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Mia runs a sausage sizzle to raise money for her coding club. Hiring the barbecue costs $\\$30$, and each sausage costs $45$ cents.",
@@ -65597,6 +66125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4j-profit",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Mia runs a sausage sizzle to raise money for her coding club. Hiring the barbecue costs $\\$30$, and each sausage costs $45$ cents.",
@@ -65610,6 +66139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-4j-profit",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Mia runs a sausage sizzle to raise money for her coding club. Hiring the barbecue costs $\\$30$, and each sausage costs $45$ cents.",
@@ -65619,6 +66149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-4j-profit",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Mia runs a sausage sizzle to raise money for her coding club. Hiring the barbecue costs $\\$30$, and each sausage costs $45$ cents.",
@@ -65628,6 +66159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-4j-profit",
    "label": "11a",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65641,6 +66173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-4j-profit",
    "label": "11b",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65651,6 +66184,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-4j-profit",
    "label": "11c",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65660,6 +66194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-4j-profit",
    "label": "11d",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65670,6 +66205,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-4j-profit",
    "label": "11e",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65679,6 +66215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-4j-profit",
    "label": "11f",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65692,6 +66229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-4j-profit",
    "label": "11g",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65705,6 +66243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-4j-profit",
    "label": "11h",
    "section": "Enrichment",
    "stem": "A bike company works out that the set-up cost for a new part is $\\$5400$, and each part costs $\\$12$ to make.",
@@ -65723,6 +66262,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-4k-check",
    "label": "1a",
    "section": "Fluency",
    "stem": "Decide if the given point is the intersection point of the two lines.",
@@ -65736,6 +66276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-4k-check",
    "label": "1b",
    "section": "Fluency",
    "stem": "Decide if the given point is the intersection point of the two lines.",
@@ -65749,6 +66290,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-4k-check",
    "label": "1c",
    "section": "Fluency",
    "stem": "Decide if the given point is the intersection point of the two lines.",
@@ -65762,6 +66304,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-4k-check",
    "label": "1d",
    "section": "Fluency",
    "stem": "Decide if the given point is the intersection point of the two lines.",
@@ -65775,6 +66318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-4k-check",
    "label": "1e",
    "section": "Fluency",
    "stem": "Decide if the given point is the intersection point of the two lines.",
@@ -65788,6 +66332,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-4k-check",
    "label": "1f",
    "section": "Fluency",
    "stem": "Decide if the given point is the intersection point of the two lines.",
@@ -65801,6 +66346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-4k-graph",
    "label": "2a",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65811,6 +66357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-4k-graph",
    "label": "2b",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65820,6 +66367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-4k-graph",
    "label": "2c",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65829,6 +66377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-4k-graph",
    "label": "2d",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65838,6 +66387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-4k-graph",
    "label": "2e",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65847,6 +66397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-4k-graph",
    "label": "2f",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65856,6 +66407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-4k-graph",
    "label": "2g",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65865,6 +66417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-4k-graph",
    "label": "2h",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65874,6 +66427,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-4k-graph",
    "label": "2i",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65883,6 +66437,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-4k-graph",
    "label": "2j",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65892,6 +66447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-4k-graph",
    "label": "2k",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65901,6 +66457,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-4k-graph",
    "label": "2l",
    "section": "Fluency",
    "stem": "Solve each pair of simultaneous equations graphically: draw both lines and find the coordinates of the point where they cross.",
@@ -65910,6 +66467,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-4k-breakeven",
    "label": "3a",
    "section": "Problem-solving",
    "stem": "A company makes phone chargers. Its costs, $\\$C$ (rent, materials and wages), are given by $C = 2n + 4000$, and its revenue, $\\$R$, is given by $R = 6n$, where $n$ is the number of chargers made.",
@@ -65920,6 +66478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-4k-breakeven",
    "label": "3b",
    "section": "Problem-solving",
    "stem": "A company makes phone chargers. Its costs, $\\$C$ (rent, materials and wages), are given by $C = 2n + 4000$, and its revenue, $\\$R$, is given by $R = 6n$, where $n$ is the number of chargers made.",
@@ -65929,6 +66488,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-4k-breakeven",
    "label": "4",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65937,6 +66497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-4k-closing",
    "label": "5",
    "section": "Problem-solving",
    "type": "numeric",
@@ -65946,6 +66507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-4k-families",
    "label": "6",
    "section": "Reasoning",
    "type": "choice",
@@ -65960,6 +66522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-4k-families",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Find the point where all three lines in each family meet. If they do not meet, type none.",
@@ -65970,6 +66533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-4k-families",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Find the point where all three lines in each family meet. If they do not meet, type none.",
@@ -65979,6 +66543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-4k-families",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Find the point where all three lines in each family meet. If they do not meet, type none.",
@@ -66003,6 +66568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-4k-families",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Find the point where all three lines in each family meet. If they do not meet, type none.",
@@ -66027,6 +66593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-4k-families",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Find the point where all three lines in each family meet. If they do not meet, type none.",
@@ -66036,6 +66603,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-4k-families",
    "label": "7f",
    "section": "Reasoning",
    "stem": "Find the point where all three lines in each family meet. If they do not meet, type none.",
@@ -66045,6 +66613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-4k-unknown",
    "label": "8a",
    "section": "Reasoning",
    "type": "numeric",
@@ -66053,6 +66622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-4k-unknown",
    "label": "8b",
    "section": "Reasoning",
    "type": "numeric",
@@ -66061,6 +66631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-4k-area",
    "label": "9a",
    "section": "Enrichment",
    "stem": "The three lines $y = 0$, $y = x + 3$ and $y = -2x + 6$ enclose the triangle $ABC$ shown.",
@@ -66174,6 +66745,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-4k-area",
    "label": "9b",
    "section": "Enrichment",
    "stem": "The three lines $y = 0$, $y = x + 3$ and $y = -2x + 6$ enclose the triangle $ABC$ shown.",
@@ -66184,6 +66756,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-4k-area",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Use the method from Question 9 to find the area enclosed by each set of three lines.",
@@ -66194,6 +66767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-4k-area",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Use the method from Question 9 to find the area enclosed by each set of three lines.",
@@ -66204,6 +66778,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-4k-area",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Use the method from Question 9 to find the area enclosed by each set of three lines.",
@@ -66214,6 +66789,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-4k-area",
    "label": "10d",
    "section": "Enrichment",
    "stem": "Use the method from Question 9 to find the area enclosed by each set of three lines.",
@@ -66224,6 +66800,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-4k-area",
    "label": "10e",
    "section": "Enrichment",
    "stem": "Use the method from Question 9 to find the area enclosed by each set of three lines.",
