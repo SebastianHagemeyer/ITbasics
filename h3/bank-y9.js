@@ -13,6 +13,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1a-order",
    "label": "1a",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -22,6 +23,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1a-order",
    "label": "1b",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -31,6 +33,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1a-order",
    "label": "1c",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -40,6 +43,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1a-order",
    "label": "1d",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -49,6 +53,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1a-order",
    "label": "1e",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -58,6 +63,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1a-order",
    "label": "1f",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -67,6 +73,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1a-order",
    "label": "1g",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -76,6 +83,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1a-order",
    "label": "1h",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -85,6 +93,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-1a-order",
    "label": "1i",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -94,6 +103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-1a-order",
    "label": "1j",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -103,6 +113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-1a-order",
    "label": "1k",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -112,6 +123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-1a-order",
    "label": "1l",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -121,6 +133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1m",
+   "help": "y9-1a-order",
    "label": "1m",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -130,6 +143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1n",
+   "help": "y9-1a-order",
    "label": "1n",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -139,6 +153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1o",
+   "help": "y9-1a-order",
    "label": "1o",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -148,6 +163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1p",
+   "help": "y9-1a-order",
    "label": "1p",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -157,6 +173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1q",
+   "help": "y9-1a-order",
    "label": "1q",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -166,6 +183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1r",
+   "help": "y9-1a-order",
    "label": "1r",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -175,6 +193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1s",
+   "help": "y9-1a-order",
    "label": "1s",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -184,6 +203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1t",
+   "help": "y9-1a-order",
    "label": "1t",
    "section": "Fluency",
    "stem": "Evaluate each of these, showing your steps.",
@@ -193,6 +213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1a-lcm",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -202,6 +223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1a-lcm",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -211,6 +233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1a-lcm",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -220,6 +243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1a-lcm",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the LCM (lowest common multiple) of each pair of numbers.",
@@ -229,6 +253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1a-hcf",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -238,6 +263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1a-hcf",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -247,6 +273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1a-hcf",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -256,6 +283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1a-hcf",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the HCF (highest common factor) of each pair of numbers.",
@@ -265,6 +293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1a-powers",
    "label": "4a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -274,6 +303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1a-powers",
    "label": "4b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -283,6 +313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1a-powers",
    "label": "4c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -292,6 +323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1a-powers",
    "label": "4d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -301,6 +333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1a-powers",
    "label": "4e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -310,6 +343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1a-powers",
    "label": "4f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -319,6 +353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-1a-powers",
    "label": "4g",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -328,6 +363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-1a-powers",
    "label": "4h",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -337,6 +373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4i",
+   "help": "y9-1a-powers",
    "label": "4i",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -346,6 +383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1a-sub",
    "label": "5a",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -355,6 +393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1a-sub",
    "label": "5b",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -364,6 +403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1a-sub",
    "label": "5c",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -373,6 +413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1a-sub",
    "label": "5d",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -382,6 +423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1a-sub",
    "label": "5e",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -391,6 +433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1a-sub",
    "label": "5f",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -400,6 +443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1a-sub",
    "label": "5g",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -409,6 +453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-1a-sub",
    "label": "5h",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -418,6 +463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-1a-sub",
    "label": "5i",
    "section": "Fluency",
    "stem": "Evaluate each expression by substituting $a = -4$, $b = 2$ and $c = -2$.",
@@ -427,6 +473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1a-brackets",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -440,6 +487,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1a-brackets",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -453,6 +501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1a-brackets",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -466,6 +515,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1a-brackets",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -479,6 +529,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-1a-brackets",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -493,6 +544,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-1a-brackets",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Brackets have been added to each statement in different places. Which version makes the statement true?",
@@ -506,6 +558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1a-lcm",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "Priya and Tom both catch the ferry to Rottnest Island. Priya makes the trip every $18$ days and Tom makes it every $24$ days. They are on the same ferry today. In how many days will they next be on the same ferry?",
@@ -515,6 +568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1a-brackets",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "Any number of pairs of brackets can be inserted into this expression. How many different answers are possible? $-5 \\times 3 - (-4) + (-2)$",
@@ -523,6 +577,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1a-pair",
    "label": "9a",
    "section": "Problem-solving",
    "prompt": "The sum of two numbers is $4$ and their difference is $10$. What are the two numbers?",
@@ -535,6 +590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1a-pair",
    "label": "9b",
    "section": "Problem-solving",
    "prompt": "The sum of two numbers is $-2$ and their product is $-15$. What are the two numbers?",
@@ -546,6 +602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1a-hcf",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "Two netball clubs have $28$ and $42$ players. For a training day, each club splits into smaller groups, all of the same size. What is the largest possible group size if both clubs use the same group size?",
@@ -555,6 +612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-1a-powers",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Evaluate:",
@@ -564,6 +622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-1a-powers",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Evaluate:",
@@ -573,6 +632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-1a-powers",
    "label": "11c",
    "section": "Reasoning",
    "prompt": "If $a^2 = 36$, write down the possible values of $a$.",
@@ -585,6 +645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-1a-powers",
    "label": "11d",
    "section": "Reasoning",
    "prompt": "If $a^3 = 64$, write down the value of $a$.",
@@ -593,6 +654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11e",
+   "help": "y9-1a-powers",
    "label": "11e",
    "section": "Reasoning",
    "prompt": "Find $\\sqrt[3]{-125}$.",
@@ -601,6 +663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11f",
+   "help": "y9-1a-powers",
    "label": "11f",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -610,6 +673,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11g",
+   "help": "y9-1a-powers",
    "label": "11g",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -619,6 +683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11h",
+   "help": "y9-1a-powers",
    "label": "11h",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -628,6 +693,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11i",
+   "help": "y9-1a-powers",
    "label": "11i",
    "section": "Reasoning",
    "stem": "Remember that $-2^2$ means $-1 \\times 2^2$. Evaluate:",
@@ -637,6 +703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11j",
+   "help": "y9-1a-powers",
    "label": "11j",
    "section": "Reasoning",
    "prompt": "Are $(-4)^2$ and $-4^2$ equal?",
@@ -649,6 +716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11k",
+   "help": "y9-1a-powers",
    "label": "11k",
    "section": "Reasoning",
    "prompt": "Are $(-5)^3$ and $-5^3$ equal?",
@@ -661,6 +729,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11l",
+   "help": "y9-1a-powers",
    "label": "11l",
    "section": "Reasoning",
    "prompt": "The HCF of two different prime numbers is always:",
@@ -675,6 +744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11m",
+   "help": "y9-1a-powers",
    "label": "11m",
    "section": "Reasoning",
    "prompt": "The LCM of two different prime numbers $p$ and $q$ is always:",
@@ -689,6 +759,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1a-signs",
    "label": "12a",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -702,6 +773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1a-signs",
    "label": "12b",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -715,6 +787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1a-signs",
    "label": "12c",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -728,6 +801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1a-signs",
    "label": "12d",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -741,6 +815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-1a-signs",
    "label": "12e",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -754,6 +829,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y9-1a-signs",
    "label": "12f",
    "section": "Reasoning",
    "stem": "$a$ and $b$ are both positive numbers and $a > b$. Decide whether each statement is true or false.",
@@ -767,6 +843,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1a-sequences",
    "label": "13a",
    "section": "Enrichment",
    "stem": "A perfect number is a positive whole number that equals the sum of all its factors, not counting the number itself.",
@@ -776,6 +853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1a-sequences",
    "label": "13b",
    "section": "Enrichment",
    "stem": "A perfect number is a positive whole number that equals the sum of all its factors, not counting the number itself.",
@@ -785,6 +863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-1a-sequences",
    "label": "13c",
    "section": "Enrichment",
    "stem": "A perfect number is a positive whole number that equals the sum of all its factors, not counting the number itself.",
@@ -794,6 +873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-1a-sequences",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Triangular numbers count the dots needed to make a triangle with 1 row, 2 rows, 3 rows and so on (1 dot, then 3 dots, then 6 dots, ...).",
@@ -832,6 +912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-1a-sequences",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Triangular numbers count the dots needed to make a triangle with 1 row, 2 rows, 3 rows and so on (1 dot, then 3 dots, then 6 dots, ...).",
@@ -844,6 +925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-1a-sequences",
    "label": "13f",
    "section": "Enrichment",
    "stem": "In the Fibonacci sequence each number is the sum of the two numbers before it. The first two numbers are $0$ and $1$.",
@@ -867,6 +949,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-1a-sequences",
    "label": "13g",
    "section": "Enrichment",
    "stem": "In the Fibonacci sequence each number is the sum of the two numbers before it. The first two numbers are $0$ and $1$.",
@@ -890,6 +973,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1b-dp",
    "label": "1a",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -899,6 +983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1b-dp",
    "label": "1b",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -908,6 +993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1b-dp",
    "label": "1c",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -917,6 +1003,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1b-dp",
    "label": "1d",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -926,6 +1013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1b-dp",
    "label": "1e",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -935,6 +1023,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1b-dp",
    "label": "1f",
    "section": "Fluency",
    "stem": "Round each of these to two decimal places.",
@@ -944,6 +1033,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1b-dp",
    "label": "2a",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -953,6 +1043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1b-dp",
    "label": "2b",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -962,6 +1053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1b-dp",
    "label": "2c",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -971,6 +1063,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1b-dp",
    "label": "2d",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -980,6 +1073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1b-dp",
    "label": "2e",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -989,6 +1083,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1b-dp",
    "label": "2f",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -998,6 +1093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1b-dp",
    "label": "2g",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1007,6 +1103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1b-dp",
    "label": "2h",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1016,6 +1113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-1b-dp",
    "label": "2i",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1025,6 +1123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-1b-dp",
    "label": "2j",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1034,6 +1133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-1b-dp",
    "label": "2k",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1043,6 +1143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-1b-dp",
    "label": "2l",
    "section": "Fluency",
    "stem": "Round each number to two decimal places.",
@@ -1052,6 +1153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1b-dp",
    "label": "3a",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1061,6 +1163,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1b-dp",
    "label": "3b",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1070,6 +1173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1b-dp",
    "label": "3c",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1079,6 +1183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1b-dp",
    "label": "3d",
    "section": "Fluency",
    "stem": "Round these numbers to the nearest whole number.",
@@ -1088,6 +1193,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1b-divide",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1097,6 +1203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1b-divide",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1106,6 +1213,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1b-divide",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1115,6 +1223,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1b-divide",
    "label": "4d",
    "section": "Fluency",
    "stem": "Use division to write each fraction as a decimal rounded to three decimal places.",
@@ -1124,6 +1233,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1b-sf",
    "label": "5a",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1133,6 +1243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1b-sf",
    "label": "5b",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1142,6 +1253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1b-sf",
    "label": "5c",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1151,6 +1263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1b-sf",
    "label": "5d",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1160,6 +1273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1b-sf",
    "label": "5e",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1169,6 +1283,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1b-sf",
    "label": "5f",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1178,6 +1293,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1b-sf",
    "label": "5g",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1187,6 +1303,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-1b-sf",
    "label": "5h",
    "section": "Fluency",
    "stem": "Round each number to two significant figures.",
@@ -1196,6 +1313,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1b-sf",
    "label": "6a",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1205,6 +1323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1b-sf",
    "label": "6b",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1214,6 +1333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1b-sf",
    "label": "6c",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1223,6 +1343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1b-sf",
    "label": "6d",
    "section": "Fluency",
    "stem": "Round these numbers to one significant figure.",
@@ -1232,6 +1353,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1b-estimate",
    "label": "7a",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1241,6 +1363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1b-estimate",
    "label": "7b",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1250,6 +1373,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1b-estimate",
    "label": "7c",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1259,6 +1383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1b-estimate",
    "label": "7d",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1268,6 +1393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-1b-estimate",
    "label": "7e",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1277,6 +1403,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-1b-estimate",
    "label": "7f",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1286,6 +1413,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7g",
+   "help": "y9-1b-estimate",
    "label": "7g",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1295,6 +1423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7h",
+   "help": "y9-1b-estimate",
    "label": "7h",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1304,6 +1433,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7i",
+   "help": "y9-1b-estimate",
    "label": "7i",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1313,6 +1443,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7j",
+   "help": "y9-1b-estimate",
    "label": "7j",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1322,6 +1453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7k",
+   "help": "y9-1b-estimate",
    "label": "7k",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1331,6 +1463,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7l",
+   "help": "y9-1b-estimate",
    "label": "7l",
    "section": "Fluency",
    "stem": "Estimate the answer by rounding each number to one significant figure first.",
@@ -1340,6 +1473,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-1b-before",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1350,6 +1484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-1b-before",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1360,6 +1495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-1b-before",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1370,6 +1506,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-1b-before",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "A timer records a relay race. Team A's time is $48.627$ seconds and team B's time is $47.952$ seconds. What is the difference between the two times if both are first written using:",
@@ -1380,6 +1517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1b-estimate",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "$36.7 \\times 4.18 \\times 12.64$ is worked out after first rounding each of the three numbers. What type of rounding was used if the answer is:",
@@ -1395,6 +1533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1b-estimate",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "$36.7 \\times 4.18 \\times 12.64$ is worked out after first rounding each of the three numbers. What type of rounding was used if the answer is:",
@@ -1410,6 +1549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1b-estimate",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "$36.7 \\times 4.18 \\times 12.64$ is worked out after first rounding each of the three numbers. What type of rounding was used if the answer is:",
@@ -1425,6 +1565,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1b-posts",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "Twenty-one posts and $170$ m of fencing are used to fence off an area in the shape of an equilateral triangle. There is a post in each corner and the posts are evenly spaced along the sides. Find the distance between neighbouring posts, in metres, rounded to the nearest centimetre.",
@@ -1434,6 +1575,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1b-divide",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Three tonnes of mulch is shared equally between $7$ garden beds. How much mulch goes on each bed? Give your answer in tonnes, rounded to the nearest kilogram.",
@@ -1443,6 +1585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1b-dp",
    "label": "12",
    "section": "Reasoning",
    "prompt": "Should $3.64999$ be rounded down or up when it is rounded to one decimal place?",
@@ -1455,6 +1598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1b-sf",
    "label": "13",
    "section": "Reasoning",
    "prompt": "A science experiment uses $0.0028$ g of zinc and $0.0041$ g of copper. Which way of recording these amounts keeps the two amounts different from each other?",
@@ -1467,6 +1611,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1b-estimate",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1476,6 +1621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1b-estimate",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1485,6 +1631,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1b-estimate",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1494,6 +1641,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-1b-estimate",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Consider the two numbers $34$ and $36$.",
@@ -1503,6 +1651,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1b-pattern",
    "label": "15a",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1513,6 +1662,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1b-pattern",
    "label": "15b",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1522,6 +1672,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1b-pattern",
    "label": "15c",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1531,6 +1682,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-1b-pattern",
    "label": "15d",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1540,6 +1692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-1b-pattern",
    "label": "15e",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1550,6 +1703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y9-1b-pattern",
    "label": "15f",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1559,6 +1713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15g",
+   "help": "y9-1b-pattern",
    "label": "15g",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1568,6 +1723,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15h",
+   "help": "y9-1b-pattern",
    "label": "15h",
    "section": "Enrichment",
    "stem": "Decimal patterns: use the repeating pattern of the decimal to answer each part.",
@@ -1586,6 +1742,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1c-to-dec",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1596,6 +1753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1c-to-dec",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1606,6 +1764,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1c-to-dec",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1616,6 +1775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1c-to-dec",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1626,6 +1786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1c-to-dec",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1636,6 +1797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1c-to-dec",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1646,6 +1808,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1c-to-dec",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1656,6 +1819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1c-to-dec",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write each fraction as a decimal.",
@@ -1666,6 +1830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1c-recurring",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1676,6 +1841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1c-recurring",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1686,6 +1852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1c-recurring",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1696,6 +1863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1c-recurring",
    "label": "2d",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1706,6 +1874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1c-recurring",
    "label": "2e",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1716,6 +1885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1c-recurring",
    "label": "2f",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1726,6 +1896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1c-recurring",
    "label": "2g",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1736,6 +1907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1c-recurring",
    "label": "2h",
    "section": "Fluency",
    "stem": "Each of these fractions gives a recurring decimal. Recurring dots can't be typed here, so work out the decimal by division and give it correct to 4 decimal places.",
@@ -1746,6 +1918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1c-to-frac",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1757,6 +1930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1c-to-frac",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1768,6 +1942,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1c-to-frac",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1779,6 +1954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1c-to-frac",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1790,6 +1966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1c-to-frac",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1801,6 +1978,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1c-to-frac",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1812,6 +1990,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-1c-to-frac",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1823,6 +2002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-1c-to-frac",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1834,6 +2014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3i",
+   "help": "y9-1c-to-frac",
    "label": "3i",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1845,6 +2026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3j",
+   "help": "y9-1c-to-frac",
    "label": "3j",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1856,6 +2038,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3k",
+   "help": "y9-1c-to-frac",
    "label": "3k",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1867,6 +2050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3l",
+   "help": "y9-1c-to-frac",
    "label": "3l",
    "section": "Fluency",
    "stem": "Write each decimal as a fraction in simplest form. Use a mixed numeral when the number is more than 1.",
@@ -1878,6 +2062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1c-compare",
    "label": "4a",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1891,6 +2076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1c-compare",
    "label": "4b",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1904,6 +2090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1c-compare",
    "label": "4c",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1917,6 +2104,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1c-compare",
    "label": "4d",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1930,6 +2118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1c-compare",
    "label": "4e",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1943,6 +2132,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1c-compare",
    "label": "4f",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1956,6 +2146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-1c-compare",
    "label": "4g",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1969,6 +2160,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-1c-compare",
    "label": "4h",
    "section": "Fluency",
    "stem": "Which is the larger fraction in each pair?",
@@ -1982,6 +2174,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1c-compare",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write these fractions in descending order (largest first).",
@@ -1996,6 +2189,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1c-compare",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write these fractions in descending order (largest first).",
@@ -2009,6 +2203,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1c-compare",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write these fractions in descending order (largest first).",
@@ -2022,6 +2217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1c-quantity",
    "label": "6a",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2033,6 +2229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1c-quantity",
    "label": "6b",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2044,6 +2241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1c-quantity",
    "label": "6c",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2055,6 +2253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1c-quantity",
    "label": "6d",
    "section": "Fluency",
    "stem": "Write each quantity as a fraction in simplest form.",
@@ -2066,6 +2265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1c-pattern",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2079,6 +2279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1c-pattern",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2091,6 +2292,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1c-pattern",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2103,6 +2305,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1c-pattern",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Each list of fractions follows a pattern. Find the next two fractions in the pattern.",
@@ -2115,6 +2318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1c-compare",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "The SkyWatch website says there is a $0.38$ chance of rain tomorrow. The RainCheck website says the chance is $\\frac{11}{30}$. Which website gives the smaller chance of rain?",
@@ -2127,6 +2331,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1c-strength",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2138,6 +2343,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1c-strength",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2149,6 +2355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1c-strength",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2160,6 +2367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-1c-strength",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A jug holds $300$ mL of half-strength apple juice. This amount of full-strength juice is added. What fraction describes the strength of the drink now?",
@@ -2171,6 +2379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-1c-between",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2185,6 +2394,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-1c-between",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2204,6 +2414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-1c-between",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2218,6 +2429,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-1c-between",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2230,6 +2442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-1c-between",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2251,6 +2464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-1c-between",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "$x$ is an integer. Find all the values that $x$ can take.",
@@ -2264,6 +2478,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1c-letters",
    "label": "11",
    "section": "Reasoning",
    "prompt": "$p\\frac{q}{r}$ is a mixed numeral where $p$, $q$ and $r$ are unknown digits. Which of these is the same number written as an improper fraction?",
@@ -2278,6 +2493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1c-simplest",
    "label": "12a",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2291,6 +2507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1c-simplest",
    "label": "12b",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2304,6 +2521,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1c-simplest",
    "label": "12c",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2317,6 +2535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1c-simplest",
    "label": "12d",
    "section": "Reasoning",
    "stem": "$\\frac{m}{n}$ is a fraction.",
@@ -2330,6 +2549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1c-rec-to-frac",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2340,6 +2560,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1c-rec-to-frac",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2350,6 +2571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-1c-rec-to-frac",
    "label": "13c",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2360,6 +2582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-1c-rec-to-frac",
    "label": "13d",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2370,6 +2593,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-1c-rec-to-frac",
    "label": "13e",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2380,6 +2604,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-1c-rec-to-frac",
    "label": "13f",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2390,6 +2615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13g",
+   "help": "y9-1c-rec-to-frac",
    "label": "13g",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2400,6 +2626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13h",
+   "help": "y9-1c-rec-to-frac",
    "label": "13h",
    "section": "Enrichment",
    "stem": "Convert each recurring decimal to a fraction in simplest form. For example, let $x = 0.\\dot{5}$, so $10x = 5.\\dot{5}$, then $9x = 5$ and $x = \\frac{5}{9}$. A mixed numeral is fine for numbers bigger than 1.",
@@ -2419,6 +2646,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1d-add",
    "label": "1a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2429,6 +2657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1d-add",
    "label": "1b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2438,6 +2667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1d-add",
    "label": "1c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2447,6 +2677,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1d-add",
    "label": "1d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2456,6 +2687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1d-add",
    "label": "1e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2465,6 +2697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1d-add",
    "label": "1f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2474,6 +2707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1d-add",
    "label": "1g",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2483,6 +2717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1d-add",
    "label": "1h",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2492,6 +2727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1d-add",
    "label": "2a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2501,6 +2737,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1d-add",
    "label": "2b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2510,6 +2747,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1d-add",
    "label": "2c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2519,6 +2757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1d-add",
    "label": "2d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2528,6 +2767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1d-add",
    "label": "2e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2537,6 +2777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1d-add",
    "label": "2f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2546,6 +2787,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1d-add",
    "label": "2g",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2555,6 +2797,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1d-add",
    "label": "2h",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2564,6 +2807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1d-mixed-add",
    "label": "3a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2573,6 +2817,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1d-mixed-add",
    "label": "3b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2582,6 +2827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1d-mixed-add",
    "label": "3c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2591,6 +2837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1d-mixed-add",
    "label": "3d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2600,6 +2847,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1d-mixed-add",
    "label": "3e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2609,6 +2857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1d-mixed-add",
    "label": "3f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2618,6 +2867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1d-mixed-add",
    "label": "4a",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2627,6 +2877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1d-mixed-add",
    "label": "4b",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2636,6 +2887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1d-mixed-add",
    "label": "4c",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2645,6 +2897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1d-mixed-add",
    "label": "4d",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2654,6 +2907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1d-mixed-add",
    "label": "4e",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2663,6 +2917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1d-mixed-add",
    "label": "4f",
    "section": "Fluency",
    "stem": "Evaluate each of these.",
@@ -2672,6 +2927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1d-multiply",
    "label": "5a",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2681,6 +2937,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1d-multiply",
    "label": "5b",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2690,6 +2947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1d-multiply",
    "label": "5c",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2699,6 +2957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1d-multiply",
    "label": "5d",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2708,6 +2967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1d-multiply",
    "label": "5e",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2717,6 +2977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1d-multiply",
    "label": "5f",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2726,6 +2987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1d-multiply",
    "label": "5g",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2735,6 +2997,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y9-1d-multiply",
    "label": "5h",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2744,6 +3007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5i",
+   "help": "y9-1d-multiply",
    "label": "5i",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2753,6 +3017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5j",
+   "help": "y9-1d-multiply",
    "label": "5j",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2762,6 +3027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5k",
+   "help": "y9-1d-multiply",
    "label": "5k",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2771,6 +3037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5l",
+   "help": "y9-1d-multiply",
    "label": "5l",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2780,6 +3047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5m",
+   "help": "y9-1d-multiply",
    "label": "5m",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2789,6 +3057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5n",
+   "help": "y9-1d-multiply",
    "label": "5n",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2798,6 +3067,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5o",
+   "help": "y9-1d-multiply",
    "label": "5o",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2807,6 +3077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5p",
+   "help": "y9-1d-multiply",
    "label": "5p",
    "section": "Fluency",
    "stem": "Evaluate each of these. Remember that a whole number like $6$ can be written as $\\frac{6}{1}$.",
@@ -2816,6 +3087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1d-divide",
    "label": "6a",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2825,6 +3097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1d-divide",
    "label": "6b",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2834,6 +3107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1d-divide",
    "label": "6c",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2843,6 +3117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1d-divide",
    "label": "6d",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2852,6 +3127,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-1d-divide",
    "label": "6e",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2861,6 +3137,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-1d-divide",
    "label": "6f",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2870,6 +3147,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-1d-divide",
    "label": "6g",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2879,6 +3157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-1d-divide",
    "label": "6h",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2888,6 +3167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-1d-divide",
    "label": "6i",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2897,6 +3177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6j",
+   "help": "y9-1d-divide",
    "label": "6j",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2906,6 +3187,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6k",
+   "help": "y9-1d-divide",
    "label": "6k",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2915,6 +3197,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6l",
+   "help": "y9-1d-divide",
    "label": "6l",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2924,6 +3207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6m",
+   "help": "y9-1d-divide",
    "label": "6m",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2933,6 +3217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6n",
+   "help": "y9-1d-divide",
    "label": "6n",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2942,6 +3227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6o",
+   "help": "y9-1d-divide",
    "label": "6o",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2951,6 +3237,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6p",
+   "help": "y9-1d-divide",
    "label": "6p",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2960,6 +3247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6q",
+   "help": "y9-1d-divide",
    "label": "6q",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2969,6 +3257,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6r",
+   "help": "y9-1d-divide",
    "label": "6r",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2978,6 +3267,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6s",
+   "help": "y9-1d-divide",
    "label": "6s",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2987,6 +3277,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6t",
+   "help": "y9-1d-divide",
    "label": "6t",
    "section": "Fluency",
    "stem": "Evaluate each of these. To divide by a fraction, multiply by its reciprocal (the reciprocal of $5$ is $\\frac{1}{5}$ and of $\\frac{2}{3}$ is $\\frac{3}{2}$).",
@@ -2996,6 +3287,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1d-mixed-add",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "A quarry sieves $4\\frac{1}{4}$ tonnes of gravel. If $1\\frac{5}{6}$ tonnes of dust and grit is removed, how many tonnes of gravel are left?",
@@ -3005,6 +3297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1d-mixed-add",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "When a load of ore is processed it produces $2\\frac{3}{5}$ tonnes of metal and $4\\frac{1}{6}$ tonnes of waste. How many tonnes of ore were processed?",
@@ -3014,6 +3307,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1d-word",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "In a $2\\frac{2}{3}$ hour science exam, $\\frac{1}{8}$ of the time is reading time. How many minutes of reading time is that?",
@@ -3023,6 +3317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-1d-mixed-ops",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3032,6 +3327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-1d-mixed-ops",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3041,6 +3337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y9-1d-mixed-ops",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3050,6 +3347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y9-1d-mixed-ops",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3059,6 +3357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y9-1d-mixed-ops",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3068,6 +3367,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10f",
+   "help": "y9-1d-mixed-ops",
    "label": "10f",
    "section": "Problem-solving",
    "stem": "Evaluate these mixed-operation problems.",
@@ -3077,6 +3377,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1d-divide",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "A path needs $16\\frac{1}{3}\\text{ m}^3$ of gravel. A small trailer can carry $2\\frac{1}{4}\\text{ m}^3$ of gravel. How many trailer loads will be needed?",
@@ -3086,6 +3387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1d-word",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "Mei worked for $8\\frac{3}{4}$ hours at a bakery. Three-sevenths of her time was spent baking and the rest serving customers. How many hours did she spend serving customers?",
@@ -3095,6 +3397,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1d-mixed-add",
    "label": "13",
    "section": "Reasoning",
    "prompt": "Here the fraction part being taken away is bigger than the fraction part it is taken from, so you cannot just subtract the whole numbers and the fractions separately. Evaluate $3\\frac{1}{5} - 1\\frac{1}{2}$.",
@@ -3103,6 +3406,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1d-letters",
    "label": "14a",
    "section": "Reasoning",
    "prompt": "A fraction is given by $\\frac{p}{q}$. Write down its reciprocal.",
@@ -3113,6 +3417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1d-letters",
    "label": "14b",
    "section": "Reasoning",
    "prompt": "A mixed numeral is given by $p\\frac{q}{r}$. Write an expression for its reciprocal, as a single fraction.",
@@ -3123,6 +3428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1d-letters",
    "label": "15a",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3134,6 +3440,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1d-letters",
    "label": "15b",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3144,6 +3451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1d-letters",
    "label": "15c",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3153,6 +3461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-1d-letters",
    "label": "15d",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3162,6 +3471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15e",
+   "help": "y9-1d-letters",
    "label": "15e",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3172,6 +3482,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15f",
+   "help": "y9-1d-letters",
    "label": "15f",
    "section": "Reasoning",
    "stem": "$p$, $q$ and $r$ are positive integers. Simplify each of these.",
@@ -3182,6 +3493,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1d-order",
    "label": "16a",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3191,6 +3503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1d-order",
    "label": "16b",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3200,6 +3513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-1d-order",
    "label": "16c",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3209,6 +3523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y9-1d-order",
    "label": "16d",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3218,6 +3533,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16e",
+   "help": "y9-1d-order",
    "label": "16e",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3227,6 +3543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16f",
+   "help": "y9-1d-order",
    "label": "16f",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3236,6 +3553,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16g",
+   "help": "y9-1d-order",
    "label": "16g",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3245,6 +3563,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16h",
+   "help": "y9-1d-order",
    "label": "16h",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3254,6 +3573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16i",
+   "help": "y9-1d-order",
    "label": "16i",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3263,6 +3583,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16j",
+   "help": "y9-1d-order",
    "label": "16j",
    "section": "Enrichment",
    "stem": "Evaluate each of these. Take care with the order of operations.",
@@ -3281,6 +3602,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1e-simplify",
    "label": "1a",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3292,6 +3614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1e-simplify",
    "label": "1b",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3302,6 +3625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1e-simplify",
    "label": "1c",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3312,6 +3636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1e-simplify",
    "label": "1d",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3322,6 +3647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1e-simplify",
    "label": "1e",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3332,6 +3658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1e-simplify",
    "label": "1f",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3342,6 +3669,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1e-simplify",
    "label": "1g",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3352,6 +3680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1e-simplify",
    "label": "1h",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3362,6 +3691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1i",
+   "help": "y9-1e-simplify",
    "label": "1i",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3372,6 +3702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1j",
+   "help": "y9-1e-simplify",
    "label": "1j",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3382,6 +3713,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1k",
+   "help": "y9-1e-simplify",
    "label": "1k",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3392,6 +3724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1l",
+   "help": "y9-1e-simplify",
    "label": "1l",
    "section": "Fluency",
    "stem": "Simplify these ratios.",
@@ -3402,6 +3735,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1e-units",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3412,6 +3746,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1e-units",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3422,6 +3757,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1e-units",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3432,6 +3768,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1e-units",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3442,6 +3779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1e-units",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3452,6 +3790,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1e-units",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3462,6 +3801,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1e-units",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3472,6 +3812,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1e-units",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3482,6 +3823,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y9-1e-units",
    "label": "2i",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3492,6 +3834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y9-1e-units",
    "label": "2j",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3502,6 +3845,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y9-1e-units",
    "label": "2k",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3512,6 +3856,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y9-1e-units",
    "label": "2l",
    "section": "Fluency",
    "stem": "Write each of these as a ratio in simplest form. Change to the same unit first.",
@@ -3522,6 +3867,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1e-divide",
    "label": "3a",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3535,6 +3881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1e-divide",
    "label": "3b",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3547,6 +3894,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1e-divide",
    "label": "3c",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3559,6 +3907,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1e-divide",
    "label": "3d",
    "section": "Fluency",
    "stem": "Divide \\$800 in each ratio using the unitary method. Give the shares in order.",
@@ -3571,6 +3920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1e-divide",
    "label": "4a",
    "section": "Fluency",
    "stem": "Divide \\$90 in each ratio. Give the shares in order.",
@@ -3584,6 +3934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1e-divide",
    "label": "4b",
    "section": "Fluency",
    "stem": "Divide \\$90 in each ratio. Give the shares in order.",
@@ -3597,6 +3948,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1e-divide",
    "label": "4c",
    "section": "Fluency",
    "stem": "Divide \\$90 in each ratio. Give the shares in order.",
@@ -3610,6 +3962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1e-rates",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3620,6 +3973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1e-rates",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3630,6 +3984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1e-rates",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3640,6 +3995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1e-rates",
    "label": "5d",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3650,6 +4006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1e-rates",
    "label": "5e",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3660,6 +4017,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1e-rates",
    "label": "5f",
    "section": "Fluency",
    "stem": "Write each rate in simplest form, as an amount for one unit of time.",
@@ -3670,6 +4028,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1e-rates",
    "label": "6a",
    "section": "Fluency",
    "stem": "Priya rides her bike at an average speed of $18$ km/h. How far does she ride in:",
@@ -3680,6 +4039,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1e-rates",
    "label": "6b",
    "section": "Fluency",
    "stem": "Priya rides her bike at an average speed of $18$ km/h. How far does she ride in:",
@@ -3690,6 +4050,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1e-rates",
    "label": "6c",
    "section": "Fluency",
    "stem": "Priya rides her bike at an average speed of $18$ km/h. How far does she ride in:",
@@ -3700,6 +4061,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1e-best-buy",
    "label": "7a",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3713,6 +4075,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1e-best-buy",
    "label": "7b",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3726,6 +4089,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1e-best-buy",
    "label": "7c",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3739,6 +4103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1e-best-buy",
    "label": "7d",
    "section": "Fluency",
    "stem": "Which is the better buy (cheaper deal)?",
@@ -3752,6 +4117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-1e-best-buy",
    "label": "8a",
    "section": "Fluency",
    "stem": "Find the cost of $100$ g of each product, then decide which is the better buy (cheaper deal).",
@@ -3765,6 +4131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-1e-best-buy",
    "label": "8b",
    "section": "Fluency",
    "stem": "Find the cost of $100$ g of each product, then decide which is the better buy (cheaper deal).",
@@ -3778,6 +4145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-1e-best-buy",
    "label": "8c",
    "section": "Fluency",
    "stem": "Find the cost of $100$ g of each product, then decide which is the better buy (cheaper deal).",
@@ -3791,6 +4159,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1e-divide",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Leo runs a fruit shop. Each day he buys apples and pears in the ratio $5 : 3$. On one day he bought $240$ pieces of fruit altogether. How many apples did he buy?",
@@ -3800,6 +4169,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1e-divide",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "A prize of \\$8400 is shared between Ava, Mia and Zara in the ratio $3 : 4 : 5$. How much does each girl get? Give the amounts in that order.",
@@ -3813,6 +4183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1e-value",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "A box of twenty-four $375$ mL cans of sparkling water works out at \\$1.60 per litre. A box of $36$ of the same cans is advertised as saving $8$ cents per can compared with the 24-can box. How much does the 36-can box cost? Give your answer to the nearest cent.",
@@ -3823,6 +4194,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1e-one-part",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A cleaning product is mixed with water in the ratio $3 : 5$ (cleaner to water). If you have $45$ litres of cleaner, how much water is needed?",
@@ -3832,6 +4204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1e-value",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "Josh is looking at a supermarket catalogue. A $3$ L tub of vanilla ice-cream is advertised for \\$7.20. His favourite mint ice-cream is usually \\$4.65 for a $1.5$ L tub. How much would the price of the mint tub need to drop for it to be the same value per litre as the vanilla tub? Give your answer to the nearest cent.",
@@ -3842,6 +4215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-1e-simplify",
    "label": "14",
    "section": "Problem-solving",
    "prompt": "The ratio of the side lengths of two squares is $2 : 3$. Find the ratio of their areas.",
@@ -3850,6 +4224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1e-divide",
    "label": "15",
    "section": "Problem-solving",
    "prompt": "A quadrilateral (angle sum $360^\\circ$) has interior angles in the ratio $2 : 3 : 5 : 8$. Find the size of each angle, in that order.",
@@ -3864,6 +4239,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-1e-best-buy",
    "label": "16",
    "section": "Reasoning",
    "prompt": "$3.2$ kg of cereal A costs \\$6.40 and $1.8$ kg of cereal B costs \\$3.69. Which cereal is the better buy (cheaper deal)?",
@@ -3876,6 +4252,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1e-letters",
    "label": "17a",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3889,6 +4266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1e-letters",
    "label": "17b",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3902,6 +4280,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1e-letters",
    "label": "17c",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3915,6 +4294,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-1e-letters",
    "label": "17d",
    "section": "Reasoning",
    "stem": "$p : q$ is a ratio in simplest form. Decide whether each statement is true or false.",
@@ -3928,6 +4308,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1e-letters",
    "label": "18a",
    "section": "Reasoning",
    "stem": "A ratio is $m : n$, where $m$ and $n$ are positive integers and $m < n$. Write an expression for:",
@@ -3937,6 +4318,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1e-letters",
    "label": "18b",
    "section": "Reasoning",
    "stem": "A ratio is $m : n$, where $m$ and $n$ are positive integers and $m < n$. Write an expression for:",
@@ -3947,6 +4329,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18c",
+   "help": "y9-1e-letters",
    "label": "18c",
    "section": "Reasoning",
    "stem": "A ratio is $m : n$, where $m$ and $n$ are positive integers and $m < n$. Write an expression for:",
@@ -3956,6 +4339,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y9-1e-mix",
    "label": "19a",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -3992,6 +4376,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y9-1e-mix",
    "label": "19b",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4002,6 +4387,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y9-1e-mix",
    "label": "19c",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4012,6 +4398,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y9-1e-mix",
    "label": "19d",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4022,6 +4409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19e",
+   "help": "y9-1e-mix",
    "label": "19e",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4032,6 +4420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19f",
+   "help": "y9-1e-mix",
    "label": "19f",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4042,6 +4431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19g",
+   "help": "y9-1e-mix",
    "label": "19g",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4052,6 +4442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19h",
+   "help": "y9-1e-mix",
    "label": "19h",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4062,6 +4453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19i",
+   "help": "y9-1e-mix",
    "label": "19i",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4072,6 +4464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19j",
+   "help": "y9-1e-mix",
    "label": "19j",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4082,6 +4475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19k",
+   "help": "y9-1e-mix",
    "label": "19k",
    "section": "Enrichment",
    "stem": "Four jugs of cordial are mixed with the cordial to water ratios and total volumes shown in the table.",
@@ -4108,6 +4502,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1f-dec-pc",
    "label": "1a",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4119,6 +4514,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1f-dec-pc",
    "label": "1b",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4129,6 +4525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1f-dec-pc",
    "label": "1c",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4139,6 +4536,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1f-dec-pc",
    "label": "1d",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4149,6 +4547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1f-dec-pc",
    "label": "1e",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4159,6 +4558,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1f-dec-pc",
    "label": "1f",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4169,6 +4569,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1f-dec-pc",
    "label": "1g",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4179,6 +4580,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1f-dec-pc",
    "label": "1h",
    "section": "Fluency",
    "stem": "Write each decimal as a percentage.",
@@ -4189,6 +4591,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1f-dec-pc",
    "label": "2a",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4199,6 +4602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1f-dec-pc",
    "label": "2b",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4209,6 +4613,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1f-dec-pc",
    "label": "2c",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4219,6 +4624,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1f-dec-pc",
    "label": "2d",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4229,6 +4635,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1f-dec-pc",
    "label": "2e",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4239,6 +4646,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1f-dec-pc",
    "label": "2f",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4249,6 +4657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1f-dec-pc",
    "label": "2g",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4259,6 +4668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1f-dec-pc",
    "label": "2h",
    "section": "Fluency",
    "stem": "Write each percentage as a decimal.",
@@ -4269,6 +4679,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1f-frac",
    "label": "3a",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4280,6 +4691,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1f-frac",
    "label": "3b",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4291,6 +4703,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1f-frac",
    "label": "3c",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4302,6 +4715,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1f-frac",
    "label": "3d",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4313,6 +4727,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1f-frac",
    "label": "3e",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4324,6 +4739,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1f-frac",
    "label": "3f",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4335,6 +4751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y9-1f-frac",
    "label": "3g",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4346,6 +4763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y9-1f-frac",
    "label": "3h",
    "section": "Fluency",
    "stem": "Write each percentage from Question 2 as a fraction in simplest form. Use a mixed numeral if it is more than 1.",
@@ -4357,6 +4775,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1f-frac",
    "label": "4a",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4388,6 +4807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1f-frac",
    "label": "4b",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4418,6 +4838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1f-frac",
    "label": "4c",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4448,6 +4869,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1f-frac",
    "label": "4d",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4478,6 +4900,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1f-frac",
    "label": "4e",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4508,6 +4931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1f-frac",
    "label": "4f",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4538,6 +4962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y9-1f-frac",
    "label": "4g",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4568,6 +4993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y9-1f-frac",
    "label": "4h",
    "section": "Fluency",
    "stem": "Each table shows a percentage, a fraction and a decimal that are all equal. Fill in the two missing entries. Use the simplest form for fractions.",
@@ -4598,6 +5024,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1f-as-percent",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4608,6 +5035,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1f-as-percent",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4619,6 +5047,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1f-as-percent",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4629,6 +5058,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1f-as-percent",
    "label": "5d",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4639,6 +5069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1f-as-percent",
    "label": "5e",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4649,6 +5080,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1f-as-percent",
    "label": "5f",
    "section": "Fluency",
    "stem": "Write each of these as a percentage.",
@@ -4659,6 +5091,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1f-of",
    "label": "6a",
    "section": "Fluency",
    "stem": "Find:",
@@ -4669,6 +5102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1f-of",
    "label": "6b",
    "section": "Fluency",
    "stem": "Find:",
@@ -4679,6 +5113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1f-of",
    "label": "6c",
    "section": "Fluency",
    "stem": "Find:",
@@ -4689,6 +5124,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1f-of",
    "label": "6d",
    "section": "Fluency",
    "stem": "Find:",
@@ -4699,6 +5135,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y9-1f-of",
    "label": "6e",
    "section": "Fluency",
    "stem": "Find:",
@@ -4709,6 +5146,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y9-1f-of",
    "label": "6f",
    "section": "Fluency",
    "stem": "Find:",
@@ -4719,6 +5157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y9-1f-of",
    "label": "6g",
    "section": "Fluency",
    "stem": "Find:",
@@ -4729,6 +5168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y9-1f-of",
    "label": "6h",
    "section": "Fluency",
    "stem": "Find:",
@@ -4739,6 +5179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y9-1f-of",
    "label": "6i",
    "section": "Fluency",
    "stem": "Find:",
@@ -4749,6 +5190,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1f-original",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4760,6 +5202,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1f-original",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4771,6 +5214,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1f-original",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4782,6 +5226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1f-original",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4793,6 +5238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-1f-original",
    "label": "7e",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4804,6 +5250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y9-1f-original",
    "label": "7f",
    "section": "Fluency",
    "stem": "Find the original amount when:",
@@ -4815,6 +5262,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y9-1f-original",
    "label": "8a",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4825,6 +5273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y9-1f-original",
    "label": "8b",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4835,6 +5284,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y9-1f-original",
    "label": "8c",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4845,6 +5295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y9-1f-original",
    "label": "8d",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4855,6 +5306,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y9-1f-original",
    "label": "8e",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4865,6 +5317,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y9-1f-original",
    "label": "8f",
    "section": "Fluency",
    "stem": "Find the value of $x$ in each of these.",
@@ -4875,6 +5328,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1f-as-percent",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Rain stopped a cricket match for $45$ minutes of a scheduled $3\\frac{3}{4}$ hour game. What percentage of the scheduled time was lost?",
@@ -4884,6 +5338,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1f-as-percent",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "Sam lost $6$ kg and now weighs $74$ kg. What percentage of his original weight did he lose?",
@@ -4893,6 +5348,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1f-of",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "About $60\\%$ of the mass of an adult's body is water. If Mia weighs $55$ kg, about how many kilograms of her body mass is water?",
@@ -4902,6 +5358,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1f-of",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "In a class of $30$ students, $30\\%$ have been to Japan. How many students have not been to Japan?",
@@ -4911,6 +5368,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1f-of",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "$5\\%$ of a school's $960$ students are in the swimming team, and $25\\%$ of the swimming team are under $14$. How many students in the swimming team are under $14$?",
@@ -4920,6 +5378,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-1f-original",
    "label": "14",
    "section": "Problem-solving",
    "prompt": "One week Liam spent $15\\%$ of his weekly wage on headphones that cost \\$129. What is his weekly wage?",
@@ -4930,6 +5389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1f-reason",
    "label": "15a",
    "section": "Reasoning",
    "stem": "Think about statements of the form $P\\%$ of $a = b$ (like $25\\%$ of $60 = 15$ or $120\\%$ of $35 = 42$), where $a$ is a positive number.",
@@ -4939,6 +5399,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1f-reason",
    "label": "15b",
    "section": "Reasoning",
    "stem": "Think about statements of the form $P\\%$ of $a = b$ (like $25\\%$ of $60 = 15$ or $120\\%$ of $35 = 42$), where $a$ is a positive number.",
@@ -4949,6 +5410,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1f-reason",
    "label": "15c",
    "section": "Reasoning",
    "stem": "Think about statements of the form $P\\%$ of $a = b$ (like $25\\%$ of $60 = 15$ or $120\\%$ of $35 = 42$), where $a$ is a positive number.",
@@ -4958,6 +5420,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1f-reason",
    "label": "16a",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4968,6 +5431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1f-reason",
    "label": "16b",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4977,6 +5441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-1f-reason",
    "label": "16c",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4986,6 +5451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16d",
+   "help": "y9-1f-reason",
    "label": "16d",
    "section": "Reasoning",
    "stem": "Write an equation connecting $x$ and $y$ in its simplest form (for example $x = 3y$ or $2x = 5y$) if:",
@@ -4995,6 +5461,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1f-of",
    "label": "17a",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5004,6 +5471,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1f-of",
    "label": "17b",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5013,6 +5481,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1f-of",
    "label": "17c",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5023,6 +5492,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-1f-of",
    "label": "17d",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5033,6 +5503,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17e",
+   "help": "y9-1f-of",
    "label": "17e",
    "section": "Enrichment",
    "stem": "These questions involve percentages of more than 100%.",
@@ -5052,6 +5523,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1g-multiplier",
    "label": "1a",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5063,6 +5535,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1g-multiplier",
    "label": "1b",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5073,6 +5546,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1g-multiplier",
    "label": "1c",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5083,6 +5557,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1g-multiplier",
    "label": "1d",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5093,6 +5568,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1g-multiplier",
    "label": "1e",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5103,6 +5579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1g-multiplier",
    "label": "1f",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5113,6 +5590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1g-multiplier",
    "label": "1g",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5124,6 +5602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1h",
+   "help": "y9-1g-multiplier",
    "label": "1h",
    "section": "Fluency",
    "stem": "Increase each amount by the percentage given in brackets.",
@@ -5135,6 +5614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1g-multiplier",
    "label": "2a",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5145,6 +5625,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1g-multiplier",
    "label": "2b",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5155,6 +5636,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1g-multiplier",
    "label": "2c",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5165,6 +5647,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1g-multiplier",
    "label": "2d",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5175,6 +5658,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1g-multiplier",
    "label": "2e",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5186,6 +5670,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1g-multiplier",
    "label": "2f",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5196,6 +5681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1g-multiplier",
    "label": "2g",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5206,6 +5692,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1g-multiplier",
    "label": "2h",
    "section": "Fluency",
    "stem": "Decrease each amount by the percentage given in brackets.",
@@ -5217,6 +5704,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1g-change",
    "label": "3",
    "section": "Fluency",
    "prompt": "The length of a school fun run is increased from $750$ m to $1200$ m. Find the percentage increase.",
@@ -5226,6 +5714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-1g-change",
    "label": "4",
    "section": "Fluency",
    "prompt": "From age 11 to 16, Ella's height increased from $135$ cm to $162$ cm. Find the percentage increase.",
@@ -5235,6 +5724,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1g-change",
    "label": "5",
    "section": "Fluency",
    "prompt": "The temperature dropped from $32^\\circ$C in the afternoon to $24^\\circ$C at night. Find the percentage decrease.",
@@ -5244,6 +5734,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1g-change",
    "label": "6",
    "section": "Fluency",
    "prompt": "Tia, a rising swimmer, lowered her 100 m time from $75$ seconds to $72.75$ seconds. Find the percentage decrease.",
@@ -5253,6 +5744,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1g-change",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5263,6 +5755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1g-change",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5273,6 +5766,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1g-change",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5283,6 +5777,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1g-change",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the percentage change in each situation, rounded to one decimal place.",
@@ -5293,6 +5788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1g-original",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "After a price rise of $15\\%$, the cost of a concert ticket is \\$27.60. Find the original price.",
@@ -5303,6 +5799,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1g-original",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "The average crowd at a club's home games rose by $6\\%$ this year to $28\\,451$. Find the average crowd last year, to the nearest whole number.",
@@ -5312,6 +5809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1g-original",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "When it was sold, a car had lost $41\\%$ of its value and was worth \\$11 260. What was its original price, to the nearest dollar?",
@@ -5321,6 +5819,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-1g-error",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5331,6 +5830,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-1g-error",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5341,6 +5841,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-1g-error",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5351,6 +5852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-1g-error",
    "label": "11d",
    "section": "Problem-solving",
    "stem": "Find the percentage error of each experimental measurement compared with the theoretical value.",
@@ -5361,6 +5863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1g-gst",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "The price of a jacket including GST (at $10\\%$) is \\$85. How much GST is included, to the nearest cent?",
@@ -5371,6 +5874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1g-gst",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "A sports coach charges a club \\$290 per hour including GST (at $10\\%$). The club hires the coach for $3$ hours and can claim back the GST from the tax office. Find the net cost of the coach for the club, to the nearest cent.",
@@ -5381,6 +5885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1g-back",
    "label": "14a",
    "section": "Reasoning",
    "stem": "An investor starts with \\$2000.",
@@ -5392,6 +5897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1g-back",
    "label": "14b",
    "section": "Reasoning",
    "stem": "An investor starts with \\$2000.",
@@ -5403,6 +5909,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1g-back",
    "label": "15",
    "section": "Reasoning",
    "prompt": "In a sale, all board games in a shop are reduced from \\$40 by $25\\%$. What percentage increase is needed to take the price back to \\$40? Round to two decimal places if needed.",
@@ -5413,6 +5920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-1g-back",
    "label": "16",
    "section": "Reasoning",
    "prompt": "The cost of an item is reduced by $60\\%$. What percentage increase is needed to return it to its original price?",
@@ -5422,6 +5930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17",
+   "help": "y9-1g-back",
    "label": "17",
    "section": "Reasoning",
    "prompt": "The cost of an item is increased by $45\\%$. What percentage decrease is needed to return it to its original price? Round to two decimal places.",
@@ -5431,6 +5940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1g-repeated",
    "label": "18a",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5442,6 +5952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1g-repeated",
    "label": "18b",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5453,6 +5964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18c",
+   "help": "y9-1g-repeated",
    "label": "18c",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5464,6 +5976,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18d",
+   "help": "y9-1g-repeated",
    "label": "18d",
    "section": "Enrichment",
    "stem": "If a \\$60 item has its price increased three times, by $10\\%$, $20\\%$ and $5\\%$, the final price is $\\$60 \\times 1.10 \\times 1.20 \\times 1.05 = \\$83.16$. Use the same method to find each final price, to the nearest cent.",
@@ -5475,6 +5988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y9-1g-repeated",
    "label": "19a",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5485,6 +5999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y9-1g-repeated",
    "label": "19b",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5495,6 +6010,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y9-1g-repeated",
    "label": "19c",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5505,6 +6021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y9-1g-repeated",
    "label": "19d",
    "section": "Enrichment",
    "stem": "If an amount changes by the same percentage each time, powers can be used. For example, $40$ kg increased by $10\\%$ three times becomes $40 \\times 1.1^3 = 53.24$ kg. Find each final value, rounded to two decimal places.",
@@ -5524,6 +6041,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1h-profit",
    "label": "1a",
    "section": "Fluency",
    "stem": "A sports shop buys a pair of running shoes for \\$640 and sells them for \\$736.",
@@ -5535,6 +6053,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1h-profit",
    "label": "1b",
    "section": "Fluency",
    "stem": "A sports shop buys a pair of running shoes for \\$640 and sells them for \\$736.",
@@ -5545,6 +6064,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1h-profit",
    "label": "2a",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5556,6 +6076,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1h-profit",
    "label": "2b",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5566,6 +6087,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1h-profit",
    "label": "2c",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5577,6 +6099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1h-profit",
    "label": "2d",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5587,6 +6110,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1h-profit",
    "label": "2e",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5598,6 +6122,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1h-profit",
    "label": "2f",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5608,6 +6133,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1h-profit",
    "label": "2g",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5619,6 +6145,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1h-profit",
    "label": "2h",
    "section": "Fluency",
    "stem": "A furniture maker builds and sells items at the prices shown. Find each value.",
@@ -5629,6 +6156,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1h-profit",
    "label": "3",
    "section": "Fluency",
    "prompt": "Mia runs a food truck. Last year she took in \\$96 000 and it cost her \\$41 000 to run the business. What was her percentage profit for the year (profit as a percentage of the running costs)? Round to two decimal places.",
@@ -5639,6 +6167,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-1h-profit",
    "label": "4",
    "section": "Fluency",
    "prompt": "A train trip between two cities used to take 15 hours. It now takes 9 hours. What is the percentage decrease in travel time?",
@@ -5648,6 +6177,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1h-markup",
    "label": "5",
    "section": "Fluency",
    "prompt": "A gift shop marks up all of its items by 35%. If the cost price of a candle set is \\$40, what is its selling price?",
@@ -5658,6 +6188,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1h-markup",
    "label": "6",
    "section": "Fluency",
    "prompt": "Priya marks up every bike in her store by 17.5%. If a bike cost her \\$845, what is its selling price, to the nearest cent?",
@@ -5668,6 +6199,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1h-profit",
    "label": "7",
    "section": "Fluency",
    "prompt": "A used-car dealer buys a car for \\$14 500 and sells it for \\$19 800. Find the percentage mark-up on the car, correct to one decimal place.",
@@ -5678,6 +6210,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1h-discount",
    "label": "8",
    "section": "Fluency",
    "prompt": "A store gives a 12% discount to customers who pay with cash. Tom wants a blender marked at \\$185. How much will he pay if he pays with cash?",
@@ -5688,6 +6221,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1h-discount",
    "label": "9",
    "section": "Fluency",
    "prompt": "A computer store has a laptop marked at \\$1280 and a laptop bag marked at \\$95. Ella is offered an 18% discount if she buys both. How much will she pay for the two items?",
@@ -5698,6 +6232,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1h-original",
    "label": "10",
    "section": "Fluency",
    "prompt": "A washing machine is discounted by 30%. If Jordan pays \\$545 for it, what was the original price? Round to the nearest cent.",
@@ -5708,6 +6243,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1h-original",
    "label": "11",
    "section": "Fluency",
    "prompt": "A season pass for a swimming pool is discounted by 20%. If the new price is \\$236, what was the original price?",
@@ -5718,6 +6254,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1h-chain",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A store marks up a \\$650 gaming console by 40%. During a sale, the marked price is discounted by 25%. By what percentage is the sale price higher than the original price of \\$650?",
@@ -5727,6 +6264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1h-original",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "A desk was bought for a cost price of \\$420 and marked up to a retail price. It was then discounted by 15% to a sale price of \\$535.50. What was the percentage mark-up from the cost price to the retail price?",
@@ -5736,6 +6274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1h-chain",
    "label": "14a",
    "section": "Problem-solving",
    "stem": "Backpacks are made for \\$30 each. The maker sells them to a warehouse with a mark-up of 20%. The warehouse sells them to a distributor after adding a storage fee of \\$8 per backpack. The distributor sells them to the shop \"Trail Gear\" for a percentage profit of 15%. The shop then marks them up by 35%.",
@@ -5746,6 +6285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1h-chain",
    "label": "14b",
    "section": "Problem-solving",
    "stem": "Backpacks are made for \\$30 each. The maker sells them to a warehouse with a mark-up of 20%. The warehouse sells them to a distributor after adding a storage fee of \\$8 per backpack. The distributor sells them to the shop \"Trail Gear\" for a percentage profit of 15%. The shop then marks them up by 35%.",
@@ -5757,6 +6297,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1h-chain",
    "label": "15",
    "section": "Reasoning",
    "prompt": "Two shops each sell a \\$200 jacket. Shop A marks it up by 25% and then discounts that price by 20%. Shop B discounts it by 20% first and then marks that price up by 25%. Which shop ends up with the higher price?",
@@ -5770,6 +6311,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16",
+   "help": "y9-1h-depreciation",
    "label": "16",
    "section": "Reasoning",
    "prompt": "Depreciation is a fall in value. A tablet loses 25% of its value in its first year. If it cost \\$1800 new, what is it worth after one year?",
@@ -5780,6 +6322,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1h-depreciation",
    "label": "17a",
    "section": "Reasoning",
    "stem": "Nadia buys a car for \\$68 000. Its value depreciates by 12% each year, so after one year it is worth 88% of its value at the start of that year, that is, $0.88 \\times 68\\,000 = 59\\,840$ dollars.",
@@ -5791,6 +6334,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1h-depreciation",
    "label": "17b",
    "section": "Reasoning",
    "stem": "Nadia buys a car for \\$68 000. Its value depreciates by 12% each year, so after one year it is worth 88% of its value at the start of that year, that is, $0.88 \\times 68\\,000 = 59\\,840$ dollars.",
@@ -5802,6 +6346,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1h-depreciation",
    "label": "17c",
    "section": "Reasoning",
    "stem": "Nadia buys a car for \\$68 000. Its value depreciates by 12% each year, so after one year it is worth 88% of its value at the start of that year, that is, $0.88 \\times 68\\,000 = 59\\,840$ dollars.",
@@ -5812,6 +6357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1h-deposit",
    "label": "18a",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5823,6 +6369,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1h-deposit",
    "label": "18b",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5834,6 +6381,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18c",
+   "help": "y9-1h-deposit",
    "label": "18c",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5845,6 +6393,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18d",
+   "help": "y9-1h-deposit",
    "label": "18d",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5856,6 +6405,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18e",
+   "help": "y9-1h-deposit",
    "label": "18e",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5867,6 +6417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18f",
+   "help": "y9-1h-deposit",
    "label": "18f",
    "section": "Enrichment",
    "stem": "A car yard offers a deposit deal. After the cash deposit is paid, the amount still owing is discounted by a percentage that is one tenth of the deposit percentage. For example, a deposit of \\$9000 on a \\$45 000 car is 20% of the price, so the remaining \\$36 000 is discounted by 2%. Find the total amount paid (deposit plus the discounted remainder) for each car. Round to the nearest cent where needed.",
@@ -5887,6 +6438,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1i-salary",
    "label": "1a",
    "section": "Fluency",
    "stem": "Priya earns an annual salary of \\$98 800 and works a 40-hour week. Her partner Sam works part time and earns \\$49.75 per hour. Use 52 weeks in a year.",
@@ -5898,6 +6450,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1i-salary",
    "label": "1b",
    "section": "Fluency",
    "stem": "Priya earns an annual salary of \\$98 800 and works a 40-hour week. Her partner Sam works part time and earns \\$49.75 per hour. Use 52 weeks in a year.",
@@ -5912,6 +6465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1i-salary",
    "label": "1c",
    "section": "Fluency",
    "stem": "Priya earns an annual salary of \\$98 800 and works a 40-hour week. Her partner Sam works part time and earns \\$49.75 per hour. Use 52 weeks in a year.",
@@ -5923,6 +6477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1i-salary",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the hourly rate of pay for a 38-hour working week (52 weeks a year) with an annual salary of:",
@@ -5934,6 +6489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1i-salary",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the hourly rate of pay for a 38-hour working week (52 weeks a year) with an annual salary of:",
@@ -5945,6 +6501,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1i-salary",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the hourly rate of pay for a 38-hour working week (52 weeks a year) with an annual salary of:",
@@ -5956,6 +6513,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1i-salary",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the yearly income (52 weeks) for someone who earns \\$26.40 per hour and works, on average, this many hours each week:",
@@ -5967,6 +6525,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1i-salary",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the yearly income (52 weeks) for someone who earns \\$26.40 per hour and works, on average, this many hours each week:",
@@ -5978,6 +6537,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1i-salary",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the yearly income (52 weeks) for someone who earns \\$26.40 per hour and works, on average, this many hours each week:",
@@ -5989,6 +6549,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1i-overtime",
    "label": "3a",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6000,6 +6561,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1i-overtime",
    "label": "3b",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6011,6 +6573,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1i-overtime",
    "label": "3c",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6022,6 +6585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1i-overtime",
    "label": "3d",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6033,6 +6597,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1i-overtime",
    "label": "3e",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6044,6 +6609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1i-overtime",
    "label": "3f",
    "section": "Fluency",
    "stem": "A job pays \\$21.60 per hour for normal working hours. Find the total pay, including overtime, for these hours worked.",
@@ -6055,6 +6621,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1i-overtime",
    "label": "4a",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6065,6 +6632,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1i-overtime",
    "label": "4b",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6075,6 +6643,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1i-overtime",
    "label": "4c",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6085,6 +6654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1i-overtime",
    "label": "4d",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6095,6 +6665,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1i-overtime",
    "label": "4e",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6105,6 +6676,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1i-overtime",
    "label": "4f",
    "section": "Fluency",
    "stem": "How many hours at the normal hourly rate are these working hours worth?",
@@ -6115,6 +6687,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1i-rate",
    "label": "5",
    "section": "Fluency",
    "prompt": "Leo, a part-time dog groomer, earned \\$425.50 in a week in which he worked 14 hours at the normal rate and 6 hours overtime at time and a half. What is his normal hourly rate of pay?",
@@ -6125,6 +6698,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1i-rate",
    "label": "6",
    "section": "Fluency",
    "prompt": "Zoe earned \\$504.90 in a week in which she worked 12 hours on weekdays, 5 hours on Saturday at time and a half and 3 hours on Sunday at double time. What is her normal hourly rate of pay?",
@@ -6135,6 +6709,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1i-commission",
    "label": "7",
    "section": "Fluency",
    "prompt": "Ruby works at a shoe store. In one week she sells shoes worth \\$1200. If she earns \\$480 per week plus 6% commission on her sales, how much does she earn that week?",
@@ -6145,6 +6720,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1i-commission",
    "label": "8",
    "section": "Fluency",
    "prompt": "Ethan sells solar panels and earns \\$720 per month plus 3.5% commission on sales. How much does he earn in a month in which he sells \\$68 000 worth of solar panels?",
@@ -6155,6 +6731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1i-piecework",
    "label": "9",
    "section": "Fluency",
    "prompt": "Nina delivers catalogues. She is paid \\$36 to deliver 600 catalogues. How much is she paid for each one?",
@@ -6166,6 +6743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1i-piecework",
    "label": "10",
    "section": "Fluency",
    "prompt": "Jack is paid \\$12 for every bag of weeds he pulls. Last week he worked for 5 hours and filled 14 bags. Find his hourly rate of pay.",
@@ -6176,6 +6754,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1i-salary",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Put these workers in order from the most to the least earned in one week. Use 52 weeks in a year. Ava has an annual salary of \\$43 160. Ben works 30 hours at \\$28.40 per hour. Chloe earns \\$3640 per month. Dev does shift work 5 nights a week from 9 p.m. to 3 a.m. He earns \\$24.50 per hour before midnight and \\$31 per hour after midnight. Ella works 20 hours at the normal rate of \\$23.40 per hour, 6 hours at time and a half and 4 hours at double time.",
@@ -6191,6 +6770,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1i-overtime",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "Marcus earns \\$19.60 per hour for the first 38 hours he works in a week, time and a half for the next 3 hours, and double time for every hour after that. Find his earnings for a week in which he works 45 hours.",
@@ -6201,6 +6781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13",
+   "help": "y9-1i-commission",
    "label": "13",
    "section": "Problem-solving",
    "prompt": "Grace works for a real estate agency and earns \\$750 per week plus 0.06% commission on her sales. This week she sold three houses for \\$412 000, \\$386 500 and \\$529 000. How much did she earn this week?",
@@ -6211,6 +6792,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14",
+   "help": "y9-1i-commission",
    "label": "14",
    "section": "Problem-solving",
    "prompt": "A salesperson sells 12 water filters in one week at \\$950 each. For the week she earns a total of \\$980, made up of a retainer of \\$350 plus commission. Find her commission rate as a percentage, correct to two decimal places.",
@@ -6221,6 +6803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15",
+   "help": "y9-1i-loading",
    "label": "15",
    "section": "Problem-solving",
    "prompt": "Kai is going on holiday. He receives \\$3290, which is his normal pay plus 17.5% leave loading. How much is the leave loading?",
@@ -6231,6 +6814,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1i-combos",
    "label": "16a",
    "section": "Problem-solving",
    "stem": "Mason wants to earn \\$105 from a casual job paying \\$8.75 per hour.",
@@ -6241,6 +6825,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1i-combos",
    "label": "16b",
    "section": "Problem-solving",
    "stem": "Mason wants to earn \\$105 from a casual job paying \\$8.75 per hour. He can also work some hours at time and a half. He works $x$ hours at the normal rate and $y$ hours at time and a half to earn exactly the same amount, where $x$ and $y$ are both whole numbers bigger than zero.",
@@ -6254,6 +6839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y9-1i-combos",
    "label": "16c",
    "section": "Problem-solving",
    "stem": "Mason wants to earn \\$105 from a casual job paying \\$8.75 per hour. He can also work some hours at time and a half. He works $x$ hours at the normal rate and $y$ hours at time and a half to earn exactly the same amount, where $x$ and $y$ are both whole numbers bigger than zero.",
@@ -6267,6 +6853,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1i-plans",
    "label": "17a",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6278,6 +6865,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1i-plans",
    "label": "17b",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6289,6 +6877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17c",
+   "help": "y9-1i-plans",
    "label": "17c",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6302,6 +6891,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17d",
+   "help": "y9-1i-plans",
    "label": "17d",
    "section": "Reasoning",
    "stem": "A boat salesperson earns 2.5% commission on sales up to $\\$50\\,000$ and 3% on the part of sales above $\\$50\\,000$.",
@@ -6315,6 +6905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18a",
+   "help": "y9-1i-plans",
    "label": "18a",
    "section": "Reasoning",
    "stem": "Leila sells jewellery and must choose a pay plan. Plan A: \\$250 per week plus 4% of sales. Plan B: 9% of sales and no weekly retainer.",
@@ -6326,6 +6917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q18b",
+   "help": "y9-1i-plans",
    "label": "18b",
    "section": "Reasoning",
    "stem": "Leila sells jewellery and must choose a pay plan. Plan A: \\$250 per week plus 4% of sales. Plan B: 9% of sales and no weekly retainer.",
@@ -6339,6 +6931,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19a",
+   "help": "y9-1i-payslip",
    "label": "19a",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6380,6 +6973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19b",
+   "help": "y9-1i-payslip",
    "label": "19b",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6393,6 +6987,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19c",
+   "help": "y9-1i-payslip",
    "label": "19c",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6404,6 +6999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19d",
+   "help": "y9-1i-payslip",
    "label": "19d",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6415,6 +7011,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q19e",
+   "help": "y9-1i-payslip",
    "label": "19e",
    "section": "Enrichment",
    "stem": "This is part of a fortnightly payslip for a part-time librarian. Superannuation is money the employer pays into a fund for the worker's retirement. The compulsory superannuation rate is 12% of gross pay.",
@@ -6435,6 +7032,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1j-return",
    "label": "1a",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6446,6 +7044,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1j-return",
    "label": "1b",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6482,6 +7081,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y9-1j-return",
    "label": "1c",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6493,6 +7093,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y9-1j-return",
    "label": "1d",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6504,6 +7105,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y9-1j-return",
    "label": "1e",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6515,6 +7117,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y9-1j-return",
    "label": "1f",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6528,6 +7131,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1g",
+   "help": "y9-1j-return",
    "label": "1g",
    "section": "Fluency",
    "stem": "Oliver earned \\$1650 per week (\\$85 800 per year) from his employer and other sources such as interest on savings. He has receipts for \\$1450 of work-related expenses and donations.",
@@ -6539,6 +7143,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1j-table",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6575,6 +7180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1j-table",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6586,6 +7192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1j-table",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6597,6 +7204,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1j-table",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use the tax table to find the income tax payable on these taxable incomes. Ignore the Medicare levy.",
@@ -6608,6 +7216,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1j-table",
    "label": "3",
    "section": "Fluency",
    "prompt": "Use the tax table to complete this table (ignore the Medicare levy). Give the five tax amounts in order, in dollars.",
@@ -6679,6 +7288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4",
+   "help": "y9-1j-table",
    "label": "4",
    "section": "Fluency",
    "prompt": "Mia worked for three different employers during the year. Each one paid her \\$14 000, and she has no deductions. How much income tax should she pay? Ignore the Medicare levy.",
@@ -6714,6 +7324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1j-return",
    "label": "5a",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6754,6 +7365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1j-return",
    "label": "5b",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6790,6 +7402,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1j-return",
    "label": "5c",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6801,6 +7414,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y9-1j-return",
    "label": "5d",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6812,6 +7426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y9-1j-return",
    "label": "5e",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6823,6 +7438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y9-1j-return",
    "label": "5f",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6836,6 +7452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y9-1j-return",
    "label": "5g",
    "section": "Fluency",
    "stem": "Ana has finished her first financial year as a nurse. On 30 June she wrote these notes about her year.",
@@ -6847,6 +7464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1j-backwards",
    "label": "6",
    "section": "Problem-solving",
    "prompt": "Ravi's Medicare levy was \\$1830. This was 2% of his taxable income. What was his taxable income?",
@@ -6857,6 +7475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1j-backwards",
    "label": "7",
    "section": "Problem-solving",
    "prompt": "Tess is saving for a trip. Her taxable income is usually \\$24 000. She needs an extra \\$4455 for the trip, so she is going to do some extra work. How much extra must she earn to have an extra \\$4455 after tax? Ignore the Medicare levy.",
@@ -6892,6 +7511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1j-backwards",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "When Hugo used the tax table to work out his income tax payable, it came to \\$19 192. What was his taxable income?",
@@ -6927,6 +7547,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1j-progressive",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Here is an example of a progressive tax system. Find the tax payable on each income.",
@@ -6963,6 +7584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1j-progressive",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Here is an example of a progressive tax system. Find the tax payable on each income.",
@@ -6974,6 +7596,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1j-progressive",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Here is an example of a progressive tax system. Find the tax payable on each income.",
@@ -6985,6 +7608,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-1j-progressive",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "In this progressive tax system, the amounts $A$ and $B$ are the most tax anyone pays in the bracket before. Find:",
@@ -7021,6 +7645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-1j-progressive",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "In this progressive tax system, the amounts $A$ and $B$ are the most tax anyone pays in the bracket before. Find:",
@@ -7032,6 +7657,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-1j-progressive",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7064,6 +7690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y9-1j-progressive",
    "label": "9g",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7075,6 +7702,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y9-1j-progressive",
    "label": "9h",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7086,6 +7714,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y9-1j-progressive",
    "label": "9i",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7097,6 +7726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9j",
+   "help": "y9-1j-progressive",
    "label": "9j",
    "section": "Problem-solving",
    "stem": "A different system on \"Tax Island\" works like this. Find the tax payable on an income of:",
@@ -7108,6 +7738,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1j-terms",
    "label": "10",
    "section": "Reasoning",
    "prompt": "Which of these is the way to find taxable income?",
@@ -7122,6 +7753,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1j-terms",
    "label": "11",
    "section": "Reasoning",
    "prompt": "Kai's employer sent \\$9200 in tax to the ATO during the year, but Kai should only have paid \\$8750. What happens?",
@@ -7135,6 +7767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1j-table",
    "label": "12",
    "section": "Reasoning",
    "prompt": "Jo says that people in the top tax bracket pay 45 cents in every dollar in tax. Find the tax payable on a taxable income of \\$240 000 as a percentage of that income, correct to one decimal place. Ignore the Medicare levy.",
@@ -7170,6 +7803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1j-table",
    "label": "13a",
    "section": "Enrichment",
    "stem": "Use the tax table, ignoring the Medicare levy.",
@@ -7206,6 +7840,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1j-table",
    "label": "13b",
    "section": "Enrichment",
    "stem": "Use the tax table, ignoring the Medicare levy.",
@@ -7226,6 +7861,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1k-interest",
    "label": "1a",
    "section": "Fluency",
    "stem": "Use the rule $I = \\frac{Prt}{100}$ to find the simple interest earned in each case.",
@@ -7237,6 +7873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1k-interest",
    "label": "1b",
    "section": "Fluency",
    "stem": "Use the rule $I = \\frac{Prt}{100}$ to find the simple interest earned in each case.",
@@ -7248,6 +7885,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2",
+   "help": "y9-1k-interest",
    "label": "2",
    "section": "Fluency",
    "prompt": "Find the simple interest earned if the principal is \\$3000, the rate is 4% p.a. and the time is 7 years.",
@@ -7258,6 +7896,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1k-interest",
    "label": "3a",
    "section": "Fluency",
    "stem": "Mei invests \\$12 000 at a rate of 5% p.a. simple interest for 4 years.",
@@ -7269,6 +7908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1k-interest",
    "label": "3b",
    "section": "Fluency",
    "stem": "Mei invests \\$12 000 at a rate of 5% p.a. simple interest for 4 years.",
@@ -7280,6 +7920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1k-interest",
    "label": "4a",
    "section": "Fluency",
    "stem": "Omar invests \\$18 000 at a rate of 3.5% p.a. simple interest for 32 months.",
@@ -7291,6 +7932,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1k-interest",
    "label": "4b",
    "section": "Fluency",
    "stem": "Omar invests \\$18 000 at a rate of 3.5% p.a. simple interest for 32 months.",
@@ -7302,6 +7944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1k-interest",
    "label": "5",
    "section": "Fluency",
    "prompt": "A finance company charges 13% p.a. simple interest. If Lucy borrows \\$2500 to be repaid over 3 years, find her total repayment.",
@@ -7312,6 +7955,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6",
+   "help": "y9-1k-rearrange",
    "label": "6",
    "section": "Fluency",
    "prompt": "Finn invests \\$4200 at 6% p.a. simple interest and earns \\$630 interest. For how many years did he invest the money?",
@@ -7322,6 +7966,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7",
+   "help": "y9-1k-rearrange",
    "label": "7",
    "section": "Fluency",
    "prompt": "An investment of \\$6000 earns \\$135 simple interest at a flat rate of 1.5% p.a. How long was the money invested?",
@@ -7332,6 +7977,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1k-rearrange",
    "label": "8",
    "section": "Fluency",
    "prompt": "Find the principal that earns \\$700 simple interest over 3 years at a rate of 7% p.a. Round to the nearest cent.",
@@ -7342,6 +7988,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1k-compare",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "Theo wins \\$6000 in a robotics competition and wants to invest it. Which choice gives him the greater total at the end of the time?",
@@ -7355,6 +8002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y9-1k-interest",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Harper borrows \\$12 000 to buy a used car. The loan is repaid over 4 years at 11% p.a. simple interest.",
@@ -7366,6 +8014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y9-1k-interest",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Harper borrows \\$12 000 to buy a used car. The loan is repaid over 4 years at 11% p.a. simple interest.",
@@ -7377,6 +8026,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1k-rearrange",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "An investment of \\$4000 earns \\$3600 simple interest in 15 years. Find the interest rate.",
@@ -7386,6 +8036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1k-formula",
    "label": "12a",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7395,6 +8046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1k-formula",
    "label": "12b",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7405,6 +8057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1k-formula",
    "label": "12c",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7415,6 +8068,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1k-formula",
    "label": "12d",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7425,6 +8079,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-1k-formula",
    "label": "12e",
    "section": "Problem-solving",
    "stem": "Ivy invests $\\$P$ and wants to double this amount of money using simple interest.",
@@ -7440,6 +8095,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1k-formula",
    "label": "13a",
    "section": "Reasoning",
    "stem": "The total amount $\\$T$ including simple interest is given by the rule $T = P\\left(1 + \\frac{rt}{100}\\right)$.",
@@ -7451,6 +8107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1k-formula",
    "label": "13b",
    "section": "Reasoning",
    "stem": "The total amount $\\$T$ including simple interest is given by the rule $T = P\\left(1 + \\frac{rt}{100}\\right)$.",
@@ -7461,6 +8118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1k-formula",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Rearrange the rule $I = \\frac{Prt}{100}$ to make a rule for:",
@@ -7471,6 +8129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1k-formula",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Rearrange the rule $I = \\frac{Prt}{100}$ to make a rule for:",
@@ -7480,6 +8139,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1k-formula",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Rearrange the rule $I = \\frac{Prt}{100}$ to make a rule for:",
@@ -7489,6 +8149,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1k-interest-only",
    "label": "15a",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7500,6 +8161,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1k-interest-only",
    "label": "15b",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7511,6 +8173,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15c",
+   "help": "y9-1k-interest-only",
    "label": "15c",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7522,6 +8185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15d",
+   "help": "y9-1k-interest-only",
    "label": "15d",
    "section": "Enrichment",
    "stem": "With an interest-only loan, the amount borrowed stays the same and only the interest is paid back each month. Sam buys an investment unit for \\$420 000 and borrows the full amount at 6.5% p.a. simple interest. He rents the unit out for \\$1800 per month and pays \\$3600 per year in rates and other costs.",
@@ -7542,6 +8206,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y9-1l-growth",
    "label": "1",
    "section": "Fluency",
    "prompt": "Find the total value of an investment when \\$4500 is invested at 5% p.a. compounded annually for 6 years. Round to the nearest cent.",
@@ -7552,6 +8217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1l-growth",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7563,6 +8229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1l-growth",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7574,6 +8241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1l-growth",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7585,6 +8253,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1l-growth",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the total balance of each investment. Interest is compounded annually. Round to the nearest cent.",
@@ -7596,6 +8265,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y9-1l-growth",
    "label": "3",
    "section": "Fluency",
    "prompt": "Ben borrows \\$150 000 from a bank for 6 years and pays nothing back until the end. The interest rate is 7.5% p.a. compounded annually. How much must he pay back at the end of the 6 years? Round to the nearest cent.",
@@ -7606,6 +8276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1l-percent",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7617,6 +8288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1l-percent",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7628,6 +8300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1l-percent",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7639,6 +8312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1l-percent",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the total percentage increase in value of each amount, compounded annually at the given rate. Round to one decimal place.",
@@ -7650,6 +8324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5",
+   "help": "y9-1l-backwards",
    "label": "5",
    "section": "Fluency",
    "prompt": "After 4 years a loan has grown to \\$38 600. The interest was compounded annually at 5.5% p.a. Find the amount first borrowed, to the nearest dollar.",
@@ -7660,6 +8335,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1l-backwards",
    "label": "6a",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7671,6 +8347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1l-backwards",
    "label": "6b",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7682,6 +8359,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1l-backwards",
    "label": "6c",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7693,6 +8371,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y9-1l-backwards",
    "label": "6d",
    "section": "Fluency",
    "stem": "Find the amount first invested, to the nearest dollar, for each final balance. Interest is compounded annually.",
@@ -7704,6 +8383,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1l-depreciation",
    "label": "7a",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7715,6 +8395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1l-depreciation",
    "label": "7b",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7726,6 +8407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1l-depreciation",
    "label": "7c",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7737,6 +8419,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1l-depreciation",
    "label": "7d",
    "section": "Fluency",
    "stem": "Find the depreciated value of each item, to the nearest dollar.",
@@ -7748,6 +8431,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1l-growth",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "House prices in a coastal town are expected to grow by 6% per year for the next 4 years. A house is valued at \\$540 000 now. What is its expected value in 4 years, to the nearest dollar?",
@@ -7758,6 +8442,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y9-1l-depreciation",
    "label": "9",
    "section": "Problem-solving",
    "prompt": "The population of a small mining town is expected to fall by 12% per year for the next 6 years. The population is now 18 760. What is the expected population in 6 years? Round to the nearest whole number.",
@@ -7768,6 +8453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1l-backwards",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "A block of sandstone left out in the weather is thought to have lost 3.5% of its mass each year for the last 12 years. Its mass now is 4.15 kg. Find its approximate mass 12 years ago, correct to two decimal places.",
@@ -7778,6 +8464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11",
+   "help": "y9-1l-years",
    "label": "11",
    "section": "Problem-solving",
    "prompt": "Lucas wants to invest \\$8000 until it grows to at least \\$16 000. The interest rate is 7.5% p.a. compounded annually. For how many whole years must he invest the money?",
@@ -7787,6 +8474,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12",
+   "help": "y9-1l-years",
    "label": "12",
    "section": "Problem-solving",
    "prompt": "A forgotten loan balance grew from \\$1200 to about \\$2030 at a compound interest rate of 14% p.a. For about how many whole years was the loan forgotten?",
@@ -7796,6 +8484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1l-percent",
    "label": "13a",
    "section": "Reasoning",
    "stem": "\\$650 is invested for 6 years at 6% p.a.",
@@ -7806,6 +8495,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1l-percent",
    "label": "13b",
    "section": "Reasoning",
    "stem": "\\$650 is invested for 6 years at 6% p.a.",
@@ -7817,6 +8507,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1l-percent",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7828,6 +8519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1l-percent",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7839,6 +8531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1l-percent",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7850,6 +8543,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-1l-percent",
    "label": "14d",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7861,6 +8555,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-1l-percent",
    "label": "14e",
    "section": "Reasoning",
    "stem": "Find the total percentage increase in each compound interest situation (compounded annually), correct to two decimal places.",
@@ -7871,6 +8566,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y9-1l-equivalent",
    "label": "15a",
    "section": "Enrichment",
    "stem": "\\$12 000 is invested for 6 years at 7% p.a. compounded annually.",
@@ -7882,6 +8578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y9-1l-equivalent",
    "label": "15b",
    "section": "Enrichment",
    "stem": "\\$12 000 is invested for 6 years at 7% p.a. compounded annually.",
@@ -7893,6 +8590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y9-1l-equivalent",
    "label": "16a",
    "section": "Enrichment",
    "stem": "\\$80 000 is invested for 8 years at 4.5% p.a. compounded annually.",
@@ -7904,6 +8602,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y9-1l-equivalent",
    "label": "16b",
    "section": "Enrichment",
    "stem": "\\$80 000 is invested for 8 years at 4.5% p.a. compounded annually.",
@@ -7915,6 +8614,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17a",
+   "help": "y9-1l-equivalent",
    "label": "17a",
    "section": "Enrichment",
    "stem": "Find the simple interest rate that is equivalent to each annual compound interest rate over the given time. Round to two decimal places.",
@@ -7926,6 +8626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q17b",
+   "help": "y9-1l-equivalent",
    "label": "17b",
    "section": "Enrichment",
    "stem": "Find the simple interest rate that is equivalent to each annual compound interest rate over the given time. Round to two decimal places.",
@@ -7946,6 +8647,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y9-1m-formula",
    "label": "1a",
    "section": "Fluency",
    "stem": "Ruby invests \\$6000 in a bank at 4% p.a. compounded annually.",
@@ -7957,6 +8659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y9-1m-formula",
    "label": "1b",
    "section": "Fluency",
    "stem": "Ruby invests \\$6000 in a bank at 4% p.a. compounded annually.",
@@ -7968,6 +8671,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y9-1m-formula",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -7979,6 +8683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y9-1m-formula",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -7990,6 +8695,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y9-1m-formula",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8001,6 +8707,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y9-1m-formula",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8012,6 +8719,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y9-1m-formula",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8023,6 +8731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y9-1m-formula",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8034,6 +8743,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y9-1m-formula",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8045,6 +8755,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y9-1m-formula",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded annually. Round to the nearest cent.",
@@ -8056,6 +8767,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y9-1m-monthly",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8067,6 +8779,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y9-1m-monthly",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8078,6 +8791,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y9-1m-monthly",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8089,6 +8803,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y9-1m-monthly",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8100,6 +8815,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y9-1m-monthly",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8111,6 +8827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y9-1m-monthly",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the final amount of each investment if interest is compounded monthly. Round to the nearest cent.",
@@ -8122,6 +8839,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y9-1m-depreciation",
    "label": "4a",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8133,6 +8851,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y9-1m-depreciation",
    "label": "4b",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8144,6 +8863,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y9-1m-depreciation",
    "label": "4c",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8155,6 +8875,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y9-1m-depreciation",
    "label": "4d",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8166,6 +8887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y9-1m-depreciation",
    "label": "4e",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8177,6 +8899,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y9-1m-depreciation",
    "label": "4f",
    "section": "Fluency",
    "stem": "Many cars lose value at about 16% p.a. Find the value of each car after 3 years, using a depreciation rate of 16% p.a. Answer to the nearest dollar.",
@@ -8188,6 +8911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y9-1m-compare",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "How much interest is earned on an investment of \\$650 at 5% p.a. if it is invested:",
@@ -8199,6 +8923,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y9-1m-compare",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "How much interest is earned on an investment of \\$650 at 5% p.a. if it is invested:",
@@ -8210,6 +8935,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y9-1m-compare",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "How much interest is earned on an investment of \\$650 at 5% p.a. if it is invested:",
@@ -8221,6 +8947,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y9-1m-compare",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Leo invests \\$2400 in an account earning $5\\frac{1}{2}\\%$ p.a. compounded annually for 6 years.",
@@ -8232,6 +8959,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y9-1m-compare",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Leo invests \\$2400 in an account earning $5\\frac{1}{2}\\%$ p.a. compounded annually for 6 years.",
@@ -8243,6 +8971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y9-1m-compare",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Leo invests \\$2400 in an account earning $5\\frac{1}{2}\\%$ p.a. compounded annually for 6 years.",
@@ -8254,6 +8983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y9-1m-formula",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8265,6 +8995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y9-1m-formula",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8276,6 +9007,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y9-1m-formula",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8287,6 +9019,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y9-1m-formula",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8298,6 +9031,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y9-1m-formula",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Prices rise over time because of inflation, which works like compound interest. Find the cost of each item in 4 years if inflation is 2.8% p.a. Round to the nearest cent.",
@@ -8309,6 +9043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8",
+   "help": "y9-1m-monthly",
    "label": "8",
    "section": "Problem-solving",
    "prompt": "Ava wants to have \\$18 000 in 4 years for a car. She chooses an account earning 4.2% p.a. compounded monthly. How much does she need to invest today? Round to the nearest cent.",
@@ -8319,6 +9054,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y9-1m-monthly",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8330,6 +9066,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y9-1m-monthly",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8341,6 +9078,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y9-1m-monthly",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8352,6 +9090,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y9-1m-monthly",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8363,6 +9102,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y9-1m-monthly",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8374,6 +9114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y9-1m-monthly",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Find the compound interest, to the nearest cent, when \\$8000 is invested at 5% p.a. for 3 years, compounding:",
@@ -8388,6 +9129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10",
+   "help": "y9-1m-compare",
    "label": "10",
    "section": "Problem-solving",
    "prompt": "What annual simple interest rate gives the same interest as \\$100 invested at 9% p.a. compounded monthly for 4 years? Round to two decimal places.",
@@ -8398,6 +9140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y9-1m-read",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8412,6 +9155,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y9-1m-read",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8426,6 +9170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y9-1m-read",
    "label": "11c",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8440,6 +9185,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y9-1m-read",
    "label": "11d",
    "section": "Reasoning",
    "stem": "Each line of working below is for compound interest or depreciation. Choose the situation it matches.",
@@ -8454,6 +9200,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y9-1m-compare",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8465,6 +9212,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y9-1m-compare",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8476,6 +9224,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y9-1m-compare",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8489,6 +9238,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y9-1m-compare",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8500,6 +9250,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y9-1m-compare",
    "label": "12e",
    "section": "Reasoning",
    "stem": "Compare these investments, all compounded annually. Round money to the nearest cent.",
@@ -8513,6 +9264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y9-1m-monthly",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8524,6 +9276,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y9-1m-monthly",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8535,6 +9288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y9-1m-monthly",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8546,6 +9300,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13d",
+   "help": "y9-1m-monthly",
    "label": "13d",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8557,6 +9312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13e",
+   "help": "y9-1m-monthly",
    "label": "13e",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8568,6 +9324,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13f",
+   "help": "y9-1m-monthly",
    "label": "13f",
    "section": "Reasoning",
    "stem": "Find the interest earned, to the nearest cent, when \\$2000 is invested at 4.8% p.a. for 1 year, compounded:",
@@ -8579,6 +9336,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y9-1m-double",
    "label": "14a",
    "section": "Enrichment",
    "stem": "Nico wants to know how long it takes to double his money at 6% p.a. compounded annually. If $P$ is his starting amount, he needs $2P = P(1.06)^n$, which becomes $2 = (1.06)^n$.",
@@ -8594,6 +9352,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y9-1m-double",
    "label": "14b",
    "section": "Enrichment",
    "stem": "Nico wants to know how long it takes to double his money at 6% p.a. compounded annually. If $P$ is his starting amount, he needs $2P = P(1.06)^n$, which becomes $2 = (1.06)^n$.",
@@ -8604,6 +9363,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y9-1m-double",
    "label": "14c",
    "section": "Enrichment",
    "stem": "Still with annual compounding, find the smallest whole number of years for money to at least double at:",
@@ -8614,6 +9374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y9-1m-double",
    "label": "14d",
    "section": "Enrichment",
    "stem": "Still with annual compounding, find the smallest whole number of years for money to at least double at:",
@@ -8624,6 +9385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y9-1m-double",
    "label": "14e",
    "section": "Enrichment",
    "stem": "Still with annual compounding, find the smallest whole number of years for money to at least double at:",
@@ -8634,6 +9396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y9-1m-double",
    "label": "14f",
    "section": "Enrichment",
    "prompt": "What interest rate, compounded annually, doubles money in exactly 3 years? Give your answer correct to one decimal place.",
@@ -8644,6 +9407,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y9-1m-double",
    "label": "14g",
    "section": "Enrichment",
    "stem": "Nico wants to know how long it takes to double his money at 6% p.a. compounded annually. If $P$ is his starting amount, he needs $2P = P(1.06)^n$, which becomes $2 = (1.06)^n$.",
@@ -8653,6 +9417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14h",
+   "help": "y9-1m-double",
    "label": "14h",
    "section": "Enrichment",
    "stem": "A rough rule, called the rule of 72, says that (years to double) $\times$ (interest rate) $\u0007pprox 72$. Use it to estimate the interest rate needed to double your money in:",
@@ -8663,6 +9428,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14i",
+   "help": "y9-1m-double",
    "label": "14i",
    "section": "Enrichment",
    "stem": "A rough rule, called the rule of 72, says that (years to double) $\times$ (interest rate) $\u0007pprox 72$. Use it to estimate the interest rate needed to double your money in:",
@@ -8673,6 +9439,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14j",
+   "help": "y9-1m-double",
    "label": "14j",
    "section": "Enrichment",
    "stem": "A rough rule, called the rule of 72, says that (years to double) $\times$ (interest rate) $\u0007pprox 72$. Use it to estimate the interest rate needed to double your money in:",
@@ -52692,6 +53459,6951 @@ window.H3_BANK.sets.push(
    "prompt": "$x = -5$, $y = -x$ and $x - 3y = -8$",
    "answer": "6",
    "units": "square units"
+  }
+ ]
+}
+);
+
+// Chapter 8
+window.H3_BANK.sets.push(
+{
+ "id": "y9-8a",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8A Expanding binomial products",
+ "description": "Expand binomial products such as (x + 3)(x - 5), and use them for areas and missing terms.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x + 3)(x + 4)$",
+   "answer": "x^2+7x+12",
+   "form": "expanded",
+   "hint": "Type x squared as x^2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(n + 2)(n + 6)$",
+   "answer": "n^2+8n+12",
+   "form": "expanded"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(t + 5)(t + 9)$",
+   "answer": "t^2+14t+45",
+   "form": "expanded"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(a + 1)(a + 8)$",
+   "answer": "a^2+9a+8",
+   "form": "expanded"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(y + 11)(y + 3)$",
+   "answer": "y^2+14y+33",
+   "form": "expanded"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(m + 6)(m + 10)$",
+   "answer": "m^2+16m+60",
+   "form": "expanded"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x + 5)(x - 2)$",
+   "answer": "x^2+3x-10",
+   "form": "expanded"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x + 2)(x - 9)$",
+   "answer": "x^2-7x-18",
+   "form": "expanded"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x - 7)(x + 3)$",
+   "answer": "x^2-4x-21",
+   "form": "expanded"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x - 1)(x + 12)$",
+   "answer": "x^2+11x-12",
+   "form": "expanded"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x - 3)(x - 4)$",
+   "answer": "x^2-7x+12",
+   "form": "expanded"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(x - 6)(x - 5)$",
+   "answer": "x^2-11x+30",
+   "form": "expanded"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(3x + 4)(2x + 3)$",
+   "answer": "6x^2+17x+12",
+   "form": "expanded"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(2x + 5)(4x + 1)$",
+   "answer": "8x^2+22x+5",
+   "form": "expanded"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(5x + 2)(3x + 4)$",
+   "answer": "15x^2+26x+8",
+   "form": "expanded"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(3x - 4)(2x + 5)$",
+   "answer": "6x^2+7x-20",
+   "form": "expanded"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(7x - 2)(2x + 3)$",
+   "answer": "14x^2+17x-6",
+   "form": "expanded"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(4x - 3)(3x + 1)$",
+   "answer": "12x^2-5x-3",
+   "form": "expanded"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(2x + 5)(3x - 2)$",
+   "answer": "6x^2+11x-10",
+   "form": "expanded"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(5x + 1)(2x - 3)$",
+   "answer": "10x^2-13x-3",
+   "form": "expanded"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(3x + 2)(3x - 7)$",
+   "answer": "9x^2-15x-14",
+   "form": "expanded"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(4x - 3)(5x - 2)$",
+   "answer": "20x^2-23x+6",
+   "form": "expanded"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(2x - 5)(6x - 1)$",
+   "answer": "12x^2-32x+5",
+   "form": "expanded"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Expand the following.",
+   "type": "expression",
+   "prompt": "$(5x - 4)(4x - 3)$",
+   "answer": "20x^2-31x+12",
+   "form": "expanded"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(p + q)(p + r)$",
+   "answer": "p^2+pq+pr+qr",
+   "form": "expanded",
+   "hint": "Type p times q as pq."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(p - q)(p + r)$",
+   "answer": "p^2-pq+pr-qr",
+   "form": "expanded"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(b - a)(c - b)$",
+   "answer": "ab-ac-b^2+bc",
+   "form": "expanded"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(3x + y)(x - 2y)$",
+   "answer": "3x^2-5xy-2y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(2a + b)(a - 3b)$",
+   "answer": "2a^2-5ab-3b^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(2x - y)(4x + y)$",
+   "answer": "8x^2-2xy-y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(3a - b)(2a + 5)$",
+   "answer": "6a^2-2ab+15a-5b",
+   "form": "expanded"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(5x - 2y)(2x - 3y)$",
+   "answer": "10x^2-19xy+6y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Expand these binomial products.",
+   "type": "expression",
+   "prompt": "$(xy - yz)(z + 2x)$",
+   "answer": "2x^2y-xyz-yz^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "A rectangular deck measuring $6$ m by $8$ m is to be enlarged. Both the length and the width are increased by $x$ m.",
+   "type": "expression",
+   "prompt": "Find an expanded expression for the area of the new deck.",
+   "answer": "x^2+14x+48",
+   "form": "expanded",
+   "units": "m²"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "A rectangular deck measuring $6$ m by $8$ m is to be enlarged. Both the length and the width are increased by $x$ m.",
+   "type": "numeric",
+   "prompt": "If $x = 2$, find the area of the new deck.",
+   "answer": "80",
+   "units": "m²"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "A rectangular deck measuring $6$ m by $8$ m is to be enlarged. Both the length and the width are increased by $x$ m.",
+   "type": "numeric",
+   "prompt": "If $x = 2$, by how much has the area increased?",
+   "answer": "32",
+   "units": "m²"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "A rectangular picture frame has a border $4$ cm wide. The outside of the frame is $x$ cm wide and its length is $3$ times its width.",
+   "type": "expression",
+   "prompt": "Find an expression for the total area of the frame and picture.",
+   "answer": "3x^2",
+   "units": "cm²",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        9,
+        0
+       ],
+       [
+        9,
+        4
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1,
+        1
+       ],
+       [
+        8,
+        1
+       ],
+       [
+        8,
+        3
+       ],
+       [
+        1,
+        3
+       ]
+      ]
+     },
+     {
+      "label": "Picture",
+      "at": [
+       4.5,
+       2
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       9,
+       0
+      ],
+      "label": "3x cm",
+      "off": -0.6
+     },
+     {
+      "dim": [
+       9,
+       0,
+       9,
+       4
+      ],
+      "label": "x cm",
+      "off": -0.7
+     },
+     {
+      "seg": [
+       5.7,
+       0,
+       5.7,
+       1
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "4 cm",
+      "at": [
+       6.75,
+       0.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "A rectangular picture frame has a border $4$ cm wide. The outside of the frame is $x$ cm wide and its length is $3$ times its width.",
+   "type": "expression",
+   "prompt": "Find an expression, in expanded form, for the area of the picture only.",
+   "answer": "3x^2-32x+64",
+   "form": "expanded",
+   "units": "cm²"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "The outside edge of a path around a swimming pool is $18$ m long and $12$ m wide. The path is $x$ m wide all the way around.",
+   "type": "expression",
+   "prompt": "Find an expression, in expanded form, for the area of the pool.",
+   "answer": "4x^2-60x+216",
+   "form": "expanded",
+   "units": "m²",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7.2,
+        0
+       ],
+       [
+        7.2,
+        4.8
+       ],
+       [
+        0,
+        4.8
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.9,
+        0.9
+       ],
+       [
+        6.3,
+        0.9
+       ],
+       [
+        6.3,
+        3.9
+       ],
+       [
+        0.9,
+        3.9
+       ]
+      ]
+     },
+     {
+      "label": "Pool",
+      "at": [
+       3.6,
+       2.4
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       7.2,
+       0
+      ],
+      "label": "18 m",
+      "off": -0.6
+     },
+     {
+      "dim": [
+       7.2,
+       0,
+       7.2,
+       4.8
+      ],
+      "label": "12 m",
+      "off": -0.7
+     },
+     {
+      "seg": [
+       4.8,
+       0,
+       4.8,
+       0.9
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x m",
+      "at": [
+       5.6,
+       0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "The outside edge of a path around a swimming pool is $18$ m long and $12$ m wide. The path is $x$ m wide all the way around.",
+   "type": "numeric",
+   "prompt": "Find the area of the pool if $x = 3$.",
+   "answer": "72",
+   "units": "m²"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "numeric",
+   "prompt": "$(x + 3)(x + \\underline{\\quad}) = x^2 + 7x + 12$",
+   "answer": "4"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "numeric",
+   "prompt": "$(x + \\underline{\\quad})(x + 6) = x^2 + 8x + 12$",
+   "answer": "2"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(x + 2)(x + \\underline{\\quad}) = x^2 + 9x + \\underline{\\quad}$",
+   "answer": [
+    "7",
+    "14"
+   ]
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(x + \\underline{\\quad})(x + 8) = x^2 + 11x + \\underline{\\quad}$",
+   "answer": [
+    "3",
+    "24"
+   ]
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(x + 4)(x - \\underline{\\quad}) = x^2 + x - \\underline{\\quad}$",
+   "answer": [
+    "3",
+    "12"
+   ]
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(x - 6)(x + \\underline{\\quad}) = x^2 - 4x - \\underline{\\quad}$",
+   "answer": [
+    "2",
+    "12"
+   ]
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(x + 2)(\\underline{\\quad} + 5) = 3x^2 + \\underline{\\quad} + \\underline{\\quad}$",
+   "answer": [
+    "3x",
+    "11x",
+    "10"
+   ],
+   "hint": "Type the terms in order, for example 3x, 11x, 10"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(\\underline{\\quad} - 3)(2x - 1) = 4x^2 - \\underline{\\quad} + \\underline{\\quad}$",
+   "answer": [
+    "2x",
+    "8x",
+    "3"
+   ]
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(x + 3)(\\underline{\\quad} + \\underline{\\quad}) = 5x^2 + \\underline{\\quad} + 6$",
+   "answer": [
+    "5x",
+    "2",
+    "17x"
+   ]
+  },
+  {
+   "id": "q7j",
+   "label": "7j",
+   "section": "Reasoning",
+   "stem": "Find the missing number or term in each expansion. Where there is more than one gap, give them in order from left to right, separated by commas.",
+   "type": "ordered",
+   "prompt": "$(\\underline{\\quad} - \\underline{\\quad})(3x - 2) = 6x^2 - \\underline{\\quad} + 6$",
+   "answer": [
+    "2x",
+    "3",
+    "13x"
+   ]
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
+   "type": "list",
+   "prompt": "$(x + a)(x + b) = x^2 + 7x + 10$",
+   "answer": [
+    "2",
+    "5"
+   ],
+   "hint": "Give the two values separated by a comma, in either order."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
+   "type": "list",
+   "prompt": "$(x + a)(x + b) = x^2 - 7x + 10$",
+   "answer": [
+    "-5",
+    "-2"
+   ]
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
+   "type": "list",
+   "prompt": "$(x + a)(x + b) = x^2 + 3x - 10$",
+   "answer": [
+    "-2",
+    "5"
+   ]
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Consider the binomial product $(x + a)(x + b)$. Find the integer values of $a$ and $b$ if:",
+   "type": "list",
+   "prompt": "$(x + a)(x + b) = x^2 - 3x - 10$",
+   "answer": [
+    "-5",
+    "2"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x + 2)(x^2 + x + 1)$",
+   "answer": "x^3+3x^2+3x+2",
+   "form": "expanded",
+   "hint": "Type x cubed as x^3."
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x - 3)(x^2 - x + 2)$",
+   "answer": "x^3-4x^2+5x-6",
+   "form": "expanded"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(2x - 1)(3x^2 - x + 2)$",
+   "answer": "6x^3-5x^2+5x-2",
+   "form": "expanded"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x^2 - 2x + 1)(x + 4)$",
+   "answer": "x^3+2x^2-7x+4",
+   "form": "expanded"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(4x^2 - x + 3)(2x - 1)$",
+   "answer": "8x^3-6x^2+7x-3",
+   "form": "expanded"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(3x^2 - x + 5)(2x - 5)$",
+   "answer": "6x^3-17x^2+15x-25",
+   "form": "expanded"
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x + a)(x^2 - 2ax + a)$",
+   "answer": "-2a^2x+a^2-ax^2+ax+x^3",
+   "form": "expanded"
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x - a)(x^2 - ax - 2a^2)$",
+   "answer": "2a^3-a^2x-2ax^2+x^3",
+   "form": "expanded"
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x + a)(x^2 - ax + a^2)$",
+   "answer": "a^3+x^3",
+   "form": "expanded"
+  },
+  {
+   "id": "q9j",
+   "label": "9j",
+   "section": "Enrichment",
+   "stem": "Use the distributive law to expand and simplify these products. (Remember $x \\times x^2 = x^3$.)",
+   "type": "expression",
+   "prompt": "$(x - a)(x^2 + ax + a^2)$",
+   "answer": "-a^3+x^3",
+   "form": "expanded"
+  },
+  {
+   "id": "q10",
+   "label": "10",
+   "section": "Enrichment",
+   "type": "expression",
+   "prompt": "Expand and simplify $(x + 1)(x + 2)(x + 4)$.",
+   "answer": "x^3+7x^2+14x+8",
+   "form": "expanded",
+   "hint": "Type x cubed as x^3."
+  }
+ ]
+},
+{
+ "id": "y9-8b",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8B Perfect squares and difference of two squares",
+ "description": "Expand perfect squares such as (x - 4)² and differences of two squares such as (2x + 3)(2x - 3).",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x + 4)^2$",
+   "answer": "x^2+8x+16",
+   "form": "expanded",
+   "hint": "Type x squared as x^2."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x + 2)^2$",
+   "answer": "x^2+4x+4",
+   "form": "expanded"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x + 6)^2$",
+   "answer": "x^2+12x+36",
+   "form": "expanded"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x + 1)^2$",
+   "answer": "x^2+2x+1",
+   "form": "expanded"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x + 7)^2$",
+   "answer": "x^2+14x+49",
+   "form": "expanded"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x + 10)^2$",
+   "answer": "x^2+20x+100",
+   "form": "expanded"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x - 3)^2$",
+   "answer": "x^2-6x+9",
+   "form": "expanded"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x - 5)^2$",
+   "answer": "x^2-10x+25",
+   "form": "expanded"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x - 8)^2$",
+   "answer": "x^2-16x+64",
+   "form": "expanded"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x - 4)^2$",
+   "answer": "x^2-8x+16",
+   "form": "expanded"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x - 1)^2$",
+   "answer": "x^2-2x+1",
+   "form": "expanded"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(x - 11)^2$",
+   "answer": "x^2-22x+121",
+   "form": "expanded"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(2x + 3)^2$",
+   "answer": "4x^2+12x+9",
+   "form": "expanded"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3x + 4)^2$",
+   "answer": "9x^2+24x+16",
+   "form": "expanded"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(2x + 7)^2$",
+   "answer": "4x^2+28x+49",
+   "form": "expanded"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(4x + 1)^2$",
+   "answer": "16x^2+8x+1",
+   "form": "expanded"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(5x + 3)^2$",
+   "answer": "25x^2+30x+9",
+   "form": "expanded"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3x + 5)^2$",
+   "answer": "9x^2+30x+25",
+   "form": "expanded"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(4 + 3x)^2$",
+   "answer": "9x^2+24x+16",
+   "form": "expanded"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(6 + 5x)^2$",
+   "answer": "25x^2+60x+36",
+   "form": "expanded"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3x - 2)^2$",
+   "answer": "9x^2-12x+4",
+   "form": "expanded"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(2x - 1)^2$",
+   "answer": "4x^2-4x+1",
+   "form": "expanded"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(5x - 4)^2$",
+   "answer": "25x^2-40x+16",
+   "form": "expanded"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3x - 8)^2$",
+   "answer": "9x^2-48x+64",
+   "form": "expanded"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(2x + 5y)^2$",
+   "answer": "4x^2+20xy+25y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3x + 4y)^2$",
+   "answer": "9x^2+24xy+16y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(5x + 2y)^2$",
+   "answer": "25x^2+20xy+4y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(4x + 7y)^2$",
+   "answer": "16x^2+56xy+49y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2q",
+   "label": "2q",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3x - 7y)^2$",
+   "answer": "9x^2-42xy+49y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2r",
+   "label": "2r",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(5x - 3y)^2$",
+   "answer": "25x^2-30xy+9y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2s",
+   "label": "2s",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(2x - 9y)^2$",
+   "answer": "4x^2-36xy+81y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2t",
+   "label": "2t",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(6x - 4y)^2$",
+   "answer": "36x^2-48xy+16y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q2u",
+   "label": "2u",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(7x - 3y)^2$",
+   "answer": "49x^2-42xy+9y^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(4 - x)^2$",
+   "answer": "x^2-8x+16",
+   "form": "expanded"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(7 - x)^2$",
+   "answer": "x^2-14x+49",
+   "form": "expanded"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(2 - x)^2$",
+   "answer": "x^2-4x+4",
+   "form": "expanded"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(9 - x)^2$",
+   "answer": "x^2-18x+81",
+   "form": "expanded"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(12 - x)^2$",
+   "answer": "x^2-24x+144",
+   "form": "expanded"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(6 - 2x)^2$",
+   "answer": "4x^2-24x+36",
+   "form": "expanded"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(3 - 4x)^2$",
+   "answer": "16x^2-24x+9",
+   "form": "expanded"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(7 - 3x)^2$",
+   "answer": "9x^2-42x+49",
+   "form": "expanded"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Expand each of the following perfect squares.",
+   "type": "expression",
+   "prompt": "$(8 - 5x)^2$",
+   "answer": "25x^2-80x+64",
+   "form": "expanded"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x + 2)(x - 2)$",
+   "answer": "x^2-4",
+   "form": "simplified",
+   "accept": [
+    "-4+x^2"
+   ]
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x + 5)(x - 5)$",
+   "answer": "x^2-25",
+   "form": "simplified",
+   "accept": [
+    "-25+x^2"
+   ]
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x + 7)(x - 7)$",
+   "answer": "x^2-49",
+   "form": "simplified",
+   "accept": [
+    "-49+x^2"
+   ]
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x + 6)(x - 6)$",
+   "answer": "x^2-36",
+   "form": "simplified",
+   "accept": [
+    "-36+x^2"
+   ]
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x + 10)(x - 10)$",
+   "answer": "x^2-100",
+   "form": "simplified",
+   "accept": [
+    "-100+x^2"
+   ]
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x + 13)(x - 13)$",
+   "answer": "x^2-169",
+   "form": "simplified",
+   "accept": [
+    "-169+x^2"
+   ]
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x - 8)(x + 8)$",
+   "answer": "x^2-64",
+   "form": "simplified",
+   "accept": [
+    "-64+x^2"
+   ]
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x - 4)(x + 4)$",
+   "answer": "x^2-16",
+   "form": "simplified",
+   "accept": [
+    "-16+x^2"
+   ]
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(x - 3)(x + 3)$",
+   "answer": "x^2-9",
+   "form": "simplified",
+   "accept": [
+    "-9+x^2"
+   ]
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(6 - x)(6 + x)$",
+   "answer": "36-x^2",
+   "form": "simplified",
+   "accept": [
+    "-x^2+36"
+   ]
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(3 - x)(3 + x)$",
+   "answer": "9-x^2",
+   "form": "simplified",
+   "accept": [
+    "-x^2+9"
+   ]
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following to form a difference of two squares.",
+   "type": "expression",
+   "prompt": "$(9 - x)(9 + x)$",
+   "answer": "81-x^2",
+   "form": "simplified",
+   "accept": [
+    "-x^2+81"
+   ]
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(2x - 3)(2x + 3)$",
+   "answer": "4x^2-9",
+   "form": "simplified",
+   "accept": [
+    "-9+4x^2"
+   ]
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(4x - 5)(4x + 5)$",
+   "answer": "16x^2-25",
+   "form": "simplified",
+   "accept": [
+    "-25+16x^2"
+   ]
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(6x - 1)(6x + 1)$",
+   "answer": "36x^2-1",
+   "form": "simplified",
+   "accept": [
+    "-1+36x^2"
+   ]
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(5x - 2y)(5x + 2y)$",
+   "answer": "25x^2-4y^2",
+   "form": "simplified",
+   "accept": [
+    "-4y^2+25x^2"
+   ]
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(8x - 3y)(8x + 3y)$",
+   "answer": "64x^2-9y^2",
+   "form": "simplified",
+   "accept": [
+    "-9y^2+64x^2"
+   ]
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(12x - y)(12x + y)$",
+   "answer": "144x^2-y^2",
+   "form": "simplified",
+   "accept": [
+    "-y^2+144x^2"
+   ]
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(7x + 4y)(7x - 4y)$",
+   "answer": "49x^2-16y^2",
+   "form": "simplified",
+   "accept": [
+    "-16y^2+49x^2"
+   ]
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(10x - 3y)(10x + 3y)$",
+   "answer": "100x^2-9y^2",
+   "form": "simplified",
+   "accept": [
+    "-9y^2+100x^2"
+   ]
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(9x - 2y)(9x + 2y)$",
+   "answer": "81x^2-4y^2",
+   "form": "simplified",
+   "accept": [
+    "-4y^2+81x^2"
+   ]
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(5x - 12y)(5x + 12y)$",
+   "answer": "25x^2-144y^2",
+   "form": "simplified",
+   "accept": [
+    "-144y^2+25x^2"
+   ]
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(3x - 8y)(3x + 8y)$",
+   "answer": "9x^2-64y^2",
+   "form": "simplified",
+   "accept": [
+    "-64y^2+9x^2"
+   ]
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Expand and simplify the following.",
+   "type": "expression",
+   "prompt": "$(6x - 7y)(6x + 7y)$",
+   "answer": "36x^2-49y^2",
+   "form": "simplified",
+   "accept": [
+    "-49y^2+36x^2"
+   ]
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
+   "type": "expression",
+   "prompt": "Write an expression for the square of Tomas's age.",
+   "answer": "x^2"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
+   "type": "expression",
+   "prompt": "Write an expression, in expanded form, for the product of his cousins' ages.",
+   "answer": "x^2-9",
+   "form": "expanded"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
+   "type": "choice",
+   "prompt": "Are the answers to parts a and b equal?",
+   "answer": 1,
+   "options": [
+    "Yes",
+    "No"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Tomas is $x$ years old. His two cousins are $(x - 3)$ and $(x + 3)$ years old.",
+   "type": "numeric",
+   "prompt": "By how much do the answers to parts a and b differ?",
+   "answer": "9"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
+   "type": "expression",
+   "prompt": "Write an expression for the side length of the base of the tray.",
+   "answer": "24-2x",
+   "units": "cm",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 34,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        0,
+        6
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        0.9,
+        0
+       ],
+       [
+        0.9,
+        0.9
+       ],
+       [
+        0,
+        0.9
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        5.1
+       ],
+       [
+        0.9,
+        5.1
+       ],
+       [
+        0.9,
+        6
+       ],
+       [
+        0,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.1,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        0.9
+       ],
+       [
+        5.1,
+        0.9
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        5.1,
+        5.1
+       ],
+       [
+        6,
+        5.1
+       ],
+       [
+        6,
+        6
+       ],
+       [
+        5.1,
+        6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       0.9,
+       0,
+       0.9,
+       6
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       5.1,
+       0,
+       5.1,
+       6
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       0.9,
+       6,
+       0.9
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       5.1,
+       6,
+       5.1
+      ],
+      "dash": true
+     },
+     {
+      "label": "Tray base",
+      "at": [
+       3,
+       3
+      ]
+     },
+     {
+      "label": "x cm",
+      "at": [
+       0.45,
+       6.35
+      ]
+     },
+     {
+      "label": "x cm",
+      "at": [
+       -0.7,
+       5.55
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       6,
+       0
+      ],
+      "label": "24 cm",
+      "off": -0.6
+     },
+     {
+      "dim": [
+       6,
+       0,
+       6,
+       6
+      ],
+      "label": "24 cm",
+      "off": -0.6
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of the base of the tray, in expanded form.",
+   "answer": "4x^2-96x+576",
+   "form": "expanded",
+   "units": "cm²"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
+   "type": "numeric",
+   "prompt": "Find the area of the tray base if $x = 4$.",
+   "answer": "256",
+   "units": "cm²"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A square sheet of metal with side length $24$ cm has a square of side length $x$ cm cut from each corner. The sides are folded up to make an open tray. The centre square is the base of the tray.",
+   "type": "numeric",
+   "prompt": "Find the volume of the tray if $x = 4$.",
+   "answer": "1024",
+   "units": "cm³"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
+   "type": "expression",
+   "prompt": "Write an expression for the side length of the whole square.",
+   "answer": "m+n",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        3.2,
+        0
+       ],
+       [
+        3.2,
+        1.4
+       ],
+       [
+        0,
+        1.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        3.2,
+        0
+       ],
+       [
+        4.6,
+        0
+       ],
+       [
+        4.6,
+        3.2
+       ],
+       [
+        3.2,
+        3.2
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.4,
+        3.2
+       ],
+       [
+        4.6,
+        3.2
+       ],
+       [
+        4.6,
+        4.6
+       ],
+       [
+        1.4,
+        4.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0,
+        1.4
+       ],
+       [
+        1.4,
+        1.4
+       ],
+       [
+        1.4,
+        4.6
+       ],
+       [
+        0,
+        4.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        1.4,
+        1.4
+       ],
+       [
+        3.2,
+        1.4
+       ],
+       [
+        3.2,
+        3.2
+       ],
+       [
+        1.4,
+        3.2
+       ]
+      ]
+     },
+     {
+      "label": "pond",
+      "at": [
+       2.3,
+       2.3
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       3.2,
+       0
+      ],
+      "label": "m",
+      "off": -0.45
+     },
+     {
+      "dim": [
+       4.6,
+       0,
+       4.6,
+       1.4
+      ],
+      "label": "n",
+      "off": -0.45
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
+   "type": "expression",
+   "prompt": "Write an expression for the total area of the whole square.",
+   "answer": "(m+n)^2"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
+   "type": "expression",
+   "prompt": "Write an expression for the side length of the pond.",
+   "answer": "m-n"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of the pond.",
+   "answer": "(m-n)^2"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
+   "type": "expression",
+   "prompt": "Subtract your answer to part d from your answer to part b, and simplify, to find the area of the four garden beds.",
+   "answer": "4mn",
+   "form": "simplified"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Reasoning",
+   "stem": "Four identical rectangular garden beds, each $m$ m by $n$ m (with $m > n$), are arranged around a square pond as shown.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of one garden bed.",
+   "answer": "mn"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "A square has side length $x$ units. One pair of opposite sides is made $2$ units shorter and the other pair is made $2$ units longer, to give a rectangle.",
+   "type": "expression",
+   "prompt": "Find an expanded expression for the area of the rectangle.",
+   "answer": "x^2-4",
+   "form": "expanded"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "A square has side length $x$ units. One pair of opposite sides is made $2$ units shorter and the other pair is made $2$ units longer, to give a rectangle.",
+   "type": "choice",
+   "prompt": "Is the area of the rectangle the same as the area of the original square?",
+   "answer": 2,
+   "options": [
+    "Yes, they are the same",
+    "No, the rectangle is larger",
+    "No, the rectangle is smaller"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "A square has side length $x$ units. One pair of opposite sides is made $2$ units shorter and the other pair is made $2$ units longer, to give a rectangle.",
+   "type": "numeric",
+   "prompt": "By how many square units do the two areas differ?",
+   "answer": "4"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
+   "type": "expression",
+   "prompt": "Use subtraction to write an expression for the remaining area.",
+   "answer": "p^2-q^2",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 40,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4.4,
+        0
+       ],
+       [
+        4.4,
+        2.9000000000000004
+       ],
+       [
+        2.9000000000000004,
+        2.9000000000000004
+       ],
+       [
+        2.9000000000000004,
+        4.4
+       ],
+       [
+        0,
+        4.4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "seg": [
+       2.9000000000000004,
+       4.4,
+       4.4,
+       4.4
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       4.4,
+       4.4,
+       4.4,
+       2.9000000000000004
+      ],
+      "dash": true
+     },
+     {
+      "seg": [
+       0,
+       2.9000000000000004,
+       2.9000000000000004,
+       2.9000000000000004
+      ],
+      "thin": true
+     },
+     {
+      "seg": [
+       2.9000000000000004,
+       0,
+       2.9000000000000004,
+       2.9000000000000004
+      ],
+      "thin": true
+     },
+     {
+      "label": "A",
+      "at": [
+       1.4500000000000002,
+       1.4500000000000002
+      ]
+     },
+     {
+      "label": "B",
+      "at": [
+       3.6500000000000004,
+       1.4500000000000002
+      ]
+     },
+     {
+      "label": "C",
+      "at": [
+       1.4500000000000002,
+       3.6500000000000004
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       0,
+       4.4
+      ],
+      "label": "p",
+      "off": 0.5
+     },
+     {
+      "dim": [
+       4.4,
+       2.9000000000000004,
+       4.4,
+       4.4
+      ],
+      "label": "q",
+      "off": -0.5
+     }
+    ]
+   }
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of region A.",
+   "answer": "(p-q)^2"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of region B.",
+   "answer": "q(p-q)"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of region C.",
+   "answer": "q(p-q)"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "A square of side length $q$ is removed from the corner of a square of side length $p$, leaving the shaded shape, which is split into regions A, B and C.",
+   "type": "expression",
+   "prompt": "Add your expressions for A, B and C, then expand and simplify.",
+   "answer": "p^2-q^2",
+   "form": "simplified",
+   "accept": [
+    "-q^2+p^2"
+   ]
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(x + 3)^2 - 9$",
+   "answer": "x^2+6x",
+   "form": "expanded"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(3x - 1)^2 - 9x^2$",
+   "answer": "1-6x",
+   "form": "simplified",
+   "accept": [
+    "-6x+1"
+   ]
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(x + 4)(x - 4) + 8x$",
+   "answer": "x^2+8x-16",
+   "form": "simplified",
+   "accept": [
+    "-16+x^2+8x"
+   ]
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$4 - (x + 2)^2$",
+   "answer": "-x^2-4x",
+   "form": "expanded"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - (x + 2)(x - 2)$",
+   "answer": "4",
+   "form": "simplified"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(x + 2)^2 - (x - 2)^2$",
+   "answer": "8x",
+   "form": "simplified"
+  },
+  {
+   "id": "q11g",
+   "label": "11g",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(2x - 3)(2x + 3) - (2x + 3)^2$",
+   "answer": "-12x-18",
+   "form": "simplified"
+  },
+  {
+   "id": "q11h",
+   "label": "11h",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(4x - 1)^2 - (4x + 1)(4x - 1)$",
+   "answer": "2-8x",
+   "form": "simplified",
+   "accept": [
+    "-8x+2"
+   ]
+  },
+  {
+   "id": "q11i",
+   "label": "11i",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(x + 2y)^2 - (x - 2y)^2 + (x + 2y)(x - 2y)$",
+   "answer": "x^2+8xy-4y^2",
+   "form": "simplified",
+   "accept": [
+    "-4y^2+x^2+8xy"
+   ]
+  },
+  {
+   "id": "q11j",
+   "label": "11j",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(3x - 2)^2 + (3x + 2)^2$",
+   "answer": "18x^2+8",
+   "form": "simplified"
+  },
+  {
+   "id": "q11k",
+   "label": "11k",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(3 - x)^2 - (3 + x)^2$",
+   "answer": "-12x",
+   "form": "simplified"
+  },
+  {
+   "id": "q11l",
+   "label": "11l",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$(4 - x)^2 + (x - 4)^2$",
+   "answer": "2x^2-16x+32",
+   "form": "expanded"
+  },
+  {
+   "id": "q11m",
+   "label": "11m",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$3(2x - 5)^2 - (2x - 5)(2x + 5)$",
+   "answer": "8x^2-60x+100",
+   "form": "simplified",
+   "accept": [
+    "-60x+8x^2+100"
+   ]
+  },
+  {
+   "id": "q11n",
+   "label": "11n",
+   "section": "Enrichment",
+   "stem": "Expand and simplify these expressions.",
+   "type": "expression",
+   "prompt": "$3(x - y)^2 - (x + y)^2$",
+   "answer": "2x^2-8xy+2y^2",
+   "form": "expanded"
+  }
+ ]
+},
+{
+ "id": "y9-8c",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8C Factorising algebraic expressions",
+ "description": "Find the highest common factor and factorise expressions, including negative and binomial common factors.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$4a$ and $12ab$",
+   "answer": "4a",
+   "form": "simplified",
+   "hint": "Type the HCF as a term, for example 2ab."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$6b$ and $15ab$",
+   "answer": "3b",
+   "form": "simplified"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$3x^2$ and $12xy$",
+   "answer": "3x",
+   "form": "simplified"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$7x^2$ and $14x$",
+   "answer": "7x",
+   "form": "simplified"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$8x$ and $20xy$",
+   "answer": "4x",
+   "form": "simplified"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$10a$ and $15a$",
+   "answer": "5a",
+   "form": "simplified"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$6m$ and $9$",
+   "answer": "3",
+   "form": "simplified"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$14y$ and $21$",
+   "answer": "7",
+   "form": "simplified"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$12t$ and $8s$",
+   "answer": "4",
+   "form": "simplified"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$9$ and $p$",
+   "answer": "1",
+   "form": "simplified"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$6x$ and $15xy$",
+   "answer": "3x",
+   "form": "simplified"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$10n$ and $25mn$",
+   "answer": "5n",
+   "form": "simplified"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$12y$ and $3y$",
+   "answer": "3y",
+   "form": "simplified"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$9x^2$ and $15x$",
+   "answer": "3x",
+   "form": "simplified"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$6x^2y$ and $20xy$",
+   "answer": "2xy",
+   "form": "simplified"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Find the highest common factor (HCF) of the following.",
+   "type": "expression",
+   "prompt": "$4ab^2$ and $10a^2b$",
+   "answer": "2ab",
+   "form": "simplified"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$5x + 5$",
+   "answer": "5(x+1)",
+   "form": "factorised",
+   "hint": "Type the factorised form, for example 3a(2b + 5)."
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$6x + 6$",
+   "answer": "6(x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$3x - 3$",
+   "answer": "3(x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$8x - 8$",
+   "answer": "8(x-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$6 + 12y$",
+   "answer": "6(2y+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$14 + 7a$",
+   "answer": "7(a+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$4 - 12b$",
+   "answer": "4(1-3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$10 - 2x$",
+   "answer": "2(5-x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$15a + 6b$",
+   "answer": "3(5a+2b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3j",
+   "label": "3j",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$9m + 9n$",
+   "answer": "9(m+n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3k",
+   "label": "3k",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$12x - 9y$",
+   "answer": "3(4x-3y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3l",
+   "label": "3l",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$6a - 30b$",
+   "answer": "6(a-5b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3m",
+   "label": "3m",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$x^2 + 5x$",
+   "answer": "x(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3n",
+   "label": "3n",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$a^2 - 3a$",
+   "answer": "a(a-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3o",
+   "label": "3o",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$y^2 - 9y$",
+   "answer": "y(y-9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3p",
+   "label": "3p",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$x - x^2$",
+   "answer": "x(1-x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3q",
+   "label": "3q",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$4p^2 + 4p$",
+   "answer": "4p(p+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3r",
+   "label": "3r",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$6x - 6x^2$",
+   "answer": "6x(1-x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3s",
+   "label": "3s",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$5b^2 + 15b$",
+   "answer": "5b(b+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3t",
+   "label": "3t",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$8y - 12y^2$",
+   "answer": "4y(2-3y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3u",
+   "label": "3u",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$14a - 21a^2$",
+   "answer": "7a(2-3a)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3v",
+   "label": "3v",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$10m + 25m^2$",
+   "answer": "5m(5m+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3w",
+   "label": "3w",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$18xy - 45x^2$",
+   "answer": "9x(2y-5x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3x",
+   "label": "3x",
+   "section": "Fluency",
+   "stem": "Factorise the following.",
+   "type": "expression",
+   "prompt": "$6ab - 24ab^2$",
+   "answer": "6ab(1-4b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-6x - 3$",
+   "answer": "-3(2x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-10x - 2$",
+   "answer": "-2(5x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-12x - 9y$",
+   "answer": "-3(4x+3y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-5a - 15b$",
+   "answer": "-5(a+3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-8x - 12$",
+   "answer": "-4(2x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-10y - 15$",
+   "answer": "-5(2y+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-14x - 21y$",
+   "answer": "-7(2x+3y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-6m - 24n$",
+   "answer": "-6(m+4n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-4x^2 - 20x$",
+   "answer": "-4x(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4j",
+   "label": "4j",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-9x^2 - 6x$",
+   "answer": "-3x(3x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4k",
+   "label": "4k",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-15y^2 - 10y$",
+   "answer": "-5y(3y+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4l",
+   "label": "4l",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-7a^2 - 14a$",
+   "answer": "-7a(a+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4m",
+   "label": "4m",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-8x - 28x^2$",
+   "answer": "-4x(7x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4n",
+   "label": "4n",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-10p - 4p^2$",
+   "answer": "-2p(2p+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4o",
+   "label": "4o",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-18b - 12b^2$",
+   "answer": "-6b(2b+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4p",
+   "label": "4p",
+   "section": "Fluency",
+   "stem": "Factorise the following by taking out the negative sign as part of the HCF.",
+   "type": "expression",
+   "prompt": "$-6x - 30x^2$",
+   "answer": "-6x(5x+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$5(x + 2) + x(x + 2)$",
+   "answer": "(x+2)(x+5)",
+   "form": "factorised",
+   "hint": "Type a product of brackets, for example (x + 1)(x + 6)."
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$7(x + 4) + x(x + 4)$",
+   "answer": "(x+4)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$3(m - 5) + m(m - 5)$",
+   "answer": "(m-5)(m+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$x(x - 6) + 4(x - 6)$",
+   "answer": "(x-6)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$9(a + 2) - a(a + 2)$",
+   "answer": "(9-a)(a+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$4(x + 3) - x(x + 3)$",
+   "answer": "(4-x)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$y(y + 7) - 5(y + 7)$",
+   "answer": "(y-5)(y+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$b(x + 5) - x(x + 5)$",
+   "answer": "(x+5)(b-x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$t(3t + 2) + 4(3t + 2)$",
+   "answer": "(3t+2)(t+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$m(4m - 3) + 6(4m - 3)$",
+   "answer": "(4m-3)(m+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$y(5y - 2) - (5y - 2)$",
+   "answer": "(y-1)(5y-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Factorise the following, which have a binomial common factor.",
+   "type": "expression",
+   "prompt": "$(9 - 2x) + x(9 - 2x)$",
+   "answer": "(x+1)(9-2x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$8a + 24$",
+   "answer": "8(a+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$7x - 21$",
+   "answer": "7(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$10b + 4$",
+   "answer": "2(5b+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 6x$",
+   "answer": "x(x-6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$y^2 + 11y$",
+   "answer": "y(y+11)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$a^2 - 8a$",
+   "answer": "a(a-8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$x^2y - 5xy + xy^2$",
+   "answer": "xy(x+y-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$6ab - 9a^2b + 12ab^2$",
+   "answer": "3ab(4b-3a+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6i",
+   "label": "6i",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$m(m + 3) + 4(m + 3)$",
+   "answer": "(m+3)(m+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6j",
+   "label": "6j",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$x(x + 6) - 5(x + 6)$",
+   "answer": "(x-5)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6k",
+   "label": "6k",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$b(b - 7) + (b - 7)$",
+   "answer": "(b+1)(b-7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6l",
+   "label": "6l",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$x(3x + 2) - (3x + 2)$",
+   "answer": "(x-1)(3x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6m",
+   "label": "6m",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$y(5 - 3y) - 2(5 - 3y)$",
+   "answer": "(5-3y)(y-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6n",
+   "label": "6n",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$(x + 2)^2 + 6(x + 2)$",
+   "answer": "(x+2)(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6o",
+   "label": "6o",
+   "section": "Fluency",
+   "stem": "Factorise these mixed expressions.",
+   "type": "expression",
+   "prompt": "$(y + 3)^2 - 5(y + 3)$",
+   "answer": "(y-2)(y+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "Write the perimeter of each shape in factorised form.",
+   "type": "expression",
+   "prompt": "Shape a",
+   "answer": "6(x+2)",
+   "form": "factorised",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5,
+        3
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       5,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       5,
+       3,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       0,
+       3,
+       270,
+       360
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "tick": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       5,
+       3,
+       0,
+       3
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       5,
+       0,
+       5,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       0,
+       3,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "3x",
+      "at": [
+       2.5,
+       -0.5
+      ]
+     },
+     {
+      "label": "6",
+      "at": [
+       5.45,
+       1.5
+      ]
+     }
+    ]
+   },
+   "hint": "Type the factorised form, for example 3a(2b + 5)."
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "Write the perimeter of each shape in factorised form.",
+   "type": "expression",
+   "prompt": "Shape b",
+   "answer": "2(x+4)",
+   "form": "factorised",
+   "figure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        2,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       2,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       4,
+       0,
+       2,
+       3
+      ],
+      "n": 1
+     },
+     {
+      "label": "8",
+      "at": [
+       2,
+       -0.45
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       3.35,
+       1.7
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "Write the perimeter of each shape in factorised form.",
+   "type": "expression",
+   "prompt": "Shape c",
+   "answer": "8(x+3)",
+   "form": "factorised",
+   "figure": {
+    "kind": "diagram",
+    "unit": 32,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        6.2,
+        2.6
+       ],
+       [
+        1.2,
+        2.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "tick": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       6.2,
+       2.6,
+       1.2,
+       2.6
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       5,
+       0,
+       6.2,
+       2.6
+      ],
+      "n": 1
+     },
+     {
+      "tick": [
+       1.2,
+       2.6,
+       0,
+       0
+      ],
+      "n": 1
+     },
+     {
+      "label": "12",
+      "at": [
+       2.5,
+       -0.45
+      ]
+     },
+     {
+      "label": "4x",
+      "at": [
+       6.1,
+       1.1
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "Write the perimeter of each shape in factorised form.",
+   "type": "expression",
+   "prompt": "Shape d",
+   "answer": "2(x+10)",
+   "form": "factorised",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        2,
+        0
+       ],
+       [
+        2,
+        3.5
+       ],
+       [
+        6,
+        3.5
+       ],
+       [
+        6,
+        5.3
+       ],
+       [
+        0,
+        5.3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       2,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       6,
+       3.5,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       6,
+       5.3,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       0,
+       5.3,
+       270,
+       360
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "label": "7",
+      "at": [
+       3,
+       5.75
+      ]
+     },
+     {
+      "label": "3",
+      "at": [
+       6.4,
+       4.4
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       2.4,
+       1.75
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "Write the perimeter of each shape in factorised form.",
+   "type": "expression",
+   "prompt": "Shape e",
+   "answer": "4(x+3)",
+   "form": "factorised",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        1.6,
+        0
+       ],
+       [
+        1.6,
+        2.2
+       ],
+       [
+        6,
+        2.2
+       ],
+       [
+        6,
+        4.6
+       ],
+       [
+        0,
+        4.6
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       0,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       1.6,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       6,
+       2.2,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       6,
+       4.6,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       0,
+       4.6,
+       270,
+       360
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "tick": [
+       1.6,
+       2.2,
+       6,
+       2.2
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       0,
+       4.6,
+       0,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "label": "x + 2",
+      "at": [
+       3.8,
+       1.75
+      ]
+     },
+     {
+      "label": "2",
+      "at": [
+       0.8,
+       -0.45
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Problem-solving",
+   "stem": "Write the perimeter of each shape in factorised form.",
+   "type": "expression",
+   "prompt": "Shape f",
+   "answer": "2(x+7)",
+   "form": "factorised",
+   "figure": {
+    "kind": "diagram",
+    "unit": 30,
+    "items": [
+     {
+      "poly": [
+       [
+        4,
+        3
+       ],
+       [
+        4,
+        0
+       ],
+       [
+        6,
+        0
+       ],
+       [
+        6,
+        5
+       ],
+       [
+        0,
+        5
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "angle": [
+       4,
+       0,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       6,
+       0,
+       90,
+       180
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       6,
+       5,
+       180,
+       270
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       0,
+       5,
+       270,
+       360
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "angle": [
+       0,
+       3,
+       0,
+       90
+      ],
+      "right": true,
+      "r": 0.28
+     },
+     {
+      "tick": [
+       0,
+       3,
+       0,
+       5
+      ],
+      "n": 2
+     },
+     {
+      "tick": [
+       4,
+       0,
+       6,
+       0
+      ],
+      "n": 2
+     },
+     {
+      "label": "2",
+      "at": [
+       -0.45,
+       4
+      ]
+     },
+     {
+      "label": "5",
+      "at": [
+       6.45,
+       2.5
+      ]
+     },
+     {
+      "label": "x",
+      "at": [
+       2,
+       2.55
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q8",
+   "label": "8",
+   "section": "Problem-solving",
+   "type": "expression",
+   "prompt": "The area of a rectangle is $(3x^2 + 15x)$ square units and its length is $(x + 5)$ units. Find an expression for its width.",
+   "answer": "3x",
+   "form": "simplified",
+   "units": "units"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Problem-solving",
+   "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
+   "type": "expression",
+   "prompt": "Write an expression for the height in factorised form.",
+   "answer": "t(6-t)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Problem-solving",
+   "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "Find the height of the ball when $t = 0$.",
+   "answer": "0",
+   "units": "m"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Problem-solving",
+   "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "Find the height of the ball when $t = 5$.",
+   "answer": "5",
+   "units": "m"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Problem-solving",
+   "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "Find the height of the ball when $t = 3$.",
+   "answer": "9",
+   "units": "m"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Problem-solving",
+   "stem": "The height, in metres, of a ball above its starting point is given by $6t - t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "After how many seconds is the ball back at its starting height (height $0$)?",
+   "answer": "6",
+   "units": "seconds"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Reasoning",
+   "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
+   "type": "numeric",
+   "prompt": "$8 \\times 3 + 8 \\times 7$",
+   "answer": "80"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Reasoning",
+   "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
+   "type": "numeric",
+   "prompt": "$7 \\times 4 + 7 \\times 6$",
+   "answer": "70"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Reasoning",
+   "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
+   "type": "numeric",
+   "prompt": "$-3 \\times 4 - 3 \\times 6$",
+   "answer": "-30"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Reasoning",
+   "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
+   "type": "numeric",
+   "prompt": "$-4 \\times 7 - 4 \\times 3$",
+   "answer": "-40"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Reasoning",
+   "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
+   "type": "numeric",
+   "prompt": "$27 \\times 6 - 27 \\times 2$",
+   "answer": "108"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Reasoning",
+   "stem": "$6 \\times 7 + 6 \\times 3$ can be worked out by first factorising to $6(7 + 3) = 6 \\times 10 = 60$. Use the same idea to evaluate the following.",
+   "type": "numeric",
+   "prompt": "$54 \\times 13 - 54 \\times 10$",
+   "answer": "162"
+  },
+  {
+   "id": "q11a",
+   "label": "11a",
+   "section": "Reasoning",
+   "stem": "Factorise these expressions by taking out the HCF.",
+   "type": "expression",
+   "prompt": "$4a^2 + 8a + 12$",
+   "answer": "4(a^2+2a+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q11b",
+   "label": "11b",
+   "section": "Reasoning",
+   "stem": "Factorise these expressions by taking out the HCF.",
+   "type": "expression",
+   "prompt": "$6z^2 - 12z + zy$",
+   "answer": "z(y+6z-12)",
+   "form": "factorised"
+  },
+  {
+   "id": "q11c",
+   "label": "11c",
+   "section": "Reasoning",
+   "stem": "Factorise these expressions by taking out the HCF.",
+   "type": "expression",
+   "prompt": "$x^2 - 3xy + x^2y$",
+   "answer": "x(xy+x-3y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q11d",
+   "label": "11d",
+   "section": "Reasoning",
+   "stem": "Factorise these expressions by taking out the HCF.",
+   "type": "expression",
+   "prompt": "$6by - 3b + 9b^2$",
+   "answer": "3b(3b+2y-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q11e",
+   "label": "11e",
+   "section": "Reasoning",
+   "stem": "Factorise these expressions by taking out the HCF.",
+   "type": "expression",
+   "prompt": "$-10xy - 15yz - 25xyz$",
+   "answer": "-5y(5xz+2x+3z)",
+   "form": "factorised"
+  },
+  {
+   "id": "q11f",
+   "label": "11f",
+   "section": "Reasoning",
+   "stem": "Factorise these expressions by taking out the HCF.",
+   "type": "expression",
+   "prompt": "$2ab + 5ab^2 + 7a^2b$",
+   "answer": "ab(7a+5b+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q12a",
+   "label": "12a",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-5x + 15 = -5(\\underline{\\qquad})$",
+   "answer": "x-3",
+   "hint": "Type only what goes inside the bracket."
+  },
+  {
+   "id": "q12b",
+   "label": "12b",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-5x + 15 = 5(\\underline{\\qquad})$",
+   "answer": "3-x"
+  },
+  {
+   "id": "q12c",
+   "label": "12c",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-2x + 8 = -2(\\underline{\\qquad})$",
+   "answer": "x-4"
+  },
+  {
+   "id": "q12d",
+   "label": "12d",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-2x + 8 = 2(\\underline{\\qquad})$",
+   "answer": "4-x"
+  },
+  {
+   "id": "q12e",
+   "label": "12e",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-6n + 6 = -6(\\underline{\\qquad})$",
+   "answer": "n-1"
+  },
+  {
+   "id": "q12f",
+   "label": "12f",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-6n + 6 = 6(\\underline{\\qquad})$",
+   "answer": "1-n"
+  },
+  {
+   "id": "q12g",
+   "label": "12g",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-7b + 7 = -7(\\underline{\\qquad})$",
+   "answer": "b-1"
+  },
+  {
+   "id": "q12h",
+   "label": "12h",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-7b + 7 = 7(\\underline{\\qquad})$",
+   "answer": "1-b"
+  },
+  {
+   "id": "q12i",
+   "label": "12i",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-3m + 3m^2 = -3m(\\underline{\\qquad})$",
+   "answer": "1-m"
+  },
+  {
+   "id": "q12j",
+   "label": "12j",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-3m + 3m^2 = 3m(\\underline{\\qquad})$",
+   "answer": "m-1"
+  },
+  {
+   "id": "q12k",
+   "label": "12k",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-9x + 9x^2 = -9x(\\underline{\\qquad})$",
+   "answer": "1-x"
+  },
+  {
+   "id": "q12l",
+   "label": "12l",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-9x + 9x^2 = 9x(\\underline{\\qquad})$",
+   "answer": "x-1"
+  },
+  {
+   "id": "q12m",
+   "label": "12m",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-4x + 4x^2 = -4x(\\underline{\\qquad})$",
+   "answer": "1-x"
+  },
+  {
+   "id": "q12n",
+   "label": "12n",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-4x + 4x^2 = 4x(\\underline{\\qquad})$",
+   "answer": "x-1"
+  },
+  {
+   "id": "q12o",
+   "label": "12o",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-6y + 15y^2 = -3y(\\underline{\\qquad})$",
+   "answer": "2-5y"
+  },
+  {
+   "id": "q12p",
+   "label": "12p",
+   "section": "Reasoning",
+   "stem": "Each expression can be factorised by taking out a negative HCF or a positive HCF. Find what goes in the bracket.",
+   "type": "expression",
+   "prompt": "$-6y + 15y^2 = 3y(\\underline{\\qquad})$",
+   "answer": "5y-2"
+  },
+  {
+   "id": "q13a",
+   "label": "13a",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x(x - 3) + 4(3 - x)$",
+   "answer": "(x-4)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13b",
+   "label": "13b",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x(x - 6) - 3(6 - x)$",
+   "answer": "(x-6)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13c",
+   "label": "13c",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x(x - 2) - 2(2 - x)$",
+   "answer": "(x-2)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13d",
+   "label": "13d",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$2x(x - 5) + 3(5 - x)$",
+   "answer": "(x-5)(2x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13e",
+   "label": "13e",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$4(3x - 2) + x(2 - 3x)$",
+   "answer": "(4-x)(3x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13f",
+   "label": "13f",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$3x(x - 4) + (4 - x)$",
+   "answer": "(3x-1)(x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13g",
+   "label": "13g",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$-5(2 - x) - x(x - 2)$",
+   "answer": "(5-x)(x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13h",
+   "label": "13h",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x(x - 5) + (15 - 3x)$",
+   "answer": "(x-5)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q13i",
+   "label": "13i",
+   "section": "Enrichment",
+   "stem": "Use the fact that $a - b = -(b - a)$ to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x(x - 6) + (12 - 2x)$",
+   "answer": "(x-6)(x-2)",
+   "form": "factorised"
+  }
+ ]
+},
+{
+ "id": "y9-8d",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8D Factorising the difference of two squares",
+ "description": "Factorise differences of two squares such as 9x² - 16, including ones with a common factor or a bracket.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$x^2 - 4$",
+   "answer": "(x-2)(x+2)",
+   "form": "factorised",
+   "hint": "Type a product of brackets, for example (x - 3)(x + 3)."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$y^2 - 36$",
+   "answer": "(y-6)(y+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$a^2 - 1$",
+   "answer": "(a+1)(a-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$x^2 - 49$",
+   "answer": "(x-7)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$x^2 - 81$",
+   "answer": "(x-9)(x+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$b^2 - 64$",
+   "answer": "(b-8)(b+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$a^2 - 25$",
+   "answer": "(a-5)(a+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$m^2 - n^2$",
+   "answer": "(m+n)(m-n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$p^2 - q^2$",
+   "answer": "(p+q)(p-q)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$9 - a^2$",
+   "answer": "(3-a)(a+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$49 - x^2$",
+   "answer": "(7-x)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$1 - y^2$",
+   "answer": "(y+1)(1-y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1m",
+   "label": "1m",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$64 - y^2$",
+   "answer": "(8-y)(y+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1n",
+   "label": "1n",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$144 - b^2$",
+   "answer": "(12-b)(b+12)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1o",
+   "label": "1o",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$x^2 - 900$",
+   "answer": "(x-30)(x+30)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1p",
+   "label": "1p",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$400 - y^2$",
+   "answer": "(20-y)(y+20)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$9x^2 - 16$",
+   "answer": "(3x-4)(3x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$4x^2 - 81$",
+   "answer": "(2x-9)(2x+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$16b^2 - 9$",
+   "answer": "(4b-3)(4b+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$25m^2 - 144$",
+   "answer": "(5m-12)(5m+12)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$49y^2 - 4$",
+   "answer": "(7y-2)(7y+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$64a^2 - 9$",
+   "answer": "(8a-3)(8a+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$1 - 9x^2$",
+   "answer": "(3x+1)(1-3x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$36 - 25b^2$",
+   "answer": "(6-5b)(5b+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$81 - 4y^2$",
+   "answer": "(9-2y)(2y+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2j",
+   "label": "2j",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$49x^2 - y^2$",
+   "answer": "(7x+y)(7x-y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2k",
+   "label": "2k",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$9x^2 - 16y^2$",
+   "answer": "(3x-4y)(3x+4y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2l",
+   "label": "2l",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$25a^2 - 64b^2$",
+   "answer": "(5a-8b)(5a+8b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2m",
+   "label": "2m",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$9p^2 - 4q^2$",
+   "answer": "(3p-2q)(3p+2q)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2n",
+   "label": "2n",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$49m^2 - 9n^2$",
+   "answer": "(7m-3n)(7m+3n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2o",
+   "label": "2o",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$36a^2 - 25b^2$",
+   "answer": "(6a-5b)(6a+5b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2p",
+   "label": "2p",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$121a^2 - 4b^2$",
+   "answer": "(11a-2b)(11a+2b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$2x^2 - 50$",
+   "answer": "2(x-5)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$5a^2 - 5$",
+   "answer": "5(a+1)(a-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$3x^2 - 48$",
+   "answer": "3(x-4)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$7y^2 - 28$",
+   "answer": "7(y-2)(y+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$72 - 2x^2$",
+   "answer": "2(6-x)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$75 - 3m^2$",
+   "answer": "3(5-m)(m+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$6x^2y^2 - 6$",
+   "answer": "6(xy+1)(xy-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$2 - 2x^2y^2$",
+   "answer": "2(xy+1)(1-xy)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following by first taking out the common factor.",
+   "type": "expression",
+   "prompt": "$45 - 5a^2b^2$",
+   "answer": "5(3-ab)(ab+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$(x + 4)^2 - 9$",
+   "answer": "(x+1)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$(x + 2)^2 - 25$",
+   "answer": "(x-3)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$(x + 8)^2 - 36$",
+   "answer": "(x+2)(x+14)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$(x - 5)^2 - 9$",
+   "answer": "(x-8)(x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$(x - 6)^2 - 1$",
+   "answer": "(x-7)(x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$(x - 2)^2 - 49$",
+   "answer": "(x-9)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$64 - (x + 1)^2$",
+   "answer": "(7-x)(x+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$9 - (x + 5)^2$",
+   "answer": "-(x+2)(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following.",
+   "type": "expression",
+   "prompt": "$100 - (x + 3)^2$",
+   "answer": "(7-x)(x+13)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
+   "type": "expression",
+   "prompt": "Factorise the expression for the height, by first taking out the common factor.",
+   "answer": "4(5-t)(t+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "Find the height of the ball at the start ($t = 0$).",
+   "answer": "100",
+   "units": "m"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "Find the height of the ball after $3$ seconds.",
+   "answer": "64",
+   "units": "m"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "The height above the ground, in metres, of a ball dropped from the top of a tall building is given by $100 - 4t^2$, where $t$ is the time in seconds.",
+   "type": "numeric",
+   "prompt": "After how many seconds does the ball hit the ground?",
+   "answer": "5",
+   "units": "seconds"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
+   "type": "expression",
+   "prompt": "Write an expression for the area of the picture.",
+   "answer": "x^2",
+   "units": "cm²",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        5,
+        0
+       ],
+       [
+        5,
+        5
+       ],
+       [
+        0,
+        5
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.8,
+        0.8
+       ],
+       [
+        4.2,
+        0.8
+       ],
+       [
+        4.2,
+        4.2
+       ],
+       [
+        0.8,
+        4.2
+       ]
+      ]
+     },
+     {
+      "label": "Picture",
+      "at": [
+       2.5,
+       3
+      ]
+     },
+     {
+      "dim": [
+       0,
+       0,
+       5,
+       0
+      ],
+      "label": "40 cm",
+      "off": -0.6
+     },
+     {
+      "seg": [
+       0.8,
+       1.1,
+       4.2,
+       1.1
+      ],
+      "arrow": "both"
+     },
+     {
+      "label": "x cm",
+      "at": [
+       2.5,
+       1.5
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
+   "type": "expression",
+   "prompt": "Write an expression, in factorised form, for the area of the frame.",
+   "answer": "(40-x)(x+40)",
+   "form": "factorised",
+   "units": "cm²"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
+   "type": "numeric",
+   "prompt": "Find the area of the frame if $x = 24$.",
+   "answer": "1024",
+   "units": "cm²"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "A square photo frame has outside side length $40$ cm. It can hold a square picture of side length $x$ cm, and the rest of the square is the frame.",
+   "type": "numeric",
+   "prompt": "Find the area of the frame if the area of the picture is $625$ cm².",
+   "answer": "975",
+   "units": "cm²"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-16 + x^2$",
+   "answer": "(x-4)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-81 + 25x^2$",
+   "answer": "(5x-9)(5x+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-36a^2 + 49$",
+   "answer": "(7-6a)(6a+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-n^2 + m^2$",
+   "answer": "(m+n)(m-n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-16a^2 + 9b^2$",
+   "answer": "(3b-4a)(4a+3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-49a^2b^2 + c^2$",
+   "answer": "(7ab+c)(c-7ab)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-25x^2 + y^2z^2$",
+   "answer": "(5x+yz)(yz-5x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Reasoning",
+   "stem": "Swap the order of the two terms to see a difference of two squares, then factorise.",
+   "type": "expression",
+   "prompt": "$-400a^2 + b^2$",
+   "answer": "(20a+b)(b-20a)",
+   "form": "factorised"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "Kai factorises $36x^2 - 16$ and gets $(6x + 4)(6x - 4)$.",
+   "type": "numeric",
+   "prompt": "What common factor can still be taken out of each of Kai's brackets?",
+   "answer": "2"
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "Kai factorises $36x^2 - 16$ and gets $(6x + 4)(6x - 4)$.",
+   "type": "expression",
+   "prompt": "Write the fully factorised form of $36x^2 - 16$.",
+   "answer": "4(3x+2)(3x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "Kai factorises $36x^2 - 16$ and gets $(6x + 4)(6x - 4)$.",
+   "type": "choice",
+   "prompt": "What should Kai have done first to avoid this?",
+   "answer": 1,
+   "options": [
+    "Expanded the brackets",
+    "Taken out the common factor 4",
+    "Divided everything by x",
+    "Swapped the two terms"
+   ]
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Here is some working with a mistake in it: $16 - (x - 2)^2 = (4 + x - 2)(4 - x - 2) = (2 + x)(2 - x)$.",
+   "type": "choice",
+   "prompt": "Which bracket in the first step is wrong?",
+   "answer": 1,
+   "options": [
+    "The first bracket, (4 + x - 2)",
+    "The second bracket, (4 - x - 2)"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Here is some working with a mistake in it: $16 - (x - 2)^2 = (4 + x - 2)(4 - x - 2) = (2 + x)(2 - x)$.",
+   "type": "expression",
+   "prompt": "Write the correct factorised form of $16 - (x - 2)^2$.",
+   "answer": "(6-x)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - \\frac{1}{9}$",
+   "answer": "(x-1/3)(x+1/3)",
+   "form": "factorised",
+   "hint": "Use fractions inside the brackets, for example (x - 1/2)(x + 1/2)."
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - \\frac{9}{25}$",
+   "answer": "(x-3/5)(x+3/5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$16x^2 - \\frac{25}{36}$",
+   "answer": "(4x-5/6)(4x+5/6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^2}{16} - 1$",
+   "answer": "(x/4-1)(x/4+1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{a^2}{9} - \\frac{b^2}{16}$",
+   "answer": "(a/3-b/4)(a/3+b/4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{3x^2}{4} - \\frac{3}{25}$",
+   "answer": "3(x/2-1/5)(x/2+1/5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10g",
+   "label": "10g",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{5a^2}{16} - \\frac{20b^2}{49}$",
+   "answer": "5(a/4-2b/7)(a/4+2b/7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10h",
+   "label": "10h",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{a^2}{12} - \\frac{b^2}{27}$",
+   "answer": "(1/3)(a/2-b/3)(a/2+b/3)",
+   "form": "factorised",
+   "hint": "Put a number fraction at the front in brackets, for example (1/2)(x - 1)(x + 1)."
+  },
+  {
+   "id": "q10i",
+   "label": "10i",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^4 - 16$",
+   "answer": "(x^2+4)(x-2)(x+2)",
+   "form": "factorised",
+   "hint": "Type x to the power 4 as x^4. Factorise fully."
+  },
+  {
+   "id": "q10j",
+   "label": "10j",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$3a^4 - 3b^4$",
+   "answer": "3(a^2+b^2)(a-b)(a+b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10k",
+   "label": "10k",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$10a^4 - 10b^4$",
+   "answer": "10(a^2+b^2)(a-b)(a+b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q10l",
+   "label": "10l",
+   "section": "Enrichment",
+   "stem": "Factorise these expressions.",
+   "type": "expression",
+   "prompt": "$\\frac{x^4}{5} - \\frac{y^4}{5}$",
+   "answer": "(1/5)(x^2+y^2)(x-y)(x+y)",
+   "form": "factorised",
+   "hint": "Put a number fraction at the front in brackets, for example (1/2)(x - 1)(x + 1)."
+  }
+ ]
+},
+{
+ "id": "y9-8e",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8E Factorising by grouping in pairs",
+ "description": "Factorise four-term expressions by grouping them in pairs, rearranging the terms first where needed.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 2x + 5x + 10$",
+   "answer": "(x+2)(x+5)",
+   "form": "factorised",
+   "hint": "Type a product of brackets, for example (x + 2)(x - a)."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 5x + 3x + 15$",
+   "answer": "(x+3)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 6x + 4x + 24$",
+   "answer": "(x+4)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 5x + 3x - 15$",
+   "answer": "(x-5)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 3x + 7x - 21$",
+   "answer": "(x-3)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 2x + 9x - 18$",
+   "answer": "(x-2)(x+9)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 3x - 12x - 36$",
+   "answer": "(x-12)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 4x - 10x - 40$",
+   "answer": "(x-10)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 5x - 16x - 80$",
+   "answer": "(x-16)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1j",
+   "label": "1j",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 3x - xa + 3a$",
+   "answer": "(x-3)(x-a)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1k",
+   "label": "1k",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 4x - 4xc + 16c$",
+   "answer": "(x-4)(x-4c)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1l",
+   "label": "1l",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 6x - 2xa + 12a$",
+   "answer": "(x-6)(x-2a)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
+   "type": "expression",
+   "prompt": "$2ab + 7bc + 2ad + 7cd$",
+   "answer": "(b+d)(2a+7c)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
+   "type": "expression",
+   "prompt": "$3ab - 5ac + 3bd - 5cd$",
+   "answer": "(a+d)(3b-5c)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
+   "type": "expression",
+   "prompt": "$3xy - 6xz + 5wy - 10wz$",
+   "answer": "(y-2z)(5w+3x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
+   "type": "expression",
+   "prompt": "$4rs - 12r + st - 3t$",
+   "answer": "(s-3)(4r+t)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
+   "type": "expression",
+   "prompt": "$6x^2 + 9xy - 2x - 3y$",
+   "answer": "(3x-1)(2x+3y)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Use grouping in pairs to factorise these expressions. The HCF of each pair includes a pronumeral.",
+   "type": "expression",
+   "prompt": "$3ab - a^2 - 3bc + ac$",
+   "answer": "(c-a)(a-3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
+   "type": "expression",
+   "prompt": "$x^2 - px + x - p$",
+   "answer": "(x+1)(x-p)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
+   "type": "expression",
+   "prompt": "$x^2 - qx + x - q$",
+   "answer": "(x+1)(x-q)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
+   "type": "expression",
+   "prompt": "$x^2 + kx + x + k$",
+   "answer": "(x+1)(k+x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
+   "type": "expression",
+   "prompt": "$x^2 + mx - x - m$",
+   "answer": "(x-1)(m+x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
+   "type": "expression",
+   "prompt": "$x^2 + nx - x - n$",
+   "answer": "(x-1)(n+x)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Factorise these expressions. Use a factor of $1$ where needed, for example $x^2 - ax + x - a = x(x - a) + 1(x - a)$.",
+   "type": "expression",
+   "prompt": "$x^2 - tx - x + t$",
+   "answer": "(x-1)(x-t)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$2x^2 - 5 - 10x + x$",
+   "answer": "(2x+1)(x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$4x + 3x + x^2 + 12$",
+   "answer": "(x+3)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$3x^2 - 4 - 2x + 6x$",
+   "answer": "(3x-2)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$4x - 9x - 6x^2 + 6$",
+   "answer": "(2-3x)(2x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$7x - 3a - 21 + ax$",
+   "answer": "(x-3)(a+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$10y + 3x - 6xy - 5$",
+   "answer": "(1-2y)(3x-5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$4m - n + 2mn - 2$",
+   "answer": "(2m-1)(n+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$12p - 5r - 4pr + 15$",
+   "answer": "(3-r)(4p+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Problem-solving",
+   "stem": "Factorise these expressions by first rearranging the terms.",
+   "type": "expression",
+   "prompt": "$14x - 5y - 7xy + 10$",
+   "answer": "(2-y)(7x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(x - b)(x + 5)$",
+   "answer": "-bx-5b+x^2+5x",
+   "form": "expanded"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(x - p)(x - q)$",
+   "answer": "pq-px-qx+x^2",
+   "form": "expanded"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(x + y)(3 - z)$",
+   "answer": "-xz+3x-yz+3y",
+   "form": "expanded"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(x - 2)(a + b)$",
+   "answer": "ax-2a+bx-2b",
+   "form": "expanded"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(2x - b)(c - b)$",
+   "answer": "b^2-bc-2bx+2cx",
+   "form": "expanded"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(3x - y)(y + z)$",
+   "answer": "3xy+3xz-y^2-yz",
+   "form": "expanded"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(2a + b)(3b + 4c)$",
+   "answer": "6ab+8ac+3b^2+4bc",
+   "form": "expanded"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(m - 3x)(2y + z)$",
+   "answer": "2my+mz-6xy-3xz",
+   "form": "expanded"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Problem-solving",
+   "stem": "Write the expanded expression that factorises to each of the following.",
+   "type": "expression",
+   "prompt": "$(3p - 2q)(s + 4t)$",
+   "answer": "3ps+12pt-2qs-8qt",
+   "form": "expanded"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
+   "type": "expression",
+   "prompt": "$x^2 + 9x + 14$",
+   "answer": "(x+2)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
+   "type": "expression",
+   "prompt": "$x^2 + 8x + 12$",
+   "answer": "(x+2)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
+   "type": "expression",
+   "prompt": "$x^2 + 11x + 30$",
+   "answer": "(x+5)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
+   "type": "expression",
+   "prompt": "$x^2 - x - 12$",
+   "answer": "(x-4)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
+   "type": "expression",
+   "prompt": "$x^2 + 3x - 10$",
+   "answer": "(x-2)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Write the middle term as two terms, for example $x^2 + 5x + 6 = x^2 + 2x + 3x + 6$, then factorise by grouping in pairs.",
+   "type": "expression",
+   "prompt": "$x^2 - 10x + 21$",
+   "answer": "(x-7)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Reasoning",
+   "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
+   "type": "expression",
+   "prompt": "What goes in the gap in Method 1?",
+   "answer": "x+5"
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Reasoning",
+   "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
+   "type": "expression",
+   "prompt": "Finish Method 1: write the factorised form.",
+   "answer": "(b-4)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Reasoning",
+   "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
+   "type": "expression",
+   "prompt": "What goes in the gap in Method 2?",
+   "answer": "b-4"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Reasoning",
+   "stem": "The expression $xb - 20 + 5b - 4x$ can be rearranged in two ways before factorising. Method 1: $xb + 5b - 4x - 20 = b(x + 5) - 4(\\underline{\\qquad})$. Method 2: $xb - 4x + 5b - 20 = x(b - 4) + 5(\\underline{\\qquad})$.",
+   "type": "expression",
+   "prompt": "Finish Method 2: write the factorised form.",
+   "answer": "(b-4)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Reasoning",
+   "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
+   "type": "expression",
+   "prompt": "$xc - 10 - 5c + 2x$",
+   "answer": "(x-5)(c+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7f",
+   "label": "7f",
+   "section": "Reasoning",
+   "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
+   "type": "expression",
+   "prompt": "$xy - 12 + 3y - 4x$",
+   "answer": "(y-4)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7g",
+   "label": "7g",
+   "section": "Reasoning",
+   "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
+   "type": "expression",
+   "prompt": "$9m^2 - 8n + 6m - 12mn$",
+   "answer": "(3m+2)(3m-4n)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7h",
+   "label": "7h",
+   "section": "Reasoning",
+   "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
+   "type": "expression",
+   "prompt": "$3m + 2n - mn - 6$",
+   "answer": "(3-n)(m-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7i",
+   "label": "7i",
+   "section": "Reasoning",
+   "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
+   "type": "expression",
+   "prompt": "$5a - 6b^2 + 2b - 15ab$",
+   "answer": "(1-3b)(5a+2b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q7j",
+   "label": "7j",
+   "section": "Reasoning",
+   "stem": "Factorise each of these by grouping in pairs. (Try arranging the four terms in two different ways: both give the same answer.)",
+   "type": "expression",
+   "prompt": "$2ab - 5c - b + 10ac$",
+   "answer": "(2a-1)(b+5c)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$3(a - 2) - x(a - 2) - c(a - 2)$",
+   "answer": "(2-a)(c+x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$b(3a + 1) + 4(3a + 1) - a(3a + 1)$",
+   "answer": "(3a+1)(b-a+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$x(a + 2) - 3(a + 2) - ba - 2b$",
+   "answer": "(a+2)(x-b-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$2(a - b) - b(a - b) - 3a^2 + 3ab$",
+   "answer": "(b-a)(3a+b-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$c(1 - a) - x + ax + 3 - 3a$",
+   "answer": "(a-1)(x-c-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$a(x - 3) + 2bx - 6b - x + 3$",
+   "answer": "(x-3)(a+2b-1)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9g",
+   "label": "9g",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$a^2 - 2ac - 3ab + 6bc + 2abc - 4bc^2$",
+   "answer": "(a-2c)(a+2bc-3b)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9h",
+   "label": "9h",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$2x - 6xy - 3z + 9yz + y - 3y^2$",
+   "answer": "(1-3y)(2x+y-3z)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9i",
+   "label": "9i",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$6z - 3y + 2x^2 + xy - 6x - 2xz$",
+   "answer": "(x-3)(2x+y-2z)",
+   "form": "factorised"
+  },
+  {
+   "id": "q9j",
+   "label": "9j",
+   "section": "Enrichment",
+   "stem": "Factorise by grouping.",
+   "type": "expression",
+   "prompt": "$-ab - 6cx + 4aby + 2abx + 3c - 12cy$",
+   "answer": "(ab-3c)(2x+4y-1)",
+   "form": "factorised"
+  }
+ ]
+},
+{
+ "id": "y9-8f",
+ "year": 9,
+ "chapter": "Chapter 8: Algebraic techniques",
+ "title": "8F Factorising monic quadratic trinomials",
+ "description": "Factorise quadratics such as x² + 5x - 14 by finding two numbers that multiply and add to the right values.",
+ "questions": [
+  {
+   "id": "q1a",
+   "label": "1a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 7x + 10$",
+   "answer": "(x+2)(x+5)",
+   "form": "factorised",
+   "hint": "Type a product of brackets, for example (x + 2)(x - 7)."
+  },
+  {
+   "id": "q1b",
+   "label": "1b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 11x + 10$",
+   "answer": "(x+1)(x+10)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1c",
+   "label": "1c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 6x + 5$",
+   "answer": "(x+1)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1d",
+   "label": "1d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 13x + 12$",
+   "answer": "(x+1)(x+12)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1e",
+   "label": "1e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 9x + 14$",
+   "answer": "(x+2)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1f",
+   "label": "1f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 9x + 18$",
+   "answer": "(x+3)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1g",
+   "label": "1g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 10x + 21$",
+   "answer": "(x+3)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1h",
+   "label": "1h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 12x + 32$",
+   "answer": "(x+4)(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q1i",
+   "label": "1i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 13x + 40$",
+   "answer": "(x+5)(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2a",
+   "label": "2a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 2x - 3$",
+   "answer": "(x-1)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2b",
+   "label": "2b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + x - 6$",
+   "answer": "(x-2)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2c",
+   "label": "2c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 6x - 7$",
+   "answer": "(x-1)(x+7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2d",
+   "label": "2d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 4x - 12$",
+   "answer": "(x-2)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2e",
+   "label": "2e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 3x - 18$",
+   "answer": "(x-3)(x+6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2f",
+   "label": "2f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 + 5x - 24$",
+   "answer": "(x-3)(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2g",
+   "label": "2g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 2x - 24$",
+   "answer": "(x-6)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2h",
+   "label": "2h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 5x - 14$",
+   "answer": "(x-7)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q2i",
+   "label": "2i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - x - 20$",
+   "answer": "(x-5)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3a",
+   "label": "3a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 8x + 7$",
+   "answer": "(x-1)(x-7)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3b",
+   "label": "3b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 6x + 9$",
+   "answer": "(x-3)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q3c",
+   "label": "3c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 7x + 6$",
+   "answer": "(x-1)(x-6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3d",
+   "label": "3d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 11x + 10$",
+   "answer": "(x-1)(x-10)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3e",
+   "label": "3e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 4x + 3$",
+   "answer": "(x-1)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3f",
+   "label": "3f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 9x + 20$",
+   "answer": "(x-5)(x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3g",
+   "label": "3g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 12x + 27$",
+   "answer": "(x-9)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3h",
+   "label": "3h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 11x + 24$",
+   "answer": "(x-8)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q3i",
+   "label": "3i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 8x + 15$",
+   "answer": "(x-5)(x-3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4a",
+   "label": "4a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 5x - 6$",
+   "answer": "(x+1)(x-6)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4b",
+   "label": "4b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 2x - 8$",
+   "answer": "(x-4)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4c",
+   "label": "4c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 3x - 10$",
+   "answer": "(x-5)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4d",
+   "label": "4d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 4x - 21$",
+   "answer": "(x-7)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4e",
+   "label": "4e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - x - 30$",
+   "answer": "(x-6)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4f",
+   "label": "4f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 3x - 28$",
+   "answer": "(x-7)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4g",
+   "label": "4g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 2x - 35$",
+   "answer": "(x-7)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4h",
+   "label": "4h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 9x - 10$",
+   "answer": "(x+1)(x-10)",
+   "form": "factorised"
+  },
+  {
+   "id": "q4i",
+   "label": "4i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions.",
+   "type": "expression",
+   "prompt": "$x^2 - 5x - 36$",
+   "answer": "(x-9)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5a",
+   "label": "5a",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$3x^2 + 15x + 12$",
+   "answer": "3(x+1)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5b",
+   "label": "5b",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$2x^2 + 18x + 16$",
+   "answer": "2(x+1)(x+8)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5c",
+   "label": "5c",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$4x^2 + 28x + 40$",
+   "answer": "4(x+2)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5d",
+   "label": "5d",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$3x^2 + 9x - 30$",
+   "answer": "3(x-2)(x+5)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5e",
+   "label": "5e",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$2x^2 - 10x - 48$",
+   "answer": "2(x-8)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5f",
+   "label": "5f",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$3x^2 - 12x + 12$",
+   "answer": "3(x-2)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q5g",
+   "label": "5g",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$5x^2 + 5x - 30$",
+   "answer": "5(x-2)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5h",
+   "label": "5h",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$4x^2 - 8x - 60$",
+   "answer": "4(x-5)(x+3)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5i",
+   "label": "5i",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$2x^2 - 18x + 28$",
+   "answer": "2(x-7)(x-2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5j",
+   "label": "5j",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$6x^2 - 30x + 24$",
+   "answer": "6(x-1)(x-4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5k",
+   "label": "5k",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$3x^2 - 3x - 60$",
+   "answer": "3(x-5)(x+4)",
+   "form": "factorised"
+  },
+  {
+   "id": "q5l",
+   "label": "5l",
+   "section": "Fluency",
+   "stem": "Factorise each of the following quadratic expressions by first taking out a common factor.",
+   "type": "expression",
+   "prompt": "$7x^2 - 7x - 42$",
+   "answer": "7(x-3)(x+2)",
+   "form": "factorised"
+  },
+  {
+   "id": "q6a",
+   "label": "6a",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 + \\square + 7$",
+   "answer": [
+    "8x"
+   ],
+   "hint": "List all the possible terms, separated by commas, for example 9x, 6x."
+  },
+  {
+   "id": "q6b",
+   "label": "6b",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 - \\square + 16$",
+   "answer": [
+    "17x",
+    "10x",
+    "8x"
+   ]
+  },
+  {
+   "id": "q6c",
+   "label": "6c",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 - \\square - 18$",
+   "answer": [
+    "17x",
+    "7x",
+    "3x"
+   ]
+  },
+  {
+   "id": "q6d",
+   "label": "6d",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 + \\square - 20$",
+   "answer": [
+    "19x",
+    "8x",
+    "x"
+   ]
+  },
+  {
+   "id": "q6e",
+   "label": "6e",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 + \\square + 12$",
+   "answer": [
+    "13x",
+    "8x",
+    "7x"
+   ]
+  },
+  {
+   "id": "q6f",
+   "label": "6f",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 - \\square + 20$",
+   "answer": [
+    "21x",
+    "12x",
+    "9x"
+   ]
+  },
+  {
+   "id": "q6g",
+   "label": "6g",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 - \\square - 15$",
+   "answer": [
+    "14x",
+    "2x"
+   ]
+  },
+  {
+   "id": "q6h",
+   "label": "6h",
+   "section": "Problem-solving",
+   "stem": "Find every possible missing term so that the trinomial factorises as $(x + a)(x + b)$ with $a$ and $b$ integers. The box stands for a term like $7x$, where the number in front is a positive whole number.",
+   "type": "list",
+   "prompt": "$x^2 + \\square - 36$",
+   "answer": [
+    "35x",
+    "16x",
+    "9x",
+    "5x"
+   ]
+  },
+  {
+   "id": "q7a",
+   "label": "7a",
+   "section": "Problem-solving",
+   "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
+   "type": "expression",
+   "prompt": "Write an expression for the total area of the backyard.",
+   "answer": "x(x+4)",
+   "units": "m²",
+   "stemFigure": {
+    "kind": "diagram",
+    "unit": 36,
+    "items": [
+     {
+      "poly": [
+       [
+        0,
+        0
+       ],
+       [
+        7,
+        0
+       ],
+       [
+        7,
+        4
+       ],
+       [
+        0,
+        4
+       ]
+      ],
+      "fill": true
+     },
+     {
+      "poly": [
+       [
+        0.8,
+        1.1
+       ],
+       [
+        2.4000000000000004,
+        1.1
+       ],
+       [
+        2.4000000000000004,
+        2.7
+       ],
+       [
+        0.8,
+        2.7
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        2.7,
+        1.1
+       ],
+       [
+        4.300000000000001,
+        1.1
+       ],
+       [
+        4.300000000000001,
+        2.7
+       ],
+       [
+        2.7,
+        2.7
+       ]
+      ]
+     },
+     {
+      "poly": [
+       [
+        4.6,
+        1.1
+       ],
+       [
+        6.199999999999999,
+        1.1
+       ],
+       [
+        6.199999999999999,
+        2.7
+       ],
+       [
+        4.6,
+        2.7
+       ]
+      ]
+     },
+     {
+      "label": "(x + 4) m",
+      "at": [
+       3.5,
+       4.4
+      ]
+     },
+     {
+      "label": "x m",
+      "at": [
+       7.55,
+       2
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "q7b",
+   "label": "7b",
+   "section": "Problem-solving",
+   "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
+   "type": "expression",
+   "prompt": "Write an expression, in expanded form, for the area of lawn.",
+   "answer": "x^2+4x-12",
+   "form": "expanded",
+   "units": "m²"
+  },
+  {
+   "id": "q7c",
+   "label": "7c",
+   "section": "Problem-solving",
+   "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
+   "type": "expression",
+   "prompt": "Write an expression, in factorised form, for the area of lawn.",
+   "answer": "(x-2)(x+6)",
+   "form": "factorised",
+   "units": "m²"
+  },
+  {
+   "id": "q7d",
+   "label": "7d",
+   "section": "Problem-solving",
+   "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
+   "type": "numeric",
+   "prompt": "Find the area of lawn if $x = 10$.",
+   "answer": "128",
+   "units": "m²"
+  },
+  {
+   "id": "q7e",
+   "label": "7e",
+   "section": "Problem-solving",
+   "stem": "A rectangular backyard is $x$ metres wide and its length is $4$ metres more than its width. Inside it are three paved squares, each with area $4$ m². The rest of the backyard is lawn.",
+   "type": "numeric",
+   "prompt": "Find the area of lawn if $x = 6$.",
+   "answer": "48",
+   "units": "m²"
+  },
+  {
+   "id": "q8a",
+   "label": "8a",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$x^2 + 6x + 9$",
+   "answer": "(x+3)^2",
+   "form": "factorised",
+   "hint": "Type a square of a bracket like (x + 5)^2."
+  },
+  {
+   "id": "q8b",
+   "label": "8b",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$x^2 + 12x + 36$",
+   "answer": "(x+6)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8c",
+   "label": "8c",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$x^2 + 20x + 100$",
+   "answer": "(x+10)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8d",
+   "label": "8d",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$x^2 - 4x + 4$",
+   "answer": "(x-2)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8e",
+   "label": "8e",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$x^2 - 16x + 64$",
+   "answer": "(x-8)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8f",
+   "label": "8f",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$x^2 - 24x + 144$",
+   "answer": "(x-12)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8g",
+   "label": "8g",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$3x^2 + 6x + 3$",
+   "answer": "3(x+1)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8h",
+   "label": "8h",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$2x^2 - 20x + 50$",
+   "answer": "2(x-5)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q8i",
+   "label": "8i",
+   "section": "Reasoning",
+   "stem": "These are perfect squares, such as $x^2 - 8x + 16 = (x - 4)^2$. Factorise them. A common factor may also be involved.",
+   "type": "expression",
+   "prompt": "$-2x^2 + 24x - 72$",
+   "answer": "-2(x-6)^2",
+   "form": "factorised"
+  },
+  {
+   "id": "q9a",
+   "label": "9a",
+   "section": "Reasoning",
+   "stem": "Decide whether each quadratic can be factorised using integers.",
+   "type": "choice",
+   "prompt": "$x^2 - x - 42$",
+   "answer": 0,
+   "options": [
+    "Can be factorised",
+    "Cannot be factorised"
+   ]
+  },
+  {
+   "id": "q9b",
+   "label": "9b",
+   "section": "Reasoning",
+   "stem": "Decide whether each quadratic can be factorised using integers.",
+   "type": "choice",
+   "prompt": "$x^2 + 3x - 5$",
+   "answer": 1,
+   "options": [
+    "Can be factorised",
+    "Cannot be factorised"
+   ]
+  },
+  {
+   "id": "q9c",
+   "label": "9c",
+   "section": "Reasoning",
+   "stem": "Decide whether each quadratic can be factorised using integers.",
+   "type": "choice",
+   "prompt": "$x^2 + 5x - 6$",
+   "answer": 0,
+   "options": [
+    "Can be factorised",
+    "Cannot be factorised"
+   ]
+  },
+  {
+   "id": "q9d",
+   "label": "9d",
+   "section": "Reasoning",
+   "stem": "Decide whether each quadratic can be factorised using integers.",
+   "type": "choice",
+   "prompt": "$x^2 + 4x - 96$",
+   "answer": 0,
+   "options": [
+    "Can be factorised",
+    "Cannot be factorised"
+   ]
+  },
+  {
+   "id": "q9e",
+   "label": "9e",
+   "section": "Reasoning",
+   "stem": "Decide whether each quadratic can be factorised using integers.",
+   "type": "choice",
+   "prompt": "$x^2 + 2x - 1$",
+   "answer": 1,
+   "options": [
+    "Can be factorised",
+    "Cannot be factorised"
+   ]
+  },
+  {
+   "id": "q9f",
+   "label": "9f",
+   "section": "Reasoning",
+   "stem": "Decide whether each quadratic can be factorised using integers.",
+   "type": "choice",
+   "prompt": "$x^2 + 10x - 47$",
+   "answer": 1,
+   "options": [
+    "Can be factorised",
+    "Cannot be factorised"
+   ]
+  },
+  {
+   "id": "q10a",
+   "label": "10a",
+   "section": "Enrichment",
+   "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
+   "type": "ordered",
+   "prompt": "$x^2 - 4x - 5$",
+   "answer": [
+    "-2",
+    "-9"
+   ],
+   "hint": "For example, for (x - 3)^2 - 17 type -3, -17"
+  },
+  {
+   "id": "q10b",
+   "label": "10b",
+   "section": "Enrichment",
+   "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
+   "type": "ordered",
+   "prompt": "$x^2 + 6x - 2$",
+   "answer": [
+    "3",
+    "-11"
+   ]
+  },
+  {
+   "id": "q10c",
+   "label": "10c",
+   "section": "Enrichment",
+   "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
+   "type": "ordered",
+   "prompt": "$x^2 + 8x + 5$",
+   "answer": [
+    "4",
+    "-11"
+   ]
+  },
+  {
+   "id": "q10d",
+   "label": "10d",
+   "section": "Enrichment",
+   "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
+   "type": "ordered",
+   "prompt": "$x^2 - 10x - 3$",
+   "answer": [
+    "-5",
+    "-28"
+   ]
+  },
+  {
+   "id": "q10e",
+   "label": "10e",
+   "section": "Enrichment",
+   "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
+   "type": "ordered",
+   "prompt": "$x^2 + 14x + 9$",
+   "answer": [
+    "7",
+    "-40"
+   ]
+  },
+  {
+   "id": "q10f",
+   "label": "10f",
+   "section": "Enrichment",
+   "stem": "Completing the square writes a quadratic in the form $(x + b)^2 + c$. For example, $x^2 - 6x - 8 = x^2 - 6x + 9 - 9 - 8 = (x - 3)^2 - 17$, so $b = -3$ and $c = -17$. Write each quadratic in the form $(x + b)^2 + c$, and give $b$ and $c$ in that order, separated by a comma.",
+   "type": "ordered",
+   "prompt": "$x^2 - 20x - 7$",
+   "answer": [
+    "-10",
+    "-107"
+   ]
   }
  ]
 }
