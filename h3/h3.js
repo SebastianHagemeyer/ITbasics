@@ -30,18 +30,23 @@
   // help panels for a year is one more entry in its list.
   const YEAR_FILES = {
     7: [],
-    // 8: ['/h3/bank-y8.js', '/h3/helps-y8-ch1.js', '/h3/helps-y8-ch3.js', '/h3/helps-y8-ch5.js', '/h3/helps-y8-ch6.js', '/h3/helps-y8-ch7.js', '/h3/helps-y8-ch8.js', '/h3/helps-y8-ch9.js', '/h3/helps-y8-ch10.js', '/h3/helps-y8-ch4.js'],   // switched on once the first Year 8 chapter is in bank-y8.js
+    8: ['/h3/bank-y8.js', '/h3/helps-y8-ch1.js', '/h3/helps-y8-ch2.js', '/h3/helps-y8-ch3.js', '/h3/helps-y8-ch4.js',
+        '/h3/helps-y8-ch5.js', '/h3/helps-y8-ch6.js', '/h3/helps-y8-ch7.js', '/h3/helps-y8-ch8.js', '/h3/helps-y8-ch9.js',
+        '/h3/helps-y8-ch10.js'],
   };
   const YEARS = Object.keys(YEAR_FILES).map(Number);
   const yearLoaded = { 7: true }, yearLoading = {};
   function loadYear(y) {
     if (yearLoaded[y] || !YEAR_FILES[y]) return Promise.resolve();
     if (!yearLoading[y]) {
-      yearLoading[y] = YEAR_FILES[y].reduce((p, src) => p.then(() => new Promise(done => {
+      // All of a year's files download at once; async = false still runs them in list
+      // order, so the bank is in before its panels whatever order they arrive in.
+      yearLoading[y] = Promise.all(YEAR_FILES[y].map(src => new Promise(done => {
         const s = document.createElement('script');
-        s.src = src; s.onload = done; s.onerror = done;   // a missing file just means no sets yet
+        s.src = src; s.async = false;
+        s.onload = done; s.onerror = done;   // a missing file just means no sets yet
         document.head.appendChild(s);
-      })), Promise.resolve()).then(() => { yearLoaded[y] = true; reindex(); });
+      }))).then(() => { yearLoaded[y] = true; reindex(); });
     }
     return yearLoading[y];
   }

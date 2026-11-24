@@ -27992,6 +27992,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-2a-facts",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each diagram.",
@@ -28093,6 +28094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-2a-facts",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each diagram.",
@@ -28194,6 +28196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-2a-facts",
    "label": "1c",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each diagram.",
@@ -28295,6 +28298,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2a-facts",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -28419,6 +28423,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2a-facts",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -28527,6 +28532,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2a-facts",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -28648,6 +28654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-2a-facts",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -28769,6 +28776,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-2a-facts",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -28897,6 +28905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-2a-facts",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29005,6 +29014,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-2a-facts",
    "label": "2g",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29115,6 +29125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-2a-facts",
    "label": "2h",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29253,6 +29264,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2i",
+   "help": "y8-2a-facts",
    "label": "2i",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29353,6 +29365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2j",
+   "help": "y8-2a-facts",
    "label": "2j",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29491,6 +29504,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2k",
+   "help": "y8-2a-facts",
    "label": "2k",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29608,6 +29622,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2l",
+   "help": "y8-2a-facts",
    "label": "2l",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -29766,6 +29781,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-2a-naming",
    "label": "3a",
    "section": "Fluency",
    "stem": "For the angles in this diagram, name an angle that is:",
@@ -29904,6 +29920,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-2a-naming",
    "label": "3b",
    "section": "Fluency",
    "stem": "For the angles in this diagram, name an angle that is:",
@@ -29934,6 +29951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-2a-naming",
    "label": "3c",
    "section": "Fluency",
    "stem": "For the angles in this diagram, name an angle that is:",
@@ -29954,6 +29972,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-2a-naming",
    "label": "3d",
    "section": "Fluency",
    "stem": "For the angles in this diagram, name an angle that is:",
@@ -29974,6 +29993,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2a-compass",
    "label": "4a",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -29984,6 +30004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2a-compass",
    "label": "4b",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -29997,6 +30018,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2a-compass",
    "label": "4c",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -30007,6 +30029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-2a-compass",
    "label": "4d",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -30017,6 +30040,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-2a-compass",
    "label": "4e",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -30027,6 +30051,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-2a-compass",
    "label": "4f",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -30037,6 +30062,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4g",
+   "help": "y8-2a-compass",
    "label": "4g",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -30047,6 +30073,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4h",
+   "help": "y8-2a-compass",
    "label": "4h",
    "section": "Fluency",
    "stem": "Give the compass bearing, in degrees, for each direction.",
@@ -30057,6 +30084,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2a-compass",
    "label": "5a",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30069,6 +30097,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2a-compass",
    "label": "5b",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30083,6 +30112,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2a-compass",
    "label": "5c",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30095,6 +30125,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-2a-compass",
    "label": "5d",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30109,6 +30140,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-2a-compass",
    "label": "5e",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30121,6 +30153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-2a-compass",
    "label": "5f",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30135,6 +30168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5g",
+   "help": "y8-2a-compass",
    "label": "5g",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30147,6 +30181,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5h",
+   "help": "y8-2a-compass",
    "label": "5h",
    "section": "Fluency",
    "stem": "Which direction (for example north-east or NE) are you walking in if you head on each compass bearing?",
@@ -30161,6 +30196,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2a-share",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "A round pavlova is cut into sectors for 6 friends (including Priya) at Priya's party, and none is left over. What is the angle at the centre for Priya's piece if:",
@@ -30171,6 +30207,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2a-share",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "A round pavlova is cut into sectors for 6 friends (including Priya) at Priya's party, and none is left over. What is the angle at the centre for Priya's piece if:",
@@ -30181,6 +30218,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2a-share",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "A round pavlova is cut into sectors for 6 friends (including Priya) at Priya's party, and none is left over. What is the angle at the centre for Priya's piece if:",
@@ -30191,6 +30229,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-2a-share",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "A round pavlova is cut into sectors for 6 friends (including Priya) at Priya's party, and none is left over. What is the angle at the centre for Priya's piece if:",
@@ -30201,6 +30240,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2a-algebra",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in each diagram.",
@@ -30346,6 +30386,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2a-algebra",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in each diagram.",
@@ -30456,6 +30497,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-2a-algebra",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in each diagram.",
@@ -30573,6 +30615,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-2a-algebra",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in each diagram.",
@@ -30674,6 +30717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-2a-algebra",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in each diagram.",
@@ -30765,6 +30809,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-2a-algebra",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in each diagram.",
@@ -30873,6 +30918,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2a-clock",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30883,6 +30929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2a-clock",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30893,6 +30940,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2a-clock",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30903,6 +30951,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-2a-clock",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30913,6 +30962,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-2a-clock",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30923,6 +30973,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-2a-clock",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30933,6 +30984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8g",
+   "help": "y8-2a-clock",
    "label": "8g",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30943,6 +30995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8h",
+   "help": "y8-2a-clock",
    "label": "8h",
    "section": "Problem-solving",
    "stem": "What is the smaller angle between the hour hand and the minute hand of a clock at each of these times?",
@@ -30953,6 +31006,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-2a-facts",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Each diagram has a mistake in it. What is wrong?",
@@ -31049,6 +31103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-2a-facts",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Each diagram has a mistake in it. What is wrong?",
@@ -31127,6 +31182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-2a-facts",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Each diagram has a mistake in it. What is wrong?",
@@ -31240,6 +31296,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-2a-equation",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Write an equation (for example $3a + b = 360$) for each diagram.",
@@ -31332,6 +31389,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-2a-equation",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Write an equation (for example $3a + b = 360$) for each diagram.",
@@ -31431,6 +31489,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-2a-equation",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Write an equation (for example $3a + b = 360$) for each diagram.",
@@ -31539,6 +31598,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-2a-algebra",
    "label": "11a",
    "section": "Reasoning",
    "stem": "Use this diagram for both parts.",
@@ -31630,6 +31690,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-2a-algebra",
    "label": "11b",
    "section": "Reasoning",
    "stem": "Use this diagram for both parts.",
@@ -31640,6 +31701,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-2a-algebra",
    "label": "12a",
    "section": "Enrichment",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -31758,6 +31820,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-2a-algebra",
    "label": "12b",
    "section": "Enrichment",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -31858,6 +31921,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-2a-algebra",
    "label": "12c",
    "section": "Enrichment",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -31957,6 +32021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-2a-algebra",
    "label": "12d",
    "section": "Enrichment",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -32065,6 +32130,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12e",
+   "help": "y8-2a-algebra",
    "label": "12e",
    "section": "Enrichment",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -32229,6 +32295,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12f",
+   "help": "y8-2a-algebra",
    "label": "12f",
    "section": "Enrichment",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -32337,6 +32404,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-2b-name",
    "label": "1a",
    "section": "Fluency",
    "stem": "Decide whether the marked angles are corresponding, alternate or co-interior, and so whether they are equal or supplementary.",
@@ -32451,6 +32519,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-2b-name",
    "label": "1b",
    "section": "Fluency",
    "stem": "Decide whether the marked angles are corresponding, alternate or co-interior, and so whether they are equal or supplementary.",
@@ -32565,6 +32634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-2b-name",
    "label": "1c",
    "section": "Fluency",
    "stem": "Decide whether the marked angles are corresponding, alternate or co-interior, and so whether they are equal or supplementary.",
@@ -32679,6 +32749,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-2b-name",
    "label": "1d",
    "section": "Fluency",
    "stem": "Decide whether the marked angles are corresponding, alternate or co-interior, and so whether they are equal or supplementary.",
@@ -32793,6 +32864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1e",
+   "help": "y8-2b-name",
    "label": "1e",
    "section": "Fluency",
    "stem": "Decide whether the marked angles are corresponding, alternate or co-interior, and so whether they are equal or supplementary.",
@@ -32907,6 +32979,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1f",
+   "help": "y8-2b-name",
    "label": "1f",
    "section": "Fluency",
    "stem": "Decide whether the marked angles are corresponding, alternate or co-interior, and so whether they are equal or supplementary.",
@@ -33021,6 +33094,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2b-find",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33153,6 +33227,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2b-find",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33304,6 +33379,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2b-find",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33455,6 +33531,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-2b-find",
    "label": "2d",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33586,6 +33663,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-2b-find",
    "label": "2e",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33717,6 +33795,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-2b-find",
    "label": "2f",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33848,6 +33927,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-2b-find",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -33994,6 +34074,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-2b-find",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -34139,6 +34220,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-2b-find",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -34284,6 +34366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-2b-find",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -34434,6 +34517,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-2b-find",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -34584,6 +34668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-2b-find",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these diagrams.",
@@ -34742,6 +34827,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2b-name",
    "label": "4a",
    "section": "Fluency",
    "stem": "Are the marked angles corresponding, alternate or co-interior? There are no arrows, so the lines might not be parallel.",
@@ -34838,6 +34924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2b-name",
    "label": "4b",
    "section": "Fluency",
    "stem": "Are the marked angles corresponding, alternate or co-interior? There are no arrows, so the lines might not be parallel.",
@@ -34934,6 +35021,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2b-name",
    "label": "4c",
    "section": "Fluency",
    "stem": "Are the marked angles corresponding, alternate or co-interior? There are no arrows, so the lines might not be parallel.",
@@ -35030,6 +35118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-2b-name",
    "label": "4d",
    "section": "Fluency",
    "stem": "Are the marked angles corresponding, alternate or co-interior? There are no arrows, so the lines might not be parallel.",
@@ -35126,6 +35215,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4e",
+   "help": "y8-2b-name",
    "label": "4e",
    "section": "Fluency",
    "stem": "Are the marked angles corresponding, alternate or co-interior? There are no arrows, so the lines might not be parallel.",
@@ -35222,6 +35312,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4f",
+   "help": "y8-2b-name",
    "label": "4f",
    "section": "Fluency",
    "stem": "Are the marked angles corresponding, alternate or co-interior? There are no arrows, so the lines might not be parallel.",
@@ -35318,6 +35409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2b-parallel",
    "label": "5a",
    "section": "Fluency",
    "stem": "Decide whether each diagram includes a pair of parallel lines.",
@@ -35413,6 +35505,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2b-parallel",
    "label": "5b",
    "section": "Fluency",
    "stem": "Decide whether each diagram includes a pair of parallel lines.",
@@ -35508,6 +35601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2b-parallel",
    "label": "5c",
    "section": "Fluency",
    "stem": "Decide whether each diagram includes a pair of parallel lines.",
@@ -35603,6 +35697,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2b-multi",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -35712,6 +35807,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2b-multi",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -35821,6 +35917,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2b-multi",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -35949,6 +36046,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-2b-multi",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -36085,6 +36183,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-2b-multi",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -36221,6 +36320,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-2b-multi",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -36347,6 +36447,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6g",
+   "help": "y8-2b-multi",
    "label": "6g",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -36470,6 +36571,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6h",
+   "help": "y8-2b-multi",
    "label": "6h",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -36606,6 +36708,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6i",
+   "help": "y8-2b-multi",
    "label": "6i",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -36734,6 +36837,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2b-bend",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Draw a line through $O$ parallel to the other two (in your head or on paper), then find $\\angle AOB$.",
@@ -36876,6 +36980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2b-bend",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Draw a line through $O$ parallel to the other two (in your head or on paper), then find $\\angle AOB$.",
@@ -37018,6 +37123,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-2b-bend",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Draw a line through $O$ parallel to the other two (in your head or on paper), then find $\\angle AOB$.",
@@ -37160,6 +37266,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-2b-bend",
    "label": "7d",
    "section": "Reasoning",
    "stem": "Draw a line through $O$ parallel to the other two (in your head or on paper), then find $\\angle AOB$.",
@@ -37302,6 +37409,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-2b-bend",
    "label": "7e",
    "section": "Reasoning",
    "stem": "Draw a line through $O$ parallel to the other two (in your head or on paper), then find $\\angle AOB$.",
@@ -37468,6 +37576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-2b-bend",
    "label": "7f",
    "section": "Reasoning",
    "stem": "Draw a line through $O$ parallel to the other two (in your head or on paper), then find $\\angle AOB$.",
@@ -37627,6 +37736,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2b-rule",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Write a rule for $\\angle AOB$ using the given pronumerals (for example $\\angle AOB = 90 - a$).",
@@ -37742,6 +37852,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2b-rule",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Write a rule for $\\angle AOB$ using the given pronumerals (for example $\\angle AOB = 90 - a$).",
@@ -37856,6 +37967,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2b-rule",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Write a rule for $\\angle AOB$ using the given pronumerals (for example $\\angle AOB = 90 - a$).",
@@ -37997,6 +38109,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-2b-multi",
    "label": "9a",
    "section": "Enrichment",
    "stem": "Part of a plan for a water treatment plant is shown. The three long pipes are parallel. Find each pronumeral.",
@@ -38224,6 +38337,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-2b-multi",
    "label": "9b",
    "section": "Enrichment",
    "stem": "Part of a plan for a water treatment plant is shown. The three long pipes are parallel. Find each pronumeral.",
@@ -38233,6 +38347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-2b-multi",
    "label": "9c",
    "section": "Enrichment",
    "stem": "Part of a plan for a water treatment plant is shown. The three long pipes are parallel. Find each pronumeral.",
@@ -38242,6 +38357,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-2b-multi",
    "label": "9d",
    "section": "Enrichment",
    "stem": "Part of a plan for a water treatment plant is shown. The three long pipes are parallel. Find each pronumeral.",
@@ -38260,6 +38376,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-2c-sum",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these triangles.",
@@ -38362,6 +38479,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-2c-sum",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these triangles.",
@@ -38464,6 +38582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2c-sum",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the angle sum of a triangle to find the value of $a$.",
@@ -38566,6 +38685,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2c-sum",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the angle sum of a triangle to find the value of $a$.",
@@ -38668,6 +38788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2c-sum",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use the angle sum of a triangle to find the value of $a$.",
@@ -38760,6 +38881,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-2c-sum",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use the angle sum of a triangle to find the value of $a$.",
@@ -38852,6 +38974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-2c-sum",
    "label": "2e",
    "section": "Fluency",
    "stem": "Use the angle sum of a triangle to find the value of $a$.",
@@ -38954,6 +39077,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-2c-sum",
    "label": "2f",
    "section": "Fluency",
    "stem": "Use the angle sum of a triangle to find the value of $a$.",
@@ -39056,6 +39180,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-2c-iso",
    "label": "3a",
    "section": "Fluency",
    "stem": "These triangles are isosceles. Find the value of $a$.",
@@ -39148,6 +39273,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-2c-iso",
    "label": "3b",
    "section": "Fluency",
    "stem": "These triangles are isosceles. Find the value of $a$.",
@@ -39249,6 +39375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-2c-iso",
    "label": "3c",
    "section": "Fluency",
    "stem": "These triangles are isosceles. Find the value of $a$.",
@@ -39350,6 +39477,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2c-iso",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these isosceles triangles.",
@@ -39451,6 +39579,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2c-iso",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these isosceles triangles.",
@@ -39552,6 +39681,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2c-iso",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these isosceles triangles.",
@@ -39653,6 +39783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2c-exterior",
    "label": "5a",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -39753,6 +39884,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2c-exterior",
    "label": "5b",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -39863,6 +39995,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2c-exterior",
    "label": "5c",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -39973,6 +40106,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-2c-exterior",
    "label": "5d",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -40083,6 +40217,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-2c-exterior",
    "label": "5e",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -40192,6 +40327,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-2c-exterior",
    "label": "5f",
    "section": "Fluency",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -40302,6 +40438,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2c-possible",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Decide whether it is possible to draw a triangle that is:",
@@ -40315,6 +40452,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2c-possible",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Decide whether it is possible to draw a triangle that is:",
@@ -40328,6 +40466,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2c-possible",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Decide whether it is possible to draw a triangle that is:",
@@ -40341,6 +40480,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-2c-possible",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Decide whether it is possible to draw a triangle that is:",
@@ -40354,6 +40494,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-2c-possible",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Decide whether it is possible to draw a triangle that is:",
@@ -40367,6 +40508,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-2c-possible",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Decide whether it is possible to draw a triangle that is:",
@@ -40380,6 +40522,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2c-mixed",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "Use parallel lines and the angle sum of a triangle to find $a$.",
@@ -40516,6 +40659,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2c-mixed",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "Use parallel lines and the angle sum of a triangle to find $a$.",
@@ -40644,6 +40788,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-2c-mixed",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "Use parallel lines and the angle sum of a triangle to find $a$.",
@@ -40780,6 +40925,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2c-mixed",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -40879,6 +41025,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2c-mixed",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -40981,6 +41128,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2c-mixed",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -41099,6 +41247,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-2c-mixed",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -41217,6 +41366,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-2c-mixed",
    "label": "8e",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -41334,6 +41484,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-2c-mixed",
    "label": "8f",
    "section": "Problem-solving",
    "stem": "Find the value of $a$ in these diagrams.",
@@ -41434,6 +41585,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-2c-radii",
    "label": "9a",
    "section": "Reasoning",
    "stem": "A triangle is drawn inside a circle using two radii $OA$ and $OB$ and the chord $AB$.",
@@ -41516,6 +41668,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-2c-radii",
    "label": "9b",
    "section": "Reasoning",
    "stem": "A triangle is drawn inside a circle using two radii $OA$ and $OB$ and the chord $AB$.",
@@ -41530,6 +41683,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-2c-radii",
    "label": "9c",
    "section": "Reasoning",
    "stem": "A triangle is drawn inside a circle using two radii $OA$ and $OB$ and the chord $AB$.",
@@ -41540,6 +41694,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-2c-radii",
    "label": "9d",
    "section": "Reasoning",
    "stem": "A triangle is drawn inside a circle using two radii $OA$ and $OB$ and the chord $AB$.",
@@ -41550,6 +41705,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-2c-radii",
    "label": "9e",
    "section": "Reasoning",
    "stem": "A triangle is drawn inside a circle using two radii $OA$ and $OB$ and the chord $AB$.",
@@ -41560,6 +41716,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-2c-proof",
    "label": "10a",
    "section": "Reasoning",
    "stem": "To show that the angle sum of a triangle is $180^\\circ$, use this diagram. The line $DE$ passes through $B$ and is parallel to $AC$.",
@@ -41733,6 +41890,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-2c-proof",
    "label": "10b",
    "section": "Reasoning",
    "stem": "To show that the angle sum of a triangle is $180^\\circ$, use this diagram. The line $DE$ passes through $B$ and is parallel to $AC$.",
@@ -41747,6 +41905,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-2c-proof",
    "label": "10c",
    "section": "Reasoning",
    "stem": "To show that the angle sum of a triangle is $180^\\circ$, use this diagram. The line $DE$ passes through $B$ and is parallel to $AC$.",
@@ -41757,6 +41916,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-2c-proof",
    "label": "10d",
    "section": "Reasoning",
    "stem": "To show that the angle sum of a triangle is $180^\\circ$, use this diagram. The line $DE$ passes through $B$ and is parallel to $AC$.",
@@ -41766,6 +41926,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-2c-proof",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Here is a different way to prove the angle sum. In this diagram $CD$ is parallel to $AB$.",
@@ -41931,6 +42092,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-2c-proof",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Here is a different way to prove the angle sum. In this diagram $CD$ is parallel to $AB$.",
@@ -41941,6 +42103,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13c",
+   "help": "y8-2c-proof",
    "label": "13c",
    "section": "Reasoning",
    "stem": "Here is a different way to prove the angle sum. In this diagram $CD$ is parallel to $AB$.",
@@ -41950,6 +42113,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-2c-diameter",
    "label": "14a",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42105,6 +42269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-2c-diameter",
    "label": "14b",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42114,6 +42279,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-2c-diameter",
    "label": "14c",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42268,6 +42434,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14d",
+   "help": "y8-2c-diameter",
    "label": "14d",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42422,6 +42589,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14e",
+   "help": "y8-2c-diameter",
    "label": "14e",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42431,6 +42599,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14f",
+   "help": "y8-2c-diameter",
    "label": "14f",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42582,6 +42751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14g",
+   "help": "y8-2c-diameter",
    "label": "14g",
    "section": "Enrichment",
    "stem": "The long straight line is a diameter of the circle and the dot is its centre. Use isosceles triangles to find the angles.",
@@ -42741,6 +42911,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-2d-sum",
    "label": "1a",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -42866,6 +43037,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-2d-sum",
    "label": "1b",
    "section": "Fluency",
    "stem": "Find the value of the pronumeral in each quadrilateral.",
@@ -42981,6 +43153,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2d-sum",
    "label": "2a",
    "section": "Fluency",
    "stem": "Use the angle sum of a quadrilateral to find the value of $a$.",
@@ -43096,6 +43269,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2d-sum",
    "label": "2b",
    "section": "Fluency",
    "stem": "Use the angle sum of a quadrilateral to find the value of $a$.",
@@ -43221,6 +43395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2d-sum",
    "label": "2c",
    "section": "Fluency",
    "stem": "Use the angle sum of a quadrilateral to find the value of $a$.",
@@ -43336,6 +43511,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-2d-sum",
    "label": "2d",
    "section": "Fluency",
    "stem": "Use the angle sum of a quadrilateral to find the value of $a$.",
@@ -43461,6 +43637,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-2d-sum",
    "label": "2e",
    "section": "Fluency",
    "stem": "Use the angle sum of a quadrilateral to find the value of $a$.",
@@ -43586,6 +43763,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-2d-sum",
    "label": "2f",
    "section": "Fluency",
    "stem": "Use the angle sum of a quadrilateral to find the value of $a$.",
@@ -43711,6 +43889,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-2d-special",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these quadrilaterals.",
@@ -43857,6 +44036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-2d-special",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these quadrilaterals.",
@@ -44002,6 +44182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-2d-special",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the value of each pronumeral in these quadrilaterals.",
@@ -44107,6 +44288,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2d-special",
    "label": "4a",
    "section": "Fluency",
    "stem": "Use the properties of each special quadrilateral to find the values of the pronumerals.",
@@ -44269,6 +44451,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2d-special",
    "label": "4b",
    "section": "Fluency",
    "stem": "Use the properties of each special quadrilateral to find the values of the pronumerals.",
@@ -44444,6 +44627,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2d-special",
    "label": "4c",
    "section": "Fluency",
    "stem": "Use the properties of each special quadrilateral to find the values of the pronumerals.",
@@ -44602,6 +44786,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2d-mixed",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Use what you know about angles, parallel lines and shapes to find the value of $a$.",
@@ -44727,6 +44912,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2d-mixed",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Use what you know about angles, parallel lines and shapes to find the value of $a$.",
@@ -44850,6 +45036,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2d-mixed",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Use what you know about angles, parallel lines and shapes to find the value of $a$.",
@@ -44975,6 +45162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-2d-mixed",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Use what you know about angles, parallel lines and shapes to find the value of $a$.",
@@ -45114,6 +45302,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5e",
+   "help": "y8-2d-mixed",
    "label": "5e",
    "section": "Problem-solving",
    "stem": "Use what you know about angles, parallel lines and shapes to find the value of $a$.",
@@ -45255,6 +45444,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5f",
+   "help": "y8-2d-mixed",
    "label": "5f",
    "section": "Problem-solving",
    "stem": "Use what you know about angles, parallel lines and shapes to find the value of $a$.",
@@ -45417,6 +45607,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2d-algebra",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Some of the angles are multiples of $x^\\circ$. Find the value of $x$ in each case.",
@@ -45540,6 +45731,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2d-algebra",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Some of the angles are multiples of $x^\\circ$. Find the value of $x$ in each case.",
@@ -45665,6 +45857,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2d-algebra",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Some of the angles are multiples of $x^\\circ$. Find the value of $x$ in each case.",
@@ -45790,6 +45983,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2d-props",
    "label": "7a",
    "section": "Reasoning",
    "stem": "To bisect means to cut in half.",
@@ -45805,6 +45999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2d-props",
    "label": "7b",
    "section": "Reasoning",
    "stem": "To bisect means to cut in half.",
@@ -45820,6 +46015,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2d-props",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Using the properties of the special quadrilaterals, decide whether each statement is always true.",
@@ -45833,6 +46029,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2d-props",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Using the properties of the special quadrilaterals, decide whether each statement is always true.",
@@ -45846,6 +46043,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2d-props",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Using the properties of the special quadrilaterals, decide whether each statement is always true.",
@@ -45859,6 +46057,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-2d-props",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Using the properties of the special quadrilaterals, decide whether each statement is always true.",
@@ -45872,6 +46071,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8e",
+   "help": "y8-2d-props",
    "label": "8e",
    "section": "Reasoning",
    "stem": "Using the properties of the special quadrilaterals, decide whether each statement is always true.",
@@ -45885,6 +46085,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8f",
+   "help": "y8-2d-props",
    "label": "8f",
    "section": "Reasoning",
    "stem": "Using the properties of the special quadrilaterals, decide whether each statement is always true.",
@@ -45898,6 +46099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9",
+   "help": "y8-2d-props",
    "label": "9",
    "section": "Reasoning",
    "prompt": "Is it possible to draw a non-convex quadrilateral with two or more reflex interior angles? (Hint: two reflex angles already add to more than $360^\\circ$.)",
@@ -45910,6 +46112,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-2d-proof",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Complete these steps to prove two angle facts about quadrilaterals.",
@@ -46082,6 +46285,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-2d-proof",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Complete these steps to prove two angle facts about quadrilaterals.",
@@ -46239,6 +46443,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1",
+   "help": "y8-2e-sum",
    "label": "1",
    "section": "Fluency",
    "type": "numeric",
@@ -46248,6 +46453,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2e-sum",
    "label": "2a",
    "section": "Fluency",
    "stem": "Find the angle sum of each polygon.",
@@ -46258,6 +46464,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2e-sum",
    "label": "2b",
    "section": "Fluency",
    "stem": "Find the angle sum of each polygon.",
@@ -46268,6 +46475,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2e-sum",
    "label": "2c",
    "section": "Fluency",
    "stem": "Find the angle sum of each polygon.",
@@ -46278,6 +46486,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-2e-find",
    "label": "3a",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each polygon.",
@@ -46367,6 +46576,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-2e-find",
    "label": "3b",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each polygon.",
@@ -46470,6 +46680,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-2e-find",
    "label": "3c",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each polygon.",
@@ -46572,6 +46783,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-2e-find",
    "label": "3d",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each polygon.",
@@ -46661,6 +46873,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-2e-find",
    "label": "3e",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each polygon.",
@@ -46761,6 +46974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-2e-find",
    "label": "3f",
    "section": "Fluency",
    "stem": "Find the value of $a$ in each polygon.",
@@ -46893,6 +47107,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2e-regular",
    "label": "4a",
    "section": "Fluency",
    "stem": "Find the size of an interior angle of each regular polygon. Round to one decimal place where necessary.",
@@ -46903,6 +47118,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2e-regular",
    "label": "4b",
    "section": "Fluency",
    "stem": "Find the size of an interior angle of each regular polygon. Round to one decimal place where necessary.",
@@ -46913,6 +47129,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2e-regular",
    "label": "4c",
    "section": "Fluency",
    "stem": "Find the size of an interior angle of each regular polygon. Round to one decimal place where necessary.",
@@ -46924,6 +47141,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-2e-regular",
    "label": "4d",
    "section": "Fluency",
    "stem": "Find the size of an interior angle of each regular polygon. Round to one decimal place where necessary.",
@@ -46934,6 +47152,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2e-reverse",
    "label": "5a",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -46943,6 +47162,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2e-reverse",
    "label": "5b",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -46952,6 +47172,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2e-reverse",
    "label": "5c",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -46961,6 +47182,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-2e-reverse",
    "label": "5d",
    "section": "Problem-solving",
    "stem": "Find the number of sides of a polygon with each angle sum.",
@@ -46970,6 +47192,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2e-diagram",
    "label": "6a",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -47059,6 +47282,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2e-diagram",
    "label": "6b",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -47193,6 +47417,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2e-diagram",
    "label": "6c",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -47298,6 +47523,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-2e-diagram",
    "label": "6d",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -47400,6 +47626,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-2e-diagram",
    "label": "6e",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -47490,6 +47717,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-2e-diagram",
    "label": "6f",
    "section": "Problem-solving",
    "stem": "Find the value of $x$ in each diagram.",
@@ -47606,6 +47834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2e-regular",
    "label": "7a",
    "section": "Reasoning",
    "stem": "Think about a regular polygon with a huge number of sides ($n$ is very large).",
@@ -47621,6 +47850,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2e-regular",
    "label": "7b",
    "section": "Reasoning",
    "stem": "Think about a regular polygon with a huge number of sides ($n$ is very large).",
@@ -47636,6 +47866,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-2e-regular",
    "label": "7c",
    "section": "Reasoning",
    "stem": "Think about a regular polygon with a huge number of sides ($n$ is very large).",
@@ -47646,6 +47877,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2e-centre",
    "label": "8a",
    "section": "Reasoning",
    "stem": "Mia is checking the angle sum of a hexagon by splitting it into triangles.",
@@ -47655,6 +47887,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2e-centre",
    "label": "8b",
    "section": "Reasoning",
    "stem": "Mia is checking the angle sum of a hexagon by splitting it into triangles.",
@@ -47664,6 +47897,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2e-centre",
    "label": "8c",
    "section": "Reasoning",
    "stem": "Mia is checking the angle sum of a hexagon by splitting it into triangles.",
@@ -47674,6 +47908,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-2e-centre",
    "label": "8d",
    "section": "Reasoning",
    "stem": "Mia is checking the angle sum of a hexagon by splitting it into triangles.",
@@ -47684,6 +47919,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-2e-regular",
    "label": "9a",
    "section": "Reasoning",
    "stem": "Let $S$ be the angle sum of a regular polygon with $n$ sides.",
@@ -47694,6 +47930,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-2e-regular",
    "label": "9b",
    "section": "Reasoning",
    "stem": "Let $S$ be the angle sum of a regular polygon with $n$ sides.",
@@ -47704,6 +47941,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-2e-regular",
    "label": "9c",
    "section": "Reasoning",
    "stem": "Let $S$ be the angle sum of a regular polygon with $n$ sides.",
@@ -47714,6 +47952,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-2e-regular",
    "label": "9d",
    "section": "Reasoning",
    "stem": "Let $S$ be the angle sum of a regular polygon with $n$ sides.",
@@ -47725,6 +47964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-2e-reverse",
    "label": "10a",
    "section": "Enrichment",
    "stem": "Find the number of sides of a regular polygon if each interior angle is:",
@@ -47734,6 +47974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-2e-reverse",
    "label": "10b",
    "section": "Enrichment",
    "stem": "Find the number of sides of a regular polygon if each interior angle is:",
@@ -47743,6 +47984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-2e-reverse",
    "label": "10c",
    "section": "Enrichment",
    "stem": "Find the number of sides of a regular polygon if each interior angle is:",
@@ -47752,6 +47994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-2e-diagram",
    "label": "11a",
    "section": "Enrichment",
    "stem": "Use the information given (arrows show parallel sides) to find the value of $x$.",
@@ -47871,6 +48114,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-2e-diagram",
    "label": "11b",
    "section": "Enrichment",
    "stem": "Use the information given (arrows show parallel sides) to find the value of $x$.",
@@ -47982,6 +48226,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-2e-diagram",
    "label": "11c",
    "section": "Enrichment",
    "stem": "Use the information given (arrows show parallel sides) to find the value of $x$.",
@@ -48089,6 +48334,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-2f-faces",
    "label": "1a",
    "section": "Fluency",
    "stem": "Classify each solid by its number of faces (for example, octahedron).",
@@ -48253,6 +48499,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-2f-faces",
    "label": "1b",
    "section": "Fluency",
    "stem": "Classify each solid by its number of faces (for example, octahedron).",
@@ -48335,6 +48582,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-2f-faces",
    "label": "1c",
    "section": "Fluency",
    "stem": "Name each solid as a type of prism or pyramid (for example, hexagonal pyramid).",
@@ -48503,6 +48751,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1d",
+   "help": "y8-2f-faces",
    "label": "1d",
    "section": "Fluency",
    "stem": "Name each solid as a type of prism or pyramid (for example, hexagonal pyramid).",
@@ -48589,6 +48838,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2f-faces",
    "label": "2a",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48598,6 +48848,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2f-faces",
    "label": "2b",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48607,6 +48858,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2f-faces",
    "label": "2c",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48616,6 +48868,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2d",
+   "help": "y8-2f-faces",
    "label": "2d",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48625,6 +48878,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2e",
+   "help": "y8-2f-faces",
    "label": "2e",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48634,6 +48888,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2f",
+   "help": "y8-2f-faces",
    "label": "2f",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48643,6 +48898,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2g",
+   "help": "y8-2f-faces",
    "label": "2g",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48655,6 +48911,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2h",
+   "help": "y8-2f-faces",
    "label": "2h",
    "section": "Fluency",
    "stem": "Name the polyhedron that has this many faces. (Use names like tetrahedron, pentahedron.)",
@@ -48667,6 +48924,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3a",
+   "help": "y8-2f-faces",
    "label": "3a",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48676,6 +48934,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3b",
+   "help": "y8-2f-faces",
    "label": "3b",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48685,6 +48944,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3c",
+   "help": "y8-2f-faces",
    "label": "3c",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48694,6 +48954,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3d",
+   "help": "y8-2f-faces",
    "label": "3d",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48703,6 +48964,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3e",
+   "help": "y8-2f-faces",
    "label": "3e",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48712,6 +48974,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3f",
+   "help": "y8-2f-faces",
    "label": "3f",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48721,6 +48984,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3g",
+   "help": "y8-2f-faces",
    "label": "3g",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48730,6 +48994,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3h",
+   "help": "y8-2f-faces",
    "label": "3h",
    "section": "Fluency",
    "stem": "How many faces does each polyhedron have?",
@@ -48739,6 +49004,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2f-prism",
    "label": "4a",
    "section": "Fluency",
    "stem": "Name each prism.",
@@ -48833,6 +49099,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2f-prism",
    "label": "4b",
    "section": "Fluency",
    "stem": "Name each prism.",
@@ -48975,6 +49242,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2f-prism",
    "label": "4c",
    "section": "Fluency",
    "stem": "Name each prism.",
@@ -49094,6 +49362,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2f-prism",
    "label": "5a",
    "section": "Fluency",
    "stem": "Name each pyramid.",
@@ -49196,6 +49465,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2f-prism",
    "label": "5b",
    "section": "Fluency",
    "stem": "Name each pyramid.",
@@ -49314,6 +49584,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2f-prism",
    "label": "5c",
    "section": "Fluency",
    "stem": "Name each pyramid.",
@@ -49383,6 +49654,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2f-count",
    "label": "6a",
    "section": "Fluency",
    "stem": "Complete the table ($F$ = faces, $V$ = vertices, $E$ = edges). For each solid, type $F$, $V$, $E$ and $F + V$ in that order, separated by commas.",
@@ -49438,6 +49710,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2f-count",
    "label": "6b",
    "section": "Fluency",
    "stem": "Complete the table ($F$ = faces, $V$ = vertices, $E$ = edges). For each solid, type $F$, $V$, $E$ and $F + V$ in that order, separated by commas.",
@@ -49453,6 +49726,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2f-count",
    "label": "6c",
    "section": "Fluency",
    "stem": "Complete the table ($F$ = faces, $V$ = vertices, $E$ = edges). For each solid, type $F$, $V$, $E$ and $F + V$ in that order, separated by commas.",
@@ -49468,6 +49742,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-2f-count",
    "label": "6d",
    "section": "Fluency",
    "stem": "Complete the table ($F$ = faces, $V$ = vertices, $E$ = edges). For each solid, type $F$, $V$, $E$ and $F + V$ in that order, separated by commas.",
@@ -49483,6 +49758,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-2f-count",
    "label": "6e",
    "section": "Fluency",
    "type": "choice",
@@ -49497,6 +49773,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2f-euler",
    "label": "7a",
    "section": "Fluency",
    "stem": "Use Euler's formula $E = F + V - 2$ to find the missing number for each polyhedron in the table.",
@@ -49547,6 +49824,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2f-euler",
    "label": "7b",
    "section": "Fluency",
    "stem": "Use Euler's formula $E = F + V - 2$ to find the missing number for each polyhedron in the table.",
@@ -49556,6 +49834,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-2f-euler",
    "label": "7c",
    "section": "Fluency",
    "stem": "Use Euler's formula $E = F + V - 2$ to find the missing number for each polyhedron in the table.",
@@ -49565,6 +49844,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-2f-euler",
    "label": "7d",
    "section": "Fluency",
    "stem": "Use Euler's formula $E = F + V - 2$ to find the missing number for each polyhedron in the table.",
@@ -49574,6 +49854,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-2f-euler",
    "label": "7e",
    "section": "Fluency",
    "stem": "Use Euler's formula $E = F + V - 2$ to find the missing number for each polyhedron in the table.",
@@ -49583,6 +49864,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-2f-euler",
    "label": "7f",
    "section": "Fluency",
    "stem": "Use Euler's formula $E = F + V - 2$ to find the missing number for each polyhedron in the table.",
@@ -49592,6 +49874,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2f-euler",
    "label": "8a",
    "section": "Fluency",
    "type": "numeric",
@@ -49600,6 +49883,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2f-euler",
    "label": "8b",
    "section": "Fluency",
    "type": "numeric",
@@ -49608,6 +49892,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2f-euler",
    "label": "8c",
    "section": "Fluency",
    "type": "numeric",
@@ -49616,6 +49901,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-2f-true",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49629,6 +49915,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-2f-true",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49642,6 +49929,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-2f-true",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49655,6 +49943,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-2f-true",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49668,6 +49957,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-2f-true",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49681,6 +49971,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-2f-true",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49694,6 +49985,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y8-2f-true",
    "label": "9g",
    "section": "Problem-solving",
    "stem": "Decide if each statement is true or false. Drawing a quick sketch can help.",
@@ -49707,6 +49999,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-2f-cut",
    "label": "10a",
    "section": "Problem-solving",
    "stem": "Can one straight cut through the first solid make the solid in brackets?",
@@ -49720,6 +50013,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-2f-cut",
    "label": "10b",
    "section": "Problem-solving",
    "stem": "Can one straight cut through the first solid make the solid in brackets?",
@@ -49733,6 +50027,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-2f-cut",
    "label": "10c",
    "section": "Problem-solving",
    "stem": "Can one straight cut through the first solid make the solid in brackets?",
@@ -49746,6 +50041,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-2f-cut",
    "label": "10d",
    "section": "Problem-solving",
    "stem": "Can one straight cut through the first solid make the solid in brackets?",
@@ -49759,6 +50055,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10e",
+   "help": "y8-2f-cut",
    "label": "10e",
    "section": "Problem-solving",
    "stem": "Can one straight cut through the first solid make the solid in brackets?",
@@ -49772,6 +50069,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-2f-count",
    "label": "11a",
    "section": "Problem-solving",
    "stem": "This solid is a triangular prism with a triangular tunnel through the middle. The front and back are each split into $3$ flat faces, as shown.",
@@ -49991,6 +50289,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-2f-count",
    "label": "11b",
    "section": "Problem-solving",
    "stem": "This solid is a triangular prism with a triangular tunnel through the middle. The front and back are each split into $3$ flat faces, as shown.",
@@ -50000,6 +50299,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-2f-count",
    "label": "11c",
    "section": "Problem-solving",
    "stem": "This solid is a triangular prism with a triangular tunnel through the middle. The front and back are each split into $3$ flat faces, as shown.",
@@ -50009,6 +50309,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-2f-count",
    "label": "11d",
    "section": "Problem-solving",
    "stem": "This solid is a triangular prism with a triangular tunnel through the middle. The front and back are each split into $3$ flat faces, as shown.",
@@ -50022,6 +50323,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12a",
+   "help": "y8-2f-faces",
    "label": "12a",
    "section": "Reasoning",
    "stem": "Naming solids in more than one way.",
@@ -50031,6 +50333,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12b",
+   "help": "y8-2f-faces",
    "label": "12b",
    "section": "Reasoning",
    "stem": "Naming solids in more than one way.",
@@ -50044,6 +50347,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12c",
+   "help": "y8-2f-faces",
    "label": "12c",
    "section": "Reasoning",
    "stem": "Naming solids in more than one way.",
@@ -50057,6 +50361,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q12d",
+   "help": "y8-2f-faces",
    "label": "12d",
    "section": "Reasoning",
    "stem": "Naming solids in more than one way.",
@@ -50069,6 +50374,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13a",
+   "help": "y8-2f-euler",
    "label": "13a",
    "section": "Reasoning",
    "stem": "Rearrange Euler's rule $E = F + V - 2$. Type only what goes after the equals sign.",
@@ -50079,6 +50385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q13b",
+   "help": "y8-2f-euler",
    "label": "13b",
    "section": "Reasoning",
    "stem": "Rearrange Euler's rule $E = F + V - 2$. Type only what goes after the equals sign.",
@@ -50089,6 +50396,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14a",
+   "help": "y8-2f-count",
    "label": "14a",
    "section": "Reasoning",
    "stem": "Find $F$, $V$ and $E$ for each solid, then check that Euler's rule works. Type $F$, $V$ and $E$ in that order, separated by commas.",
@@ -50103,6 +50411,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14b",
+   "help": "y8-2f-count",
    "label": "14b",
    "section": "Reasoning",
    "stem": "Find $F$, $V$ and $E$ for each solid, then check that Euler's rule works. Type $F$, $V$ and $E$ in that order, separated by commas.",
@@ -50117,6 +50426,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q14c",
+   "help": "y8-2f-count",
    "label": "14c",
    "section": "Reasoning",
    "stem": "Find $F$, $V$ and $E$ for each solid, then check that Euler's rule works. Type $F$, $V$ and $E$ in that order, separated by commas.",
@@ -50131,6 +50441,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15a",
+   "help": "y8-2f-true",
    "label": "15a",
    "section": "Reasoning",
    "stem": "Decide if each statement is true or false.",
@@ -50144,6 +50455,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q15b",
+   "help": "y8-2f-true",
    "label": "15b",
    "section": "Reasoning",
    "stem": "Decide if each statement is true or false.",
@@ -50157,6 +50469,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16a",
+   "help": "y8-2f-convex",
    "label": "16a",
    "section": "Enrichment",
    "stem": "A solid is convex if every line segment joining two of its points stays inside it. Decide if each solid is convex or non-convex.",
@@ -50296,6 +50609,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16b",
+   "help": "y8-2f-convex",
    "label": "16b",
    "section": "Enrichment",
    "stem": "A solid is convex if every line segment joining two of its points stays inside it. Decide if each solid is convex or non-convex.",
@@ -50414,6 +50728,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q16c",
+   "help": "y8-2f-convex",
    "label": "16c",
    "section": "Enrichment",
    "stem": "A solid is convex if every line segment joining two of its points stays inside it. Decide if each solid is convex or non-convex.",
@@ -50610,6 +50925,7 @@ window.H3_BANK.sets.push(
  "questions": [
   {
    "id": "q1a",
+   "help": "y8-2g-cubes",
    "label": "1a",
    "section": "Fluency",
    "stem": "Each cube in this 3D space is described by an $x$ letter (A, B, C or D), a $y$ letter (a, b, c or d) and a $z$ level (1, 2, 3 or 4), in that order. Give the coordinates of each labelled cube.",
@@ -51214,6 +51530,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1b",
+   "help": "y8-2g-cubes",
    "label": "1b",
    "section": "Fluency",
    "stem": "Each cube in this 3D space is described by an $x$ letter (A, B, C or D), a $y$ letter (a, b, c or d) and a $z$ level (1, 2, 3 or 4), in that order. Give the coordinates of each labelled cube.",
@@ -51224,6 +51541,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q1c",
+   "help": "y8-2g-cubes",
    "label": "1c",
    "section": "Fluency",
    "stem": "Each cube in this 3D space is described by an $x$ letter (A, B, C or D), a $y$ letter (a, b, c or d) and a $z$ level (1, 2, 3 or 4), in that order. Give the coordinates of each labelled cube.",
@@ -51234,6 +51552,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2a",
+   "help": "y8-2g-cubes",
    "label": "2a",
    "section": "Fluency",
    "stem": "Each cube in this 3D space is described by an $x$ letter (A, B, C or D), a $y$ letter (a, b, c or d) and a $z$ level (1, 2, 3 or 4), in that order. Give the coordinates of each labelled cube.",
@@ -51838,6 +52157,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2b",
+   "help": "y8-2g-cubes",
    "label": "2b",
    "section": "Fluency",
    "stem": "Each cube in this 3D space is described by an $x$ letter (A, B, C or D), a $y$ letter (a, b, c or d) and a $z$ level (1, 2, 3 or 4), in that order. Give the coordinates of each labelled cube.",
@@ -51848,6 +52168,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q2c",
+   "help": "y8-2g-cubes",
    "label": "2c",
    "section": "Fluency",
    "stem": "Each cube in this 3D space is described by an $x$ letter (A, B, C or D), a $y$ letter (a, b, c or d) and a $z$ level (1, 2, 3 or 4), in that order. Give the coordinates of each labelled cube.",
@@ -51858,6 +52179,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q3",
+   "help": "y8-2g-cubes",
    "label": "3",
    "section": "Fluency",
    "type": "choice",
@@ -52648,6 +52970,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4a",
+   "help": "y8-2g-points",
    "label": "4a",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -52918,6 +53241,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4b",
+   "help": "y8-2g-points",
    "label": "4b",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -52928,6 +53252,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4c",
+   "help": "y8-2g-points",
    "label": "4c",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -52938,6 +53263,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q4d",
+   "help": "y8-2g-points",
    "label": "4d",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -52948,6 +53274,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5a",
+   "help": "y8-2g-points",
    "label": "5a",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -53218,6 +53545,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5b",
+   "help": "y8-2g-points",
    "label": "5b",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -53228,6 +53556,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5c",
+   "help": "y8-2g-points",
    "label": "5c",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -53238,6 +53567,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q5d",
+   "help": "y8-2g-points",
    "label": "5d",
    "section": "Fluency",
    "stem": "Write down the coordinates of each point shown on this 3D graph.",
@@ -53248,6 +53578,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6a",
+   "help": "y8-2g-points",
    "label": "6a",
    "section": "Fluency",
    "stem": "Six points have been plotted on this 3D graph. Dashed lines show how to reach each point. Which point has these coordinates?",
@@ -53651,6 +53982,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6b",
+   "help": "y8-2g-points",
    "label": "6b",
    "section": "Fluency",
    "stem": "Six points have been plotted on this 3D graph. Dashed lines show how to reach each point. Which point has these coordinates?",
@@ -53660,6 +53992,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6c",
+   "help": "y8-2g-points",
    "label": "6c",
    "section": "Fluency",
    "stem": "Six points have been plotted on this 3D graph. Dashed lines show how to reach each point. Which point has these coordinates?",
@@ -53669,6 +54002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6d",
+   "help": "y8-2g-points",
    "label": "6d",
    "section": "Fluency",
    "stem": "Six points have been plotted on this 3D graph. Dashed lines show how to reach each point. Which point has these coordinates?",
@@ -53678,6 +54012,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6e",
+   "help": "y8-2g-points",
    "label": "6e",
    "section": "Fluency",
    "stem": "Six points have been plotted on this 3D graph. Dashed lines show how to reach each point. Which point has these coordinates?",
@@ -53687,6 +54022,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q6f",
+   "help": "y8-2g-points",
    "label": "6f",
    "section": "Fluency",
    "stem": "Six points have been plotted on this 3D graph. Dashed lines show how to reach each point. Which point has these coordinates?",
@@ -53696,6 +54032,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7a",
+   "help": "y8-2g-moves",
    "label": "7a",
    "section": "Problem-solving",
    "stem": "A cube sits at $(\\text{A}, \\text{a}, 1)$. It can only move East ($x$), North ($y$) or Up ($z$). How many spaces does it move in total to reach each position?",
@@ -54008,6 +54345,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7b",
+   "help": "y8-2g-moves",
    "label": "7b",
    "section": "Problem-solving",
    "stem": "A cube sits at $(\\text{A}, \\text{a}, 1)$. It can only move East ($x$), North ($y$) or Up ($z$). How many spaces does it move in total to reach each position?",
@@ -54017,6 +54355,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7c",
+   "help": "y8-2g-moves",
    "label": "7c",
    "section": "Problem-solving",
    "stem": "A cube sits at $(\\text{A}, \\text{a}, 1)$. It can only move East ($x$), North ($y$) or Up ($z$). How many spaces does it move in total to reach each position?",
@@ -54026,6 +54365,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7d",
+   "help": "y8-2g-moves",
    "label": "7d",
    "section": "Problem-solving",
    "stem": "A cube sits at $(\\text{A}, \\text{a}, 1)$. It can only move East ($x$), North ($y$) or Up ($z$). How many spaces does it move in total to reach each position?",
@@ -54035,6 +54375,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7e",
+   "help": "y8-2g-moves",
    "label": "7e",
    "section": "Problem-solving",
    "stem": "A cube sits at $(\\text{A}, \\text{a}, 1)$. It can only move East ($x$), North ($y$) or Up ($z$). How many spaces does it move in total to reach each position?",
@@ -54044,6 +54385,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q7f",
+   "help": "y8-2g-moves",
    "label": "7f",
    "section": "Problem-solving",
    "stem": "A cube sits at $(\\text{A}, \\text{a}, 1)$. It can only move East ($x$), North ($y$) or Up ($z$). How many spaces does it move in total to reach each position?",
@@ -54053,6 +54395,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8a",
+   "help": "y8-2g-moves",
    "label": "8a",
    "section": "Problem-solving",
    "stem": "A car park has $5$ levels, and every level is split into zones in the same way (shown). A zone in the 3rd column East, the 1st row North and on level 4 has coordinates $(\\text{C}, \\text{a}, 4)$.",
@@ -54247,6 +54590,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8b",
+   "help": "y8-2g-moves",
    "label": "8b",
    "section": "Problem-solving",
    "stem": "A car park has $5$ levels, and every level is split into zones in the same way (shown). A zone in the 3rd column East, the 1st row North and on level 4 has coordinates $(\\text{C}, \\text{a}, 4)$.",
@@ -54257,6 +54601,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8c",
+   "help": "y8-2g-moves",
    "label": "8c",
    "section": "Problem-solving",
    "stem": "A car park has $5$ levels, and every level is split into zones in the same way (shown). A zone in the 3rd column East, the 1st row North and on level 4 has coordinates $(\\text{C}, \\text{a}, 4)$.",
@@ -54267,6 +54612,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q8d",
+   "help": "y8-2g-moves",
    "label": "8d",
    "section": "Problem-solving",
    "stem": "A car park has $5$ levels, and every level is split into zones in the same way (shown). A zone in the 3rd column East, the 1st row North and on level 4 has coordinates $(\\text{C}, \\text{a}, 4)$.",
@@ -54277,6 +54623,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9a",
+   "help": "y8-2g-distance",
    "label": "9a",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54287,6 +54634,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9b",
+   "help": "y8-2g-distance",
    "label": "9b",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54297,6 +54645,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9c",
+   "help": "y8-2g-distance",
    "label": "9c",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54307,6 +54656,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9d",
+   "help": "y8-2g-distance",
    "label": "9d",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54317,6 +54667,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9e",
+   "help": "y8-2g-distance",
    "label": "9e",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54327,6 +54678,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9f",
+   "help": "y8-2g-distance",
    "label": "9f",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54337,6 +54689,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9g",
+   "help": "y8-2g-distance",
    "label": "9g",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54347,6 +54700,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9h",
+   "help": "y8-2g-distance",
    "label": "9h",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54357,6 +54711,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q9i",
+   "help": "y8-2g-distance",
    "label": "9i",
    "section": "Problem-solving",
    "stem": "A delivery drone can only fly North/South, East/West or up/down, and its coordinates are in metres. Find the shortest distance it must travel for each trip.",
@@ -54367,6 +54722,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10a",
+   "help": "y8-2g-volume",
    "label": "10a",
    "section": "Reasoning",
    "stem": "Point $P$ and the origin are opposite corners of a rectangular prism. The diagram shows $P(2, 3, 2)$, which makes a prism with volume $2 \\times 3 \\times 2 = 12$ cubic units. Find the volume of the prism made by each point.",
@@ -54613,6 +54969,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10b",
+   "help": "y8-2g-volume",
    "label": "10b",
    "section": "Reasoning",
    "stem": "Point $P$ and the origin are opposite corners of a rectangular prism. The diagram shows $P(2, 3, 2)$, which makes a prism with volume $2 \\times 3 \\times 2 = 12$ cubic units. Find the volume of the prism made by each point.",
@@ -54623,6 +54980,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10c",
+   "help": "y8-2g-volume",
    "label": "10c",
    "section": "Reasoning",
    "stem": "Point $P$ and the origin are opposite corners of a rectangular prism. The diagram shows $P(2, 3, 2)$, which makes a prism with volume $2 \\times 3 \\times 2 = 12$ cubic units. Find the volume of the prism made by each point.",
@@ -54633,6 +54991,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q10d",
+   "help": "y8-2g-volume",
    "label": "10d",
    "section": "Reasoning",
    "stem": "Point $P$ and the origin are opposite corners of a rectangular prism. The diagram shows $P(2, 3, 2)$, which makes a prism with volume $2 \\times 3 \\times 2 = 12$ cubic units. Find the volume of the prism made by each point.",
@@ -54643,6 +55002,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11a",
+   "help": "y8-2g-contour",
    "label": "11a",
    "section": "Reasoning",
    "stem": "On this map, each contour line joins places at the same height above sea level (in metres). Contour lines that are close together mean the land is steep. Which best describes the land at each point?",
@@ -54794,6 +55154,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11b",
+   "help": "y8-2g-contour",
    "label": "11b",
    "section": "Reasoning",
    "stem": "On this map, each contour line joins places at the same height above sea level (in metres). Contour lines that are close together mean the land is steep. Which best describes the land at each point?",
@@ -54809,6 +55170,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11c",
+   "help": "y8-2g-contour",
    "label": "11c",
    "section": "Reasoning",
    "stem": "On this map, each contour line joins places at the same height above sea level (in metres). Contour lines that are close together mean the land is steep. Which best describes the land at each point?",
@@ -54824,6 +55186,7 @@ window.H3_BANK.sets.push(
   },
   {
    "id": "q11d",
+   "help": "y8-2g-contour",
    "label": "11d",
    "section": "Reasoning",
    "stem": "On this map, each contour line joins places at the same height above sea level (in metres). Contour lines that are close together mean the land is steep. Which best describes the land at each point?",

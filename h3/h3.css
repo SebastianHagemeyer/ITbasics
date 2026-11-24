@@ -302,7 +302,7 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .qhelp-mark { width: 22px; height: 22px; border-radius: 50%; border: 2.5px solid currentColor; display: grid; place-items: center; font: 800 13px/1 var(--f-display); flex: none; }
 .qhelp-chev { margin-left: auto; transition: transform .2s; flex: none; }
 .qhelp[open] .qhelp-chev { transform: rotate(180deg); }
-.qhelp-body { padding: 2px 14px 16px; display: grid; gap: 14px; font-size: 16px; }
+.qhelp-body { padding: 2px 14px 16px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; font-size: 16px; }   /* minmax: a wide division or table scrolls inside its own box, never the page */
 .qhelp-body p { margin: 0; }
 
 .hp-key { display: flex; flex-wrap: wrap; gap: 6px; }
