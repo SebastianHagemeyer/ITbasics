@@ -48,10 +48,10 @@
     'y8-7a-solve': `
       <p class="hp-tag">Worked example: find a solution to <b>4m − 3 = 25</b>. Then find the number if <b>two-fifths of it is 18</b>.</p>
       ${steps(
-        `<p><strong>Ask the question in words.</strong> "Times 4, take away 3, gives 25." Undo it backwards: add the 3 back, then share by 4.</p>
-         ${flow(['Start', '25'], ['+ 3', '28'], ['÷ 4', '7'])}`,
-        `<p><strong>Check by substituting.</strong></p>
-         ${sum('4 × 7 − 3 = 28 − 3 = 25 ✓')}
+        `<p><strong>Try a value of m.</strong> Put it in the left side and see how close you get to 25.</p>
+         ${sum('m = 5: 4 × 5 − 3 = 17 &nbsp; too small<br>m = 8: 4 × 8 − 3 = 29 &nbsp; too big')}`,
+        `<p><strong>Adjust and try again.</strong> The answer is between 5 and 8, so try 7. The left side is 25, the same as the right side, so m = 7 is a solution.</p>
+         ${sum('m = 7: 4 × 7 − 3 = 28 − 3 = 25 ✓')}
          ${ans('7')}`,
         `<p><strong>Fractions of a number.</strong> Two-fifths is 18, so one-fifth is half of that, and the whole is five fifths.</p>
          ${sum('18 ÷ 2 = 9 &nbsp; 9 × 5 = 45')}
@@ -82,9 +82,9 @@
       ${steps(
         `<p><strong>Write both sides in terms of t.</strong> His age in 20 years is t + 20. Five times his age now is 5t.</p>
          ${sum('t + 20 = 5t')}`,
-        `<p><strong>Solve.</strong> Take t from both sides, then divide.</p>
-         ${sum('20 = 4t, so t = 5')}
-         <p>Check: 5 + 20 = 25 and 5 × 5 = 25 ✓. Tom is 5.</p>`,
+        `<p><strong>Find the solution by trying values.</strong> Work out each side for a few values of t. You want the two sides to match.</p>
+         ${fig({ kind: 'table', rows: [['t', '3', '4', '5'], ['t + 20', '23', '24', '25'], ['5t', '15', '20', '25']] })}
+         <p>At t = 5 both sides are 25 ✓, so t = 5 is the solution. Tom is 5.</p>`,
         `<p><strong>How long until he is seven times his age now?</strong> Seven times 5 is 35. He needs 35 − 5 more years.</p>
          ${ans('t+20=5t, 5, 30')}`
       )}
@@ -124,8 +124,9 @@
          ${chips(['1 and 40'], ['2 and 20'], ['4 and 10'], ['5 and 8', 'add'])}
          <p>Only 5 and 8 add to 13. c is the bigger one.</p>
          ${ans('8, 5')}`,
-        `<p><strong>(b) Add the two equations.</strong> The d's cancel: 2c = 22, so c = 11. Then 11 + d = 18 gives d = 7.</p>
-         ${sum('Check: 11 − 7 = 4 ✓')}
+        `<p><strong>(b) List pairs that add to 18, then check the difference.</strong> Start in the middle and move the numbers apart one step at a time.</p>
+         ${chips(['9 and 9: difference 0'], ['10 and 8: difference 2'], ['11 and 7: difference 4', 'add'])}
+         <p>11 + 7 = 18 and 11 − 7 = 4, so both equations are true.</p>
          ${ans('11, 7')}`
       )}
       ${tip('Type c then d, separated by a comma. Check your pair in both equations before you type it.')}`,

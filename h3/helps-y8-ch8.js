@@ -570,7 +570,7 @@
          ${sum('4/25 × 1200 = 192 phones')}`,
         `<p><strong>From a table:</strong> 25 people were asked how many coffees they drink a day.</p>
          ${fig({ kind: 'table', rows: [['Coffees', '0', '1', '2', '3', '4'], ['Frequency', '10', '8', '4', '2', '1']] })}
-         ${sum('Pr(2 or more) = (4 + 2 + 1)/25 = 7/25<br>In a group of 500: 7/25 × 500 = 140')}
+         ${sum('Proportion with 2 or more = (4 + 2 + 1)/25 = 7/25<br>In a group of 500: 7/25 × 500 = 140')}
          <p>The data piles up on the left with a tail to the right, so it is positively skewed.</p>
          ${ans('4/25, 192, 140')}`
       )}
@@ -817,13 +817,14 @@
       <p class="hp-tag">Worked example: separate experiments, done together.</p>
       ${steps(
         `<p><strong>Number of outcomes: multiply.</strong> Experiments with 5 and 9 outcomes give 5 × 9 = 45 combined outcomes.</p>`,
-        `<p><strong>Probability of both: multiply.</strong> A deck has 12 picture cards (J, Q, K in 4 suits).</p>
-         ${sum('One deck: Pr(picture) = 12/52 = 3/13<br>Two decks: 3/13 × 3/13 = 9/169')}`,
-        `<p><strong>Unequal chances:</strong> a spinner has Pr(X) = 3/4 and Pr(Y) = 1/4. It is spun twice.</p>
-         ${sum('Pr(X then X) = 3/4 × 3/4 = 9/16<br>X and Y in either order: 3/16 + 3/16 = 3/8<br>At least one Y: 1 − 9/16 = 7/16')}
-         ${ans('45, 9/169, 3/8, 7/16')}`
+        `<p><strong>Too big to draw? Count the table instead.</strong> One card is drawn from each of two separate packs of 20 cards numbered 1 to 20. What is the chance both are multiples of 5? The table would have 20 rows and 20 columns.</p>
+         ${sum('All outcomes: 20 × 20 = 400 cells<br>Multiples of 5 in each pack: 5, 10, 15, 20 (4 cards)<br>Both multiples of 5: 4 × 4 = 16 cells<br>Pr = 16/400 = 1/25')}`,
+        `<p><strong>Unequal chances: swap in equally likely letters.</strong> A spinner has Pr(X) = 3/4 and Pr(Y) = 1/4. That is the same as choosing a letter from X, X, X, Y. It is spun twice, so draw a 4 by 4 table: 16 equally likely outcomes.</p>
+         ${fig({ kind: 'table', rows: [['', 'X', 'X', 'X', 'Y'], ['X', 'XX', 'XX', 'XX', 'XY'], ['X', 'XX', 'XX', 'XX', 'XY'], ['X', 'XX', 'XX', 'XX', 'XY'], ['Y', 'YX', 'YX', 'YX', 'YY']] })}
+         ${sum('X then X: 9 cells → 9/16<br>X and Y in either order: 3 XY + 3 YX = 6 cells → 6/16 = 3/8<br>At least one Y: 16 − 9 = 7 cells → 7/16')}
+         ${ans('45, 1/25, 3/8, 7/16')}`
       )}
-      ${tip('"Then" fixes the order: one product. "In either order" means add both orders.')}`,
+      ${tip('Every cell of the table must be equally likely, then Pr = cells that fit ÷ all cells. "Then" fixes the order. "In either order" counts both orders.')}`,
 
     // Y8 8H Q9: "not" and "or" with two dice
     'y8-8h-complement': `
@@ -892,8 +893,7 @@
          ${sum('6/16 = 3/8')}
          ${ans('16, 1/16, 3/8')}`
       )}
-      <p><strong>Pascal's triangle counts the ways.</strong> Each number is the sum of the two above it. The row for 4 coins gives the number of ways to get 0, 1, 2, 3 or 4 heads.</p>
-      ${fig({ kind: 'table', rows: [['1 coin', '1', '1'], ['2 coins', '1', '2', '1'], ['3 coins', '1', '3', '3', '1'], ['4 coins', '1', '4', '6', '4', '1']] })}
+      <p><strong>List systematically so you never miss one.</strong> Put the first H as far left as it can go, then move the second H along one place at a time. When it reaches the end, move the first H one place right and start again. That is the order of the list above.</p>
       ${tip('Impossible (5 heads from 4 coins) has probability 0; certain (at most 4 heads) has probability 1.')}`,
 
     // Y8 8I Q11: counting ordered choices

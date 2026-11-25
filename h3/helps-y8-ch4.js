@@ -111,7 +111,7 @@
          ${sum('15 + 6 + 6 + 7 + 9 + 13 = 56')}
          ${ans('56')}`
       )}
-      ${tip('Shortcut for L and staircase shapes: the perimeter is the same as the rectangle around them, here 2 × (15 + 13) = 56. A notch cut into one side is different: it adds its two depths.')}`,
+      ${tip('Go round the shape in order and tick each side as you add it, so none is missed or counted twice. Sides with the same marks are equal.')}`,
 
     // Y8 4A Q4, Q6, Q11: a missing side from the perimeter
     'y8-4a-find-x': `
@@ -123,13 +123,15 @@
         { label: 'x m', at: [2.3, 3.2], anchor: 'start' }, { label: '4.5 m', at: [2.5, 9.3], anchor: 'start' }
       ], 'A kite with two long sides marked x m and two short sides of 4.5 m.', 24)}
       ${steps(
-        `<p><strong>Take away the sides you know.</strong> There are two sides of 4.5 m.</p>
-         ${sum('25 − 4.5 − 4.5 = 16')}`,
-        `<p><strong>Share what is left between the equal sides.</strong> There are two sides of x.</p>
-         ${sum('16 ÷ 2 = 8')}
+        `<p><strong>Write an equation for the perimeter.</strong> Add every side: two of x and two of 4.5.</p>
+         ${sum('x + x + 4.5 + 4.5 = 25<br>2x + 9 = 25')}`,
+        `<p><strong>Subtract 9 from both sides.</strong></p>
+         ${sum('2x = 16')}`,
+        `<p><strong>Divide both sides by 2.</strong> 2 × 8 = 16.</p>
+         ${sum('x = 8')}
          ${ans('8')}`
       )}
-      <p><strong>Rectangles:</strong> length + width is half the perimeter. If P = 22 m and the length is 6.5 m, the width is 11 − 6.5 = 4.5 m.</p>
+      <p><strong>Rectangles work the same way.</strong> If P = 22 m and the length is 6.5 m, call the width w: 2 × 6.5 + 2w = 22, so 13 + 2w = 22. Subtract 13 from both sides: 2w = 9, so w = 4.5 m.</p>
       ${tip('Check by adding all the sides: 8 + 8 + 4.5 + 4.5 = 25. ✓ In a shape with only right angles, mark the sides that are equal to x before you start.')}`,
 
     // Y8 4A Q5: choosing a sensible unit
@@ -231,7 +233,7 @@
       ${steps(
         `<p><strong>Write the perimeter rule first.</strong></p>
          ${sum('P = x + x + 7 = 2x + 7')}`,
-        `<p><strong>Undo it in reverse order.</strong> Take away 7, then divide by 2.</p>
+        `<p><strong>Get x on its own.</strong> Subtract 7 from both sides, then divide both sides by 2.</p>
          ${sum('P − 7 = 2x<br>x = (P − 7)/2')}
          ${ans('x = (P - 7)/2')}`
       )}
@@ -1042,7 +1044,7 @@
          ${sum('108 + 144 = 252 m²')}
          ${ans('252')}`
       )}
-      ${tip('For any prism: SA = 2 × area of the end + perimeter of the end × length. Here that is 108 + 36 × 4. It works for L shapes and trapeziums too.')}`,
+      ${tip('Sketch a net if it helps. Check that you have both ends and one rectangle for every side of the end shape. L-shaped and trapezium ends work the same way.')}`,
 
     // Y8 4G Q4: a prism with parallelogram ends
     'y8-4g-ends': `
@@ -1124,13 +1126,14 @@
       <p class="hp-tag">Worked example: find the volume of this rectangular prism.</p>
       ${D(box(6.5, 3, 4, ['6.5 cm', '3 cm', '4 cm']), 'A rectangular prism 6.5 cm long, 4 cm deep and 3 cm high.', 32)}
       ${steps(
-        `<p><strong>Find the area of the base.</strong> That is how many 1 cm cubes fit in one layer.</p>
-         ${sum('6.5 × 4 = 26 cm²')}`,
-        `<p><strong>Multiply by the height</strong> (the number of layers).</p>
-         ${sum('26 × 3 = 78 cm³')}
+        `<p><strong>Write the rule, then substitute</strong> the length, width and height.</p>
+         ${sum('V = lwh = 6.5 × 4 × 3')}`,
+        `<p><strong>Multiply, in any order.</strong></p>
+         ${sum('6.5 × 4 = 26<br>26 × 3 = 78 cm³')}
          ${ans('78')}`
       )}
-      ${tip('V = l × w × h, in any order. A cube has all edges equal: a 6 cm cube is 6 × 6 × 6 = 216 cm³. Volume is in cubic units.')}`,
+      <p><strong>Why it works:</strong> 6.5 × 4 = 26 is how many 1 cm cubes cover the base in one layer, and the height says there are 3 layers.</p>
+      ${tip('A cube has all edges equal, so V = l³: a 6 cm cube is 6 × 6 × 6 = 216 cm³. Volume is in cubic units.')}`,
 
     // Y8 4H Q3: converting capacity units
     'y8-4h-convert': `
@@ -1672,13 +1675,17 @@
           { label: 'x', at: [6.5, -1.3] }, { label: '5', at: [-0.8, 2.5], anchor: 'end' }, { label: '14', at: [7, 3.3], anchor: 'start' }] }
       )}
       ${steps(
-        `<p><strong>Hypotenuse squared, take away the side you know squared.</strong></p>
-         ${sum('a² = 89² − 39² = 7921 − 1521 = 6400<br>x² = 14² − 5² = 196 − 25 = 171')}`,
-        `<p><strong>Square root.</strong></p>
-         ${sum('a = √6400 = 80<br>x = √171 = 13.076...')}
+        `<p><strong>Write Pythagoras' theorem, a² + b² = c², and substitute.</strong> The hypotenuse (89) is c.</p>
+         ${sum('a² + 39² = 89²<br>a² + 1521 = 7921')}`,
+        `<p><strong>Subtract 1521 from both sides.</strong></p>
+         ${sum('a² = 6400')}`,
+        `<p><strong>Take the square root.</strong></p>
+         ${sum('a = √6400 = 80')}`,
+        `<p><strong>Same steps for the second triangle.</strong> Subtract 25 from both sides, then square root and round.</p>
+         ${sum('x² + 5² = 14²<br>x² + 25 = 196<br>x² = 171<br>x = √171 = 13.076...')}
          ${ans('80 and 13.08')}`
       )}
-      ${tip('For a shorter side you <b>subtract</b>; for the hypotenuse you add. Check: a shorter side must come out smaller than the hypotenuse.')}`,
+      ${tip('Check: a shorter side must come out smaller than the hypotenuse. Round only at the very end.')}`,
 
     // Y8 4M Q4, Q5, Q6, Q8: shorter-side problems
     'y8-4m-problems': `
@@ -1689,8 +1696,10 @@
       ], 'A right-angled triangle: ladder 6.5 m (hypotenuse), ground 2.5 m, wall height unknown.', 30)}
       ${steps(
         `<p><strong>The ladder is the hypotenuse</strong> (opposite the right angle). The wall is a shorter side.</p>`,
-        `<p><strong>Subtract the squares, then square root.</strong></p>
-         ${sum('h² = 6.5² − 2.5² = 42.25 − 6.25 = 36<br>h = √36 = 6')}
+        `<p><strong>Let h metres be the height. Substitute into a² + b² = c².</strong></p>
+         ${sum('h² + 2.5² = 6.5²<br>h² + 6.25 = 42.25')}`,
+        `<p><strong>Subtract 6.25 from both sides, then take the square root.</strong></p>
+         ${sum('h² = 36<br>h = √36 = 6')}
          ${ans('6')}`
       )}
       ${tip('A diameter opposite a right angle in a circle is a hypotenuse. A straw across a can goes from the bottom edge to the top edge, so the diameter is one shorter side.')}`,
@@ -1705,7 +1714,7 @@
       ], 'Two right-angled triangles share the side AC. AD = 7.5, DC = 4.5 and CB = 3.5.', 34)}
       ${steps(
         `<p><strong>Left triangle:</strong> find the shared side AC (a shorter side).</p>
-         ${sum('AC² = 7.5² − 4.5² = 56.25 − 20.25 = 36<br>AC = 6')}`,
+         ${sum('AC² + 4.5² = 7.5²<br>AC² + 20.25 = 56.25<br>AC² = 36 (subtract 20.25 from both sides)<br>AC = 6')}`,
         `<p><strong>Right triangle:</strong> AB is the hypotenuse.</p>
          ${sum('AB² = 6² + 3.5² = 36 + 12.25 = 48.25<br>AB = √48.25 = 6.946...')}
          ${ans('6.95')}`
@@ -1735,8 +1744,8 @@
         { label: '8.5', at: [1.6, 4.1], anchor: 'end' }, { label: '8.5', at: [6.4, 4.1], anchor: 'start' }
       ], 'An isosceles triangle with equal sides 8.5 and height 7.5; the base is unknown.', 26)}
       ${steps(
-        `<p><strong>The height splits it into two right-angled triangles.</strong> In each one, 8.5 is the hypotenuse.</p>
-         ${sum('(half the base)² = 8.5² − 7.5² = 72.25 − 56.25 = 16<br>half the base = 4')}`,
+        `<p><strong>The height splits it into two right-angled triangles.</strong> In each one, 8.5 is the hypotenuse. Call half the base b.</p>
+         ${sum('b² + 7.5² = 8.5²<br>b² + 56.25 = 72.25<br>b² = 16 (subtract 56.25 from both sides)<br>b = √16 = 4')}`,
         `<p><strong>Double for the whole base, then add the sides.</strong></p>
          ${sum('base = 2 × 4 = 8<br>perimeter = 8.5 + 8.5 + 8 = 25')}
          ${ans('8 and 25')}`
@@ -1747,8 +1756,8 @@
     'y8-4m-surd': `
       <p class="hp-tag">Worked example: give the exact unknown side as √n: (a) hypotenuse <b>7</b>, one side <b>4</b>; (b) shorter sides <b>2</b> and <b>5</b>.</p>
       ${steps(
-        `<p><strong>(a) Shorter side: subtract the squares.</strong></p>
-         ${sum('7² − 4² = 49 − 16 = 33, so the side is √33')}`,
+        `<p><strong>(a) Shorter side:</strong> write the equation, then subtract 16 from both sides.</p>
+         ${sum('a² + 4² = 7²<br>a² + 16 = 49<br>a² = 33, so a = √33')}`,
         `<p><strong>(b) Hypotenuse: add the squares.</strong></p>
          ${sum('2² + 5² = 4 + 25 = 29, so the side is √29')}
          ${ans('33 and 29')}`

@@ -281,15 +281,18 @@
 
     // Y8 3C Q6, Q10: ordering and comparing negative fractions
     'y8-3c-order': `
-      <p class="hp-tag">Worked example: put <b>−1/2, 2/5, −2/3, −1 1/4, 1/6</b> in order, smallest first.</p>
+      <p class="hp-tag">Worked example: put <b>−1/2, 3/8, −5/6, −1 1/4, 1/6</b> in order, smallest first.</p>
       ${steps(
-        `<p><strong>Change each one to a decimal.</strong></p>
-         ${sum('−0.5, 0.4, −0.667, −1.25, 0.167')}`,
-        `<p><strong>Negatives come first.</strong> The further a negative is from zero, the smaller it is, so −1.25 is the smallest.</p>`,
+        `<p><strong>Change any mixed numeral to an improper fraction.</strong></p>
+         ${sum('−1 1/4 = −5/4')}`,
+        `<p><strong>Write every fraction with the lowest common denominator.</strong> The LCD of 2, 8, 6 and 4 is 24.</p>
+         ${sum('−12/24, 9/24, −20/24, −30/24, 4/24')}`,
+        `<p><strong>Order the numerators, just like integers.</strong> The further a negative is from zero, the smaller it is.</p>
+         ${sum('−30, −20, −12, 4, 9')}`,
         `<p><strong>Write them in the original form</strong>, separated by commas.</p>
-         ${ans('-1 1/4, -2/3, -1/2, 1/6, 2/5')}`
+         ${ans('-1 1/4, -5/6, -1/2, 1/6, 3/8')}`
       )}
-      ${tip('To compare two negatives, picture a number line. −1/3 is −0.333 and −2/5 is −0.4. −0.333 is closer to zero, so −1/3 > −2/5.')}`,
+      ${tip('To compare two negatives, use a common denominator too. −1/3 = −5/15 and −2/5 = −6/15. On a number line −5 is closer to zero than −6, so −1/3 > −2/5.')}`,
 
     // Y8 3C Q7, Q8, Q9: stories with negative fractions
     'y8-3c-story': `
@@ -346,9 +349,11 @@
     'y8-3d-order': `
       <p class="hp-tag">Worked example: put <b>5.319, 5.39, 5.093, 5.3, 5.391</b> in descending order.</p>
       ${steps(
-        `<p><strong>Fill with zeros so they all have the same number of places.</strong></p>
-         ${sum('5.319, 5.390, 5.093, 5.300, 5.391')}`,
-        `<p><strong>Descending means largest first.</strong> Compare them like whole numbers: 391, 390, 319, 300, 093.</p>
+        `<p><strong>Line up the decimal points.</strong> Fill with zeros so they all have the same number of places.</p>
+         ${sum('5.319<br>5.390<br>5.093<br>5.300<br>5.391')}`,
+        `<p><strong>Compare from the left, one column at a time.</strong> The units are all 5. In the tenths, 5.093 has 0 and the rest have 3, so 5.093 is the smallest.</p>`,
+        `<p><strong>Move right until the digits differ.</strong> Hundredths: 9, 9, 1, 0, so 5.39 and 5.391 come before 5.319, then 5.3. Thousandths: 1 beats 0, so 5.391 comes before 5.39.</p>`,
+        `<p><strong>Descending means largest first.</strong></p>
          ${ans('5.391, 5.39, 5.319, 5.3, 5.093')}`
       )}
       ${tip('Ascending is smallest first. Type each number as it was given, without the extra zeros. In a story, order the numbers first, then write the names or letters in that order.')}`,
@@ -539,14 +544,15 @@
     // =====================================================================
     // Y8 3F Q1, Q2: fractions to terminating decimals
     'y8-3f-terminating': `
-      <p class="hp-tag">Worked example: write <b>9/40</b> as a decimal.</p>
+      <p class="hp-tag">Worked example: write <b>5/8</b> as a decimal.</p>
+      ${bus('8', ['5', '.', '0', '0', '0'], ['0', '.', '6', '2', '5'], ['', '', '5', '2', '4'], '')}
       ${steps(
-        `<p><strong>Make the bottom 10, 100 or 1000.</strong> 40 × 25 = 1000, so multiply the top by 25 too.</p>
-         ${sum('9/40 = 225/1000')}`,
-        `<p><strong>Read it as a decimal.</strong></p>
-         ${ans('0.225')}`
+        `<p><strong>Divide the numerator by the denominator.</strong> Write 5 as 5.000: add a decimal point and some zeros.</p>`,
+        `<p><strong>Use short division.</strong> 8 into 5 is 0 remainder 5. 8 into 50 is 6 remainder 2. 8 into 20 is 2 remainder 4. 8 into 40 is 5 exactly.</p>`,
+        `<p><strong>The remainder is 0, so the decimal stops (terminates).</strong> The point in the answer sits straight above the point in 5.000.</p>
+         ${ans('0.625')}`
       )}
-      ${tip('If the bottom will not turn into 10, 100, 1000 or 10 000, use short division: put zeros after the point and divide until the remainder is 0.')}`,
+      ${tip('Add as many zeros as you need until the remainder is 0. If the denominator goes easily into 10, 100 or 1000, the equivalent fraction method from 3D also works: 9/40 = 225/1000 = 0.225.')}`,
 
     // Y8 3F Q3, Q7: recurring decimals, rounded
     'y8-3f-recurring': `
@@ -659,14 +665,17 @@
     'y8-3g-frac-to-pct': `
       <p class="hp-tag">Worked example: write <b>13/25</b> as a percentage.</p>
       ${steps(
-        `<p><strong>Make the bottom 100.</strong> 25 × 4 = 100.</p>
-         ${sum('13/25 = 52/100 = 52%')}
+        `<p><strong>Multiply by 100.</strong> Write 100 as 100/1, then cancel: 25 and 100 both divide by 25.</p>
+         ${sum('13/25 × 100/1 = 13/1 × 4/1 = 52')}
          ${ans('52%')}`,
-        `<p><strong>If that will not work, multiply by 100.</strong></p>
-         ${sum('5/12 × 100 = 500/12 = 41 8/12 = 41 2/3%')}
-         ${ans('41 2/3%')}`
+        `<p><strong>If it does not cancel neatly, multiply, then write a mixed numeral.</strong></p>
+         ${sum('5/12 × 100/1 = 500/12 = 41 8/12 = 41 2/3')}
+         ${ans('41 2/3%')}`,
+        `<p><strong>Mixed numeral? Change it to an improper fraction first.</strong></p>
+         ${sum('2 3/20 = 43/20<br>43/20 × 100/1 = 43/1 × 5/1 = 215')}
+         ${ans('215%')}`
       )}
-      ${tip('For a mixed numeral, each whole is 100%: 2 3/20 = 200% + 15% = 215%. If a percentage does not stop, give it as a mixed numeral or to 2 places: 41.67%.')}`,
+      ${tip('If a percentage does not stop, give it as a mixed numeral, like 41 2/3%, or to 2 places, 41.67%, whichever the question asks for.')}`,
 
     // Y8 3G Q7, Q8: decimals to percentages, and comparing
     'y8-3g-dec-to-pct': `
@@ -682,16 +691,17 @@
     // Y8 3G Q9, Q10, Q11: completing conversion tables
     'y8-3g-table': `
       <p class="hp-tag">Worked example: complete the table.</p>
-      ${fig({ kind: 'table', rows: [['Fraction', '3/20', '?', '?'], ['Decimal', '?', '?', '0.555...'], ['Percentage', '?', '4%', '?']] })}
+      ${fig({ kind: 'table', rows: [['Fraction', '3/20', '?', '5/6'], ['Decimal', '?', '?', '?'], ['Percentage', '?', '4%', '?']] })}
       ${steps(
-        `<p><strong>Fraction given:</strong> make the bottom 100.</p>
-         ${sum('3/20 = 15/100 = 0.15 = 15%')}`,
+        `<p><strong>Fraction given:</strong> multiply by 100 for the percentage, then divide the percentage by 100 for the decimal.</p>
+         ${sum('3/20 × 100/1 = 3/1 × 5/1 = 15, so 15%<br>15% = 15 ÷ 100 = 0.15')}`,
         `<p><strong>Percentage given:</strong> write it over 100 and simplify.</p>
          ${sum('4% = 4/100 = 1/25 = 0.04')}`,
-        `<p><strong>One digit repeating:</strong> it is that digit over 9. Then multiply by 100.</p>
-         ${sum('0.555... = 5/9<br>5/9 × 100 = 500/9 = 55 5/9%')}
-         ${ans('5/9, 55 5/9%')}`
+        `<p><strong>A fraction that gives a recurring decimal:</strong> divide for the decimal, and multiply by 100 for the percentage, written as a mixed numeral.</p>
+         ${sum('5 ÷ 6 = 0.8333...<br>5/6 × 100/1 = 500/6 = 83 2/6 = 83 1/3, so 83 1/3%')}
+         ${ans('0.8333..., 83 1/3%')}`
       )}
+      <p><strong>Recurring decimal given?</strong> Use the facts from the Key Ideas table: one third = 0.333... and two thirds = 0.666.... Write the fraction, then multiply it by 100 as above. For 0.999..., ask yourself: how many thirds is that?</p>
       ${tip('Type the two answers in the order the question asks, with a comma between them, like 0.15, 15%.')}`,
 
     // Y8 3G Q12: smallest and largest possible season percentage
@@ -761,28 +771,28 @@
     'y8-3h-of': `
       <p class="hp-tag">Worked example: find <b>45% of 260</b>.</p>
       ${steps(
-        `<p><strong>Find 10%.</strong> Divide by 10.</p>
-         ${sum('10% of 260 = 26')}`,
-        `<p><strong>Build the percentage you need.</strong></p>
-         ${sum('40% = 4 × 26 = 104<br>5% = half of 26 = 13')}`,
-        `<p><strong>Add the pieces.</strong></p>
-         ${sum('104 + 13 = 117')}
+        `<p><strong>Write the percentage as a fraction over 100.</strong> Change "of" to ×, and write 260 as a fraction over 1.</p>
+         ${sum('45/100 × 260/1')}`,
+        `<p><strong>Cancel.</strong> 45 and 100 both divide by 5. Then 20 and 260 both divide by 20.</p>
+         ${sum('9/20 × 260/1 = 9/1 × 13/1')}`,
+        `<p><strong>Multiply.</strong></p>
+         ${sum('9 × 13 = 117')}
          ${ans('117')}`
       )}
-      <p><strong>With a calculator:</strong> 45 ÷ 100 × 260 = 117. Over 100% works the same way: 230% of 18 = 36 + 5.4 = 41.4. Watch the units: 8% of 3.5 kg in grams is 8% of 3500 g = 280 g.</p>
-      ${tip('You can swap the numbers: 4% of 75 is the same as 75% of 4, which is 3.')}`,
+      <p><strong>Over 100% works the same way:</strong> 230% of 18 = 230/100 × 18/1 = 4140/100 = 41.4. <strong>With a calculator:</strong> 45 ÷ 100 × 260 = 117. Watch the units: 8% of 3.5 kg in grams is 8/100 × 3500/1 = 280 g.</p>
+      ${tip('Cancel before you multiply to keep the numbers small. Check the size: 45% is a bit less than half, and 117 is a bit less than half of 260.')}`,
 
     // Y8 3H Q10: fraction percentages like 12 1/2%
     'y8-3h-thirds': `
       <p class="hp-tag">Worked example: find <b>62 1/2% of 56</b>.</p>
       ${steps(
-        `<p><strong>Change the percentage to a fraction.</strong></p>
-         ${sum('62 1/2% = 0.625 = 625/1000 = 5/8')}`,
-        `<p><strong>Find that fraction of the amount.</strong> Divide by the bottom, times by the top.</p>
-         ${sum('56 ÷ 8 = 7<br>7 × 5 = 35')}
+        `<p><strong>Write the percentage over 100.</strong> Multiply the top and bottom by 2 to make whole numbers, then simplify (divide by 25).</p>
+         ${sum('62 1/2% = 62.5/100 = 125/200 = 5/8')}`,
+        `<p><strong>Change "of" to × and cancel.</strong> Write 56 over 1. 8 and 56 both divide by 8.</p>
+         ${sum('5/8 × 56/1 = 5/1 × 7/1 = 35')}
          ${ans('35')}`
       )}
-      ${tip('Percentages with a fraction in them are often simple fractions in disguise: 87 1/2% = 0.875 = 7/8.')}`,
+      ${tip('Percentages with a fraction in them are often simple fractions in disguise: 87 1/2% = 175/200 = 7/8.')}`,
 
     // Y8 3H Q11: survey with "everyone else"
     'y8-3h-survey': `
@@ -816,13 +826,15 @@
       ${steps(
         `<p><strong>Old area.</strong></p>
          ${sum('16 × 25 = 400 cm²')}`,
-        `<p><strong>New sides and new area.</strong> Increasing by 15% means × 1.15.</p>
-         ${sum('16 × 1.15 = 18.4<br>25 × 1.15 = 28.75<br>18.4 × 28.75 = 529 cm²')}`,
+        `<p><strong>New sides.</strong> Find 15% of each side, then add it on.</p>
+         ${sum('15/100 × 16 = 2.4, so 16 + 2.4 = 18.4<br>15/100 × 25 = 3.75, so 25 + 3.75 = 28.75')}`,
+        `<p><strong>New area.</strong></p>
+         ${sum('18.4 × 28.75 = 529 cm²')}`,
         `<p><strong>Increase as a percentage of the old area.</strong></p>
          ${sum('529 − 400 = 129<br>129/400 × 100 = 32.25%')}
          ${ans('32.25%')}`
       )}
-      ${tip('Shortcut for any rectangle: 1.15 × 1.15 = 1.3225, a 32.25% increase. Going backwards, to double the area each side is × √2 = 1.4142, a 41.42% increase.')}`,
+      ${tip('For "any rectangle", try a 10 by 10 square. With 15% added, each side is 10 + 1.5 = 11.5, and the area goes from 100 to 11.5 × 11.5 = 132.25: the same 32.25% increase. Going backwards, to double the area each side must be multiplied by √2 = 1.4142, a 41.42% increase.')}`,
 
     // =====================================================================
     // Y8 3I Decreasing and increasing by a percentage
@@ -831,15 +843,15 @@
     'y8-3i-change': `
       <p class="hp-tag">Worked example: increase <b>$220</b> by <b>35%</b>.</p>
       ${steps(
-        `<p><strong>Find the percentage of the amount.</strong></p>
-         ${sum('10% = 22, so 30% = 66<br>5% = 11<br>35% = 66 + 11 = 77')}`,
-        `<p><strong>Add it for an increase.</strong></p>
+        `<p><strong>Find the percentage of the amount.</strong> Write it over 100, then cancel (35 and 100 divide by 5, then 20 and 220 divide by 20).</p>
+         ${sum('35% of 220 = 35/100 × 220/1 = 7/1 × 11/1 = 77')}`,
+        `<p><strong>New value = original value + increase.</strong></p>
          ${sum('220 + 77 = 297')}
          ${ans('297')}`
       )}
-      <p><strong>Decrease $85 by 30%:</strong> 30% of 85 is 25.50, so 85 − 25.50 = 59.50.</p>
+      <p><strong>Decrease $85 by 30%:</strong> 30/100 × 85/1 = 25.50, and new value = original − decrease, so 85 − 25.50 = 59.50.</p>
       ${chips(['mark-up, increase, rise', 'add'], ['discount, reduce, depreciate', 'take'])}
-      ${tip('Shortcut: increasing by 35% is × 1.35, decreasing by 30% is × 0.7. A mark-up in dollars is just added on. Type money without the $ sign, like 59.50.')}`,
+      ${tip('Another way: add the increase to 100% first. Increasing by 35% means finding 135% of the value: 135/100 × 220 = 297. Decreasing by 30% means finding 70%. A mark-up in dollars is just added on. Type money without the $ sign, like 59.50.')}`,
 
     // Y8 3I Q5, Q8: adding GST and rounding money
     'y8-3i-gst': `
@@ -942,15 +954,17 @@
     'y8-3j-growth': `
       <p class="hp-tag">Worked example: a town of <b>48 000</b> people grows by <b>2.5%</b> each year.</p>
       ${steps(
-        `<p><strong>Growth in one year:</strong></p>
-         ${sum('2.5% of 48 000 = 0.025 × 48 000 = 1200 more')}`,
-        `<p><strong>Each year, multiply by 1.025.</strong></p>
-         ${sum('After 2 years: 48 000 × 1.025 × 1.025 = 50 430')}`,
-        `<p><strong>For many years, use the power key.</strong></p>
-         ${sum('After 5 years: 48 000 × 1.025^5 = 54 307.59...')}
-         ${ans('54308')}`
+        `<p><strong>Year 1: find the increase, then add it on.</strong> New value = original value + increase.</p>
+         ${sum('2.5/100 × 48 000 = 1200 more<br>48 000 + 1200 = 49 200')}`,
+        `<p><strong>Year 2: the 2.5% is now of the new population.</strong></p>
+         ${sum('2.5/100 × 49 200 = 1230<br>49 200 + 1230 = 50 430')}`,
+        `<p><strong>Year 3: same again.</strong></p>
+         ${sum('2.5/100 × 50 430 = 1260.75<br>50 430 + 1260.75 = 51 690.75')}
+         ${ans('51691')}`
       )}
-      ${tip('Finding the rate: one extra person every 2 minutes is 720 a day, so 720 × 365 = 262 800 a year. For 20 000 000 people that is 262 800 ÷ 20 000 000 × 100 = 1.314, about 1.3%. Type big numbers with no spaces.')}`,
+      <p><strong>Keep going one year at a time</strong> for as many years as you need. Each year starts from the last answer, so the increase grows. Keep the full calculator number and round only at the end.</p>
+      <p><strong>Percentage change:</strong> a value falling from 4.0 to 2.6 is a decrease of 1.4, and 1.4/4.0 × 100 = 35%. Always divide by the original value.</p>
+      ${tip('Finding the rate: one extra person every 2 minutes is 720 a day, so 720 × 365 = 262 800 a year. For 20 000 000 people that is 262 800/20 000 000 × 100 = 1.314, about 1.3%. Type big numbers with no spaces.')}`,
 
     // =====================================================================
     // Y8 3K Solving percentage problems using the unitary method

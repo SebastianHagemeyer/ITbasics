@@ -95,9 +95,9 @@
       ], { axes: true, unit: 24, alt: 'A triangle and its image either side of the line x = −1' })}
       ${steps(
         `<p><strong>Pick a corner and its image.</strong> A(−5, 1) matches A′(3, 1). Only the x-coordinate changes, so the mirror line is vertical: it has an equation x = something.</p>`,
-        `<p><strong>The mirror is exactly halfway between them.</strong></p>
-         ${sum('(−5 + 3) ÷ 2 = −2 ÷ 2 = −1')}
-         <p>Each corner is 4 squares from x = −1, and so is its image.</p>
+        `<p><strong>The mirror is exactly halfway between them.</strong> Count the squares from A across to A′: 8 squares. Half of that is 4, so the mirror is 4 squares from each.</p>
+         ${sum('4 squares right of A (x = −5) is x = −1')}
+         <p>Check another corner: the corner at (−3, 1) is 2 squares from x = −1, and so is its image at (1, 1).</p>
          ${ans('x = -1')}`
       )}
       <p><strong>Choosing from lines p, q and r?</strong> Test each line: the right one is halfway between <em>every</em> corner and its image, and each corner and its image join at a right angle to it.</p>
@@ -137,7 +137,7 @@
         `<p><strong>Now the line y = −2.</strong> This moves only the y-coordinate. P is at y = 4, which is 4 − (−2) = 6 above the line. Go 6 below it: −2 − 6 = −8.</p>
          ${ans('(-1, -8)')}`
       )}
-      ${tip('Shortcut: new coordinate = 2 × (the line\'s number) − old coordinate. For x = 3: 6 − (−1) = 7. Draw a quick sketch to check the image lands on the other side.')}`,
+      ${tip('Always count to the line first, then the same number of squares past it. A quick sketch shows whether the image has landed on the other side, the same distance away.')}`,
 
     // Y8 10A Q12: reflecting in y = x and y = −x (and the axes)
     'y8-10a-diag': `
@@ -145,17 +145,19 @@
       ${G(-5, 5, -5, 5, [
         { seg: [-5.3, -5.3, 5.3, 5.3], dash: true }, { seg: [-5.3, 5.3, 5.3, -5.3], dash: true },
         lab('y = x', 4.2, 5.6), lab('y = −x', -4.2, 5.6),
-        { point: [5, -3], name: 'P', pos: 'e' }, { point: [-3, 5], name: 'P′', pos: 'e' }, { point: [3, -5], name: 'P″', pos: 'e' }
-      ], { axes: true, unit: 21, alt: 'P reflected in the lines y = x and y = −x' })}
+        { seg: [5, -3, -3, 5], arrow: 'end' }, { seg: [5, -3, 3, -5], arrow: 'end' },
+        { point: [5, -3], name: 'P', pos: 'e' }, { point: [1, 1], name: 'M', pos: 'se' }, { point: [-3, 5], name: 'P′', pos: 'e' }, { point: [3, -5], name: 'P″', pos: 'e' }
+      ], { axes: true, unit: 21, alt: 'P reflected at right angles across the lines y = x and y = −x' })}
       ${steps(
-        `<p><strong>In y = x, the two coordinates swap.</strong></p>
-         ${sum('(5, −3) → P′(−3, 5)')}`,
-        `<p><strong>In y = −x, they swap and both change sign.</strong></p>
-         ${sum('(5, −3) → swap (−3, 5) → change signs P″(3, −5)')}
-         ${ans('(-3, 5) and (3, -5)')}`,
-        `<p><strong>The axes, for comparison.</strong> In the y-axis only x changes sign: (−5, −3). In the x-axis only y changes sign: (5, 3).</p>`
+        `<p><strong>Go from P at right angles to the mirror line.</strong> The line y = x runs diagonally, so a right angle to it is the other diagonal: each step is 1 left and 1 up. From P(5, −3) it takes 4 steps to reach the mirror, at M(1, 1).</p>`,
+        `<p><strong>Go the same distance out the other side.</strong> 4 more steps of 1 left and 1 up from M.</p>
+         ${sum('M(1, 1) → 4 left, 4 up → P′(−3, 5)')}`,
+        `<p><strong>Same idea for y = −x.</strong> A right angle to it is a step of 1 left and 1 down. From P, 1 step reaches the mirror at (4, −4), so take 1 more step past it.</p>
+         ${sum('(4, −4) → 1 left, 1 down → P″(3, −5)')}
+         ${ans('(-3, 5) and (3, -5)')}`
       )}
-      ${tip('Check on the grid: the line from P to its image should cross the mirror line at a right angle, with the mirror exactly halfway.')}`,
+      <p><strong>The axes, for comparison.</strong> In the y-axis only x changes sign: (−5, −3). In the x-axis only y changes sign: (5, 3).</p>
+      ${tip('Reflect one vertex at a time, then join them up. Check on the grid: the line from P to its image crosses the mirror at a right angle, with the mirror exactly halfway.')}`,
 
     // Y8 10A Q7, Q10: lines of symmetry
     'y8-10a-symmetry': `
@@ -247,19 +249,19 @@
 
     // Y8 10B Q5: which vector moves the furthest
     'y8-10b-distance': `
-      <p class="hp-tag">Worked example: which vector moves a shape the greatest distance: (3, −4), (−5, 2) or (0, −6)?</p>
-      ${G(-6, 4, -7, 3, [
-        { seg: [0, 0, 3, -4], arrow: 'end' }, { seg: [0, 0, -5, 2], arrow: 'end' }, { seg: [0, 0, 0, -6], arrow: 'end' },
-        lab('(3, −4)', 3.3, -4.2, 'start'), lab('(−5, 2)', -5.2, 2.5, 'middle'), lab('(0, −6)', 0.3, -6.4, 'start')
-      ], { axes: true, unit: 21, alt: 'Three vectors drawn from the origin' })}
+      <p class="hp-tag">Worked example: which vector moves a shape the greatest distance: (1, −2), (−4, 0) or (2, 1)?</p>
+      ${G(-5, 3, -3, 2, [
+        { seg: [0, 0, 1, -2], arrow: 'end' }, { seg: [0, 0, -4, 0], arrow: 'end' }, { seg: [0, 0, 2, 1], arrow: 'end' },
+        lab('(1, −2)', 1.3, -2.3, 'start'), lab('(−4, 0)', -4, 0.5), lab('(2, 1)', 2.3, 1.2, 'start')
+      ], { axes: true, unit: 26, alt: 'Three vectors drawn from the origin on a grid' })}
       ${steps(
-        `<p><strong>A sloping move is the long side of a right-angled triangle.</strong> Use Pythagoras' theorem. The signs do not matter, because squaring makes them positive.</p>
-         ${sum('(3, −4): √(3² + 4²) = √25 = 5<br>(−5, 2): √(5² + 2²) = √29 ≈ 5.39')}`,
-        `<p><strong>A move along one axis is just its length.</strong> (0, −6) goes straight down 6.</p>
-         ${sum('5 &lt; 5.39 &lt; 6')}
-         ${ans('(0, -6)')}`
+        `<p><strong>Draw each vector from the same point.</strong> You do not need to work out any distances, just compare.</p>`,
+        `<p><strong>A move along one axis is just its length.</strong> (−4, 0) goes 4 to the left, so it moves 4.</p>`,
+        `<p><strong>A sloping move is a short cut.</strong> Going straight from start to end is shorter than going across and then up or down. (1, −2) is shorter than 1 + 2 = 3, and (2, 1) is shorter than 2 + 1 = 3. Both are less than 4.</p>
+         ${ans('(-4, 0)')}`
       )}
-      ${tip('You can compare the squares without finding square roots: 25, 29 and 36. The biggest square is the biggest distance.')}`,
+      <p><strong>The other way round?</strong> A sloping move is always longer than either of its parts on its own. So (6, −2) goes further than 6, and beats (0, 5).</p>
+      ${tip('Ignore the signs: they only give the direction. A move along an axis is its number; a sloping move is between its bigger part and its two parts added.')}`,
 
     // Y8 10B Q6, Q7, Q8, Q9: combining vectors and reverse vectors
     'y8-10b-combine': `
@@ -345,9 +347,9 @@
         { point: [-1, 1], name: 'C', pos: 'nw' }, { point: [1, 2], name: 'P', pos: 'ne' }, { point: [0, -1], name: 'P′', pos: 'se' }
       ], { axes: true, unit: 30, alt: 'A triangle turned a quarter turn clockwise about C' })}
       ${steps(
-        `<p><strong>Describe the arm from C to P.</strong> From C to P is 2 right and 1 up.</p>`,
-        `<p><strong>Turn the arm.</strong> A quarter turn clockwise turns "right" into "down" and "up" into "right". So 2 right, 1 up becomes 1 right, 2 down.</p>
-         ${sum('C(−1, 1) → 1 right, 2 down → (0, −1)')}
+        `<p><strong>Join C to P.</strong> From C the line goes 2 right and 1 up.</p>`,
+        `<p><strong>Turn the line CP a quarter turn clockwise about C.</strong> Trace it (or use compasses so it keeps its length), hold C still and turn the tracing until CP is at right angles to where it started. Read where P lands on the grid.</p>
+         ${sum('P lands on (0, −1): the line from C now points 1 right and 2 down')}
          ${ans('(0, -1)')}`,
         `<p><strong>A half turn (180°)</strong> just reverses the arm: 2 left and 1 down from C gives (−3, 0). Clockwise or anticlockwise does not matter for 180°.</p>`
       )}
@@ -356,17 +358,19 @@
     // Y8 10C Q5, Q6: rotating about the origin
     'y8-10c-origin': `
       <p class="hp-tag">Worked example: rotate P(−3, 4) about the origin by 180°, by 90° clockwise and by 90° anticlockwise.</p>
-      ${fig({ kind: 'plane', x: [-5, 5], y: [-5, 5], points: { P: [-3, 4], '90° cw': [4, 3], '180°': [3, -4], '90° acw': [-4, -3] }, alt: 'P and its three images after rotating about the origin' })}
+      ${G(-5, 5, -5, 5, [
+        { seg: [0, 0, -3, 4] }, { seg: [-3, 4, 3, -4], dash: true }, { seg: [0, 0, 4, 3], dash: true }, { seg: [0, 0, -4, -3], dash: true },
+        { point: [-3, 4], name: 'P', pos: 'nw' }, { point: [3, -4], name: '180°', pos: 'se' }, { point: [4, 3], name: '90° cw', pos: 'ne' }, { point: [-4, -3], name: '90° acw', pos: 'sw' }
+      ], { axes: true, unit: 21, alt: 'P and its three images after rotating about the origin' })}
       ${steps(
-        `<p><strong>180°: both signs change.</strong></p>
-         ${sum('(−3, 4) → (3, −4)')}`,
-        `<p><strong>90° clockwise: swap the numbers, then change the sign of the new second number.</strong></p>
-         ${sum('(−3, 4) → swap (4, −3) → (4, 3)')}`,
-        `<p><strong>90° anticlockwise: swap, then change the sign of the new first number.</strong></p>
-         ${sum('(−3, 4) → swap (4, −3) → (−4, −3)')}
+        `<p><strong>Join O to P.</strong> From O(0, 0) to P(−3, 4) the line goes 3 left and 4 up.</p>`,
+        `<p><strong>180°: draw a dashed line from P through O</strong> and go the same distance out the other side. The arm reverses: 3 right and 4 down.</p>
+         ${sum('O → 3 right, 4 down → (3, −4)')}`,
+        `<p><strong>90°: turn the line OP a quarter turn about O.</strong> Trace OP (or use compasses so it keeps its length), hold O still and turn the tracing a quarter turn clockwise, so OP ends up at right angles to where it started. Read where P lands on the grid. Then do the same, turning anticlockwise.</p>
+         ${sum('clockwise: P lands on (4, 3), the arm now points 4 right and 3 up<br>anticlockwise: P lands on (−4, −3), the arm now points 4 left and 3 down')}
          ${ans('(3, -4), (4, 3), (-4, -3)')}`
       )}
-      ${tip('270° one way is the same as 90° the other way, and 360° puts the point back where it started. Check each answer on the grid: it should be the same distance from O.')}`,
+      ${tip('270° one way is the same as 90° the other way, and 360° puts the point back where it started. Check each answer on the grid: it should be the same distance from O. Turning the page is a good check.')}`,
 
     // Y8 10C Q8, Q9: rotational symmetry of letters and shapes
     'y8-10c-letters': `
@@ -480,7 +484,7 @@
         `<p><strong>Name the two triangles.</strong> The cut runs from P to R, so the triangles are △PQR and △PRS.</p>`,
         `<p><strong>Pair up their sides.</strong></p>
          ${sum('PR = PR (shared)<br>QR = PS (marked equal)<br>PQ and SR: PQ is longer')}`,
-        `<p><strong>Decide.</strong> One pair of sides is not equal, so the triangles are not congruent. If all three pairs had matched, they would be congruent (SSS).</p>
+        `<p><strong>Decide.</strong> One pair of sides is not equal, so the triangles are not the same size and shape: they are not congruent. If all three pairs had matched, one triangle would fit exactly on the other, so they would be congruent.</p>
          ${ans('No')}`
       )}
       ${tip('The cut line belongs to both triangles, so it is always one equal pair. Then check the other two pairs.')}`,

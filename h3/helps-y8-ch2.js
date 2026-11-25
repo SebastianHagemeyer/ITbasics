@@ -591,13 +591,13 @@
         `<p><strong>(i) Undo the rule</strong> angle sum = (n − 2) × 180. Divide by 180 to get the number of triangles, then add 2.</p>
          ${sum('2700 ÷ 180 = 15<br>15 + 2 = 17')}
          ${ans('17')}`,
-        `<p><strong>(ii) Use the outside angles.</strong> Each exterior angle sits on a straight line with an interior angle.</p>
-         ${sum('180 − 168 = 12')}`,
-        `<p><strong>Walking around the outside of any polygon turns you through 360°</strong> in total, so count how many 12° turns make 360°.</p>
-         ${sum('360 ÷ 12 = 30')}
+        `<p><strong>(ii) Try a number of sides</strong> and use the rule from Example 9: interior angle = (n − 2) × 180 ÷ n.</p>
+         ${sum('n = 12: 10 × 180 ÷ 12 = 150° (too small)<br>n = 40: 38 × 180 ÷ 40 = 171° (too big)')}`,
+        `<p><strong>Adjust and try again.</strong> More sides give bigger angles, so the answer is between 12 and 40.</p>
+         ${sum('n = 30: 28 × 180 ÷ 30 = 168° ✓')}
          ${ans('30')}`
       )}
-      ${tip('Check (i): (17 − 2) × 180 = 2700. If the division does not come out whole, recheck your working, as sides come in whole numbers.')}`,
+      ${tip('Check each answer with the rule. (i): (17 − 2) × 180 = 2700 ✓. (ii): (30 − 2) × 180 = 5040, and 5040 ÷ 30 = 168 ✓. Sides come in whole numbers, so if a division does not come out whole, recheck your working.')}`,
 
     // y8-2E Q6, Q11: polygon diagrams with extended sides, regular shapes and parallel sides
     'y8-2e-diagram': `

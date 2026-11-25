@@ -117,16 +117,18 @@
       <p class="hp-story">Cordial and water are mixed in the ratio <span class="hp-hl">4 : 11</span>. (a) How much water goes with 20 mL of cordial? (b) How much drink does that make? (c) How much cordial goes with 33 mL of water?</p>
       ${fig({ kind: 'bar', parts: 15, shaded: 4, caption: 'cordial 4 parts : water 11 parts' })}
       ${steps(
-        `<p><strong>Find the size of one part.</strong> Cordial is 4 parts, and that is 20 mL.</p>
-         ${sum('1 part = 20 ÷ 4 = 5 mL')}`,
-        `<p><strong>Multiply for the part you want.</strong> Water is 11 parts. The whole drink is 4 + 11 = 15 parts.</p>
-         ${sum('(a) 11 × 5 = 55 mL<br>(b) 15 × 5 = 75 mL')}`,
-        `<p><strong>The other way works the same.</strong> 11 parts = 33 mL, so 1 part = 3 mL.</p>
-         ${sum('(c) 4 × 3 = 12 mL')}
+        `<p><strong>Write the ratio with headings</strong>, then find an equivalent ratio with 20 on the cordial side. To get from 4 to 20, multiply by 5. Do the same to the water.</p>
+         ${sum('cordial : water<br>&nbsp;&nbsp;&nbsp;4 : 11<br>&nbsp;&nbsp;20 : 55 &nbsp;&nbsp;(both × 5)')}
+         <p>(a) 55 mL of water.</p>`,
+        `<p><strong>The whole drink is both amounts added.</strong></p>
+         ${sum('(b) 20 + 55 = 75 mL')}`,
+        `<p><strong>The other way works the same.</strong> Now 33 goes on the water side. To get from 11 to 33, multiply by 3.</p>
+         ${sum('cordial : water<br>&nbsp;&nbsp;&nbsp;4 : 11<br>&nbsp;&nbsp;12 : 33 &nbsp;&nbsp;(both × 3)')}
+         <p>(c) 12 mL of cordial.</p>
          ${ans('55, 75, 12')}`
       )}
-      <p><strong>Given a difference?</strong> If there is 42 mL more water than cordial, that gap is 11 − 4 = 7 parts. So 1 part = 6 mL: 24 mL of cordial and 66 mL of water.</p>
-      ${tip('Type just the number: the unit is beside the box. Three-part ratios work the same way: find one part, then multiply.')}`,
+      <p><strong>Given a difference?</strong> If there is 42 mL more water than cordial: in the ratio 4 : 11 the water is 11 − 4 = 7 more. To get from 7 to 42, multiply by 6, so 4 : 11 becomes 24 : 66. That is 24 mL of cordial and 66 mL of water.</p>
+      ${tip('Type just the number: the unit is beside the box. Three-part ratios work the same way: multiply every number in the ratio by the same number.')}`,
 
     // Y8 6B Q5, Q6, Q9, Q10, Q11, Q14, Q15: dividing a total in a ratio
     'y8-6b-divide': `
@@ -208,13 +210,14 @@
     'y8-6c-factor': `
       <p class="hp-tag">Worked example: (a) <b>3 cm</b> on a map stands for <b>2.7 km</b>. (b) A <b>4 mm</b> insect is drawn <b>6 cm</b> long. Find each scale factor.</p>
       ${steps(
-        `<p><strong>Put both lengths in the same unit.</strong></p>
-         ${sum('2.7 km = 2700 m = 270 000 cm')}`,
-        `<p><strong>Scale factor = real length ÷ drawing length.</strong></p>
-         ${sum('270 000 ÷ 3 = 90 000, so the scale is 1 : 90 000')}
+        `<p><strong>Write the scale ratio drawing length : actual length, in the same unit.</strong></p>
+         ${sum('3 cm : 2.7 km<br>= 3 cm : 270 000 cm &nbsp;&nbsp;(2.7 km = 2700 m = 270 000 cm)')}`,
+        `<p><strong>Drop the units and make the first number 1.</strong> Divide both numbers by 3. The ratio is now 1 : scale factor.</p>
+         ${sum('3 : 270 000<br>= 1 : 90 000 &nbsp;&nbsp;(both ÷ 3)')}
          ${ans('90000')}`,
-        `<p><strong>Drawing bigger than real life?</strong> 6 cm = 60 mm. The same division gives a fraction.</p>
-         ${sum('4 ÷ 60 = 1/15, so the scale factor is 1/15')}
+        `<p><strong>Drawing bigger than real life?</strong> Same steps. The drawing length goes first.</p>
+         ${sum('6 cm : 4 mm<br>= 60 mm : 4 mm<br>= 60 : 4 = 15 : 1 &nbsp;&nbsp;(both ÷ 4)<br>= 1 : 1/15 &nbsp;&nbsp;(both ÷ 15)')}
+         <p>The scale factor is 1/15: the real insect is 15 times smaller than the drawing.</p>
          ${ans('1/15')}`
       )}
       <p><strong>Use the unitary method</strong> when the map length is awkward. If 2 1/2 cm stands for 30 km, then 1 cm stands for 30 ÷ 2.5 = 12 km. So 7 cm stands for 84 km, and 54 km needs 54 ÷ 12 = 4.5 cm.</p>
@@ -301,15 +304,17 @@
     'y8-6e-use': `
       <p class="hp-tag">Worked example: a printer prints <b>24 pages per minute</b>. (a) How many pages in 15 minutes? (b) How long for 1080 pages? (c) How many pages in 40 seconds?</p>
       ${steps(
-        `<p><strong>Want the amount? Multiply the rate by the time.</strong></p>
-         ${sum('(a) 24 × 15 = 360 pages')}`,
-        `<p><strong>Want the time? Divide the amount by the rate.</strong></p>
-         ${sum('(b) 1080 ÷ 24 = 45 minutes')}`,
-        `<p><strong>Make the time units match the rate.</strong> 40 s is 40/60 = 2/3 of a minute.</p>
-         ${sum('(c) 24 × 2/3 = 16 pages')}
+        `<p><strong>Write the rate in words, then multiply both quantities by the same number.</strong></p>
+         ${sum('24 pages in 1 minute<br>360 pages in 15 minutes &nbsp;&nbsp;(both × 15)')}
+         <p>(a) 360 pages.</p>`,
+        `<p><strong>Want the time? Find what takes 24 pages to 1080 pages</strong>: 1080 ÷ 24 = 45, so multiply both by 45.</p>
+         ${sum('24 pages in 1 minute<br>1080 pages in 45 minutes &nbsp;&nbsp;(both × 45)')}
+         <p>(b) 45 minutes.</p>`,
+        `<p><strong>Make the time units match.</strong> 1 minute is 60 seconds. Divide both by 3 to get to 20 seconds, then double.</p>
+         ${sum('24 pages in 60 seconds<br>8 pages in 20 seconds &nbsp;&nbsp;(both ÷ 3)<br>16 pages in 40 seconds &nbsp;&nbsp;(both × 2)')}
          ${ans('360, 45, 16')}`
       )}
-      ${tip('Read the rate\'s units: pages per minute needs the time in minutes. Hours to minutes: × 60. Type just the number.')}`,
+      ${tip('Whatever you do to one quantity, do to the other. If the rate is not "in 1", first divide both quantities to get the amount for 1 unit, then multiply up. Type just the number.')}`,
 
     // Y8 6E Q8, Q9: rates for areas and volumes
     'y8-6e-measure': `
@@ -357,16 +362,15 @@
     'y8-6e-together': `
       <p class="hp-tag">Worked example: pump A fills a pool in <b>4 hours</b>. Pump B fills it in <b>12 hours</b>. How long do they take together? What fraction does each pump fill?</p>
       ${steps(
-        `<p><strong>Find the fraction of the job each does in 1 hour.</strong></p>
-         ${sum('A: 1/4 of the pool per hour<br>B: 1/12 of the pool per hour')}`,
-        `<p><strong>Add them</strong> using a common denominator.</p>
-         ${sum('1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3 per hour')}
-         <p>A third each hour means the whole pool takes 3 hours.</p>`,
-        `<p><strong>Each share = its rate × the time.</strong></p>
-         ${sum('A: 3 × 1/4 = 3/4 &nbsp; B: 3 × 1/12 = 1/4 &nbsp; (3/4 + 1/4 = 1 ✓)')}
+        `<p><strong>Pick a time that both times go into</strong>: the lowest common multiple (LCM) of 4 and 12 is 12 hours. Work out how many pools each pump fills in that time.</p>
+         ${sum('In 12 hours:<br>A fills 12 ÷ 4 = 3 pools<br>B fills 12 ÷ 12 = 1 pool')}`,
+        `<p><strong>Add them</strong>: together they fill 3 + 1 = 4 pools in 12 hours. Divide both by 4.</p>
+         ${sum('4 pools in 12 hours<br>1 pool in 3 hours &nbsp;&nbsp;(both ÷ 4)')}`,
+        `<p><strong>Each pump's share of the work</strong> is its pools out of the total pools.</p>
+         ${sum('A: 3 out of 4 = 3/4 &nbsp; B: 1 out of 4 = 1/4 &nbsp; (3/4 + 1/4 = 1 ✓)')}
          ${ans('3, 3/4, 1/4')}`
       )}
-      ${tip('Type fractions in simplest form, like 3/4. The shares of the job must add to 1.')}`,
+      ${tip('Three workers? Use the LCM of all three times. Type fractions in simplest form, like 3/4. The shares of the job must add to 1.')}`,
 
     // Y8 6E Q16: best value in $/L
     'y8-6e-value': `
@@ -452,14 +456,14 @@
       ${steps(
         `<p><strong>One turn moves the bike one circumference.</strong></p>
          ${sum('4 × 1.8 = 7.2 m/s')}`,
-        `<p><strong>m/s to km/h: × 3.6.</strong> An hour has 3600 s and a kilometre has 1000 m, and 3600 ÷ 1000 = 3.6.</p>
-         ${sum('7.2 × 3.6 = 25.92 km/h')}`,
+        `<p><strong>Change to km/h: scale the rate up to 1 hour.</strong> Multiply both quantities by 60 to get 1 minute, then by 60 again to get 1 hour. Then change metres to kilometres.</p>
+         ${sum('7.2 m in 1 second<br>432 m in 1 minute &nbsp;&nbsp;(both × 60)<br>25 920 m in 1 hour &nbsp;&nbsp;(both × 60)<br>= 25.92 km in 1 hour')}`,
         `<p><strong>Time = distance ÷ speed, in matching units.</strong> 2 km = 2000 m.</p>
          ${sum('2000 ÷ 25 = 80 s')}
          ${ans('25.92, 80')}`
       )}
-      <p><strong>Other units:</strong> km/s to km/h is × 3600. 1 knot is 1.852 km/h, so 10 knots is 18.52 km/h.</p>
-      ${tip('m/s → km/h: × 3.6. km/h → m/s: ÷ 3.6. Type tiny times as a full decimal, like 0.002, and round only if asked.')}`,
+      <p><strong>Other units:</strong> km/s to km/h works the same way: 1 hour is 3600 seconds, so multiply both quantities by 3600. 1 knot is 1.852 km/h, so 10 knots is 18.52 km/h.</p>
+      ${tip('Write the speed as "distance in time", then multiply or divide both quantities until the time is the one you want. Type tiny times as a full decimal, like 0.002, and round only if asked.')}`,
 
     // Y8 6F Q8, Q11: trains in tunnels and races
     'y8-6f-puzzles': `

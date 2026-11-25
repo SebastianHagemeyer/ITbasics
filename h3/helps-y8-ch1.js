@@ -378,12 +378,12 @@
     'y8-1c-lcm': `
       <p class="hp-tag">Worked example: find the LCM of <b>8</b> and <b>10</b>.</p>
       ${steps(
-        `<p><strong>List the multiples of the bigger number.</strong></p>
-         ${chips(['10'], ['20'], ['30'], ['40'], ['50'])}`,
-        `<p><strong>Stop at the first one the smaller number goes into.</strong> 10, 20 and 30 do not divide by 8. 40 ÷ 8 = 5 ✓.</p>
+        `<p><strong>List some multiples of each number.</strong> Keep going until a number turns up in both lists.</p>
+         ${sum('Multiples of 8: 8, 16, 24, 32, 40, 48, ...<br>Multiples of 10: 10, 20, 30, 40, 50, ...')}`,
+        `<p><strong>Choose the smallest number that is in both lists.</strong></p>
          ${ans('40')}`
       )}
-      ${tip('LCM means the lowest common multiple: the smallest number that is in both times tables. If one number goes into the other, the bigger one is the LCM.')}`,
+      ${tip('LCM means the lowest common multiple: the smallest number that is in both times tables. 80 is in both lists too, but 40 is the lowest.')}`,
 
     // y8-1C Q2: highest common factor
     'y8-1c-hcf': `
@@ -405,8 +405,8 @@
         `<p><strong>A cube uses the number three times.</strong> Multiply two of them first.</p>
          ${sum('6³ = 6 × 6 × 6 = 36 × 6 = 216')}
          ${ans('169 and 216')}`,
-        `<p><strong>Tens numbers:</strong> work out the small square or cube, then add the zeros. Squaring doubles the zeros, cubing triples them.</p>
-         ${sum('70² = 4900 (7² = 49, two zeros)<br>50³ = 125 000 (5³ = 125, three zeros)')}`
+        `<p><strong>Tens numbers work the same way.</strong> Write out the multiplication and work it through.</p>
+         ${sum('70² = 70 × 70 = 4900<br>50³ = 50 × 50 × 50 = 2500 × 50 = 125 000')}`
       )}
       ${tip('6³ is not 6 × 3. The small 3 says how many 6s to multiply.')}`,
 
@@ -420,18 +420,19 @@
          ${sum('6 × 6 × 6 = 216, so ∛216 = 6')}
          ${ans('7 and 6')}`
       )}
-      ${tip('For tens numbers, split off the zeros: √2500 = 50, since 50 × 50 = 2500. A cube root needs the zeros in groups of three: ∛125 000 = 50.')}`,
+      ${tip('Tens numbers work the same way. √2500 = 50, since 50 × 50 = 2500. ∛125 000 = 50, since 50 × 50 × 50 = 125 000.')}`,
 
     // y8-1C Q7: LCM and HCF of three numbers
     'y8-1c-three': `
-      <p class="hp-tag">Worked example: find the LCM of <b>3, 4 and 10</b>.</p>
+      <p class="hp-tag">Worked example: find the LCM of <b>4, 5 and 10</b>.</p>
       ${steps(
-        `<p><strong>List multiples of the biggest number.</strong></p>
-         ${chips(['10'], ['20'], ['30'], ['40'], ['50'], ['60'])}`,
-        `<p><strong>Find the first one that both 3 and 4 go into.</strong> 30 fails for 4, and 20 and 40 fail for 3. 60 works for both.</p>
-         ${ans('60')}`
+        `<p><strong>List some multiples of each number</strong> until one number is in all three lists.</p>
+         ${sum('Multiples of 4: 4, 8, 12, 16, 20, ...<br>Multiples of 5: 5, 10, 15, 20, ...<br>Multiples of 10: 10, 20, ...')}`,
+        `<p><strong>Choose the smallest number that is in all three lists.</strong></p>
+         ${ans('20')}`
       )}
-      <p><strong>HCF of three numbers.</strong> For 16, 24 and 40, list the factors of the smallest (1, 2, 4, 8, 16) and find the biggest one that goes into the other two. 16 fails, but 8 goes into 24 and 40, so the HCF is 8.</p>
+      <p><strong>HCF of three numbers.</strong> List the factors of each number and choose the largest one that is in all three lists.</p>
+      ${sum('Factors of 16: 1, 2, 4, 8, 16<br>Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24<br>Factors of 40: 1, 2, 4, 5, 8, 10, 20, 40<br>HCF = 8')}
       ${tip('Read carefully: LCM is a multiple (bigger than or equal to the numbers), HCF is a factor (smaller than or equal to them).')}`,
 
     // y8-1C Q8: equal groups
@@ -457,7 +458,7 @@
         `<p><strong>The first time in both lists is the answer.</strong></p>
          ${ans('30')}`
       )}
-      ${tip('Three things work the same way. Lights every 2, 5 and 7 seconds: go through the multiples of 7 (7, 14, 21, ...), and 70 is the first that 2 and 5 also go into.')}`,
+      ${tip('Three things work the same way. For lights every 3, 5 and 10 seconds, list the multiples of each: 3, 6, 9, ..., 30 and 5, 10, 15, ..., 30 and 10, 20, 30. The first number in all three lists is 30.')}`,
 
     // y8-1C Q11: counting primes
     'y8-1c-primes': `
@@ -654,7 +655,7 @@
         `<p><strong>If the jump passes 0, split it.</strong> For −7 + 15, it takes 7 to reach 0, then 8 more.</p>
          ${sum('−7 + 15 = 8')}`
       )}
-      ${tip('The answer takes the sign of the number with the bigger size. Type a negative answer with the minus key: -5.')}`,
+      ${tip('If the jump stops before 0, the answer is negative. If it passes 0, the answer is positive. Type a negative answer with the minus key: -5.')}`,
 
     // y8-1E Q3: subtracting a positive number
     'y8-1e-subtract': `
@@ -667,7 +668,7 @@
         `<p><strong>Already below zero?</strong> Keep moving left, so add the sizes and keep the minus.</p>
          ${sum('−8 − 9 = −17')}`
       )}
-      ${tip('For big numbers like 145 − 230, swap them: 230 − 145 = 85. You took away more than you had, so the answer is -85.')}`,
+      ${tip('Big numbers work the same way. For 145 − 230, the first 145 steps left take you to 0, and 230 − 145 = 85 steps are still to go, so you finish at −85. Type it as -85.')}`,
 
     // y8-1E Q4: matching a number line
     'y8-1e-numberline': `
@@ -757,15 +758,18 @@
     'y8-1e-pair': `
       <p class="hp-tag">Worked example: find <b>(a, b)</b> if <b>a + b = 5</b> and <b>a − b = −9</b>.</p>
       ${steps(
-        `<p><strong>Add the two equations.</strong> The b's cancel.</p>
-         ${sum('(a + b) + (a − b) = 5 + (−9)<br>2a = −4, so a = −2')}`,
-        `<p><strong>Put a back into the first equation.</strong></p>
-         ${sum('−2 + b = 5, so b = 7')}`,
-        `<p><strong>Check the second equation</strong>, then type it as a point.</p>
-         ${sum('−2 − 7 = −9 ✓')}
+        `<p><strong>Guess a pair that fits the first equation</strong>, a + b = 5, and test it in the second. Keep a table of your tries.</p>
+         <div class="hp-table" role="table">
+           <div class="hp-tr hp-th" role="row"><span role="columnheader">a</span><span role="columnheader">b</span><span role="columnheader">a + b</span><span role="columnheader">a − b</span></div>
+           <div class="hp-tr" role="row"><span role="cell">0</span><span role="cell">5</span><span role="cell">5</span><span role="cell">−5 ✗</span></div>
+           <div class="hp-tr" role="row"><span role="cell">−1</span><span role="cell">6</span><span role="cell">5</span><span role="cell">−7 ✗</span></div>
+           <div class="hp-tr" role="row"><span role="cell">−2</span><span role="cell">7</span><span role="cell">5</span><span role="cell">−9 ✓</span></div>
+         </div>`,
+        `<p><strong>Use each try to improve the next.</strong> a − b came out −5, but it needs to be −9, which is smaller. Making a smaller and b bigger (still adding to 5) brings it down by 2 each time.</p>`,
+        `<p><strong>Both equations work for a = −2 and b = 7.</strong> Type it as a point.</p>
          ${ans('(-2, 7)')}`
       )}
-      ${tip('If the b parts do not cancel by adding, try subtracting one equation from the other to get rid of a instead.')}`,
+      ${tip('With 2b in an equation, do the same: guess a pair that fits one equation, then test it in the other. Check your final pair in both equations.')}`,
 
     // =====================================================================
     // Year 8 1F Adding and subtracting negative integers

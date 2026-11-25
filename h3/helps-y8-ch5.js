@@ -114,15 +114,15 @@
     'y8-5b-equiv': `
       <p class="hp-tag">Worked example: two of these are equivalent. Which is the odd one out? <b>5(w − 2)</b>, <b>5w − 2</b>, <b>−10 + 5w</b></p>
       ${steps(
-        `<p><strong>Write each one in its simplest form.</strong> Expand any brackets.</p>
-         ${sum('5(w − 2) = 5w − 10')}`,
-        `<p><strong>Reorder the terms.</strong> Terms can swap places as long as each keeps its own sign.</p>
-         ${sum('−10 + 5w = 5w − 10')}`,
-        `<p><strong>Check with a number</strong>, say w = 3.</p>
-         ${sum('5(3 − 2) = 5, &nbsp; 5 × 3 − 2 = 13, &nbsp; −10 + 15 = 5')}
+        `<p><strong>Substitute a number into all three</strong>, say w = 3.</p>
+         ${sum('5(3 − 2) = 5 × 1 = 5<br>5 × 3 − 2 = 15 − 2 = 13<br>−10 + 5 × 3 = −10 + 15 = 5')}
+         <p>The second one gives a different answer, so it cannot be equivalent to the others.</p>`,
+        `<p><strong>Try another number to be sure</strong>, say w = 10.</p>
+         ${sum('5(10 − 2) = 40, &nbsp; 5 × 10 − 2 = 48, &nbsp; −10 + 50 = 40')}
+         <p>The first and third match again. They will match for every value of w, so they are the equivalent pair.</p>
          ${ans('5w - 2')}`
       )}
-      ${tip('Equivalent means equal for every value of the letters. Watch the signs when you swap: 8 − h is −h + 8, not h − 8.')}`,
+      ${tip('Equivalent means equal for every value of the letters. One value that gives different answers proves two expressions are not equivalent. If a few different values all match, they are equivalent.')}`,
 
     // Y8 5B Q13, Q14, Q15, Q16: testing whether two expressions are equivalent
     'y8-5b-test': `
@@ -829,12 +829,12 @@
     'y8-5j-sci': `
       <p class="hp-tag">Worked example: write <b>500 000</b> and <b>0.06</b> in scientific notation.</p>
       ${steps(
-        `<p><strong>Big numbers: count how many places the point moves left</strong> to sit after the first digit.</p>
-         ${sum('500 000 = 5 × 10⁵ (5 places)')}`,
-        `<p><strong>Small numbers: the point moves right, so the power is negative.</strong></p>
-         ${sum('0.06 = 6 × 10⁻² (2 places)')}
+        `<p><strong>Big numbers: count the zeros after the first digit.</strong> 500 000 is a 5 followed by five zeros.</p>
+         ${sum('500 000 = 5 × 10⁵')}`,
+        `<p><strong>Small numbers: count the zeros in front of the digit</strong>, including the one before the point. The power is negative. 0.06 has two zeros and then a 6.</p>
+         ${sum('0.06 = 6 × 10⁻²')}
          ${ans('5, -2')}`,
-        `<p><strong>Going back:</strong> 7 × 10³ = 7000, and 3 × 10⁻⁴ = 0.0003.</p>`
+        `<p><strong>Going back:</strong> 7 × 10³ is a 7 followed by three zeros, 7000. 2 × 10⁻⁴ is four zeros and then a 2, 0.0002.</p>`
       )}
       <p><strong>Changing units:</strong> 1.2 × 10³ seconds is 1200 seconds, and 1200 ÷ 60 = 20 minutes.</p>
       ${tip('When the box asks for the power, type just the number, with a minus sign if it is negative, like -2.')}`,

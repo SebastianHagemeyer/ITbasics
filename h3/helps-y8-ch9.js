@@ -294,7 +294,9 @@
         `<p><strong>Write the rule and check one column.</strong> x = 2: 6 × 2 − 1 = 11 ✓.</p>
          ${ans('y=6x-1')}`
       )}
-      <p><strong>No x = 0 in the table?</strong> For x = 1, 2, 3, 4 and y = 6, 4, 2, 0, the step is −2. Step back from x = 1 to x = 0: 6 + 2 = 8. The rule is y = −2x + 8. A list of points like (1, 6), (2, 4), ... works the same way.</p>
+      <p><strong>No x = 0 in the table?</strong> For x = 1, 2, 3, 4 and y = 6, 4, 2, 0, the step is −2, so the rule is y = −2x + □. Substitute any point, say (2, 4), and choose the constant that makes it true.</p>
+      ${sum('4 = −2 × 2 + □<br>4 = −4 + □<br>□ = 8, so y = −2x + 8')}
+      <p>A list of points like (1, 6), (2, 4), ... works the same way.</p>
       ${tip('Type the rule starting with y =, like y=-2x+8.')}`,
 
     // Y8 9C Q4: rule from a graph
@@ -333,9 +335,10 @@
          ${fig({ kind: 'table', rows: [['x', '0', '1', '2', '3'], ['y', '−2', '2', '6', '10']] })}`,
         `<p><strong>Read the value at x = 0.</strong> It is −2.</p>
          ${ans('y=4x-2')}`,
-        `<p><strong>Neither point at x = 0?</strong> For (−2, 1) and (2, 9): up 8 in 4 steps, so 8 ÷ 4 = 2 per step. Go back from (2, 9) two steps: 9 − 4 = 5. The rule is y = 2x + 5.</p>`
+        `<p><strong>Neither point at x = 0?</strong> For (−2, 1) and (2, 9): up 8 in 4 steps, so 8 ÷ 4 = 2 per step and the rule is y = 2x + □. Substitute (2, 9) to find the constant.</p>
+         ${sum('9 = 2 × 2 + □<br>9 = 4 + □<br>□ = 5, so y = 2x + 5')}`
       )}
-      ${tip('To fill gaps in a table, start at a known value and add the step each time.')}`,
+      ${tip('To fill gaps in a table, start at a known value and add the step each time. Check your rule with the other point: 2 × (−2) + 5 = 1 ✓.')}`,
 
     // Y8 9C Q9: the same rule written another way
     'y8-9c-rewrite': `
@@ -358,8 +361,8 @@
          ${sum('12 ÷ 3 = 4 for each 1 across')}`,
         `<p><strong>Read y at x = 0.</strong> It is −1.</p>
          ${ans('y=4x-1')}`,
-        `<p><strong>Far from x = 0?</strong> Through (10, 3) and (14, 13): y goes up 10 in 4 steps, so 10 ÷ 4 = 2.5 per step. In between: 5.5, 8, 10.5. Going back 10 steps to x = 0 takes away 25: 3 − 25 = −22.</p>
-         ${sum('y = 2.5x − 22, typed y=5x/2-22')}`
+        `<p><strong>Far from x = 0?</strong> Through (10, 3) and (14, 13): y goes up 10 in 4 steps, so 10 ÷ 4 = 2.5 per step. In between: 5.5, 8, 10.5. The rule is y = 2.5x + □: substitute (10, 3) to find the constant.</p>
+         ${sum('3 = 2.5 × 10 + □<br>3 = 25 + □<br>□ = −22, so y = 2.5x − 22, typed y=5x/2-22')}`
       )}
       ${tip('A decimal coefficient can be typed as a decimal or a fraction: 2.5x or 5x/2.')}`,
 
@@ -609,13 +612,15 @@
     'y8-9f-twopoints': `
       <p class="hp-tag">Worked example: a straight line passes through <b>(5, 3)</b> and <b>(7, 9)</b>. Find its intercepts.</p>
       ${steps(
-        `<p><strong>Find the step.</strong> From x = 5 to x = 7 is 2 across, and y goes from 3 to 9, up 6. So y goes up 3 for each 1 across.</p>`,
-        `<p><strong>Step back one at a time to x = 0</strong>, taking 3 off y each time.</p>
-         ${fig({ kind: 'table', rows: [['x', '7', '6', '5', '4', '3', '2', '1', '0'], ['y', '9', '6', '3', '0', '−3', '−6', '−9', '−12']] })}`,
-        `<p><strong>Read the intercepts.</strong> y = 0 at x = 4, and at x = 0, y = −12.</p>
+        `<p><strong>Find the rule first.</strong> From x = 5 to x = 7 is 2 across, and y goes from 3 to 9, up 6. So y goes up 3 for each 1 across, and the rule is y = 3x + □. Substitute (5, 3) to find the constant.</p>
+         ${sum('3 = 3 × 5 + □<br>3 = 15 + □<br>□ = −12, so y = 3x − 12')}`,
+        `<p><strong>y-intercept: substitute x = 0.</strong></p>
+         ${sum('y = 3(0) − 12 = −12, so (0, −12)')}`,
+        `<p><strong>x-intercept: substitute y = 0 and solve.</strong> Add 12 to both sides, then divide both sides by 3.</p>
+         ${sum('0 = 3x − 12<br>12 = 3x<br>x = 4, so (4, 0)')}
          ${ans('(4,0) and (0,-12)')}`
       )}
-      ${tip('The table also gives the rule: up 3 each step and −12 at x = 0, so y = 3x − 12. Check: 3 × 7 − 12 = 9 ✓.')}`,
+      ${tip('Check the rule with the other point before you use it: 3 × 7 − 12 = 9 ✓.')}`,
 
     // Y8 9F Q10, Q11: intercepts in a story
     'y8-9f-context': `
@@ -867,10 +872,10 @@
          ${ans('45, 40, 35, 30, 25')}`,
         `<p><strong>Rule: start − rate × time.</strong></p>
          ${ans('V=50-5t')}`,
-        `<p><strong>Use the rule.</strong></p>
-         ${sum('after 2.5 min: 50 − 5 × 2.5 = 50 − 12.5 = 37.5 L<br>down to 20 L: it loses 30 L, and 30 ÷ 5 = 6 minutes<br>empty: 50 ÷ 5 = 10 minutes')}`
+        `<p><strong>Use the rule.</strong> For a time, substitute t. For an amount, substitute V and solve: subtract 50 from both sides, then divide both sides by −5.</p>
+         ${sum('after 2.5 min: V = 50 − 5 × 2.5 = 50 − 12.5 = 37.5 L<br>down to 20 L: 20 = 50 − 5t → −30 = −5t → t = 6 minutes<br>empty: 0 = 50 − 5t → −50 = −5t → t = 10 minutes')}`
       )}
-      ${tip('For "how long until it reaches ...", work out how much it has lost, then divide by the rate.')}`,
+      ${tip('For "how long until it reaches ...", put that amount into the rule and solve the equation. Dividing a negative by a negative gives a positive time.')}`,
 
     // Y8 9I Q8, Q9: what the numbers in a rule mean
     'y8-9i-meaning': `

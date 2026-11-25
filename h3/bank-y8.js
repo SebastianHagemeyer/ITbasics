@@ -5838,10 +5838,10 @@ window.H3_BANK.sets.push(
    "section": "Problem-solving",
    "stem": "Complete conversion table B. The dots mean the digit repeats forever.",
    "type": "ordered",
-   "prompt": "Column 1 (given: 0.111...): type the fraction and the percentage, separated by a comma. Give the percentage as a mixed numeral, like 12 1/2%. Write the fraction in simplest form.",
+   "prompt": "Column 1 (given: 0.333...): type the fraction and the percentage, separated by a comma. Give the percentage as a mixed numeral, like 12 1/2%. Write the fraction in simplest form.",
    "answer": [
-    "1/9",
-    "11 1/9%"
+    "1/3",
+    "33 1/3%"
    ],
    "simplest": true,
    "stemFigure": {
@@ -5855,9 +5855,9 @@ window.H3_BANK.sets.push(
      ],
      [
       "Decimal",
-      "0.111...",
-      "0.222...",
-      "0.444..."
+      "0.333...",
+      "0.666...",
+      "0.999..."
      ],
      [
       "Percentage",
@@ -5875,10 +5875,10 @@ window.H3_BANK.sets.push(
    "section": "Problem-solving",
    "stem": "Complete conversion table B. The dots mean the digit repeats forever.",
    "type": "ordered",
-   "prompt": "Column 2 (given: 0.222...): type the fraction and the percentage, separated by a comma. Give the percentage as a mixed numeral, like 12 1/2%. Write the fraction in simplest form.",
+   "prompt": "Column 2 (given: 0.666...): type the fraction and the percentage, separated by a comma. Give the percentage as a mixed numeral, like 12 1/2%. Write the fraction in simplest form.",
    "answer": [
-    "2/9",
-    "22 2/9%"
+    "2/3",
+    "66 2/3%"
    ],
    "simplest": true
   },
@@ -5889,10 +5889,10 @@ window.H3_BANK.sets.push(
    "section": "Problem-solving",
    "stem": "Complete conversion table B. The dots mean the digit repeats forever.",
    "type": "ordered",
-   "prompt": "Column 3 (given: 0.444...): type the fraction and the percentage, separated by a comma. Give the percentage as a mixed numeral, like 12 1/2%. Write the fraction in simplest form.",
+   "prompt": "Column 3 (given: 0.999...): type the fraction and the percentage, separated by a comma. Write the fraction in simplest form.",
    "answer": [
-    "4/9",
-    "44 4/9%"
+    "1",
+    "100%"
    ],
    "simplest": true
   },
