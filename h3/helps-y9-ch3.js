@@ -452,7 +452,7 @@
 
     // y9-3D Q5, Q6, Q9: cubes and exact diagonals
     'y9-3d-cube': `
-      <p class="hp-tag">Worked example: a cube has sides of <b>5 cm</b>. Find AC exactly, in simplest surd form, then AD to one decimal place.</p>
+      <p class="hp-tag">Worked example: a cube has sides of <b>5 cm</b>. Find AC as an exact value, then AD to one decimal place.</p>
       ${D([
         { poly: [[0, 0], [5.8, 1.3], [5.8, 5.3]], fill: true },
         { seg: [0, 0, 4, 0] }, { seg: [4, 0, 4, 4] }, { seg: [4, 4, 0, 4] }, { seg: [0, 4, 0, 0] }, { seg: [0, 4, 1.8, 5.3] }, { seg: [4, 4, 5.8, 5.3] },
@@ -463,14 +463,14 @@
         { label: '5 cm', at: [2, -0.6] }
       ], 'A cube with sides 5 cm. AC is the diagonal of the bottom face and AD goes to the opposite top corner', 30)}
       ${steps(
-        `<p><strong>AC is the diagonal of the bottom face.</strong></p>
-         ${sum('AC² = 5² + 5² = 25 + 25 = 50<br>AC = √50 = √25 × √2 = 5√2')}`,
+        `<p><strong>AC is the diagonal of the bottom face.</strong> An exact value keeps the square root, so stop at √50.</p>
+         ${sum('AC² = 5² + 5² = 25 + 25 = 50<br>AC = √50')}`,
         `<p><strong>Triangle ACD has its right angle at C.</strong> Use AC² straight away, without rounding.</p>
          ${sum('AD² = 50 + 5² = 75<br>AD = √75 = 8.660... ≈ 8.7')}
-         ${ans('5√2 and 8.7')}`
+         ${ans('√50 and 8.7')}`
       )}
-      <p><strong>Simplest surd form:</strong> find the biggest square number that divides the number under the root. 50 = 25 × 2, so √50 = 5√2. In the same way, √75 = √25 × √3 = 5√3.</p>
-      ${tip('Type a simplified surd like 5sqrt2 or 5√2. If a cube sits inside a sphere with all eight corners touching it, the corner-to-corner diagonal is a diameter of the sphere.')}`,
+      <p><strong>Exact or rounded?</strong> √50 is exact. 7.07 is only close to it, so it is not an exact value. Keep the √ sign whenever a question says exact.</p>
+      ${tip('Type an exact value like sqrt50 or √50. If a cube sits inside a sphere with all eight corners touching it, the corner-to-corner diagonal is a diameter of the sphere.')}`,
 
     // y9-3D Q11: the height of a square-based pyramid
     'y9-3d-pyramid': `
@@ -484,15 +484,15 @@
       ], 'A square-based pyramid with base edges 8 cm, sloping edges 9 cm and a dashed height h from the centre of the base', 40)}
       ${steps(
         `<p><strong>Base diagonal.</strong></p>
-         ${sum('d² = 8² + 8² = 128<br>d = √128 = √64 × √2 = 8√2')}`,
-        `<p><strong>The height stands at the centre of the base</strong>, so use half the diagonal.</p>
-         ${sum('half = 4√2, and (4√2)² = 16 × 2 = 32')}`,
+         ${sum('d² = 8² + 8² = 128<br>d = √128')}`,
+        `<p><strong>The height stands at the centre of the base</strong>, so use half the diagonal. Pythagoras needs its square, and halving a length divides its square by 4.</p>
+         ${sum('(half the diagonal)² = 128 ÷ 4 = 32')}`,
         `<p><strong>The sloping edge is the hypotenuse.</strong></p>
          ${sum('h² = 9² − 32 = 81 − 32 = 49<br>h = 7')}
-         ${ans('8√2 and 7')}`
+         ${ans('√128 and 7')}`
       )}
       <p><strong>Given the slant height of a face instead?</strong> It runs from the top to the middle of a base edge, so it pairs with half the base edge. Base edges 10 and slant height 13 give h² = 13² − 5² = 169 − 25 = 144, so h = 12.</p>
-      ${tip('A sloping edge goes with half the diagonal; a slant height goes with half an edge. Type surds like 8sqrt2.')}`,
+      ${tip('A sloping edge goes with half the diagonal; a slant height goes with half an edge. Type the exact diagonal like sqrt128.')}`,
 
     // y9-3D Q12: the shortest path over the faces of a box
     'y9-3d-spider': `
@@ -682,16 +682,14 @@
       <p class="hp-tag">Worked example: a right-angled triangle has shorter sides <b>2</b> and <b>6</b>. Find the hypotenuse exactly, then the exact value of sin θ, where θ is opposite the side of length 2.</p>
       ${tri({ A: [0, 0], C: [6, 0], B: [6, 2] }, 'C', { AC: '6', BC: '2', AB: '?' }, { A: 'θ' }, 'A right-angled triangle with shorter sides 6 and 2; θ is opposite the 2', 34)}
       ${steps(
-        `<p><strong>Pythagoras, then simplify the surd.</strong></p>
-         ${sum('H² = 2² + 6² = 4 + 36 = 40<br>H = √40 = √4 × √10 = 2√10')}`,
-        `<p><strong>Write the ratio using the exact sides.</strong> Cancel what you can.</p>
-         ${sum('sin θ = O/H = 2/(2√10) = 1/√10')}`,
-        `<p><strong>To clear the surd from the bottom</strong>, multiply the top and bottom by √10.</p>
-         ${sum('1/√10 = √10/10')}
-         ${ans('√10/10')}`
+        `<p><strong>Pythagoras.</strong> Leave the hypotenuse as a square root, so it stays exact.</p>
+         ${sum('H² = 2² + 6² = 4 + 36 = 40<br>H = √40')}`,
+        `<p><strong>Write the ratio straight from the exact sides.</strong></p>
+         ${sum('sin θ = O/H = 2/√40')}
+         ${ans('2/√40')}`
       )}
-      <p>Do exactly the same with the 45° and the 30° to 60° triangles in the questions: find the missing side as a surd, then write each ratio and simplify.</p>
-      ${tip('1/√10 and √10/10 are the same number. Type them as 1/sqrt10 or sqrt10/10.')}`,
+      <p>Do exactly the same with the 45° and the 30° to 60° triangles in the questions: find the missing side as a square root, then write each ratio from the sides. A value like 1/√2 is exact, and is a fine answer as it stands.</p>
+      ${tip('Type it as 2/sqrt40. Any form with the same value is marked right, so there is no need to tidy it up.')}`,
 
     // =====================================================================
     // Year 9 3G Solving for the denominator
@@ -700,12 +698,12 @@
     'y9-3g-solve': `
       <p class="hp-tag">Worked example: solve (a) <b>tan 49° = 5/x</b> (b) <b>9.6/x = cos 22°</b>, correct to two decimal places.</p>
       ${steps(
-        `<p><strong>x is on the bottom.</strong> Multiply both sides by x to bring it up.</p>
-         ${sum('(a) x × tan 49° = 5')}`,
-        `<p><strong>Then divide by the trig value.</strong></p>
-         ${sum('(a) x = 5 ÷ tan 49° = 4.3464... ≈ 4.35')}`,
-        `<p><strong>So x and the trig value just swap places.</strong></p>
-         ${sum('(b) x = 9.6 ÷ cos 22° = 10.353... ≈ 10.35')}
+        `<p><strong>x is on the bottom.</strong> Multiply both sides of the equation by x to bring it up.</p>
+         ${sum('(a) tan 49° = 5/x<br>&nbsp;&nbsp;&nbsp;&nbsp;x tan 49° = 5<br>(b) 9.6/x = cos 22°<br>&nbsp;&nbsp;&nbsp;&nbsp;9.6 = x cos 22°')}`,
+        `<p><strong>Divide both sides of the equation by the trig value.</strong></p>
+         ${sum('(a) x = 5/tan 49°<br>(b) x = 9.6/cos 22°')}`,
+        `<p><strong>Evaluate and round</strong> to two decimal places.</p>
+         ${sum('(a) 5 ÷ tan 49° = 4.3464... ≈ 4.35<br>(b) 9.6 ÷ cos 22° = 10.353... ≈ 10.35')}
          ${ans('4.35 and 10.35')}`
       )}
       ${tip('Sense check: sin and cos are less than 1, so dividing by them makes the answer bigger than the number on top.')}`,
@@ -718,11 +716,11 @@
         `<p><strong>Label the sides from the angle.</strong> 9.5 is O and x is H, so use SOH.</p>`,
         `<p><strong>Write the equation.</strong> This time x is on the bottom.</p>
          ${sum('sin 64° = 9.5/x')}`,
-        `<p><strong>Swap x and sin 64°.</strong></p>
-         ${sum('x = 9.5 ÷ sin 64° = 10.569... ≈ 10.57')}
+        `<p><strong>Multiply both sides by x, then divide both sides by sin 64°.</strong></p>
+         ${sum('x sin 64° = 9.5<br>x = 9.5/sin 64° = 10.569... ≈ 10.57')}
          ${ans('10.57')}`
       )}
-      <p><strong>Top or bottom?</strong> If the side you want is on top of the ratio, multiply. If it is on the bottom, divide. In stories, a string, a ramp or a glide path is usually the hypotenuse, and the height is opposite the angle at the ground.</p>
+      <p><strong>Spotting the hypotenuse in stories:</strong> a string, a ramp or a glide path is usually the hypotenuse, and the height is opposite the angle at the ground.</p>
       ${tip('Check: the hypotenuse must come out the longest side. 10.57 is longer than 9.5 ✓.')}`,
 
     // y9-3G Q3, Q6: two unknown sides, and perimeters
@@ -731,7 +729,7 @@
       ${tri(rtA(48, 5.4), 'C', { AC: '7.2', AB: 'x', BC: 'y' }, { A: '48°' }, 'A right-angled triangle with a 48° angle, adjacent side 7.2, hypotenuse x and opposite side y', 40)}
       ${steps(
         `<p><strong>x is H and 7.2 is A:</strong> CAH, with x on the bottom.</p>
-         ${sum('cos 48° = 7.2/x, so x = 7.2 ÷ cos 48° = 10.760... ≈ 10.8')}`,
+         ${sum('cos 48° = 7.2/x<br>x cos 48° = 7.2<br>x = 7.2/cos 48° = 10.760... ≈ 10.8')}`,
         `<p><strong>y is O and 7.2 is A:</strong> TOA, with y on top.</p>
          ${sum('tan 48° = y/7.2, so y = 7.2 × tan 48° = 7.996... ≈ 8.0')}
          ${ans('x = 10.8, y = 8.0')}`,
@@ -759,8 +757,8 @@
       <p class="hp-tag">Worked example: find the other two sides to three decimal places. Then compare sin 35° ÷ cos 35° with tan 35°.</p>
       ${tri(rtA(35, 5.2), 'C', { BC: '3 cm', AC: 'a', AB: 'h' }, { A: '35°' }, 'A right-angled triangle with a 35° angle and 3 cm opposite it', 40)}
       ${steps(
-        `<p><strong>Both unknown sides have x on the bottom.</strong></p>
-         ${sum('tan 35° = 3/a, so a = 3 ÷ tan 35° = 4.284<br>sin 35° = 3/h, so h = 3 ÷ sin 35° = 5.230')}`,
+        `<p><strong>Both unknown sides end up on the bottom.</strong> Multiply both sides by the unknown, then divide by the trig value.</p>
+         ${sum('tan 35° = 3/a, so a tan 35° = 3 and a = 3/tan 35° = 4.284<br>sin 35° = 3/h, so h sin 35° = 3 and h = 3/sin 35° = 5.230')}`,
         `<p><strong>Compare.</strong></p>
          ${sum('sin 35° ≈ 0.57, cos 35° ≈ 0.82<br>0.57 ÷ 0.82 = 0.695... ≈ 0.70<br>tan 35° = 0.700... ≈ 0.70 ✓')}
          ${ans('0.70')}`,

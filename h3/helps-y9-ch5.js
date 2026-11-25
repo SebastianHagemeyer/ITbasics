@@ -92,12 +92,14 @@
       ${steps(
         `<p><strong>One tile:</strong> the scale shows whole grams, so go 0.5 g either way.</p>
          ${sum('19 − 0.5 = 18.5 &nbsp; and &nbsp; 19 + 0.5 = 19.5')}`,
-        `<p><strong>A pack: multiply each limit by the number of tiles.</strong></p>
-         ${sum('18.5 × 30 = 555<br>19.5 × 30 = 585')}
-         ${ans('18.5, 19.5 then 555, 585')}`,
-        `<p><strong>Gap between lowest and highest total:</strong> 585 − 555 = 30 g. That is 30 tiles × the 1 g gap for one tile.</p>`
+        `<p><strong>A pack: find the weight from the reading, and the biggest possible error.</strong> Each tile can be up to 0.5 g out, so 30 tiles can be up to 30 lots of 0.5 g out.</p>
+         ${sum('Calculated weight = 30 × 19 = 570 g<br>Maximum error = 30 × 0.5 = 15 g')}`,
+        `<p><strong>Take away and add the maximum error.</strong></p>
+         ${sum('Lower limit = 570 − 15 = 555 g<br>Upper limit = 570 + 15 = 585 g')}
+         ${ans('18.5, 19.5 then 555, 585')}
+         <p>Check: 30 × 18.5 = 555 and 30 × 19.5 = 585 ✓. The gap between lowest and highest is 2 × 15 = 30 g.</p>`
       )}
-      <p><strong>A scale marked in steps:</strong> a jug marked every 10 mL reading 0.64 L can be 5 mL (0.005 L) out either way, so 0.635 L to 0.645 L. Six of them: 3.81 L to 3.87 L.</p>
+      <p><strong>A scale marked in steps:</strong> a jug marked every 10 mL reading 0.64 L can be 5 mL (0.005 L) out either way. Six of them: 6 × 0.64 = 3.84 L, maximum error 6 × 0.005 = 0.03 L, so 3.81 L to 3.87 L.</p>
       ${tip('Halve the step the scale shows, and keep the units the same as the reading. Type the lower value first.')}`,
 
     // Y9 5A Q9, Q10: working back from a percentage error
@@ -112,11 +114,15 @@
       )}
       <p class="hp-tag">Worked example (b): a mass is recorded as <b>42.3 kg</b>, which has a <b>3%</b> error. What could the actual mass be?</p>
       ${steps(
-        `<p><strong>Now the actual value is unknown</strong>, and the 3% is of the actual. So the record is 103% or 97% of the actual.</p>
-         ${sum('actual × 1.03 = 42.3, so actual = 42.3 ÷ 1.03 = 41.06...<br>actual × 0.97 = 42.3, so actual = 42.3 ÷ 0.97 = 43.60...')}
+        `<p><strong>Use the formula.</strong> Percentage error = error ÷ actual × 100. The actual value is unknown now, so the 3% is of the actual.</p>
+         ${sum('3 = error ÷ actual × 100<br>so error = 0.03 × actual')}`,
+        `<p><strong>The record is the actual plus or minus the error.</strong> If the record is too high:</p>
+         ${sum('42.3 = actual + 0.03 × actual = 1.03 × actual<br>actual = 42.3 ÷ 1.03 = 41.06...')}`,
+        `<p><strong>If the record is too low:</strong></p>
+         ${sum('42.3 = actual − 0.03 × actual = 0.97 × actual<br>actual = 42.3 ÷ 0.97 = 43.60...')}
          ${ans('41.1, 43.6')}`
       )}
-      ${tip('Read which value you know. Known actual: multiply. Known measurement: divide by 1.03 and 0.97 (or whatever the percentage gives). Type the smaller value first.')}`,
+      ${tip('Read which value you know. Known actual: find the error first, then add and take it away. Known measurement: write the record as actual ± error, then divide. Type the smaller value first.')}`,
 
     // Y9 5A Q11: the mean of several readings
     'y9-5a-mean': `
@@ -192,10 +198,10 @@
       <p class="hp-tag">Worked example: this triangle has perimeter <b>P = 19.8 cm</b>. Find x.</p>
       ${fig(F.b_findx)}
       ${steps(
-        `<p><strong>Take away the sides you know.</strong></p>
-         ${sum('19.8 − 7.4 = 12.4')}`,
-        `<p><strong>Share what is left between the equal sides.</strong> There are two sides of x.</p>
-         ${sum('12.4 ÷ 2 = 6.2')}
+        `<p><strong>Add all the lengths and set them equal to the perimeter.</strong> There are two sides of x.</p>
+         ${sum('7.4 + x + x = 19.8<br>7.4 + 2x = 19.8')}`,
+        `<p><strong>Solve for the unknown.</strong> Take 7.4 from both sides, then divide both sides by 2.</p>
+         ${sum('2x = 12.4<br>x = 6.2')}
          ${ans('6.2')}`
       )}
       <p><strong>Sides written with x:</strong> a rectangle 3x by x has P = 3x + x + 3x + x = 8x. If P = 36, then 8x = 36 and x = 36 ÷ 8 = 4.5.</p>
@@ -700,13 +706,13 @@
         `<p><strong>Two triangle ends.</strong></p>
          ${sum('2 × ½ × 12 × 5 = 60')}`,
         `<p><strong>Three rectangles</strong>, one for each side of the triangle, all 8 cm long.</p>
-         ${sum('(12 + 5 + 13) × 8 = 30 × 8 = 240')}`,
+         ${sum('12 × 8 + 5 × 8 + 13 × 8<br>= 96 + 40 + 104 = 240')}`,
         `<p><strong>Add.</strong></p>
          ${sum('60 + 240 = 300')}
          ${ans('300')}`
       )}
       <p><strong>Other solids:</strong> list every face. A triangular pyramid has a triangle base and three sloping triangles. When two solids are joined (a pyramid on a cube), the faces where they touch are hidden, so leave them out.</p>
-      ${tip('Any prism: SA = 2 × area of the end + perimeter of the end × length. It works for L shapes too.')}`,
+      ${tip('Sketch the net and tick off each face as you add it, so none is missed or counted twice.')}`,
 
     // Y9 5F Q6, Q7: painting the outside, but not the floor
     'y9-5f-paint': `
@@ -758,9 +764,9 @@
         `<p><strong>Find the sloping side.</strong> The height splits the triangle into two right-angled triangles with base 3 and height 5.</p>
          ${sum('c = √(3² + 5²) = √34 = 5.830...')}`,
         `<p><strong>Ends and rectangles.</strong></p>
-         ${sum('ends: 2 × ½ × 6 × 5 = 30<br>rectangles: (6 + 5.830... + 5.830...) × 10 = 176.619...')}`,
+         ${sum('ends: 2 × ½ × 6 × 5 = 30<br>bottom: 6 × 10 = 60<br>two sloping sides: 2 × 5.830... × 10 = 116.619...')}`,
         `<p><strong>Add.</strong></p>
-         ${sum('30 + 176.619... = 206.619...')}
+         ${sum('30 + 60 + 116.619... = 206.619...')}
          ${ans('206.6')}`
       )}
       <p><strong>Pyramid with a sloping edge:</strong> base 6 cm, edges 9 cm. Each face's height is √(9² − 3²) = √72 = 8.485..., so SA = 36 + 4 × ½ × 6 × 8.485... = 137.8 cm².</p>

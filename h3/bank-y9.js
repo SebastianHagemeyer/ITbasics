@@ -35467,8 +35467,9 @@ window.H3_BANK.sets.push(
    "section": "Fluency",
    "stem": "This cube has sides of $3$ cm.",
    "type": "numeric",
-   "prompt": "Find the length of $AC$ as an exact value, in simplest surd form.",
+   "prompt": "Find the length of $AC$ as an exact value.",
    "answer": "3sqrt2",
+   "allowExpr": true,
    "stemFigure": {
     "kind": "diagram",
     "unit": 28.87,
@@ -35639,8 +35640,7 @@ window.H3_BANK.sets.push(
      }
     ]
    },
-   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
-   "as": "surd"
+   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41"
   },
   {
    "id": "q5b",
@@ -35661,8 +35661,9 @@ window.H3_BANK.sets.push(
    "section": "Fluency",
    "stem": "Look at this solid. Angles $ABC$ and $ACD$ are right angles.",
    "type": "numeric",
-   "prompt": "Find the length of $AC$ as an exact value, in simplest surd form.",
+   "prompt": "Find the length of $AC$ as an exact value.",
    "answer": "2sqrt34",
+   "allowExpr": true,
    "stemFigure": {
     "kind": "diagram",
     "unit": 20.51,
@@ -35848,8 +35849,7 @@ window.H3_BANK.sets.push(
      }
     ]
    },
-   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
-   "as": "surd"
+   "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41"
   },
   {
    "id": "q6b",
@@ -36349,7 +36349,8 @@ window.H3_BANK.sets.push(
    "stem": "For each square-based pyramid, find (i) the exact length of the diagonal of the base, using a surd, and (ii) the height of the pyramid, correct to two decimal places.",
    "type": "numeric",
    "prompt": "Base edges $4$ cm, sloping edges $7$ cm: (i) the exact length of the base diagonal.",
-   "answer": "2sqrt2",
+   "answer": "4sqrt2",
+   "allowExpr": true,
    "figure": {
     "kind": "diagram",
     "unit": 25.48,
@@ -36481,8 +36482,7 @@ window.H3_BANK.sets.push(
     ]
    },
    "hint": "Give an exact value: type a square root as sqrt, for example 3sqrt5 or sqrt41",
-   "units": "cm",
-   "as": "surd"
+   "units": "cm"
   },
   {
    "id": "q11b",
@@ -36505,6 +36505,7 @@ window.H3_BANK.sets.push(
    "type": "numeric",
    "prompt": "Base edges $6$ cm, slant height of each face $8$ cm: (i) the exact length of the base diagonal.",
    "answer": "6sqrt2",
+   "allowExpr": true,
    "figure": {
     "kind": "diagram",
     "unit": 18.36,
@@ -36653,8 +36654,7 @@ window.H3_BANK.sets.push(
      }
     ]
    },
-   "units": "cm",
-   "as": "surd"
+   "units": "cm"
   },
   {
    "id": "q11d",
@@ -41848,8 +41848,9 @@ window.H3_BANK.sets.push(
    "section": "Enrichment",
    "stem": "Values such as $\\sqrt{2}$, $\\sqrt{3}$ and $\\frac{1}{\\sqrt{2}}$ are called exact values. Look at this triangle.",
    "type": "numeric",
-   "prompt": "Use Pythagoras' theorem to find the exact length $BC$, in simplest surd form.",
+   "prompt": "Use Pythagoras' theorem to find the exact length $BC$.",
    "answer": "4sqrt2",
+   "allowExpr": true,
    "stemFigure": {
     "kind": "diagram",
     "unit": 35.36,
@@ -41956,8 +41957,7 @@ window.H3_BANK.sets.push(
      }
     ]
    },
-   "as": "surd",
-   "hint": "Type a square root as sqrt, for example 3sqrt5"
+   "hint": "Give an exact value: type a square root as sqrt, for example sqrt41 or 3sqrt5"
   },
   {
    "id": "q10b",
@@ -42000,8 +42000,9 @@ window.H3_BANK.sets.push(
    "section": "Enrichment",
    "stem": "Now look at this second triangle.",
    "type": "numeric",
-   "prompt": "Use Pythagoras' theorem to find the exact length $BC$, in simplest surd form.",
+   "prompt": "Use Pythagoras' theorem to find the exact length $BC$.",
    "answer": "3sqrt3",
+   "allowExpr": true,
    "stemFigure": {
     "kind": "diagram",
     "unit": 42.34,
@@ -42091,8 +42092,7 @@ window.H3_BANK.sets.push(
      }
     ]
    },
-   "as": "surd",
-   "hint": "Type a square root as sqrt, for example 3sqrt5"
+   "hint": "Give an exact value: type a square root as sqrt, for example sqrt41 or 3sqrt5"
   },
   {
    "id": "q10f",
@@ -133544,11 +133544,11 @@ window.H3_BANK.sets.push(
    "help": "y9-6h-pythag",
    "label": "7a",
    "section": "Problem-solving",
-   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd.",
    "type": "numeric",
    "prompt": "Find $c$ (the lengths are in cm).",
    "answer": "sqrt53",
-   "as": "surd",
+   "allowExpr": true,
    "figure": {
     "kind": "diagram",
     "unit": 36,
@@ -133603,18 +133603,18 @@ window.H3_BANK.sets.push(
     ]
    },
    "units": "cm",
-   "hint": "Type a surd like 2sqrt3 or 2√3."
+   "hint": "Type a surd like sqrt41 or √41."
   },
   {
    "id": "q7b",
    "help": "y9-6h-pythag",
    "label": "7b",
    "section": "Problem-solving",
-   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd.",
    "type": "numeric",
    "prompt": "Find $c$ (the lengths are in cm).",
    "answer": "sqrt34",
-   "as": "surd",
+   "allowExpr": true,
    "figure": {
     "kind": "diagram",
     "unit": 36,
@@ -133675,11 +133675,14 @@ window.H3_BANK.sets.push(
    "help": "y9-6h-pythag",
    "label": "7c",
    "section": "Problem-solving",
-   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd.",
    "type": "numeric",
    "prompt": "Find $c$ (the lengths are in cm).",
-   "answer": "2sqrt13",
-   "as": "surd",
+   "answer": "sqrt52",
+   "allowExpr": true,
+   "accept": [
+    "2sqrt13"
+   ],
    "figure": {
     "kind": "diagram",
     "unit": 36,
@@ -133740,11 +133743,14 @@ window.H3_BANK.sets.push(
    "help": "y9-6h-pythag",
    "label": "7d",
    "section": "Problem-solving",
-   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd.",
    "type": "numeric",
    "prompt": "Find $c$ (the lengths are in cm).",
-   "answer": "4sqrt5",
-   "as": "surd",
+   "answer": "sqrt80",
+   "allowExpr": true,
+   "accept": [
+    "4sqrt5"
+   ],
    "figure": {
     "kind": "diagram",
     "unit": 36,
@@ -133805,11 +133811,11 @@ window.H3_BANK.sets.push(
    "help": "y9-6h-pythag",
    "label": "7e",
    "section": "Problem-solving",
-   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd.",
    "type": "numeric",
    "prompt": "Find $c$ (the lengths are in cm).",
    "answer": "sqrt17",
-   "as": "surd",
+   "allowExpr": true,
    "figure": {
     "kind": "diagram",
     "unit": 36,
@@ -133870,11 +133876,14 @@ window.H3_BANK.sets.push(
    "help": "y9-6h-pythag",
    "label": "7f",
    "section": "Problem-solving",
-   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd in simplest form.",
+   "stem": "Find the length of the hypotenuse, $c$, in each right-angled triangle. Use Pythagoras' theorem ($c^2 = a^2 + b^2$) and write your answer as a surd.",
    "type": "numeric",
    "prompt": "Find $c$ (the lengths are in cm).",
-   "answer": "5sqrt10",
-   "as": "surd",
+   "answer": "sqrt250",
+   "allowExpr": true,
+   "accept": [
+    "5sqrt10"
+   ],
    "figure": {
     "kind": "diagram",
     "unit": 36,

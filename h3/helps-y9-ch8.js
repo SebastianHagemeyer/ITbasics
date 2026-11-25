@@ -19,10 +19,10 @@
         `<p><strong>Every term in the first bracket multiplies every term in the second.</strong> The area model keeps track: one bracket along the top, one down the side.</p>
          ${sum('x × x = x², &nbsp; x × 3 = 3x<br>−8 × x = −8x, &nbsp; −8 × 3 = −24')}`,
         `<p><strong>Add the four boxes and collect the like terms.</strong> The two x terms go together.</p>
-         ${sum(`x² + ${now('3x − 8x')} − 24 = x² − 5x − 24`)}
+         ${sum(`(x − 8)(x + 3) = x² + 3x − 8x − 24<br>= x² ${now('− 5x')} − 24`)}
          ${ans('x^2-5x-24')}`
       )}
-      <p><strong>Shortcut for (x + a)(x + b):</strong> the middle number is a + b and the last number is a × b. Here −8 + 3 = −5 and −8 × 3 = −24.</p>
+      <p><strong>Check your answer:</strong> notice the middle number, −5, is −8 + 3, and the last number, −24, is −8 × 3. If yours do not match, look for a sign slip in the four boxes.</p>
       ${tip('Type x² as x^2, with the terms in any order. Keep the sign with each number: it is −8 × 3, not 8 × 3.')}`,
 
     // y9-8A Q2: expanding (ax + b)(cx + d)
@@ -249,9 +249,11 @@
          ${ans('t(8-t)')}`,
         `<p><strong>Substitute into either form.</strong> At t = 2:</p>
          ${sum('2 × (8 − 2) = 2 × 6 = 12 m')}`,
-        `<p><strong>Back to height 0?</strong> A product is 0 when one factor is 0: t = 0 (the start) or 8 − t = 0, so t = 8 seconds.</p>`
+        `<p><strong>Back to height 0? Use trial and error.</strong> Try values of t in t(8 − t) until the height is 0.</p>
+         ${fig({ kind: 'table', rows: [['t', '6', '7', '8'], ['t(8 − t)', '6 × 2 = 12', '7 × 1 = 7', '8 × 0 = 0 ✓']] })}
+         <p>The height is 0 again at t = 8 seconds (it was also 0 at the start, t = 0).</p>`
       )}
-      ${tip('The factorised form makes the zeros easy to read: just ask what makes each bracket 0.')}`,
+      ${tip('The factorised form makes trial and error quick: look for the t that makes the bracket (8 − t) equal 0, then check it by substituting.')}`,
 
     // y9-8C Q10: factorising to do arithmetic
     'y9-8c-evaluate': `
@@ -318,10 +320,12 @@
          ${sum('196 − 4t² = 4(49 − t²) = 4(7 − t)(7 + t)')}
          ${ans('4(7-t)(t+7)')}`,
         `<p><strong>Substitute into either form.</strong> At t = 2: 4 × 5 × 9 = 180 m. At the start, t = 0, so the height is 196 m.</p>`,
-        `<p><strong>When is the height 0?</strong> When 7 − t = 0, so after 7 seconds.</p>`
+        `<p><strong>When is the height 0? Use trial and error.</strong> Substitute values of t into 4(7 − t)(7 + t).</p>
+         ${fig({ kind: 'table', rows: [['t', '5', '6', '7'], ['4(7 − t)(7 + t)', '4 × 2 × 12 = 96', '4 × 1 × 13 = 52', '4 × 0 × 14 = 0 ✓']] })}
+         <p>The stone reaches the water after 7 seconds.</p>`
       )}
       <p><strong>A frame:</strong> a square frame with outside side 50 cm holds a square picture of side x cm. The frame's area is 50² − x² = (50 − x)(50 + x). If x = 30, that is 20 × 80 = 1600 cm².</p>
-      ${tip('Times can only be positive, so ignore the bracket that would give a negative time.')}`,
+      ${tip('Look at the factorised form to pick a good first guess: the bracket (7 − t) is 0 when t = 7. Then check it by substituting.')}`,
 
     // y9-8D Q10: fractions and fourth powers
     'y9-8d-fractions': `
@@ -431,12 +435,12 @@
     'y9-8f-minus': `
       <p class="hp-tag">Worked example: factorise <b>x² + 2x − 48</b></p>
       ${steps(
-        `<p><strong>The last term is negative, so the two numbers have different signs.</strong> List pairs for 48 and look for a difference of 2.</p>
-         ${fig({ kind: 'table', rows: [['Pair', '1, 48', '2, 24', '3, 16', '4, 12', '6, 8'], ['Difference', '47', '22', '13', '8', '2 ✓']] })}`,
-        `<p><strong>Give the bigger number the sign of the middle term.</strong> The middle is +2x, so +8 and −6.</p>
+        `<p><strong>Need two numbers that multiply to −48 and add to 2.</strong> The product is negative, so one number is positive and one is negative. List the signed factor pairs of −48 and add each pair.</p>
+         ${fig({ kind: 'table', rows: [['Pair', '1, −48', '2, −24', '3, −16', '4, −12', '6, −8'], ['Sum', '−47', '−22', '−13', '−8', '−2'], ['Pair', '−1, 48', '−2, 24', '−3, 16', '−4, 12', '−6, 8'], ['Sum', '47', '22', '13', '8', '2 ✓']] })}`,
+        `<p><strong>Choose the pair that adds to 2:</strong> (−6, 8).</p>
          ${sum('8 × (−6) = −48 ✓ &nbsp; 8 + (−6) = 2 ✓')}
          ${ans('(x+8)(x-6)')}`,
-        `<p><strong>Middle term negative?</strong> x² − 6x − 40: pairs for 40 with difference 6 are 4 and 10, so −10 and +4, giving (x − 10)(x + 4).</p>`
+        `<p><strong>Middle term negative?</strong> x² − 6x − 40: two numbers that multiply to −40 and add to −6. Of the pairs (1, −40), (−1, 40), (2, −20), (−2, 20), (4, −10), (−4, 10), (5, −8), (−5, 8), only 4 + (−10) = −6, so (x + 4)(x − 10).</p>`
       )}
       ${tip('Type the brackets in either order: (x-6)(x+8) is fine too.')}`,
 

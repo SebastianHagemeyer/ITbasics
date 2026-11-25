@@ -37,9 +37,9 @@
       <p class="hp-tag">Worked example: complete the table for <b>y = 3x + 1</b>.</p>
       ${fig({ kind: 'table', rows: [['x', '−3', '−2', '−1', '0', '1', '2', '3'], ['y', '?', '?', '?', '?', '?', '?', '?']] })}
       ${steps(
-        `<p><strong>Put each x into the rule.</strong> Put a negative x in brackets so the signs stay right.</p>
-         ${sum(`x = −3: ${now('3 × (−3)')} + 1 = −9 + 1 = −8<br>x = −2: 3 × (−2) + 1 = −6 + 1 = −5`)}`,
-        `<p><strong>Use the pattern to finish the row.</strong> Each step right adds 3 (the number in front of x).</p>
+        `<p><strong>Substitute each value of x into the rule.</strong> Put a negative x in brackets so the signs stay right.</p>
+         ${sum(`x = −3: ${now('3 × (−3)')} + 1 = −9 + 1 = −8<br>x = −2: 3 × (−2) + 1 = −6 + 1 = −5<br>x = −1: 3 × (−1) + 1 = −3 + 1 = −2<br>x = 0: 3 × 0 + 1 = 0 + 1 = 1<br>x = 1: 3 × 1 + 1 = 3 + 1 = 4<br>x = 2: 3 × 2 + 1 = 6 + 1 = 7<br>x = 3: 3 × 3 + 1 = 9 + 1 = 10`)}`,
+        `<p><strong>Check the row.</strong> The y-values go up by the same amount each time (3 here), so no slip has crept in.</p>
          ${ans('-8, -5, -2, 1, 4, 7, 10')}`,
         `<p><strong>Plot the points.</strong> They lie on a straight line, so the relationship is linear.</p>
          ${fig({ kind: 'plane', x: [-3, 3], y: [-8, 10], path: [[-3, -8], [3, 10]], points: { '': [-3, -8], ' ': [-2, -5], '  ': [-1, -2], '   ': [0, 1], '    ': [1, 4], '     ': [2, 7], '      ': [3, 10] } })}`
@@ -93,14 +93,17 @@
     'y9-4a-match': `
       <p class="hp-tag">Worked example: match <b>y = 3x − 2</b>, <b>y = −x + 3</b> and <b>x − y = −1</b> to the graphs A, B and C.</p>
       ${pl([-3, 3], [-4, 5], [ln(-1, 3, [-3, 3], [-4, 5]), ln(1, 1, [-3, 3], [-4, 5]), ln(3, -2, [-3, 3], [-4, 5]),
-        { label: 'A', at: [-1.9, 4.7] }, { label: 'B', at: [3.3, 4] }, { label: 'C', at: [1.75, 4.7] }])}
+        { label: 'A', at: [-1.9, 4.7] }, { label: 'B', at: [3.3, 4] }, { label: 'C', at: [1.75, 4.7] },
+        { point: [0, 3] }, { point: [0, 1] }, { point: [0, -2] }, { point: [1, 1], name: '(1, 1)', pos: 'se' }, { point: [2, 3], name: '(2, 3)', pos: 'e' }])}
       ${steps(
-        `<p><strong>Get every rule into the form y = mx + c.</strong> x − y = −1 becomes y = x + 1.</p>`,
-        `<p><strong>The sign of m says uphill or downhill.</strong> y = −x + 3 is the only one going down: that is A.</p>`,
-        `<p><strong>c says where it crosses the y-axis.</strong> y = x + 1 crosses at 1 (above O): B. y = 3x − 2 crosses at −2 (below O) and is steeper: C.</p>
+        `<p><strong>Find each rule's y-intercept: put x = 0.</strong></p>
+         ${sum('y = 3x − 2: y = 3 × 0 − 2 = −2<br>y = −x + 3: y = −0 + 3 = 3<br>x − y = −1: 0 − y = −1, so y = 1')}`,
+        `<p><strong>Match each one to where a graph crosses the y-axis.</strong> A crosses at 3, B at 1 and C at −2.</p>`,
+        `<p><strong>Check with a marked point.</strong> Put the point into the rule you matched to that graph.</p>
+         ${sum('C goes through (1, 1): 3 × 1 − 2 = 1 ✓<br>B goes through (2, 3): 2 − 3 = −1 ✓')}
          ${ans('A: y = −x + 3, B: x − y = −1, C: y = 3x − 2')}`
       )}
-      ${tip('Check one point if two graphs look alike: y = 3x − 2 goes through (1, 1), and so does line C.')}`,
+      ${tip('If two graphs cross the y-axis at the same place, find the x-intercepts too (put y = 0), or test a marked point in each rule.')}`,
 
     // Y9 4A Q7: are two rules equivalent?
     'y9-4a-equiv': `
@@ -218,12 +221,15 @@
       <p class="hp-tag">Worked example: write the rule, in the form ax + by = d, for the line with intercepts <b>(0, 4)</b> and <b>(4, 0)</b>.</p>
       ${fig({ kind: 'plane', x: [-1, 5], y: [-1, 5], path: [[-1, 5], [5, -1]], points: { '(0, 4)': [0, 4], '(4, 0)': [4, 0] } })}
       ${steps(
-        `<p><strong>Gradient: from (0, 4) to (4, 0) is a fall of 4 for a run of 4.</strong></p>
-         ${sum('m = −4/4 = −1, and c = 4, so y = −x + 4')}`,
-        `<p><strong>Move the x term across.</strong> Add x to both sides.</p>
-         ${ans('x+y=4')}`,
-        `<p><strong>Another one:</strong> (0, −4) and (4, 0) rise 4 for a run of 4, so m = 1 and y = x − 4. Taking y across gives x − y = 4.</p>`
+        `<p><strong>At the y-intercept, x = 0.</strong> Put x = 0 and y = 4 into ax + by = d.</p>
+         ${sum('a × 0 + b × 4 = d, so 4b = d')}`,
+        `<p><strong>At the x-intercept, y = 0.</strong> Put x = 4 and y = 0 into ax + by = d.</p>
+         ${sum('a × 4 + b × 0 = d, so 4a = d')}`,
+        `<p><strong>Choose d = 4 to keep the numbers simple.</strong> Then 4b = 4 and 4a = 4, so a = 1 and b = 1.</p>
+         ${sum('1x + 1y = 4')}
+         ${ans('x+y=4')}`
       )}
+      <p><strong>Another one:</strong> (0, −4) and (4, 0) give −4b = d and 4a = d. With d = 4, a = 1 and b = −1, so the rule is x − y = 4.</p>
       ${tip('Check by putting both intercepts in: 0 + 4 = 4 ✓ and 4 + 0 = 4 ✓. Letters like p work the same way as numbers.')}`,
 
     // Y9 4B Q10: intercepts with letters
@@ -330,14 +336,15 @@
     'y9-4c-triangle': `
       <p class="hp-tag">Worked example: the lines <b>x = 3</b>, <b>y = −3</b> and <b>y = mx</b> make a triangle of area <b>18</b>. Find m, given m &gt; 0.</p>
       ${steps(
-        `<p><strong>Try a value of m and find the corners.</strong> Try m = 2: y = 2x meets x = 3 at (3, 6) and meets y = −3 at (−1.5, −3). The right angle is at (3, −3).</p>
-         ${sum('legs: 6 − (−3) = 9 and 3 − (−1.5) = 4.5<br>area = ½ × 9 × 4.5 = 20.25, too big')}`,
-        `<p><strong>Try a smaller m.</strong> m = 1: the corners are (3, 3), (−3, −3) and (3, −3).</p>
-         ${sum('legs: 6 and 6 &nbsp; area = ½ × 6 × 6 = 18 ✓')}
-         ${pl([-4, 4], [-4, 4], [{ poly: [[3, 3], [-3, -3], [3, -3]], fill: true }, ln(1, 0, [-4, 4], [-4, 4]), { seg: [3, -4, 3, 4] }, { seg: [-4, -3, 4, -3] }, { label: 'y = x', at: [-3.4, -2.2], anchor: 'end' }])}`,
-        `<p><strong>Answer.</strong></p>
+        `<p><strong>Find the corners in terms of m.</strong> y = mx meets x = 3 at (3, 3m). It meets y = −3 where mx = −3, so x = −3/m. The right angle is at (3, −3).</p>`,
+        `<p><strong>Write the area from the two legs</strong> and set it equal to 18.</p>
+         ${sum('vertical leg: 3m − (−3) = 3m + 3<br>horizontal leg: 3 − (−3/m) = 3 + 3/m<br>½ × (3m + 3) × (3 + 3/m) = 18')}`,
+        `<p><strong>Solve.</strong> Expand the brackets, double both sides, then multiply both sides by m.</p>
+         ${sum('½ × (9m + 9 + 9 + 9/m) = 18<br>9m + 18 + 9/m = 36<br>9m² + 18m + 9 = 36m<br>9m² − 18m + 9 = 0, so m² − 2m + 1 = 0<br>(m − 1)² = 0, so m = 1')}
          ${ans('1')}`
       )}
+      <p><strong>Check with a sketch.</strong> For m = 1 the corners are (3, 3), (−3, −3) and (3, −3). The legs are 6 and 6, and ½ × 6 × 6 = 18 ✓. Not met an equation with m² yet? Test whole numbers in 9m + 18 + 9/m = 36 instead: m = 1 gives 9 + 18 + 9 = 36 ✓.</p>
+      ${pl([-4, 4], [-4, 4], [{ poly: [[3, 3], [-3, -3], [3, -3]], fill: true }, ln(1, 0, [-4, 4], [-4, 4]), { seg: [3, -4, 3, 4] }, { seg: [-4, -3, 4, -3] }, { label: 'y = x', at: [-3.4, -2.2], anchor: 'end' }])}
       ${tip('A sketch shows which corner has the right angle. Its two legs run along the vertical and horizontal lines.')}`,
 
     // Y9 4C Q10, Q11, Q13, Q14: y = mx through a given point
@@ -345,11 +352,11 @@
       <p class="hp-tag">Worked example: find the equation of the line through the origin and <b>(5, −2)</b>.</p>
       ${fig({ kind: 'plane', x: [-1, 6], y: [-3, 1], path: [[-1, 0.4], [6, -2.4]], points: { O: [0, 0], '(5, −2)': [5, -2] } })}
       ${steps(
-        `<p><strong>From O, the rise is the y-value and the run is the x-value.</strong></p>
-         ${sum('m = rise ÷ run = −2/5')}`,
+        `<p><strong>The rule is y = mx, so substitute the point:</strong> x = 5 and y = −2. Then divide both sides by 5.</p>
+         ${sum('−2 = m × 5<br>m = −2/5')}`,
         `<p><strong>Through the origin, c = 0, so y = mx.</strong></p>
          ${ans('y=-2x/5')}`,
-        `<p><strong>Three lines meeting.</strong> x = 5 and y = −2 meet at (5, −2), so the line through O that meets them there is this same line. With letters, through (2a, 6a): m = 6a ÷ 2a = 3, so y = 3x.</p>`
+        `<p><strong>Three lines meeting.</strong> x = 5 and y = −2 meet at (5, −2), so the line through O that meets them there is this same line. With letters, through (2a, 6a): 6a = m × 2a, so m = 3 and y = 3x.</p>`
       )}
       ${tip('Type a fraction gradient as -2x/5 or -2/5x. Check: −2/5 × 5 = −2 ✓.')}`,
 
@@ -388,13 +395,17 @@
     'y9-4d-points': `
       <p class="hp-tag">Worked example: find the gradient of the line joining <b>(−4, 3)</b> and <b>(2, −1)</b>.</p>
       ${steps(
-        `<p><strong>Use m = (y₂ − y₁)/(x₂ − x₁).</strong> Call (−4, 3) the first point and (2, −1) the second.</p>
-         ${sum('rise: y₂ − y₁ = −1 − 3 = −4<br>run: x₂ − x₁ = 2 − (−4) = 6')}`,
-        `<p><strong>Divide and simplify.</strong></p>
+        `<p><strong>Plot the two points and draw the right-angled triangle between them.</strong> Going left to right the line goes down, so the gradient will be negative.</p>
+         ${pl([-5, 3], [-2, 4], [ln(-2 / 3, 1 / 3, [-5, 3], [-2, 4]), { seg: [-4, 3, 2, 3], dash: true }, { seg: [2, 3, 2, -1], dash: true },
+           { point: [-4, 3], name: '(−4, 3)', pos: 'nw' }, { point: [2, -1], name: '(2, −1)', pos: 'se' },
+           { label: 'run', at: [-1, 3.35] }, { label: 'rise', at: [1.8, 1], anchor: 'end' }], 'The points (−4, 3) and (2, −1) joined by a line, with a dashed run across and rise down between them')}`,
+        `<p><strong>Work out the rise and the run</strong>, going from the left point to the right point.</p>
+         ${sum('run = 2 − (−4) = 6<br>rise = −1 − 3 = −4 (it falls 4)')}`,
+        `<p><strong>m = rise ÷ run.</strong> Simplify.</p>
          ${sum('m = −4/6 = −2/3')}
-         ${ans('-2/3')}`,
-        `<p><strong>The order does not matter, as long as it is the same on top and bottom.</strong> Starting from the other point: (3 − (−1))/(−4 − 2) = 4/(−6) = −2/3 ✓.</p>`
+         ${ans('-2/3')}`
       )}
+      <p><strong>The same thing with letters:</strong> for a left point (x₁, y₁) and a right point (x₂, y₂), the run is x₂ − x₁ and the rise is y₂ − y₁, so m = (y₂ − y₁)/(x₂ − x₁). It is rise ÷ run, without needing the sketch.</p>
       ${tip('Subtracting a negative adds: 2 − (−4) = 6. Simplify the fraction before you type it.')}`,
 
     // Y9 4D Q4, Q6: gradient of a real slope
@@ -681,23 +692,26 @@
     'y9-4g-twopoints': `
       <p class="hp-tag">Worked example: find the equation of the line through <b>(−3, −1)</b> and <b>(1, 7)</b>.</p>
       ${steps(
-        `<p><strong>Gradient first.</strong></p>
-         ${sum('m = (7 − (−1))/(1 − (−3)) = 8/4 = 2')}`,
-        `<p><strong>Put one point into y = 2x + c.</strong> Use (1, 7).</p>
-         ${sum('7 = 2 × 1 + c → c = 5')}
+        `<p><strong>Gradient first: m = rise ÷ run.</strong> Picture the two points and go from the left one to the right one.</p>
+         ${pl([-4, 2], [-2, 8], [ln(2, 5, [-4, 2], [-2, 8]), { seg: [-3, -1, 1, -1], dash: true }, { seg: [1, -1, 1, 7], dash: true },
+           { point: [-3, -1], name: '(−3, −1)', pos: 'w' }, { point: [1, 7], name: '(1, 7)', pos: 'e' },
+           { label: 'run', at: [-1, -1.55] }, { label: 'rise', at: [1.2, 3], anchor: 'start' }], 'The points (−3, −1) and (1, 7) joined by a line, with a dashed run across and rise up between them')}
+         ${sum('run = 1 − (−3) = 4<br>rise = 7 − (−1) = 8<br>m = 8/4 = 2')}`,
+        `<p><strong>Substitute one point into y = 2x + c</strong> to find c. Use (1, 7).</p>
+         ${sum('7 = 2 × 1 + c<br>7 = 2 + c<br>c = 5')}
          ${ans('y=2x+5')}`,
-        `<p><strong>Or use y − y₁ = m(x − x₁)</strong> with (−3, −1):</p>
-         ${sum('y + 1 = 2(x + 3) → y = 2x + 6 − 1 = 2x + 5')}`
+        `<p><strong>The enrichment rule (Q12).</strong> The question gives y − y₁ = m(x − x₁), with m = (y₂ − y₁)/(x₂ − x₁), which is rise ÷ run in letters. With m = 2 and (−3, −1):</p>
+         ${sum('y − (−1) = 2(x − (−3))<br>y + 1 = 2x + 6<br>y = 2x + 5')}`
       )}
-      <p><strong>Letters?</strong> Through the origin and (3k, k): m = k ÷ 3k = 1/3, so y = x/3.</p>
+      <p><strong>Letters?</strong> Through the origin and (3k, k): the rise is k and the run is 3k, so m = k ÷ 3k = 1/3 and y = x/3.</p>
       ${tip('Check with the point you did not use: 2 × (−3) + 5 = −1 ✓. Type fractions like -3/2x+4.')}`,
 
     // Y9 4G Q5, Q6: intercepts of a line you have to find first
     'y9-4g-intercepts': `
       <p class="hp-tag">Worked example: a line passes through <b>(−1, −3)</b> and <b>(3, 3)</b>. Find its intercepts.</p>
       ${steps(
-        `<p><strong>Find the equation.</strong></p>
-         ${sum('m = (3 − (−3))/(3 − (−1)) = 6/4 = 3/2<br>3 = 3/2 × 3 + c → c = 3 − 9/2 = −3/2')}`,
+        `<p><strong>Find the equation:</strong> rise ÷ run for m, then substitute a point for c.</p>
+         ${sum('run = 3 − (−1) = 4, rise = 3 − (−3) = 6<br>m = rise/run = 6/4 = 3/2<br>substitute (3, 3): 3 = 3/2 × 3 + c → c = 3 − 9/2 = −3/2')}`,
         `<p><strong>y-intercept: c.</strong> x-intercept: put y = 0.</p>
          ${sum('0 = 3/2 x − 3/2 → 3/2 x = 3/2 → x = 1')}
          ${ans('(1,0) and (0,-3/2)')}`,
@@ -710,7 +724,8 @@
       <p class="hp-tag">Worked example: a candle burns at a steady rate. After <b>3 hours</b> it is <b>24 cm</b> tall, and after <b>7 hours</b> it is <b>12 cm</b>. Find a rule for its height h after t hours.</p>
       ${steps(
         `<p><strong>The facts are two points: (3, 24) and (7, 12).</strong></p>
-         ${sum('m = (12 − 24)/(7 − 3) = −12/4 = −3')}`,
+         <p>From t = 3 to t = 7 is a run of 4 hours. The height goes from 24 down to 12, a rise of −12.</p>
+         ${sum('m = rise/run = −12/4 = −3')}`,
         `<p><strong>Find c with one point.</strong></p>
          ${sum('24 = −3 × 3 + c → c = 33')}
          ${ans('h=-3t+33')}`,
@@ -762,12 +777,12 @@
         `<p><strong>Pythagoras: length² = across² + up².</strong></p>
          ${sum('5² + 3² = 25 + 9 = 34 → √34 = 5.830... ≈ 5.83')}
          ${ans('5.83')}`,
-        `<p><strong>Exact answer?</strong> From (1, −3) to (5, 5): 4² + 8² = 16 + 64 = 80. Take out the square factor:</p>
-         ${sum('√80 = √16 × √5 = 4√5')}
-         ${ans('4sqrt5')}`
+        `<p><strong>Exact answer?</strong> Leave the square root in. From (1, −3) to (5, 5):</p>
+         ${sum('4² + 8² = 16 + 64 = 80, so the length is √80')}
+         ${ans('sqrt80')}`
       )}
       <p><strong>The rule:</strong> d = √((x₂ − x₁)² + (y₂ − y₁)²). For a <strong>perimeter</strong>, find every side this way and add them, rounding only at the end.</p>
-      ${tip('Type a surd as 4sqrt5 or 4√5, in simplest form. If nothing comes out, like √34, type sqrt34. A rule with letters needs brackets: sqrt((x-1)^2+(y-2)^2).')}`,
+      ${tip('An exact answer keeps the square root: type it like sqrt80 or √80. A rule with letters needs brackets: sqrt((x-1)^2+(y-2)^2).')}`,
 
     // Y9 4H Q6: whole-number points at a set distance
     'y9-4h-lattice': `
@@ -887,9 +902,9 @@
       ${steps(
         `<p><strong>Midpoint of AB.</strong></p>
          ${sum('((−1 + 5)/2, (3 + (−1))/2) = (2, 1)')}`,
-        `<p><strong>Gradient of AB, then the perpendicular gradient.</strong></p>
-         ${sum('m = (−1 − 3)/(5 − (−1)) = −4/6 = −2/3 → perpendicular: 3/2')}`,
-        `<p><strong>Line with m = 3/2 through (2, 1).</strong></p>
+        `<p><strong>Gradient of AB from rise ÷ run, then the perpendicular gradient m₂ = −1/m₁.</strong></p>
+         ${sum('from A to B: run = 5 − (−1) = 6, rise = −1 − 3 = −4<br>m₁ = −4/6 = −2/3<br>m₂ = −1 ÷ (−2/3) = 3/2')}`,
+        `<p><strong>Line with m = 3/2 through (2, 1).</strong> Substitute the midpoint to find c.</p>
          ${sum('1 = 3/2 × 2 + c → 1 = 3 + c → c = −2')}
          ${ans('y=3/2x-2')}`
       )}
@@ -918,10 +933,12 @@
         `<p><strong>Start − rate × time.</strong> The gradient −16 is the amount used each minute.</p>
          ${ans('V=-16t+960')}`,
         `<p><strong>Match the time units to the rate.</strong> 0.75 hours is 45 minutes.</p>
-         ${sum('after 45 min: 960 − 16 × 45 = 960 − 720 = 240 L<br>empty: 960 ÷ 16 = 60 min, so the line meets the t axis at (60, 0)<br>until 400 L are left: it uses 560 L, and 560 ÷ 16 = 35 min')}`,
+         ${sum('after 45 min: V = 960 − 16 × 45 = 960 − 720 = 240 L')}
+         <p><strong>For "how long", substitute V into the rule and solve for t.</strong></p>
+         ${sum('empty, V = 0: 0 = 960 − 16t → 16t = 960 → t = 60 min<br>so the line meets the t axis at (60, 0)<br>400 L left, V = 400: 400 = 960 − 16t → 16t = 560 → t = 35 min')}`,
         `<p><strong>Filling instead?</strong> A pump adds 2 L every 10 seconds. That is 6 lots per minute, so 12 L per minute. Starting with 5 L: F = 12t + 5.</p>`
       )}
-      ${tip('For "how long until ...", work out how much has to change, then divide by the rate. Half empty means half the full amount has gone.')}`,
+      ${tip('Check by putting t back in: 960 − 16 × 35 = 400 ✓. Half empty means V is half the full amount.')}`,
 
     // Y9 4J Q8, Q9: what the numbers in a rule mean
     'y9-4j-meaning': `
@@ -971,29 +988,41 @@
     'y9-4k-graph': `
       <p class="hp-tag">Worked example: solve <b>y = 2x − 3</b> and <b>x + y = 6</b> graphically.</p>
       ${steps(
-        `<p><strong>Make a table for each line.</strong> x + y = 6 is y = 6 − x.</p>
-         ${fig({ kind: 'table', rows: [['x', '0', '1', '2', '3', '4'], ['y = 2x − 3', '−3', '−1', '1', '3', '5'], ['y = 6 − x', '6', '5', '4', '3', '2']] })}`,
-        `<p><strong>Draw both lines and read where they cross.</strong></p>
-         ${pl([-1, 6], [-4, 7], [ln(2, -3, [-1, 6], [-4, 7]), ln(-1, 6, [-1, 6], [-4, 7]), { point: [3, 3], name: '(3, 3)', pos: 'e' }, { label: 'y = 2x − 3', at: [4.7, 6.6], anchor: 'end' }, { label: 'x + y = 6', at: [0.5, 6.4], anchor: 'start' }])}
+        `<p><strong>Find the intercepts of each line:</strong> let x = 0, then let y = 0.</p>
+         ${sum('y = 2x − 3: x = 0 gives y = −3, so (0, −3)<br>&nbsp;&nbsp;y = 0 gives 0 = 2x − 3, so x = 1.5 and (1.5, 0)<br>x + y = 6: x = 0 gives y = 6, so (0, 6)<br>&nbsp;&nbsp;y = 0 gives x = 6, so (6, 0)')}`,
+        `<p><strong>Mark the intercepts, join each pair with a ruler, and read where the lines cross.</strong></p>
+         ${pl([-1, 6], [-4, 7], [ln(2, -3, [-1, 6], [-4, 7]), ln(-1, 6, [-1, 6], [-4, 7]), { point: [0, -3] }, { point: [1.5, 0] }, { point: [0, 6] }, { point: [6, 0] }, { point: [3, 3], name: '(3, 3)', pos: 'e' }, { label: 'y = 2x − 3', at: [0.9, -2.3], anchor: 'start' }, { label: 'x + y = 6', at: [1.2, 5.5], anchor: 'start' }])}
          ${ans('(3,3)')}`,
         `<p><strong>Check in both.</strong> 2 × 3 − 3 = 3 ✓ and 3 + 3 = 6 ✓.</p>`
       )}
-      <p><strong>A horizontal or vertical line?</strong> y = −1 and y = 3x + 5 cross where 3x + 5 = −1, so 3x = −6 and x = −2: the point (−2, −1).</p>
+      <p><strong>A horizontal or vertical line?</strong> Draw it straight across or straight up. y = −1 is the horizontal line through −1 on the y-axis. Read where y = 3x + 5 meets it: (−2, −1). Check: 3 × (−2) + 5 = −1 ✓.</p>
+      ${pl([-4, 2], [-2, 3], [ln(3, 5, [-4, 2], [-2, 3]), ln(0, -1, [-4, 2], [-2, 3]), { point: [-2, -1], name: '(−2, −1)', pos: 'se' }, { label: 'y = −1', at: [1.9, -1.55], anchor: 'end' }, { label: 'y = 3x + 5', at: [0.2, 2.4], anchor: 'start' }], 'The horizontal line y = −1 and the line y = 3x + 5 crossing at (−2, −1)')}
       ${tip('Type the crossing point in brackets, like (3,3).')}`,
 
     // Y9 4K Q3, Q4: break-even point
     'y9-4k-breakeven': `
-      <p class="hp-tag">Worked example: costs are <b>C = 4n + 1500</b> and revenue is <b>R = 9n</b>. Where do the graphs cross?</p>
-      ${fig({ kind: 'table', rows: [['n', '0', '150', '300', '450'], ['C', '1500', '2100', '2700', '3300'], ['R', '0', '1350', '2700', '4050']] })}
+      <p class="hp-tag">Worked example: costs are <b>C = 4n + 1500</b> and revenue is <b>R = 9n</b>. Sketch both graphs on the same axes and find where they cross.</p>
       ${steps(
-        `<p><strong>The lines cross where C = R.</strong></p>
-         ${sum('9n = 4n + 1500 → 5n = 1500 → n = 300')}`,
-        `<p><strong>Find the dollar value at that n.</strong></p>
-         ${sum('R = 9 × 300 = 2700')}
+        `<p><strong>Find two points on each line:</strong> the start (n = 0) and a large n, say n = 500.</p>
+         ${sum('C: n = 0 gives 1500, n = 500 gives 4 × 500 + 1500 = 3500<br>R: n = 0 gives 0, n = 500 gives 9 × 500 = 4500')}`,
+        `<p><strong>Plot both lines on one set of axes</strong> and read off the point where they cross.</p>
+         ${(() => {
+           const it = [];   // 1 unit across = 100 items, 1 unit up = $1000
+           for (let i = 0; i <= 5; i++) {
+             it.push({ seg: [i, 0, i, 5], thin: true }, { seg: [0, i, 5, i], thin: true });
+             if (i) it.push({ label: String(i * 100), at: [i, -0.45] }, { label: String(i * 1000), at: [-0.15, i - 0.08], anchor: 'end' });
+           }
+           it.push({ seg: [0, 0, 5.5, 0], arrow: 'end' }, { seg: [0, 0, 0, 5.5], arrow: 'end' }, { label: 'n', at: [5.8, -0.1] }, { label: '$', at: [0, 5.85] }, { label: 'O', at: [-0.2, -0.45], anchor: 'end' },
+             { seg: [0, 1.5, 5, 3.5] }, { seg: [0, 0, 5, 4.5] }, { point: [0, 1.5] }, { point: [5, 3.5] }, { point: [5, 4.5] },
+             { seg: [3, 0, 3, 2.7], dash: true }, { seg: [0, 2.7, 3, 2.7], dash: true }, { point: [3, 2.7], name: '(300, 2700)', pos: 'nw' },
+             { label: 'R', at: [5.2, 4.4], anchor: 'start' }, { label: 'C', at: [5.2, 3.4], anchor: 'start' });
+           return fig({ kind: 'diagram', unit: 46, items: it, alt: 'The cost line from (0, 1500) to (500, 3500) and the revenue line from (0, 0) to (500, 4500), crossing at (300, 2700)' });
+         })()}
          ${ans('(300,2700)')}`,
-        `<p><strong>What it means.</strong> Below 300 the costs are higher (a loss). Above 300 the revenue is higher (a profit).</p>`
+        `<p><strong>Check your reading in both rules.</strong> C = 4 × 300 + 1500 = 2700 and R = 9 × 300 = 2700 ✓. (Setting C = R gives the same n: 9n = 4n + 1500, so 5n = 1500 and n = 300.)</p>`
       )}
-      ${tip('Type the point as (n, dollars), like (300,2700). If only n is asked for, type just the number.')}`,
+      <p><strong>What it means.</strong> Left of the crossing the cost line is higher (a loss). Right of it the revenue line is higher (a profit).</p>
+      ${tip('Choose a scale that fits both lines, and a large n that lands on a grid line. Type the point as (n, dollars), like (300,2700). If only n is asked for, type just the number.')}`,
 
     // Y9 4K Q5: two things heading towards each other
     'y9-4k-closing': `

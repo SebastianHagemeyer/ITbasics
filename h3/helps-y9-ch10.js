@@ -578,16 +578,16 @@
     // Y9 10E Q10: finding the rule of a graph
     'y9-10e-rule': `
       <p class="hp-tag">Worked example: find the rule for this parabola.</p>
-      ${pplane(x => x * x - 4 * x + 3, [-1, 5], [-2, 6], { '(0, 3)': [0, 3], '(2, −1)': [2, -1] }, 'An upright parabola crossing the x-axis at 1 and 3, with y-intercept 3 and turning point (2, −1)')}
+      ${pplane(x => x * x - 4 * x + 3, [-1, 5], [-2, 6], { '(0, 3)': [0, 3], '(1, 0)': [1, 0], '(2, −1)': [2, -1] }, 'An upright parabola crossing the x-axis at 1 and 3, with y-intercept 3 and turning point (2, −1)')}
       ${steps(
-        `<p><strong>Read the key points.</strong> It opens upward, crosses the x-axis at 1 and 3, and cuts the y-axis at 3.</p>`,
-        `<p><strong>x-intercepts at 1 and 3 suggest the brackets (x − 1) and (x − 3).</strong> Expand.</p>
-         ${sum('y = (x − 1)(x − 3) = x² − 4x + 3')}`,
-        `<p><strong>Check with another point.</strong> At x = 2: 4 − 8 + 3 = −1, matching the turning point (2, −1) ✓.</p>
+        `<p><strong>Read the key points and start a guess.</strong> It opens upward, so start from y = x² (a ∩ shape would need −x²). It cuts the y-axis at 3, and at x = 0 only the number on the end is left, so the rule ends in + 3.</p>`,
+        `<p><strong>Trial and error: test each guess at the turning point (2, −1).</strong></p>
+         ${sum('Try y = x² + 3: &nbsp; &nbsp; &nbsp; x = 2 gives 4 + 3 = 7, not −1 ✗<br>Try y = x² − 2x + 3: x = 2 gives 4 − 4 + 3 = 3, not −1 ✗<br>Try y = x² − 4x + 3: x = 2 gives 4 − 8 + 3 = −1 ✓')}`,
+        `<p><strong>Check by substituting another known point.</strong> The graph crosses the x-axis at (1, 0). At x = 1: 1 − 4 + 3 = 0 ✓.</p>
          ${ans('y = x^2 - 4x + 3')}`
       )}
       <p><strong>Turning point on the y-axis?</strong> Then the rule is just y = x² + c or y = −x² + c. A ∪ with its lowest point at (0, −2) is y = x² − 2.</p>
-      ${tip('Type the rule like y = x^2 - 4x + 3. A graph that opens downward needs a minus in front of x².')}`,
+      ${tip('Type the rule like y = x^2 - 4x + 3. A graph that opens downward needs a minus in front of x². Always test a guess at two points from the graph before you type it.')}`,
 
     // =====================================================================
     // 10F Sketching y = ax² with dilations and reflections
@@ -824,7 +824,7 @@
          ${sum('y = (x − 4)² − 9')}
          ${ans('h = 4, k = -9')}`
       )}
-      ${tip('Check by expanding: (x − 4)² − 9 = x² − 8x + 16 − 9 = x² − 8x + 7 ✓. Notice h is half the x-coefficient with the sign flipped.')}`,
+      ${tip('Check by expanding: (x − 4)² − 9 = x² − 8x + 16 − 9 = x² − 8x + 7 ✓. Type h and k as numbers, like 4 and -9.')}`,
 
     // Y9 10H Q11: intercept form with a number in front
     'y9-10h-find-a': `

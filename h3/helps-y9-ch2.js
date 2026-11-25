@@ -160,11 +160,11 @@
          ${sum('10xy/(15x) = 2y/3')}`,
         `<p><strong>Write a ÷ as a fraction first.</strong> Then cancel by 2.</p>
          ${sum('−8 ÷ (6k) = −8/(6k) = −4/(3k)')}`,
-        `<p><strong>Powers: take away the smaller power.</strong> a³/a leaves a² on top. b/b³ leaves b² on the bottom. 12/8 = 3/2.</p>
-         ${sum('12a³b/(8ab³) = 3a²/(2b²)')}
+        `<p><strong>Powers: write them out as factors, then cancel.</strong> Remember a³ = a × a × a. The HCF of 12 and 8 is 4, one a cancels and one b cancels.</p>
+         ${sum('12a³b/(8ab³) = (12 × a × a × a × b)/(8 × a × b × b × b)<br>= (3 × a × a)/(2 × b × b) = 3a²/(2b²)')}
          ${ans('2y/3, -4/(3k), 3a^2/(2b^2)')}`
       )}
-      ${tip('Put the bottom in brackets when it has more than one factor: -4/(3k). A letter that cancels completely leaves 1, so nothing extra is written.')}`,
+      ${tip('Put the bottom in brackets when it has more than one factor: -4/(3k). A letter that cancels completely leaves 1, so nothing extra is written. A pattern to notice: the power left over is the bigger power take away the smaller one.')}`,
 
     // Y9 2B Q5: multiplying and dividing together
     'y9-2b-mixed': `
@@ -679,8 +679,8 @@
       ${steps(
         `<p><strong>Clear the bottom, then solve.</strong> 3 is positive, so the sign stays.</p>
          ${sum('2x − 1 ≥ 15 → 2x ≥ 16 → x ≥ 8')}`,
-        `<p><strong>Divide by −3 first, and reverse.</strong></p>
-         ${sum('x − 2 > −4 → x > −2')}`,
+        `<p><strong>Expand the brackets first.</strong> Then divide by −3, and reverse the sign.</p>
+         ${sum('−3x + 6 < 12 → −3x < 6 → x > −2')}`,
         `<p><strong>Both sides: take the smaller x term away.</strong></p>
          ${sum('9 > 3x − 3 → 12 > 3x → 4 > x, so x < 4')}
          ${ans('x>=8, x>-2, x<4')}`
@@ -977,7 +977,9 @@
         `<p><strong>The graphs are parallel lines</strong>: same steepness, different starting points, so they never meet.</p>
          ${graph([-1, 6], [-2, 4], [{ m: -2 / 3, c: 5 / 3, label: '2x + 3y = 5', at: [2.4, -2.5] }, { m: -2 / 3, c: 3, label: '2x + 3y = 9', at: [4.3, 1.1] }], null, 'Two parallel lines')}
          ${ans('None')}`,
-        `<p><strong>Hidden parallels.</strong> y = 3x + 1 and 6x − 2y = 7: rearranging the second gives y = 3x − 3.5. Same gradient, different intercept, so again no solution.</p>`
+        `<p><strong>Hidden parallels.</strong> y = 3x + 1 and 6x − 2y = 7. Substitute the first into the second:</p>
+         ${sum('6x − 2(3x + 1) = 7<br>6x − 6x − 2 = 7<br>−2 = 7')}
+         <p>The x terms vanish and what is left is false, so again there is no solution. The two lines are parallel.</p>`
       )}
       ${tip('If the working ends in something false like 0 = 4, there are no solutions. If it ends in 0 = 0, the equations are the same line.')}`,
 

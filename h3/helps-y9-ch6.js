@@ -59,9 +59,10 @@
       ${steps(
         `<p><strong>Write it out and multiply.</strong> Each pair of negatives makes a positive, so an odd number of them leaves a negative.</p>
          ${sum('(−8)³ = (−8) × (−8) × (−8)<br>= 64 × (−8) = −512')}`,
-        `<p><strong>A fraction to a power: power the top and power the bottom.</strong> Two negatives, so the answer is positive.</p>
-         ${sum('(−8/9)² = (−8)² / 9² = 64/81')}
-         ${ans('-512, 64/81')}`,
+        `<p><strong>A fraction to a power: write it out too, then multiply the tops and multiply the bottoms.</strong> Two negatives, so the answer is positive.</p>
+         ${sum('(−8/9)² = (−8/9) × (−8/9)<br>= 64/81')}
+         ${ans('-512, 64/81')}
+         <p>So a fraction to a power is the top to that power over the bottom to that power.</p>`,
         `<p><strong>Watch where the minus sign sits.</strong> The power only acts on what is right next to it, or inside its bracket.</p>
          ${table([['Write', 'Means', 'Value'], ['(−8)²', '(−8) × (−8)', '64'], ['−8²', '−(8 × 8)', '−64'], ['−(−8)²', '−(64)', '−64'], ['−(−8)³', '−(−512)', '512']])}`
       )}
@@ -101,8 +102,8 @@
       ${steps(
         `<p><strong>Work out the bracket first, then the power.</strong></p>
          ${sum('(xy)³ = (−5 × 2)³ = (−10)³ = −1000')}`,
-        `<p><strong>A fraction in a bracket: simplify it, then power top and bottom.</strong></p>
-         ${sum('(y/x)² = (2/(−5))² = 4/25')}`,
+        `<p><strong>A fraction in a bracket: simplify it, write it out, then multiply tops and bottoms.</strong></p>
+         ${sum('(y/x)² = (2/(−5))² = (−2/5)²<br>= (−2/5) × (−2/5) = 4/25')}`,
         `<p><strong>No bracket: only the x is squared.</strong> Put the negative number in brackets so the square takes the sign too.</p>
          ${sum('x²y = (−5)² × 2 = 25 × 2 = 50')}
          ${ans('-1000, 4/25, 50')}`
@@ -145,8 +146,8 @@
       ${steps(
         `<p><strong>Write the decimal as a fraction and simplify it first.</strong></p>
          ${sum('0.45 = 45/100 = 9/20')}`,
-        `<p><strong>Power the top and the bottom.</strong></p>
-         ${sum('(9/20)² = 81/400')}
+        `<p><strong>Write it out and multiply.</strong> Multiply the tops, then multiply the bottoms.</p>
+         ${sum('(9/20)² = 9/20 × 9/20 = 81/400')}
          ${ans('81/400')}`
       )}
       ${tip('Simplifying before you square keeps the numbers small, and the answer comes out in simplest form. Type it like 81/400.')}`,
@@ -825,11 +826,12 @@
          ${sum('1000<sup>−1/3</sup> = 1/1000<sup>1/3</sup>')}`,
         `<p><strong>Then the fraction means a root.</strong></p>
          ${sum('= 1/∛1000 = 1/10')}`,
-        `<p><strong>A fraction to a negative power: flip it, then take the root.</strong></p>
-         ${sum('(1/32)<sup>−1/5</sup> = 32<sup>1/5</sup> = 2')}
-         ${ans('1/10, 2')}`
+        `<p><strong>A fraction to a negative power: same steps.</strong> One over, then the root, then tidy up one over a fraction.</p>
+         ${sum('(1/32)<sup>−1/5</sup> = 1/(1/32)<sup>1/5</sup><br>= 1/(1/2) = 2')}
+         ${ans('1/10, 2')}
+         <p>One over a fraction just flips it, so once you are confident you can flip first: (1/32)<sup>−1/5</sup> = 32<sup>1/5</sup> = 2.</p>`
       )}
-      ${tip('The minus flips, the fraction roots. Do them in either order. Type answers like 1/10.')}`,
+      ${tip('Rewrite the minus as one over first, then take the root. Type answers like 1/10.')}`,
 
     // y9-6H Q4, Q5, Q9: index laws with fractional indices
     'y9-6h-laws': `
@@ -848,18 +850,18 @@
 
     // y9-6H Q7: Pythagoras with a surd answer
     'y9-6h-pythag': `
-      <p class="hp-tag">Worked example: find the hypotenuse c as a surd in simplest form.</p>
+      <p class="hp-tag">Worked example: find the hypotenuse c as a surd.</p>
       ${fig({ kind: 'diagram', unit: 36, alt: 'Right-angled triangle with shorter sides 13 cm and 13 cm and hypotenuse c', items: [
         { poly: [[0, 0], [3, 0], [0, 3]], fill: true }, { angle: [0, 0, 0, 90], right: true },
         { label: '13', at: [1.5, -0.4] }, { label: '13', at: [-0.55, 1.5] }, { label: 'c', at: [1.8, 1.8] }] })}
       ${steps(
         `<p><strong>Use c² = a² + b².</strong></p>
          ${sum('c² = 13² + 13² = 169 + 169 = 338')}`,
-        `<p><strong>Take the square root, and simplify it</strong> by pulling out the biggest square factor.</p>
-         ${sum('c = √338 = √169 × √2 = 13√2')}
-         ${ans('13sqrt2')}`
+        `<p><strong>Take the square root.</strong> 338 is not a square number, so leave the answer as a surd.</p>
+         ${sum('c = √338')}
+         ${ans('sqrt338')}`
       )}
-      ${tip('If the number under the root has no square factor (4, 9, 16, 25, ...), the surd is already simplest, like √41. Squares up to 15² help here: 169 = 13². Type a surd like 13sqrt2 or 13√2.')}`,
+      ${tip('Do not round: a surd is exact. In 6I you will learn to simplify surds like this one, and a simplified surd is marked right too. Type a surd like sqrt338 or √338.')}`,
 
     // y9-6H Q8: powers like 2/3
     'y9-6h-power-frac': `

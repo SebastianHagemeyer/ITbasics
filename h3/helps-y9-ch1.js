@@ -370,7 +370,7 @@
          ${sum('54/99 = 6/11')}
          ${ans('6/11')}`
       )}
-      ${tip('Three repeating digits sit over 999: 0.162162... = 162/999 = 6/37. Keep any whole number in front: 3.5454... = 3 6/11.')}`,
+      ${tip('Three digits repeat? Multiply by 1000 instead: x = 0.162162..., 1000x = 162.162..., so 999x = 162 and x = 162/999 = 6/37. A whole number stays inside x: x = 3.5454..., 100x = 354.5454..., so 99x = 351 and x = 351/99 = 3 6/11.')}`,
 
     // =====================================================================
     // Year 9 1D Operations with fractions
@@ -392,16 +392,16 @@
     'y9-1d-mixed-add': `
       <p class="hp-tag">Worked example: <b>6 1/5 − 3 3/4</b></p>
       ${steps(
-        `<p><strong>Use a common denominator.</strong> The LCM of 5 and 4 is 20.</p>
-         ${sum('6 4/20 − 3 15/20')}`,
-        `<p><strong>The fraction being taken away is bigger</strong>, so borrow 1 whole from the 6. One whole is 20/20.</p>
-         ${sum('6 4/20 = 5 24/20')}`,
-        `<p><strong>Subtract the wholes, then the fractions.</strong></p>
-         ${sum('5 24/20 − 3 15/20 = 2 9/20')}
+        `<p><strong>Change both mixed numerals to improper fractions.</strong></p>
+         ${sum('6 1/5 = 31/5<br>3 3/4 = 15/4')}`,
+        `<p><strong>Rewrite over the lowest common denominator.</strong> The LCM of 5 and 4 is 20.</p>
+         ${sum('31/5 − 15/4 = 124/20 − 75/20')}`,
+        `<p><strong>Subtract the tops</strong>, then change back to a mixed numeral.</p>
+         ${sum('124/20 − 75/20 = 49/20 = 2 9/20')}
          ${ans('2 9/20')}`
       )}
-      <p><strong>Adding:</strong> 2 5/6 + 1 3/4 = 3 + 10/12 + 9/12 = 3 19/12 = 4 7/12.</p>
-      ${tip('If borrowing feels tricky, change both to improper fractions first. In stories, "left" means subtract and "altogether" means add.')}`,
+      <p><strong>Adding:</strong> improper fractions work here too, or add the wholes and the fractions separately: 2 5/6 + 1 3/4 = 3 + 10/12 + 9/12 = 3 19/12 = 4 7/12.</p>
+      ${tip('For subtraction, always go to improper fractions first, so you never have to take a big fraction from a small one. In stories, "left" means subtract and "altogether" means add.')}`,
 
     // y9-1D Q5: multiplying fractions
     'y9-1d-multiply': `
@@ -439,7 +439,9 @@
         `<p><strong>Change to the unit the question wants.</strong></p>
          ${sum('1 3/4 h = 60 + 45 = 105 min')}`,
         `<p><strong>"Of" means multiply.</strong></p>
-         ${sum('2/7 × 105 = 210/7 = 30')}
+         ${sum('2/7 × 105/1')}
+         <p><strong>Cancel before you multiply.</strong> 7 goes into 105 fifteen times.</p>
+         ${sum('2/1 × 15/1 = 30')}
          ${ans('30')}`
       )}
       ${tip('"The rest" is the fraction left from 1 whole. If 2/5 of the time is spent on one job, the rest is 3/5 of it.')}`,
@@ -473,13 +475,13 @@
     'y9-1d-order': `
       <p class="hp-tag">Worked example: <b>4 1/2 − 1 1/5 × 2 1/2</b></p>
       ${steps(
-        `<p><strong>× comes before −.</strong> Do the multiplication with improper fractions.</p>
-         ${sum('6/5 × 5/2 = 30/10 = 3')}`,
+        `<p><strong>× comes before −.</strong> Do the multiplication with improper fractions, cancelling first: the 5s cancel, and 2 goes into 6.</p>
+         ${sum('6/5 × 5/2 = 3/1 × 1/1 = 3')}`,
         `<p><strong>Then subtract.</strong></p>
          ${sum('4 1/2 − 3 = 1 1/2')}
          ${ans('1 1/2')}`
       )}
-      <p><strong>Brackets go first.</strong> (2 2/3 − 1 1/2) ÷ 1 1/4: the bracket is 16/6 − 9/6 = 7/6, then 7/6 × 4/5 = 28/30 = 14/15.</p>
+      <p><strong>Brackets go first.</strong> (2 2/3 − 1 1/2) ÷ 1 1/4: the bracket is 16/6 − 9/6 = 7/6, then 7/6 × 4/5 = 7/3 × 2/5 = 14/15 (cancel 2 from the 6 and the 4).</p>
       ${tip('Write one line per step so you do not lose a fraction along the way.')}`,
 
     // =====================================================================
@@ -623,8 +625,8 @@
       ${steps(
         `<p><strong>Put the percentage over 100 and simplify.</strong></p>
          ${sum('45% = 45/100 = 9/20')}`,
-        `<p><strong>A fraction inside the percentage:</strong> use a decimal, then clear it.</p>
-         ${sum('8 3/4% = 8.75/100 = 875/10 000 = 7/80')}
+        `<p><strong>A fraction inside the percentage:</strong> ÷ 100 by making it an improper fraction and multiplying by 1/100.</p>
+         ${sum('8 3/4% = 8 3/4 ÷ 100<br>= 35/4 × 1/100<br>= 35/400 = 7/80')}
          ${ans('9/20 and 7/80')}`
       )}
       ${fig({ kind: 'table', rows: [['Percentage', '12.5%'], ['Fraction', '1/8'], ['Decimal', '0.125']] })}
@@ -741,7 +743,7 @@
       ${steps(
         `<p><strong>The GST price is 110% of the price before GST.</strong></p>
          ${sum('before GST = 64.90 ÷ 1.1 = 59')}`,
-        `<p><strong>The GST is the difference.</strong> Or, quicker: GST = total ÷ 11.</p>
+        `<p><strong>The GST is the difference.</strong></p>
          ${sum('64.90 − 59 = 5.90')}
          ${ans('5.90')}`
       )}
@@ -1183,8 +1185,8 @@
       ${steps(
         `<p><strong>Find the compound interest.</strong></p>
          ${sum('5000 × 1.08³ = 6298.56<br>6298.56 − 5000 = 1298.56')}`,
-        `<p><strong>Use r = 100I/(Pt).</strong></p>
-         ${sum('r = 100 × 1298.56 ÷ (5000 × 3) = 8.66')}
+        `<p><strong>Substitute into I = Prt/100 and solve for r.</strong></p>
+         ${sum('1298.56 = 5000 × r × 3 ÷ 100<br>1298.56 = 150r<br>r = 1298.56 ÷ 150 = 8.66')}
          ${ans('8.66')}`
       )}
       ${tip('The simple rate is always a bit higher, because compound interest also earns interest on the interest.')}`,
@@ -1238,11 +1240,11 @@
          ${sum('900 × 4 × 5 ÷ 100 = 180')}`,
         `<p><strong>Compound interest (annually).</strong></p>
          ${sum('900 × 1.04⁵ − 900 = 194.99')}`,
-        `<p><strong>The simple rate that matches</strong>, from r = 100I/(Pt).</p>
-         ${sum('100 × 194.99 ÷ (900 × 5) = 4.33')}
+        `<p><strong>The simple rate that matches:</strong> substitute into I = Prt/100 and solve.</p>
+         ${sum('194.99 = 900 × r × 5 ÷ 100<br>194.99 = 45r<br>r = 194.99 ÷ 45 = 4.33')}
          ${ans('180, 194.99, 4.33')}`
       )}
-      ${tip('To find the time instead, use t = 100I/(Pr). To test a claim, such as what happens when the principal or the rate changes, work out both versions and compare them.')}`,
+      ${tip('To find the time instead, substitute into I = Prt/100 and solve for t. To test a claim, such as what happens when the principal or the rate changes, work out both versions and compare them.')}`,
 
     // y9-1M Q11: reading the working
     'y9-1m-read': `
@@ -1262,10 +1264,11 @@
         `<p><strong>Doubling means 1.1ⁿ ≥ 2.</strong> Try powers.</p>
          ${sum('1.1⁷ = 1.949<br>1.1⁸ = 2.144 ✓')}
          ${ans('8')}`,
-        `<p><strong>The rule of 72 gives a quick estimate.</strong></p>
+        `<p><strong>The rule of 72</strong> (years to double × rate ≈ 72) gives a quick estimate.</p>
          ${sum('72 ÷ 10 = 7.2 years')}`
       )}
-      <p><strong>The exact rate to double in 5 years:</strong> you need (1 + r/100)⁵ = 2, so 1 + r/100 = 2^(1/5) = 1.1487, which is about 14.9%.</p>
-      ${tip('Type several values with commas, in order. On most calculators, the fifth root of 2 is 2^(1/5).')}`
+      <p><strong>The rate to double in 4 years:</strong> you need (1 + r/100)⁴ = 2. Try rates until you trap 2.</p>
+      ${sum('1.18⁴ = 1.939 (too low)<br>1.19⁴ = 2.005 (too high)<br>1.189⁴ = 1.999 (just under)<br>1.1895⁴ = 2.002 (over), so r ≈ 18.9')}
+      ${tip('Type several values with commas, in order. The rule of 72 gives a starting guess for the rate too: 72 ÷ 4 = 18, so start trying near 18%.')}`
   });
 })();

@@ -39,6 +39,10 @@
     return { kind: 'diagram', unit: o.unit || 30, items };
   };
 
+  // Box plot outliers as dots, the way the book draws them (figures.js draws them as crosses).
+  const dotOut = (html) => html.replace(/<path class="fg-axis" d="M([\d.]+),([\d.]+) L[^"]*"\/>/g,
+    (m, x, y) => `<circle class="fg-pt" cx="${+x + 5}" cy="${+y + 5}" r="4.5"/>`);
+
   Object.assign(window.H3_HELPS, {
     // =====================================================================
     // 9A Review of probability
@@ -257,14 +261,16 @@
     'y9-9c-formula': `
       <p class="hp-tag">Worked example: each of 50 people owns a cat or a dog (or both). A = cat owners, B = dog owners, n(A) = 32 and n(B) = 27.</p>
       ${steps(
-        `<p><strong>Use n(A ∪ B) = n(A) + n(B) − n(A ∩ B).</strong> Everyone is in A ∪ B, so n(A ∪ B) = 50.</p>
-         ${sum('50 = 32 + 27 − n(A ∩ B)<br>n(A ∩ B) = 59 − 50 = 9')}`,
-        `<p><strong>Then the other regions.</strong></p>
-         ${sum('n(A only) = 32 − 9 = 23<br>Pr(A ∪ B) = 50/50 = 1<br>Pr(A′) = (50 − 32)/50 = 18/50 = 9/25')}`,
-        `<p><strong>Why subtract?</strong> n(A) + n(B) counts the people in the overlap twice, once in each circle.</p>
+        `<p><strong>Everyone is inside the circles.</strong> Nobody owns neither, so the outside region is 0 and the two circles hold all 50 people.</p>`,
+        `<p><strong>Add the circles and compare with 50.</strong> 32 + 27 counts the people in the overlap twice, once in each circle.</p>
+         ${sum('32 + 27 = 59, but there are only 50 people<br>n(A ∩ B) = 59 − 50 = 9')}`,
+        `<p><strong>Fill the other regions, then read off the Venn diagram.</strong></p>
+         ${sum('A only = 32 − 9 = 23, B only = 27 − 9 = 18')}
+         ${fig(venn('A', 'B', '23', '9', '18', '0'))}
+         ${sum('Pr(A ∪ B) = 50/50 = 1<br>Pr(A′) = (18 + 0)/50 = 18/50 = 9/25')}
          ${ans('9, 23, 1, 9/25')}`
       )}
-      ${tip('Check: A only + both + B only = 23 + 9 + 18 = 50, everyone ✓. Type a fraction in simplest form, like 9/25.')}`,
+      ${tip('Check the regions: 23 + 9 + 18 + 0 = 50, everyone ✓. Type a fraction in simplest form, like 9/25.')}`,
 
     // =====================================================================
     // 9D Using arrays for two-step experiments
@@ -310,7 +316,7 @@
          ${sum('With replacement: 6 × 6 = 36<br>Without replacement: 6 × 5 = 30<br>Same letter twice, without: P then P 3 × 2 = 6, E then E 2 × 1 = 2 → 8')}
          ${ans('12, 1/12, 1/2, 1/6; 30, 8')}`
       )}
-      ${tip('Repeated letters are separate cards, so two Ps can both be chosen even without replacement. With replacement, Pr(red then white) from 5 different counters is 1/5 × 1/5 = 1/25; without, 1/5 × 1/4 = 1/20.')}`,
+      ${tip('Repeated letters are separate cards, so two Ps can both be chosen even without replacement. With 5 different counters and replacement, the array has 5 × 5 = 25 equally likely cells and (red, white) is 1 of them: 1/25. Without replacement, cross out the 5 diagonal cells, leaving 20, so 1/20.')}`,
 
     // =====================================================================
     // 9E Using tree diagrams
@@ -328,37 +334,35 @@
       )}
       ${tip('Type an outcome as its letters together in order, like BW. "At least one" is often quickest as 1 − Pr(none).')}`,
 
-    // Y9 9E Q3, Q4, Q10: without replacement, with probabilities on the branches
+    // Y9 9E Q3, Q4, Q10: without replacement, one branch per item
     'y9-9e-without': `
-      <p class="hp-tag">Worked example: a bag has 3 green and 2 yellow counters. Two are taken without putting the first back.</p>
-      ${fig(tree([['G', 'Y'], ['G', 'Y']], { heads: ['1st', '2nd'], gap: 1.2, w: 3.4, prob: (p) => ({ G: '3/5', Y: '2/5', GG: '2/4', GY: '2/4', YG: '3/4', YY: '1/4' })[p.join('')] }))}
+      <p class="hp-tag">Worked example: a bag has 2 green counters and 1 yellow counter. Two are taken without putting the first back.</p>
+      ${fig(tree([['G1', 'G2', 'Y'], (p) => ['G1', 'G2', 'Y'].filter((c) => c !== p[0])], { heads: ['1st', '2nd'], join: ' ' }))}
       ${steps(
-        `<p><strong>The second branches change.</strong> After a green is taken, 4 counters are left and only 2 are green.</p>`,
-        `<p><strong>Multiply along a path.</strong></p>
-         ${sum('Pr(GG) = 3/5 × 2/4 = 6/20 = 3/10')}`,
-        `<p><strong>Add the paths that fit.</strong> One of each is GY or YG.</p>
-         ${sum('3/5 × 2/4 + 2/5 × 3/4 = 6/20 + 6/20 = 12/20 = 3/5')}
-         <p>With replacement the branches stay 3/5 and 2/5: Pr(GG) = 3/5 × 3/5 = 9/25, which is different.</p>
-         ${ans('3/10, 3/5')}`
+        `<p><strong>Give every counter its own branch.</strong> Call the greens G1 and G2 so you can tell them apart. There are 3 first branches. The first counter is not put back, so only 2 branches come off each one: 3 × 2 = 6 paths, all equally likely.</p>`,
+        `<p><strong>Count the paths that fit.</strong></p>
+         ${sum('Two greens: G1 G2, G2 G1 → 2/6 = 1/3<br>One of each: G1 Y, G2 Y, Y G1, Y G2 → 4/6 = 2/3')}`,
+        `<p><strong>With replacement the tree changes.</strong> The counter goes back, so every second stage has all 3 branches again: 3 × 3 = 9 paths. Now Y Y is possible, Pr(Y, Y) = 1/9, but without replacement it is 0.</p>
+         ${ans('6, 1/3, 2/3')}`
       )}
       <p><strong>Choosing 2 different people from 5</strong> without replacement: 5 first branches, then 4 from each, so 5 × 4 = 20 equally likely outcomes.</p>
-      ${tip('The probabilities on each set of branches add to 1. Check: all four path results add to 1 too.')}`,
+      ${tip('Check: the paths for every possible result add up to the total, 2 (two greens) + 4 (one of each) = 6 ✓. Type a probability as a fraction in simplest form, like 1/3.')}`,
 
-    // Y9 9E Q5, Q7, Q8, Q9: the same experiment repeated
+    // Y9 9E Q5, Q7, Q8, Q9: the same experiment repeated, equally likely branches
     'y9-9e-repeat': `
-      <p class="hp-tag">Worked example: a coin is tossed 3 times. Then a spinner with Pr(win) = 1/3 is spun 3 times.</p>
+      <p class="hp-tag">Worked example: a coin is tossed 3 times. Then a quiz where each question has 3 options (A, B, C), and A is the right answer every time, is answered by guessing.</p>
       ${steps(
         `<p><strong>Each toss doubles the outcomes:</strong> 2 × 2 × 2 = 8, all equally likely.</p>
          ${chips(['HHH'], ['HHT'], ['HTH'], ['THH'], ['HTT'], ['THT'], ['TTH'], ['TTT'])}
          ${sum('Exactly 2 heads: 3/8<br>At least one head: 1 − 1/8 = 7/8')}`,
-        `<p><strong>Unequal chances: multiply along each path.</strong> Lose is 2/3. Exactly one win happens 3 ways (WLL, LWL, LLW), each with the same chance.</p>
-         ${sum('1/3 × 2/3 × 2/3 = 4/27<br>3 × 4/27 = 12/27 = 4/9')}`,
-        `<p><strong>The rest the same way.</strong></p>
-         ${sum('No wins: 2/3 × 2/3 × 2/3 = 8/27<br>All 3 wins: 1/27<br>Exactly 2 wins: 3 × 2/27 = 6/27 = 2/9')}
-         ${ans('8, 3/8, 7/8, 4/9')}`
+        `<p><strong>Give every option its own branch.</strong> Two questions: 3 branches, then 3 from each, so 3 × 3 = 9 equally likely paths.</p>
+         ${fig(tree([['A', 'B', 'C'], ['A', 'B', 'C']], { heads: ['Q1', 'Q2'], gap: 0.8 }))}
+         ${sum('Both right: AA → 1/9<br>Exactly one right: AB, AC, BA, CA → 4/9')}`,
+        `<p><strong>Three questions: 3 × 3 × 3 = 27 paths.</strong> Count them without drawing every branch. For exactly 2 right, the wrong one has 2 branches (B or C), and it can be question 1, 2 or 3.</p>
+         ${sum('Right, right, wrong: 1 × 1 × 2 = 2 paths<br>3 places for the wrong one: 3 × 2 = 6 paths → 6/27 = 2/9')}
+         ${ans('8, 3/8, 7/8; 4/9; 2/9')}`
       )}
-      <p><strong>Counting the ways:</strong> Pascal's triangle row 1, 3, 3, 1 gives the number of ways to get 0, 1, 2 or 3 heads (or wins).</p>
-      ${tip('Check that your answers for 0, 1, 2 and 3 wins add to 1: 8/27 + 12/27 + 6/27 + 1/27 = 1.')}`,
+      ${tip('Check that the path counts for 0, 1, 2 and 3 right add to the total: 8 + 12 + 6 + 1 = 27.')}`,
 
     // =====================================================================
     // 9F Using relative frequencies to estimate probabilities
@@ -492,19 +496,19 @@
       )}
       ${tip('An outlier drags the mean a long way but barely moves the median, so the median is the better "typical" value. Negative outliers pull the mean down. Type large money values as digits only.')}`,
 
-    // Y9 9H Q5, Q6, Q7, Q13: the score needed for a target mean
+    // Y9 9H Q5, Q6, Q7, Q13: the score needed for a target mean (set up an equation)
     'y9-9h-target': `
       <p class="hp-tag">Worked example: Ari's scores are <b>14, 17, 12, 15</b>. What does he need in a fifth game for a mean of 16?</p>
       ${steps(
-        `<p><strong>Total needed = mean × number of values.</strong></p>
-         ${sum('16 × 5 = 80')}`,
-        `<p><strong>Subtract what he already has.</strong></p>
-         ${sum('14 + 17 + 12 + 15 = 58<br>80 − 58 = 22')}`,
-        `<p><strong>As a rule</strong>, with k for the fifth score and M for the mean:</p>
-         ${sum('M = (58 + k)/5, so k = 5M − 58')}
+        `<p><strong>Add the scores he already has.</strong></p>
+         ${sum('14 + 17 + 12 + 15 = 58')}`,
+        `<p><strong>Let k be the fifth score and write the equation.</strong> The new total is 58 + k and there are now 4 + 1 = 5 values. Set the mean equal to 16.</p>
+         ${sum('(58 + k)/(4 + 1) = 16<br>(58 + k)/5 = 16')}`,
+        `<p><strong>Solve for k.</strong> Multiply both sides by 5: the 80 is the total the five scores need.</p>
+         ${sum('58 + k = 80<br>k = 80 − 58 = 22')}
          ${ans('22')}`
       )}
-      ${tip('"At least" a mean: the score you find is the lowest that works. Type a rule with brackets, like M=(58+k)/5. If the score needed is above the maximum possible, the target cannot be reached.')}`,
+      ${tip('"At least" a mean: the score you find is the lowest that works. The left side of the equation is a rule for the mean, M = (58 + k)/5; type it with brackets, like M=(58+k)/5. If the score needed is above the maximum possible, the target cannot be reached.')}`,
 
     // Y9 9H Q8: building a set with a given mean, median and mode
     'y9-9h-build': `
@@ -717,16 +721,16 @@
       )}
       ${tip('A long section does not hold more data: every section holds a quarter. It just means those values are more spread out.')}`,
 
-    // Y9 9L Q3, Q4, Q11: five-number summary, outliers, drawing the plot
+    // Y9 9L Q3, Q4, Q11: five-number summary, spotting an outlier, drawing the plot
     'y9-9l-build': `
       <p class="hp-tag">Worked example: <b>13, 8, 35, 11, 4, 16, 10, 19, 7, 14, 11, 17</b>.</p>
       ${steps(
         `<p><strong>Sort and find the five numbers.</strong> 12 values, so halves of 6.</p>
          ${sum('4, 7, 8, 10, 11, 11 | 13, 14, 16, 17, 19, 35<br>Q2 = (11 + 13) ÷ 2 = 12<br>Q1 = (8 + 10) ÷ 2 = 9, Q3 = (16 + 17) ÷ 2 = 16.5')}`,
-        `<p><strong>Test for outliers.</strong> A common test: more than 1.5 × IQR beyond the box.</p>
-         ${sum('IQR = 16.5 − 9 = 7.5<br>16.5 + 1.5 × 7.5 = 27.75, and 35 is beyond it')}`,
-        `<p><strong>Draw it.</strong> The whisker stops at the highest value that is not an outlier (19), and 35 is a cross.</p>
-         ${fig({ kind: 'boxplot', min: 0, max: 40, step: 5, plots: [{ five: [4, 9, 12, 16.5, 19], outliers: [35] }] })}
+        `<p><strong>Look for a value that is not near the rest.</strong> The values from 4 to 19 sit close together, then there is a big jump to 35. So 35 appears to be an outlier, and the next highest value is 19.</p>
+         ${sum('..., 16, 17, 19, &nbsp;&nbsp;&nbsp; 35 ← far from the rest')}`,
+        `<p><strong>Draw it.</strong> The whisker stops at the next highest value (19), and 35 is shown as a dot on its own.</p>
+         ${dotOut(fig({ kind: 'boxplot', min: 0, max: 40, step: 5, plots: [{ five: [4, 9, 12, 16.5, 19], outliers: [35] }] }))}
          ${ans('4, 9, 12, 16.5, 35')}`
       )}
       ${tip('With an odd number of values, leave the median out of both halves. Between Q1 and Q3 lies 50% of the data.')}`,

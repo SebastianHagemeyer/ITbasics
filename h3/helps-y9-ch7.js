@@ -411,18 +411,20 @@
 
     // y9-7C Q5: number of sides from the angle sum
     'y9-7c-sides': `
-      ${flow(['angle sum', '2880°'], ['÷ 180', '16 triangles'], ['+ 2', '18 sides'])}
       <p class="hp-tag">Worked example: a polygon has an angle sum of 2880°. How many sides does it have?</p>
       ${steps(
-        `<p><strong>Undo the rule S = (n − 2) × 180.</strong> Divide by 180 to find how many triangles it splits into.</p>
-         ${sum('2880 ÷ 180 = 16')}`,
-        `<p><strong>There are always 2 more sides than triangles.</strong></p>
-         ${sum('16 + 2 = 18')}
+        `<p><strong>Write an equation.</strong> Put the angle sum into the rule S = (n − 2) × 180.</p>
+         ${sum('(n − 2) × 180 = 2880')}`,
+        `<p><strong>Divide both sides by 180.</strong></p>
+         ${sum('(n − 2) × 180 ÷ 180 = 2880 ÷ 180<br>n − 2 = 16')}`,
+        `<p><strong>Add 2 to both sides.</strong></p>
+         ${sum('n − 2 + 2 = 16 + 2<br>n = 18')}
          ${ans('18')}`,
-        `<p><strong>Check.</strong></p>
-         ${sum('(18 − 2) × 180 = 2880 ✓')}`
+        `<p><strong>Check.</strong> Put n = 18 back into the rule.</p>
+         ${sum('(18 − 2) × 180 = 16 × 180 = 2880 ✓')}`
       )}
-      ${tip('The number of sides must be a whole number. If the division does not come out whole, recheck your working.')}`,
+      <p><strong>Why n − 2?</strong> Lines from one corner split the polygon into n − 2 triangles, each worth 180°. So n − 2 = 16 means 16 triangles, and the polygon has 2 more sides than that.</p>
+      ${tip('Do the same thing to both sides each time. The number of sides must be a whole number: if dividing by 180 does not come out whole, recheck your working.')}`,
 
     // y9-7C Q6: mixed polygon diagrams, reflex angles
     'y9-7c-mixed': `
