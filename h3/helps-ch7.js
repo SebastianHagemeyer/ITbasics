@@ -697,33 +697,33 @@
       <p class="hp-tag">Worked example: reflect <b>P(−3, 5)</b> in the y-axis, then (separately) in the x-axis.</p>
       ${fig({ kind: 'plane', x: [-4, 4], y: [-6, 6], points: { P: [-3, 5], "P'": [3, 5], "P''": [-3, -5] } })}
       ${steps(
-        `<p><strong>In the y-axis</strong> (the up and down line): the point flips left to right. It stays the same height, so y stays 5, and x changes sign.</p>
+        `<p><strong>In the y-axis</strong> (the up and down line): P is 3 squares to the left of the mirror. Go straight across, at right angles to the mirror, and the same 3 squares past it. The height does not change.</p>
          ${ans('(3, 5)')}`,
-        `<p><strong>In the x-axis</strong> (the across line): the point flips top to bottom. x stays −3, and y changes sign.</p>
+        `<p><strong>In the x-axis</strong> (the across line): P is 5 squares above the mirror. Go straight down through it, at right angles, and the same 5 squares past it.</p>
          ${ans('(-3, -5)')}`
       )}
-      ${tip('Count squares to the mirror, then the same number past it. For two reflections in a row, use the first image as the start of the second. Type a point as (x, y), using the minus key.')}`,
+      ${tip('Notice the pattern: reflecting in the y-axis changes the sign of x, and reflecting in the x-axis changes the sign of y. For two reflections in a row, use the first image as the start of the second. Type a point as (x, y), using the minus key.')}`,
 
     // 7I Q3, Q5: rotating about the origin
     '7i-rotate': `
       <p class="hp-tag">Worked example: rotate <b>R(5, 1)</b> about (0, 0).</p>
       ${fig({ kind: 'plane', x: [-2, 6], y: [-1, 6], points: { R: [5, 1], "R'": [-1, 5] }, path: [[5, 1], [0, 0], [-1, 5]] })}
       ${steps(
-        `<p><strong>Describe the trip from the centre to the point:</strong> 5 right, 1 up.</p>`,
-        `<p><strong>90° anticlockwise turns every direction a quarter turn:</strong> right becomes up, and up becomes left. So 5 right, 1 up becomes 5 up, 1 left.</p>
+        `<p><strong>Join the centre to the point.</strong> This arm goes from (0, 0) to R: 5 right and 1 up.</p>`,
+        `<p><strong>Swing the arm 90° anticlockwise around the centre</strong> on a circular arc, keeping its length the same (a pair of compasses or tracing paper helps). After a quarter turn anticlockwise, right has become up and up has become left, so the arm now goes 5 up and 1 left.</p>
          ${ans('(-1, 5)')}`,
-        `<p><strong>90° clockwise:</strong> right becomes down, up becomes right: (1, −5). <strong>180°:</strong> both directions reverse: (−5, −1).</p>`
+        `<p><strong>90° clockwise:</strong> swing the arm the other way: right becomes down, up becomes right, giving (1, −5). <strong>180°:</strong> a half turn points the arm the opposite way, giving (−5, −1).</p>`
       )}
-      ${tip('A 270° rotation is three quarter turns, one after another. A full 360° turn lands back on the start. Tracing paper is a great check.')}`,
+      ${tip('A 270° rotation is three quarter turns, one after another. A full 360° turn lands back on the start. Check that the new arm is the same length as the old one.')}`,
 
     // 7I Q4, Q8: rotating about another point
     '7i-centre': `
       <p class="hp-tag">Worked example: rotate <b>K(5, 1)</b> by 90° anticlockwise about <b>C(4, −1)</b>.</p>
       ${fig({ kind: 'plane', x: [0, 7], y: [-4, 3], points: { C: [4, -1], K: [5, 1], "K'": [2, 0] }, path: [[5, 1], [4, -1], [2, 0]] })}
       ${steps(
-        `<p><strong>Describe the trip from the centre C to K:</strong> 1 right, 2 up.</p>`,
-        `<p><strong>Turn the trip a quarter turn anticlockwise:</strong> right becomes up, up becomes left. So 1 right, 2 up becomes 1 up, 2 left.</p>`,
-        `<p><strong>Do the new trip from C,</strong> not from (0, 0).</p>
+        `<p><strong>Join the centre C to K.</strong> This arm goes 1 right and 2 up.</p>`,
+        `<p><strong>Swing the arm 90° anticlockwise around C</strong> on a circular arc, keeping its length the same (use a pair of compasses or tracing paper). Right becomes up and up becomes left, so the arm now goes 1 up and 2 left.</p>`,
+        `<p><strong>Draw the new arm from C,</strong> not from (0, 0).</p>
          ${sum('(4 − 2, −1 + 1) = (2, 0)')}
          ${ans('(2, 0)')}`
       )}
@@ -784,16 +784,16 @@
 
     // 7J Q4, Q5, Q9: describing a translation, undoing it and joining two
     '7j-describe': `
-      <p class="hp-tag">Worked example: describe the translation from <b>P(−5, 3)</b> to <b>P'(1, −4)</b>.</p>
+      <p class="hp-tag">Worked example: describe the translation from <b>P(−5, 2)</b> to <b>P'(1, −6)</b>.</p>
       ${steps(
-        `<p><strong>Compare the x values.</strong> From −5 to 1 is up 6 on the number line.</p>
-         ${sum('1 − (−5) = 6, so 6 units right')}`,
-        `<p><strong>Compare the y values.</strong> From 3 to −4 is down 7.</p>
-         ${sum('−4 − 3 = −7, so 7 units down')}
-         ${ans('6 units right and 7 units down')}`,
-        `<p><strong>To undo it, reverse both:</strong> 6 left and 7 up. <strong>To join two translations,</strong> combine each direction: 4 left and 1 up, then 7 right and 5 down, gives 3 right and 4 down.</p>`
+        `<p><strong>Compare the x values on a number line.</strong> Count from −5 to 1: 5 steps to reach 0, then 1 more. x got bigger, so the point moved right.</p>
+         ${sum('−5 → 0 → 1: 5 + 1 = 6, so 6 units right')}`,
+        `<p><strong>Compare the y values the same way.</strong> Count from 2 down to −6: 2 steps to reach 0, then 6 more. y got smaller, so the point moved down.</p>
+         ${sum('2 → 0 → −6: 2 + 6 = 8, so 8 units down')}
+         ${ans('6 units right and 8 units down')}`,
+        `<p><strong>To undo it, reverse both:</strong> 6 left and 8 up. <strong>To join two translations,</strong> combine each direction: 4 left and 1 up, then 7 right and 5 down, gives 3 right and 4 down.</p>`
       )}
-      ${tip('A positive change in x is right, negative is left. A positive change in y is up, negative is down.')}`,
+      ${tip('x getting bigger means right, smaller means left. y getting bigger means up, smaller means down. When the signs are different, count through 0.')}`,
 
     // 7J Q6: counting paths on a dot grid
     '7j-paths': `

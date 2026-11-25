@@ -10278,9 +10278,14 @@ window.H3_BANK = {
      "label": "14d",
      "section": "Enrichment",
      "stem": "Exploring square patterns. Separate lists of numbers with commas.",
-     "prompt": "Write the difference between $n^2$ and the next square, $(n + 1)^2$, as an expression. Use the letter n.",
-     "type": "expression",
-     "answer": "2n+1"
+     "prompt": "Which of these explains the pattern? The difference between a square number and the next square number is always:",
+     "type": "choice",
+     "answer": 0,
+     "options": [
+      "the two numbers being squared added together (for example, from 3 squared to 4 squared the difference is 3 + 4 = 7)",
+      "double the bigger number (for example, 2 × 4 = 8)",
+      "the bigger number squared, take away 1"
+     ]
     }
    ]
   },

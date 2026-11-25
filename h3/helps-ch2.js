@@ -185,13 +185,12 @@
 
     // 2B Q4, Q5, Q7, Q14: LCM
     '2b-lcm': `
-      <p class="hp-tag">Worked example: find the LCM of <b>8</b> and <b>14</b>.</p>
+      <p class="hp-tag">Worked example: find the LCM of <b>16</b> and <b>20</b>.</p>
       ${steps(
-        `<p><strong>List the multiples of the bigger number.</strong></p>
-         ${sum('14, 28, 42, 56, ...')}`,
-        `<p><strong>Test each one for the smaller number.</strong> Stop at the first one 8 goes into.</p>
-         ${sum('14 ✗ &nbsp; 28 ✗ &nbsp; 42 ✗ &nbsp; 56 ✓ (56 ÷ 8 = 7)')}
-         ${ans('56')}`
+        `<p><strong>List the multiples of each number.</strong> Start at the number and keep adding it.</p>
+         ${sum('Multiples of 16: 16, 32, 48, 64, <b>80</b>, 96, ...<br>Multiples of 20: 20, 40, 60, <b>80</b>, 100, ...')}`,
+        `<p><strong>Find the lowest number that is in both lists.</strong> That is the lowest common multiple.</p>
+         ${ans('80')}`
       )}
       <p><strong>For a group, go two at a time.</strong> The LCM of 9 and 10 is 90. 90 is already a multiple of 15, so the LCM of 9, 10 and 15 is 90.</p>
       ${tip('If two numbers have no common factor except 1, the LCM is just their product. The LCM of 5 and 9 is 5 × 9 = 45.')}`,
@@ -203,8 +202,8 @@
         `<p><strong>Find the HCF.</strong></p>
          ${sum('20: 1, 2, 4, <b>5</b>, 10, 20<br>35: 1, <b>5</b>, 7, 35')}
          <p>The HCF is 5.</p>`,
-        `<p><strong>LCM = first number × second number ÷ HCF.</strong> It is easiest to divide one number by the HCF first.</p>
-         ${sum('35 ÷ 5 = 7<br>20 × 7 = 140')}`,
+        `<p><strong>LCM = first number × second number ÷ HCF.</strong> Multiply the two numbers, then divide by the HCF.</p>
+         ${sum('20 × 35 ÷ 5<br>= 700 ÷ 5<br>= 140')}`,
         `<p><strong>Type the HCF first, then the LCM.</strong></p>
          ${ans('5, 140')}`
       )}
@@ -214,22 +213,22 @@
     '2b-big': `
       <p class="hp-tag">Worked example: find the HCF and LCM of <b>260</b> and <b>390</b>.</p>
       ${steps(
-        `<p><strong>Both end in 0, so take out a 10.</strong> Work with the smaller numbers.</p>
-         ${sum('260 = 26 × 10<br>390 = 39 × 10')}`,
-        `<p><strong>HCF of 26 and 39.</strong> 26: 1, 2, 13, 26 and 39: 1, 3, 13, 39, so the HCF is 13. Put the 10 back.</p>
-         ${sum('13 × 10 = 130')}`,
-        `<p><strong>LCM of 26 and 39.</strong> Up the 39s: 39 ✗, 78 ✓. Put the 10 back.</p>
-         ${sum('78 × 10 = 780')}
+        `<p><strong>HCF: list the factors of each number</strong>, using factor pairs so you do not miss any.</p>
+         ${sum('260: 1, 2, 4, 5, 10, 13, 20, 26, 52, 65, 130, 260<br>390: 1, 2, 3, 5, 6, 10, 13, 15, 26, 30, 39, 65, 78, 130, 195, 390')}`,
+        `<p><strong>Find the highest factor in both lists.</strong> The common factors are 1, 2, 5, 10, 13, 26, 65 and 130.</p>
+         ${sum('HCF = 130')}`,
+        `<p><strong>LCM: list the multiples of each number</strong> until one turns up in both lists.</p>
+         ${sum('Multiples of 260: 260, 520, <b>780</b>, ...<br>Multiples of 390: 390, <b>780</b>, ...')}
          ${ans('HCF 130, LCM 780')}`
       )}
-      ${tip('Check the LCM: 780 ÷ 260 = 3 and 780 ÷ 390 = 2.')}`,
+      ${tip('Check the LCM with the rule: first number × second number ÷ HCF = 260 × 390 ÷ 130 = 101&nbsp;400 ÷ 130 = 780 ✓.')}`,
 
     // 2B Q10: three runners, when do they line up?
     '2b-word': `
       <p class="hp-tag">Worked example: three lighthouses flash every <b>3</b>, <b>7</b> and <b>14</b> seconds. They all flash at the start. When do they next all flash together? How many times has each one flashed by then?</p>
       ${steps(
-        `<p><strong>All together again means the LCM.</strong> Go up the biggest number, 14, and test each one for 3 and 7.</p>
-         ${sum('14 ✗ (no 3) &nbsp; 28 ✗ (no 3) &nbsp; 42 ✓')}
+        `<p><strong>All together again means the LCM.</strong> List the multiples of each number and find the lowest one in all three lists.</p>
+         ${sum('14: 14, 28, <b>42</b><br>7: 7, 14, 21, 28, 35, <b>42</b><br>3: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, <b>42</b>')}
          <p>They all flash together after 42 seconds.</p>`,
         `<p><strong>Divide the time by each gap</strong> to count the flashes.</p>
          ${sum('42 ÷ 3 = 14<br>42 ÷ 7 = 6<br>42 ÷ 14 = 3')}
@@ -323,7 +322,7 @@
          ${sum(`1${now('924')}`)}
          ${ans('÷ 4: Yes, ÷ 8: No')}`
       )}
-      ${tip('A quick way to test the last three digits for 8: halve them three times. 924 → 462 → 231 → 115.5. A half turned up, so 8 does not go in.')}`,
+      ${tip('For 8, divide the last three digits by 8 with short division. Any remainder means 8 does not go in. Passing the test for 4 is not enough: 1924 passes for 4 but not for 8.')}`,
 
     // 2C Q6, Q7, Q9: choosing the right test (all the tests together)
     '2c-all-tests': `
@@ -453,12 +452,14 @@
     '2d-prime-factors': `
       <p class="hp-tag">Worked example: list the different prime factors of <b>78</b>.</p>
       ${steps(
-        `<p><strong>Split it into two factors, and keep splitting</strong> until every number is prime.</p>
-         ${sum('78 = 2 × 39<br>39 = 3 × 13')}`,
-        `<p><strong>2, 3 and 13 are all prime, so stop.</strong> List each different prime once.</p>
+        `<p><strong>Find the whole set of factors first.</strong> Use factor pairs, starting at 1.</p>
+         ${sum('1 × 78<br>2 × 39<br>3 × 26<br>6 × 13')}
+         ${chips(['1'], ['2'], ['3'], ['6'], ['13'], ['26'], ['39'], ['78'])}`,
+        `<p><strong>Keep only the factors that are prime.</strong> 1 is not prime, and 6, 26, 39 and 78 each have more than two factors.</p>
+         ${chips(['1 ✗', 'take'], ['2', 'add'], ['3', 'add'], ['6 ✗', 'take'], ['13', 'add'], ['26 ✗', 'take'], ['39 ✗', 'take'], ['78 ✗', 'take'])}
          ${ans('2, 3, 13')}`
       )}
-      ${tip('List a repeated prime only once. 12 = 2 × 2 × 3 has two different prime factors (2 and 3), and 8 = 2 × 2 × 2 has just one (2).')}`,
+      ${tip('Each prime goes in the list once. The factors of 12 are 1, 2, 3, 4, 6 and 12, and only 2 and 3 are prime, so 12 has two different prime factors.')}`,
 
     // 2D Q4: composite numbers between two numbers
     '2d-composite': `
@@ -764,7 +765,7 @@
          ${ans('23')}`
       )}
       ${flow(['Square', '23 → 529'], ['Square root', '529 → 23'])}
-      <p><strong>Zeros on the end?</strong> Take the root of the front part, then halve the number of zeros. √52900 = 230, because √529 = 23 and two zeros become one.</p>
+      <p><strong>Zeros on the end?</strong> Still ask which number, times itself, makes it. You know 23 × 23 = 529, so try 230: 230 × 230 = 52900 ✓. So √52900 = 230.</p>
       ${tip('Squaring and square-rooting undo each other. Learn the squares up to 15² by heart and most roots become instant.')}`,
 
     // 2G Q5, Q8: which two whole numbers a square root sits between
@@ -889,7 +890,7 @@
          ${sum('2 × 20 + 2 = 42')}
          ${ans('42')}`
       )}
-      ${tip('Write an expression with n, like 2n+2. No × sign is needed between a number and a letter.')}`,
+      ${tip('Check your rule on a pair from the table before you use it on big numbers.')}`,
 
     // =====================================================================
     // 2H Number patterns

@@ -130,20 +130,20 @@
       )}
       ${tip('Type just the number, like 25, or h = 25. Both are marked right.')}`,
 
-    // 9B Q4, Q5: two-step equations by inspection (cover-up and guess-check)
+    // 9B Q4, Q5: two-step equations by inspection (trying values, or undoing)
     '9b-guess': `
       <p class="hp-tag">Worked example: solve <b>6w + 5 = 47</b> by inspection.</p>
       ${steps(
-        `<p><strong>Cover up the letter part.</strong> Something + 5 = 47. That something must be 42.</p>
-         ${sum(`${now('6w')} + 5 = 47, so 6w = 42`)}`,
-        `<p><strong>Now it is one step.</strong> 6 times what makes 42? It is 7.</p>
-         ${sum('w = 7')}`,
-        `<p><strong>Check in the original.</strong></p>
-         ${sum('6 × 7 + 5 = 42 + 5 = 47 ✓')}
-         ${ans('7')}`
+        `<p><strong>Try a value for w</strong> and work out the left side. Is it too big or too small?</p>
+         ${sum('w = 5: 6 × 5 + 5 = 35, too small<br>w = 8: 6 × 8 + 5 = 53, too large')}`,
+        `<p><strong>Try a value in between.</strong> The answer is between 5 and 8.</p>
+         ${sum('w = 7: 6 × 7 + 5 = 47 ✓')}
+         ${ans('7')}`,
+        `<p><strong>Another way: undo the operations.</strong> w was multiplied by 6, then 5 was added. Start at 47 and undo them in reverse order.</p>
+         ${flow(['Start', '47'], ['− 5', '42'], ['÷ 6', 'w = 7'])}`
       )}
-      <p><strong>Letter on both sides?</strong> Guess, check, adjust. For 22 − x = x + 4, try x = 8: 14 and 12, not equal. Try x = 9: 13 and 13 ✓.</p>
-      ${tip('Brackets can be covered up too. In 2(k + 6) = 26, the bracket must be 13, so k = 7.')}`,
+      <p><strong>Letter on both sides?</strong> Keep trying values until both sides match. For 22 − x = x + 4, try x = 8: 14 and 12, not equal. Try x = 9: 13 and 13 ✓.</p>
+      ${tip('Brackets work the same way. For 2(k + 6) = 26, try k = 5: 2 × 11 = 22, too small. Try k = 7: 2 × 13 = 26 ✓.')}`,
 
     // 9B Q6, Q7, Q8, Q9, Q10, Q11: words and stories
     '9b-words': `
@@ -166,8 +166,8 @@
       ${steps(
         `<p><strong>Simplify the left side.</strong> Two x's and a 1.</p>
          ${sum('x + (x + 1) = 2x + 1')}`,
-        `<p><strong>Cover up.</strong> 2x + 1 = 61, so 2x must be 60, and x is half of 60.</p>
-         ${sum('2x = 60, so x = 30')}`,
+        `<p><strong>Solve 2x + 1 = 61 by inspection.</strong> Half of 61 is about 30, so try values near there.</p>
+         ${sum('x = 29: 2 × 29 + 1 = 59, too small<br>x = 30: 2 × 30 + 1 = 61 ✓')}`,
         `<p><strong>Find both numbers and check.</strong> The next number is 31.</p>
          ${sum('30 + 31 = 61 ✓')}
          ${ans('30, 31')}`

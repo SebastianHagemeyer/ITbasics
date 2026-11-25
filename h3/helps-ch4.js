@@ -173,13 +173,12 @@
     '4c-equivalent': `
       <p class="hp-tag">Worked example: two of these are equivalent. Which two? <b>9w + 1</b>, <b>2w + 1 + 7w</b>, <b>9 + w</b></p>
       ${steps(
-        `<p><strong>Simplify each one</strong> by adding the w terms together.</p>
-         ${sum(`${now('2w')} + 1 + ${now('7w')} = 9w + 1`)}`,
-        `<p><strong>Compare.</strong> 9 + w is not the same: 9w means 9 lots of w, but 9 + w only adds 9.</p>
+        `<p><strong>Draw a table of values.</strong> Substitute a few numbers for w into each expression.</p>
+         ${fig({ kind: 'table', rows: [['', 'w = 1', 'w = 2', 'w = 3'], ['9w + 1', '10', '19', '28'], ['2w + 1 + 7w', '10', '19', '28'], ['9 + w', '10', '11', '12']] })}`,
+        `<p><strong>Compare the rows.</strong> At w = 1 all three give 10, so one value is not enough. At w = 2, 9 + w gives 11, so it is not equivalent to the others. The other two rows match every time.</p>
          ${ans('9w + 1 and 2w + 1 + 7w')}`
       )}
-      <p><strong>Not sure?</strong> Substitute a number. With w = 10: 9w + 1 = 91 and 2w + 1 + 7w = 91, but 9 + w = 19.</p>
-      ${tip('Order does not matter when you add: 3 + w and w + 3 are equivalent. Equivalent means equal for every value of the letter.')}`,
+      ${tip('Order does not matter when you add: 3 + w and w + 3 are equivalent. If two rows differ for even one value, the expressions are not equivalent.')}`,
 
     // 4C Q3, Q4, Q11: turning number facts into algebra
     '4c-generalise': `
@@ -590,11 +589,11 @@
       ${steps(
         `<p><strong>Write an expression for each plan.</strong></p>
          ${sum('A: 30 + 40t &nbsp; B: 80 + 30t')}`,
-        `<p><strong>Compare for a given time.</strong> For 2 minutes, A is 30 + 80 = 110 cents and B is 80 + 60 = 140 cents, so A is cheaper.</p>`,
-        `<p><strong>Find when they are equal.</strong> B starts 50 cents dearer, but A catches up by 10 cents every minute. 50 ÷ 10 = 5.</p>
-         ${sum('t = 5: A = 30 + 200 = 230, B = 80 + 150 = 230 ✓')}
+        `<p><strong>Make a table of costs.</strong> Substitute t = 1, 2, 3, ... into each expression.</p>
+         ${fig({ kind: 'table', rows: [['Minutes', '1', '2', '3', '4', '5'], ['Plan A (cents)', '70', '110', '150', '190', '230'], ['Plan B (cents)', '110', '140', '170', '200', '230']] })}`,
+        `<p><strong>Read the table.</strong> For 2 minutes, A costs 110 cents and B costs 140 cents, so A is cheaper. The two rows are equal at 5 minutes: both cost 230 cents.</p>
          ${ans('5')}`
       )}
-      ${tip('A table of costs for 1, 2, 3, ... minutes also shows where the two plans meet.')}`,
+      ${tip('Keep adding columns until the rows meet. After that, the plan with the smaller cost per minute is cheaper.')}`,
   });
 })();

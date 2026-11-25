@@ -122,7 +122,7 @@
          ${ans('5/8')}`
       )}
       <p>In a story, write <strong>part over total</strong> first, then simplify. In a list, test each fraction: if its top and bottom share a factor, it is the one that is not simplest.</p>
-      ${tip('You do not have to find the HCF straight away. Divide by any number that goes into both, and keep going until nothing does. If the bottom becomes 1, type the whole number: 84/12 = 7.')}`,
+      ${tip('Dividing by the HCF gets you to simplest form in one step. To find it, list the factors of the smaller number, biggest first, and stop at the first one that also goes into the bigger number. If the bottom becomes 1, type the whole number: 84/12 = 7.')}`,
 
     // 3B Q6: are two fractions equivalent?
     '3b-same': `
@@ -321,7 +321,7 @@
         `<p><strong>Now compare the tops.</strong> 20 is less than 21.</p>
          ${ans('&lt;')}`
       )}
-      ${tip('With mixed numerals, compare the whole numbers first, and only look at the fractions if they match. Change an improper fraction to a mixed numeral first, for example 11/5 = 2 1/5.')}`,
+      ${tip('With a mixed numeral, change it to an improper fraction first, then find a common denominator as usual. For example, 1 2/9 = 11/9, because 1 × 9 + 2 = 11.')}`,
 
     // 3D Q5, Q6, Q7, Q10: putting fractions in order
     '3d-order': `
@@ -333,7 +333,8 @@
         `<p><strong>Write the original fractions in that order.</strong></p>
          ${ans('5/14, 3/7, 1/2')}`
       )}
-      <p><strong>Mixed numerals in the list?</strong> Change everything to mixed numerals and sort by whole number first. Only compare the fractions when the whole numbers match.</p>
+      <p><strong>Mixed numerals in the list?</strong> Change them to improper fractions first, then use the lowest common denominator as before. For 1 1/6, 5/4 and 11/9: 1 1/6 = 7/6, and the LCD of 6, 4 and 9 is 36.</p>
+      ${sum('7/6 = 42/36 &nbsp; 5/4 = 45/36 &nbsp; 11/9 = 44/36<br>Ascending: 1 1/6, 11/9, 5/4')}
       ${tip('Ascending means smallest first. Descending means largest first. In a race, the fastest runner has the smallest time.')}`,
 
     // 3D Q11: patterns with a common denominator
@@ -507,15 +508,15 @@
     '3e-boxes': `
       <p class="hp-tag">Worked example: <b>1/□ + 1/□ = 13/40</b></p>
       ${steps(
-        `<p><strong>See what adding two unit fractions does.</strong> With 1 on top, the new bottom is the two bottoms multiplied, and the new top is the two bottoms added.</p>
-         ${sum('1/a + 1/b = (b + a)/(a × b)')}`,
-        `<p><strong>Find two numbers that multiply to 40 and add to 13.</strong></p>
-         ${chips(['2 and 20 ✗'], ['4 and 10 ✗'], ['5 and 8 ✓', 'add'])}`,
-        `<p><strong>Check.</strong></p>
+        `<p><strong>Look at the answer's bottom number.</strong> 40 is the common denominator, so each box must be a number from 1 to 9 that goes into 40.</p>
+         ${chips(['2'], ['4'], ['5'], ['8'])}`,
+        `<p><strong>Try a pair.</strong> Write both fractions with the common denominator and add the tops, just like any other sum.</p>
+         ${sum('1/4 + 1/8 = 2/8 + 1/8 = 3/8 = 15/40 ✗')}`,
+        `<p><strong>Try another pair until the sum matches.</strong></p>
          ${sum('1/5 + 1/8 = 8/40 + 5/40 = 13/40 ✓')}
          ${ans('5, 8')}`
       )}
-      ${tip('When the tops are not 1, try a number in one box, work out what the other box needs, and check it with a common denominator.')}`,
+      ${tip('When the tops are not 1, it works the same way: try a number in one box, add with a common denominator, and see if you get the answer.')}`,
 
     // 3E Q14: biggest and smallest sums from digits
     '3e-digits': `
@@ -664,14 +665,16 @@
     '3g-of-whole': `
       <p class="hp-tag">Worked example: <b>2/3 of 45</b></p>
       ${steps(
-        `<p><strong>Divide by the denominator</strong> to find one third.</p>
-         ${sum('45 ÷ 3 = 15')}
-         ${fig({ kind: 'bar', parts: 3, shaded: 2, caption: '45 in 3 parts: 15 each' })}`,
-        `<p><strong>Multiply by the numerator</strong> to get two thirds.</p>
-         ${sum('15 × 2 = 30')}
-         ${ans('30')}`
+        `<p><strong>Change "of" to ×, and write the whole number as a fraction over 1.</strong></p>
+         ${sum('2/3 of 45 = 2/3 × 45/1')}`,
+        `<p><strong>Cancel first.</strong> The 3 on the bottom and the 45 on top share a factor of 3: 3 ÷ 3 = 1 and 45 ÷ 3 = 15.</p>
+         ${sum('2/1 × 15/1')}`,
+        `<p><strong>Multiply the tops and multiply the bottoms.</strong></p>
+         ${sum('2 × 15 = 30 and 1 × 1 = 1, so 30/1 = 30')}
+         ${ans('30')}
+         ${fig({ kind: 'bar', parts: 3, shaded: 2, caption: '45 in 3 parts: 15 each, 2 parts shaded' })}`
       )}
-      ${tip('2/3 × 45 means the same as 2/3 of 45. Dividing first keeps the numbers small.')}`,
+      ${tip('If nothing cancels, just multiply and change the answer to a mixed numeral: 4/9 × 5/1 = 20/9 = 2 2/9.')}`,
 
     // 3G Q5: improper fractions, answer as a mixed numeral
     '3g-improper': `
@@ -708,8 +711,8 @@
       ${steps(
         `<p><strong>Find the fraction you need.</strong> Won and lost make one whole.</p>
          ${sum('1 − 5/6 = 1/6 lost')}`,
-        `<p><strong>"Of" means multiply.</strong> Find 1/6 of 18.</p>
-         ${sum('18 ÷ 6 = 3')}
+        `<p><strong>"Of" means multiply.</strong> Write 18 over 1, cancel the 6 and the 18 by 6, then multiply.</p>
+         ${sum('1/6 × 18/1 = 1/1 × 3/1 = 3')}
          ${ans('3')}`
       )}
       ${chips(['of → ×', 'add'], ['the rest → 1 take away the fraction', 'take'], ['double, triple, 6 batches → × the whole number', 'add'])}
@@ -1138,7 +1141,7 @@
          ${ans('4:3')}`
       )}
       <p><strong>Three parts work the same way.</strong> In 26 : 39 : 13 every part divides by 13, so it simplifies to 2 : 3 : 1.</p>
-      ${tip('Cannot spot the biggest factor? Divide by a small one and keep going: 36 : 27 → 12 : 9 → 4 : 3. If the units match, like 35 cm to 50 cm, drop them: 35 : 50 = 7 : 10.')}`,
+      ${tip('To find the HCF, list the factors of the smallest number, biggest first: 27, 9, 3, 1. The first one that also goes into 36 is 9. If the units match, like 35 cm to 50 cm, drop them and divide by the HCF, 5: 35 : 50 = 7 : 10.')}`,
 
     // 3K Q7: shaded to white squares
     '3k-shaded': `
@@ -1253,13 +1256,13 @@
     '3l-divide': `
       <p class="hp-tag">Worked example: divide <b>$56</b> in the ratio <b>3 : 4</b>.</p>
       ${steps(
-        `<p><strong>Count the parts.</strong></p>
+        `<p><strong>Find the total number of parts.</strong></p>
          ${sum('3 + 4 = 7 parts')}
          ${fig({ kind: 'bar', parts: 7, shaded: 3, caption: '3 parts and 4 parts' })}`,
-        `<p><strong>Find one part.</strong></p>
-         ${sum('56 ÷ 7 = 8')}`,
-        `<p><strong>Multiply each number in the ratio by one part.</strong></p>
-         ${sum('3 × 8 = 24<br>4 × 8 = 32')}
+        `<p><strong>Write each share as a fraction of the total.</strong></p>
+         ${sum('first share: 3/7 &nbsp; second share: 4/7')}`,
+        `<p><strong>Multiply each fraction by the amount.</strong> Write 56 over 1, and cancel the 7 and the 56 by 7.</p>
+         ${sum('3/7 × 56/1 = 3/1 × 8/1 = 24<br>4/7 × 56/1 = 4/1 × 8/1 = 32')}
          ${ans('24, 32')}`
       )}
       ${tip('Check the shares add back to the total: 24 + 32 = 56. Type both amounts in order, with a comma.')}`,
@@ -1271,23 +1274,23 @@
         `<p><strong>You know one part.</strong> With 8 litres of cordial, how much water? 2 became 8, so multiply everything by 4.</p>
          ${sum('cordial : water : total = 2 : 9 : 11<br>× 4 → 8 : 36 : 44')}
          ${ans('36')}`,
-        `<p><strong>You know the total.</strong> To make 33 litres of drink, how much cordial? Find one part first.</p>
-         ${sum('2 + 9 = 11 parts<br>33 ÷ 11 = 3 litres in each part<br>cordial = 2 × 3 = 6 litres')}
+        `<p><strong>You know the total.</strong> To make 33 litres of drink, how much cordial? Cordial is 2 of the 11 parts, so it is 2/11 of the drink.</p>
+         ${sum('2 + 9 = 11 parts<br>2/11 × 33/1 = 2/1 × 3/1 = 6 litres')}
          ${ans('6')}`
       )}
-      ${tip('Ask yourself: do I know one part, or the total? Adding the total to the end of the ratio makes both kinds easy to scale.')}`,
+      ${tip('Ask yourself: do I know one part, or the total? One part: multiply the whole ratio by the same number. The total: find the fraction of the total.')}`,
 
     // 3L Q8, Q9, Q11: three-part ratios
     '3l-three': `
       <p class="hp-tag">Worked example: share <b>$132</b> in the ratio <b>2 : 3 : 6</b>.</p>
       ${steps(
-        `<p><strong>Count all the parts.</strong></p>
+        `<p><strong>Find the total number of parts.</strong></p>
          ${sum('2 + 3 + 6 = 11 parts')}
          ${fig({ kind: 'bar', parts: 11, shaded: [0, 1, 5, 6, 7, 8, 9, 10], caption: '2 parts, 3 parts, 6 parts' })}`,
-        `<p><strong>Find one part.</strong></p>
-         ${sum('132 ÷ 11 = 12')}`,
-        `<p><strong>Multiply each number in the ratio by 12.</strong></p>
-         ${sum('2 × 12 = 24<br>3 × 12 = 36<br>6 × 12 = 72')}
+        `<p><strong>Write each share as a fraction of the total.</strong></p>
+         ${sum('2/11, &nbsp; 3/11, &nbsp; 6/11')}`,
+        `<p><strong>Multiply each fraction by the amount.</strong> The 11 and the 132 cancel by 11, leaving 12.</p>
+         ${sum('2/11 × 132/1 = 2 × 12 = 24<br>3/11 × 132/1 = 3 × 12 = 36<br>6/11 × 132/1 = 6 × 12 = 72')}
          ${ans('24, 36, 72')}`
       )}
       ${tip('If a question asks for only one share, just work out that one. For the angles in a triangle, the total is 180°, even when the question does not say so.')}`,
@@ -1324,10 +1327,10 @@
       <p class="hp-tag">Worked example:</p>
       <p class="hp-story">A shelter has <span class="hp-hl">36</span> cats and dogs in the ratio <span class="hp-hl">5 : 4</span>. Some cats are adopted, and now the ratio of cats to dogs is <span class="hp-hl">1 : 2</span>. How many cats were adopted?</p>
       ${steps(
-        `<p><strong>Find the starting numbers.</strong></p>
-         ${sum('5 + 4 = 9 parts, 36 ÷ 9 = 4<br>cats: 5 × 4 = 20 &nbsp; dogs: 4 × 4 = 16')}`,
-        `<p><strong>Use the group that did not change.</strong> There are still 16 dogs. In 1 : 2 the dogs are 2 parts, so one part is 16 ÷ 2 = 8.</p>
-         ${sum('cats now: 1 × 8 = 8')}`,
+        `<p><strong>Find the starting numbers.</strong> There are 5 + 4 = 9 parts, so cats are 5/9 of 36 and dogs are 4/9 of 36.</p>
+         ${sum('cats: 5/9 × 36/1 = 5 × 4 = 20<br>dogs: 4/9 × 36/1 = 4 × 4 = 16')}`,
+        `<p><strong>Use the group that did not change.</strong> There are still 16 dogs. Multiply the new ratio so the dogs part becomes 16: 2 became 16, so × 8.</p>
+         ${sum('cats : dogs = 1 : 2 = 8 : 16<br>cats now: 8')}`,
         `<p><strong>Find the difference.</strong></p>
          ${sum('20 − 8 = 12')}
          ${ans('12')}`

@@ -320,7 +320,8 @@
         `<p><strong>Count the zeros.</strong> 1000 has 3, so every digit moves 3 places to the right (the number gets smaller).</p>
          ${chart(['10', '1', '', '0.1', '0.01', '0.001', '0.0001'], ['5', '8', '.', '3', '', '', ''])}
          ${chart(['10', '1', '', '0.1', '0.01', '0.001', '0.0001'], ['', '0', '.', '0', '5', '8', '3'], [1, 3])}`,
-        `<p><strong>Fill the gaps with zeros</strong>, and put a 0 in front of the point.</p>
+        `<p><strong>Read the new number.</strong> It is the same as moving the point 3 places left. Fill the gaps with zeros, and put a 0 in front of the point.</p>
+         ${sum('58.3 → 0.0583')}
          ${ans('0.0583')}`
       )}
       ${tip('Check the size: dividing 58.3 by 1000 must give something much smaller, less than 1.')}`,
@@ -391,10 +392,11 @@
         `<p><strong>Count how many places the point moved.</strong> From the end of 2&nbsp;400&nbsp;000 to after the 2 is 6 places.</p>
          ${sum('2&nbsp;400&nbsp;000 = 2.4 × 10^6')}
          ${ans('2.4×10^6')}`,
-        `<p><strong>To multiply,</strong> write both in standard form, multiply the front numbers and add the powers.</p>
-         ${sum('60&nbsp;000 × 900&nbsp;000 = 6 × 10^4 × 9 × 10^5<br>= 54 × 10^9 = 5.4 × 10^10')}`
+        `<p><strong>To multiply big numbers, use a calculator.</strong> For 60&nbsp;000 × 900&nbsp;000 the screen shows 5.4E10, which means 5.4 × 10^10.</p>
+         ${sum('60&nbsp;000 × 900&nbsp;000 = 5.4E10 = 5.4 × 10^10')}
+         <p>No calculator? Ignore the zeros and multiply 6 × 9 = 54, then put back all 4 + 5 = 9 zeros: 54&nbsp;000&nbsp;000&nbsp;000. Now write that in standard form, as in step 2.</p>`
       )}
-      ${tip('Type it like 5.4x10^10. The front number must be between 1 and 10, so 54 × 10^9 needs one more step.')}`,
+      ${tip('Type it like 5.4x10^10. The front number must be between 1 and 10, so 54 followed by zeros becomes 5.4 × 10^ something.')}`,
 
     // =====================================================================
     // 5E Multiplying decimals
@@ -432,9 +434,14 @@
     '5e-decimals': `
       <p class="hp-tag">Worked example: <b>3.7 × 0.26</b></p>
       ${steps(
-        `<p><strong>Ignore the points and multiply the whole numbers.</strong></p>
-         ${area('37', [['20', '37 × 20 = 740', 2], ['6', '37 × 6 = 222', 1]])}
-         ${sum('740 + 222 = 962')}`,
+        `<p><strong>Ignore the points and multiply the whole numbers</strong>, the usual long multiplication way.</p>
+         ${algo([
+           { cells: d('  37') },
+           { cells: d('× 26') },
+           { kind: 'res', cells: d(' 222'), note: '37 × 6' },
+           { cells: d('+740'), note: '37 × 20' },
+           { kind: 'res', cells: d(' 962') }
+         ])}`,
         `<p><strong>Count the decimal places in the question.</strong> 3.7 has 1 and 0.26 has 2, so 3 altogether.</p>`,
         `<p><strong>Give the answer 3 decimal places.</strong></p>
          ${sum('962 → 0.962')}
@@ -848,17 +855,17 @@
 
     // 5I Q2, Q3: a proportion as a decimal or percentage
     '5i-dec-pct': `
-      <p class="hp-tag">Worked example: write <b>23 out of 100</b> and <b>7 out of 8</b> as a decimal and a percentage.</p>
+      <p class="hp-tag">Worked example: write <b>23 out of 100</b> and <b>13 out of 25</b> as a decimal and a percentage.</p>
       ${steps(
         `<p><strong>Out of 100 is easy:</strong> hundredths, and the same number as a percentage.</p>
          ${sum('23/100 = 0.23 = 23%')}`,
-        `<p><strong>Other totals: divide the part by the total.</strong></p>
-         ${sum('7 ÷ 8 = 0.875')}`,
-        `<p><strong>Then × 100 for the percentage.</strong></p>
-         ${sum('0.875 = 87.5%')}
-         ${ans('0.875, 87.5%')}`
+        `<p><strong>Other totals: write the fraction, then make the bottom 100.</strong> 25 × 4 = 100, so multiply the top by 4 too.</p>
+         ${sum('13/25 = 52/100 = 0.52')}`,
+        `<p><strong>For the percentage, multiply by 100.</strong></p>
+         ${sum('13/25 × 100 = 52, so 13/25 = 52%')}
+         ${ans('0.52, 52%')}`
       )}
-      ${tip('Out of 10 means tenths: one decimal place. If the total is 20 or 50, you can also scale it up to 100.')}`,
+      ${tip('Out of 10 means tenths: one decimal place. For a total of 20 or 50, ask what you multiply by to get 100.')}`,
 
     // 5I Q4, Q10, Q11: fraction, decimal and percentage of a total
     '5i-all-three': `

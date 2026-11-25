@@ -270,13 +270,13 @@
     '6c-sub-neg': `
       <p class="hp-tag">Worked example: <b>5 − (−9)</b></p>
       ${steps(
-        `<p><strong>Subtracting a negative is the same as adding.</strong> The two minus signs side by side become a plus.</p>
-         ${flow(['Start', '5 − (−9)'], ['− − becomes +', '5 + 9'], ['Add', '14'])}
+        `<p><strong>Subtracting a negative is the same as adding its opposite.</strong> Subtracting −9 is the same as adding 9.</p>
+         ${flow(['Start', '5 − (−9)'], ['Subtract −9 = add 9', '5 + 9'], ['Add', '14'])}
          ${ans('14')}`,
         `<p><strong>It works when you start below zero too.</strong></p>
          ${sum('−10 − (−3) = −10 + 3 = −7')}`
       )}
-      ${tip('Taking away a debt makes you richer. Only change the two signs that sit next to each other.')}`,
+      ${tip('Taking away a debt makes you richer. The opposite of −9 is 9, so check you add the right number.')}`,
 
     // 6C Q4: missing numbers
     '6c-missing': `
@@ -295,13 +295,13 @@
     '6c-left-right': `
       <p class="hp-tag">Worked example: <b>−6 − (−9) + (−8)</b></p>
       ${steps(
-        `<p><strong>Change each pair of signs first.</strong></p>
-         ${sum('− (−9) becomes + 9<br>+ (−8) becomes − 8<br>So it is −6 + 9 − 8')}`,
+        `<p><strong>Rewrite each negative being added or subtracted.</strong> Subtracting a negative means adding its opposite, and adding a negative means subtracting its opposite.</p>
+         ${sum('Subtract −9 = add 9<br>Add −8 = subtract 8<br>So it is −6 + 9 − 8')}`,
         `<p><strong>Work from left to right.</strong></p>
          ${flow(['Start', '−6'], ['+ 9', '3'], ['− 8', '−5'])}
          ${ans('-5')}`
       )}
-      ${tip('Change one pair of signs at a time, and keep the numbers in the same order.')}`,
+      ${tip('Rewrite one part at a time, and keep the numbers in the same order.')}`,
 
     // 6C Q6, Q7, Q8: word problems with depths and debts
     '6c-word': `
@@ -829,16 +829,16 @@
 
     // 6G Q12: distance from the origin
     '6g-distance': `
-      <p class="hp-tag">Worked example: put <b>P(5, 5)</b>, <b>Q(−6, 0)</b> and <b>R(0, −7)</b> in order from closest to farthest from O.</p>
-      ${fig({ kind: 'plane', x: [-7, 6], y: [-7, 6], points: { P: [5, 5], Q: [-6, 0], R: [0, -7] } })}
+      <p class="hp-tag">Worked example: put <b>P(5, 5)</b>, <b>Q(−6, 0)</b> and <b>R(0, −4)</b> in order from closest to farthest from O.</p>
+      ${fig({ kind: 'plane', x: [-7, 6], y: [-5, 6], points: { P: [5, 5], Q: [-6, 0], R: [0, -4] } })}
       ${steps(
-        `<p><strong>Points on an axis are easy.</strong> Q is 6 from O and R is 7 from O.</p>`,
-        `<p><strong>For a point off the axes, square both coordinates and add.</strong> Do the same for the others so you can compare. The smallest total is the closest.</p>
-         ${sum('P: 5² + 5² = 25 + 25 = 50<br>Q: 6² = 36<br>R: 7² = 49')}`,
-        `<p><strong>Order them by their totals.</strong> Type the letters with commas.</p>
-         ${ans('Q, R, P')}`
+        `<p><strong>Plot the points.</strong> Start at O each time: go across for x, then up or down for y.</p>`,
+        `<p><strong>Count the steps from O to each point.</strong> A point on an axis is just its number of steps. For P, count across and then up.</p>
+         ${sum('R: 4 down, so 4 steps<br>Q: 6 left, so 6 steps<br>P: 5 right and 5 up, so 5 + 5 = 10 steps')}`,
+        `<p><strong>Compare.</strong> Fewest steps is closest. Look at the picture to check it agrees: R is nearest O, and P is furthest out. Type the letters with commas.</p>
+         ${ans('R, Q, P')}`
       )}
-      ${tip('A point can look close because its numbers are small, but going diagonally takes it further out. Squaring and adding takes care of that.')}`,
+      ${tip('Going straight across diagonally is shorter than counting across and then up, so step counts are only a guide. If two points look about the same distance away, measure from O to each one with a ruler.')}`,
 
     // 6G Q13: quadrants
     '6g-quadrant': `

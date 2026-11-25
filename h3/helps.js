@@ -731,7 +731,7 @@
         `<p><strong>Last digit.</strong> 27 ÷ 4 = 6 remainder 3. Nothing is left to carry to, so 3 is the remainder.</p>
          ${ans('236 r 3')}`
       )}
-      ${tip('If the divisor does not go into a digit, write 0 on top and carry the whole digit. Type your answer like 236 r 3.')}`,
+      ${tip('If the divisor does not go into the first digit, leave that space blank and use the first two digits together. Further along, if it does not go into a digit, write 0 on top and carry the whole digit. Type your answer like 236 r 3.')}`,
 
     // Q15: dividing by a two-digit number
     '1g-long': `
@@ -739,8 +739,8 @@
       ${steps(
         `<p><strong>Write out the 13 times table first.</strong></p>
          ${chips(['13'], ['26'], ['39'], ['52'], ['65'], ['78'], ['91'], ['104'], ['117'])}`,
-        `<p><strong>Divide digit by digit, as in short division.</strong> 7 ÷ 13 = 0 r 7. Then 74 ÷ 13 = 5 r 9, because 5 × 13 = 65. Then 95 ÷ 13 = 7 r 4, because 7 × 13 = 91.</p>
-         ${bus('13', ['7', '4', '5'], ['0', '5', '7'], ['', '7', '9'], 'r 4')}
+        `<p><strong>Divide as in short division.</strong> 13 does not go into 7, so leave that space blank and use the first two digits together: 74 ÷ 13 = 5 r 9, because 5 × 13 = 65. Carry the 9 to make 95. Then 95 ÷ 13 = 7 r 4, because 7 × 13 = 91.</p>
+         ${bus('13', ['7', '4', '5'], ['', '5', '7'], ['', '', '9'], 'r 4')}
          ${ans('57 r 4')}`
       )}
       ${tip('The list of multiples does the hard work. Pick the biggest one that fits.')}`,

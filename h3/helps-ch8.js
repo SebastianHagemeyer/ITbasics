@@ -180,10 +180,10 @@
       ${steps(
         `<p><strong>Mean: add with a common denominator.</strong> 20 works for all four.</p>
          ${sum('10/20 + 5/20 + 4/20 + 2/20 = 21/20')}`,
-        `<p><strong>Divide by the count, 4.</strong> Dividing by 4 multiplies the denominator by 4.</p>
-         ${sum('21/20 ÷ 4 = 21/80')}`,
+        `<p><strong>Divide by the count, 4.</strong> Dividing by 4 is the same as multiplying by its reciprocal, 1/4.</p>
+         ${sum('21/20 ÷ 4 = 21/20 × 1/4 = 21/80')}`,
         `<p><strong>Median: order them.</strong> With top number 1, a bigger denominator is a smaller piece: 1/10, 1/5, 1/4, 1/2. Go halfway between the middle two.</p>
-         ${sum('1/5 + 1/4 = 4/20 + 5/20 = 9/20<br>9/20 ÷ 2 = 9/40')}
+         ${sum('1/5 + 1/4 = 4/20 + 5/20 = 9/20<br>9/20 ÷ 2 = 9/20 × 1/2 = 9/40')}
          ${ans('mean 21/80, median 9/40')}`
       )}
       ${tip('Type a fraction with a slash, like 21/80.')}`,
@@ -270,15 +270,15 @@
 
     // 8C Q14: counting different graphs
     '8c-count': `
-      <p class="hp-tag">Worked example: a column graph shows three pets: cat, dog and fish. Counting only direction (up or across) and order, how many different graphs are there?</p>
+      <p class="hp-tag">Worked example: a column graph shows three sports: netball, soccer and tennis. Counting only direction (up or across) and order, how many different graphs are there?</p>
       ${steps(
-        `<p><strong>Count the orders.</strong> 3 choices for the first column, then 2 left, then 1.</p>
-         ${sum('3 × 2 × 1 = 6')}`,
+        `<p><strong>List the orders systematically.</strong> Use a letter for each sport. Put each sport first in turn, then write every way to finish.</p>
+         ${sum('netball first: NST, NTS<br>soccer first: SNT, STN<br>tennis first: TNS, TSN<br>6 orders')}`,
         `<p><strong>Each order can go up or across.</strong> That doubles it.</p>
          ${sum('6 × 2 = 12')}
          ${ans('12')}`
       )}
-      ${tip('If unsure, list them: CDF, CFD, DCF, DFC, FCD, FDC. That is 6.')}`,
+      ${tip('With more categories, list the same way: fix the first one, list every order of the rest, then move on to the next first category. Working in an order means none are missed or counted twice.')}`,
 
     // =====================================================================
     // 8D Line graphs
@@ -435,8 +435,8 @@
          ${sum('20 + 17 + 8 = 45')}`,
         `<p><strong>Fraction = votes ÷ total.</strong> Simplify if you can.</p>
          ${sum('Netball: 20/45 = 4/9')}`,
-        `<p><strong>Angle = fraction × 360°.</strong> A quick way: 360 ÷ 45 = 8° for each vote.</p>
-         ${sum('Netball: 20 × 8 = 160°<br>Soccer: 17 × 8 = 136°<br>Tennis: 8 × 8 = 64°')}
+        `<p><strong>Angle = fraction × 360°.</strong></p>
+         ${sum('Netball: 4/9 × 360 = 160°<br>Soccer: 17/45 × 360 = 136°<br>Tennis: 8/45 × 360 = 64°')}
          ${ans('4/9, 160°')}`
       )}
       ${tip('Type a fraction with a slash: 4/9. For a percentage, use fraction × 100. If two groups are combined, add their votes and their totals first.')}`,
@@ -446,10 +446,10 @@
       <p class="hp-tag">Worked example: 72 students said how they get to school.</p>
       ${fig({ kind: 'sector', parts: [['Bus (150°)', 150], ['Walk (110°)', 110], ['Car (100°)', 100]] })}
       ${steps(
-        `<p><strong>Find the degrees for one person.</strong></p>
-         ${sum('360 ÷ 72 = 5° per student')}`,
-        `<p><strong>Divide each angle by that.</strong></p>
-         ${sum('Bus: 150 ÷ 5 = 30<br>Walk: 110 ÷ 5 = 22<br>Car: 100 ÷ 5 = 20')}`,
+        `<p><strong>Find each sector's fraction of the circle:</strong> angle ÷ 360. Simplify.</p>
+         ${sum('Bus: 150/360 = 5/12<br>Walk: 110/360 = 11/36<br>Car: 100/360 = 5/18')}`,
+        `<p><strong>Multiply each fraction by the total.</strong></p>
+         ${sum('Bus: 5/12 × 72 = 30<br>Walk: 11/36 × 72 = 22<br>Car: 5/18 × 72 = 20')}`,
         `<p><strong>Check:</strong> 30 + 22 + 20 = 72.</p>
          ${ans('Bus 30, Walk 22, Car 20')}`
       )}
