@@ -36,6 +36,9 @@
     9: ['/h3/bank-y9.js', '/h3/helps-y9-ch1.js', '/h3/helps-y9-ch2.js', '/h3/helps-y9-ch3.js', '/h3/helps-y9-ch4.js',
         '/h3/helps-y9-ch5.js', '/h3/helps-y9-ch6.js', '/h3/helps-y9-ch7.js', '/h3/helps-y9-ch8.js', '/h3/helps-y9-ch9.js',
         '/h3/helps-y9-ch10.js'],
+    10: ['/h3/bank-y10.js', '/h3/helps-y10-ch1.js', '/h3/helps-y10-ch2.js', '/h3/helps-y10-ch3.js', '/h3/helps-y10-ch4.js',
+        '/h3/helps-y10-ch5.js', '/h3/helps-y10-ch6.js', '/h3/helps-y10-ch7.js', '/h3/helps-y10-ch8.js', '/h3/helps-y10-ch9.js',
+        '/h3/helps-y10-ch10.js'],
   };
   const YEARS = Object.keys(YEAR_FILES).map(Number);
   const yearLoaded = { 7: true }, yearLoading = {};

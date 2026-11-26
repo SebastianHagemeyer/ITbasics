@@ -191,7 +191,7 @@ const Checker = (() => {
     let s = clean(input).toLowerCase();
     if (!s) return { ok: false };
     // strip a leading "x =" style label
-    s = s.replace(/^[a-z]\s*=\s*/, '');
+    s = s.replace(/^[a-zα-ω]\s*=\s*/, '');
     let percent = false;
     if (/%\s*$/.test(s)) { percent = true; s = s.replace(/%\s*$/, ''); }
     // thousands separators: 1,000 or 1 000
@@ -205,7 +205,7 @@ const Checker = (() => {
         parts: { w: +m[2], n: +m[3], d: +m[4] } };
     }
     // a bearing "045°T" or "045 T" is the number 45
-    s = s.replace(/^(\d{3}(?:\.\d+)?)\s*°?\s*t(rue)?$/, '$1');
+    s = s.replace(/^(\d{1,3}(?:\.\d+)?)\s*°\s*t(rue)?$|^(\d{3}(?:\.\d+)?)\s*t(rue)?$/, '$1$3');
     // scientific "3.2 x 10^5"
     s = s.replace(/(\d)\s*[x*]\s*10\s*\^\s*\(?\s*(-?\d+)\s*\)?/, '$1e$2');
     const tryParse = (str) => {
@@ -231,25 +231,38 @@ const Checker = (() => {
   // + or -. Every radicand is a whole number above 1 with no square factor (√12 is
   // not simplest, 2√3 is), no two terms share a radicand (2√3 + √3 is not collected)
   // and there is at most one whole-number term. Decimals and √(a fraction) fail.
+  // One fraction over the whole sum, (3 + √5)/2 or (√2 + √6)/2, is also simplest when
+  // nothing cancels: no number divides the denominator and every coefficient on top.
   function simplestSurd(raw) {
-    const s = clean(raw).toLowerCase().replace(/\s+/g, '').replace(/^[a-z]=/, '');
+    const s = clean(raw).toLowerCase().replace(/\s+/g, '').replace(/^[a-zα-ω]=/, '');
     if (!s || /\./.test(s)) return false;
-    const terms = s.replace(/^\+/, '').match(/^-?[^+-]+|[+-][^+-]+/g);
-    if (!terms || terms.join('') !== s.replace(/^\+/, '')) return false;
-    const seen = new Set(); let ints = 0;
     const squareFree = (n) => { for (let k = 2; k * k <= n; k++) if (n % (k * k) === 0) return false; return true; };
-    for (let t of terms) {
-      t = t.replace(/^([+-]?)\(([^()+-]+)\)(\/\d+)$/, '$1$2$3');   // (7√3)/12 is 7√3/12
-      const m = t.match(/^[+-]?(\d*)\*?(?:sqrt\(?(\d+)\)?)?(?:\/(\d+))?$/);
-      if (!m || (!m[1] && !m[2])) return false;
-      if (m[3] && gcd(+(m[1] || 1), +m[3]) > 1) return false;   // 14√3/24 still cancels to 7√3/12
-      if (m[2] == null) { if (+m[1] === 0) return false; ints++; continue; }
-      const r = +m[2];
-      if (r < 2 || !squareFree(r) || seen.has(r)) return false;
-      if (m[1] === '1' || m[1] === '0') return false;
-      seen.add(r);
+    // Reads a sum of terms; returns the coefficients, or null if it is not simplest.
+    function terms(str, perTermDen) {
+      const ts = str.replace(/^\+/, '').match(/^-?[^+-]+|[+-][^+-]+/g);
+      if (!ts || ts.join('') !== str.replace(/^\+/, '')) return null;
+      const seen = new Set(), coefs = []; let ints = 0;
+      for (let t of ts) {
+        t = t.replace(/^([+-]?)\(([^()+-]+)\)(\/\d+)$/, '$1$2$3');   // (7√3)/12 is 7√3/12
+        const m = t.match(/^[+-]?(\d*)\*?(?:sqrt\(?(\d+)\)?)?(?:\/(\d+))?$/);
+        if (!m || (!m[1] && !m[2])) return null;
+        if (m[3] && !perTermDen) return null;
+        if (m[3] && gcd(+(m[1] || 1), +m[3]) > 1) return null;   // 14√3/24 still cancels to 7√3/12
+        if (m[2] == null) { if (+m[1] === 0) return null; ints++; coefs.push(+m[1]); continue; }
+        const r = +m[2];
+        if (r < 2 || !squareFree(r) || seen.has(r)) return null;
+        if (m[1] === '1' || m[1] === '0') return null;
+        seen.add(r); coefs.push(+(m[1] || 1));
+      }
+      return ints <= 1 ? coefs : null;
     }
-    return ints <= 1;
+    const f = s.match(/^(-?)\((.+)\)\/(\d+)$/);
+    if (f && /[+-]/.test(f[2].replace(/^[+-]/, ''))) {
+      const d = +f[3], coefs = terms(f[2], false);
+      if (!coefs || d < 2) return false;
+      return coefs.reduce((g, c) => gcd(g, c), d) === 1;
+    }
+    return !!terms(s, true);
   }
 
   function close(a, b, tol) {
@@ -476,7 +489,7 @@ const Checker = (() => {
     return clean(s)
       .replace(/^\{|\}$/g, '')
       .split(/\s*(?:,|;|\bor\b|\band\b|&)\s*/i)
-      .map(x => x.trim().replace(/^[a-z]\s*=\s*/i, ''))
+      .map(x => x.trim().replace(/^[a-zα-ω]\s*=\s*/i, ''))
       .filter(Boolean);
   }
 
