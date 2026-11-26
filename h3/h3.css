@@ -252,6 +252,18 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .set-code { color: var(--accent); }
 .gn-banner { display: flex; align-items: center; gap: 10px; margin: 18px 0; padding: 12px 16px; border-radius: var(--radius); background: var(--note-soft); color: var(--ink); font-size: 15px; }
 .gn-banner > .gn-icon { color: var(--note); width: 24px; height: 24px; }
+/* the small ring (home total box and chapter banner): road to the next note */
+.gn-next { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+.gn-total .ring-tick { stroke: var(--note-soft); }
+.note-ring { position: relative; flex: none; width: 48px; height: 48px; }
+.note-ring > svg { display: block; width: 100%; height: 100%; transform: rotate(-90deg); }
+.note-ring .ring-fill { transition: none; filter: drop-shadow(0 0 3px var(--h3-glow)); }
+.note-ring-mid { position: absolute; inset: 0; display: grid; place-items: center; }
+.note-ring-mid b { font: 800 13px/1 var(--f-display); color: var(--h3-green); font-variant-numeric: tabular-nums; }
+.note-ring-mid .gn-icon { width: 18px; height: 18px; color: var(--note); }
+.note-ring.big { width: 56px; height: 56px; }
+.note-ring.big .note-ring-mid b { font-size: 15px; }
+.gn-banner .ring-tick { stroke: var(--note-soft); }
 .gn-banner.celebrate { border: 1.5px solid var(--note); }
 .gn-banner a { font-weight: 700; margin-left: 6px; }
 

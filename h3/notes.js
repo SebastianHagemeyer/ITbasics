@@ -3,10 +3,10 @@
  * A sub-chapter (one set, e.g. 1A) is DONE when every question in it is
  * correct. Retries are unlimited, so 100% is always reachable.
  *
- * Per chapter:
- *   one note for every 3 sub-chapters done, in any order, plus
- *   one bonus note for finishing every sub-chapter in the chapter.
- * Chapter 1 has 9 sub-chapters, so finishing it earns 3 + 1 = 4 notes.
+ * One note for every 3 sub-chapters done, from ANY chapters (and any year),
+ * in any order, plus one bonus note for each chapter finished completely.
+ * So 1A, 3C and 7B together earn a note, and finishing a 9 sub-chapter
+ * chapter on its own earns 3 + 1 = 4.
  *
  * Earned notes are always worked out from the saved results, never stored,
  * so the student page and the teacher page cannot disagree. The teacher page
@@ -48,33 +48,29 @@
     return out;
   }
 
-  // One chapter's tally: { done, total, earned, bonus, toNext }.
-  // toNext is how many more sub-chapters until the next note (0 when the
-  // chapter is finished and every note is earned).
+  // One chapter's tally: { done, total, full }. A full chapter earns the bonus.
   function chapterNotes(ch, results) {
     var r = results || {};
     var done = ch.sets.filter(function (s) { return setDone(s, r[s.id]); }).length;
     var total = ch.sets.length;
-    var full = total > 0 && done === total;
-    var earned = Math.floor(done / PER_NOTE) + (full ? 1 : 0);
-    var toNext;
-    if (full) toNext = 0;
-    else {
-      var toTriple = PER_NOTE - (done % PER_NOTE);
-      // The bonus may arrive before the next triple, e.g. 8 of 9 done.
-      toNext = Math.min(toTriple, total - done);
-    }
-    return { done: done, total: total, earned: earned, full: full, toNext: toNext };
+    return { done: done, total: total, full: total > 0 && done === total };
   }
 
-  // Whole bank: { earned, chapters: [{ name, id, sets, ...chapterNotes }] }.
+  // Whole bank: { done, earned, bonuses, toNext, chapters: [{ name, id, sets, ...chapterNotes }] }.
+  // done counts finished sub-chapters across every chapter; toNext is how many
+  // more (from anywhere) until the next note of 3 (1 to 3).
   function summary(sets, results) {
     var list = chapters(sets).map(function (ch) {
       var n = chapterNotes(ch, results);
       return Object.assign({}, ch, n);
     });
+    var done = list.reduce(function (a, c) { return a + c.done; }, 0);
+    var bonuses = list.filter(function (c) { return c.full; }).length;
     return {
-      earned: list.reduce(function (a, c) { return a + c.earned; }, 0),
+      done: done,
+      bonuses: bonuses,
+      earned: Math.floor(done / PER_NOTE) + bonuses,
+      toNext: PER_NOTE - (done % PER_NOTE),
       chapters: list
     };
   }

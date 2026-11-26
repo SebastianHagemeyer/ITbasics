@@ -318,9 +318,34 @@
   function notesLine(n) {
     return `${n} green note${n === 1 ? '' : 's'}`;
   }
-  function toNextText(ch) {
-    if (ch.full) return 'Chapter finished: every note earned';
-    return `${ch.toNext} more sub-chapter${ch.toNext === 1 ? '' : 's'} for your next green note`;
+  // sum is Notes.summary(): sub-chapters from any chapter count towards the next note.
+  function toNextText(sum) {
+    return `${sum.toNext} more sub-chapter${sum.toNext === 1 ? '' : 's'} for your next green note`;
+  }
+  function bonusText(ch) {
+    if (ch.full) return 'Chapter finished: bonus note earned';
+    const left = ch.total - ch.done;
+    return `Finish ${left === ch.total ? 'all' : 'the other'} ${left} sub-chapter${left === 1 ? '' : 's'} here for a bonus note`;
+  }
+  // A ring showing the road to the next green note: 3 segments, one per
+  // sub-chapter finished (from any chapter) since the last note of 3.
+  function noteRing(sum, cls) {
+    const per = Notes.PER_NOTE;
+    const filled = sum.done % per;
+    const R = 15, C = 2 * Math.PI * R;
+    const ticks = Array.from({ length: per }, (_, i) => {
+      const a = (i * 2 * Math.PI) / per;
+      const p = (r) => `${(20 + r * Math.cos(a)).toFixed(2)} ${(20 + r * Math.sin(a)).toFixed(2)}`;
+      return `<path class="ring-tick" d="M${p(10)}L${p(20)}" stroke-width="2"/>`;
+    }).join('');
+    const label = `${filled} of ${per} sub-chapters towards your next green note`;
+    return `<span class="note-ring ${cls || ''}" role="img" aria-label="${label}" title="${label}">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <circle class="ring-track" cx="20" cy="20" r="${R}" fill="none" stroke-width="5"/>
+        <circle class="ring-fill" cx="20" cy="20" r="${R}" fill="none" stroke-width="5"
+          stroke-dasharray="${C.toFixed(2)}" stroke-dashoffset="${(C * (1 - filled / per)).toFixed(2)}"/>
+        ${ticks}
+      </svg><span class="note-ring-mid"><b>${filled}/${per}</b></span></span>`;
   }
 
   // ---------- sign in ----------
@@ -439,11 +464,12 @@
         <div>
           <p class="eyebrow">H3 · Hallam Homework Hub</p>
           <h2>Welcome${started ? ' back' : ''}, ${esc(state.me.first_name || state.me.code)}</h2>
-          <p class="lede">Pick a chapter, then a sub-chapter. Every <b>3 sub-chapters</b> you finish earns a <b>green note</b>, and finishing a whole chapter earns one more.</p>
+          <p class="lede">Pick a chapter, then a sub-chapter. Every <b>3 sub-chapters</b> you finish earns a <b>green note</b>, and they can come from any chapters: finish 1A, 2A and 3A and that's a note. Finishing a whole chapter earns a bonus one.</p>
         </div>
         <div class="gn-total" aria-label="${esc(notesLine(sum.earned))} earned">
           <div class="gn-stack">${noteIcon}<b>${sum.earned}</b></div>
           <small>green note${sum.earned === 1 ? '' : 's'} earned</small>
+          <div class="gn-next">${noteRing(sum)}<small>next note</small></div>
         </div>
       </section>
       ${outside}
@@ -452,13 +478,12 @@
       <div class="sets chapters">
         ${yearChapters.map(ch => {
           const pct = chapterPct(ch);
-          const max = Math.floor(ch.total / Notes.PER_NOTE) + 1;
           return `<a class="set-card chapter-card ${ch.full ? 'is-full' : ''}" href="#chapter-${esc(ch.id)}">
             <div class="chapter-top"><span class="chapter-id"><span class="chapter-num">${esc(ch.num)}</span><span class="chapter-pct" title="${pct}% of this chapter's questions correct">${pct}%</span></span>
-              <span class="gn-row" title="${ch.earned} of ${max} green notes">${Array.from({ length: max }, (_, i) => `<span class="gn-dot ${i < ch.earned ? 'on' : ''}">${noteIcon}</span>`).join('')}</span></div>
+              <span class="gn-dot ${ch.full ? 'on' : ''}" title="${esc(bonusText(ch))}">${noteIcon}</span></div>
             <h3>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h3>
             <div class="meter" aria-hidden="true"><span style="width:${pct}%"></span></div>
-            <div class="meter-row"><span>${ch.done} of ${ch.total} sub-chapters done</span><span>${esc(notesLine(ch.earned))}</span></div>
+            <div class="meter-row"><span>${ch.done} of ${ch.total} sub-chapters done</span></div>
           </a>`;
         }).join('')}
       </div>`;
@@ -483,7 +508,7 @@
         </div>
         <div class="score"><b>${ch.done}/${ch.total}</b><small>sub-chapters done</small></div>
       </div>
-      <div class="gn-banner">${noteIcon}<span><b>${esc(notesLine(ch.earned))}</b> from this chapter. ${esc(toNextText(ch))}.</span></div>
+      <div class="gn-banner">${noteRing(sum, 'big')}<span><b>${esc(notesLine(sum.earned))}</b> so far. ${esc(toNextText(sum))}. ${esc(bonusText(ch))}.</span></div>
       <div class="sets">
         ${ch.sets.map(s => {
           const sc = setScore(s, state.results[s.id]);
@@ -688,10 +713,10 @@
       const ch = after.chapters.find(c => c.sets.indexOf(set) !== -1);
       document.getElementById('celebrate').innerHTML = `<div class="gn-banner celebrate">${noteIcon}<span>
         <b>${esc(set.title.split(' ')[0])} done!</b>
-        ${gained > 0 ? `You earned <b>${gained} green note${gained === 1 ? '' : 's'}</b>${ch && ch.full ? ', including the bonus for finishing the chapter' : ''}. Your teacher can see it.` : ch ? esc(toNextText(ch)) + '.' : ''}
+        ${gained > 0 ? `You earned <b>${gained} green note${gained === 1 ? '' : 's'}</b>${ch && ch.full ? ', including the bonus for finishing the chapter' : ''}. Your teacher can see it.` : esc(toNextText(after)) + '.'}
         <a href="#chapter-${esc(chapterIdOf(set))}">Back to the chapter</a></span></div>`;
       document.getElementById('celebrate').scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-      if (ch) celebratePopup(set, ch, gained);
+      celebratePopup(set, after, ch, gained);
     }
   }
 
@@ -702,12 +727,12 @@
   // is earned (every third set, or the bonus for finishing the chapter).
   const reduceMotion = () => window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  function celebratePopup(set, ch, gained) {
+  function celebratePopup(set, sum, ch, gained) {
     const per = Notes.PER_NOTE;
-    const prevDone = Math.max(0, ch.done - 1);
+    const prevDone = Math.max(0, sum.done - 1);
     const from = (prevDone % per) / per;
     const full = gained > 0;
-    const to = full ? 1 : (ch.done % per) / per;
+    const to = full ? 1 : (sum.done % per) / per;
     const R = 54, C = 2 * Math.PI * R;
     const ticks = Array.from({ length: per }, (_, i) => {
       const a = (i * 2 * Math.PI) / per;
@@ -715,16 +740,16 @@
       return `<path class="ring-tick" d="M${p(44)}L${p(64)}" stroke-width="4"/>`;
     }).join('');
     const code = splitTitle(set.title).code || set.title;
-    const left = ch.toNext;
+    const left = sum.toNext;
     const headline = full
       ? `You earned ${gained === 1 ? 'a green note' : gained + ' green notes'}!`
       : `${code} done!`;
     const line = full
-      ? (ch.full ? `${esc(code)} done, and that finishes the whole chapter, bonus note included. Your teacher can see it.` : `${esc(code)} done. Your teacher can see it.`)
+      ? (ch && ch.full ? `${esc(code)} done, and that finishes the whole chapter, bonus note included. Your teacher can see it.` : `${esc(code)} done. Your teacher can see it.`)
       : `${left} more sub-chapter${left === 1 ? '' : 's'} for your next green note.`;
     const mid = full
       ? `<span class="ring-note">${noteIcon}</span><b class="ring-plus">+${gained}</b>`
-      : `<b>${ch.done % per}/${per}</b><small>next note</small>`;
+      : `<b>${sum.done % per}/${per}</b><small>next note</small>`;
 
     const dlg = document.createElement('dialog');
     dlg.className = 'cele' + (full ? ' is-full' : '');
@@ -732,7 +757,7 @@
     dlg.innerHTML = `
       <canvas aria-hidden="true"></canvas>
       <div class="cele-card">
-        <div class="cele-ring" role="img" aria-label="${full ? 'Green note earned' : `${ch.done % per} of ${per} sub-chapters towards your next green note`}">
+        <div class="cele-ring" role="img" aria-label="${full ? 'Green note earned' : `${sum.done % per} of ${per} sub-chapters towards your next green note`}">
           <svg viewBox="0 0 140 140" aria-hidden="true">
             <circle class="ring-track" cx="70" cy="70" r="${R}" fill="none" stroke-width="14"/>
             <circle class="ring-fill" cx="70" cy="70" r="${R}" fill="none" stroke-width="14" stroke-linecap="butt"
@@ -1061,7 +1086,7 @@
       <div class="panel">
         <div class="toolbar" style="justify-content:space-between">
           <div><h2>Green notes</h2>
-          <div class="key-meta">${totalOwed} to hand out${state.teacherClass ? ' in ' + esc(state.teacherClass) : ''}. Earned (all years): every 3 sub-chapters done, plus 1 per finished chapter.</div></div>
+          <div class="key-meta">${totalOwed} to hand out${state.teacherClass ? ' in ' + esc(state.teacherClass) : ''}. Earned (all years): every 3 sub-chapters done from any chapters, plus 1 per finished chapter.</div></div>
           <label class="key-meta"><input type="checkbox" id="owed-only" ${state.owedOnly ? 'checked' : ''}> Only students owed notes</label>
         </div>
         ${rows.length ? `<div class="tbl-wrap"><table class="notes-tbl">
