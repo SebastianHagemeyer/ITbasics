@@ -32,7 +32,11 @@
     libraries:   { label: "Libraries & import", test: "libraries" },
     os:          { label: "Computer Skills",  test: "os" },
     ideas:       { label: "Game Ideas & Design", test: "ideas", answers: { name: "answers-ideas", total: 4 } },
-    terminal:    { label: "The Terminal",     test: "terminal" }
+    terminal:    { label: "The Terminal",     test: "terminal" },
+    // Pre-VET. The only module with all three parts: the test, the formula
+    // task and the written answers. weights are [test, task, written].
+    "binary-excel": { label: "Binary meets Excel", test: "binary-excel", tasks: ["binary-excel-task"],
+      answers: { name: "answers-binary-excel", total: 3 }, weights: [0.4, 0.3, 0.3] }
   };
 
   var ASSIGNMENT_INFO = {
@@ -131,7 +135,23 @@
     }
     var anySignal = testRows.length > 0;
     var pct;
-    if (r.answers) {
+    if (r.answers && r.tasks) {
+      // Test, task and written answers together: weights [test, task..., written].
+      var ans3 = (data.answers || {})[r.answers.name] || {};
+      var written3 = Object.keys(ans3).filter(function (k) {
+        return String(ans3[k] || "").trim().length >= 15;
+      }).length;
+      if (written3 > 0) anySignal = true;
+      pct = r.weights[0] * testPct;
+      r.tasks.forEach(function (t, i) {
+        var hit3 = attempts.some(function (a) {
+          return a.quiz_name === t && a.answers && a.answers.challenge;
+        });
+        if (hit3) anySignal = true;
+        pct += r.weights[i + 1] * (hit3 ? 100 : 0);
+      });
+      pct += r.weights[r.tasks.length + 1] * 100 * Math.min(1, written3 / r.answers.total);
+    } else if (r.answers) {
       var ans = (data.answers || {})[r.answers.name] || {};
       var written = Object.keys(ans).filter(function (k) {
         return String(ans[k] || "").trim().length >= 15;

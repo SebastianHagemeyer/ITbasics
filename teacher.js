@@ -38,7 +38,9 @@
     { key: "os",          label: "Computer Skills test",      group: "Modules & quizzes", quizzes: ["os"],          compute: testCompute("os") },
     { key: "ideas",       label: "Game Ideas & Design (module)", group: "Modules & quizzes", quizzes: ["ideas"],
       answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) },
-    { key: "terminal",    label: "The Terminal (module)",      group: "Modules & quizzes", quizzes: ["terminal"],   compute: testCompute("terminal") }
+    { key: "terminal",    label: "The Terminal (module)",      group: "Modules & quizzes", quizzes: ["terminal"],   compute: testCompute("terminal") },
+    { key: "binary-excel", label: "Binary meets Excel (Pre-VET)", group: "Pre-VET", quizzes: ["binary-excel", "binary-excel-task"],
+      answersModule: "binary-excel", answersTotal: 3, compute: computeBinaryExcel }
   ];
 
   // Assignment drafts: reads assignment_progress, which holds both the live
@@ -72,6 +74,9 @@
     "device-why":     "Pick a device: which bin, and why?",
     "storage-why":    "Why does a computer need storage?",
     "ram-vs-storage": "RAM vs storage: what does each do?",
+    "why-trick":      "How does the card trick work? (binary, bits)",
+    "why-formula":    "Why a formula in G5 instead of typing the answer?",
+    "real-use":       "A real situation where a spreadsheet formula saves time",
     "c-pet":      "Which pet, and how many pet years per human year?",
     "c-err":      "Error message from typing letters, and why",
     "c-surprise": "What did -3 give, and why is that a problem? Hardcoded or variable?",
@@ -213,6 +218,31 @@
         completed: pct === 100,
         detail: "Test " + testStr + " · Answers " + written + "/" + totalQs
       };
+    };
+  }
+
+  // Binary meets Excel (Pre-VET): test 40%, the G5 formula task 30%, the
+  // three written answers 30%. Same sum as progress.js and hw-status.js.
+  function computeBinaryExcel(rows) {
+    var b = bestTest(rows, "binary-excel");
+    var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
+    var taskRow = rows.filter(function (r) {
+      return r.quiz_name === "binary-excel-task" && r.answers && r.answers.challenge;
+    })[0];
+    var ansRow = rows.filter(function (r) { return r.quiz_name === "answers-binary-excel"; })[0];
+    var written = 0;
+    if (ansRow && ansRow.answers) {
+      written = Object.keys(ansRow.answers).filter(function (k) {
+        return String(ansRow.answers[k] || "").trim().length >= 15;
+      }).length;
+    }
+    var pct = Math.round(0.4 * testPct + (taskRow ? 30 : 0) + 30 * Math.min(1, written / 3));
+    return {
+      pct: pct,
+      completed: pct === 100,
+      detail: "Test " + (b ? b.score + "/" + b.total : "no attempt") +
+        " · Formula " + (taskRow ? "done (" + (taskRow.answers.formula || "") + ")" : "not yet") +
+        " · Answers " + written + "/3"
     };
   }
 

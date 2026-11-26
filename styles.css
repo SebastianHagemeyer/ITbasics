@@ -7224,3 +7224,124 @@ span.hg-gtarget-name { cursor: default; }
   .launch-q-body { grid-template-columns: 1fr; }
   .launch-qimg { order: -1; max-width: 300px; }
 }
+
+/* ---- Pre-VET: pretend spreadsheet (xlsheet.js) --------------------------
+   Every colour is a token, so dark mode comes free. The selected cell uses
+   the success green as Excel does; it is an outline, not a fill, so it sits
+   on the cell's own background in both themes. */
+.xl { margin: 16px 0; max-width: 100%; }
+.xl-bar {
+  display: flex; align-items: stretch; border: 1px solid var(--border);
+  border-bottom: none; border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  background: var(--surface); overflow: hidden;
+}
+.xl-name {
+  flex: 0 0 4.5rem; padding: 7px 10px; border-right: 1px solid var(--border);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-weight: 700;
+  color: var(--text); background: var(--tint-neutral);
+}
+.xl-fx {
+  flex: 0 0 auto; padding: 7px 10px; border-right: 1px solid var(--border);
+  font-style: italic; font-weight: 700; color: var(--muted);
+}
+.xl-formula {
+  flex: 1; min-width: 0; border: none; padding: 7px 10px; background: transparent; color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.95rem;
+}
+.xl-formula:focus { outline: none; }
+.xl-formula[readonly] { cursor: default; }
+.xl-bar-edit { box-shadow: inset 0 -2px 0 var(--success); }
+.xl-bar-edit .xl-formula { background: var(--success-bg); }
+.xl-scroll {
+  overflow-x: auto; border: 1px solid var(--border);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm); background: var(--surface);
+}
+.xl-grid { border-collapse: collapse; font-size: 0.95rem; min-width: 100%; }
+.xl-grid:focus { outline: none; }
+.xl-grid:focus-visible { outline: 3px solid rgba(var(--primary-rgb), 0.4); outline-offset: -3px; }
+.xl-grid th, .xl-grid td { border: 1px solid var(--border); height: 2.1rem; padding: 0 8px; white-space: nowrap; }
+.xl-grid th {
+  background: var(--tint-neutral); color: var(--muted); font-weight: 600; font-size: 0.82rem; text-align: center;
+}
+.xl-corner { width: 2.2rem; }
+.xl-colhead { min-width: 3.6rem; }
+.xl-rowhead { width: 2.2rem; }
+.xl-grid th.xl-headsel { background: rgba(var(--primary-rgb), 0.14); color: var(--primary-ink); }
+.xl-grid td { color: var(--text); cursor: cell; text-align: left; }
+.xl-grid td.xl-num { text-align: right; font-variant-numeric: tabular-nums; }
+.xl-grid td.xl-err { text-align: center; color: var(--danger); font-weight: 700; }
+.xl-grid td.xl-sel { outline: 2px solid var(--success); outline-offset: -2px; }
+.xl-grid td.xl-toggle { cursor: pointer; background: var(--tint-cool); color: var(--ink-cool); font-weight: 700; }
+.xl-grid td.xl-toggle.xl-on { background: var(--success-bg); color: var(--success-text); }
+.xl-hunting .xl-grid td.xl-toggle { cursor: cell; }
+.xl-grid td.xl-editable:not(.xl-sel) { box-shadow: inset 0 0 0 2px rgba(var(--primary-rgb), 0.35); }
+
+/* ---- Pre-VET: Binary meets Excel (binary-excel.js) ----------------------- */
+.bx-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin: 16px 0; }
+.bx-card {
+  display: flex; flex-direction: column; background: var(--surface); border: 1.5px solid var(--border);
+  border-radius: var(--radius); padding: 12px; transition: border-color 0.12s, background 0.12s;
+}
+.bx-card.is-on { border-color: var(--success); background: var(--success-bg); }
+.bx-card-title { margin: 0 0 8px; font-weight: 700; color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.bx-card-nums { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-bottom: 10px; flex: 1; }
+.bx-card-nums span {
+  text-align: center; padding: 4px 0; border-radius: 6px; font-weight: 600; color: var(--text);
+  font-variant-numeric: tabular-nums; background: var(--tint-neutral);
+}
+.bx-revealed .bx-card.is-on .bx-first,
+.bx-first-key { background: var(--accent); color: var(--accent-ink); }
+.bx-first-key { padding: 0 4px; border-radius: 4px; font-weight: 700; }
+.bx-card-btn {
+  font-family: inherit; font-size: 0.88rem; font-weight: 600; padding: 8px 10px; cursor: pointer;
+  border-radius: var(--radius-sm); border: 1.5px solid var(--border); background: var(--surface); color: var(--text);
+}
+.bx-card-btn:hover { border-color: var(--primary); }
+.bx-card-btn[aria-pressed="true"] { background: var(--success); border-color: var(--success); color: var(--success-ink); }
+.bx-trick-actions, .bx-task-actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0; }
+.bx-trick-result { font-size: 1.3rem; margin: 14px 0 6px; }
+.bx-trick-how { background: var(--tint-warm); color: var(--ink-warm); border-radius: var(--radius-sm); padding: 12px 16px; }
+.bx-trick-how p { margin: 4px 0; }
+.bx-trick-working { font-weight: 700; font-size: 1.1rem; }
+.bx-place td:first-child { text-align: left; font-weight: 600; }
+.bx-place td, .bx-place th { text-align: center; }
+.bx-loaded { color: var(--success-text); font-weight: 600; }
+.bx-readout { font-weight: 700; color: var(--primary-ink); min-height: 1.4em; }
+.bx-vocab { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 18px 0; }
+.bx-vocab > div {
+  display: flex; flex-direction: column; gap: 4px; padding: 10px 12px;
+  background: var(--tint-cool); color: var(--ink-cool); border-radius: var(--radius-sm);
+}
+.bx-vocab span { color: var(--text); font-size: 0.92rem; }
+.bx-hunt {
+  margin: 18px 0; padding: 14px 18px; background: var(--bg);
+  border: 1px solid var(--border); border-left: 4px solid var(--success); border-radius: var(--radius);
+}
+.bx-hunt h4 { margin: 0 0 6px; }
+.bx-hunt-ask { margin: 0 0 6px; font-weight: 600; }
+.bx-hunt-fb { margin: 0 0 10px; min-height: 1.3em; font-weight: 600; }
+.bx-hunt-fb.ok, .bx-num-fb.ok { color: var(--success-text); }
+.bx-hunt-fb.no, .bx-num-fb.no { color: var(--danger); }
+.bx-formula-show {
+  background: var(--code-bg); color: var(--code-text); padding: 12px 14px; border-radius: var(--radius-sm);
+  overflow-x: auto; font-size: 0.95rem;
+}
+.bx-fb { padding: 12px 14px; border-radius: var(--radius-sm); font-weight: 600; margin: 10px 0; }
+.bx-fb.ok { background: var(--success-bg); color: var(--success-text); }
+.bx-fb.no { background: var(--danger-bg); color: var(--ink-red); }
+.bx-hint { margin: 12px 0; }
+.bx-hint summary { cursor: pointer; font-weight: 600; color: var(--primary-ink); }
+.bx-num {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 14px 0; padding: 14px 16px;
+  background: var(--bg); border: 1px solid var(--border); border-left: 4px solid var(--primary); border-radius: var(--radius);
+}
+.bx-num label { flex: 1 1 320px; }
+.bx-num input {
+  width: 5.5rem; margin-left: 6px; padding: 7px 10px; font-family: inherit; font-size: 1rem;
+  border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text);
+}
+.bx-num input:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.15); }
+.bx-num-fb { flex-basis: 100%; margin: 0; font-weight: 600; min-height: 0; }
+.bx-num-fb:empty { display: none; }
+.bx-num-explain { flex-basis: 100%; margin: 0; color: var(--muted); }
+.bx-steps li { margin: 6px 0; }

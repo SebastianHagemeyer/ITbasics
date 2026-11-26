@@ -22,7 +22,8 @@
     { key: "networks",    label: "Networks & Safety", href: "/topics/networks/" },
     { key: "libraries",   label: "Libraries & import", href: "/topics/libraries/" },
     { key: "ideas",       label: "Game Ideas & Design", href: "/topics/ideas/" },
-    { key: "terminal",    label: "The Terminal",   href: "/topics/terminal/" }
+    { key: "terminal",    label: "The Terminal",   href: "/topics/terminal/" },
+    { key: "binary-excel", label: "Binary meets Excel (Pre-VET)", href: "/topics/binary-excel/" }
   ];
 
   // The three retired lessons. They live behind the Legacy shelf on the
@@ -87,7 +88,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "terminal", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "terminal", "binary-excel", "binary-excel-task", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -246,6 +247,39 @@
       "Take the test and write the three answers on the lesson page");
     blendWritten("ideas", written.ideas, 4, 5,
       "Take the test and fill in the design doc on the lesson page");
+
+    // Binary meets Excel (Pre-VET) has all three parts: the test (40%), the
+    // G5 formula task (30%) and the three written answers (30%). Same sum as
+    // hw-status.js and teacher.js.
+    (function () {
+      var key = "binary-excel";
+      var testRows = rows.filter(function (r) { return r.quiz_name === key; });
+      var best = 0, outOf = 0, testPct = 0;
+      if (testRows.length) {
+        var top = testRows.reduce(function (a, r) { return r.score > a.score ? r : a; }, testRows[0]);
+        outOf = testRows.reduce(function (t, r) { return Math.max(t, r.total || 0); }, 0);
+        best = top.score;
+        testPct = outOf ? Math.round((best / outOf) * 100) : 0;
+      }
+      var taskDone = rows.some(function (r) {
+        return r.quiz_name === key + "-task" && r.answers && r.answers.challenge;
+      });
+      var answers = written[key], count = 0;
+      if (answers) {
+        count = Object.keys(answers).filter(function (k) {
+          return String(answers[k] || "").trim().length >= 15;
+        }).length;
+      }
+      var attempted = testRows.length > 0 || taskDone || count > 0;
+      modules[key] = {
+        attempted: attempted,
+        pct: Math.round(0.4 * testPct + (taskDone ? 30 : 0) + 30 * Math.min(1, count / 3)),
+        note: attempted
+          ? ("Test " + (testRows.length ? best + "/" + outOf : "not yet") +
+             " · Formula " + (taskDone ? "done" : "not yet") + " · Answers " + count + "/3")
+          : "Take the test, write the formula and answer the three questions"
+      };
+    })();
 
     var freeplay = rows
       .filter(function (r) { return r.quiz_name === "freeplay"; })
@@ -410,6 +444,7 @@
     var written = {};
     try { written.systems = await window.ITBasics.loadProgress("answers-systems"); } catch (e) { /* fine */ }
     try { written.ideas = await window.ITBasics.loadProgress("answers-ideas"); } catch (e) { /* fine */ }
+    try { written["binary-excel"] = await window.ITBasics.loadProgress("answers-binary-excel"); } catch (e) { /* fine */ }
     render(student, summarise(result.rows, written));
 
     var subs = await loadSubmissions(student);

@@ -181,6 +181,22 @@
         </a>
       </div>
 
+      <!-- Open in the markup, so no script, no session or an unknown year all
+           leave it showing. The script below closes it only for a student whose
+           year is known and below 10. -->
+      <details class="advanced-block prevet-block" id="prevet" open>
+        <summary>Pre-VET IT (Year 10)</summary>
+        <p class="advanced-note">The everyday computer skills a VET or VCE IT course expects you to walk in with: Excel, Word, file management and cyber security. Learn it here, then prove it in the real program.</p>
+        <div class="card-grid">
+        <a class="card" href="/topics/binary-excel/">
+          <div class="card-icon" style="--accent: #1f9d55;">=</div>
+          <h3>Binary meets Excel</h3>
+          <p>The Step Up mind-reading cards, rebuilt as a spreadsheet. Hunt cells by their reference, write the formula that reads minds, then build it in real Excel.</p>
+          <span class="card-link">Open the module <span class="arrow" aria-hidden="true"></span></span>
+        </a>
+        </div>
+      </details>
+
       <details class="advanced-block">
         <summary>Advanced</summary>
         <p class="advanced-note">Optional, and not part of the main run. Open this when the basics feel comfortable, or when you are planning a project of your own.</p>
@@ -284,5 +300,19 @@
   <script src="/xp.js"></script>
   <script src="/xp-fx.js"></script>
   <script src="/module-badges.js"></script>
+  <script>
+    // Pre-VET shelf: folded away for a student whose year is known and below
+    // 10, so Year 7 to 9 see one line, not modules they are not doing yet.
+    // Year 10 and up, staff, and anyone whose year is 0 or missing (offline
+    // sign-in, unknown) keep it open. A link straight to #prevet always opens it.
+    (function () {
+      var shelf = document.getElementById("prevet");
+      var s = window.ITBasics && window.ITBasics.getSession();
+      if (!shelf || !s || location.hash === "#prevet") return;
+      if ((window.TEACHER_CODES || []).indexOf(s.code) !== -1) return;
+      var year = Number(s.year_level);
+      if (year >= 1 && year < 10) shelf.open = false;
+    })();
+  </script>
 </body>
 </html>
