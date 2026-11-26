@@ -56,8 +56,10 @@
   const loadAllYears = () => Promise.all(YEARS.map(loadYear));
   const yearOfSetId = (id) => { const m = /^y(\d+)-/.exec(id || ''); return m ? Number(m[1]) : 7; };
 
-  // The year a student is looking at: their last pick on this device, or the
-  // year their roster class starts with ("8A" -> 8), or Year 7.
+  // The year a student is looking at. Each visit starts on the year their roster
+  // class starts with ("8A" -> 8); after that it stays on the year they last
+  // opened for the rest of the visit. Students with no class year get their last
+  // pick on this device, or Year 7.
   const LS_YEAR = 'h3-year';
   // A student's assigned year level is the number their roster class starts with
   // ("8B" -> 8). No number (or a year H3 does not have) means no assigned level.
@@ -69,12 +71,15 @@
   // student's choice over to the next.
   const yearKey = () => LS_YEAR + ':' + ((state.me && state.me.code) || '');
   function chosenYear() {
-    let y = null;
-    try { y = Number(localStorage.getItem(yearKey())); } catch (e) { /* private mode */ }
-    if (!YEARS.includes(y)) y = assignedYear() || 7;
-    return y;
+    const read = (store) => { try { return Number(store.getItem(yearKey())); } catch (e) { return null; /* private mode */ } };
+    let y = read(sessionStorage);
+    if (!YEARS.includes(y)) y = assignedYear();
+    if (!YEARS.includes(y)) y = read(localStorage);
+    return YEARS.includes(y) ? y : 7;
   }
-  function pickYear(y) { try { localStorage.setItem(yearKey(), String(y)); } catch (e) { /* private mode */ } }
+  function pickYear(y) {
+    try { sessionStorage.setItem(yearKey(), String(y)); localStorage.setItem(yearKey(), String(y)); } catch (e) { /* private mode */ }
+  }
 
   // Going outside your own year level asks first.
   function confirmOtherYear(current) {
@@ -237,11 +242,6 @@
     return { correct, tried, total: set.questions.length };
   }
 
-  // Year level a chapter is pitched at: its own sets can say, else the bank.
-  function yearOf(ch) {
-    const s = ch.sets.find(x => x.year);
-    return s ? s.year : (BANK.year || '');
-  }
 
   // Percent of a chapter's questions answered correctly. Rounded, except
   // that any progress shows at least 1% and only a fully finished chapter
@@ -453,11 +453,9 @@
           return `<a class="set-card chapter-card ${ch.full ? 'is-full' : ''}" href="#chapter-${esc(ch.id)}">
             <div class="chapter-top"><span class="chapter-id"><span class="chapter-num">${esc(ch.num)}</span><span class="chapter-pct" title="${pct}% of this chapter's questions correct">${pct}%</span></span>
               <span class="gn-row" title="${ch.earned} of ${max} green notes">${Array.from({ length: max }, (_, i) => `<span class="gn-dot ${i < ch.earned ? 'on' : ''}">${noteIcon}</span>`).join('')}</span></div>
-            ${yearOf(ch) ? `<p class="chapter-year">Year ${esc(yearOf(ch))}</p>` : ''}
             <h3>${esc(ch.name.replace(/^Chapter\s+\d+:\s*/i, ''))}</h3>
             <div class="meter" aria-hidden="true"><span style="width:${pct}%"></span></div>
             <div class="meter-row"><span>${ch.done} of ${ch.total} sub-chapters done</span><span>${esc(notesLine(ch.earned))}</span></div>
-            <p class="next">${esc(toNextText(ch))}</p>
           </a>`;
         }).join('')}
       </div>`;

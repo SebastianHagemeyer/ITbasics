@@ -242,7 +242,6 @@ textarea, .small-input { width: 100%; font: 15px/1.4 var(--f-mono); color: var(-
 .gn-dot.on { color: var(--note); }
 .chapter-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
 .chapter-id { display: flex; align-items: center; gap: 10px; }
-.chapter-year { margin: 0 0 -6px; font-size: 12.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 /* Share of the chapter's questions answered correctly, in the H3 logo green. */
 .chapter-pct { font: 800 22px/1 var(--f-display); color: var(--h3-green); text-shadow: 0 0 10px var(--h3-glow); font-variant-numeric: tabular-nums; }
 /* the same, per sub-chapter, once it has been started */

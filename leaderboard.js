@@ -387,7 +387,7 @@
             '<span class="lb-level-name">Always Learning</span></span></td>' +
             '<td class="col-total"><strong>∞</strong></td>';
     } else if (currentMode === "livecoding" || currentMode === "freeplay") {
-      mid = '<td class="col-total"><strong>∞</strong></td>';
+      mid = '<td class="col-total"><strong>-1</strong></td>';
     } else {
       mid = '<td class="col-score">∞</td><td class="col-score">∞</td><td class="col-score">∞</td>' +
             '<td class="col-score">∞</td>' +
