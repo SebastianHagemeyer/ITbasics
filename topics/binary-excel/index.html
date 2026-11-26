@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Binary meets Excel | Hallam IT Basics</title>
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="learn" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Pre-VET IT &middot; Year 10</p>
+        <h1>Binary meets Excel</h1>
+        <p class="lead">Remember the mind-reading cards from Step Up? The trick is really <strong>binary</strong>, and a <strong>spreadsheet</strong> can do it for you. In this module you take the trick apart, rebuild it in a spreadsheet, and write the formula that reads minds.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#task" class="btn btn-primary">Jump to the formula task <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#trick">The trick, one more time</a></li>
+          <li><a href="#binary">Why it works: binary</a></li>
+          <li><a href="#sheet">The trick as a spreadsheet</a></li>
+          <li><a href="#multiply">Why multiply?</a></li>
+          <li><a href="#task">Write the formula</a></li>
+          <li><a href="#eight">Level up: 8 cards</a></li>
+          <li><a href="#excel">Build it in real Excel</a></li>
+          <li><a href="#explain">Explain it</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="trick">
+          <h2>1. The trick, one more time</h2>
+          <p>Think of a whole number from <strong>1 to 31</strong> and keep it secret. Look at each card. If your number is on it, press the button under that card. Then press <strong>Read my mind</strong>.</p>
+          <div class="bx-trick" id="bx-trick">
+            <div class="bx-cards"></div>
+            <div class="bx-trick-actions">
+              <button type="button" class="btn btn-primary bx-trick-go">Read my mind</button>
+              <button type="button" class="btn btn-ghost bx-trick-reset">Start again</button>
+            </div>
+            <p class="bx-trick-result" aria-live="polite" hidden></p>
+            <div class="bx-trick-how" hidden>
+              <p><strong>How did it know?</strong> Look at the <span class="bx-first-key">first number</span> on each card you picked. Add them up.</p>
+              <p class="bx-trick-working"></p>
+            </div>
+          </div>
+        </section>
+
+        <section id="binary">
+          <h2>2. Why it works: binary</h2>
+          <p>The first numbers on the cards are <strong>16, 8, 4, 2 and 1</strong>. Those are the place values of a 5-bit binary number. Every number from 1 to 31 can be made by adding some of them, and there is only <em>one</em> way to do it.</p>
+          <p>Each card is one <strong>bit</strong>. Saying "yes, it's on this card" is a <strong>1</strong>. Saying "no" is a <strong>0</strong>. So when you pressed the buttons, you were really telling the computer your number in binary.</p>
+          <table class="data-table bx-place">
+            <thead><tr><th>Card value</th><th>16</th><th>8</th><th>4</th><th>2</th><th>1</th><th>Total</th></tr></thead>
+            <tbody>
+              <tr><td>On this card? (bit)</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td></td></tr>
+              <tr><td>Counts as</td><td>16</td><td>0</td><td>4</td><td>0</td><td>1</td><td><strong>21</strong></td></tr>
+            </tbody>
+          </table>
+          <p>So 21 in binary is <code>10101</code>. The cards only ever add up the place values that are switched on.</p>
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> A friend says their number is on the 8 card, the 2 card and the 1 card, and no others. What is their number?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">3</button>
+              <button type="button" class="kcheck-opt" data-key="b">11</button>
+              <button type="button" class="kcheck-opt" data-key="c">821</button>
+              <button type="button" class="kcheck-opt" data-key="d">13</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>8 + 2 + 1 = 11. In binary that is <code>01011</code>: the 16 and 4 cards are off (0) and the others are on (1).</p>
+          </div>
+        </section>
+
+        <section id="sheet">
+          <h2>3. The trick as a spreadsheet</h2>
+          <p>Here is the trick built in a spreadsheet, the same one you will build in Excel. Row 1 holds the first number on each card. Row 2 holds a <strong>1</strong> if your number was on that card and a <strong>0</strong> if it wasn't. Cell G5 works out the answer.</p>
+          <p><strong>Click a 1 or a 0 in row 2 to flip it</strong>, and watch G5 change. Then click G5 and look at the <strong>formula bar</strong> at the top.</p>
+          <p class="bx-loaded" id="bx-sheet-loaded" hidden>Your answers from the card trick are already loaded into row 2.</p>
+          <div id="bx-sheet"></div>
+          <p class="bx-readout" id="bx-sheet-readout" aria-live="polite"></p>
+
+          <div class="bx-vocab">
+            <div><strong>Cell</strong><span>One box in the grid.</span></div>
+            <div><strong>Cell reference</strong><span>A cell's name: column letter first, then row number. <code>G5</code> is column G, row 5.</span></div>
+            <div><strong>Name Box</strong><span>Top left. Shows the reference of the cell you clicked.</span></div>
+            <div><strong>Formula bar</strong><span>Shows what is really <em>inside</em> a cell. The cell shows the answer; the bar shows the working.</span></div>
+          </div>
+
+          <div class="bx-hunt" id="bx-hunt">
+            <h4>Cell hunt</h4>
+            <p class="bx-hunt-ask">Five quick rounds: you get a clue, you click the right cell in the spreadsheet above.</p>
+            <p class="bx-hunt-fb" aria-live="polite"></p>
+            <button type="button" class="btn btn-primary bx-hunt-start">Start the hunt</button>
+          </div>
+        </section>
+
+        <section id="multiply">
+          <h2>4. Why multiply?</h2>
+          <p>Click G5 again. The formula is:</p>
+          <pre class="bx-formula-show">=(B1*B2)+(C1*C2)+(D1*D2)+(E1*E2)+(F1*F2)</pre>
+          <p>In Excel, <code>*</code> means times. Each bracket multiplies a card's number by its 1 or 0:</p>
+          <ul>
+            <li>If the card is <strong>on</strong>: 16 &times; <strong>1</strong> = 16. The card's number <strong>counts</strong>.</li>
+            <li>If the card is <strong>off</strong>: 16 &times; <strong>0</strong> = 0. The card <strong>vanishes</strong> from the total.</li>
+          </ul>
+          <p>Then the <code>+</code> signs add up whatever is left. Multiplying by 1 or 0 is a really common spreadsheet move. It works like a light switch for a number.</p>
+          <div class="callout">
+            <strong>Key idea:</strong> every formula starts with <code>=</code>. Without it, Excel thinks you typed some text and just shows it.
+          </div>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> C1 holds 8 and C2 holds 0. What does <code>=C1*C2</code> show?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">0</button>
+              <button type="button" class="kcheck-opt" data-key="b">8</button>
+              <button type="button" class="kcheck-opt" data-key="c">80</button>
+              <button type="button" class="kcheck-opt" data-key="d">C1*C2</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>8 &times; 0 = 0. A 0 in row 2 means the card was off, so it adds nothing. It shows a number (not the text C1*C2) because the formula starts with =.</p>
+          </div>
+        </section>
+
+        <section id="task">
+          <h2>5. Your turn: write the formula</h2>
+          <p>This spreadsheet is missing its formula. <strong>Click G5</strong>, type a formula into the formula bar that works out the total, then press <strong>Enter</strong>.</p>
+          <p>It gets tested against all 32 ways the cards can be on or off, so typing the answer in as a number won't pass. It has to really work.</p>
+          <div id="bx-task-sheet"></div>
+          <div class="bx-task-actions">
+            <button type="button" class="btn btn-primary" id="bx-task-check">Check my formula</button>
+          </div>
+          <p class="bx-fb" id="bx-task-fb" aria-live="polite" hidden></p>
+          <details class="bx-hint">
+            <summary>Stuck? Get a hint</summary>
+            <p>Start with just the first card: <code>=B1*B2</code>. That's the 16 card times its 1 or 0. Now add the next card on the end with a <code>+</code>, and keep going until all five cards are in.</p>
+          </details>
+        </section>
+
+        <section id="eight">
+          <h2>6. Level up: 8 cards</h2>
+          <p>Add three more cards and the trick gets much bigger. Eight cards are eight bits, which is one <strong>byte</strong>, and the card numbers double each time: 128, 64, 32, 16, 8, 4, 2, 1.</p>
+          <div class="bx-num" data-answer="255"
+               data-hints='{"256":"Close! 256 needs a ninth card. Add up all eight card values.","128":"That is just the biggest card. What if every card is on?"}'>
+            <label>What is the <strong>biggest</strong> number 8 cards can show? <input type="text" inputmode="numeric" autocomplete="off" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+            <p class="bx-num-explain" hidden>All eight on: 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 = 255. That's <code>11111111</code>, the biggest number one byte can hold. It's why so many things stop at 255, like each colour in an RGB code.</p>
+          </div>
+          <div class="bx-num" data-answer="7"
+               data-hints='{"6":"6 cards only reach 63. Is that enough for 100?","8":"8 would work, but you can do it with fewer. Try adding up the cards from 1 to 64.","100":"Think cards, not numbers: how many card values (1, 2, 4, 8...) do you need?"}'>
+            <label>A class has numbers up to <strong>100</strong>. What is the fewest cards that could guess every one? <input type="text" inputmode="numeric" autocomplete="off" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+            <p class="bx-num-explain" hidden>Six cards (1 to 32) only reach 63. Seven cards (1 to 64) reach 127, which covers 100. So you need 7 bits.</p>
+          </div>
+          <h3>Bonus: the 8-card formula</h3>
+          <p>Write the formula for 8 cards in <strong>J5</strong>. The long way works. So does a shortcut, if you can find it.</p>
+          <div id="bx-eight-sheet"></div>
+          <div class="bx-task-actions">
+            <button type="button" class="btn btn-ghost" id="bx-eight-check">Check J5</button>
+          </div>
+          <p class="bx-fb" id="bx-eight-fb" aria-live="polite" hidden></p>
+          <details class="bx-hint">
+            <summary>The shortcut</summary>
+            <p><code>=SUMPRODUCT(B1:I1,B2:I2)</code> multiplies the two rows pair by pair (B1 &times; B2, C1 &times; C2, ...) and adds up all the answers. <code>B1:I1</code> is a <strong>range</strong>: every cell from B1 to I1. Ranges are how you point at lots of cells at once, and you will use them all the time with <code>SUM</code>, <code>MIN</code>, <code>MAX</code> and <code>AVERAGE</code>.</p>
+          </details>
+        </section>
+
+        <section id="excel">
+          <h2>7. Build it in real Excel</h2>
+          <p>Now prove you can do it in the real thing. This counts as practice for two of your pre-VET skills: <strong>Excel</strong> and <strong>file management</strong>.</p>
+          <ol class="bx-steps">
+            <li>Open Excel and start a <strong>blank workbook</strong>.</li>
+            <li>In <strong>A1</strong> type <em>First number on the card</em>. In <strong>A2</strong> type <em>Was it on</em>. Double-click the line between the A and B column letters so the words fit.</li>
+            <li>Type <strong>16, 8, 4, 2, 1</strong> into <strong>B1 to F1</strong>.</li>
+            <li>Type a <strong>1</strong> or a <strong>0</strong> into each cell from <strong>B2 to F2</strong>.</li>
+            <li>Type <em>TOTAL</em> in <strong>G4</strong>, then your formula in <strong>G5</strong>. Press Enter.</li>
+            <li>Test it on a partner: they pick a number, you set row 2 from their answers, and Excel reads their mind.</li>
+            <li>Save it in your <strong>Excel</strong> folder as <code>Surname_Firstname_BinaryTrick_v1</code>.</li>
+          </ol>
+          <div class="try-box">
+            <h4>Evidence</h4>
+            <p>Click G5 so the formula shows in the formula bar. Press <strong>Windows + Shift + S</strong>, drag a box around the table <em>and</em> the formula bar, then open it in the Snipping Tool. Circle the formula and write what it does. Save it as <code>Surname_Firstname_BinaryTrick_evidence</code>.</p>
+          </div>
+          <div class="callout">
+            <strong>Why that file name?</strong> A good name says <em>whose</em> it is, <em>what</em> it is and <em>which version</em> it is. Your teacher (and later, your boss) can find it without opening it.
+          </div>
+        </section>
+
+        <section id="explain">
+          <h2>8. Explain it</h2>
+          <p>Answer in your own words. A full sentence or two each. These save as you type, and your teacher reads them.</p>
+          <div class="brainbox" data-module="binary-excel" data-q="why-trick"
+               data-prompt="Explain how the card trick works. Use the words binary and bit (or place value) in your answer."
+               data-placeholder="The trick works because each card is...">
+          </div>
+          <div class="brainbox" data-module="binary-excel" data-q="why-formula"
+               data-prompt="Why is it better to put a formula in G5 than to work the number out in your head and type it in?"
+               data-placeholder="A formula is better because when you change...">
+          </div>
+          <div class="brainbox" data-module="binary-excel" data-q="real-use"
+               data-prompt="Describe one real situation (a job, a club, a business) where a spreadsheet formula would save someone time. What would it work out?"
+               data-placeholder="A canteen could use a formula to...">
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Six quick questions. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="binary-excel">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">1. Which cell is in column D, row 2?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">2D</button>
+                <button type="button" class="mtest-opt" data-key="b">D2</button>
+                <button type="button" class="mtest-opt" data-key="c">R2CD</button>
+                <button type="button" class="mtest-opt" data-key="d">DD2</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">2. Every Excel formula starts with which character?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">*</button>
+                <button type="button" class="mtest-opt" data-key="b">#</button>
+                <button type="button" class="mtest-opt" data-key="c">=</button>
+                <button type="button" class="mtest-opt" data-key="d">+</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">3. B1 holds 16 and B2 holds 1. What does <code>=B1*B2</code> show?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">16</button>
+                <button type="button" class="mtest-opt" data-key="b">17</button>
+                <button type="button" class="mtest-opt" data-key="c">161</button>
+                <button type="button" class="mtest-opt" data-key="d">0</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">4. The 16, 4 and 1 cards are on. The rest are off. What is the number?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">3</button>
+                <button type="button" class="mtest-opt" data-key="b">20</button>
+                <button type="button" class="mtest-opt" data-key="c">1641</button>
+                <button type="button" class="mtest-opt" data-key="d">21</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. Which formula adds up every cell from B1 to F1?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>=ADD(B1-F1)</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>=SUM(B1:F1)</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>SUM B1 to F1</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>=B1:F1</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">6. Why is a formula in G5 better than typing the answer in yourself?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It makes the file smaller</button>
+                <button type="button" class="mtest-opt" data-key="b">It changes the font automatically</button>
+                <button type="button" class="mtest-opt" data-key="c">It updates by itself when the data changes</button>
+                <button type="button" class="mtest-opt" data-key="d">Excel won't let you type numbers into G5</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Binary</dt><dd>A number system that uses only 1s and 0s. Each place is worth double the one to its right: 1, 2, 4, 8, 16...</dd>
+            <dt>Bit</dt><dd>One binary digit: a single 1 or 0. One card in the trick.</dd>
+            <dt>Byte</dt><dd>8 bits. Can hold any number from 0 to 255.</dd>
+            <dt>Spreadsheet</dt><dd>A grid of cells for storing data and doing calculations. Excel is a spreadsheet program.</dd>
+            <dt>Cell</dt><dd>One box in a spreadsheet, where a column and a row cross.</dd>
+            <dt>Cell reference</dt><dd>A cell's name: column letter, then row number, like G5.</dd>
+            <dt>Formula</dt><dd>A calculation in a cell. Always starts with <code>=</code> and updates when the cells it uses change.</dd>
+            <dt>Formula bar</dt><dd>The bar above the grid that shows what is really inside the selected cell.</dd>
+            <dt>Range</dt><dd>A block of cells written with a colon, like <code>B1:F1</code> (every cell from B1 to F1).</dd>
+            <dt>SUMPRODUCT</dt><dd>A function that multiplies two ranges pair by pair and adds up the results.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/modules/#prevet" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>All modules</a>
+          <a href="/topics/binary/" class="btn btn-primary">Refresher: Binary &amp; Data <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/lesson-steps.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/xlsheet.js"></script>
+  <script src="/binary-excel.js"></script>
+  <script src="/shortanswer.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>
