@@ -36,7 +36,13 @@
     // Pre-VET. The only module with all three parts: the test, the formula
     // task and the written answers. weights are [test, task, written].
     "binary-excel": { label: "Binary meets Excel", test: "binary-excel", tasks: ["binary-excel-task"],
-      answers: { name: "answers-binary-excel", total: 3 }, weights: [0.4, 0.3, 0.3] }
+      answers: { name: "answers-binary-excel", total: 3 }, weights: [0.4, 0.3, 0.3] },
+    "excel-basics": { label: "Excel 1: What is a spreadsheet?", test: "excel-basics", tasks: ["excel-basics-task"],
+      answers: { name: "answers-excel-basics", total: 3 }, weights: [0.4, 0.3, 0.3] },
+    "excel-format": { label: "Excel 2: Make it readable", test: "excel-format", tasks: ["excel-format-task"],
+      answers: { name: "answers-excel-format", total: 3 }, weights: [0.4, 0.3, 0.3] },
+    "excel-formulas": { label: "Excel 3: Let Excel do the maths", test: "excel-formulas", tasks: ["excel-formulas-task"],
+      answers: { name: "answers-excel-formulas", total: 3 }, weights: [0.4, 0.3, 0.3] }
   };
 
   var ASSIGNMENT_INFO = {

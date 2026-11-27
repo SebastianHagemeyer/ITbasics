@@ -40,7 +40,13 @@
       answersModule: "ideas", answersTotal: 4, compute: computeWithAnswers("ideas", "ideas", 4) },
     { key: "terminal",    label: "The Terminal (module)",      group: "Modules & quizzes", quizzes: ["terminal"],   compute: testCompute("terminal") },
     { key: "binary-excel", label: "Binary meets Excel (Pre-VET)", group: "Pre-VET", quizzes: ["binary-excel", "binary-excel-task"],
-      answersModule: "binary-excel", answersTotal: 3, compute: computeBinaryExcel }
+      answersModule: "binary-excel", answersTotal: 3, compute: computePrevet("binary-excel", "Formula") },
+    { key: "excel-basics", label: "Excel 1: What is a spreadsheet?", group: "Pre-VET", quizzes: ["excel-basics", "excel-basics-task"],
+      answersModule: "excel-basics", answersTotal: 3, compute: computePrevet("excel-basics", "Leaderboard v1") },
+    { key: "excel-format", label: "Excel 2: Make it readable", group: "Pre-VET", quizzes: ["excel-format", "excel-format-task"],
+      answersModule: "excel-format", answersTotal: 3, compute: computePrevet("excel-format", "Leaderboard v2") },
+    { key: "excel-formulas", label: "Excel 3: Let Excel do the maths", group: "Pre-VET", quizzes: ["excel-formulas", "excel-formulas-task"],
+      answersModule: "excel-formulas", answersTotal: 3, compute: computePrevet("excel-formulas", "Leaderboard v3") }
   ];
 
   // Assignment drafts: reads assignment_progress, which holds both the live
@@ -77,6 +83,15 @@
     "why-trick":      "How does the card trick work? (binary, bits)",
     "why-formula":    "Why a formula in G5 instead of typing the answer?",
     "real-use":       "A real situation where a spreadsheet formula saves time",
+    "where-seen":     "Where have you seen data in rows and columns?",
+    "text-vs-number": "How can you tell text from a number in Excel? Why does it matter?",
+    "good-filename":  "Why is Surname_Firstname_Tournament_v1 a better file name?",
+    "hard-table":     "A table that was hard to read, and what would fix it",
+    "wrap-vs-wide":   "When would you wrap text instead of widening the column?",
+    "why-v2":         "Why save a v2 instead of saving over v1?",
+    "why-refs":       "Why is =B4+C4+D4 better than =420+380+510?",
+    "fill-handle":    "What does the fill handle change, and why is it useful?",
+    "fix-score":      "Fixing TurboToast's score: what changed, what did you retype?",
     "c-pet":      "Which pet, and how many pet years per human year?",
     "c-err":      "Error message from typing letters, and why",
     "c-surprise": "What did -3 give, and why is that a problem? Hardcoded or variable?",
@@ -221,28 +236,31 @@
     };
   }
 
-  // Binary meets Excel (Pre-VET): test 40%, the G5 formula task 30%, the
-  // three written answers 30%. Same sum as progress.js and hw-status.js.
-  function computeBinaryExcel(rows) {
-    var b = bestTest(rows, "binary-excel");
-    var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
-    var taskRow = rows.filter(function (r) {
-      return r.quiz_name === "binary-excel-task" && r.answers && r.answers.challenge;
-    })[0];
-    var ansRow = rows.filter(function (r) { return r.quiz_name === "answers-binary-excel"; })[0];
-    var written = 0;
-    if (ansRow && ansRow.answers) {
-      written = Object.keys(ansRow.answers).filter(function (k) {
-        return String(ansRow.answers[k] || "").trim().length >= 15;
-      }).length;
-    }
-    var pct = Math.round(0.4 * testPct + (taskRow ? 30 : 0) + 30 * Math.min(1, written / 3));
-    return {
-      pct: pct,
-      completed: pct === 100,
-      detail: "Test " + (b ? b.score + "/" + b.total : "no attempt") +
-        " · Formula " + (taskRow ? "done (" + (taskRow.answers.formula || "") + ")" : "not yet") +
-        " · Answers " + written + "/3"
+  // Pre-VET modules: test 40%, the task 30%, the three written answers 30%.
+  // Same sum as progress.js and hw-status.js. Binary meets Excel's task also
+  // records the formula the student wrote, so that shows in the detail.
+  function computePrevet(key, taskName) {
+    return function (rows) {
+      var b = bestTest(rows, key);
+      var testPct = b && b.total ? Math.round((b.score / b.total) * 100) : 0;
+      var taskRow = rows.filter(function (r) {
+        return r.quiz_name === key + "-task" && r.answers && r.answers.challenge;
+      })[0];
+      var ansRow = rows.filter(function (r) { return r.quiz_name === "answers-" + key; })[0];
+      var written = 0;
+      if (ansRow && ansRow.answers) {
+        written = Object.keys(ansRow.answers).filter(function (k) {
+          return String(ansRow.answers[k] || "").trim().length >= 15;
+        }).length;
+      }
+      var pct = Math.round(0.4 * testPct + (taskRow ? 30 : 0) + 30 * Math.min(1, written / 3));
+      var taskStr = taskRow ? "done" + (taskRow.answers.formula ? " (" + taskRow.answers.formula + ")" : "") : "not yet";
+      return {
+        pct: pct,
+        completed: pct === 100,
+        detail: "Test " + (b ? b.score + "/" + b.total : "no attempt") +
+          " · " + taskName + " " + taskStr + " · Answers " + written + "/3"
+      };
     };
   }
 

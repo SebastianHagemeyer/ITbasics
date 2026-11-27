@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Excel 2: Make it readable | Hallam IT Basics</title>
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="learn" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Pre-VET IT &middot; Excel 2 of 3</p>
+        <h1>Make it readable</h1>
+        <p class="lead">A grid of numbers is hard work to read. Today you turn your leaderboard into something people actually want to look at, using four tools on Excel's <strong>Home</strong> tab: Merge &amp; Center, Wrap Text, Borders and Fill Colour.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#task" class="btn btn-primary">Jump to the format task <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#why">Change the look, not the data</a></li>
+          <li><a href="#merge">Merge &amp; Center</a></li>
+          <li><a href="#wrap">Wrap Text</a></li>
+          <li><a href="#borders">Borders and shading</a></li>
+          <li><a href="#task">Format your leaderboard</a></li>
+          <li><a href="#save">Save a new version</a></li>
+          <li><a href="#explain">Explain it</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="why">
+          <h2>1. Change the look, not the data</h2>
+          <p>To <strong>format</strong> a cell is to change how it looks without changing the data inside it. Same scores, same names; just easier to read. Compare these two. Every difference has a job to do for the reader.</p>
+          <div class="xl-compare">
+            <div><p class="xl-compare-label">Before</p><div id="xf-plain"></div></div>
+            <div><p class="xl-compare-label">After</p><div id="xf-pretty"></div></div>
+          </div>
+          <div class="brainbox" data-module="excel-format" data-q="hard-table"
+               data-prompt="Think of a table that was hard to read (a timetable, a ladder, a receipt). What made it hard, and what would have fixed it?"
+               data-placeholder="My bus timetable was hard to read because...">
+          </div>
+          <div class="kcheck" data-answer="b">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> You make a cell with the number 510 bold and shade it blue. What is in the cell now?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">510 bold blue</button>
+              <button type="button" class="kcheck-opt" data-key="b">Still just 510</button>
+              <button type="button" class="kcheck-opt" data-key="c">Nothing: formatting clears the cell</button>
+              <button type="button" class="kcheck-opt" data-key="d">It turns into text</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Formatting changes how the cell looks, never what's in it. It's still the number 510, and formulas can still use it.</p>
+          </div>
+        </section>
+
+        <section id="merge">
+          <h2>2. Merge &amp; Center (and split)</h2>
+          <p><strong>Merge &amp; Center</strong> joins several cells into one big cell and centres what's in it. It's how you make a title sit across the top of the whole table. Click it a second time and the cells <strong>split</strong> back apart.</p>
+          <p>To select several cells, <strong>click the first one and drag</strong> to the last (or click the first, then Shift + click the last).</p>
+          <div class="callout">
+            <strong>The rule:</strong> only merge titles. Never merge cells in the middle of your data: formulas, sorting and filling all trip over merged cells.
+          </div>
+          <div id="xf-merge"></div>
+          <ul class="xl-checklist" id="xf-merge-checks"></ul>
+          <p class="bx-fb" id="xf-merge-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="wrap">
+          <h2>3. Wrap Text</h2>
+          <p>Long headings are a pain: either they get cut off, or the column has to be huge. <strong>Wrap Text</strong> lets the words run onto extra lines inside the one cell, so the column can stay narrow. Click the cell, then Wrap Text.</p>
+          <div id="xf-wrap"></div>
+          <ul class="xl-checklist" id="xf-wrap-checks"></ul>
+          <p class="bx-fb" id="xf-wrap-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="borders">
+          <h2>4. Borders and shading</h2>
+          <p>The faint grey gridlines you see on screen <strong>don't print</strong>. <strong>Borders</strong> are real lines around your cells: select the table, then <strong>All Borders</strong>. <strong>Fill Colour</strong> (the paint bucket) shades cells; shade the heading row so it stands out. One light colour is plenty, and <strong>bold</strong> headings finish it off.</p>
+          <div id="xf-borders"></div>
+          <ul class="xl-checklist" id="xf-borders-checks"></ul>
+          <p class="bx-fb" id="xf-borders-fb" aria-live="polite" hidden></p>
+          <div class="kcheck" data-answer="a">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Why pick a <strong>light</strong> fill colour for the heading row?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">So the black writing on top is still easy to read</button>
+              <button type="button" class="kcheck-opt" data-key="b">Dark colours cost more to print, so Excel won't allow them</button>
+              <button type="button" class="kcheck-opt" data-key="c">Light colours make the file smaller</button>
+              <button type="button" class="kcheck-opt" data-key="d">It doesn't matter at all</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Formatting is for the reader. Dark text on a dark fill is hard to read, which defeats the point of shading it.</p>
+          </div>
+        </section>
+
+        <section id="task">
+          <h2>5. Format your leaderboard (v2)</h2>
+          <p>Here's your leaderboard from last lesson, all eight players. Make it match the brief from class:</p>
+          <ol class="bx-steps">
+            <li>Type the heading <strong>Total score (3 rounds)</strong> in <strong>E3</strong>. (The column stays empty until next lesson.)</li>
+            <li><strong>Merge &amp; Center</strong> the title across <strong>A1 to E1</strong>.</li>
+            <li><strong>Wrap</strong> and <strong>centre</strong> the headings in row 3 (A3 to E3).</li>
+            <li>Put <strong>All Borders</strong> on <strong>A3 to E11</strong>.</li>
+            <li><strong>Shade</strong> the heading row and make it <strong>bold</strong>.</li>
+          </ol>
+          <div id="xf-task-sheet"></div>
+          <ul class="xl-checklist" id="xf-task-checks"></ul>
+          <p class="bx-fb" id="xf-task-fb" aria-live="polite" hidden></p>
+          <p class="muted-note">Your work saves on this computer as you go. <button type="button" class="linklike" id="xf-task-reset">Start again</button></p>
+          <div class="try-box">
+            <h4>Finished early?</h4>
+            <p>Shade every second player row in a light colour, so your eye can follow a row across. In real Excel, try the <strong>Format Painter</strong> (the paintbrush): it copies formatting from one cell to another.</p>
+          </div>
+        </section>
+
+        <section id="save">
+          <h2>6. Save a new version</h2>
+          <p>Before you change anything in real Excel, open your v1 file and straight away use <strong>File &gt; Save As</strong>. Change <code>v1</code> to <code>v2</code> in the name. Now v1 stays safe as your backup, and all today's changes go into v2. If something goes badly wrong, v1 is still there.</p>
+          <div class="bx-num xl-fname" data-version="2">
+            <label>Type the file name for today's version: <input type="text" autocomplete="off" spellcheck="false" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+          </div>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> You open <code>Smith_Jo_Tournament_v1</code> to format it. What should you do <strong>first</strong>?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Start formatting, then press Save</button>
+              <button type="button" class="kcheck-opt" data-key="b">Delete v1 so there's only one file</button>
+              <button type="button" class="kcheck-opt" data-key="c">File &gt; Save As, and change v1 to v2</button>
+              <button type="button" class="kcheck-opt" data-key="d">Rename it to "final"</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>Save As first means every change lands in v2 and v1 stays untouched as a backup. That's called version control, and it's a pre-VET file management skill too.</p>
+          </div>
+        </section>
+
+        <section id="explain">
+          <h2>7. Explain it</h2>
+          <p>In your own words, a sentence or two each.</p>
+          <div class="brainbox" data-module="excel-format" data-q="wrap-vs-wide"
+               data-prompt="When would you use Wrap Text instead of just making the column wider?"
+               data-placeholder="I'd use Wrap Text when...">
+          </div>
+          <div class="brainbox" data-module="excel-format" data-q="why-v2"
+               data-prompt="Why did you save a v2 instead of saving over v1?"
+               data-placeholder="Saving a v2 means that if...">
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Six quick questions. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="excel-format">
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">1. What does formatting a cell change?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">The data inside it</button>
+                <button type="button" class="mtest-opt" data-key="b">Its cell reference</button>
+                <button type="button" class="mtest-opt" data-key="c">How it looks</button>
+                <button type="button" class="mtest-opt" data-key="d">The file name</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">2. Which tool joins A1 to E1 into one cell for a title?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Merge &amp; Center</button>
+                <button type="button" class="mtest-opt" data-key="b">Wrap Text</button>
+                <button type="button" class="mtest-opt" data-key="c">All Borders</button>
+                <button type="button" class="mtest-opt" data-key="d">Fill Colour</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">3. How do you split a merged cell back into separate cells?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Delete it</button>
+                <button type="button" class="mtest-opt" data-key="b">Press Wrap Text</button>
+                <button type="button" class="mtest-opt" data-key="c">You can't, ever</button>
+                <button type="button" class="mtest-opt" data-key="d">Select it and click Merge &amp; Center again</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">4. A long heading is cut off, but you want the column to stay narrow. What do you use?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Merge &amp; Center</button>
+                <button type="button" class="mtest-opt" data-key="b">Wrap Text</button>
+                <button type="button" class="mtest-opt" data-key="c">Bold</button>
+                <button type="button" class="mtest-opt" data-key="d">A smaller title</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">5. Which cells should you <strong>never</strong> merge?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A title across the top</button>
+                <button type="button" class="mtest-opt" data-key="b">Empty cells</button>
+                <button type="button" class="mtest-opt" data-key="c">Cells in the middle of your data</button>
+                <button type="button" class="mtest-opt" data-key="d">Cells in row 1</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">6. Why save a v2 with Save As instead of saving over v1?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">So v1 stays as a backup if something goes wrong</button>
+                <button type="button" class="mtest-opt" data-key="b">Excel can only save each file once</button>
+                <button type="button" class="mtest-opt" data-key="c">v2 files open faster</button>
+                <button type="button" class="mtest-opt" data-key="d">It removes the formatting from v1</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Format</dt><dd>Change how a cell looks without changing the data in it.</dd>
+            <dt>Merge &amp; Center</dt><dd>Joins selected cells into one and centres the contents. Click again to split them.</dd>
+            <dt>Wrap Text</dt><dd>Lets long text run onto extra lines inside one cell.</dd>
+            <dt>Border</dt><dd>A real line around a cell. Unlike gridlines, borders print.</dd>
+            <dt>Fill Colour (shading)</dt><dd>The background colour of a cell. Keep it light.</dd>
+            <dt>Save As</dt><dd>Saves a copy under a new name, so the old version stays as a backup.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/excel-basics/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>Excel 1</a>
+          <a href="/topics/excel-formulas/" class="btn btn-primary">Next: Let Excel do the maths <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/lesson-steps.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/xlsheet.js"></script>
+  <script src="/excel-lessons.js"></script>
+  <script src="/shortanswer.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>

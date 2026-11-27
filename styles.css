@@ -7254,9 +7254,10 @@ span.hg-gtarget-name { cursor: default; }
 .xl-bar-edit .xl-formula { background: var(--success-bg); }
 .xl-scroll {
   overflow-x: auto; border: 1px solid var(--border);
-  border-radius: 0 0 var(--radius-sm) var(--radius-sm); background: var(--surface);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm); background: var(--tint-neutral);
 }
-.xl-grid { border-collapse: collapse; font-size: 0.95rem; min-width: 100%; }
+.xl-grid td { background: var(--surface); position: relative; }
+.xl-grid { border-collapse: collapse; font-size: 0.95rem; }
 .xl-grid:focus { outline: none; }
 .xl-grid:focus-visible { outline: 3px solid rgba(var(--primary-rgb), 0.4); outline-offset: -3px; }
 .xl-grid th, .xl-grid td { border: 1px solid var(--border); height: 2.1rem; padding: 0 8px; white-space: nowrap; }
@@ -7345,3 +7346,74 @@ span.hg-gtarget-name { cursor: default; }
 .bx-num-fb:empty { display: none; }
 .bx-num-explain { flex-basis: 100%; margin: 0; color: var(--muted); }
 .bx-steps li { margin: 6px 0; }
+
+/* ---- Pre-VET: spreadsheet features for the Excel lessons ------------------
+   Typing, range selection, merges, the Home tab ribbon, the fill handle and
+   too-narrow columns. Still tokens only. Borders the student adds are drawn
+   in --text, thicker than the gridlines, so they win the collapsed-border
+   contest and read as "real lines" in both themes. */
+.xl-c { white-space: nowrap; }
+.xl-c.xl-clip { overflow: hidden; text-overflow: clip; }
+.xl-grid td.xl-wrap { white-space: normal; padding-top: 3px; padding-bottom: 3px; }
+.xl-grid td.xl-wrap .xl-c { white-space: normal; line-height: 1.25; }
+.xl-grid td.xl-bold { font-weight: 700; }
+.xl-grid td.xl-center, .xl-grid td.xl-center.xl-num { text-align: center; }
+.xl-grid td.xl-bd { border: 2px solid var(--text); }
+.xl-grid td.xl-fill-blue { background: var(--tint-cool); }
+.xl-grid td.xl-fill-yellow { background: var(--tint-warm); }
+.xl-grid td.xl-fill-green { background: var(--success-bg); }
+.xl-grid td.xl-inrange { box-shadow: inset 0 0 0 999px rgba(var(--primary-rgb), 0.14); }
+.xl-grid td.xl-filltarget { outline: 2px dashed var(--success); outline-offset: -3px; }
+.xl-grid td.xl-target { background: var(--accent); color: var(--accent-ink); }
+.xl-grid td.xl-stale { color: var(--danger); font-weight: 700; }
+.xl-grid td.xl-hash { color: var(--muted); letter-spacing: -0.04em; }
+.xl-handle {
+  position: absolute; right: -5px; bottom: -5px; width: 9px; height: 9px; z-index: 3;
+  background: var(--success); border: 1.5px solid var(--surface); cursor: crosshair; touch-action: none;
+}
+.xl-colhead { position: relative; user-select: none; }
+.xl-resizer { position: absolute; top: 0; right: -4px; bottom: 0; width: 8px; cursor: col-resize; z-index: 2; }
+.xl-resizer:hover { background: rgba(var(--primary-rgb), 0.35); }
+.xl-grid { user-select: none; }
+.xl-notice { margin: 6px 0 0; font-size: 0.88rem; color: var(--ink-warm); background: var(--tint-warm); padding: 6px 10px; border-radius: var(--radius-sm); }
+.xl-ribbon {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 8px;
+  border: 1px solid var(--border); border-bottom: none; border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+  background: var(--tint-neutral);
+}
+.xl-ribbon + .xl-bar { border-radius: 0; }
+.xl-tool {
+  font-family: inherit; font-size: 0.85rem; font-weight: 600; padding: 6px 10px; cursor: pointer;
+  border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text);
+}
+.xl-tool:hover { border-color: var(--primary); }
+.xl-tool[aria-pressed="true"] { background: var(--success-bg); border-color: var(--success); color: var(--success-text); }
+.xl-tool-bold { font-weight: 800; min-width: 2.2rem; }
+.xl-fillgrp { display: inline-flex; align-items: center; gap: 4px; margin-left: 4px; }
+.xl-filllab { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+.xl-swatch { width: 1.9rem; height: 1.9rem; padding: 0; }
+.xl-swatch-blue { background: var(--tint-cool); }
+.xl-swatch-yellow { background: var(--tint-warm); }
+.xl-swatch-green { background: var(--success-bg); }
+.xl-swatch-none { color: var(--muted); }
+.xl-checklist { list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 4px; }
+.xl-checklist li { display: flex; align-items: center; gap: 8px; color: var(--muted); }
+.xl-checklist li.ok { color: var(--success-text); font-weight: 600; }
+.xl-check-mark {
+  flex: 0 0 1.25rem; height: 1.25rem; border-radius: 50%; border: 2px solid var(--border);
+  display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 800;
+}
+.xl-checklist li.ok .xl-check-mark { background: var(--success); border-color: var(--success); color: var(--success-ink); }
+.xl-compare { display: grid; grid-template-columns: 1fr; gap: 8px; }
+.xl-compare-label { margin: 0 0 4px; font-weight: 700; color: var(--muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.06em; }
+.xl-game-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.xl-game-row input {
+  width: 7rem; padding: 8px 10px; font-family: inherit; font-size: 1rem; text-transform: uppercase;
+  border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text);
+}
+.xl-fname input { width: min(100%, 22rem); text-transform: none; }
+.xl-copy { max-width: 32rem; }
+.linklike {
+  background: none; border: none; padding: 0; font: inherit; color: var(--primary-ink);
+  text-decoration: underline; cursor: pointer;
+}
