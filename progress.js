@@ -23,8 +23,14 @@
     { key: "libraries",   label: "Libraries & import", href: "/topics/libraries/" },
     { key: "ideas",       label: "Game Ideas & Design", href: "/topics/ideas/" },
     { key: "terminal",    label: "The Terminal",   href: "/topics/terminal/" },
-    { key: "binary-excel", label: "Binary meets Excel (Pre-VET)", href: "/topics/binary-excel/" }
+    { key: "binary-excel", label: "Binary meets Excel (Pre-VET)", href: "/topics/binary-excel/" },
+    { key: "excel-basics", label: "Excel 1: What is a spreadsheet?", href: "/topics/excel-basics/" },
+    { key: "excel-format", label: "Excel 2: Make it readable", href: "/topics/excel-format/" },
+    { key: "excel-formulas", label: "Excel 3: Let Excel do the maths", href: "/topics/excel-formulas/" }
   ];
+
+  // Pre-VET modules: test 40%, task 30%, three written answers 30%.
+  var PREVET = ["binary-excel", "excel-basics", "excel-format", "excel-formulas"];
 
   // The three retired lessons. They live behind the Legacy shelf on the
   // modules page, so they should not headline a student's progress either.
@@ -88,7 +94,7 @@
       if (res.error) return { error: res.error.message, rows: [] };
       return { rows: res.data || [] };
     }
-    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "terminal", "binary-excel", "binary-excel-task", "freeplay", "livecoding"];
+    var names = ["programming", "html", "python", "pseudocode", "pseudocode-task", "variables", "variables-task", "strings", "strings-task", "errors", "decisions", "decisions-task", "loops", "loops-for-task", "loops-while-task", "binary", "codes", "codes-task", "systems", "networks", "os", "ideas", "terminal", "binary-excel", "binary-excel-task", "excel-basics", "excel-basics-task", "excel-format", "excel-format-task", "excel-formulas", "excel-formulas-task", "freeplay", "livecoding"];
     var rows = [];
     names.forEach(function (name) {
       var raw = localStorage.getItem("itbasics-attempts-" + student.code + "-" + name);
@@ -248,11 +254,10 @@
     blendWritten("ideas", written.ideas, 4, 5,
       "Take the test and fill in the design doc on the lesson page");
 
-    // Binary meets Excel (Pre-VET) has all three parts: the test (40%), the
-    // G5 formula task (30%) and the three written answers (30%). Same sum as
-    // hw-status.js and teacher.js.
-    (function () {
-      var key = "binary-excel";
+    // The Pre-VET modules have all three parts: the test (40%), the task
+    // (30%) and the three written answers (30%). Same sum as hw-status.js
+    // and teacher.js.
+    PREVET.forEach(function (key) {
       var testRows = rows.filter(function (r) { return r.quiz_name === key; });
       var best = 0, outOf = 0, testPct = 0;
       if (testRows.length) {
@@ -276,10 +281,10 @@
         pct: Math.round(0.4 * testPct + (taskDone ? 30 : 0) + 30 * Math.min(1, count / 3)),
         note: attempted
           ? ("Test " + (testRows.length ? best + "/" + outOf : "not yet") +
-             " · Formula " + (taskDone ? "done" : "not yet") + " · Answers " + count + "/3")
-          : "Take the test, write the formula and answer the three questions"
+             " · Task " + (taskDone ? "done" : "not yet") + " · Answers " + count + "/3")
+          : "Take the test, do the task and answer the three questions"
       };
-    })();
+    });
 
     var freeplay = rows
       .filter(function (r) { return r.quiz_name === "freeplay"; })
@@ -444,7 +449,9 @@
     var written = {};
     try { written.systems = await window.ITBasics.loadProgress("answers-systems"); } catch (e) { /* fine */ }
     try { written.ideas = await window.ITBasics.loadProgress("answers-ideas"); } catch (e) { /* fine */ }
-    try { written["binary-excel"] = await window.ITBasics.loadProgress("answers-binary-excel"); } catch (e) { /* fine */ }
+    for (var pv = 0; pv < PREVET.length; pv++) {
+      try { written[PREVET[pv]] = await window.ITBasics.loadProgress("answers-" + PREVET[pv]); } catch (e) { /* fine */ }
+    }
     render(student, summarise(result.rows, written));
 
     var subs = await loadSubmissions(student);

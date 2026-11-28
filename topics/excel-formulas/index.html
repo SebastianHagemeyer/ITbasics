@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Excel 3: Let Excel do the maths | Hallam IT Basics</title>
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="learn" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Pre-VET IT &middot; Excel 3 of 3</p>
+        <h1>Let Excel do the maths</h1>
+        <p class="lead">Today you stop adding things up yourself. You write <strong>formulas</strong> so the spreadsheet does the calculations, and updates them by itself when a score changes. That's the superpower of a spreadsheet.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#task" class="btn btn-primary">Jump to the leaderboard task <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#formula">Your first formula</a></li>
+          <li><a href="#refs">Why cell references?</a></li>
+          <li><a href="#functions">SUM, MAX, MIN, AVERAGE</a></li>
+          <li><a href="#fill">The fill handle</a></li>
+          <li><a href="#errors">When it goes wrong</a></li>
+          <li><a href="#task">Finish your leaderboard</a></li>
+          <li><a href="#explain">Explain it</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="formula">
+          <h2>1. Your first formula</h2>
+          <p>A <strong>formula</strong> is an instruction that makes Excel calculate. It <strong>always starts with <code>=</code></strong>. Without the =, Excel thinks you've typed some words and just shows them.</p>
+          <table class="data-table">
+            <thead><tr><th>Sign</th><th>Means</th><th>Example</th></tr></thead>
+            <tbody>
+              <tr><td><code>+</code></td><td>add</td><td><code>=B4+C4</code></td></tr>
+              <tr><td><code>-</code></td><td>subtract</td><td><code>=C4-B4</code></td></tr>
+              <tr><td><code>*</code></td><td>multiply</td><td><code>=B4*2</code></td></tr>
+              <tr><td><code>/</code></td><td>divide</td><td><code>=B4/3</code></td></tr>
+            </tbody>
+          </table>
+          <p>PixelPanda scored 420, 380 and 510. Click <strong>E4</strong> and type a formula that adds up their three rounds using the <strong>cell references</strong>, then press Enter.</p>
+          <div id="xm-play"></div>
+          <p class="bx-fb" id="xm-play-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="refs">
+          <h2>2. Why cell references, not the numbers?</h2>
+          <p>You could type <code>=420+380+510</code> and get the same answer, 1310. So why bother with <code>=B4+C4+D4</code>? Press the button and find out.</p>
+          <div id="xm-refs"></div>
+          <div class="bx-task-actions">
+            <button type="button" class="btn btn-primary" id="xm-refs-btn">Round 2 was marked wrong: change C4 to 480</button>
+          </div>
+          <p class="bx-fb" id="xm-refs-fb" aria-live="polite" hidden></p>
+          <div class="callout">
+            <strong>Key idea:</strong> a formula with cell references uses whatever is in those cells <em>right now</em>. Change a score and every formula that uses it updates by itself.
+          </div>
+          <div class="brainbox" data-module="excel-formulas" data-q="why-refs"
+               data-prompt="Why is =B4+C4+D4 better than =420+380+510?"
+               data-placeholder="It's better because if a score changes...">
+          </div>
+        </section>
+
+        <section id="functions">
+          <h2>3. SUM, MAX, MIN and AVERAGE</h2>
+          <p>A <strong>function</strong> is a ready-made formula with a name. You give it a <strong>range</strong>: a block of cells written <em>first:last</em>, so <code>B4:B11</code> means every cell from B4 down to B11.</p>
+          <table class="data-table">
+            <thead><tr><th>Type this</th><th>It works out</th></tr></thead>
+            <tbody>
+              <tr><td><code>=SUM(B4:D4)</code></td><td>Adds up every cell from B4 to D4</td></tr>
+              <tr><td><code>=MAX(B4:B11)</code></td><td>The largest number from B4 to B11</td></tr>
+              <tr><td><code>=MIN(B4:B11)</code></td><td>The smallest number</td></tr>
+              <tr><td><code>=AVERAGE(B4:B11)</code></td><td>The average (mean). It's AVERAGE, <strong>not</strong> AVG.</td></tr>
+            </tbody>
+          </table>
+          <p>Fill in <strong>B13</strong>, <strong>B14</strong> and <strong>B15</strong> (the outlined cells) for the <strong>Round 1</strong> column.</p>
+          <div id="xm-func"></div>
+          <ul class="xl-checklist" id="xm-func-checks"></ul>
+          <p class="bx-fb" id="xm-func-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="fill">
+          <h2>4. The fill handle</h2>
+          <p>Typing the same kind of formula eight times is slow. Click a formula cell and you'll see a <strong>little square in its bottom-right corner</strong>: the <strong>fill handle</strong>. Drag it down and Excel copies the formula, <strong>changing the cell references for each row</strong>: E5 gets <code>=SUM(B5:D5)</code>, E6 gets <code>=SUM(B6:D6)</code>, and so on.</p>
+          <p>E4 already has <code>=SUM(B4:D4)</code>. Click E4, then drag its fill handle down to <strong>E11</strong>. (Keyboard way: select E4 to E11, then press <strong>Ctrl + D</strong>.)</p>
+          <div id="xm-fill"></div>
+          <p class="bx-fb" id="xm-fill-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="errors">
+          <h2>5. When it goes wrong</h2>
+          <table class="data-table">
+            <thead><tr><th>You see</th><th>It means</th><th>The fix</th></tr></thead>
+            <tbody>
+              <tr><td>Your formula as words</td><td>You forgot the <code>=</code></td><td>Start it with =</td></tr>
+              <tr><td><code>#NAME?</code></td><td>Excel doesn't know a word (AVG, SUMM)</td><td>Check the spelling</td></tr>
+              <tr><td><code>#####</code></td><td>The column is too narrow</td><td>Make the column wider</td></tr>
+              <tr><td>A number on the LEFT</td><td>Excel thinks it's text (a letter O, a stray symbol)</td><td>Retype the number</td></tr>
+            </tbody>
+          </table>
+          <p>This leaderboard has <strong>all four</strong> problems. Find and fix them. Start with the <code>#####</code> so you can see column E properly.</p>
+          <div id="xm-errors"></div>
+          <ul class="xl-checklist" id="xm-errors-checks"></ul>
+          <p class="bx-fb" id="xm-errors-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="task">
+          <h2>6. Finish your leaderboard (v3)</h2>
+          <p>Here's your formatted leaderboard. Finish it, exactly like in class. <strong>Every answer has to come from a formula.</strong></p>
+          <ol class="bx-steps">
+            <li>Use <strong>SUM</strong> in <strong>E4</strong> to add up PixelPanda's three rounds, then fill it down to <strong>E11</strong>.</li>
+            <li>Type <strong>Highest</strong>, <strong>Lowest</strong> and <strong>Average</strong> in A13, A14 and A15.</li>
+            <li>Use <strong>MAX</strong>, <strong>MIN</strong> and <strong>AVERAGE</strong> in column B, then fill each one across to column E.</li>
+          </ol>
+          <div id="xm-task-sheet"></div>
+          <ul class="xl-checklist" id="xm-task-checks"></ul>
+          <p class="bx-fb" id="xm-task-fb" aria-live="polite" hidden></p>
+          <p class="muted-note">Your work saves on this computer as you go. <button type="button" class="linklike" id="xm-task-reset">Start again</button></p>
+
+          <h3>Use your spreadsheet</h3>
+          <div class="bx-num" data-answer="GGGrandma" data-hints='{"turbotoast":"Not yet: that is after the fix. Right now, look for the biggest number in column E."}'>
+            <label>Who won the tournament (the highest total)? <input type="text" autocomplete="off" spellcheck="false" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+            <p class="bx-num-explain" hidden>GGGrandma, with 1930. MAX in E13 shows the winning total without you scanning the column.</p>
+          </div>
+          <p><strong>Plot twist:</strong> TurboToast's Round 2 score was typed wrong. It should be <strong>850</strong>, not 450. Click <strong>C6</strong>, type 850 and press Enter. Watch what changes.</p>
+          <div class="bx-num" data-answer="1990" data-hints='{"1590":"That is the old total. Change C6 to 850 first, then read E6."}'>
+            <label>What is TurboToast's new total? <input type="text" inputmode="numeric" autocomplete="off" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+            <p class="bx-num-explain" hidden>610 + 850 + 530 = 1990. You didn't retype E6: its SUM updated by itself.</p>
+          </div>
+          <div class="bx-num" data-answer="TurboToast" data-hints='{"gggrandma":"GGGrandma has 1930. Has anyone passed that since the fix?"}'>
+            <label>Who's in first place now? <input type="text" autocomplete="off" spellcheck="false" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+            <p class="bx-num-explain" hidden>TurboToast, 1990 to GGGrandma's 1930. One corrected score changed the winner, and the Highest, Average and every total moved with it. You retyped one cell.</p>
+          </div>
+        </section>
+
+        <section id="explain">
+          <h2>7. Explain it</h2>
+          <p>In your own words, a sentence or two each.</p>
+          <div class="brainbox" data-module="excel-formulas" data-q="fill-handle"
+               data-prompt="What does Excel change when you drag the fill handle down, and why is that useful?"
+               data-placeholder="When I drag the fill handle, Excel changes...">
+          </div>
+          <div class="brainbox" data-module="excel-formulas" data-q="fix-score"
+               data-prompt="When you corrected TurboToast's score, what changed in your spreadsheet, and what did you have to retype?"
+               data-placeholder="When I changed C6 to 850, ... changed, and I only had to retype...">
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Six quick questions. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="excel-formulas">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">1. What must every formula start with?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A cell reference</button>
+                <button type="button" class="mtest-opt" data-key="b">=</button>
+                <button type="button" class="mtest-opt" data-key="c">SUM</button>
+                <button type="button" class="mtest-opt" data-key="d">A bracket</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">2. Which formula adds up every cell from C4 to C11?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>=C4+C11</code></button>
+                <button type="button" class="mtest-opt" data-key="b"><code>SUM(C4:C11)</code></button>
+                <button type="button" class="mtest-opt" data-key="c"><code>=ADD(C4-C11)</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>=SUM(C4:C11)</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">3. A cell shows <code>#NAME?</code>. What's the most likely cause?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">A function is spelt wrong, like AVG</button>
+                <button type="button" class="mtest-opt" data-key="b">The column is too narrow</button>
+                <button type="button" class="mtest-opt" data-key="c">The number is too big</button>
+                <button type="button" class="mtest-opt" data-key="d">You forgot to save</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">4. E4 has <code>=SUM(B4:D4)</code>. You drag the fill handle down to E5. What's in E5?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a"><code>=SUM(B4:D4)</code></button>
+                <button type="button" class="mtest-opt" data-key="b">The same number as E4</button>
+                <button type="button" class="mtest-opt" data-key="c"><code>=SUM(B5:D5)</code></button>
+                <button type="button" class="mtest-opt" data-key="d"><code>=SUM(C4:E4)</code></button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. Which function finds the <strong>smallest</strong> number in a range?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">LOW</button>
+                <button type="button" class="mtest-opt" data-key="b">MIN</button>
+                <button type="button" class="mtest-opt" data-key="c">SMALL</button>
+                <button type="button" class="mtest-opt" data-key="d">AVERAGE</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">6. Why is <code>=B4+C4+D4</code> better than <code>=420+380+510</code>?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It's shorter to type</button>
+                <button type="button" class="mtest-opt" data-key="b">It gives a different answer</button>
+                <button type="button" class="mtest-opt" data-key="c">Excel can't add typed numbers</button>
+                <button type="button" class="mtest-opt" data-key="d">It updates by itself when a score changes</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Formula</dt><dd>An instruction that makes Excel calculate. Always starts with =.</dd>
+            <dt>Function</dt><dd>A ready-made formula with a name, like SUM or MAX.</dd>
+            <dt>Range</dt><dd>A block of cells written first:last. B4:D4 is B4, C4 and D4.</dd>
+            <dt>SUM</dt><dd>Adds up a range.</dd>
+            <dt>MAX / MIN</dt><dd>The largest / smallest number in a range.</dd>
+            <dt>AVERAGE</dt><dd>The mean of a range. Not AVG.</dd>
+            <dt>Fill handle</dt><dd>The little square at a cell's bottom-right corner. Drag it to copy a formula; the references change for each row or column.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/excel-format/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>Excel 2</a>
+          <a href="/modules/#prevet" class="btn btn-primary">Back to Pre-VET <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/lesson-steps.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/xlsheet.js"></script>
+  <script src="/excel-lessons.js"></script>
+  <script src="/shortanswer.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>

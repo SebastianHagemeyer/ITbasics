@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- include: head-top -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- We do our own light/dark, driven by data-theme (see the script below).
+       This tells the browser so, so it does not run its own "force dark" over
+       the top: without it some mobile browsers auto-darken the light theme's
+       backgrounds while leaving our dark text dark, which is dark-on-dark. The
+       CSS color-scheme property says the same thing, but a few browsers only
+       act on the meta tag. -->
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    // Decide the theme before the page paints, or a dark-mode student gets a
+    // white flash on every single navigation. This has to be inline and it has
+    // to be here: app.js loads at the end of <body>, which is far too late.
+    // It is also the only place prefers-color-scheme is read, so the stylesheet
+    // needs just one dark block instead of two that can drift apart.
+    (function () {
+      try {
+        var saved = localStorage.getItem("itbasics-theme");
+        var dark = saved
+          ? saved === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.dataset.theme = "dark";
+      } catch (e) {
+        /* Private browsing can throw on localStorage. Light is a fine default. */
+      }
+    })();
+  </script>
+  <!-- Only drives the header button. Deferred, because the theme itself is
+       already settled by the script above. -->
+  <script src="/theme.js" defer></script>
+  <!-- /include -->
+  <title>Excel 1: What is a spreadsheet? | Hallam IT Basics</title>
+  <!-- include: head-assets -->
+  <link rel="icon" type="image/svg+xml" href="/logo-binary.svg" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- /include -->
+  <!-- include: head-gate -->
+  <script>
+    (function () {
+      try {
+        if (!JSON.parse(localStorage.getItem("itbasics-session"))) {
+          location.replace("/");
+        }
+      } catch (e) { location.replace("/"); }
+    })();
+  </script>
+  <!-- /include -->
+</head>
+<body>
+  <!-- include: nav active="learn" -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img class="logo-mark" src="/logo-binary.svg" alt="" width="32" height="32" />
+        <span>Hallam IT Basics</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">Home</a>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle active" aria-haspopup="true" aria-expanded="false">
+            Learn
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/modules/" role="menuitem">All modules</a>
+            <a href="/docs/" role="menuitem">Documentation</a>
+            <a href="/assignments/" role="menuitem">Assignments</a>
+          </div>
+        </div>
+        <div class="nav-dropdown" data-open="false">
+          <button type="button" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Play
+            <svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="nav-dropdown-menu" role="menu">
+            <a href="/sandbox/" role="menuitem">Sandbox</a>
+            <a href="/challenges/" role="menuitem">Live Coding</a>
+            <a href="/freeplay/" role="menuitem">Freeplay</a>
+            <a href="/leaderboard/" role="menuitem">Leaderboard</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- /include -->
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Pre-VET IT &middot; Excel 1 of 3</p>
+        <h1>What is a spreadsheet?</h1>
+        <p class="lead">Excel is one of the four skills a VET or VCE IT course expects you to walk in with. Today you learn the basics: cells, rows, columns and cell references, then you build the first version of the <strong>Hallam Game Night Tournament</strong> leaderboard.</p>
+        <div class="hero-ctas hero-ctas-quick">
+          <a href="#task" class="btn btn-primary">Jump to the build task <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container lesson-layout">
+      <aside class="lesson-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#what">What is a spreadsheet?</a></li>
+          <li><a href="#grid">Rows, columns and cells</a></li>
+          <li><a href="#typing">Getting data in</a></li>
+          <li><a href="#narrow">When a column is too narrow</a></li>
+          <li><a href="#task">Build your leaderboard</a></li>
+          <li><a href="#save">Save it properly</a></li>
+          <li><a href="#explain">Explain it</a></li>
+          <li><a href="#test">Module test</a></li>
+          <li><a href="#glossary">Glossary</a></li>
+        </ol>
+      </aside>
+
+      <article class="lesson">
+        <section id="what">
+          <h2>1. What is a spreadsheet?</h2>
+          <p>A <strong>spreadsheet</strong> is a file that stores data in a grid and can do calculations with it. Excel is the spreadsheet program most workplaces use; Google Sheets does the same job in a browser.</p>
+          <p>You've seen spreadsheets everywhere, even if nobody called them that: a sports ladder, a class roll, a shop's stock list, a game's leaderboard, a budget. Each <strong>row</strong> is usually one thing (one team, one student, one item) and each <strong>column</strong> is one fact about it (points, attendance, price).</p>
+          <div class="brainbox" data-module="excel-basics" data-q="where-seen"
+               data-prompt="Where have you seen information set out in rows and columns? What did each row and each column tell you?"
+               data-placeholder="On the AFL ladder, each row is a team and each column...">
+          </div>
+          <div class="kcheck" data-answer="c">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which job is a spreadsheet <strong>not</strong> the right tool for?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">Tracking the scores in a tournament</button>
+              <button type="button" class="kcheck-opt" data-key="b">Working out the cost of a party</button>
+              <button type="button" class="kcheck-opt" data-key="c">Writing a letter to your principal</button>
+              <button type="button" class="kcheck-opt" data-key="d">Keeping a list of stock in a shop</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>A letter is mostly sentences and paragraphs, which is a job for a word processor like Word. Spreadsheets shine when data fits in rows and columns, especially numbers you want to calculate with.</p>
+          </div>
+        </section>
+
+        <section id="grid">
+          <h2>2. Rows, columns and cells</h2>
+          <p>A spreadsheet is a grid. <strong>Columns</strong> go down and have <strong>letters</strong>. <strong>Rows</strong> go across and have <strong>numbers</strong>. Where a column and a row cross is a <strong>cell</strong>, and each cell holds one piece of data.</p>
+          <p>Every cell has a name called its <strong>cell reference</strong>: its column letter, then its row number. So <code>C6</code> is column C, row 6. <strong>Always the letter first.</strong> Click any cell below and watch the <strong>Name Box</strong> at the top left.</p>
+          <div id="xb-anatomy"></div>
+
+          <div class="bx-hunt xl-game" id="xb-name">
+            <h4>Name that cell</h4>
+            <p class="xl-game-ask">Five rounds: a cell lights up yellow, you type its cell reference.</p>
+            <div class="xl-game-row">
+              <input type="text" autocomplete="off" spellcheck="false" aria-label="Cell reference" placeholder="e.g. B4" />
+              <button type="button" class="btn btn-primary">Start</button>
+            </div>
+            <p class="bx-num-fb" aria-live="polite"></p>
+          </div>
+
+          <div class="bx-hunt" id="xb-hunt">
+            <h4>Cell hunt</h4>
+            <p class="bx-hunt-ask">Now the other way round: you get a clue, you click the cell.</p>
+            <p class="bx-hunt-fb" aria-live="polite"></p>
+            <button type="button" class="btn btn-primary bx-hunt-start">Start the hunt</button>
+          </div>
+
+          <div class="bx-num" data-answer="B5" data-hints='{"c4":"That is next to B4, to the right. Directly under means the same column, one row down.","b3":"That is above B4. Under means one row further down.","5b":"Letter first, then number."}'>
+            <label>What is the cell reference of the cell <strong>directly under</strong> B4? <input type="text" autocomplete="off" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+            <p class="bx-num-explain" hidden>Same column (B), one row down (5): B5.</p>
+          </div>
+        </section>
+
+        <section id="typing">
+          <h2>3. Getting data in</h2>
+          <p>Click a cell and type. Then:</p>
+          <ul>
+            <li><strong>Enter</strong> saves it and moves <strong>down</strong> one cell.</li>
+            <li><strong>Tab</strong> saves it and moves <strong>across</strong> one cell.</li>
+            <li><strong>Ctrl + Z</strong> undoes a mistake.</li>
+          </ul>
+          <p>Watch where things land in the cell. <strong>Text sits on the left. Numbers sit on the right.</strong> If a number is sitting on the left, Excel thinks it's text, and it can't do maths with it. The usual causes are a letter <strong>O</strong> typed instead of a zero, or a stray symbol in front of it.</p>
+          <h3>Spot the fakes</h3>
+          <p>Three of these scores look like numbers but Excel has read them as text. Click each one to find it, then <strong>retype it</strong> as a proper number (just click the cell and type; Enter saves).</p>
+          <div id="xb-fakes"></div>
+          <p class="bx-fb" id="xb-fakes-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="narrow">
+          <h2>4. When a column is too narrow</h2>
+          <p>Two things go wrong when a column is too narrow for what's in it:</p>
+          <ul>
+            <li><strong>Text gets cut off</strong>, so you can't read the whole name.</li>
+            <li><strong>Numbers turn into <code>#####</code>.</strong> Excel won't show half a number (that could trick you), so it shows hashes instead. The number is still there.</li>
+          </ul>
+          <p>The fix: <strong>double-click the line between the column letters</strong> at the top, on the right edge of the column. Excel fits the column to its contents. Fix both columns below.</p>
+          <div id="xb-narrow"></div>
+          <p class="bx-fb" id="xb-narrow-fb" aria-live="polite" hidden></p>
+        </section>
+
+        <section id="task">
+          <h2>5. Build your leaderboard (v1)</h2>
+          <p>Time to build the real thing, exactly like in class. Type it into the empty spreadsheet:</p>
+          <ol class="bx-steps">
+            <li>Put the title <strong>Hallam Game Night Tournament</strong> in <strong>A1</strong>.</li>
+            <li>Leave <strong>row 2</strong> empty.</li>
+            <li>Type the four headings in <strong>row 3</strong>: Player, Round 1, Round 2, Round 3. (Tab moves across.)</li>
+            <li>Type the first four players and their scores in rows 4 to 7, from the table below.</li>
+            <li>Make column A wide enough to read every name.</li>
+          </ol>
+          <table class="data-table xl-copy">
+            <thead><tr><th>Player</th><th>Round 1</th><th>Round 2</th><th>Round 3</th></tr></thead>
+            <tbody>
+              <tr><td>PixelPanda</td><td>420</td><td>380</td><td>510</td></tr>
+              <tr><td>LagWizard</td><td>150</td><td>290</td><td>240</td></tr>
+              <tr><td>TurboToast</td><td>610</td><td>450</td><td>530</td></tr>
+              <tr><td>CtrlAltDefeat</td><td>330</td><td>330</td><td>470</td></tr>
+            </tbody>
+          </table>
+          <div id="xb-task-sheet"></div>
+          <ul class="xl-checklist" id="xb-task-checks"></ul>
+          <p class="bx-fb" id="xb-task-fb" aria-live="polite" hidden></p>
+          <p class="muted-note">Your work saves on this computer as you go. <button type="button" class="linklike" id="xb-task-reset">Start again</button></p>
+        </section>
+
+        <section id="save">
+          <h2>6. Save it properly</h2>
+          <p>A file is no use if you can't find it next lesson. Save your work in a folder called <strong>Excel</strong>, inside a folder called <strong>Year 10 IT</strong>. Then give it a name that says three things:</p>
+          <ul>
+            <li><strong>Whose</strong> it is: your surname and first name.</li>
+            <li><strong>What</strong> it is: Tournament.</li>
+            <li><strong>Which version</strong> it is: v1 (next lesson, v2).</li>
+          </ul>
+          <p>Use underscores, not spaces: <code>Surname_Firstname_Tournament_v1</code>.</p>
+          <div class="bx-num xl-fname" data-version="1">
+            <label>Type the file name <strong>you</strong> would use for your v1 leaderboard: <input type="text" autocomplete="off" spellcheck="false" class="xl-fname-input" /></label>
+            <button type="button" class="btn btn-ghost">Check</button>
+            <p class="bx-num-fb" aria-live="polite"></p>
+          </div>
+          <div class="kcheck" data-answer="d">
+            <p class="kcheck-q"><strong>Check your understanding:</strong> Which is the best file name?</p>
+            <div class="kcheck-options">
+              <button type="button" class="kcheck-opt" data-key="a">excel stuff final FINAL</button>
+              <button type="button" class="kcheck-opt" data-key="b">Book1</button>
+              <button type="button" class="kcheck-opt" data-key="c">my tournament</button>
+              <button type="button" class="kcheck-opt" data-key="d">Nguyen_Ann_Tournament_v1</button>
+            </div>
+            <p class="kcheck-feedback" hidden></p>
+            <p class="kcheck-explain" hidden>It's the only one that says whose it is, what it is and which version. "Book1" is what Excel calls every new file, so you'd never find it again.</p>
+          </div>
+        </section>
+
+        <section id="explain">
+          <h2>7. Explain it</h2>
+          <p>In your own words, a sentence or two each. These save as you type and your teacher reads them.</p>
+          <div class="brainbox" data-module="excel-basics" data-q="text-vs-number"
+               data-prompt="How can you tell whether Excel has read something as a number or as text? Why does it matter?"
+               data-placeholder="You can tell because numbers sit on the... It matters because...">
+          </div>
+          <div class="brainbox" data-module="excel-basics" data-q="good-filename"
+               data-prompt="Why is Surname_Firstname_Tournament_v1 a better file name than 'excel stuff final'?"
+               data-placeholder="It's better because it tells you...">
+          </div>
+        </section>
+
+        <section id="test">
+          <h2>Module test</h2>
+          <p>Six quick questions. Your best score shows on your <a href="/progress/">My Progress</a> page.</p>
+          <div class="module-test" data-test="excel-basics">
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">1. In a spreadsheet, columns are labelled with...</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Numbers</button>
+                <button type="button" class="mtest-opt" data-key="b">Letters</button>
+                <button type="button" class="mtest-opt" data-key="c">Colours</button>
+                <button type="button" class="mtest-opt" data-key="d">Nothing at all</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">2. Which is the correct way to write the cell in column D, row 7?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">7D</button>
+                <button type="button" class="mtest-opt" data-key="b">D-7</button>
+                <button type="button" class="mtest-opt" data-key="c">D7</button>
+                <button type="button" class="mtest-opt" data-key="d">Row 7 D</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="a">
+              <p class="mtest-prompt">3. You type a score and press <strong>Enter</strong>. Where does Excel go next?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Down one cell</button>
+                <button type="button" class="mtest-opt" data-key="b">Across one cell</button>
+                <button type="button" class="mtest-opt" data-key="c">Back to A1</button>
+                <button type="button" class="mtest-opt" data-key="d">It stays where it is</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="d">
+              <p class="mtest-prompt">4. A score is sitting on the <strong>left</strong> of its cell. What does that tell you?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">It's the highest score</button>
+                <button type="button" class="mtest-opt" data-key="b">The column is too narrow</button>
+                <button type="button" class="mtest-opt" data-key="c">It's been formatted bold</button>
+                <button type="button" class="mtest-opt" data-key="d">Excel has read it as text, not a number</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="b">
+              <p class="mtest-prompt">5. A cell shows <code>#####</code>. What's the fix?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">Delete it and start again</button>
+                <button type="button" class="mtest-opt" data-key="b">Make the column wider</button>
+                <button type="button" class="mtest-opt" data-key="c">Type the number again with an O</button>
+                <button type="button" class="mtest-opt" data-key="d">Close Excel</button>
+              </div>
+            </div>
+            <div class="mtest-q" data-answer="c">
+              <p class="mtest-prompt">6. Which file name follows the class rule?</p>
+              <div class="mtest-opts">
+                <button type="button" class="mtest-opt" data-key="a">tournament.xlsx</button>
+                <button type="button" class="mtest-opt" data-key="b">Smith Jo Tournament v1</button>
+                <button type="button" class="mtest-opt" data-key="c">Smith_Jo_Tournament_v1</button>
+                <button type="button" class="mtest-opt" data-key="d">Book1</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary">
+          <h2>Glossary</h2>
+          <dl class="glossary">
+            <dt>Spreadsheet</dt><dd>A file that stores data in a grid and can do calculations with it.</dd>
+            <dt>Cell</dt><dd>One box in the grid. Each cell holds one piece of data.</dd>
+            <dt>Row</dt><dd>A line of cells going across. Rows have numbers.</dd>
+            <dt>Column</dt><dd>A line of cells going down. Columns have letters.</dd>
+            <dt>Cell reference</dt><dd>The name of a cell: column letter, then row number. B4 is column B, row 4.</dd>
+            <dt>Name Box</dt><dd>The box at the top left that shows the reference of the cell you've clicked.</dd>
+            <dt>#####</dt><dd>What Excel shows when a number doesn't fit. Widen the column.</dd>
+          </dl>
+        </section>
+
+        <div class="lesson-nav">
+          <a href="/topics/binary-excel/" class="btn btn-ghost"><span class="arrow back" aria-hidden="true"></span>Binary meets Excel</a>
+          <a href="/topics/excel-format/" class="btn btn-primary">Next: Make it readable <span class="arrow" aria-hidden="true"></span></a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- include: footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Hallam IT Basics &middot; For Years 7-10 computing classes. &middot; <a class="footer-link" href="https://pyweb.qmarkapp.com/" target="_blank" rel="noopener">PyWebLib</a></p>
+    </div>
+  </footer>
+  <!-- /include -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="/supabase-config.js"></script>
+  <script src="/app.js"></script>
+  <script src="/avatars.js"></script>
+  <script src="/lesson-steps.js"></script>
+  <script src="/hw-status.js"></script>
+  <script src="/xp.js"></script>
+  <script src="/xp-fx.js"></script>
+  <script src="/module-badges.js"></script>
+  <script src="/xlsheet.js"></script>
+  <script src="/excel-lessons.js"></script>
+  <script src="/shortanswer.js"></script>
+  <script src="/moduletest.js"></script>
+</body>
+</html>
